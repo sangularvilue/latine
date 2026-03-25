@@ -1,0 +1,81 @@
+{
+  "id": "vulgate-gn-1-1",
+  "source": "Vulgate",
+  "reference": "Genesis 1:1",
+  "latin": ["In", "principio", "creavit", "Deus", "caelum", "et", "terram"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "creavit",
+      "choices": ["principio", "creavit", "Deus", "caelum"],
+      "reveal": { "word": "creavit", "gloss": "created" }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "Deus",
+      "choices": ["In", "Deus", "caelum", "terram"],
+      "reveal": { "word": "Deus", "gloss": "God" }
+    },
+    {
+      "prompt": "What tense is 'creavit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": null
+    },
+    {
+      "prompt": "Principal parts of 'creare'?",
+      "target": "creo, creare, creavi",
+      "choices": ["creo, creare, creavi", "capio, capere, cepi", "do, dare, dedi", "facio, facere, feci"],
+      "reveal": null
+    },
+    {
+      "prompt": "Conjugation of 'creare'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null
+    },
+    {
+      "prompt": "What part of speech is 'et'?",
+      "target": "Conjunction",
+      "choices": ["Preposition", "Conjunction", "Adverb", "Pronoun"],
+      "reveal": { "word": "et", "gloss": "and" }
+    },
+    {
+      "prompt": "Case of 'caelum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "caelum", "gloss": "heaven" }
+    },
+    {
+      "prompt": "Why accusative?",
+      "target": "Direct object",
+      "choices": ["Subject", "Direct object", "Object of prep.", "Apposition"],
+      "reveal": null
+    },
+    {
+      "prompt": "Case of 'terram'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "terram", "gloss": "earth" }
+    },
+    {
+      "prompt": "Declension of 'terra'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null
+    },
+    {
+      "prompt": "Case of 'principio'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "principio", "gloss": "the beginning" }
+    },
+    {
+      "prompt": "What does 'In' + abl. mean?",
+      "target": "In / at (location)",
+      "choices": ["In / at (location)", "Into (motion)", "On top of", "Through"],
+      "reveal": { "word": "In", "gloss": "In" }
+    }
+  ],
+  "translation": "In the beginning God created heaven and earth"
+}

@@ -1,0 +1,14 @@
+{
+  "package_id": "com.bnm.evendev.latine",
+  "edition": "202603",
+  "name": "Latine",
+  "version": "0.1.0",
+  "min_app_version": "0.1.0",
+  "tagline": "Latin sentence-of-the-day drill for Even G2.",
+  "description": "Daily Latin parsing drill for Even G2 glasses. Identify parts of speech, declensions, conjugations, and build translations word by word.",
+  "author": "even-dev",
+  "entrypoint": "index.html",
+  "permissions": {
+    "network": ["evenhub.evenrealities.com"]
+  }
+}

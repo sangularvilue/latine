@@ -1,0 +1,57 @@
+{
+  "id": "vulgate-jn-1-1",
+  "source": "Vulgate",
+  "reference": "Ioannes 1:1",
+  "latin": ["In", "principio", "erat", "Verbum"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "erat",
+      "choices": ["In", "principio", "erat", "Verbum"],
+      "reveal": { "word": "erat", "gloss": "was" }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "Verbum",
+      "choices": ["In", "principio", "erat", "Verbum"],
+      "reveal": { "word": "Verbum", "gloss": "the Word" }
+    },
+    {
+      "prompt": "What tense is 'erat'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": null
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui",
+      "choices": ["amo, amare, amavi", "sum, esse, fui", "fero, ferre, tuli", "eo, ire, ii"],
+      "reveal": null
+    },
+    {
+      "prompt": "What part of speech is 'In'?",
+      "target": "Preposition",
+      "choices": ["Conjunction", "Preposition", "Adverb", "Interjection"],
+      "reveal": { "word": "In", "gloss": "In" }
+    },
+    {
+      "prompt": "What case does 'in' govern here?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": null
+    },
+    {
+      "prompt": "Case of 'principio'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "principio", "gloss": "the beginning" }
+    },
+    {
+      "prompt": "Declension of 'principium'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null
+    }
+  ],
+  "translation": "In the beginning was the Word"
+}

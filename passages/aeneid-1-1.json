@@ -1,0 +1,75 @@
+{
+  "id": "aeneid-1-1",
+  "source": "Aeneid",
+  "reference": "I.1",
+  "latin": ["Arma", "virumque", "cano", "Troiae", "qui", "primus", "ab", "oris"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "cano",
+      "choices": ["Arma", "virumque", "cano", "primus"],
+      "reveal": { "word": "cano", "gloss": "I sing" }
+    },
+    {
+      "prompt": "What person is 'cano'?",
+      "target": "1st singular",
+      "choices": ["1st singular", "2nd singular", "3rd singular", "1st plural"],
+      "reveal": null
+    },
+    {
+      "prompt": "Principal parts of 'canere'?",
+      "target": "cano, canere, cecini",
+      "choices": ["cano, canere, cecini", "capio, capere, cepi", "curro, currere, cucurri", "cado, cadere, cecidi"],
+      "reveal": null
+    },
+    {
+      "prompt": "What does '-que' mean?",
+      "target": "and (enclitic)",
+      "choices": ["but", "or", "and (enclitic)", "also"],
+      "reveal": null
+    },
+    {
+      "prompt": "Case of 'Arma'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "Arma", "gloss": "Arms" }
+    },
+    {
+      "prompt": "Case of 'virum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "virumque", "gloss": "and the man" }
+    },
+    {
+      "prompt": "Case of 'Troiae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Troiae", "gloss": "of Troy" }
+    },
+    {
+      "prompt": "What part of speech is 'qui'?",
+      "target": "Relative pronoun",
+      "choices": ["Interrogative", "Relative pronoun", "Demonstrative", "Conjunction"],
+      "reveal": { "word": "qui", "gloss": "who" }
+    },
+    {
+      "prompt": "What does 'primus' modify?",
+      "target": "qui (the man)",
+      "choices": ["Arma", "qui (the man)", "Troiae", "oris"],
+      "reveal": { "word": "primus", "gloss": "first" }
+    },
+    {
+      "prompt": "Case of 'oris'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "oris", "gloss": "shores" }
+    },
+    {
+      "prompt": "What does 'ab' govern?",
+      "target": "Ablative",
+      "choices": ["Accusative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "ab", "gloss": "from" }
+    }
+  ],
+  "translation": "Arms and the man I sing, of Troy, who first from the shores"
+}
