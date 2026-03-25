@@ -398,7 +398,7 @@ async function rebuildPage(config: any): Promise<void> {
 
 // ── Input handling ──
 
-function handleAction(type: string, selectedIndex: number): void {
+function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'down'): void {
   const prevPhase = state.phase;
 
   switch (state.phase) {
@@ -406,16 +406,25 @@ function handleAction(type: string, selectedIndex: number): void {
       const pageStart = Math.floor(state.cursor / SELECTOR_PAGE_SIZE) * SELECTOR_PAGE_SIZE;
       const pageEnd = Math.min(pageStart + SELECTOR_PAGE_SIZE, ALL_PASSAGES.length);
       const pageLen = pageEnd - pageStart;
+      const localIdx = state.cursor - pageStart;
 
       if (type === 'scroll') {
+        // Detect edge-of-page: if at last item and scrolling down, or first item and scrolling up
+        if (scrollDir === 'down' && localIdx === pageLen - 1 && pageEnd < ALL_PASSAGES.length) {
+          // Advance to next page
+          state.cursor = pageEnd;
+          void renderToGlasses();
+          return;
+        }
+        if (scrollDir === 'up' && localIdx === 0 && pageStart > 0) {
+          // Go to previous page, select last item
+          state.cursor = pageStart - 1;
+          void renderToGlasses();
+          return;
+        }
+
         if (selectedIndex >= 0 && selectedIndex < pageLen) {
-          const prevPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
           state.cursor = pageStart + selectedIndex;
-          const newPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
-          // If page changed due to wrapping, re-render
-          if (newPage !== prevPage) {
-            void renderToGlasses();
-          }
         }
         return;
       }
@@ -572,8 +581,9 @@ async function connectBridge(): Promise<void> {
         log(`Tap (index=${incomingIndex})`);
         handleAction('click', incomingIndex);
       } else if (eventType === OsEventTypeList.SCROLL_TOP_EVENT || eventType === OsEventTypeList.SCROLL_BOTTOM_EVENT) {
-        log(`Scroll (index=${incomingIndex})`);
-        handleAction('scroll', incomingIndex);
+        const dir = eventType === OsEventTypeList.SCROLL_TOP_EVENT ? 'up' : 'down';
+        log(`Scroll ${dir} (index=${incomingIndex})`);
+        handleAction('scroll', incomingIndex, dir);
       } else if (eventType === OsEventTypeList.DOUBLE_CLICK_EVENT) {
         log('Double tap');
         handleAction('click', incomingIndex);
