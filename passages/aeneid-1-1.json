@@ -8,18 +8,24 @@
       "prompt": "Which is the verb?",
       "target": "cano",
       "choices": ["Arma", "virumque", "cano", "primus"],
-      "reveal": { "word": "cano", "gloss": "I sing" }
-    },
-    {
-      "prompt": "What person is 'cano'?",
-      "target": "1st singular",
-      "choices": ["1st singular", "2nd singular", "3rd singular", "1st plural"],
       "reveal": null
     },
     {
+      "prompt": "The infinitive of 'cano' translates to?",
+      "target": "to sing",
+      "choices": ["to run", "to sing", "to fall", "to seize"],
+      "reveal": null
+    },
+    {
+      "prompt": "What person/number is 'cano'?",
+      "target": "1st singular",
+      "choices": ["1st singular", "2nd singular", "3rd singular", "1st plural"],
+      "reveal": { "word": "cano", "gloss": "I sing" }
+    },
+    {
       "prompt": "Principal parts of 'canere'?",
-      "target": "cano, canere, cecini",
-      "choices": ["cano, canere, cecini", "capio, capere, cepi", "curro, currere, cucurri", "cado, cadere, cecidi"],
+      "target": "cano, canere, cecini, cantum",
+      "choices": ["cano, canere, cecini, cantum", "capio, capere, cepi, captum", "curro, currere, cucurri, cursum", "cado, cadere, cecidi, casum"],
       "reveal": null
     },
     {

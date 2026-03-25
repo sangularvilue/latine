@@ -8,25 +8,31 @@
       "prompt": "Which is the verb?",
       "target": "erat",
       "choices": ["In", "principio", "erat", "Verbum"],
+      "reveal": null
+    },
+    {
+      "prompt": "The infinitive of 'erat' translates to?",
+      "target": "to be",
+      "choices": ["to carry", "to be", "to go", "to make"],
+      "reveal": null
+    },
+    {
+      "prompt": "What tense is 'erat'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
       "reveal": { "word": "erat", "gloss": "was" }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["amo, amare, amavi, amatum", "sum, esse, fui, futurum", "fero, ferre, tuli, latum", "eo, ire, ii, itum"],
+      "reveal": null
     },
     {
       "prompt": "Which is the subject?",
       "target": "Verbum",
       "choices": ["In", "principio", "erat", "Verbum"],
       "reveal": { "word": "Verbum", "gloss": "the Word" }
-    },
-    {
-      "prompt": "What tense is 'erat'?",
-      "target": "Imperfect",
-      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
-      "reveal": null
-    },
-    {
-      "prompt": "Principal parts of 'esse'?",
-      "target": "sum, esse, fui",
-      "choices": ["amo, amare, amavi", "sum, esse, fui", "fero, ferre, tuli", "eo, ire, ii"],
-      "reveal": null
     },
     {
       "prompt": "What part of speech is 'In'?",

@@ -8,24 +8,24 @@
       "prompt": "Which is the verb?",
       "target": "creavit",
       "choices": ["principio", "creavit", "Deus", "caelum"],
-      "reveal": { "word": "creavit", "gloss": "created" }
+      "reveal": null
     },
     {
-      "prompt": "Which is the subject?",
-      "target": "Deus",
-      "choices": ["In", "Deus", "caelum", "terram"],
-      "reveal": { "word": "Deus", "gloss": "God" }
+      "prompt": "The infinitive of 'creavit' translates to?",
+      "target": "to create",
+      "choices": ["to believe", "to create", "to grow", "to give"],
+      "reveal": null
     },
     {
       "prompt": "What tense is 'creavit'?",
       "target": "Perfect",
       "choices": ["Present", "Imperfect", "Perfect", "Future"],
-      "reveal": null
+      "reveal": { "word": "creavit", "gloss": "created" }
     },
     {
       "prompt": "Principal parts of 'creare'?",
-      "target": "creo, creare, creavi",
-      "choices": ["creo, creare, creavi", "capio, capere, cepi", "do, dare, dedi", "facio, facere, feci"],
+      "target": "creo, creare, creavi, creatum",
+      "choices": ["creo, creare, creavi, creatum", "capio, capere, cepi, captum", "do, dare, dedi, datum", "facio, facere, feci, factum"],
       "reveal": null
     },
     {
@@ -33,6 +33,12 @@
       "target": "1st",
       "choices": ["1st", "2nd", "3rd", "4th"],
       "reveal": null
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "Deus",
+      "choices": ["In", "Deus", "caelum", "terram"],
+      "reveal": { "word": "Deus", "gloss": "God" }
     },
     {
       "prompt": "What part of speech is 'et'?",
