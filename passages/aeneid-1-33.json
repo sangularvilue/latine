@@ -7,12 +7,12 @@
     {
       "prompt": "Which is the verb?",
       "target": "erat",
-      "choices": ["Tantae", "molis", "erat", "Romanam"],
+      "choices": ["Tantae", "molis", "erat", "condere"],
       "reveal": null,
       "hints": {
         "Tantae": "'Tantae' is an adjective meaning 'so great'",
         "molis": "'molis' is a noun in the genitive case",
-        "Romanam": "'Romanam' is an adjective — it doesn't appear in this phrase"
+        "condere": "'condere' means 'to found' — it's an infinitive from the full line but not the finite verb here"
       }
     },
     {

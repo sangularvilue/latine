@@ -7,12 +7,12 @@
     {
       "prompt": "Which is the verb?",
       "target": "Iudica",
-      "choices": ["Iudica", "me", "Deus", "meus"],
+      "choices": ["Iudica", "me", "Deus", "discerne"],
       "reveal": null,
       "hints": {
         "me": "'me' is a pronoun — the direct object",
         "Deus": "'Deus' is a noun meaning 'God' — it's a vocative here",
-        "meus": "'meus' is a possessive adjective — it doesn't appear in this sentence"
+        "discerne": "'discerne' means 'distinguish' — it's a verb but from the next clause, not this one"
       }
     },
     {

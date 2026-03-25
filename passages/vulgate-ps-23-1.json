@@ -7,12 +7,12 @@
     {
       "prompt": "Which is the verb?",
       "target": "regit",
-      "choices": ["Dominus", "regit", "me", "et"],
+      "choices": ["Dominus", "regit", "me", "nihil"],
       "reveal": null,
       "hints": {
         "Dominus": "'Dominus' is a noun — it's the subject of the sentence",
         "me": "'me' is a pronoun in the accusative case",
-        "et": "'et' is a conjunction meaning 'and' — it doesn't appear here"
+        "nihil": "'nihil' means 'nothing' — it's a pronoun/noun, not a verb"
       }
     },
     {

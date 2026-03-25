@@ -132,30 +132,21 @@ function buildDisplayLines(): string[] {
   }
 }
 
-const SELECTOR_PAGE_SIZE = 8;
-
-function selectorPage(): { items: string[]; pageStart: number } {
-  const page = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
-  const pageStart = page * SELECTOR_PAGE_SIZE;
-  const pageEnd = Math.min(pageStart + SELECTOR_PAGE_SIZE, ALL_PASSAGES.length);
-  const items: string[] = [];
-  for (let i = pageStart; i < pageEnd; i++) {
-    const p = ALL_PASSAGES[i]!;
-    const check = isCompleted(p.id) ? ' [done]' : '';
-    items.push(`${p.source} - ${p.reference}${check}`);
-  }
-  return { items, pageStart };
+function selectorItems(): string[] {
+  return ALL_PASSAGES.map((p, i) => {
+    const check = isCompleted(p.id) ? ' *' : '';
+    const num = String(i + 1).padStart(2, ' ');
+    return `${num}. ${p.reference}${check}`;
+  });
 }
 
 async function renderSelectorPage(): Promise<void> {
-  const { items, pageStart } = selectorPage();
-  const totalPages = Math.ceil(ALL_PASSAGES.length / SELECTOR_PAGE_SIZE);
-  const currentPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE) + 1;
+  const items = selectorItems();
 
   const titleText = new TextContainerProperty({
     containerID: 1,
     containerName: 'lat-title',
-    content: `LATINE (${currentPage}/${totalPages})`,
+    content: `LATINE - ${ALL_PASSAGES.length} passages`,
     xPosition: 8,
     yPosition: 0,
     width: 560,
@@ -409,34 +400,15 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
 
   switch (state.phase) {
     case 'selector': {
-      const pageStart = Math.floor(state.cursor / SELECTOR_PAGE_SIZE) * SELECTOR_PAGE_SIZE;
-      const pageEnd = Math.min(pageStart + SELECTOR_PAGE_SIZE, ALL_PASSAGES.length);
-      const pageLen = pageEnd - pageStart;
-      const localIdx = state.cursor - pageStart;
-
       if (type === 'scroll') {
-        // Detect edge-of-page: if at last item and scrolling down, or first item and scrolling up
-        if (scrollDir === 'down' && localIdx === pageLen - 1 && pageEnd < ALL_PASSAGES.length) {
-          // Advance to next page
-          state.cursor = pageEnd;
-          void renderToGlasses();
-          return;
-        }
-        if (scrollDir === 'up' && localIdx === 0 && pageStart > 0) {
-          // Go to previous page, select last item
-          state.cursor = pageStart - 1;
-          void renderToGlasses();
-          return;
-        }
-
-        if (selectedIndex >= 0 && selectedIndex < pageLen) {
-          state.cursor = pageStart + selectedIndex;
+        if (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length) {
+          state.cursor = selectedIndex;
         }
         return;
       }
       if (type === 'click') {
-        const idx = (selectedIndex >= 0 && selectedIndex < pageLen)
-          ? pageStart + selectedIndex : state.cursor;
+        const idx = (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length)
+          ? selectedIndex : state.cursor;
         const passage = ALL_PASSAGES[idx];
         if (passage) {
           state.passage = passage;
@@ -621,13 +593,7 @@ export function simulateAction(actionType: 'SCROLL_UP' | 'SCROLL_DOWN' | 'TAP' |
   if (actionType === 'SCROLL_UP' || actionType === 'SCROLL_DOWN') {
     const dir = actionType === 'SCROLL_UP' ? -1 : 1;
     if (state.phase === 'selector') {
-      const prevPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
       state.cursor = ((state.cursor + dir) % ALL_PASSAGES.length + ALL_PASSAGES.length) % ALL_PASSAGES.length;
-      const newPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
-      if (newPage !== prevPage) {
-        // Page changed — re-render glasses
-        void renderToGlasses();
-      }
     } else if (state.phase === 'question' && state.passage) {
       const step = state.passage.steps[state.stepIndex];
       if (step) {

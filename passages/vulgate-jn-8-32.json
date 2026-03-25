@@ -7,12 +7,12 @@
     {
       "prompt": "Which is the verb?",
       "target": "liberabit",
-      "choices": ["Veritas", "liberabit", "vos", "et"],
+      "choices": ["Veritas", "liberabit", "vos", "cognoscetis"],
       "reveal": null,
       "hints": {
         "Veritas": "'Veritas' is a noun — it's the subject of the sentence",
         "vos": "'vos' is a pronoun meaning 'you (plural)'",
-        "et": "'et' is a conjunction meaning 'and' — it doesn't appear here"
+        "cognoscetis": "'cognoscetis' means 'you will know' — it's a verb but from the preceding clause, not this one"
       }
     },
     {
