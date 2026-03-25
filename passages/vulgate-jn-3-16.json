@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-jn-3-16",
+  "source": "Vulgate",
+  "reference": "Ioannes 3:16",
+  "latin": ["Sic", "Deus", "dilexit", "mundum"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "dilexit",
+      "choices": ["Sic", "Deus", "dilexit", "mundum"],
+      "reveal": null,
+      "hints": {
+        "Sic": "'Sic' is an adverb meaning 'so/thus'",
+        "Deus": "'Deus' is a noun meaning 'God' — it is the subject",
+        "mundum": "'mundum' is a noun in the accusative meaning 'the world'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dilexit' translates to?",
+      "target": "to love",
+      "choices": ["to choose", "to love", "to destroy", "to send"],
+      "reveal": null,
+      "hints": {
+        "to choose": "'to choose' is 'eligere' — 'dilexit' comes from 'diligere' (to love/esteem)",
+        "to destroy": "'to destroy' is 'delere' — 'dilexit' comes from 'diligere'",
+        "to send": "'to send' is 'mittere' — 'dilexit' comes from 'diligere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'dilexit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "dilexit", "gloss": "loved" },
+      "hints": {
+        "Present": "Present of 'diligere' 3rd person would be 'diligit' — 'dilexit' has the perfect -x- stem",
+        "Imperfect": "Imperfect of 'diligere' would be 'diligebat' — 'dilexit' has the perfect -xit ending",
+        "Pluperfect": "Pluperfect of 'diligere' would be 'dilexerat' — 'dilexit' lacks the -era- marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'diligere'?",
+      "target": "diligo, diligere, dilexi, dilectum",
+      "choices": ["diligo, diligere, dilexi, dilectum", "lego, legere, legi, lectum", "eligo, eligere, elegi, electum", "amo, amare, amavi, amatum"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the principal parts of 'legere' (to read/choose)",
+        "eligo, eligere, elegi, electum": "These are the principal parts of 'eligere' (to choose/select)",
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love) — a different verb for love"
+      }
+    },
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Deus", "gloss": "God" },
+      "hints": {
+        "Genitive": "Genitive of 'Deus' would be 'Dei' — 'Deus' is the nominative form",
+        "Accusative": "Accusative of 'Deus' would be 'Deum' — 'Deus' is the nominative form",
+        "Vocative": "Vocative of 'Deus' would be 'Deus' (irregular) — but here it is the subject, not an address"
+      }
+    },
+    {
+      "prompt": "What case is 'mundum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "mundum", "gloss": "the world" },
+      "hints": {
+        "Nominative": "Nominative of 'mundus' is 'mundus' — 'mundum' has the -um accusative ending",
+        "Genitive": "Genitive of 'mundus' would be 'mundi' — 'mundum' ends in -um",
+        "Ablative": "Ablative of 'mundus' would be 'mundo' — 'mundum' has the -um accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'mundus, mundi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'mundi' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'mundi' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'mundi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'Sic'?",
+      "target": "Adverb",
+      "choices": ["Conjunction", "Adverb", "Preposition", "Pronoun"],
+      "reveal": { "word": "Sic", "gloss": "so / thus" },
+      "hints": {
+        "Conjunction": "Conjunctions join clauses (like 'et', 'sed') — 'Sic' modifies the verb 'dilexit'",
+        "Preposition": "Prepositions govern nouns (like 'in', 'ad') — 'Sic' modifies the verb",
+        "Pronoun": "Pronouns replace nouns — 'Sic' is an adverb meaning 'so/thus'"
+      }
+    }
+  ],
+  "translation": "So God loved the world"
+}

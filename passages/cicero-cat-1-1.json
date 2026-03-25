@@ -1,0 +1,75 @@
+{
+  "id": "cicero-cat-1-1",
+  "source": "Cicero",
+  "reference": "In Catilinam I.1",
+  "latin": ["Quo", "usque", "tandem", "abutere"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "abutere",
+      "choices": ["Quo", "usque", "tandem", "abutere"],
+      "reveal": null,
+      "hints": {
+        "Quo": "'Quo' is an interrogative adverb meaning 'to what point'",
+        "usque": "'usque' is an adverb meaning 'all the way / continuously'",
+        "tandem": "'tandem' is an adverb meaning 'at last / finally'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'abutere' translates to?",
+      "target": "to abuse",
+      "choices": ["to use", "to abuse", "to take away", "to be absent"],
+      "reveal": null,
+      "hints": {
+        "to use": "'to use' is 'uti' — 'abutere' comes from 'abuti' (to misuse/abuse)",
+        "to take away": "'to take away' is 'auferre' — 'abutere' comes from 'abuti'",
+        "to be absent": "'to be absent' is 'abesse' — 'abutere' comes from 'abuti'"
+      }
+    },
+    {
+      "prompt": "What tense is 'abutere'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Future", "Perfect"],
+      "reveal": { "word": "abutere", "gloss": "will you abuse" },
+      "hints": {
+        "Present": "'abutere' is the 2nd person singular future of the deponent 'abuti'",
+        "Imperfect": "Imperfect would be 'abutebaris' — 'abutere' is future indicative",
+        "Perfect": "Perfect would be 'abusus es' — 'abutere' is a simple future form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'abuti'?",
+      "target": "abutor, abuti, abusus sum",
+      "choices": ["abutor, abuti, abusus sum", "utor, uti, usus sum", "loquor, loqui, locutus sum", "sequor, sequi, secutus sum"],
+      "reveal": null,
+      "hints": {
+        "utor, uti, usus sum": "These are the principal parts of 'uti' (to use) — the base verb without the ab- prefix",
+        "loquor, loqui, locutus sum": "These are the principal parts of 'loqui' (to speak), a different deponent verb",
+        "sequor, sequi, secutus sum": "These are the principal parts of 'sequi' (to follow), a different deponent verb"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'Quo'?",
+      "target": "Adverb",
+      "choices": ["Pronoun", "Adverb", "Conjunction", "Preposition"],
+      "reveal": { "word": "Quo", "gloss": "to what point" },
+      "hints": {
+        "Pronoun": "'Quo' can be a relative pronoun, but here with 'usque' it's an interrogative adverb",
+        "Conjunction": "'Quo' is not joining clauses here — it asks a question",
+        "Preposition": "Prepositions govern nouns — 'Quo' here is interrogative"
+      }
+    },
+    {
+      "prompt": "What does 'tandem' mean?",
+      "target": "at last / finally",
+      "choices": ["so much", "at last / finally", "however", "therefore"],
+      "reveal": { "word": "tandem", "gloss": "at last" },
+      "hints": {
+        "so much": "'so much' is 'tantum' — 'tandem' means 'at last' or 'finally'",
+        "however": "'however' is 'tamen' — similar-looking but different word",
+        "therefore": "'therefore' is 'igitur' or 'ergo'"
+      }
+    }
+  ],
+  "translation": "How long will you abuse"
+}

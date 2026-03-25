@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-rom-1-17",
+  "source": "Vulgate",
+  "reference": "Romani 1:17",
+  "latin": ["Iustus", "ex", "fide", "vivit"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "vivit",
+      "choices": ["Iustus", "ex", "fide", "vivit"],
+      "reveal": null,
+      "hints": {
+        "Iustus": "'Iustus' is an adjective/noun meaning 'the just one' — it is the subject",
+        "ex": "'ex' is a preposition meaning 'from/by'",
+        "fide": "'fide' is a noun in the ablative meaning 'faith'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivit' translates to?",
+      "target": "to live",
+      "choices": ["to see", "to live", "to conquer", "to come"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is 'videre' — 'vivit' comes from 'vivere' (to live)",
+        "to conquer": "'to conquer' is 'vincere' — 'vivit' comes from 'vivere'",
+        "to come": "'to come' is 'venire' — 'vivit' comes from 'vivere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'vivit'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "vivit", "gloss": "lives" },
+      "hints": {
+        "Imperfect": "Imperfect of 'vivere' 3rd person would be 'vivebat' — 'vivit' has the present -it ending",
+        "Perfect": "Perfect of 'vivere' 3rd person would be 'vixit' — 'vivit' is present tense",
+        "Future": "Future of 'vivere' 3rd person would be 'vivet' — 'vivit' has the present -it ending"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivere'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "video, videre, vidi, visum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)",
+        "video, videre, vidi, visum": "These are the principal parts of 'videre' (to see)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What case is 'Iustus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Iustus", "gloss": "the just one" },
+      "hints": {
+        "Genitive": "Genitive of 'iustus' would be 'iusti' — 'Iustus' is the nominative form",
+        "Accusative": "Accusative of 'iustus' would be 'iustum' — 'Iustus' is the nominative form",
+        "Vocative": "Vocative of 'iustus' would be 'iuste' — 'Iustus' is the subject here"
+      }
+    },
+    {
+      "prompt": "What case is 'fide'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "fide", "gloss": "by faith" },
+      "hints": {
+        "Nominative": "Nominative of 'fides' is 'fides' — 'fide' has the ablative -e ending",
+        "Genitive": "Genitive of 'fides' would be 'fidei' — 'fide' has the ablative ending",
+        "Dative": "Dative of 'fides' would be 'fidei' — 'fide' is the ablative form after 'ex'"
+      }
+    },
+    {
+      "prompt": "What declension is 'fides, fidei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'fidei' ends in -ei",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'fidei' ends in -ei",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'fidei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'ex' govern?",
+      "target": "Ablative case",
+      "choices": ["Nominative case", "Genitive case", "Accusative case", "Ablative case"],
+      "reveal": null,
+      "hints": {
+        "Nominative case": "No preposition governs the nominative — 'ex' takes the ablative",
+        "Genitive case": "Prepositions like 'causa' take genitive — 'ex' takes the ablative",
+        "Accusative case": "Prepositions like 'ad' and 'in' (motion) take accusative — 'ex' takes the ablative"
+      }
+    }
+  ],
+  "translation": "The just one lives by faith"
+}

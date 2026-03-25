@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-ps-130-1",
+  "source": "Vulgate",
+  "reference": "Psalmus 130:1",
+  "latin": ["De", "profundis", "clamavi", "ad", "te"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "clamavi",
+      "choices": ["De", "profundis", "clamavi", "te"],
+      "reveal": null,
+      "hints": {
+        "De": "'De' is a preposition meaning 'from/out of'",
+        "profundis": "'profundis' is a noun/adjective in the ablative plural meaning 'the depths'",
+        "te": "'te' is a personal pronoun in the accusative/ablative meaning 'you'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'clamavi' translates to?",
+      "target": "to cry out / to shout",
+      "choices": ["to close", "to cry out / to shout", "to claim", "to call"],
+      "reveal": null,
+      "hints": {
+        "to close": "'to close' is 'claudere' — 'clamavi' comes from 'clamare' (to cry out)",
+        "to claim": "'to claim' is a later/English derivative — 'clamare' means 'to cry out/shout'",
+        "to call": "'to call' is 'vocare' — 'clamavi' comes from 'clamare' (to cry out)"
+      }
+    },
+    {
+      "prompt": "What tense is 'clamavi'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "clamavi", "gloss": "I have cried out" },
+      "hints": {
+        "Present": "Present of 'clamare' 1st person would be 'clamo' — 'clamavi' has the perfect -avi ending",
+        "Imperfect": "Imperfect of 'clamare' 1st person would be 'clamabam' — 'clamavi' has the perfect -avi ending",
+        "Pluperfect": "Pluperfect of 'clamare' 1st person would be 'clamaveram' — 'clamavi' lacks the -era- marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'clamare'?",
+      "target": "clamo, clamare, clamavi, clamatum",
+      "choices": ["clamo, clamare, clamavi, clamatum", "claudo, claudere, clausi, clausum", "voco, vocare, vocavi, vocatum", "credo, credere, credidi, creditum"],
+      "reveal": null,
+      "hints": {
+        "claudo, claudere, clausi, clausum": "These are the principal parts of 'claudere' (to close/shut)",
+        "voco, vocare, vocavi, vocatum": "These are the principal parts of 'vocare' (to call)",
+        "credo, credere, credidi, creditum": "These are the principal parts of 'credere' (to believe)"
+      }
+    },
+    {
+      "prompt": "What case is 'profundis'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "profundis", "gloss": "the depths" },
+      "hints": {
+        "Nominative": "Nominative plural of 'profundum' would be 'profunda' — 'profundis' is dative or ablative plural",
+        "Genitive": "Genitive plural of 'profundum' would be 'profundorum' — 'profundis' is ablative after 'de'",
+        "Dative": "While 'profundis' could be dative plural, after the preposition 'de' it must be ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'profundum, profundi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'profundi' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'profundi' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'profundi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "te", "gloss": "you" },
+      "hints": {
+        "Nominative": "Nominative of 'tu' is 'tu' — 'te' is the accusative or ablative form",
+        "Genitive": "Genitive of 'tu' would be 'tui' — 'te' is accusative after the preposition 'ad'",
+        "Ablative": "While 'te' can be ablative, after 'ad' (which takes accusative) it is accusative"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'ad' govern?",
+      "target": "Accusative case",
+      "choices": ["Nominative case", "Genitive case", "Accusative case", "Ablative case"],
+      "reveal": null,
+      "hints": {
+        "Nominative case": "No preposition governs the nominative — 'ad' takes the accusative",
+        "Genitive case": "Prepositions like 'causa' take genitive — 'ad' takes the accusative",
+        "Ablative case": "Prepositions like 'de', 'ex', 'ab' take ablative — 'ad' takes the accusative"
+      }
+    }
+  ],
+  "translation": "Out of the depths I have cried to you"
+}

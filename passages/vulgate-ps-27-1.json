@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-ps-27-1",
+  "source": "Vulgate",
+  "reference": "Psalmus 27:1",
+  "latin": ["Dominus", "illuminatio", "mea", "et", "salus"],
+  "steps": [
+    {
+      "prompt": "Is there a finite verb in this sentence?",
+      "target": "No — the verb 'est' is implied",
+      "choices": ["Yes — 'Dominus' is a verb", "No — the verb 'est' is implied", "Yes — 'illuminatio' is a verb", "Yes — 'salus' is a verb"],
+      "reveal": null,
+      "hints": {
+        "Yes — 'Dominus' is a verb": "'Dominus' is a noun meaning 'the Lord' — it is the subject",
+        "Yes — 'illuminatio' is a verb": "'illuminatio' is a noun meaning 'light/illumination' — it is a predicate nominative",
+        "Yes — 'salus' is a verb": "'salus' is a noun meaning 'salvation' — it is a predicate nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Dominus", "gloss": "the Lord" },
+      "hints": {
+        "Genitive": "Genitive of 'Dominus' would be 'Domini' — 'Dominus' is the nominative form",
+        "Accusative": "Accusative of 'Dominus' would be 'Dominum' — 'Dominus' is the nominative form",
+        "Vocative": "Vocative of 'Dominus' would be 'Domine' — here 'Dominus' is the subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'illuminatio'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "illuminatio", "gloss": "light / illumination" },
+      "hints": {
+        "Genitive": "Genitive of 'illuminatio' would be 'illuminationis' — 'illuminatio' is the nominative form",
+        "Accusative": "Accusative of 'illuminatio' would be 'illuminationem' — 'illuminatio' is the nominative form",
+        "Ablative": "Ablative of 'illuminatio' would be 'illuminatione' — 'illuminatio' is the nominative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'illuminatio, illuminationis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'illuminationis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'illuminationis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'illuminationis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does 'mea' modify?",
+      "target": "illuminatio",
+      "choices": ["Dominus", "illuminatio", "salus", "et"],
+      "reveal": { "word": "mea", "gloss": "my" },
+      "hints": {
+        "Dominus": "'Dominus' is masculine — 'mea' is feminine, agreeing with feminine 'illuminatio'",
+        "salus": "While 'salus' is also feminine, 'mea' directly follows 'illuminatio' and modifies it",
+        "et": "'et' is a conjunction — adjectives cannot modify conjunctions"
+      }
+    },
+    {
+      "prompt": "What case is 'salus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "salus", "gloss": "salvation" },
+      "hints": {
+        "Genitive": "Genitive of 'salus' would be 'salutis' — 'salus' is the nominative form",
+        "Accusative": "Accusative of 'salus' would be 'salutem' — 'salus' is the nominative form",
+        "Ablative": "Ablative of 'salus' would be 'salute' — 'salus' is the nominative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'salus, salutis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'salutis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'salutis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'salutis' ends in -is"
+      }
+    }
+  ],
+  "translation": "The Lord is my light and salvation"
+}

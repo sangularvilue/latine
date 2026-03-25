@@ -1,0 +1,86 @@
+{
+  "id": "aeneid-4-569",
+  "source": "Aeneid",
+  "reference": "Aeneid IV.569",
+  "latin": ["Varium", "et", "mutabile", "semper", "femina"],
+  "steps": [
+    {
+      "prompt": "Which word is the subject?",
+      "target": "femina",
+      "choices": ["Varium", "et", "mutabile", "femina"],
+      "reveal": null,
+      "hints": {
+        "Varium": "'Varium' is a predicate adjective (neuter) — it describes the subject",
+        "et": "'et' is a conjunction meaning 'and'",
+        "mutabile": "'mutabile' is a predicate adjective — it describes the subject"
+      }
+    },
+    {
+      "prompt": "Case of 'femina'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Ablative", "Vocative"],
+      "reveal": { "word": "femina", "gloss": "woman" },
+      "hints": {
+        "Genitive": "Genitive of 'femina' would be 'feminae'",
+        "Ablative": "Ablative of 'femina' would be 'femina' (same form), but it's the subject",
+        "Vocative": "Vocative of 'femina' would be 'femina' (same form), but this is a general statement"
+      }
+    },
+    {
+      "prompt": "Declension of 'femina'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'femina' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'femina' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'femina' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What gender is 'Varium'?",
+      "target": "Neuter",
+      "choices": ["Masculine", "Feminine", "Neuter", "Common"],
+      "reveal": { "word": "Varium", "gloss": "fickle" },
+      "hints": {
+        "Masculine": "Masculine nominative would be 'varius' — the -um ending is neuter",
+        "Feminine": "Feminine nominative would be 'varia' — the -um ending is neuter",
+        "Common": "'Varium' has a specific neuter ending — it's used as a neuter predicate with abstract force"
+      }
+    },
+    {
+      "prompt": "Case of 'mutabile'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "mutabile", "gloss": "changeable" },
+      "hints": {
+        "Accusative": "'mutabile' neuter nominative and accusative are identical, but it's a predicate adjective here",
+        "Ablative": "Ablative of 'mutabilis' would be 'mutabili'",
+        "Vocative": "This is a general statement, not an address"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'semper'?",
+      "target": "Adverb",
+      "choices": ["Adjective", "Adverb", "Conjunction", "Preposition"],
+      "reveal": { "word": "semper", "gloss": "always/ever" },
+      "hints": {
+        "Adjective": "Adjectives modify nouns and decline — 'semper' is indeclinable",
+        "Conjunction": "Conjunctions join clauses — 'semper' modifies the implied verb",
+        "Preposition": "Prepositions govern nouns — 'semper' doesn't take an object"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'et'?",
+      "target": "Conjunction",
+      "choices": ["Preposition", "Conjunction", "Adverb", "Interjection"],
+      "reveal": { "word": "et", "gloss": "and" },
+      "hints": {
+        "Preposition": "Prepositions govern nouns in a specific case — 'et' joins words or clauses",
+        "Adverb": "'et' can sometimes mean 'also' (adverbial), but here it joins 'Varium' and 'mutabile'",
+        "Interjection": "Interjections are exclamations — 'et' is a coordinating conjunction"
+      }
+    }
+  ],
+  "translation": "Woman is ever fickle and changeable"
+}

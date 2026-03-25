@@ -1,0 +1,86 @@
+{
+  "id": "vulgate-is-9-6",
+  "source": "Vulgate",
+  "reference": "Isaias 9:6",
+  "latin": ["Puer", "natus", "est", "nobis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "natus est",
+      "choices": ["Puer", "natus est", "nobis", "natus"],
+      "reveal": null,
+      "hints": {
+        "Puer": "'Puer' is a noun meaning 'child/boy' — it is the subject",
+        "nobis": "'nobis' is a pronoun in the dative case — it is not a verb",
+        "natus": "'natus' alone is only the participle — together with 'est' it forms the perfect passive verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'natus est' translates to?",
+      "target": "to be born",
+      "choices": ["to swim", "to be born", "to find", "to know"],
+      "reveal": null,
+      "hints": {
+        "to swim": "'to swim' is 'natare' (different word) — 'natus est' comes from 'nasci' (to be born)",
+        "to find": "'to find' is 'invenire' — 'natus est' comes from 'nasci'",
+        "to know": "'to know' is 'scire' or 'noscere' — 'natus est' comes from 'nasci'"
+      }
+    },
+    {
+      "prompt": "What tense is 'natus est'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "natus est", "gloss": "has been born / was born" },
+      "hints": {
+        "Present": "Present of 'nasci' would be 'nascitur' — 'natus est' uses the perfect participle + 'est'",
+        "Imperfect": "Imperfect of 'nasci' would be 'nascebatur' — 'natus est' is the perfect passive form",
+        "Pluperfect": "Pluperfect of 'nasci' would be 'natus erat' — 'natus est' uses 'est', not 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'nasci'?",
+      "target": "nascor, nasci, natus sum, —",
+      "choices": ["nascor, nasci, natus sum, —", "patior, pati, passus sum, —", "morior, mori, mortuus sum, —", "sequor, sequi, secutus sum, —"],
+      "reveal": null,
+      "hints": {
+        "patior, pati, passus sum, —": "These are the principal parts of 'pati' (to suffer) — a deponent verb, but not this one",
+        "morior, mori, mortuus sum, —": "These are the principal parts of 'mori' (to die) — a deponent verb, but not this one",
+        "sequor, sequi, secutus sum, —": "These are the principal parts of 'sequi' (to follow) — a deponent verb, but not this one"
+      }
+    },
+    {
+      "prompt": "What case is 'Puer'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Puer", "gloss": "child / boy" },
+      "hints": {
+        "Genitive": "Genitive of 'puer' would be 'pueri' — 'Puer' is the nominative form",
+        "Accusative": "Accusative of 'puer' would be 'puerum' — 'Puer' is the nominative form",
+        "Vocative": "While 'puer' can be vocative, here it is the subject of 'natus est'"
+      }
+    },
+    {
+      "prompt": "What declension is 'puer, pueri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'pueri' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'pueri' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'pueri' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'nobis'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "nobis", "gloss": "to us / for us" },
+      "hints": {
+        "Nominative": "Nominative of 'nos' is 'nos' — 'nobis' is the dative/ablative form",
+        "Genitive": "Genitive of 'nos' is 'nostri' or 'nostrum' — 'nobis' is dative/ablative",
+        "Accusative": "Accusative of 'nos' is 'nos' — 'nobis' is the dative/ablative form"
+      }
+    }
+  ],
+  "translation": "A child is born to us"
+}

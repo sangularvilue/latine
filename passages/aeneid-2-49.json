@@ -1,0 +1,108 @@
+{
+  "id": "aeneid-2-49",
+  "source": "Aeneid",
+  "reference": "Aeneid II.49",
+  "latin": ["Timeo", "Danaos", "et", "dona", "ferentes"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "Timeo",
+      "choices": ["Timeo", "Danaos", "dona", "ferentes"],
+      "reveal": null,
+      "hints": {
+        "Danaos": "'Danaos' is a noun — the direct object (the Greeks)",
+        "dona": "'dona' is a noun meaning 'gifts'",
+        "ferentes": "'ferentes' is a present participle, not the main verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Timeo' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to honor", "to cut", "to hold"],
+      "reveal": null,
+      "hints": {
+        "to honor": "'to honor' is 'honorare' — 'Timeo' comes from 'timere'",
+        "to cut": "'to cut' is 'secare' — 'Timeo' comes from 'timere'",
+        "to hold": "'to hold' is 'tenere' — 'Timeo' comes from 'timere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Timeo'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Timeo", "gloss": "I fear" },
+      "hints": {
+        "Imperfect": "Imperfect would be 'timebam' — 'Timeo' is present 1st person singular",
+        "Perfect": "Perfect would be 'timui' — 'Timeo' uses the present stem",
+        "Future": "Future would be 'timebo' — 'Timeo' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timere'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "video, videre, vidi, visum", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the principal parts of 'tenere' (to hold)",
+        "video, videre, vidi, visum": "These are the principal parts of 'videre' (to see)",
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habere' (to have)"
+      }
+    },
+    {
+      "prompt": "Case of 'Danaos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Dative"],
+      "reveal": { "word": "Danaos", "gloss": "the Greeks" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'Danai' — 'Danaos' with -os ending is accusative plural",
+        "Genitive": "Genitive plural would be 'Danaorum'",
+        "Dative": "Dative plural would be 'Danais'"
+      }
+    },
+    {
+      "prompt": "Case of 'dona'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "dona", "gloss": "gifts" },
+      "hints": {
+        "Nominative": "'dona' could be nominative neuter plural, but here it's the object of 'ferentes'",
+        "Genitive": "Genitive plural of 'donum' would be 'donorum'",
+        "Ablative": "Ablative plural of 'donum' would be 'donis'"
+      }
+    },
+    {
+      "prompt": "Declension of 'donum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'donum' with -um ending is 2nd declension neuter",
+        "3rd": "3rd declension nouns have varied endings — '-um' is characteristic of 2nd declension neuter",
+        "4th": "4th declension nouns end in -us/-u — 'donum' is 2nd declension neuter"
+      }
+    },
+    {
+      "prompt": "What form is 'ferentes'?",
+      "target": "Present active participle",
+      "choices": ["Present active participle", "Perfect passive participle", "Future active participle", "Gerundive"],
+      "reveal": { "word": "ferentes", "gloss": "bearing/bringing" },
+      "hints": {
+        "Perfect passive participle": "Perfect passive participle of 'ferre' would be 'lati' — 'ferentes' has the -nt- present participle stem",
+        "Future active participle": "Future active participle would be 'laturi'",
+        "Gerundive": "Gerundive would be 'ferendi' — 'ferentes' has the -nt- present participle marker"
+      }
+    },
+    {
+      "prompt": "Case of 'ferentes'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Nominative": "'ferentes' could be nominative plural, but it modifies 'Danaos' which is accusative",
+        "Genitive": "Genitive plural of the participle would be 'ferentium'",
+        "Ablative": "Ablative plural of the participle would be 'ferentibus'"
+      }
+    }
+  ],
+  "translation": "I fear the Greeks even bearing gifts"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "vulgate-ps-23-1",
+  "source": "Vulgate",
+  "reference": "Psalmus 23:1",
+  "latin": ["Dominus", "regit", "me"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "regit",
+      "choices": ["Dominus", "regit", "me", "et"],
+      "reveal": null,
+      "hints": {
+        "Dominus": "'Dominus' is a noun — it's the subject of the sentence",
+        "me": "'me' is a pronoun in the accusative case",
+        "et": "'et' is a conjunction meaning 'and' — it doesn't appear here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'regit' translates to?",
+      "target": "to rule",
+      "choices": ["to rule", "to ask", "to read", "to lead"],
+      "reveal": null,
+      "hints": {
+        "to ask": "'to ask' is 'rogare' — 'regit' comes from 'regere'",
+        "to read": "'to read' is 'legere' — 'regit' comes from 'regere'",
+        "to lead": "'to lead' is 'ducere' — 'regere' means 'to rule' or 'to guide'"
+      }
+    },
+    {
+      "prompt": "What tense is 'regit'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "regit", "gloss": "rules" },
+      "hints": {
+        "Imperfect": "Imperfect of 'regere' would be 'regebat' — 'regit' lacks the -ba- marker",
+        "Perfect": "Perfect of 'regere' would be 'rexit' — 'regit' uses the present stem",
+        "Future": "Future of 'regere' would be 'reget' — 'regit' has the present -i- vowel"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'regere'?",
+      "target": "rego, regere, rexi, rectum",
+      "choices": ["rego, regere, rexi, rectum", "ago, agere, egi, actum", "lego, legere, legi, lectum", "duco, ducere, duxi, ductum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the principal parts of 'agere' (to drive/do)",
+        "lego, legere, legi, lectum": "These are the principal parts of 'legere' (to read/gather)",
+        "duco, ducere, duxi, ductum": "These are the principal parts of 'ducere' (to lead)"
+      }
+    },
+    {
+      "prompt": "Case of 'Dominus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "Dominus", "gloss": "the Lord" },
+      "hints": {
+        "Genitive": "Genitive of 'Dominus' would be 'Domini'",
+        "Dative": "Dative of 'Dominus' would be 'Domino'",
+        "Accusative": "Accusative of 'Dominus' would be 'Dominum'"
+      }
+    },
+    {
+      "prompt": "Declension of 'Dominus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns typically end in -a (e.g. 'terra')",
+        "3rd": "3rd declension nouns have varied nominatives — 'Dominus' ends in -us, typical of 2nd declension",
+        "4th": "4th declension nouns also end in -us but have genitive -us (e.g. 'manus, manus')"
+      }
+    },
+    {
+      "prompt": "Case of 'me'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "me", "gloss": "me" },
+      "hints": {
+        "Nominative": "Nominative of the 1st person pronoun is 'ego'",
+        "Dative": "Dative of the 1st person pronoun is 'mihi'",
+        "Ablative": "'me' can be ablative, but here it's the direct object of 'regit'"
+      }
+    }
+  ],
+  "translation": "The Lord rules me"
+}

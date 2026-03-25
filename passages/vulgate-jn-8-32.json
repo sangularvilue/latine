@@ -1,0 +1,86 @@
+{
+  "id": "vulgate-jn-8-32",
+  "source": "Vulgate",
+  "reference": "Ioannes 8:32",
+  "latin": ["Veritas", "liberabit", "vos"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "liberabit",
+      "choices": ["Veritas", "liberabit", "vos", "et"],
+      "reveal": null,
+      "hints": {
+        "Veritas": "'Veritas' is a noun — it's the subject of the sentence",
+        "vos": "'vos' is a pronoun meaning 'you (plural)'",
+        "et": "'et' is a conjunction meaning 'and' — it doesn't appear here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'liberabit' translates to?",
+      "target": "to set free",
+      "choices": ["to set free", "to weigh", "to read", "to please"],
+      "reveal": null,
+      "hints": {
+        "to weigh": "'to weigh' is 'librare' — 'liberabit' comes from 'liberare'",
+        "to read": "'to read' is 'legere' — 'liberabit' comes from 'liberare'",
+        "to please": "'to please' is 'placere' — 'liberabit' comes from 'liberare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'liberabit'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "liberabit", "gloss": "shall set free" },
+      "hints": {
+        "Present": "Present would be 'liberat' — 'liberabit' has the -bi- future marker",
+        "Imperfect": "Imperfect would be 'liberabat' — 'liberabit' has -bi- not -ba-",
+        "Perfect": "Perfect would be 'liberavit' — 'liberabit' uses the future stem"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'liberare'?",
+      "target": "libero, liberare, liberavi, liberatum",
+      "choices": ["libero, liberare, liberavi, liberatum", "libro, librare, libravi, libratum", "laboro, laborare, laboravi, laboratum", "libeo, libere, libui, libitum"],
+      "reveal": null,
+      "hints": {
+        "libro, librare, libravi, libratum": "These are the principal parts of 'librare' (to balance/weigh)",
+        "laboro, laborare, laboravi, laboratum": "These are the principal parts of 'laborare' (to work/toil)",
+        "libeo, libere, libui, libitum": "This is not a standard Latin verb — 'liberare' is a regular 1st conjugation verb"
+      }
+    },
+    {
+      "prompt": "Case of 'Veritas'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "Veritas", "gloss": "the truth" },
+      "hints": {
+        "Genitive": "Genitive of 'veritas' would be 'veritatis'",
+        "Accusative": "Accusative of 'veritas' would be 'veritatem'",
+        "Ablative": "Ablative of 'veritas' would be 'veritate'"
+      }
+    },
+    {
+      "prompt": "Declension of 'veritas'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'veritas' with genitive 'veritatis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'veritas' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'veritas' with -atis genitive is 3rd declension"
+      }
+    },
+    {
+      "prompt": "Case of 'vos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "vos", "gloss": "you (plural)" },
+      "hints": {
+        "Nominative": "'vos' can be nominative, but here it's the direct object of 'liberabit'",
+        "Dative": "Dative of 2nd person plural is 'vobis'",
+        "Ablative": "Ablative of 2nd person plural is 'vobis'"
+      }
+    }
+  ],
+  "translation": "The truth shall set you free"
+}

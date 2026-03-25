@@ -1,0 +1,86 @@
+{
+  "id": "vulgate-ps-42-1",
+  "source": "Vulgate",
+  "reference": "Psalmus 42:1",
+  "latin": ["Iudica", "me", "Deus"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Iudica",
+      "choices": ["Iudica", "me", "Deus", "meus"],
+      "reveal": null,
+      "hints": {
+        "me": "'me' is a pronoun — the direct object",
+        "Deus": "'Deus' is a noun meaning 'God' — it's a vocative here",
+        "meus": "'meus' is a possessive adjective — it doesn't appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Iudica' translates to?",
+      "target": "to judge",
+      "choices": ["to judge", "to indicate", "to lead", "to teach"],
+      "reveal": null,
+      "hints": {
+        "to indicate": "'to indicate' is 'indicare' — 'Iudica' comes from 'iudicare'",
+        "to lead": "'to lead' is 'ducere' — 'Iudica' comes from 'iudicare'",
+        "to teach": "'to teach' is 'docere' — 'Iudica' comes from 'iudicare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Iudica'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Iudica", "gloss": "judge!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'iudicat' — 'Iudica' is a command",
+        "Subjunctive": "Subjunctive present would be 'iudicet' — 'Iudica' is a direct command",
+        "Infinitive": "The infinitive would be 'iudicare' — 'Iudica' is a 2nd person singular command"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iudicare'?",
+      "target": "iudico, iudicare, iudicavi, iudicatum",
+      "choices": ["iudico, iudicare, iudicavi, iudicatum", "dico, dicere, dixi, dictum", "indico, indicare, indicavi, indicatum", "educo, educare, educavi, educatum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are the principal parts of 'dicere' (to say), a 3rd conjugation verb",
+        "indico, indicare, indicavi, indicatum": "These are the principal parts of 'indicare' (to indicate/point out)",
+        "educo, educare, educavi, educatum": "These are the principal parts of 'educare' (to educate)"
+      }
+    },
+    {
+      "prompt": "Case of 'me'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "me", "gloss": "me" },
+      "hints": {
+        "Nominative": "Nominative of the 1st person pronoun is 'ego'",
+        "Dative": "Dative of the 1st person pronoun is 'mihi'",
+        "Ablative": "'me' can be ablative, but here it's the direct object of 'Iudica'"
+      }
+    },
+    {
+      "prompt": "Case of 'Deus'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Vocative", "Accusative", "Genitive"],
+      "reveal": { "word": "Deus", "gloss": "O God" },
+      "hints": {
+        "Nominative": "'Deus' looks nominative, but the speaker is addressing God directly — that's vocative",
+        "Accusative": "Accusative of 'Deus' would be 'Deum'",
+        "Genitive": "Genitive of 'Deus' would be 'Dei'"
+      }
+    },
+    {
+      "prompt": "Declension of 'Deus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns typically end in -a (e.g. 'terra')",
+        "3rd": "3rd declension nouns have varied nominatives — 'Deus' follows 2nd declension -us pattern",
+        "4th": "4th declension nouns end in -us but have genitive -us (e.g. 'manus, manus') — 'Dei' is 2nd declension"
+      }
+    }
+  ],
+  "translation": "Judge me, O God"
+}

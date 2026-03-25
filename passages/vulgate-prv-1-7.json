@@ -1,0 +1,108 @@
+{
+  "id": "vulgate-prv-1-7",
+  "source": "Vulgate",
+  "reference": "Proverbia 1:7",
+  "latin": ["Timor", "Domini", "principium", "sapientiae"],
+  "steps": [
+    {
+      "prompt": "Is there a finite verb in this sentence?",
+      "target": "No — the verb 'est' is implied",
+      "choices": ["Yes — 'Timor' is a verb", "Yes — 'principium' is a verb", "No — the verb 'est' is implied", "Yes — 'sapientiae' is a verb"],
+      "reveal": null,
+      "hints": {
+        "Yes — 'Timor' is a verb": "'Timor' is a noun meaning 'fear' — it is the subject of this sentence",
+        "Yes — 'principium' is a verb": "'principium' is a noun meaning 'beginning' — it is the predicate nominative",
+        "Yes — 'sapientiae' is a verb": "'sapientiae' is a noun in the genitive case meaning 'of wisdom'"
+      }
+    },
+    {
+      "prompt": "What case is 'Timor'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "Timor", "gloss": "fear" },
+      "hints": {
+        "Genitive": "Genitive of 'timor' would be 'timoris' — 'Timor' is the base nominative form",
+        "Accusative": "Accusative of 'timor' would be 'timorem' — 'Timor' lacks the -em ending",
+        "Ablative": "Ablative of 'timor' would be 'timore' — 'Timor' is the nominative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'timor, timoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a (e.g., 'puella') — 'timor' has genitive 'timoris'",
+        "2nd declension": "2nd declension nouns typically end in -us or -um — 'timor' has genitive 'timoris'",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'timor' has genitive 'timoris' with the -is ending"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Domini", "gloss": "of the Lord" },
+      "hints": {
+        "Nominative": "Nominative of 'Dominus' is 'Dominus' — 'Domini' has the -i genitive ending",
+        "Dative": "Dative of 'Dominus' would be 'Domino' — 'Domini' ends in -i, the genitive singular",
+        "Vocative": "Vocative of 'Dominus' would be 'Domine' — 'Domini' ends in -i, the genitive singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'principium'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "principium", "gloss": "beginning" },
+      "hints": {
+        "Genitive": "Genitive of 'principium' would be 'principii' — 'principium' is the nominative/accusative form",
+        "Accusative": "While 'principium' could be accusative, here it serves as the predicate nominative with the implied 'est'",
+        "Ablative": "Ablative of 'principium' would be 'principio' — 'principium' retains the -um ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'principium, principii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'principii' ends in -ii",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'principii' ends in -ii",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'principii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'sapientiae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "sapientiae", "gloss": "of wisdom" },
+      "hints": {
+        "Nominative": "Nominative of 'sapientia' is 'sapientia' — 'sapientiae' has the -ae ending indicating genitive or dative",
+        "Dative": "While 'sapientiae' could be dative in form, here it means 'of wisdom' modifying 'principium'",
+        "Ablative": "Ablative of 'sapientia' would be 'sapientiā' — 'sapientiae' has the -ae genitive ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'sapientia, sapientiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'sapientiae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'sapientiae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'sapientiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "The fear of the Lord is the beginning of wisdom"
+}

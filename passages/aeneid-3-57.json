@@ -1,0 +1,86 @@
+{
+  "id": "aeneid-3-57",
+  "source": "Aeneid",
+  "reference": "Aeneid III.57",
+  "latin": ["Auri", "sacra", "fames"],
+  "steps": [
+    {
+      "prompt": "Is there a finite verb in this sentence?",
+      "target": "No — this is an exclamatory noun phrase",
+      "choices": ["Yes — 'sacra' is a verb", "Yes — 'fames' is a verb", "No — this is an exclamatory noun phrase", "Yes — 'Auri' is a verb"],
+      "reveal": null,
+      "hints": {
+        "Yes — 'sacra' is a verb": "'sacra' is an adjective meaning 'accursed/sacred' — it modifies 'fames'",
+        "Yes — 'fames' is a verb": "'fames' is a noun meaning 'hunger' — it is the main noun of this phrase",
+        "Yes — 'Auri' is a verb": "'Auri' is a noun in the genitive meaning 'of gold'"
+      }
+    },
+    {
+      "prompt": "What case is 'Auri'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Auri", "gloss": "of gold" },
+      "hints": {
+        "Nominative": "Nominative of 'aurum' is 'aurum' — 'Auri' has the -i genitive ending",
+        "Dative": "Dative of 'aurum' would be 'auro' — 'Auri' ends in -i, the genitive singular",
+        "Ablative": "Ablative of 'aurum' would be 'auro' — 'Auri' has the -i genitive ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'aurum, auri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'auri' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'auri' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'auri' ends in -i"
+      }
+    },
+    {
+      "prompt": "What does 'sacra' mean in this context?",
+      "target": "accursed",
+      "choices": ["sacred", "accursed", "secret", "safe"],
+      "reveal": { "word": "sacra", "gloss": "accursed" },
+      "hints": {
+        "sacred": "While 'sacer' often means 'sacred', it also means 'accursed/devoted to destruction' — here Vergil condemns the hunger for gold",
+        "secret": "'secret' would be 'secretus' or 'arcanus' — 'sacra' comes from 'sacer'",
+        "safe": "'safe' would be 'tutus' or 'salvus' — 'sacra' comes from 'sacer' meaning accursed here"
+      }
+    },
+    {
+      "prompt": "What case is 'sacra'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Genitive": "Genitive feminine singular of 'sacer' would be 'sacrae' — 'sacra' is nominative feminine",
+        "Accusative": "Accusative feminine singular of 'sacer' would be 'sacram' — 'sacra' is nominative, agreeing with 'fames'",
+        "Ablative": "Ablative feminine singular of 'sacer' would be 'sacra' (same form), but here it is nominative modifying 'fames'"
+      }
+    },
+    {
+      "prompt": "What case is 'fames'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "fames", "gloss": "hunger" },
+      "hints": {
+        "Genitive": "Genitive of 'fames' would be 'famis' — 'fames' is the nominative form",
+        "Accusative": "Accusative of 'fames' would be 'famem' — 'fames' is the nominative form",
+        "Vocative": "While this is exclamatory, 'fames' here is nominative — the exclamation addresses the concept"
+      }
+    },
+    {
+      "prompt": "What declension is 'fames, famis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'famis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'famis' ends in -is",
+        "5th declension": "5th declension nouns have genitive in -ei — 'famis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Accursed hunger for gold"
+}

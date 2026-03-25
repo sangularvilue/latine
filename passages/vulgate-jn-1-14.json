@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-jn-1-14",
+  "source": "Vulgate",
+  "reference": "Ioannes 1:14",
+  "latin": ["Et", "Verbum", "caro", "factum", "est"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "est",
+      "choices": ["Et", "Verbum", "factum", "est"],
+      "reveal": null,
+      "hints": {
+        "Et": "'Et' is a conjunction meaning 'and'",
+        "Verbum": "'Verbum' is a noun — the subject",
+        "factum": "'factum' is a perfect passive participle — it combines with 'est' to form the perfect passive"
+      }
+    },
+    {
+      "prompt": "What verb do 'factum est' together form?",
+      "target": "Perfect passive of 'facere' (was made)",
+      "choices": ["Present of 'esse' (is made)", "Perfect passive of 'facere' (was made)", "Imperfect of 'facere' (was making)", "Future of 'fieri' (will become)"],
+      "reveal": { "word": "factum est", "gloss": "was made" },
+      "hints": {
+        "Present of 'esse' (is made)": "'factum est' = participle + 'est' forms the perfect passive, not present",
+        "Imperfect of 'facere' (was making)": "Imperfect active would be 'faciebat' — 'factum est' is perfect passive",
+        "Future of 'fieri' (will become)": "Future of 'fieri' would be 'fiet' — 'factum est' is past tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facere'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fingo, fingere, finxi, fictum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the principal parts of 'ferre' (to carry)",
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugere' (to flee)",
+        "fingo, fingere, finxi, fictum": "These are the principal parts of 'fingere' (to shape/mold)"
+      }
+    },
+    {
+      "prompt": "Case of 'Verbum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "Verbum", "gloss": "the Word" },
+      "hints": {
+        "Accusative": "'Verbum' neuter nom. and acc. are identical, but it's the subject of 'factum est'",
+        "Genitive": "Genitive of 'Verbum' would be 'Verbi'",
+        "Ablative": "Ablative of 'Verbum' would be 'Verbo'"
+      }
+    },
+    {
+      "prompt": "Declension of 'Verbum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'Verbum' with -um ending is 2nd declension neuter",
+        "3rd": "3rd declension nouns have varied endings — '-um' is characteristic of 2nd declension neuter",
+        "4th": "4th declension nouns end in -us/-u — 'Verbum' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "Case of 'caro'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "caro", "gloss": "flesh" },
+      "hints": {
+        "Genitive": "Genitive of 'caro' would be 'carnis'",
+        "Dative": "Dative of 'caro' would be 'carni'",
+        "Accusative": "Accusative of 'caro' would be 'carnem'"
+      }
+    },
+    {
+      "prompt": "Declension of 'caro'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'caro' with genitive 'carnis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'caro' with stem 'carn-' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'caro' with genitive 'carnis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'Et'?",
+      "target": "Conjunction",
+      "choices": ["Preposition", "Conjunction", "Adverb", "Interjection"],
+      "reveal": { "word": "Et", "gloss": "and" },
+      "hints": {
+        "Preposition": "Prepositions govern nouns in a case — 'Et' joins clauses",
+        "Adverb": "'Et' can sometimes mean 'also', but here it connects this sentence to the preceding verse",
+        "Interjection": "Interjections are exclamations — 'Et' is a coordinating conjunction"
+      }
+    }
+  ],
+  "translation": "And the Word was made flesh"
+}

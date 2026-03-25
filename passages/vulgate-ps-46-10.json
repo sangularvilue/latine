@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-ps-46-10",
+  "source": "Vulgate",
+  "reference": "Psalmus 46:10",
+  "latin": ["Vacate", "et", "videte", "quoniam", "Deus"],
+  "steps": [
+    {
+      "prompt": "Which words are verbs?",
+      "target": "'Vacate' and 'videte'",
+      "choices": ["Only 'Vacate'", "'Vacate' and 'videte'", "'videte' and 'quoniam'", "Only 'videte'"],
+      "reveal": null,
+      "hints": {
+        "Only 'Vacate'": "Both 'Vacate' and 'videte' end in -te, the 2nd person plural imperative ending",
+        "'videte' and 'quoniam'": "'quoniam' is a conjunction meaning 'because/that' — both 'Vacate' and 'videte' are verbs",
+        "Only 'videte'": "Both 'Vacate' and 'videte' end in -te, the 2nd person plural imperative ending"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Vacate' translates to?",
+      "target": "to be still / to be free",
+      "choices": ["to empty", "to be still / to be free", "to call", "to fall"],
+      "reveal": null,
+      "hints": {
+        "to empty": "'to empty' is 'vacuare' — 'Vacate' comes from 'vacare' (to be still/free)",
+        "to call": "'to call' is 'vocare' — 'Vacate' comes from 'vacare' (to be still/free)",
+        "to fall": "'to fall' is 'cadere' — 'Vacate' comes from 'vacare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Vacate'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Vacate", "gloss": "be still!" },
+      "hints": {
+        "Indicative": "Indicative present 2nd pl. would be 'vacatis' — 'Vacate' has the -te imperative ending",
+        "Subjunctive": "Subjunctive present 2nd pl. would be 'vacetis' — 'Vacate' is a direct command",
+        "Infinitive": "Infinitive would be 'vacare' — 'Vacate' is the imperative plural form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vacare'?",
+      "target": "vaco, vacare, vacavi, vacatum",
+      "choices": ["vaco, vacare, vacavi, vacatum", "voco, vocare, vocavi, vocatum", "cado, cadere, cecidi, casum", "volo, volare, volavi, volatum"],
+      "reveal": null,
+      "hints": {
+        "voco, vocare, vocavi, vocatum": "These are the principal parts of 'vocare' (to call)",
+        "cado, cadere, cecidi, casum": "These are the principal parts of 'cadere' (to fall)",
+        "volo, volare, volavi, volatum": "These are the principal parts of 'volare' (to fly)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'videte' translates to?",
+      "target": "to see / to know",
+      "choices": ["to come", "to see / to know", "to conquer", "to live"],
+      "reveal": null,
+      "hints": {
+        "to come": "'to come' is 'venire' — 'videte' comes from 'videre' (to see)",
+        "to conquer": "'to conquer' is 'vincere' — 'videte' comes from 'videre'",
+        "to live": "'to live' is 'vivere' — 'videte' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What mood is 'videte'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "videte", "gloss": "see! / know!" },
+      "hints": {
+        "Indicative": "Indicative present 2nd pl. would be 'videtis' — 'videte' has the imperative -te ending",
+        "Subjunctive": "Subjunctive present 2nd pl. would be 'videatis' — 'videte' is a direct command",
+        "Infinitive": "Infinitive would be 'videre' — 'videte' is the imperative plural form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videre'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vivo, vivere, vixi, victum": "These are the principal parts of 'vivere' (to live)",
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'quoniam'?",
+      "target": "Conjunction",
+      "choices": ["Adverb", "Conjunction", "Preposition", "Pronoun"],
+      "reveal": { "word": "quoniam", "gloss": "that / because" },
+      "hints": {
+        "Adverb": "Adverbs modify verbs — 'quoniam' introduces a subordinate clause",
+        "Preposition": "Prepositions govern nouns — 'quoniam' introduces a clause meaning 'that/because'",
+        "Pronoun": "Pronouns replace nouns — 'quoniam' is a subordinating conjunction"
+      }
+    }
+  ],
+  "translation": "Be still and know that I am God"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "horace-sat-1-1",
+  "source": "Horace",
+  "reference": "Satires I.1",
+  "latin": ["Qui", "fit", "ut", "nemo", "sit", "contentus"],
+  "steps": [
+    {
+      "prompt": "Which words are verbs?",
+      "target": "'fit' and 'sit'",
+      "choices": ["'Qui' and 'fit'", "'fit' and 'sit'", "'nemo' and 'contentus'", "'ut' and 'sit'"],
+      "reveal": null,
+      "hints": {
+        "'Qui' and 'fit'": "'Qui' is an interrogative adverb meaning 'how' — only 'fit' is a verb from this pair",
+        "'nemo' and 'contentus'": "'nemo' is a pronoun meaning 'no one' and 'contentus' is an adjective meaning 'content'",
+        "'ut' and 'sit'": "'ut' is a conjunction meaning 'that' — only 'sit' is a verb from this pair"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fit' translates to?",
+      "target": "to become / to be made",
+      "choices": ["to do", "to become / to be made", "to trust", "to happen"],
+      "reveal": null,
+      "hints": {
+        "to do": "'to do' is 'facere' — 'fit' comes from 'fieri' (to become/be made)",
+        "to trust": "'to trust' is 'fidere' — 'fit' comes from 'fieri'",
+        "to happen": "While 'fit' can mean 'it happens', the infinitive 'fieri' primarily means 'to become/be made'"
+      }
+    },
+    {
+      "prompt": "What tense is 'fit'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "fit", "gloss": "it happens / it comes about" },
+      "hints": {
+        "Imperfect": "Imperfect of 'fieri' 3rd person would be 'fiebat' — 'fit' is the present form",
+        "Perfect": "Perfect of 'fieri' 3rd person would be 'factus est' — 'fit' is present",
+        "Future": "Future of 'fieri' 3rd person would be 'fiet' — 'fit' is the present form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fieri'?",
+      "target": "fio, fieri, factus sum, —",
+      "choices": ["fio, fieri, factus sum, —", "fido, fidere, fisus sum, —", "fingo, fingere, finxi, fictum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fido, fidere, fisus sum, —": "These are the principal parts of 'fidere' (to trust)",
+        "fingo, fingere, finxi, fictum": "These are the principal parts of 'fingere' (to shape/invent)",
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sit' translates to?",
+      "target": "to be",
+      "choices": ["to sit", "to be", "to place", "to allow"],
+      "reveal": null,
+      "hints": {
+        "to sit": "'to sit' is 'sedere' — 'sit' is the subjunctive of 'esse' (to be)",
+        "to place": "'to place' is 'ponere' or 'sinere' — 'sit' comes from 'esse'",
+        "to allow": "'to allow' is 'sinere' — 'sit' is the present subjunctive of 'esse'"
+      }
+    },
+    {
+      "prompt": "What mood is 'sit'?",
+      "target": "Subjunctive",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "sit", "gloss": "is (subjunctive)" },
+      "hints": {
+        "Indicative": "Indicative present 3rd person of 'esse' would be 'est' — 'sit' has the subjunctive vowel",
+        "Imperative": "Imperative of 'esse' would be 'es' (sg.) or 'este' (pl.) — 'sit' is subjunctive",
+        "Infinitive": "Infinitive of 'esse' is 'esse' — 'sit' is a conjugated subjunctive form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "sedeo, sedere, sedi, sessum", "sino, sinere, sivi, situm", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "sedeo, sedere, sedi, sessum": "These are the principal parts of 'sedere' (to sit)",
+        "sino, sinere, sivi, situm": "These are the principal parts of 'sinere' (to allow)",
+        "sto, stare, steti, statum": "These are the principal parts of 'stare' (to stand)"
+      }
+    },
+    {
+      "prompt": "What does 'nemo' mean?",
+      "target": "no one",
+      "choices": ["everyone", "no one", "someone", "anyone"],
+      "reveal": { "word": "nemo", "gloss": "no one" },
+      "hints": {
+        "everyone": "'everyone' is 'omnes' — 'nemo' means 'no one'",
+        "someone": "'someone' is 'aliquis' — 'nemo' is negative, meaning 'no one'",
+        "anyone": "'anyone' is 'quisquam' — 'nemo' is the definite negative 'no one'"
+      }
+    },
+    {
+      "prompt": "What case is 'contentus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "contentus", "gloss": "content / satisfied" },
+      "hints": {
+        "Genitive": "Genitive of 'contentus' would be 'contenti' — 'contentus' is the nominative form",
+        "Accusative": "Accusative of 'contentus' would be 'contentum' — 'contentus' is nominative, predicate adjective",
+        "Ablative": "Ablative of 'contentus' would be 'contento' — 'contentus' is the nominative form"
+      }
+    },
+    {
+      "prompt": "What is 'Qui' functioning as here?",
+      "target": "Interrogative adverb meaning 'how'",
+      "choices": ["Relative pronoun meaning 'who'", "Interrogative adverb meaning 'how'", "Indefinite pronoun meaning 'anyone'", "Conjunction meaning 'because'"],
+      "reveal": { "word": "Qui", "gloss": "how" },
+      "hints": {
+        "Relative pronoun meaning 'who'": "'qui' as relative pronoun introduces a relative clause — here it begins a question meaning 'how'",
+        "Indefinite pronoun meaning 'anyone'": "'qui' as indefinite means 'anyone' after 'si/ne/num' — here it is interrogative",
+        "Conjunction meaning 'because'": "'qui' is not used as a conjunction — here it is an interrogative adverb"
+      }
+    }
+  ],
+  "translation": "How is it that no one is content"
+}

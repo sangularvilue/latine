@@ -1,0 +1,119 @@
+{
+  "id": "ovid-met-1-1",
+  "source": "Ovid",
+  "reference": "Metamorphoses I.1",
+  "latin": ["In", "nova", "fert", "animus", "mutatas", "formas"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "fert",
+      "choices": ["In", "nova", "fert", "animus"],
+      "reveal": null,
+      "hints": {
+        "In": "'In' is a preposition governing 'nova'",
+        "nova": "'nova' is an adjective meaning 'new'",
+        "animus": "'animus' is a noun — the subject of the sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fert' translates to?",
+      "target": "to carry / to lead",
+      "choices": ["to carry / to lead", "to strike", "to be", "to make"],
+      "reveal": null,
+      "hints": {
+        "to strike": "'to strike' is 'ferire' — 'fert' comes from 'ferre'",
+        "to be": "'to be' is 'esse' — 'fert' comes from 'ferre'",
+        "to make": "'to make' is 'facere' — 'fert' comes from 'ferre'"
+      }
+    },
+    {
+      "prompt": "What tense is 'fert'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "fert", "gloss": "leads/carries" },
+      "hints": {
+        "Imperfect": "Imperfect of 'ferre' would be 'ferebat'",
+        "Perfect": "Perfect of 'ferre' would be 'tulit'",
+        "Future": "Future of 'ferre' would be 'feret'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ferre'?",
+      "target": "fero, ferre, tuli, latum",
+      "choices": ["fero, ferre, tuli, latum", "ferio, ferire, ferivi, feritum", "sum, esse, fui, futurum", "facio, facere, feci, factum"],
+      "reveal": null,
+      "hints": {
+        "ferio, ferire, ferivi, feritum": "These would be the parts of 'ferire' (to strike) — 'ferre' is highly irregular",
+        "sum, esse, fui, futurum": "These are the principal parts of 'esse' (to be)",
+        "facio, facere, feci, factum": "These are the principal parts of 'facere' (to make)"
+      }
+    },
+    {
+      "prompt": "Case of 'animus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "animus", "gloss": "my spirit/mind" },
+      "hints": {
+        "Genitive": "Genitive of 'animus' would be 'animi'",
+        "Dative": "Dative of 'animus' would be 'animo'",
+        "Accusative": "Accusative of 'animus' would be 'animum'"
+      }
+    },
+    {
+      "prompt": "Declension of 'animus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'animus' with -us ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied nominatives — 'animus' is a regular 2nd declension -us noun",
+        "4th": "4th declension -us nouns have genitive -us — 'animi' genitive is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What form is 'mutatas'?",
+      "target": "Perfect passive participle",
+      "choices": ["Present active participle", "Perfect passive participle", "Gerundive", "Supine"],
+      "reveal": { "word": "mutatas", "gloss": "changed" },
+      "hints": {
+        "Present active participle": "Present active participle would be 'mutantes' — 'mutatas' has a perfect passive -t- stem",
+        "Gerundive": "Gerundive would be 'mutandas' — 'mutatas' is the 4th principal part stem",
+        "Supine": "The supine would be 'mutatum' — 'mutatas' is accusative plural feminine participle"
+      }
+    },
+    {
+      "prompt": "Case of 'formas'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "formas", "gloss": "forms/shapes" },
+      "hints": {
+        "Nominative": "Nominative plural of 'forma' would be 'formae' — 'formas' with -as is accusative",
+        "Genitive": "Genitive singular of 'forma' would be 'formae'",
+        "Ablative": "Ablative plural of 'forma' would be 'formis'"
+      }
+    },
+    {
+      "prompt": "Declension of 'forma'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'forma' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'forma' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'forma' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case does 'In' govern here?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Nominative": "'in' never governs the nominative",
+        "Dative": "'in' never governs the dative",
+        "Ablative": "'in' + ablative means 'in/within' (location) — here 'in nova' means 'into new (forms)', implying motion/change"
+      }
+    }
+  ],
+  "translation": "My spirit leads me to tell of forms changed into new"
+}

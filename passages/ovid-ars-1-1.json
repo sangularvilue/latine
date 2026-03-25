@@ -1,0 +1,108 @@
+{
+  "id": "ovid-ars-1-1",
+  "source": "Ovid",
+  "reference": "Ars Amatoria I.1",
+  "latin": ["Arma", "gravi", "numero", "violentaque", "bella"],
+  "steps": [
+    {
+      "prompt": "Is there a finite verb in this sentence?",
+      "target": "No — this is a noun phrase (the verb comes later in the poem)",
+      "choices": ["Yes — 'Arma' is a verb", "No — this is a noun phrase (the verb comes later in the poem)", "Yes — 'gravi' is a verb", "Yes — 'bella' is a verb"],
+      "reveal": null,
+      "hints": {
+        "Yes — 'Arma' is a verb": "'Arma' is a neuter plural noun meaning 'arms/weapons'",
+        "Yes — 'gravi' is a verb": "'gravi' is an adjective in the ablative case meaning 'heavy'",
+        "Yes — 'bella' is a verb": "'bella' is a neuter plural noun meaning 'wars' (not from 'bellare')"
+      }
+    },
+    {
+      "prompt": "What case is 'Arma'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "Arma", "gloss": "arms / weapons" },
+      "hints": {
+        "Nominative": "While 'arma' could be nominative plural neuter, here it is the object echoing Vergil's opening",
+        "Genitive": "'arma' has no genitive form ending in -a — genitive plural would be 'armorum'",
+        "Ablative": "Ablative plural of 'arma' would be 'armis' — 'arma' is nominative or accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'arma, armorum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive plural in -arum — 'armorum' ends in -orum",
+        "3rd declension": "3rd declension nouns have genitive plural in -um/-ium — 'armorum' ends in -orum",
+        "4th declension": "4th declension nouns have genitive plural in -uum — 'armorum' ends in -orum"
+      }
+    },
+    {
+      "prompt": "What case is 'gravi'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "gravi", "gloss": "heavy / serious" },
+      "hints": {
+        "Nominative": "Nominative of 'gravis' is 'gravis' — 'gravi' has the -i ablative ending",
+        "Genitive": "Genitive of 'gravis' is 'gravis' — 'gravi' has the -i ablative ending for 3rd decl. adjectives",
+        "Dative": "Dative of 'gravis' would also be 'gravi', but here it modifies ablative 'numero'"
+      }
+    },
+    {
+      "prompt": "What case is 'numero'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "numero", "gloss": "in meter / rhythm" },
+      "hints": {
+        "Nominative": "Nominative of 'numerus' is 'numerus' — 'numero' has the -o ablative ending",
+        "Genitive": "Genitive of 'numerus' would be 'numeri' — 'numero' ends in -o",
+        "Dative": "While dative of 'numerus' is also 'numero', the context of 'in heavy meter' indicates ablative of means"
+      }
+    },
+    {
+      "prompt": "What declension is 'numerus, numeri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'numeri' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'numeri' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'numeri' ends in -i"
+      }
+    },
+    {
+      "prompt": "The '-que' in 'violentaque' means?",
+      "target": "and",
+      "choices": ["or", "and", "but", "nor"],
+      "reveal": null,
+      "hints": {
+        "or": "'or' in Latin is 'vel' or 'aut' — '-que' is an enclitic meaning 'and'",
+        "but": "'but' in Latin is 'sed' or 'autem' — '-que' is an enclitic meaning 'and'",
+        "nor": "'nor' in Latin is 'neque' or 'nec' — '-que' is an enclitic meaning 'and'"
+      }
+    },
+    {
+      "prompt": "What case is 'bella'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "bella", "gloss": "wars" },
+      "hints": {
+        "Nominative": "While 'bella' could be nominative neuter plural, here it parallels 'arma' as an object",
+        "Genitive": "Genitive of 'bellum' would be 'belli' (sg.) or 'bellorum' (pl.) — 'bella' is nom./acc. plural",
+        "Ablative": "Ablative plural of 'bellum' would be 'bellis' — 'bella' is the accusative plural neuter"
+      }
+    },
+    {
+      "prompt": "What declension is 'bellum, belli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'belli' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'belli' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'belli' ends in -i"
+      }
+    }
+  ],
+  "translation": "Arms in heavy meter and violent wars"
+}

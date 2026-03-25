@@ -1,0 +1,97 @@
+{
+  "id": "caesar-bg-1-1",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.1",
+  "latin": ["Gallia", "est", "omnis", "divisa"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "est",
+      "choices": ["Gallia", "est", "omnis", "divisa"],
+      "reveal": null,
+      "hints": {
+        "Gallia": "'Gallia' is a proper noun — the subject of the sentence",
+        "omnis": "'omnis' is an adjective meaning 'all/every'",
+        "divisa": "'divisa' is a participle, not the main finite verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to eat", "to be", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere/esse' — 'est' here comes from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'est' comes from 'esse'",
+        "to stand": "'to stand' is 'stare' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Imperfect": "Imperfect of 'esse' would be 'erat'",
+        "Perfect": "Perfect of 'esse' would be 'fuit'",
+        "Future": "Future of 'esse' would be 'erit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "edo, edere, edi, esum", "sto, stare, steti, statum", "eo, ire, ii, itum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the principal parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the principal parts of 'ire' (to go)"
+      }
+    },
+    {
+      "prompt": "What form is 'divisa'?",
+      "target": "Perfect passive participle",
+      "choices": ["Present active participle", "Perfect passive participle", "Future active participle", "Gerundive"],
+      "reveal": { "word": "divisa", "gloss": "divided" },
+      "hints": {
+        "Present active participle": "Present active participle would be 'dividens' — 'divisa' has the -a ending of a perfect passive participle",
+        "Future active participle": "Future active participle would be 'divisura'",
+        "Gerundive": "Gerundive would be 'dividenda' — 'divisa' is the 4th principal part stem"
+      }
+    },
+    {
+      "prompt": "Case of 'Gallia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Ablative", "Vocative"],
+      "reveal": { "word": "Gallia", "gloss": "Gaul" },
+      "hints": {
+        "Genitive": "Genitive of 'Gallia' would be 'Galliae'",
+        "Ablative": "Ablative of 'Gallia' would be 'Gallia' (same form), but it's the subject here",
+        "Vocative": "Caesar is not addressing Gaul — he's describing it"
+      }
+    },
+    {
+      "prompt": "Declension of 'Gallia'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'Gallia' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'Gallia' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'Gallia' is 1st declension"
+      }
+    },
+    {
+      "prompt": "Case of 'omnis'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "omnis", "gloss": "all/whole" },
+      "hints": {
+        "Genitive": "'omnis' can be genitive singular, but here it agrees with 'Gallia' as nominative",
+        "Dative": "Dative of 'omnis' would be 'omni'",
+        "Accusative": "Accusative feminine singular would be 'omnem'"
+      }
+    }
+  ],
+  "translation": "All Gaul is divided"
+}

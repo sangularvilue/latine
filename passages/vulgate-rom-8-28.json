@@ -1,0 +1,97 @@
+{
+  "id": "vulgate-rom-8-28",
+  "source": "Vulgate",
+  "reference": "Romani 8:28",
+  "latin": ["Diligentibus", "Deum", "omnia", "cooperantur"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "cooperantur",
+      "choices": ["Diligentibus", "Deum", "omnia", "cooperantur"],
+      "reveal": null,
+      "hints": {
+        "Diligentibus": "'Diligentibus' is a present participle in the dative — 'for those who love'",
+        "Deum": "'Deum' is a noun — the object of the participle",
+        "omnia": "'omnia' is a pronoun/adjective meaning 'all things' — the subject"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cooperantur' translates to?",
+      "target": "to work together",
+      "choices": ["to work together", "to cover", "to cooperate against", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to cover": "'to cover' is 'cooperire' — 'cooperantur' comes from 'cooperari'",
+        "to cooperate against": "'cooperantur' means to work together positively, not against",
+        "to gather": "'to gather' is 'colligere' — 'cooperantur' comes from 'cooperari'"
+      }
+    },
+    {
+      "prompt": "What tense is 'cooperantur'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "cooperantur", "gloss": "work together" },
+      "hints": {
+        "Imperfect": "Imperfect would be 'cooperabantur' — 'cooperantur' lacks the -ba- marker",
+        "Perfect": "Perfect deponent would be 'cooperati sunt'",
+        "Future": "Future would be 'cooperabuntur'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cooperari'?",
+      "target": "cooperor, cooperari, cooperatus sum",
+      "choices": ["cooperor, cooperari, cooperatus sum", "operor, operari, operatus sum", "labor, labi, lapsus sum", "conor, conari, conatus sum"],
+      "reveal": null,
+      "hints": {
+        "operor, operari, operatus sum": "These are the principal parts of 'operari' (to work) — the base verb without the co- prefix",
+        "labor, labi, lapsus sum": "These are the principal parts of 'labi' (to slip/fall), a different deponent",
+        "conor, conari, conatus sum": "These are the principal parts of 'conari' (to try), a different deponent"
+      }
+    },
+    {
+      "prompt": "What form is 'Diligentibus'?",
+      "target": "Present active participle",
+      "choices": ["Present active participle", "Perfect passive participle", "Gerundive", "Finite verb"],
+      "reveal": null,
+      "hints": {
+        "Perfect passive participle": "Perfect passive participle of 'diligere' would be 'dilectis' in dative plural",
+        "Gerundive": "Gerundive of 'diligere' would be 'diligendis' in dative plural",
+        "Finite verb": "'Diligentibus' has a participial -nt- stem with a dative plural ending"
+      }
+    },
+    {
+      "prompt": "Case of 'Diligentibus'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Diligentibus", "gloss": "for those who love" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'diligentes'",
+        "Genitive": "Genitive plural would be 'diligentium'",
+        "Ablative": "'Diligentibus' could be ablative plural (same form), but the dative of advantage fits — all things work together for those who love God"
+      }
+    },
+    {
+      "prompt": "Case of 'Deum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "Deum", "gloss": "God" },
+      "hints": {
+        "Nominative": "Nominative would be 'Deus' — 'Deum' with -um ending is accusative",
+        "Dative": "Dative of 'Deus' would be 'Deo'",
+        "Ablative": "Ablative of 'Deus' would be 'Deo'"
+      }
+    },
+    {
+      "prompt": "Case of 'omnia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "omnia", "gloss": "all things" },
+      "hints": {
+        "Accusative": "'omnia' could be accusative neuter plural, but here it's the subject of 'cooperantur'",
+        "Genitive": "Genitive plural would be 'omnium'",
+        "Ablative": "Ablative plural would be 'omnibus'"
+      }
+    }
+  ],
+  "translation": "All things work together for those who love God"
+}

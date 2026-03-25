@@ -1,0 +1,108 @@
+{
+  "id": "vulgate-ps-119-105",
+  "source": "Vulgate",
+  "reference": "Psalmus 119:105",
+  "latin": ["Lucerna", "pedibus", "meis", "verbum", "tuum"],
+  "steps": [
+    {
+      "prompt": "Which word is the subject?",
+      "target": "verbum",
+      "choices": ["Lucerna", "pedibus", "verbum", "tuum"],
+      "reveal": null,
+      "hints": {
+        "Lucerna": "'Lucerna' is the predicate nominative — 'your word' IS 'a lamp'",
+        "pedibus": "'pedibus' is dative/ablative plural — it cannot be the subject",
+        "tuum": "'tuum' is a possessive adjective modifying 'verbum'"
+      }
+    },
+    {
+      "prompt": "Case of 'Lucerna'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Ablative", "Vocative"],
+      "reveal": { "word": "Lucerna", "gloss": "a lamp" },
+      "hints": {
+        "Genitive": "Genitive of 'lucerna' would be 'lucernae'",
+        "Ablative": "Ablative of 'lucerna' would be 'lucerna' (same form), but here it's predicate nominative",
+        "Vocative": "Vocative of 'lucerna' would be 'lucerna' (same form), but the speaker isn't addressing a lamp"
+      }
+    },
+    {
+      "prompt": "Declension of 'lucerna'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'lucerna' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'lucerna' is a typical 1st declension -a noun",
+        "4th": "4th declension nouns end in -us/-u — 'lucerna' is 1st declension"
+      }
+    },
+    {
+      "prompt": "Case of 'pedibus'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "pedibus", "gloss": "to my feet" },
+      "hints": {
+        "Nominative": "Nominative plural of 'pes' would be 'pedes'",
+        "Genitive": "Genitive plural of 'pes' would be 'pedum'",
+        "Ablative": "'pedibus' could be ablative plural (same form), but dative of advantage fits — a lamp for my feet"
+      }
+    },
+    {
+      "prompt": "Declension of 'pes'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'pes' with genitive 'pedis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'pes' with consonant stem 'ped-' is 3rd declension",
+        "4th": "4th declension nouns end in -us with genitive -us — 'pes' has genitive 'pedis'"
+      }
+    },
+    {
+      "prompt": "Case of 'meis'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "meis", "gloss": "my" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'mei' (masc.) — 'meis' is dative/ablative plural",
+        "Genitive": "Genitive plural would be 'meorum'",
+        "Ablative": "'meis' could be ablative, but it agrees with 'pedibus' which is dative here"
+      }
+    },
+    {
+      "prompt": "Case of 'verbum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "verbum", "gloss": "word" },
+      "hints": {
+        "Accusative": "'verbum' could be accusative (same form), but it's the subject — your word IS a lamp",
+        "Genitive": "Genitive of 'verbum' would be 'verbi'",
+        "Ablative": "Ablative of 'verbum' would be 'verbo'"
+      }
+    },
+    {
+      "prompt": "Declension of 'verbum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'verbum' with -um ending is 2nd declension neuter",
+        "3rd": "3rd declension nouns have varied endings — '-um' is characteristic of 2nd declension neuter",
+        "4th": "4th declension nouns end in -us/-u — 'verbum' is 2nd declension neuter"
+      }
+    },
+    {
+      "prompt": "Case of 'tuum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "tuum", "gloss": "your" },
+      "hints": {
+        "Accusative": "'tuum' neuter nom. and acc. are identical, but it agrees with subject 'verbum' — nominative",
+        "Genitive": "Genitive would be 'tui'",
+        "Ablative": "Ablative neuter would be 'tuo'"
+      }
+    }
+  ],
+  "translation": "Your word is a lamp to my feet"
+}

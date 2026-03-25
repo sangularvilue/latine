@@ -1,0 +1,108 @@
+{
+  "id": "vulgate-ps-51-10",
+  "source": "Vulgate",
+  "reference": "Psalmus 51:10",
+  "latin": ["Cor", "mundum", "crea", "in", "me"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "crea",
+      "choices": ["Cor", "mundum", "crea", "in"],
+      "reveal": null,
+      "hints": {
+        "Cor": "'Cor' is a noun meaning 'heart'",
+        "mundum": "'mundum' is an adjective meaning 'clean/pure'",
+        "in": "'in' is a preposition"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'crea' translates to?",
+      "target": "to create",
+      "choices": ["to believe", "to create", "to grow", "to burn"],
+      "reveal": null,
+      "hints": {
+        "to believe": "'to believe' is 'credere' — 'crea' comes from 'creare'",
+        "to grow": "'to grow' is 'crescere' — 'crea' comes from 'creare'",
+        "to burn": "'to burn' is 'cremare' — 'crea' comes from 'creare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'crea'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "crea", "gloss": "create!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'creat' — 'crea' is a command form",
+        "Subjunctive": "Subjunctive present would be 'creet' — 'crea' is a direct imperative",
+        "Infinitive": "The infinitive would be 'creare' — 'crea' is 2nd person singular imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'creare'?",
+      "target": "creo, creare, creavi, creatum",
+      "choices": ["creo, creare, creavi, creatum", "credo, credere, credidi, creditum", "cresco, crescere, crevi, cretum", "cerno, cernere, crevi, cretum"],
+      "reveal": null,
+      "hints": {
+        "credo, credere, credidi, creditum": "These are the principal parts of 'credere' (to believe), a 3rd conjugation verb",
+        "cresco, crescere, crevi, cretum": "These are the principal parts of 'crescere' (to grow), a 3rd conjugation verb",
+        "cerno, cernere, crevi, cretum": "These are the principal parts of 'cernere' (to perceive/decide)"
+      }
+    },
+    {
+      "prompt": "Case of 'Cor'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "Cor", "gloss": "heart" },
+      "hints": {
+        "Nominative": "'Cor' can be nominative, but here it's the direct object of 'crea' — create a heart",
+        "Genitive": "Genitive of 'cor' would be 'cordis'",
+        "Ablative": "Ablative of 'cor' would be 'corde'"
+      }
+    },
+    {
+      "prompt": "Declension of 'cor'?",
+      "target": "3rd",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension neuter nouns end in -um — 'cor' with genitive 'cordis' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'cor' with genitive 'cordis' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'cor' is a 3rd declension neuter noun"
+      }
+    },
+    {
+      "prompt": "Case of 'mundum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "mundum", "gloss": "clean/pure" },
+      "hints": {
+        "Nominative": "Nominative neuter would also be 'mundum', but it agrees with 'Cor' as accusative object",
+        "Genitive": "Genitive plural would be 'mundorum'",
+        "Ablative": "Ablative neuter would be 'mundo'"
+      }
+    },
+    {
+      "prompt": "What case does 'in' govern here?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Nominative": "'in' never governs the nominative",
+        "Accusative": "'in' + accusative means motion toward — here 'in me' means 'within me' (location)",
+        "Dative": "'in' never governs the dative"
+      }
+    },
+    {
+      "prompt": "Case of 'me'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "me", "gloss": "in me" },
+      "hints": {
+        "Nominative": "Nominative of the 1st person pronoun is 'ego'",
+        "Accusative": "'me' can be accusative, but governed by 'in' for location, it's ablative here",
+        "Dative": "Dative of the 1st person pronoun is 'mihi'"
+      }
+    }
+  ],
+  "translation": "Create a clean heart in me"
+}

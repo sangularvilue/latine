@@ -1,0 +1,108 @@
+{
+  "id": "vulgate-lk-1-28",
+  "source": "Vulgate",
+  "reference": "Lucas 1:28",
+  "latin": ["Ave", "gratia", "plena", "Dominus", "tecum"],
+  "steps": [
+    {
+      "prompt": "Which word is a verb form?",
+      "target": "Ave",
+      "choices": ["Ave", "gratia", "plena", "Dominus"],
+      "reveal": null,
+      "hints": {
+        "gratia": "'gratia' is a noun meaning 'grace' — it is in the vocative/nominative",
+        "plena": "'plena' is an adjective meaning 'full' — it modifies 'gratia'",
+        "Dominus": "'Dominus' is a noun meaning 'the Lord' — it is the subject of the implied 'est'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Ave' translates to?",
+      "target": "to hail / to greet",
+      "choices": ["to have", "to hail / to greet", "to want", "to fly"],
+      "reveal": null,
+      "hints": {
+        "to have": "'to have' is 'habere' — 'Ave' comes from 'avere' (to hail/be well)",
+        "to want": "'to want' is 'velle' — 'Ave' comes from 'avere'",
+        "to fly": "'to fly' is 'volare' or 'avolare' — 'Ave' comes from 'avere' (to hail)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Ave'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Ave", "gloss": "hail!" },
+      "hints": {
+        "Indicative": "'Ave' is a greeting/command form — the indicative would be 'aves'",
+        "Subjunctive": "'Ave' is a direct greeting — subjunctive would be 'aveas'",
+        "Infinitive": "Infinitive would be 'avere' — 'Ave' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'avere'?",
+      "target": "aveo, avere, —, —",
+      "choices": ["aveo, avere, —, —", "habeo, habere, habui, habitum", "caveo, cavere, cavi, cautum", "faveo, favere, favi, fautum"],
+      "reveal": null,
+      "hints": {
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habere' (to have)",
+        "caveo, cavere, cavi, cautum": "These are the principal parts of 'cavere' (to beware)",
+        "faveo, favere, favi, fautum": "These are the principal parts of 'favere' (to favor)"
+      }
+    },
+    {
+      "prompt": "What case is 'gratia'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Ablative", "Vocative"],
+      "reveal": { "word": "gratia", "gloss": "with grace" },
+      "hints": {
+        "Nominative": "While 'gratia' could be nominative, here it is ablative of respect — 'full with/of grace'",
+        "Genitive": "Genitive of 'gratia' would be 'gratiae' — 'gratia' is the ablative form (ablative = nominative in 1st decl.)",
+        "Vocative": "Vocative would be 'gratia' (same form), but 'gratia' here is governed by 'plena' (full of)"
+      }
+    },
+    {
+      "prompt": "What declension is 'gratia, gratiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'gratiae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'gratiae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'gratiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What does 'plena' mean and what does it govern?",
+      "target": "'full' — governs the ablative",
+      "choices": ["'full' — governs the genitive", "'full' — governs the ablative", "'plain' — governs the dative", "'full' — governs the accusative"],
+      "reveal": { "word": "plena", "gloss": "full" },
+      "hints": {
+        "'full' — governs the genitive": "While classical Latin 'plenus' can take genitive, in this Vulgate usage 'plena' takes the ablative 'gratia'",
+        "'plain' — governs the dative": "'plena' means 'full', not 'plain' — and it governs the ablative here",
+        "'full' — governs the accusative": "'plena' does not govern the accusative — it takes the ablative 'gratia'"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Dominus", "gloss": "the Lord" },
+      "hints": {
+        "Genitive": "Genitive of 'Dominus' would be 'Domini' — 'Dominus' is the nominative form",
+        "Accusative": "Accusative of 'Dominus' would be 'Dominum' — 'Dominus' is nominative, subject of implied 'est'",
+        "Vocative": "Vocative of 'Dominus' would be 'Domine' — 'Dominus' is the subject here"
+      }
+    },
+    {
+      "prompt": "What does 'tecum' break down to?",
+      "target": "'te' + 'cum' (with you)",
+      "choices": ["'te' + 'cum' (with you)", "'tec' + 'um' (your roof)", "'te' + 'cum' (when you)", "'tec' + 'um' (your place)"],
+      "reveal": { "word": "tecum", "gloss": "with you" },
+      "hints": {
+        "'tec' + 'um' (your roof)": "'tecum' is 'cum' (with) attached to 'te' (you) — a standard prepositional form",
+        "'te' + 'cum' (when you)": "'cum' here means 'with', not 'when' — 'tecum' = 'with you'",
+        "'tec' + 'um' (your place)": "'tecum' is the preposition 'cum' suffixed to the pronoun 'te'"
+      }
+    }
+  ],
+  "translation": "Hail, full of grace, the Lord is with you"
+}

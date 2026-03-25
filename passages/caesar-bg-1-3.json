@@ -1,0 +1,108 @@
+{
+  "id": "caesar-bg-1-3",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.3",
+  "latin": ["Apud", "Helvetios", "nobilissimus", "fuit", "Orgetorix"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "fuit",
+      "choices": ["Apud", "Helvetios", "fuit", "Orgetorix"],
+      "reveal": null,
+      "hints": {
+        "Apud": "'Apud' is a preposition meaning 'among' — it governs the accusative",
+        "Helvetios": "'Helvetios' is a proper noun in the accusative plural — the object of 'apud'",
+        "Orgetorix": "'Orgetorix' is a proper noun — the subject of this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fuit' translates to?",
+      "target": "to be",
+      "choices": ["to flee", "to be", "to pour", "to become"],
+      "reveal": null,
+      "hints": {
+        "to flee": "'to flee' is 'fugere' — 'fuit' comes from 'esse' (to be)",
+        "to pour": "'to pour' is 'fundere' — 'fuit' comes from 'esse' (to be)",
+        "to become": "'to become' is 'fieri' — 'fuit' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'fuit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "fuit", "gloss": "was" },
+      "hints": {
+        "Present": "Present of 'esse' 3rd person would be 'est' — 'fuit' uses the perfect stem 'fu-'",
+        "Imperfect": "Imperfect of 'esse' 3rd person would be 'erat' — 'fuit' uses the perfect stem 'fu-'",
+        "Pluperfect": "Pluperfect of 'esse' 3rd person would be 'fuerat' — 'fuit' lacks the -era- marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "fio, fieri, factus sum, —", "eo, ire, ii, itum", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fieri' (to become/be made)",
+        "eo, ire, ii, itum": "These are the principal parts of 'ire' (to go)",
+        "possum, posse, potui, —": "These are the principal parts of 'posse' (to be able)"
+      }
+    },
+    {
+      "prompt": "What case is 'Helvetios'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "Helvetios", "gloss": "the Helvetii" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'Helvetii' — 'Helvetios' has the -os accusative plural ending",
+        "Genitive": "Genitive plural would be 'Helvetiorum' — 'Helvetios' has the -os accusative ending",
+        "Ablative": "Ablative plural would be 'Helvetiis' — 'Helvetios' has the -os accusative ending"
+      }
+    },
+    {
+      "prompt": "Why is 'Helvetios' accusative?",
+      "target": "It is governed by the preposition 'apud'",
+      "choices": ["It is the direct object of 'fuit'", "It is governed by the preposition 'apud'", "It is the subject of the sentence", "It is in apposition with 'Orgetorix'"],
+      "reveal": null,
+      "hints": {
+        "It is the direct object of 'fuit'": "'fuit' (was) is intransitive and does not take a direct object",
+        "It is the subject of the sentence": "The subject is 'Orgetorix' — 'Helvetios' is governed by the preposition 'apud'",
+        "It is in apposition with 'Orgetorix'": "Apposition requires the same case — 'Orgetorix' is nominative, 'Helvetios' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'nobilissimus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "nobilissimus", "gloss": "the noblest" },
+      "hints": {
+        "Genitive": "Genitive of 'nobilissimus' would be 'nobilissimi' — 'nobilissimus' is the nominative form",
+        "Accusative": "Accusative of 'nobilissimus' would be 'nobilissimum' — 'nobilissimus' is nominative",
+        "Ablative": "Ablative of 'nobilissimus' would be 'nobilissimo' — 'nobilissimus' is nominative"
+      }
+    },
+    {
+      "prompt": "What degree is 'nobilissimus'?",
+      "target": "Superlative",
+      "choices": ["Positive", "Comparative", "Superlative", "Diminutive"],
+      "reveal": null,
+      "hints": {
+        "Positive": "The positive form would be 'nobilis' — the -issimus suffix marks the superlative",
+        "Comparative": "The comparative form would be 'nobilior' — the -issimus suffix marks the superlative",
+        "Diminutive": "Diminutive is not a degree of adjectives — the -issimus suffix marks the superlative"
+      }
+    },
+    {
+      "prompt": "What case is 'Orgetorix'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "Orgetorix", "gloss": "Orgetorix (a Helvetian leader)" },
+      "hints": {
+        "Genitive": "Genitive of 'Orgetorix' would be 'Orgetorigis' — 'Orgetorix' is the nominative form",
+        "Accusative": "Accusative of 'Orgetorix' would be 'Orgetorigem' — 'Orgetorix' is nominative as the subject",
+        "Ablative": "Ablative of 'Orgetorix' would be 'Orgetorige' — 'Orgetorix' is the nominative form"
+      }
+    }
+  ],
+  "translation": "Among the Helvetii Orgetorix was the noblest"
+}

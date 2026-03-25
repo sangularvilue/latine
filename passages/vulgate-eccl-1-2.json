@@ -1,0 +1,86 @@
+{
+  "id": "vulgate-eccl-1-2",
+  "source": "Vulgate",
+  "reference": "Ecclesiastes 1:2",
+  "latin": ["Vanitas", "vanitatum", "omnia", "vanitas"],
+  "steps": [
+    {
+      "prompt": "Case of the first 'Vanitas'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "Vanitas", "gloss": "vanity" },
+      "hints": {
+        "Genitive": "Genitive of 'vanitas' would be 'vanitatis'",
+        "Dative": "Dative of 'vanitas' would be 'vanitati'",
+        "Accusative": "Accusative of 'vanitas' would be 'vanitatem'"
+      }
+    },
+    {
+      "prompt": "Declension of 'vanitas'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'vanitas' with genitive 'vanitatis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'vanitas' with -atis genitive is 3rd declension",
+        "5th": "5th declension nouns end in -es with genitive -ei — 'vanitas' has genitive 'vanitatis'"
+      }
+    },
+    {
+      "prompt": "Case of 'vanitatum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "vanitatum", "gloss": "of vanities" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'vanitates' — 'vanitatum' with -um ending is genitive plural",
+        "Accusative": "Accusative plural would be 'vanitates' — 'vanitatum' is genitive plural",
+        "Ablative": "Ablative plural would be 'vanitatibus'"
+      }
+    },
+    {
+      "prompt": "What construction is 'Vanitas vanitatum'?",
+      "target": "Genitive of the whole (superlative Hebraism)",
+      "choices": ["Ablative of means", "Genitive of the whole (superlative Hebraism)", "Dative of reference", "Ablative absolute"],
+      "reveal": null,
+      "hints": {
+        "Ablative of means": "Ablative of means uses ablative case — 'vanitatum' is genitive, forming a Hebrew superlative",
+        "Dative of reference": "Dative of reference uses dative case — 'vanitatum' is genitive plural",
+        "Ablative absolute": "Ablative absolute requires a participle and noun in ablative — this is a genitive construction"
+      }
+    },
+    {
+      "prompt": "Case of 'omnia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "omnia", "gloss": "all things" },
+      "hints": {
+        "Accusative": "'omnia' could be accusative neuter plural, but here it's the subject of the implied 'est/sunt'",
+        "Genitive": "Genitive plural would be 'omnium'",
+        "Ablative": "Ablative plural would be 'omnibus'"
+      }
+    },
+    {
+      "prompt": "What verb is implied in this sentence?",
+      "target": "est / sunt (is / are)",
+      "choices": ["habet (has)", "est / sunt (is / are)", "facit (makes)", "venit (comes)"],
+      "reveal": null,
+      "hints": {
+        "habet (has)": "The sentence equates 'omnia' with 'vanitas' — the copula 'est/sunt' is implied",
+        "facit (makes)": "The sentence is a statement of identity, not action — 'est' is the implied copula",
+        "venit (comes)": "This is an equation: all things = vanity — requiring the copula 'est'"
+      }
+    },
+    {
+      "prompt": "Case of the final 'vanitas'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "vanitas", "gloss": "vanity" },
+      "hints": {
+        "Genitive": "Genitive would be 'vanitatis' — 'vanitas' is predicate nominative",
+        "Dative": "Dative would be 'vanitati'",
+        "Accusative": "Accusative would be 'vanitatem' — 'vanitas' is a predicate nominative"
+      }
+    }
+  ],
+  "translation": "Vanity of vanities, all is vanity"
+}

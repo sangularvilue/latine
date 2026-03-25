@@ -1,0 +1,75 @@
+{
+  "id": "aeneid-6-126",
+  "source": "Aeneid",
+  "reference": "Aeneid VI.126",
+  "latin": ["Facilis", "descensus", "Averno"],
+  "steps": [
+    {
+      "prompt": "Is there a finite verb in this sentence?",
+      "target": "No — the verb 'est' is implied",
+      "choices": ["Yes — 'Facilis' is a verb", "Yes — 'descensus' is a verb", "No — the verb 'est' is implied", "Yes — 'Averno' is a verb"],
+      "reveal": null,
+      "hints": {
+        "Yes — 'Facilis' is a verb": "'Facilis' is an adjective meaning 'easy' — it modifies 'descensus'",
+        "Yes — 'descensus' is a verb": "'descensus' is a 4th declension noun meaning 'descent' — not a verb",
+        "Yes — 'Averno' is a verb": "'Averno' is a proper noun (Avernus) in the dative/ablative — not a verb"
+      }
+    },
+    {
+      "prompt": "What case is 'Facilis'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "Facilis", "gloss": "easy" },
+      "hints": {
+        "Genitive": "Genitive of 'facilis' would be 'facilis' (same form), but here it agrees with nominative 'descensus'",
+        "Accusative": "Accusative of 'facilis' would be 'facilem' — 'Facilis' modifies nominative 'descensus'",
+        "Ablative": "Ablative of 'facilis' would be 'facili' — 'Facilis' modifies nominative 'descensus'"
+      }
+    },
+    {
+      "prompt": "What case is 'descensus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "descensus", "gloss": "descent" },
+      "hints": {
+        "Genitive": "Genitive of 'descensus' (4th decl.) would also be 'descensūs' with a long -ū-, but here it is the subject",
+        "Accusative": "Accusative of 'descensus' (4th decl.) would be 'descensum' — this is the nominative form",
+        "Ablative": "Ablative of 'descensus' (4th decl.) would be 'descensū' — this is the nominative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'descensus, descensūs'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'descensūs' has genitive in -ūs",
+        "2nd declension": "2nd declension nouns ending in -us have genitive in -i — 'descensūs' has genitive in -ūs",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'descensūs' has genitive in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'Averno'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "Averno", "gloss": "to Avernus" },
+      "hints": {
+        "Nominative": "Nominative of 'Avernus' is 'Avernus' — 'Averno' has the -o dative/ablative ending",
+        "Genitive": "Genitive of 'Avernus' would be 'Averni' — 'Averno' ends in -o",
+        "Accusative": "Accusative of 'Avernus' would be 'Avernum' — 'Averno' ends in -o"
+      }
+    },
+    {
+      "prompt": "What declension is 'Avernus, Averni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Averni' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Averni' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Averni' ends in -i"
+      }
+    }
+  ],
+  "translation": "Easy is the descent to Avernus"
+}

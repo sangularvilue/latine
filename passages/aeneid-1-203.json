@@ -1,0 +1,97 @@
+{
+  "id": "aeneid-1-203",
+  "source": "Aeneid",
+  "reference": "Aeneid I.203",
+  "latin": ["Forsan", "et", "haec", "olim", "meminisse", "iuvabit"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "iuvabit",
+      "choices": ["Forsan", "haec", "meminisse", "iuvabit"],
+      "reveal": null,
+      "hints": {
+        "Forsan": "'Forsan' is an adverb meaning 'perhaps'",
+        "haec": "'haec' is a demonstrative pronoun meaning 'these things'",
+        "meminisse": "'meminisse' is an infinitive meaning 'to remember' — it is not the finite verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'iuvabit' translates to?",
+      "target": "to help / to please",
+      "choices": ["to order", "to help / to please", "to judge", "to swear"],
+      "reveal": null,
+      "hints": {
+        "to order": "'to order' is 'iubere' — 'iuvabit' comes from 'iuvare' (to help/please)",
+        "to judge": "'to judge' is 'iudicare' — 'iuvabit' comes from 'iuvare'",
+        "to swear": "'to swear' is 'iurare' — 'iuvabit' comes from 'iuvare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'iuvabit'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "iuvabit", "gloss": "it will help / it will please" },
+      "hints": {
+        "Present": "Present of 'iuvare' 3rd person would be 'iuvat' — 'iuvabit' has the -bi- future marker",
+        "Imperfect": "Imperfect of 'iuvare' would be 'iuvabat' — 'iuvabit' has -bit, the future ending",
+        "Perfect": "Perfect of 'iuvare' would be 'iuvit' — 'iuvabit' has the -bi- future marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iuvare'?",
+      "target": "iuvo, iuvare, iuvi, iutum",
+      "choices": ["iuvo, iuvare, iuvi, iutum", "iubeo, iubere, iussi, iussum", "iungo, iungere, iunxi, iunctum", "iudico, iudicare, iudicavi, iudicatum"],
+      "reveal": null,
+      "hints": {
+        "iubeo, iubere, iussi, iussum": "These are the principal parts of 'iubere' (to order)",
+        "iungo, iungere, iunxi, iunctum": "These are the principal parts of 'iungere' (to join)",
+        "iudico, iudicare, iudicavi, iudicatum": "These are the principal parts of 'iudicare' (to judge)"
+      }
+    },
+    {
+      "prompt": "What does 'meminisse' mean?",
+      "target": "to remember",
+      "choices": ["to remind", "to remember", "to forget", "to think"],
+      "reveal": { "word": "meminisse", "gloss": "to remember" },
+      "hints": {
+        "to remind": "'to remind' is 'admonere' — 'meminisse' is the perfect infinitive of 'memini' (to remember)",
+        "to forget": "'to forget' is 'oblivisci' — 'meminisse' means the opposite: to remember",
+        "to think": "'to think' is 'cogitare' or 'putare' — 'meminisse' specifically means to remember"
+      }
+    },
+    {
+      "prompt": "What is special about 'memini'?",
+      "target": "It is a defective verb — only has perfect-system forms",
+      "choices": ["It is a deponent verb", "It is a defective verb — only has perfect-system forms", "It is an impersonal verb", "It is a semi-deponent verb"],
+      "reveal": null,
+      "hints": {
+        "It is a deponent verb": "Deponent verbs have passive forms with active meaning — 'memini' has active perfect forms with present meaning",
+        "It is an impersonal verb": "Impersonal verbs only appear in 3rd person — 'memini' can be conjugated in all persons",
+        "It is a semi-deponent verb": "Semi-deponents are active in present, passive in perfect — 'memini' only has perfect-stem forms"
+      }
+    },
+    {
+      "prompt": "What case is 'haec'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "haec", "gloss": "these things" },
+      "hints": {
+        "Nominative": "While 'haec' can be nominative feminine singular or neuter plural, here it is the object of 'meminisse'",
+        "Genitive": "Genitive of 'hic' would be 'huius' — 'haec' is nominative or accusative neuter plural",
+        "Ablative": "Ablative of 'hic' neuter plural would be 'his' — 'haec' is accusative neuter plural here"
+      }
+    },
+    {
+      "prompt": "What does 'olim' mean?",
+      "target": "someday / once",
+      "choices": ["always", "someday / once", "never", "now"],
+      "reveal": { "word": "olim", "gloss": "someday" },
+      "hints": {
+        "always": "'always' is 'semper' — 'olim' means 'someday' (future) or 'once' (past)",
+        "never": "'never' is 'numquam' — 'olim' means 'someday' or 'once'",
+        "now": "'now' is 'nunc' — 'olim' refers to a different time, either past or future"
+      }
+    }
+  ],
+  "translation": "Perhaps someday it will help to remember these things"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "horace-odes-3-30",
+  "source": "Horace",
+  "reference": "Odes III.30",
+  "latin": ["Exegi", "monumentum", "aere"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Exegi",
+      "choices": ["Exegi", "monumentum", "aere", "perennius"],
+      "reveal": null,
+      "hints": {
+        "monumentum": "'monumentum' is a noun — the direct object",
+        "aere": "'aere' is a noun in the ablative case",
+        "perennius": "'perennius' is a comparative adjective — it doesn't appear in this excerpt"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Exegi' translates to?",
+      "target": "to complete / to build",
+      "choices": ["to drive out", "to complete / to build", "to need", "to read"],
+      "reveal": null,
+      "hints": {
+        "to drive out": "'to drive out' is 'expellere' — 'Exegi' comes from 'exigere' (to complete/accomplish)",
+        "to need": "'to need' could be 'egere' — but 'Exegi' comes from 'exigere'",
+        "to read": "'to read' is 'legere' — 'Exegi' comes from 'exigere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Exegi'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "Exegi", "gloss": "I have built" },
+      "hints": {
+        "Present": "Present 1st person would be 'exigo' — 'Exegi' has the perfect stem",
+        "Imperfect": "Imperfect 1st person would be 'exigebam'",
+        "Pluperfect": "Pluperfect 1st person would be 'exegeram' — 'Exegi' lacks the -era- marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'exigere'?",
+      "target": "exigo, exigere, exegi, exactum",
+      "choices": ["exigo, exigere, exegi, exactum", "ago, agere, egi, actum", "lego, legere, legi, lectum", "rego, regere, rexi, rectum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the principal parts of 'agere' (to drive/do) — the base verb of 'exigere'",
+        "lego, legere, legi, lectum": "These are the principal parts of 'legere' (to read/gather)",
+        "rego, regere, rexi, rectum": "These are the principal parts of 'regere' (to rule)"
+      }
+    },
+    {
+      "prompt": "Case of 'monumentum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "monumentum", "gloss": "a monument" },
+      "hints": {
+        "Nominative": "'monumentum' could be nominative, but here it's the direct object of 'Exegi'",
+        "Genitive": "Genitive of 'monumentum' would be 'monumenti'",
+        "Ablative": "Ablative of 'monumentum' would be 'monumento'"
+      }
+    },
+    {
+      "prompt": "Declension of 'monumentum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'monumentum' with -um ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied nominatives — '-um' ending is characteristic of 2nd declension neuter",
+        "4th": "4th declension nouns end in -us/-u — 'monumentum' is 2nd declension neuter"
+      }
+    },
+    {
+      "prompt": "Case of 'aere'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "aere", "gloss": "than bronze" },
+      "hints": {
+        "Nominative": "Nominative of 'aes' is 'aes' — 'aere' with -e ending is ablative",
+        "Genitive": "Genitive of 'aes' would be 'aeris'",
+        "Dative": "Dative of 'aes' would be 'aeri'"
+      }
+    },
+    {
+      "prompt": "Declension of 'aes'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'aes' with genitive 'aeris' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'aes' is a 3rd declension neuter noun",
+        "5th": "5th declension nouns end in -es with genitive -ei — 'aes' has genitive 'aeris'"
+      }
+    }
+  ],
+  "translation": "I have built a monument of bronze"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "vulgate-mt-6-9",
+  "source": "Vulgate",
+  "reference": "Matthaeus 6:9",
+  "latin": ["Pater", "noster", "qui", "es", "in", "caelis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "es",
+      "choices": ["Pater", "noster", "es", "caelis"],
+      "reveal": null,
+      "hints": {
+        "Pater": "'Pater' is a noun meaning 'father' — it is the subject",
+        "noster": "'noster' is a possessive adjective meaning 'our'",
+        "caelis": "'caelis' is a noun in the ablative plural meaning 'heavens'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to eat", "to be", "to go", "to say"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' or 'esse' (different verb) — this 'es' comes from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'es' comes from 'esse' (to be)",
+        "to say": "'to say' is 'dicere' — 'es' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'es'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "es", "gloss": "you are" },
+      "hints": {
+        "Imperfect": "Imperfect of 'esse' 2nd person would be 'eras' — 'es' is the present form",
+        "Perfect": "Perfect of 'esse' 2nd person would be 'fuisti' — 'es' is the present form",
+        "Future": "Future of 'esse' 2nd person would be 'eris' — 'es' is the present form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "eo, ire, ii, itum", "do, dare, dedi, datum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the principal parts of 'ire' (to go)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)",
+        "sto, stare, steti, statum": "These are the principal parts of 'stare' (to stand)"
+      }
+    },
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Vocative", "Ablative"],
+      "reveal": { "word": "Pater", "gloss": "Father" },
+      "hints": {
+        "Genitive": "Genitive of 'pater' would be 'patris' — 'Pater' is the nominative form",
+        "Vocative": "While 'Pater' could be vocative (used in address), here it also serves as the subject of the clause",
+        "Ablative": "Ablative of 'pater' would be 'patre' — 'Pater' is the nominative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'pater, patris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'patris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'patris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'patris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'noster'?",
+      "target": "Possessive adjective",
+      "choices": ["Noun", "Possessive adjective", "Adverb", "Conjunction"],
+      "reveal": { "word": "noster", "gloss": "our" },
+      "hints": {
+        "Noun": "'noster' modifies 'Pater' — it is not a noun but an adjective showing possession",
+        "Adverb": "Adverbs modify verbs — 'noster' modifies the noun 'Pater'",
+        "Conjunction": "Conjunctions join words or clauses — 'noster' shows possession"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'qui'?",
+      "target": "Relative pronoun",
+      "choices": ["Interrogative pronoun", "Relative pronoun", "Indefinite pronoun", "Personal pronoun"],
+      "reveal": { "word": "qui", "gloss": "who" },
+      "hints": {
+        "Interrogative pronoun": "'qui' can be interrogative in questions, but here it introduces a relative clause modifying 'Pater'",
+        "Indefinite pronoun": "The indefinite 'qui' means 'anyone' — here 'qui' introduces a relative clause",
+        "Personal pronoun": "Personal pronouns are 'ego', 'tu', 'is' — 'qui' is a relative pronoun"
+      }
+    },
+    {
+      "prompt": "What case is 'caelis'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "caelis", "gloss": "in the heavens" },
+      "hints": {
+        "Nominative": "Nominative plural of 'caelum' would be 'caela' — 'caelis' is dative or ablative plural",
+        "Dative": "While 'caelis' could be dative plural, after 'in' it serves as ablative of place",
+        "Accusative": "Accusative plural of 'caelum' would be 'caelos' — 'caelis' has the -is ablative plural ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'caelum, caeli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'caeli' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'caeli' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'caeli' ends in -i"
+      }
+    }
+  ],
+  "translation": "Our Father who art in heaven"
+}

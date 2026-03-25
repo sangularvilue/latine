@@ -1,0 +1,108 @@
+{
+  "id": "caesar-bg-4-25",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum IV.25",
+  "latin": ["Aquilifer", "in", "hostes", "irruit"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "irruit",
+      "choices": ["Aquilifer", "in", "hostes", "irruit"],
+      "reveal": null,
+      "hints": {
+        "Aquilifer": "'Aquilifer' is a noun — the subject of the sentence",
+        "in": "'in' is a preposition governing 'hostes'",
+        "hostes": "'hostes' is a noun — the object of the preposition"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'irruit' translates to?",
+      "target": "to rush into / to charge",
+      "choices": ["to destroy", "to rush into / to charge", "to irrigate", "to rule"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'to destroy' is 'destruere' — 'irruit' comes from 'irruere'",
+        "to irrigate": "'to irrigate' is 'irrigare' — 'irruit' comes from 'irruere'",
+        "to rule": "'to rule' is 'regere' — 'irruit' comes from 'irruere' (in + ruere)"
+      }
+    },
+    {
+      "prompt": "What tense is 'irruit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "irruit", "gloss": "charged" },
+      "hints": {
+        "Present": "Present of 'irruere' would be 'irruit' (same spelling), but in historical narrative Caesar uses the perfect — the doubled -i- signals perfect",
+        "Imperfect": "Imperfect would be 'irruebat'",
+        "Pluperfect": "Pluperfect would be 'irruerat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'irruere'?",
+      "target": "irruo, irruere, irrui, irrutum",
+      "choices": ["irruo, irruere, irrui, irrutum", "ruo, ruere, rui, rutum", "rumpo, rumpere, rupi, ruptum", "curro, currere, cucurri, cursum"],
+      "reveal": null,
+      "hints": {
+        "ruo, ruere, rui, rutum": "These are the principal parts of 'ruere' (to rush/fall) — the base verb without the ir- prefix",
+        "rumpo, rumpere, rupi, ruptum": "These are the principal parts of 'rumpere' (to break)",
+        "curro, currere, cucurri, cursum": "These are the principal parts of 'currere' (to run)"
+      }
+    },
+    {
+      "prompt": "Case of 'Aquilifer'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "Aquilifer", "gloss": "the eagle-bearer" },
+      "hints": {
+        "Genitive": "Genitive of 'aquilifer' would be 'aquiliferi'",
+        "Dative": "Dative of 'aquilifer' would be 'aquilifero'",
+        "Accusative": "Accusative of 'aquilifer' would be 'aquiliferum'"
+      }
+    },
+    {
+      "prompt": "Declension of 'aquilifer'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'aquilifer' with genitive 'aquiliferi' is 2nd declension",
+        "3rd": "3rd declension nouns have genitive in -is — 'aquilifer' has genitive 'aquiliferi' like 'puer, pueri'",
+        "4th": "4th declension nouns have genitive in -us — 'aquilifer' is 2nd declension like 'puer'"
+      }
+    },
+    {
+      "prompt": "What case does 'in' govern here?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Nominative": "'in' never governs the nominative",
+        "Dative": "'in' never governs the dative",
+        "Ablative": "'in' + ablative means location — here 'in hostes' means 'into the enemy' (motion toward), so accusative"
+      }
+    },
+    {
+      "prompt": "Case of 'hostes'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "hostes", "gloss": "the enemy" },
+      "hints": {
+        "Nominative": "'hostes' could be nominative plural, but governed by 'in' with motion, it's accusative",
+        "Genitive": "Genitive plural of 'hostis' would be 'hostium'",
+        "Ablative": "Ablative plural would be 'hostibus' — 'hostes' is accusative plural here"
+      }
+    },
+    {
+      "prompt": "Declension of 'hostis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'hostis' with genitive 'hostis' is 3rd declension (i-stem)",
+        "2nd": "2nd declension nouns end in -us/-um — 'hostis' is 3rd declension",
+        "4th": "4th declension nouns end in -us with genitive -us — 'hostis' has genitive 'hostis' (3rd i-stem)"
+      }
+    }
+  ],
+  "translation": "The eagle-bearer charged into the enemy"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "horace-ars-343",
+  "source": "Horace",
+  "reference": "Ars Poetica 343",
+  "latin": ["Omne", "tulit", "punctum", "qui", "miscuit"],
+  "steps": [
+    {
+      "prompt": "Which words are verbs in this sentence?",
+      "target": "'tulit' and 'miscuit'",
+      "choices": ["'Omne' and 'punctum'", "'tulit' and 'miscuit'", "'punctum' and 'qui'", "'Omne' and 'miscuit'"],
+      "reveal": null,
+      "hints": {
+        "'Omne' and 'punctum'": "'Omne' is an adjective and 'punctum' is a noun — look for words with verb endings",
+        "'punctum' and 'qui'": "'punctum' is a noun meaning 'point' and 'qui' is a relative pronoun",
+        "'Omne' and 'miscuit'": "'Omne' is an adjective meaning 'every' — only 'miscuit' is correct from this pair"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tulit' translates to?",
+      "target": "to carry / to bear",
+      "choices": ["to be", "to carry / to bear", "to mix", "to give"],
+      "reveal": null,
+      "hints": {
+        "to be": "'to be' is 'esse' — 'tulit' comes from 'ferre'",
+        "to mix": "'to mix' is 'miscēre' — 'tulit' comes from 'ferre'",
+        "to give": "'to give' is 'dare' — 'tulit' comes from 'ferre'"
+      }
+    },
+    {
+      "prompt": "What tense is 'tulit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "tulit", "gloss": "carried / won" },
+      "hints": {
+        "Present": "Present of 'ferre' would be 'fert' — 'tulit' uses the perfect stem 'tul-'",
+        "Imperfect": "Imperfect of 'ferre' would be 'ferebat' — 'tulit' uses the perfect stem 'tul-'",
+        "Pluperfect": "Pluperfect of 'ferre' would be 'tulerat' — 'tulit' lacks the -era- pluperfect marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ferre'?",
+      "target": "fero, ferre, tuli, latum",
+      "choices": ["fero, ferre, tuli, latum", "sum, esse, fui, futurum", "do, dare, dedi, datum", "ago, agere, egi, actum"],
+      "reveal": null,
+      "hints": {
+        "sum, esse, fui, futurum": "These are the principal parts of 'esse' (to be)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)",
+        "ago, agere, egi, actum": "These are the principal parts of 'agere' (to do/drive)"
+      }
+    },
+    {
+      "prompt": "What case is 'Omne'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "Omne", "gloss": "every" },
+      "hints": {
+        "Nominative": "While 'omne' can be nominative neuter, here it modifies 'punctum' as direct object of 'tulit'",
+        "Ablative": "Ablative of 'omnis' neuter would be 'omni' — 'omne' is nominative or accusative",
+        "Vocative": "'Omne' is not being used as a form of address here"
+      }
+    },
+    {
+      "prompt": "What case is 'punctum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "punctum", "gloss": "point / vote" },
+      "hints": {
+        "Nominative": "While 'punctum' could be nominative, here it is the direct object of 'tulit'",
+        "Genitive": "Genitive of 'punctum' would be 'puncti' — 'punctum' is nominative or accusative",
+        "Ablative": "Ablative of 'punctum' would be 'puncto' — 'punctum' retains the -um ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'punctum, puncti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'puncti' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'puncti' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'puncti' ends in -i"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'qui'?",
+      "target": "Relative pronoun",
+      "choices": ["Interrogative adverb", "Relative pronoun", "Conjunction", "Demonstrative pronoun"],
+      "reveal": { "word": "qui", "gloss": "who" },
+      "hints": {
+        "Interrogative adverb": "'qui' as an adverb means 'how' — here it introduces a relative clause",
+        "Conjunction": "'qui' is not a conjunction — conjunctions like 'et' or 'sed' join clauses differently",
+        "Demonstrative pronoun": "Demonstrative pronouns include 'hic', 'ille', 'iste' — 'qui' is relative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'miscuit' translates to?",
+      "target": "to mix",
+      "choices": ["to send", "to mix", "to place", "to lead"],
+      "reveal": null,
+      "hints": {
+        "to send": "'to send' is 'mittere' — 'miscuit' comes from 'miscēre'",
+        "to place": "'to place' is 'ponere' — 'miscuit' comes from 'miscēre'",
+        "to lead": "'to lead' is 'ducere' — 'miscuit' comes from 'miscēre'"
+      }
+    },
+    {
+      "prompt": "What tense is 'miscuit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "miscuit", "gloss": "mixed" },
+      "hints": {
+        "Present": "Present of 'miscēre' would be 'miscet' — 'miscuit' has the perfect -ui- ending",
+        "Imperfect": "Imperfect of 'miscēre' would be 'miscebat' — 'miscuit' has the perfect -ui- ending",
+        "Future": "Future of 'miscēre' would be 'miscebit' — 'miscuit' has the perfect -ui- ending"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'miscēre'?",
+      "target": "misceo, miscēre, miscui, mixtum",
+      "choices": ["misceo, miscēre, miscui, mixtum", "video, vidēre, vidi, visum", "habeo, habēre, habui, habitum", "moneo, monēre, monui, monitum"],
+      "reveal": null,
+      "hints": {
+        "video, vidēre, vidi, visum": "These are the principal parts of 'vidēre' (to see)",
+        "habeo, habēre, habui, habitum": "These are the principal parts of 'habēre' (to have)",
+        "moneo, monēre, monui, monitum": "These are the principal parts of 'monēre' (to warn)"
+      }
+    }
+  ],
+  "translation": "He wins every point who mixes"
+}

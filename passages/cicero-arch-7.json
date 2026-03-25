@@ -1,0 +1,108 @@
+{
+  "id": "cicero-arch-7",
+  "source": "Cicero",
+  "reference": "Pro Archia 7",
+  "latin": ["Haec", "studia", "adulescentiam", "alunt"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "alunt",
+      "choices": ["Haec", "studia", "adulescentiam", "alunt"],
+      "reveal": null,
+      "hints": {
+        "Haec": "'Haec' is a demonstrative pronoun meaning 'these'",
+        "studia": "'studia' is a noun in the nominative plural meaning 'studies'",
+        "adulescentiam": "'adulescentiam' is a noun in the accusative meaning 'youth'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'alunt' translates to?",
+      "target": "to nourish / to feed",
+      "choices": ["to nourish / to feed", "to raise", "to walk", "to fly"],
+      "reveal": null,
+      "hints": {
+        "to raise": "'to raise' is 'tollere' or 'erigere' — 'alunt' comes from 'alere' (to nourish)",
+        "to walk": "'to walk' is 'ambulare' — 'alunt' comes from 'alere' (to nourish)",
+        "to fly": "'to fly' is 'volare' — 'alunt' comes from 'alere' (to nourish)"
+      }
+    },
+    {
+      "prompt": "What tense is 'alunt'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "alunt", "gloss": "nourish / feed" },
+      "hints": {
+        "Imperfect": "Imperfect of 'alere' 3rd pl. would be 'alebant' — 'alunt' has the present -unt ending",
+        "Perfect": "Perfect of 'alere' 3rd pl. would be 'aluerunt' — 'alunt' is the present form",
+        "Future": "Future of 'alere' 3rd pl. would be 'alent' — 'alunt' has the present -unt ending"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'alere'?",
+      "target": "alo, alere, alui, altum",
+      "choices": ["alo, alere, alui, altum", "ago, agere, egi, actum", "amo, amare, amavi, amatum", "audio, audire, audivi, auditum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the principal parts of 'agere' (to do/drive)",
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love)",
+        "audio, audire, audivi, auditum": "These are the principal parts of 'audire' (to hear)"
+      }
+    },
+    {
+      "prompt": "What case is 'studia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "studia", "gloss": "studies" },
+      "hints": {
+        "Genitive": "Genitive of 'studium' (sg.) would be 'studii' — 'studia' is nominative or accusative neuter plural",
+        "Accusative": "While 'studia' could be accusative neuter plural, here it is the subject performing the action of nourishing",
+        "Ablative": "Ablative plural of 'studium' would be 'studiis' — 'studia' is nominative neuter plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'studium, studii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'studii' ends in -ii",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'studii' ends in -ii",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'studii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What does 'Haec' modify?",
+      "target": "studia",
+      "choices": ["adulescentiam", "studia", "alunt", "Haec stands alone"],
+      "reveal": { "word": "Haec", "gloss": "these" },
+      "hints": {
+        "adulescentiam": "'adulescentiam' is feminine accusative — 'Haec' here is neuter plural, agreeing with 'studia'",
+        "alunt": "'alunt' is a verb — demonstrative pronouns modify nouns, not verbs",
+        "Haec stands alone": "'Haec' agrees in gender and number with 'studia' (neuter plural) and modifies it"
+      }
+    },
+    {
+      "prompt": "What case is 'adulescentiam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "adulescentiam", "gloss": "youth" },
+      "hints": {
+        "Nominative": "Nominative of 'adulescentia' is 'adulescentia' — 'adulescentiam' has the -am accusative ending",
+        "Genitive": "Genitive of 'adulescentia' would be 'adulescentiae' — 'adulescentiam' ends in -am",
+        "Ablative": "Ablative of 'adulescentia' would be 'adulescentia' — 'adulescentiam' has the -am accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'adulescentia, adulescentiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'adulescentiae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'adulescentiae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'adulescentiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "These studies nourish youth"
+}

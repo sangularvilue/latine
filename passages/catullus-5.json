@@ -1,0 +1,97 @@
+{
+  "id": "catullus-5",
+  "source": "Catullus",
+  "reference": "Carmen 5",
+  "latin": ["Vivamus", "atque", "amemus"],
+  "steps": [
+    {
+      "prompt": "Which words are verbs?",
+      "target": "'Vivamus' and 'amemus'",
+      "choices": ["Only 'Vivamus'", "'Vivamus' and 'amemus'", "Only 'amemus'", "'atque' and 'amemus'"],
+      "reveal": null,
+      "hints": {
+        "Only 'Vivamus'": "Both 'Vivamus' and 'amemus' end in -mus, the 1st person plural verb ending",
+        "Only 'amemus'": "Both 'Vivamus' and 'amemus' end in -mus, the 1st person plural verb ending",
+        "'atque' and 'amemus'": "'atque' is a conjunction meaning 'and' — both 'Vivamus' and 'amemus' are verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Vivamus' translates to?",
+      "target": "to live",
+      "choices": ["to live", "to conquer", "to see", "to come"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'to conquer' is 'vincere' — 'Vivamus' comes from 'vivere' (to live)",
+        "to see": "'to see' is 'videre' — 'Vivamus' comes from 'vivere' (to live)",
+        "to come": "'to come' is 'venire' — 'Vivamus' comes from 'vivere' (to live)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Vivamus'?",
+      "target": "Subjunctive (hortatory)",
+      "choices": ["Indicative", "Subjunctive (hortatory)", "Imperative", "Infinitive"],
+      "reveal": { "word": "Vivamus", "gloss": "let us live" },
+      "hints": {
+        "Indicative": "Indicative present 1st pl. would be 'vivimus' — 'Vivamus' has the -a- subjunctive marker",
+        "Imperative": "Imperative of 'vivere' would be 'vive' (sg.) or 'vivite' (pl.) — 'Vivamus' is 1st person subjunctive",
+        "Infinitive": "Infinitive of 'vivere' is 'vivere' — 'Vivamus' is a conjugated form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivere'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "video, videre, vidi, visum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)",
+        "video, videre, vidi, visum": "These are the principal parts of 'videre' (to see)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'amemus' translates to?",
+      "target": "to love",
+      "choices": ["to walk", "to love", "to warn", "to hear"],
+      "reveal": null,
+      "hints": {
+        "to walk": "'to walk' is 'ambulare' — 'amemus' comes from 'amare' (to love)",
+        "to warn": "'to warn' is 'monere' — 'amemus' comes from 'amare' (to love)",
+        "to hear": "'to hear' is 'audire' — 'amemus' comes from 'amare' (to love)"
+      }
+    },
+    {
+      "prompt": "What mood is 'amemus'?",
+      "target": "Subjunctive (hortatory)",
+      "choices": ["Indicative", "Subjunctive (hortatory)", "Imperative", "Infinitive"],
+      "reveal": { "word": "amemus", "gloss": "let us love" },
+      "hints": {
+        "Indicative": "Indicative present 1st pl. would be 'amamus' — 'amemus' has the -e- subjunctive vowel change",
+        "Imperative": "Imperative of 'amare' would be 'ama' (sg.) or 'amate' (pl.) — 'amemus' is 1st person subjunctive",
+        "Infinitive": "Infinitive of 'amare' is 'amare' — 'amemus' is a conjugated form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'amare'?",
+      "target": "amo, amare, amavi, amatum",
+      "choices": ["amo, amare, amavi, amatum", "habeo, habere, habui, habitum", "laudo, laudare, laudavi, laudatum", "paro, parare, paravi, paratum"],
+      "reveal": null,
+      "hints": {
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habere' (to have)",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudare' (to praise)",
+        "paro, parare, paravi, paratum": "These are the principal parts of 'parare' (to prepare)"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'atque'?",
+      "target": "Conjunction",
+      "choices": ["Adverb", "Conjunction", "Preposition", "Interjection"],
+      "reveal": { "word": "atque", "gloss": "and" },
+      "hints": {
+        "Adverb": "Adverbs modify verbs — 'atque' joins the two subjunctive verbs together",
+        "Preposition": "Prepositions govern nouns — 'atque' connects two verbs as a coordinating conjunction",
+        "Interjection": "Interjections express emotion — 'atque' is a conjunction meaning 'and'"
+      }
+    }
+  ],
+  "translation": "Let us live and let us love"
+}

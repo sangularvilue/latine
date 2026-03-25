@@ -1,0 +1,108 @@
+{
+  "id": "missal-agnus-dei",
+  "source": "Missal",
+  "reference": "Agnus Dei",
+  "latin": ["Agnus", "Dei", "qui", "tollis", "peccata"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "tollis",
+      "choices": ["Agnus", "Dei", "tollis", "peccata"],
+      "reveal": null,
+      "hints": {
+        "Agnus": "'Agnus' is a noun meaning 'lamb' — it is the subject",
+        "Dei": "'Dei' is a noun in the genitive meaning 'of God'",
+        "peccata": "'peccata' is a noun in the accusative plural meaning 'sins'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tollis' translates to?",
+      "target": "to take away / to lift",
+      "choices": ["to give", "to take away / to lift", "to carry", "to place"],
+      "reveal": null,
+      "hints": {
+        "to give": "'to give' is 'dare' — 'tollis' comes from 'tollere'",
+        "to carry": "'to carry' is 'ferre' — 'tollis' comes from 'tollere' (to take away/lift)",
+        "to place": "'to place' is 'ponere' — 'tollis' comes from 'tollere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'tollis'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "tollis", "gloss": "you take away" },
+      "hints": {
+        "Imperfect": "Imperfect of 'tollere' 2nd person would be 'tollebas' — 'tollis' has the present -is ending",
+        "Perfect": "Perfect of 'tollere' 2nd person would be 'sustulisti' — 'tollis' is present tense",
+        "Future": "Future of 'tollere' 2nd person would be 'tolles' — 'tollis' has the present -is ending"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tollere'?",
+      "target": "tollo, tollere, sustuli, sublatum",
+      "choices": ["tollo, tollere, sustuli, sublatum", "pono, ponere, posui, positum", "fero, ferre, tuli, latum", "duco, ducere, duxi, ductum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the principal parts of 'ponere' (to place/put)",
+        "fero, ferre, tuli, latum": "These are the principal parts of 'ferre' (to carry/bear)",
+        "duco, ducere, duxi, ductum": "These are the principal parts of 'ducere' (to lead)"
+      }
+    },
+    {
+      "prompt": "What case is 'Agnus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Agnus", "gloss": "Lamb" },
+      "hints": {
+        "Genitive": "Genitive of 'agnus' would be 'agni' — 'Agnus' is the nominative form",
+        "Accusative": "Accusative of 'agnus' would be 'agnum' — 'Agnus' is the nominative form",
+        "Vocative": "While this is a prayer addressing the Lamb, 'Agnus' here serves as the nominative form (vocative of 2nd decl. -us nouns is -e, but 'Agnus' is treated as nominative in this liturgical formula)"
+      }
+    },
+    {
+      "prompt": "What declension is 'agnus, agni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'agni' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'agni' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'agni' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Dei", "gloss": "of God" },
+      "hints": {
+        "Nominative": "Nominative of 'Deus' is 'Deus' — 'Dei' has the -i genitive ending",
+        "Dative": "Dative of 'Deus' would be 'Deo' — 'Dei' ends in -i, the genitive singular",
+        "Ablative": "Ablative of 'Deus' would be 'Deo' — 'Dei' ends in -i, the genitive singular"
+      }
+    },
+    {
+      "prompt": "What case is 'peccata'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "peccata", "gloss": "sins" },
+      "hints": {
+        "Nominative": "While 'peccata' could be nominative plural neuter, here it is the direct object of 'tollis'",
+        "Genitive": "Genitive of 'peccatum' would be 'peccati' (sg.) or 'peccatorum' (pl.) — 'peccata' is nom./acc. plural",
+        "Ablative": "Ablative plural of 'peccatum' would be 'peccatis' — 'peccata' is the accusative plural neuter"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccatum, peccati'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'peccati' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'peccati' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'peccati' ends in -i"
+      }
+    }
+  ],
+  "translation": "Lamb of God who takes away sins"
+}

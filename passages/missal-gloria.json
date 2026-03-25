@@ -1,0 +1,86 @@
+{
+  "id": "missal-gloria",
+  "source": "Missal",
+  "reference": "Gloria",
+  "latin": ["Gloria", "in", "excelsis", "Deo"],
+  "steps": [
+    {
+      "prompt": "What part of speech is 'in'?",
+      "target": "Preposition",
+      "choices": ["Conjunction", "Preposition", "Adverb", "Interjection"],
+      "reveal": { "word": "in", "gloss": "in" },
+      "hints": {
+        "Conjunction": "Conjunctions join clauses (et, sed) — 'in' governs a noun",
+        "Adverb": "Adverbs modify verbs — 'in' governs 'excelsis'",
+        "Interjection": "Interjections are exclamations — 'in' takes an object"
+      }
+    },
+    {
+      "prompt": "What case does 'in' govern here?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Nominative": "'in' never governs the nominative",
+        "Accusative": "'in' + accusative means motion toward — this is location ('in the highest'), not motion",
+        "Dative": "'in' never governs the dative"
+      }
+    },
+    {
+      "prompt": "Case of 'Gloria'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Gloria", "gloss": "glory" },
+      "hints": {
+        "Genitive": "Genitive of 'Gloria' would be 'Gloriae'",
+        "Dative": "Dative of 'Gloria' would be 'Gloriae'",
+        "Ablative": "Ablative of 'Gloria' would be 'Gloria' (same form), but here it is the subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'Gloria'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'Gloria' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'Gloria' with -a ending is 1st declension",
+        "4th": "4th declension nouns end in -us/-u — 'Gloria' is a typical 1st declension -a noun"
+      }
+    },
+    {
+      "prompt": "Case of 'excelsis'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "excelsis", "gloss": "the highest" },
+      "hints": {
+        "Nominative": "Nominative plural neuter would be 'excelsa' — 'excelsis' is dative/ablative plural",
+        "Genitive": "Genitive plural would be 'excelsorum'",
+        "Dative": "'excelsis' could be dative plural, but governed by 'in' it must be ablative"
+      }
+    },
+    {
+      "prompt": "Case of 'Deo'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Deo", "gloss": "to God" },
+      "hints": {
+        "Nominative": "Nominative of 'Deus' is 'Deus' — 'Deo' is dative/ablative",
+        "Genitive": "Genitive of 'Deus' would be 'Dei'",
+        "Ablative": "'Deo' could be ablative, but here it means 'to God' — glory is given to God (dative)"
+      }
+    },
+    {
+      "prompt": "Declension of 'Deus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'Deus' follows 2nd declension -us pattern",
+        "3rd": "3rd declension nouns have varied nominatives — 'Deus' with genitive 'Dei' is 2nd declension",
+        "4th": "4th declension -us nouns have genitive -us (e.g. 'manus, manus') — 'Dei' is 2nd declension"
+      }
+    }
+  ],
+  "translation": "Glory to God in the highest"
+}

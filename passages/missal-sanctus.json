@@ -1,0 +1,75 @@
+{
+  "id": "missal-sanctus",
+  "source": "Missal",
+  "reference": "Sanctus",
+  "latin": ["Sanctus", "Sanctus", "Sanctus", "Dominus"],
+  "steps": [
+    {
+      "prompt": "What part of speech is 'Sanctus'?",
+      "target": "Adjective",
+      "choices": ["Noun", "Adjective", "Verb", "Adverb"],
+      "reveal": null,
+      "hints": {
+        "Noun": "'Sanctus' can be used as a noun ('a saint'), but here it's a predicate adjective describing 'Dominus'",
+        "Verb": "'Sanctus' looks like a participle, but here it functions as an adjective meaning 'holy'",
+        "Adverb": "An adverb would be 'sancte' — 'Sanctus' with -us ending is an adjective"
+      }
+    },
+    {
+      "prompt": "Case of 'Sanctus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Sanctus", "gloss": "holy" },
+      "hints": {
+        "Genitive": "Genitive of 'sanctus' would be 'sancti'",
+        "Dative": "Dative of 'sanctus' would be 'sancto'",
+        "Vocative": "Vocative of 'sanctus' would be 'sancte' — here it's a predicate nominative"
+      }
+    },
+    {
+      "prompt": "Why is 'Sanctus' repeated three times?",
+      "target": "The Trisagion — emphasizing God's supreme holiness",
+      "choices": ["A scribal error in the manuscript", "The Trisagion — emphasizing God's supreme holiness", "It addresses three different people", "It represents past, present, and future"],
+      "reveal": null,
+      "hints": {
+        "A scribal error in the manuscript": "The triple repetition is deliberate — it comes from Isaiah 6:3 and is ancient liturgical tradition",
+        "It addresses three different people": "All three 'Sanctus' describe the same Lord — the repetition intensifies the praise",
+        "It represents past, present, and future": "The triple repetition reflects the Trisagion (thrice-holy), emphasizing supreme holiness"
+      }
+    },
+    {
+      "prompt": "Case of 'Dominus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Dominus", "gloss": "the Lord" },
+      "hints": {
+        "Genitive": "Genitive of 'Dominus' would be 'Domini'",
+        "Dative": "Dative of 'Dominus' would be 'Domino'",
+        "Vocative": "Vocative of 'Dominus' would be 'Domine' — here 'Dominus' is the subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'Dominus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'Dominus' with -us ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied nominatives — 'Dominus' is a regular 2nd declension -us noun",
+        "4th": "4th declension nouns also end in -us but have genitive -us — 'Domini' genitive is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What verb is implied but omitted?",
+      "target": "est (is)",
+      "choices": ["habet (has)", "est (is)", "venit (comes)", "facit (makes)"],
+      "reveal": null,
+      "hints": {
+        "habet (has)": "'Sanctus' is a predicate adjective — the implied verb is the copula 'est' (is)",
+        "venit (comes)": "'Sanctus' describes a quality of the Lord — the copula 'est' links them",
+        "facit (makes)": "The sentence states what the Lord IS, not what he does — 'est' is implied"
+      }
+    }
+  ],
+  "translation": "Holy, Holy, Holy Lord"
+}

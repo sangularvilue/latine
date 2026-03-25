@@ -1,0 +1,108 @@
+{
+  "id": "cicero-amic-23",
+  "source": "Cicero",
+  "reference": "De Amicitia 23",
+  "latin": ["Verus", "amicus", "est", "alter", "ipse"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "est",
+      "choices": ["Verus", "amicus", "est", "alter"],
+      "reveal": null,
+      "hints": {
+        "Verus": "'Verus' is an adjective meaning 'true' — it modifies 'amicus'",
+        "amicus": "'amicus' is a noun meaning 'friend' — it is the subject",
+        "alter": "'alter' is a pronoun/adjective meaning 'another' — it is part of the predicate"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to eat", "to be", "to go out", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here comes from 'esse' (to be)",
+        "to go out": "'to go out' is 'exire' — 'est' comes from 'esse'",
+        "to stand": "'to stand' is 'stare' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Imperfect": "Imperfect of 'esse' would be 'erat' — 'est' is the present 3rd person singular",
+        "Perfect": "Perfect of 'esse' would be 'fuit' — 'est' is the present 3rd person singular",
+        "Future": "Future of 'esse' would be 'erit' — 'est' is the present 3rd person singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "edo, edere, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the principal parts of 'stare' (to stand)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fieri' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'amicus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "amicus", "gloss": "friend" },
+      "hints": {
+        "Genitive": "Genitive of 'amicus' would be 'amici' — 'amicus' is the nominative form",
+        "Accusative": "Accusative of 'amicus' would be 'amicum' — 'amicus' is the nominative form",
+        "Vocative": "Vocative of 'amicus' would be 'amice' — 'amicus' is nominative here as the subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'amicus, amici'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'amici' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'amici' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'amici' ends in -i"
+      }
+    },
+    {
+      "prompt": "What does 'Verus' modify?",
+      "target": "amicus",
+      "choices": ["est", "alter", "amicus", "ipse"],
+      "reveal": { "word": "Verus", "gloss": "true" },
+      "hints": {
+        "est": "'est' is a verb — adjectives modify nouns, not verbs",
+        "alter": "'alter' is in the predicate — 'Verus' agrees with the subject 'amicus'",
+        "ipse": "'ipse' is an intensive pronoun — 'Verus' agrees with nominative masculine 'amicus'"
+      }
+    },
+    {
+      "prompt": "What does 'ipse' mean here?",
+      "target": "himself / oneself",
+      "choices": ["another", "himself / oneself", "the same", "this"],
+      "reveal": { "word": "ipse", "gloss": "himself" },
+      "hints": {
+        "another": "'another' is 'alter' — 'ipse' is an intensive pronoun meaning 'himself'",
+        "the same": "'the same' is 'idem' — 'ipse' means 'himself' or '-self'",
+        "this": "'this' is 'hic' — 'ipse' is an intensive pronoun"
+      }
+    },
+    {
+      "prompt": "What does 'alter' mean?",
+      "target": "another / a second",
+      "choices": ["other (of many)", "another / a second", "high", "changed"],
+      "reveal": { "word": "alter", "gloss": "another" },
+      "hints": {
+        "other (of many)": "'other (of many)' is 'alius' — 'alter' specifically means 'the other of two' or 'a second'",
+        "high": "'high' is 'altus' — 'alter' means 'another'",
+        "changed": "'changed' would be 'alteratus' — 'alter' is a pronoun/adjective meaning 'another'"
+      }
+    }
+  ],
+  "translation": "A true friend is another self"
+}

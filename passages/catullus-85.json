@@ -1,0 +1,97 @@
+{
+  "id": "catullus-85",
+  "source": "Catullus",
+  "reference": "Carmen 85",
+  "latin": ["Odi", "et", "amo"],
+  "steps": [
+    {
+      "prompt": "How many verbs are in this sentence?",
+      "target": "Two",
+      "choices": ["One", "Two", "Three", "None"],
+      "reveal": null,
+      "hints": {
+        "One": "Look again — both 'Odi' and 'amo' are finite verbs joined by 'et'",
+        "Three": "'et' is a conjunction, not a verb — only 'Odi' and 'amo' are verbs",
+        "None": "Both 'Odi' and 'amo' are 1st person singular verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Odi' translates to?",
+      "target": "to hate",
+      "choices": ["to hate", "to smell", "to eat", "to hear"],
+      "reveal": null,
+      "hints": {
+        "to smell": "'to smell' is 'olere' — 'Odi' comes from the defective verb 'odisse'",
+        "to eat": "'to eat' is 'edere' — 'Odi' comes from 'odisse'",
+        "to hear": "'to hear' is 'audire' — 'Odi' comes from 'odisse'"
+      }
+    },
+    {
+      "prompt": "What is unusual about 'Odi'?",
+      "target": "It is a defective verb — perfect in form but present in meaning",
+      "choices": ["It is a deponent verb", "It is a defective verb — perfect in form but present in meaning", "It is a subjunctive form", "It is an archaic spelling"],
+      "reveal": { "word": "Odi", "gloss": "I hate" },
+      "hints": {
+        "It is a deponent verb": "Deponent verbs are passive in form, active in meaning — 'Odi' is perfect in form, present in meaning",
+        "It is a subjunctive form": "Subjunctive of a regular verb would look different — 'Odi' is indicative perfect with present sense",
+        "It is an archaic spelling": "'Odi' is not an archaic form — it's a defective verb like 'memini' and 'coepi'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'odisse'?",
+      "target": "odi, odisse, osurus",
+      "choices": ["odi, odisse, osurus", "amo, amare, amavi, amatum", "audio, audire, audivi, auditum", "memini, meminisse, —"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love) — the other verb in this poem",
+        "audio, audire, audivi, auditum": "These are the principal parts of 'audire' (to hear)",
+        "memini, meminisse, —": "These are the principal parts of 'meminisse' (to remember) — another defective verb, but not this one"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'amo' translates to?",
+      "target": "to love",
+      "choices": ["to walk", "to love", "to go", "to help"],
+      "reveal": null,
+      "hints": {
+        "to walk": "'to walk' is 'ambulare' — 'amo' comes from 'amare'",
+        "to go": "'to go' is 'ire' — 'amo' comes from 'amare'",
+        "to help": "'to help' is 'adiuvare' — 'amo' comes from 'amare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'amo'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "amo", "gloss": "I love" },
+      "hints": {
+        "Imperfect": "Imperfect would be 'amabam' — 'amo' is the simple present 1st person form",
+        "Perfect": "Perfect would be 'amavi' — 'amo' uses the present stem",
+        "Future": "Future would be 'amabo' — 'amo' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'amare'?",
+      "target": "amo, amare, amavi, amatum",
+      "choices": ["amo, amare, amavi, amatum", "odi, odisse, osurus", "habeo, habere, habui, habitum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "odi, odisse, osurus": "These are the principal parts of 'odisse' (to hate) — the other verb in this poem",
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habere' (to have)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'et'?",
+      "target": "Conjunction",
+      "choices": ["Preposition", "Conjunction", "Adverb", "Interjection"],
+      "reveal": { "word": "et", "gloss": "and" },
+      "hints": {
+        "Preposition": "Prepositions govern nouns — 'et' joins the two verbs 'Odi' and 'amo'",
+        "Adverb": "'et' can sometimes mean 'also', but here it coordinates two verbs",
+        "Interjection": "Interjections are exclamations — 'et' is a coordinating conjunction"
+      }
+    }
+  ],
+  "translation": "I hate and I love"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "vulgate-mt-5-3",
+  "source": "Vulgate",
+  "reference": "Matthaeus 5:3",
+  "latin": ["Beati", "pauperes", "spiritu"],
+  "steps": [
+    {
+      "prompt": "What part of speech is 'Beati'?",
+      "target": "Adjective",
+      "choices": ["Noun", "Adjective", "Verb", "Adverb"],
+      "reveal": null,
+      "hints": {
+        "Noun": "'Beati' is used as a predicate adjective here, describing the 'pauperes'",
+        "Verb": "'Beati' is not a verb — there is no finite verb in this clause (the copula 'sunt' is implied)",
+        "Adverb": "An adverb would modify a verb — 'Beati' describes the subject 'pauperes'"
+      }
+    },
+    {
+      "prompt": "Case of 'Beati'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Beati", "gloss": "blessed" },
+      "hints": {
+        "Genitive": "Genitive plural would be 'beatorum' — 'Beati' is nominative plural masculine",
+        "Dative": "Dative plural would be 'beatis'",
+        "Vocative": "Vocative plural would also be 'beati', but this is a statement, not an address"
+      }
+    },
+    {
+      "prompt": "Case of 'pauperes'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "pauperes", "gloss": "the poor" },
+      "hints": {
+        "Accusative": "'pauperes' could be accusative plural, but here it is the subject — nominative",
+        "Genitive": "Genitive plural would be 'pauperum'",
+        "Ablative": "Ablative plural would be 'pauperibus'"
+      }
+    },
+    {
+      "prompt": "Declension of 'pauper'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'pauper' with genitive 'pauperis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'pauper' is a 3rd declension adjective/noun",
+        "4th": "4th declension nouns end in -us with genitive -us — 'pauper' has genitive 'pauperis'"
+      }
+    },
+    {
+      "prompt": "Case of 'spiritu'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "spiritu", "gloss": "in spirit" },
+      "hints": {
+        "Nominative": "Nominative of 'spiritus' is 'spiritus' — the -u ending is ablative in 4th declension",
+        "Genitive": "Genitive of 'spiritus' is 'spiritus' (with long -u) — the short -u is ablative",
+        "Dative": "Dative of 'spiritus' would be 'spiritui'"
+      }
+    },
+    {
+      "prompt": "Declension of 'spiritus'?",
+      "target": "4th",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension -us nouns have ablative in -o — 'spiritu' with -u ending is 4th declension",
+        "3rd": "3rd declension nouns have ablative in -e — 'spiritu' has the 4th declension -u ablative",
+        "5th": "5th declension nouns end in -es (e.g. 'res') — 'spiritus' is 4th declension"
+      }
+    }
+  ],
+  "translation": "Blessed are the poor in spirit"
+}

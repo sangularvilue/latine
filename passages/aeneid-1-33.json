@@ -1,0 +1,86 @@
+{
+  "id": "aeneid-1-33",
+  "source": "Aeneid",
+  "reference": "Aeneid I.33",
+  "latin": ["Tantae", "molis", "erat"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "erat",
+      "choices": ["Tantae", "molis", "erat", "Romanam"],
+      "reveal": null,
+      "hints": {
+        "Tantae": "'Tantae' is an adjective meaning 'so great'",
+        "molis": "'molis' is a noun in the genitive case",
+        "Romanam": "'Romanam' is an adjective — it doesn't appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erat' translates to?",
+      "target": "to be",
+      "choices": ["to carry", "to be", "to go", "to make"],
+      "reveal": null,
+      "hints": {
+        "to carry": "'to carry' is 'ferre' — 'erat' comes from 'esse'",
+        "to go": "'to go' is 'ire' — 'erat' comes from 'esse'",
+        "to make": "'to make' is 'facere' — 'erat' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense is 'erat'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "erat", "gloss": "it was" },
+      "hints": {
+        "Present": "Present of 'esse' would be 'est' — 'erat' has the imperfect stem",
+        "Perfect": "Perfect of 'esse' would be 'fuit' — 'erat' uses the imperfect stem",
+        "Pluperfect": "Pluperfect of 'esse' would be 'fuerat' — 'erat' is simpler"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "amo, amare, amavi, amatum", "fero, ferre, tuli, latum", "eo, ire, ii, itum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love), a 1st conjugation verb",
+        "fero, ferre, tuli, latum": "These are the principal parts of 'ferre' (to carry), an irregular verb",
+        "eo, ire, ii, itum": "These are the principal parts of 'ire' (to go)"
+      }
+    },
+    {
+      "prompt": "Case of 'molis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "molis", "gloss": "of a task/mass" },
+      "hints": {
+        "Nominative": "Nominative of 'moles' is 'moles' — 'molis' with -is ending is genitive",
+        "Dative": "Dative of 'moles' would be 'moli'",
+        "Ablative": "Ablative of 'moles' would be 'mole'"
+      }
+    },
+    {
+      "prompt": "Declension of 'moles'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns typically end in -a — 'moles' has a genitive in -is, typical of 3rd",
+        "2nd": "2nd declension nouns end in -us or -um — 'moles' with genitive 'molis' is 3rd",
+        "5th": "5th declension nouns end in -es with genitive -ei (e.g. 'res, rei') — 'molis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "Case of 'Tantae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Tantae", "gloss": "so great" },
+      "hints": {
+        "Nominative": "Nominative feminine singular would be 'tanta' — 'tantae' agrees with 'molis' in genitive",
+        "Dative": "'Tantae' could be dative singular, but it agrees with 'molis' which is genitive",
+        "Ablative": "Ablative feminine singular would be 'tanta'"
+      }
+    }
+  ],
+  "translation": "So great a task it was"
+}
