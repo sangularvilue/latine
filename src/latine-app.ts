@@ -32,12 +32,18 @@ function log(msg: string): void {
   statusCallback?.(msg);
 }
 
+function nextPassageIndex(): number {
+  // Find the first uncompleted passage; fall back to 0 if all done
+  const idx = ALL_PASSAGES.findIndex(p => !isCompleted(p.id));
+  return idx >= 0 ? idx : 0;
+}
+
 function createInitialState(): AppState {
   return {
     phase: 'selector',
     passage: null,
     stepIndex: 0,
-    cursor: 0,
+    cursor: nextPassageIndex(),
     revealed: new Map(),
     feedbackTimer: 0,
     wrongChoice: null,
@@ -493,7 +499,7 @@ function handleAction(type: string, selectedIndex: number): void {
         state.phase = 'selector';
         state.passage = null;
         state.stepIndex = 0;
-        state.cursor = 0;
+        state.cursor = nextPassageIndex();
         state.revealed = new Map();
         state.wrongChoice = null;
       }
