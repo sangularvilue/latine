@@ -5,7 +5,7 @@
  * Bridge connection is always attempted on startup.
  */
 
-import { startApp, setFrameCallback, simulateAction } from './latine-app';
+import { startApp, setFrameCallback, setStatusCallback, simulateAction } from './latine-app';
 import { BUF_W, BUF_H } from '@shared/constants';
 
 const appRoot = document.querySelector<HTMLDivElement>('#app');
@@ -39,6 +39,7 @@ appRoot.innerHTML = `
         <button id="sim-tap" style="padding:8px 20px;background:#1a1f26;color:#5ccfe6;border:1px solid #5ccfe6;border-radius:4px;cursor:pointer;font-family:inherit;font-size:14px">Tap</button>
       </div>
       <p style="margin:8px 0 0;font-size:11px;color:#5c6773;text-align:center">Swipe to cycle choices, Tap to select</p>
+      <pre id="log" style="margin:12px 0 0;font-size:10px;color:#5c6773;max-height:150px;overflow-y:auto;white-space:pre-wrap"></pre>
     </div>
   </div>
 `;
@@ -64,8 +65,15 @@ if (isDesktop) {
   })();
 }
 
-// Canvas preview
+// Status log
+const logEl = document.getElementById('log')!;
 const statusEl = document.getElementById('status')!;
+
+setStatusCallback((msg: string) => {
+  const time = new Date().toLocaleTimeString();
+  logEl.textContent = `[${time}] ${msg}\n${logEl.textContent ?? ''}`.slice(0, 2000);
+  statusEl.textContent = msg;
+});
 const previewCanvas = document.getElementById('preview') as HTMLCanvasElement;
 const previewCtx = previewCanvas.getContext('2d')!;
 const previewImageData = previewCtx.createImageData(BUF_W, BUF_H);
@@ -97,11 +105,4 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Start app + connect bridge
-(async () => {
-  try {
-    await startApp();
-    statusEl.textContent = 'Running — connecting to glasses...';
-  } catch (err) {
-    statusEl.textContent = 'Error: ' + (err as Error).message;
-  }
-})();
+void startApp();

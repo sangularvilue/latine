@@ -27,6 +27,7 @@ import {
 
 const FEEDBACK_DURATION_MS = 1500;
 const WRONG_DURATION_MS = 800;
+const BRIDGE_TIMEOUT_MS = 8000;
 
 let bridge: EvenAppBridge | null = null;
 let state: AppState;
@@ -34,12 +35,18 @@ let running = false;
 let lastSendTime = 0;
 let dirty = true;
 let frameCallback: ((buf: Uint8Array) => void) | null = null;
+let statusCallback: ((msg: string) => void) | null = null;
 
 const TILE_CONTAINERS = [
   { id: CONTAINER_ID_TL, name: CONTAINER_NAME_TL, offX: 0, offY: 0 },
   { id: CONTAINER_ID_TR, name: CONTAINER_NAME_TR, offX: IMAGE_WIDTH, offY: 0 },
   { id: CONTAINER_ID_BL, name: CONTAINER_NAME_BL, offX: 0, offY: IMAGE_HEIGHT },
 ] as const;
+
+function log(msg: string): void {
+  console.log(`[Latine] ${msg}`);
+  statusCallback?.(msg);
+}
 
 function createInitialState(): AppState {
   return {
@@ -76,12 +83,10 @@ function handleAction(action: Action): void {
 
     case 'correct':
     case 'wrong':
-      // Ignore input during feedback — auto-advances
       break;
 
     case 'summary':
       if (action.type === 'TAP' || action.type === 'DOUBLE_TAP') {
-        // Restart with same passage
         state.phase = 'title';
         state.stepIndex = 0;
         state.cursor = 0;
@@ -106,7 +111,6 @@ function handleQuestionInput(action: Action): void {
     case 'DOUBLE_TAP': {
       const selected = step.choices[state.cursor];
       if (selected === step.target) {
-        // Correct — reveal word if applicable
         if (step.reveal) {
           state.revealed.set(step.reveal.word, step.reveal.gloss);
         }
@@ -126,12 +130,10 @@ function handleQuestionInput(action: Action): void {
 function tick(): void {
   if (!running) return;
 
-  // Handle feedback timers
   if (state.phase === 'correct' || state.phase === 'wrong') {
     state.feedbackTimer -= TICK_MS;
     if (state.feedbackTimer <= 0) {
       if (state.phase === 'correct') {
-        // Advance to next step or summary
         state.stepIndex++;
         state.cursor = 0;
         if (state.stepIndex >= state.passage.steps.length) {
@@ -140,14 +142,12 @@ function tick(): void {
           state.phase = 'question';
         }
       } else {
-        // Wrong — go back to question
         state.phase = 'question';
       }
       dirty = true;
     }
   }
 
-  // Render
   if (dirty) {
     render(state);
     const buf = getPixels();
@@ -228,29 +228,62 @@ function composeStartupPage(): CreateStartUpPageContainer {
   });
 }
 
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms);
+    promise.then(
+      (val) => { clearTimeout(timer); resolve(val); },
+      (err) => { clearTimeout(timer); reject(err); },
+    );
+  });
+}
+
 async function connectBridge(): Promise<void> {
+  log('Waiting for bridge...');
+
   try {
-    bridge = await waitForEvenAppBridge();
-    console.log('[Latine] Bridge connected');
+    bridge = await withTimeout(waitForEvenAppBridge(), BRIDGE_TIMEOUT_MS);
+    log('Bridge connected!');
+  } catch (err) {
+    log('Bridge timeout — no glasses detected');
+    bridge = null;
+    return;
+  }
 
+  try {
+    log('Creating startup page...');
     await bridge.createStartUpPageContainer(composeStartupPage());
+    log('Startup page created');
+  } catch (err) {
+    log('Startup page error: ' + String(err));
+    return;
+  }
 
+  try {
     bridge.onEvenHubEvent((event: EvenHubEvent) => {
       const action = mapEvenHubEvent(event);
-      if (action) handleAction(action);
+      if (action) {
+        log('Event: ' + action.type);
+        handleAction(action);
+      }
     });
-
-    dirty = true;
+    log('Event listener registered');
   } catch (err) {
-    console.error('[Latine] Bridge error:', err);
-    bridge = null;
+    log('Event registration error: ' + String(err));
   }
+
+  // Force a re-render + send now that bridge is ready
+  dirty = true;
 }
 
 // ── Public API ──
 
 export function setFrameCallback(cb: (buf: Uint8Array) => void): void {
   frameCallback = cb;
+}
+
+export function setStatusCallback(cb: (msg: string) => void): void {
+  statusCallback = cb;
 }
 
 export function getState(): AppState {
@@ -278,8 +311,11 @@ export function simulateAction(actionType: 'SCROLL_UP' | 'SCROLL_DOWN' | 'TAP' |
 
 export async function startApp(): Promise<void> {
   state = createInitialState();
+  log(`Passage: ${state.passage.source} ${state.passage.reference}`);
+
   running = true;
   dirty = true;
   tick();
-  connectBridge();
+
+  await connectBridge();
 }
