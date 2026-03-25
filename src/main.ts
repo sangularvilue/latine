@@ -1,12 +1,10 @@
 /**
  * Latine — entry point.
- * Always shows companion UI + canvas preview.
+ * Shows companion UI with text preview of what's on the glasses.
  * Desktop also shows a QR code for scanning with EvenHub.
- * Bridge connection is always attempted on startup.
  */
 
-import { startApp, setFrameCallback, setStatusCallback, simulateAction } from './latine-app';
-import { BUF_W, BUF_H } from '@shared/constants';
+import { startApp, setStatusCallback, setPreviewCallback, simulateAction } from './latine-app';
 
 const appRoot = document.querySelector<HTMLDivElement>('#app');
 if (!appRoot) throw new Error('Missing #app');
@@ -26,14 +24,9 @@ appRoot.innerHTML = `
         </div>
       ` : ''}
 
-      <div style="text-align:center">
-        <div style="display:inline-block;border:2px solid #5ccfe6;background:#000;border-radius:4px;overflow:hidden;max-width:100%">
-          <canvas id="preview" width="${BUF_W}" height="${BUF_H}"
-            style="width:100%;max-width:${BUF_W * 2}px;height:auto;image-rendering:pixelated;display:block"></canvas>
-        </div>
-      </div>
+      <div id="preview" style="background:#000;border:2px solid #5ccfe6;border-radius:4px;padding:16px;margin-bottom:12px;min-height:120px;font-size:14px;line-height:1.6;white-space:pre-wrap;color:#e0d5c1"></div>
 
-      <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
         <button id="sim-up" style="padding:8px 20px;background:#1a1f26;color:#5ccfe6;border:1px solid #5ccfe6;border-radius:4px;cursor:pointer;font-family:inherit;font-size:14px">Swipe Up</button>
         <button id="sim-down" style="padding:8px 20px;background:#1a1f26;color:#5ccfe6;border:1px solid #5ccfe6;border-radius:4px;cursor:pointer;font-family:inherit;font-size:14px">Swipe Down</button>
         <button id="sim-tap" style="padding:8px 20px;background:#1a1f26;color:#5ccfe6;border:1px solid #5ccfe6;border-radius:4px;cursor:pointer;font-family:inherit;font-size:14px">Tap</button>
@@ -65,29 +58,19 @@ if (isDesktop) {
   })();
 }
 
-// Status log
+// Status + preview
 const logEl = document.getElementById('log')!;
 const statusEl = document.getElementById('status')!;
+const previewEl = document.getElementById('preview')!;
 
 setStatusCallback((msg: string) => {
   const time = new Date().toLocaleTimeString();
   logEl.textContent = `[${time}] ${msg}\n${logEl.textContent ?? ''}`.slice(0, 2000);
   statusEl.textContent = msg;
 });
-const previewCanvas = document.getElementById('preview') as HTMLCanvasElement;
-const previewCtx = previewCanvas.getContext('2d')!;
-const previewImageData = previewCtx.createImageData(BUF_W, BUF_H);
 
-setFrameCallback((buf: Uint8Array) => {
-  const data = previewImageData.data;
-  for (let i = 0; i < BUF_W * BUF_H; i++) {
-    const bright = buf[i] ? 255 : 0;
-    data[i * 4] = bright;
-    data[i * 4 + 1] = bright;
-    data[i * 4 + 2] = bright;
-    data[i * 4 + 3] = 255;
-  }
-  previewCtx.putImageData(previewImageData, 0, 0);
+setPreviewCallback((_phase: string, lines: string[]) => {
+  previewEl.textContent = lines.join('\n');
 });
 
 // Sim buttons
@@ -104,5 +87,5 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-// Start app + connect bridge
+// Start
 void startApp();
