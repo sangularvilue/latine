@@ -1,16 +1,16 @@
 import { defineConfig } from 'vite';
 import { resolve, dirname } from 'node:path';
-import { realpathSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 
-const root = realpathSync(dirname(new URL(import.meta.url).pathname.slice(1)));
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  root,
+  root: __dirname,
   resolve: {
     preserveSymlinks: true,
     alias: {
-      '@': resolve(root, 'src'),
-      '@shared': resolve(root, 'shared'),
+      '@': resolve(__dirname, 'src'),
+      '@shared': resolve(__dirname, 'shared'),
     },
   },
   server: {
@@ -30,6 +30,6 @@ export default defineConfig({
   },
   build: {
     target: 'es2022',
-    outDir: resolve(root, 'dist'),
+    outDir: resolve(__dirname, 'dist'),
   },
 });
