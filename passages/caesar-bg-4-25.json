@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'irruere'?",
+      "prompt": "Principal parts of 'irruit'?",
       "target": "irruo, irruere, irrui, irrutum",
       "choices": ["irruo, irruere, irrui, irrutum", "ruo, ruere, rui, rutum", "rumpo, rumpere, rupi, ruptum", "curro, currere, cucurri, cursum"],
       "reveal": null,

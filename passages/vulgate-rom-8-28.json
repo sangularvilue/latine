@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'cooperari'?",
+      "prompt": "Principal parts of 'cooperantur'?",
       "target": "cooperor, cooperari, cooperatus sum",
       "choices": ["cooperor, cooperari, cooperatus sum", "operor, operari, operatus sum", "labor, labi, lapsus sum", "conor, conari, conatus sum"],
       "reveal": null,

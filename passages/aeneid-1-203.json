@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'iuvare'?",
+      "prompt": "Principal parts of 'iuvabit'?",
       "target": "iuvo, iuvare, iuvi, iutum",
       "choices": ["iuvo, iuvare, iuvi, iutum", "iubeo, iubere, iussi, iussum", "iungo, iungere, iunxi, iunctum", "iudico, iudicare, iudicavi, iudicatum"],
       "reveal": null,

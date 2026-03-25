@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'vacare'?",
+      "prompt": "Principal parts of 'Vacate'?",
       "target": "vaco, vacare, vacavi, vacatum",
       "choices": ["vaco, vacare, vacavi, vacatum", "voco, vocare, vocavi, vocatum", "cado, cadere, cecidi, casum", "volo, volare, volavi, volatum"],
       "reveal": null,
@@ -71,7 +71,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'videre'?",
+      "prompt": "Principal parts of 'videte'?",
       "target": "video, videre, vidi, visum",
       "choices": ["video, videre, vidi, visum", "vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "venio, venire, veni, ventum"],
       "reveal": null,

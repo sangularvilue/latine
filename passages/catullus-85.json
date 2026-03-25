@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'odisse'?",
+      "prompt": "Principal parts of 'Odi'?",
       "target": "odi, odisse, osurus",
       "choices": ["odi, odisse, osurus", "amo, amare, amavi, amatum", "audio, audire, audivi, auditum", "memini, meminisse, —"],
       "reveal": null,
@@ -71,7 +71,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'amare'?",
+      "prompt": "Principal parts of 'amo'?",
       "target": "amo, amare, amavi, amatum",
       "choices": ["amo, amare, amavi, amatum", "odi, odisse, osurus", "habeo, habere, habui, habitum", "do, dare, dedi, datum"],
       "reveal": null,

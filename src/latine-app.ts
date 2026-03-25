@@ -20,6 +20,9 @@ import { loadProgress, markCompleted, saveCurrent, clearCurrent, isCompleted } f
 const BRIDGE_TIMEOUT_MS = 8000;
 const FEEDBACK_DURATION_MS = 1800;
 const WRONG_DURATION_MS = 2000;
+const INPUT_LOCKOUT_MS = 500;
+
+let inputLockedUntil = 0;
 
 let bridge: EvenAppBridge | null = null;
 let startupRendered = false;
@@ -399,6 +402,9 @@ async function rebuildPage(config: any): Promise<void> {
 // ── Input handling ──
 
 function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'down'): void {
+  // Ignore input during lockout (prevents stale events after phase transitions)
+  if (Date.now() < inputLockedUntil) return;
+
   const prevPhase = state.phase;
 
   switch (state.phase) {
@@ -509,6 +515,7 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
               state.phase = 'question';
               saveCurrent(p.id, state.stepIndex);
             }
+            inputLockedUntil = Date.now() + INPUT_LOCKOUT_MS;
             void renderToGlasses();
           }, FEEDBACK_DURATION_MS);
         } else {
@@ -516,6 +523,7 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
           state.wrongChoice = selected!;
           setTimeout(() => {
             state.phase = 'question';
+            inputLockedUntil = Date.now() + INPUT_LOCKOUT_MS;
             void renderToGlasses();
           }, WRONG_DURATION_MS);
         }

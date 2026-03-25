@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'ferre'?",
+      "prompt": "Principal parts of 'fert'?",
       "target": "fero, ferre, tuli, latum",
       "choices": ["fero, ferre, tuli, latum", "ferio, ferire, ferivi, feritum", "sum, esse, fui, futurum", "facio, facere, feci, factum"],
       "reveal": null,

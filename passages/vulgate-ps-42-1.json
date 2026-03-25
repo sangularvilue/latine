@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'iudicare'?",
+      "prompt": "Principal parts of 'Iudica'?",
       "target": "iudico, iudicare, iudicavi, iudicatum",
       "choices": ["iudico, iudicare, iudicavi, iudicatum", "dico, dicere, dixi, dictum", "indico, indicare, indicavi, indicatum", "educo, educare, educavi, educatum"],
       "reveal": null,

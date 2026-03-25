@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'ferre'?",
+      "prompt": "Principal parts of 'tulit'?",
       "target": "fero, ferre, tuli, latum",
       "choices": ["fero, ferre, tuli, latum", "sum, esse, fui, futurum", "do, dare, dedi, datum", "ago, agere, egi, actum"],
       "reveal": null,
@@ -115,7 +115,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'miscēre'?",
+      "prompt": "Principal parts of 'miscuit'?",
       "target": "misceo, miscēre, miscui, mixtum",
       "choices": ["misceo, miscēre, miscui, mixtum", "video, vidēre, vidi, visum", "habeo, habēre, habui, habitum", "moneo, monēre, monui, monitum"],
       "reveal": null,

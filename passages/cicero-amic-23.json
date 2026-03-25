@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'esse'?",
+      "prompt": "Principal parts of 'est'?",
       "target": "sum, esse, fui, futurum",
       "choices": ["sum, esse, fui, futurum", "edo, edere, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
       "reveal": null,

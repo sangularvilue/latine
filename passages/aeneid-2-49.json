@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'timere'?",
+      "prompt": "Principal parts of 'Timeo'?",
       "target": "timeo, timere, timui, —",
       "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "video, videre, vidi, visum", "habeo, habere, habui, habitum"],
       "reveal": null,

@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'esse'?",
+      "prompt": "Principal parts of 'fuit'?",
       "target": "sum, esse, fui, futurum",
       "choices": ["sum, esse, fui, futurum", "fio, fieri, factus sum, —", "eo, ire, ii, itum", "possum, posse, potui, —"],
       "reveal": null,

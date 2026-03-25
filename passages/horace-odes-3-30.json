@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'exigere'?",
+      "prompt": "Principal parts of 'Exegi'?",
       "target": "exigo, exigere, exegi, exactum",
       "choices": ["exigo, exigere, exegi, exactum", "ago, agere, egi, actum", "lego, legere, legi, lectum", "rego, regere, rexi, rectum"],
       "reveal": null,

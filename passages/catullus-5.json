@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'vivere'?",
+      "prompt": "Principal parts of 'Vivamus'?",
       "target": "vivo, vivere, vixi, victum",
       "choices": ["vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "video, videre, vidi, visum", "venio, venire, veni, ventum"],
       "reveal": null,
@@ -71,7 +71,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'amare'?",
+      "prompt": "Principal parts of 'amemus'?",
       "target": "amo, amare, amavi, amatum",
       "choices": ["amo, amare, amavi, amatum", "habeo, habere, habui, habitum", "laudo, laudare, laudavi, laudatum", "paro, parare, paravi, paratum"],
       "reveal": null,

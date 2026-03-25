@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'clamare'?",
+      "prompt": "Principal parts of 'clamavi'?",
       "target": "clamo, clamare, clamavi, clamatum",
       "choices": ["clamo, clamare, clamavi, clamatum", "claudo, claudere, clausi, clausum", "voco, vocare, vocavi, vocatum", "credo, credere, credidi, creditum"],
       "reveal": null,

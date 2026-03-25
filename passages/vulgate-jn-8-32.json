@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'liberare'?",
+      "prompt": "Principal parts of 'liberabit'?",
       "target": "libero, liberare, liberavi, liberatum",
       "choices": ["libero, liberare, liberavi, liberatum", "libro, librare, libravi, libratum", "laboro, laborare, laboravi, laboratum", "libeo, libere, libui, libitum"],
       "reveal": null,

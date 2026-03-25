@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'regere'?",
+      "prompt": "Principal parts of 'regit'?",
       "target": "rego, regere, rexi, rectum",
       "choices": ["rego, regere, rexi, rectum", "ago, agere, egi, actum", "lego, legere, legi, lectum", "duco, ducere, duxi, ductum"],
       "reveal": null,

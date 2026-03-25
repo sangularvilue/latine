@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'fieri'?",
+      "prompt": "Principal parts of 'fit'?",
       "target": "fio, fieri, factus sum, —",
       "choices": ["fio, fieri, factus sum, —", "fido, fidere, fisus sum, —", "fingo, fingere, finxi, fictum", "fugio, fugere, fugi, fugitum"],
       "reveal": null,
@@ -71,7 +71,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'esse'?",
+      "prompt": "Principal parts of 'sit'?",
       "target": "sum, esse, fui, futurum",
       "choices": ["sum, esse, fui, futurum", "sedeo, sedere, sedi, sessum", "sino, sinere, sivi, situm", "sto, stare, steti, statum"],
       "reveal": null,

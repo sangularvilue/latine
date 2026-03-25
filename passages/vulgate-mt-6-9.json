@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'esse'?",
+      "prompt": "Principal parts of 'es'?",
       "target": "sum, esse, fui, futurum",
       "choices": ["sum, esse, fui, futurum", "eo, ire, ii, itum", "do, dare, dedi, datum", "sto, stare, steti, statum"],
       "reveal": null,

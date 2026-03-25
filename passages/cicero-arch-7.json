@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'alere'?",
+      "prompt": "Principal parts of 'alunt'?",
       "target": "alo, alere, alui, altum",
       "choices": ["alo, alere, alui, altum", "ago, agere, egi, actum", "amo, amare, amavi, amatum", "audio, audire, audivi, auditum"],
       "reveal": null,

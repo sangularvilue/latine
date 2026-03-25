@@ -27,7 +27,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'facere'?",
+      "prompt": "Principal parts of 'factum est'?",
       "target": "facio, facere, feci, factum",
       "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fingo, fingere, finxi, fictum"],
       "reveal": null,

@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'esse'?",
+      "prompt": "Principal parts of 'erat'?",
       "target": "sum, esse, fui, futurum",
       "choices": ["amo, amare, amavi, amatum", "sum, esse, fui, futurum", "fero, ferre, tuli, latum", "eo, ire, ii, itum"],
       "reveal": null,

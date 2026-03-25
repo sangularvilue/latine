@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'creare'?",
+      "prompt": "Principal parts of 'creavit'?",
       "target": "creo, creare, creavi, creatum",
       "choices": ["creo, creare, creavi, creatum", "capio, capere, cepi, captum", "do, dare, dedi, datum", "facio, facere, feci, factum"],
       "reveal": null,

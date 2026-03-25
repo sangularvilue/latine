@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'vivere'?",
+      "prompt": "Principal parts of 'vivit'?",
       "target": "vivo, vivere, vixi, victum",
       "choices": ["vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "video, videre, vidi, visum", "venio, venire, veni, ventum"],
       "reveal": null,

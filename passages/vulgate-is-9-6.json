@@ -38,7 +38,7 @@
       }
     },
     {
-      "prompt": "Principal parts of 'nasci'?",
+      "prompt": "Principal parts of 'natus est'?",
       "target": "nascor, nasci, natus sum, —",
       "choices": ["nascor, nasci, natus sum, —", "patior, pati, passus sum, —", "morior, mori, mortuus sum, —", "sequor, sequi, secutus sum, —"],
       "reveal": null,
