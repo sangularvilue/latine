@@ -1,6 +1,5 @@
 /**
  * Latine App — uses native text + list containers on the glasses.
- * No pixel buffer rendering — the SDK handles display directly.
  */
 
 import {
@@ -8,19 +7,19 @@ import {
   CreateStartUpPageContainer,
   RebuildPageContainer,
   TextContainerProperty,
-  TextContainerUpgrade,
   ListContainerProperty,
   ListItemContainerProperty,
   OsEventTypeList,
   type EvenAppBridge,
 } from '@evenrealities/even_hub_sdk';
 import { getRawEventType, normalizeEventType } from './even-events';
-import type { AppState, Passage, Step } from './types';
-import { getTodaysPassage } from './passages';
+import type { AppState, Passage } from './types';
+import { ALL_PASSAGES, getPassageById } from './passages';
+import { loadProgress, markCompleted, saveCurrent, clearCurrent, isCompleted } from './progress';
 
 const BRIDGE_TIMEOUT_MS = 8000;
 const FEEDBACK_DURATION_MS = 1800;
-const WRONG_DURATION_MS = 1000;
+const WRONG_DURATION_MS = 2000;
 
 let bridge: EvenAppBridge | null = null;
 let startupRendered = false;
@@ -35,16 +34,17 @@ function log(msg: string): void {
 
 function createInitialState(): AppState {
   return {
-    phase: 'title',
-    passage: getTodaysPassage(),
+    phase: 'selector',
+    passage: null,
     stepIndex: 0,
     cursor: 0,
     revealed: new Map(),
     feedbackTimer: 0,
+    wrongChoice: null,
   };
 }
 
-// ── Glasses rendering via SDK containers ──
+// ── Glasses rendering ──
 
 async function renderToGlasses(): Promise<void> {
   if (!bridge) return;
@@ -53,6 +53,9 @@ async function renderToGlasses(): Promise<void> {
   previewCallback?.(state.phase, lines);
 
   switch (state.phase) {
+    case 'selector':
+      await renderSelectorPage();
+      break;
     case 'title':
       await renderTitlePage();
       break;
@@ -73,38 +76,100 @@ async function renderToGlasses(): Promise<void> {
 }
 
 function buildDisplayLines(): string[] {
-  const p = state.passage;
   switch (state.phase) {
-    case 'title':
+    case 'selector': {
+      const items = ALL_PASSAGES.map(p => {
+        const check = isCompleted(p.id) ? ' ✓' : '';
+        return `${p.source} · ${p.reference}${check}`;
+      });
+      return ['LATINE', 'Select a passage:', '', ...items];
+    }
+    case 'title': {
+      const p = state.passage!;
       return ['LATINE', '', p.source, p.reference, '', 'Tap to begin'];
-    case 'sentence':
+    }
+    case 'sentence': {
+      const p = state.passage!;
       return [p.latin.join(' '), '', `${p.steps.length} questions`, 'Tap to start'];
+    }
     case 'question': {
+      const p = state.passage!;
       const step = p.steps[state.stepIndex]!;
       const progress = `${state.stepIndex + 1}/${p.steps.length}`;
-      return [p.latin.join(' '), '', `${progress}  ${step.prompt}`, ...step.choices.map((c, i) => i === state.cursor ? `> ${c}` : `  ${c}`)];
+      return [
+        p.latin.join(' '), '',
+        `${progress}  ${step.prompt}`,
+        ...step.choices.map((c, i) => i === state.cursor ? `> ${c}` : `  ${c}`),
+      ];
     }
     case 'correct': {
+      const p = state.passage!;
       const step = p.steps[state.stepIndex]!;
       const reveal = step.reveal ? `${step.reveal.word} = "${step.reveal.gloss}"` : '';
       return [p.latin.join(' '), '', 'CORRECT!', reveal];
     }
-    case 'wrong':
-      return [p.latin.join(' '), '', 'Try again...'];
-    case 'summary':
-      return [p.latin.join(' '), '', p.translation, '', 'Complete!'];
+    case 'wrong': {
+      const p = state.passage!;
+      const step = p.steps[state.stepIndex]!;
+      const hint = state.wrongChoice && step.hints?.[state.wrongChoice];
+      return [p.latin.join(' '), '', 'Incorrect', hint || 'Try again...'];
+    }
+    case 'summary': {
+      const p = state.passage!;
+      return [p.latin.join(' '), '', p.translation, '', '✓ Complete!'];
+    }
     default:
       return [];
   }
 }
 
-async function renderTitlePage(): Promise<void> {
-  const p = state.passage;
+async function renderSelectorPage(): Promise<void> {
+  const items = ALL_PASSAGES.map(p => {
+    const check = isCompleted(p.id) ? ' \u2713' : '';
+    return `${p.source} \u00B7 ${p.reference}${check}`;
+  });
 
   const titleText = new TextContainerProperty({
     containerID: 1,
     containerName: 'lat-title',
-    content: `LATINE\n${p.source} · ${p.reference}`,
+    content: 'LATINE — Select a passage',
+    xPosition: 8,
+    yPosition: 0,
+    width: 560,
+    height: 32,
+    isEventCapture: 0,
+  });
+
+  const passageList = new ListContainerProperty({
+    containerID: 2,
+    containerName: 'lat-passages',
+    itemContainer: new ListItemContainerProperty({
+      itemCount: items.length,
+      itemWidth: 556,
+      isItemSelectBorderEn: 1,
+      itemName: items,
+    }),
+    isEventCapture: 1,
+    xPosition: 8,
+    yPosition: 40,
+    width: 560,
+    height: 248,
+  });
+
+  await rebuildPage({
+    containerTotalNum: 2,
+    textObject: [titleText],
+    listObject: [passageList],
+  });
+}
+
+async function renderTitlePage(): Promise<void> {
+  const p = state.passage!;
+
+  const titleText = new TextContainerProperty({
+    containerID: 1,
+    containerName: 'lat-title',
+    content: `LATINE\n${p.source} \u00B7 ${p.reference}`,
     xPosition: 8,
     yPosition: 40,
     width: 560,
@@ -123,17 +188,15 @@ async function renderTitlePage(): Promise<void> {
     isEventCapture: 0,
   });
 
-  const captureList = buildCaptureList(3);
-
   await rebuildPage({
     containerTotalNum: 3,
     textObject: [titleText, tapHint],
-    listObject: [captureList],
+    listObject: [buildCaptureList(3)],
   });
 }
 
 async function renderSentencePage(): Promise<void> {
-  const p = state.passage;
+  const p = state.passage!;
 
   const latinText = new TextContainerProperty({
     containerID: 1,
@@ -149,7 +212,7 @@ async function renderSentencePage(): Promise<void> {
   const infoText = new TextContainerProperty({
     containerID: 2,
     containerName: 'lat-info',
-    content: `${p.steps.length} questions — Tap to start`,
+    content: `${p.steps.length} questions \u2014 Tap to start`,
     xPosition: 8,
     yPosition: 180,
     width: 560,
@@ -157,17 +220,15 @@ async function renderSentencePage(): Promise<void> {
     isEventCapture: 0,
   });
 
-  const captureList = buildCaptureList(3);
-
   await rebuildPage({
     containerTotalNum: 3,
     textObject: [latinText, infoText],
-    listObject: [captureList],
+    listObject: [buildCaptureList(3)],
   });
 }
 
 async function renderQuestionPage(): Promise<void> {
-  const p = state.passage;
+  const p = state.passage!;
   const step = p.steps[state.stepIndex]!;
   const progress = `[${state.stepIndex + 1}/${p.steps.length}]`;
 
@@ -206,7 +267,8 @@ async function renderQuestionPage(): Promise<void> {
 }
 
 async function renderFeedbackPage(): Promise<void> {
-  const step = state.passage.steps[state.stepIndex]!;
+  const p = state.passage!;
+  const step = p.steps[state.stepIndex]!;
   const isCorrect = state.phase === 'correct';
 
   let content: string;
@@ -215,13 +277,14 @@ async function renderFeedbackPage(): Promise<void> {
   } else if (isCorrect) {
     content = 'CORRECT!';
   } else {
-    content = 'Try again...';
+    const hint = state.wrongChoice && step.hints?.[state.wrongChoice];
+    content = hint ? `Incorrect\n\n${hint}` : 'Incorrect \u2014 try again';
   }
 
-  // Build partial translation
+  // Show partial translation on correct
   if (isCorrect) {
     const parts: string[] = [];
-    for (const word of state.passage.latin) {
+    for (const word of p.latin) {
       if (state.revealed.has(word)) {
         parts.push(state.revealed.get(word)!);
       }
@@ -236,23 +299,21 @@ async function renderFeedbackPage(): Promise<void> {
     containerName: 'lat-feedback',
     content,
     xPosition: 8,
-    yPosition: 60,
+    yPosition: 40,
     width: 560,
-    height: 160,
+    height: 200,
     isEventCapture: 0,
   });
-
-  const captureList = buildCaptureList(2);
 
   await rebuildPage({
     containerTotalNum: 2,
     textObject: [feedbackText],
-    listObject: [captureList],
+    listObject: [buildCaptureList(2)],
   });
 }
 
 async function renderSummaryPage(): Promise<void> {
-  const p = state.passage;
+  const p = state.passage!;
 
   const latinText = new TextContainerProperty({
     containerID: 1,
@@ -268,7 +329,7 @@ async function renderSummaryPage(): Promise<void> {
   const transText = new TextContainerProperty({
     containerID: 2,
     containerName: 'lat-trans',
-    content: `${p.translation}\n\nComplete! Tap to restart.`,
+    content: `${p.translation}\n\n\u2713 Complete! Tap to return.`,
     xPosition: 8,
     yPosition: 110,
     width: 560,
@@ -276,12 +337,10 @@ async function renderSummaryPage(): Promise<void> {
     isEventCapture: 0,
   });
 
-  const captureList = buildCaptureList(3);
-
   await rebuildPage({
     containerTotalNum: 3,
     textObject: [latinText, transText],
-    listObject: [captureList],
+    listObject: [buildCaptureList(3)],
   });
 }
 
@@ -323,6 +382,44 @@ function handleAction(type: string, selectedIndex: number): void {
   const prevPhase = state.phase;
 
   switch (state.phase) {
+    case 'selector': {
+      if (type === 'scroll') {
+        if (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length) {
+          state.cursor = selectedIndex;
+        }
+        return;
+      }
+      if (type === 'click') {
+        const idx = (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length)
+          ? selectedIndex : state.cursor;
+        const passage = ALL_PASSAGES[idx];
+        if (passage) {
+          state.passage = passage;
+          state.cursor = 0;
+
+          // Resume progress if mid-lesson
+          const progress = loadProgress();
+          if (progress.current?.passageId === passage.id) {
+            state.stepIndex = progress.current.stepIndex;
+            state.phase = 'question';
+            state.revealed = new Map();
+            // Re-reveal words from completed steps
+            for (let i = 0; i < state.stepIndex; i++) {
+              const step = passage.steps[i];
+              if (step?.reveal) {
+                state.revealed.set(step.reveal.word, step.reveal.gloss);
+              }
+            }
+          } else {
+            state.stepIndex = 0;
+            state.revealed = new Map();
+            state.phase = 'title';
+          }
+        }
+      }
+      break;
+    }
+
     case 'title':
       if (type === 'click') {
         state.phase = 'sentence';
@@ -334,26 +431,25 @@ function handleAction(type: string, selectedIndex: number): void {
         state.phase = 'question';
         state.stepIndex = 0;
         state.cursor = 0;
+        saveCurrent(state.passage!.id, 0);
       }
       break;
 
     case 'question': {
-      const step = state.passage.steps[state.stepIndex];
+      const p = state.passage!;
+      const step = p.steps[state.stepIndex];
       if (!step) break;
 
       if (type === 'scroll') {
-        // List container handles scroll selection natively, just track index
         if (selectedIndex >= 0 && selectedIndex < step.choices.length) {
           state.cursor = selectedIndex;
         }
-        return; // Don't re-render on scroll — list handles highlight
+        return;
       }
 
       if (type === 'click') {
-        // Use the selected index from the list
         const idx = (selectedIndex >= 0 && selectedIndex < step.choices.length)
-          ? selectedIndex
-          : state.cursor;
+          ? selectedIndex : state.cursor;
         state.cursor = idx;
 
         const selected = step.choices[idx];
@@ -362,18 +458,23 @@ function handleAction(type: string, selectedIndex: number): void {
             state.revealed.set(step.reveal.word, step.reveal.gloss);
           }
           state.phase = 'correct';
+          state.wrongChoice = null;
           setTimeout(() => {
             state.stepIndex++;
             state.cursor = 0;
-            if (state.stepIndex >= state.passage.steps.length) {
+            if (state.stepIndex >= p.steps.length) {
               state.phase = 'summary';
+              markCompleted(p.id);
+              clearCurrent();
             } else {
               state.phase = 'question';
+              saveCurrent(p.id, state.stepIndex);
             }
             void renderToGlasses();
           }, FEEDBACK_DURATION_MS);
         } else {
           state.phase = 'wrong';
+          state.wrongChoice = selected!;
           setTimeout(() => {
             state.phase = 'question';
             void renderToGlasses();
@@ -385,15 +486,16 @@ function handleAction(type: string, selectedIndex: number): void {
 
     case 'correct':
     case 'wrong':
-      // Ignore — timer handles transition
       return;
 
     case 'summary':
       if (type === 'click') {
-        state.phase = 'title';
+        state.phase = 'selector';
+        state.passage = null;
         state.stepIndex = 0;
         state.cursor = 0;
         state.revealed = new Map();
+        state.wrongChoice = null;
       }
       break;
   }
@@ -452,7 +554,6 @@ async function connectBridge(): Promise<void> {
     log('Event error: ' + String(err));
   }
 
-  // Render initial page to glasses
   await renderToGlasses();
   log('Initial page rendered');
 }
@@ -468,23 +569,33 @@ export function setPreviewCallback(cb: (phase: string, lines: string[]) => void)
 }
 
 export function simulateAction(actionType: 'SCROLL_UP' | 'SCROLL_DOWN' | 'TAP' | 'DOUBLE_TAP'): void {
-  switch (actionType) {
-    case 'SCROLL_UP':
-    case 'SCROLL_DOWN':
-      handleAction('scroll', -1);
-      break;
-    case 'TAP':
-    case 'DOUBLE_TAP':
-      handleAction('click', -1);
-      break;
+  // For sim without bridge, manually adjust cursor for scroll
+  if (actionType === 'SCROLL_UP' || actionType === 'SCROLL_DOWN') {
+    const dir = actionType === 'SCROLL_UP' ? -1 : 1;
+    if (state.phase === 'selector') {
+      state.cursor = ((state.cursor + dir) % ALL_PASSAGES.length + ALL_PASSAGES.length) % ALL_PASSAGES.length;
+    } else if (state.phase === 'question' && state.passage) {
+      const step = state.passage.steps[state.stepIndex];
+      if (step) {
+        state.cursor = ((state.cursor + dir) % step.choices.length + step.choices.length) % step.choices.length;
+      }
+    }
+    handleAction('scroll', state.cursor);
+  } else {
+    handleAction('click', state.cursor);
   }
-  // For phone sim without bridge, manually update preview
+
   const lines = buildDisplayLines();
   previewCallback?.(state.phase, lines);
 }
 
 export async function startApp(): Promise<void> {
   state = createInitialState();
-  log(`Passage: ${state.passage.source} ${state.passage.reference}`);
+  log('Ready — select a passage');
+
+  // Update preview immediately
+  const lines = buildDisplayLines();
+  previewCallback?.(state.phase, lines);
+
   await connectBridge();
 }

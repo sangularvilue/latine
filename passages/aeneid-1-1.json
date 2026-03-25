@@ -8,73 +8,133 @@
       "prompt": "Which is the verb?",
       "target": "cano",
       "choices": ["Arma", "virumque", "cano", "primus"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "Arma": "'Arma' is a neuter plural noun meaning 'arms/weapons'",
+        "virumque": "'virumque' is a noun + enclitic — 'virum' (man) + '-que' (and)",
+        "primus": "'primus' is an adjective meaning 'first'"
+      }
     },
     {
       "prompt": "The infinitive of 'cano' translates to?",
       "target": "to sing",
       "choices": ["to run", "to sing", "to fall", "to seize"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "to run": "'to run' is 'currere' — 'cano' comes from 'canere'",
+        "to fall": "'to fall' is 'cadere' — similar start but different verb",
+        "to seize": "'to seize' is 'capere' — 'cano' means to sing or chant"
+      }
     },
     {
       "prompt": "What person/number is 'cano'?",
       "target": "1st singular",
       "choices": ["1st singular", "2nd singular", "3rd singular", "1st plural"],
-      "reveal": { "word": "cano", "gloss": "I sing" }
+      "reveal": { "word": "cano", "gloss": "I sing" },
+      "hints": {
+        "2nd singular": "2nd singular would be 'canis' — the -o ending is 1st singular",
+        "3rd singular": "3rd singular would be 'canit' — the -o ending is 1st person",
+        "1st plural": "1st plural would be 'canimus' — 'cano' has no plural marker"
+      }
     },
     {
       "prompt": "Principal parts of 'canere'?",
       "target": "cano, canere, cecini, cantum",
       "choices": ["cano, canere, cecini, cantum", "capio, capere, cepi, captum", "curro, currere, cucurri, cursum", "cado, cadere, cecidi, casum"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are for 'capere' (to seize) — note the different perfect stem",
+        "curro, currere, cucurri, cursum": "These are for 'currere' (to run) — a different 3rd conj. verb",
+        "cado, cadere, cecidi, casum": "These are for 'cadere' (to fall) — similar reduplication but different verb"
+      }
     },
     {
       "prompt": "What does '-que' mean?",
       "target": "and (enclitic)",
       "choices": ["but", "or", "and (enclitic)", "also"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "but": "'but' is 'sed' or 'autem' — '-que' is a joining particle",
+        "or": "'or' is 'vel' or 'aut' — '-que' links, it doesn't offer alternatives",
+        "also": "'also' is 'quoque' or 'etiam' — '-que' specifically means 'and'"
+      }
     },
     {
       "prompt": "Case of 'Arma'?",
       "target": "Accusative",
       "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
-      "reveal": { "word": "Arma", "gloss": "Arms" }
+      "reveal": { "word": "Arma", "gloss": "Arms" },
+      "hints": {
+        "Nominative": "Neut. pl. nom. and acc. look the same, but 'Arma' is the object of 'cano'",
+        "Ablative": "Ablative plural would be 'armis'",
+        "Vocative": "Vocative is for direct address — you wouldn't address weapons"
+      }
     },
     {
       "prompt": "Case of 'virum'?",
       "target": "Accusative",
       "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
-      "reveal": { "word": "virumque", "gloss": "and the man" }
+      "reveal": { "word": "virumque", "gloss": "and the man" },
+      "hints": {
+        "Nominative": "Nominative of 'vir' is 'vir' — 'virum' with -um ending is accusative",
+        "Genitive": "Genitive of 'vir' is 'viri' — the -um ending is accusative singular",
+        "Ablative": "Ablative of 'vir' is 'viro' — the -um ending is accusative"
+      }
     },
     {
       "prompt": "Case of 'Troiae'?",
       "target": "Genitive",
       "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
-      "reveal": { "word": "Troiae", "gloss": "of Troy" }
+      "reveal": { "word": "Troiae", "gloss": "of Troy" },
+      "hints": {
+        "Nominative": "Nominative of 'Troia' is 'Troia' — the -ae ending is gen. or dat.",
+        "Dative": "Dative is possible with -ae, but here it means 'of Troy' — possession/origin",
+        "Ablative": "Ablative of 'Troia' would be 'Troia' — the -ae ending is genitive"
+      }
     },
     {
       "prompt": "What part of speech is 'qui'?",
       "target": "Relative pronoun",
       "choices": ["Interrogative", "Relative pronoun", "Demonstrative", "Conjunction"],
-      "reveal": { "word": "qui", "gloss": "who" }
+      "reveal": { "word": "qui", "gloss": "who" },
+      "hints": {
+        "Interrogative": "'qui' as interrogative would start a question — this is a statement",
+        "Demonstrative": "Demonstratives are 'hic', 'ille', 'is' — 'qui' introduces a relative clause",
+        "Conjunction": "Conjunctions join clauses without modifying a noun — 'qui' refers back to 'virum'"
+      }
     },
     {
       "prompt": "What does 'primus' modify?",
       "target": "qui (the man)",
       "choices": ["Arma", "qui (the man)", "Troiae", "oris"],
-      "reveal": { "word": "primus", "gloss": "first" }
+      "reveal": { "word": "primus", "gloss": "first" },
+      "hints": {
+        "Arma": "'Arma' is neuter plural — 'primus' is masc. singular, so it can't modify it",
+        "Troiae": "'Troiae' is a proper noun — 'primus' modifies the man being described",
+        "oris": "'oris' is neut. pl. — 'primus' is masc. sing., doesn't agree"
+      }
     },
     {
       "prompt": "Case of 'oris'?",
       "target": "Ablative",
       "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
-      "reveal": { "word": "oris", "gloss": "shores" }
+      "reveal": { "word": "oris", "gloss": "shores" },
+      "hints": {
+        "Nominative": "Nom. plural of 'ora' is 'orae' (1st decl.) — 'oris' is ablative",
+        "Genitive": "This form could be gen. sing. of 'os, oris' (mouth), but here it's abl. pl. of 'ora' (shore)",
+        "Dative": "Dative plural of 'ora' would also be 'oris', but 'ab' governs ablative"
+      }
     },
     {
       "prompt": "What does 'ab' govern?",
       "target": "Ablative",
       "choices": ["Accusative", "Genitive", "Dative", "Ablative"],
-      "reveal": { "word": "ab", "gloss": "from" }
+      "reveal": { "word": "ab", "gloss": "from" },
+      "hints": {
+        "Accusative": "'ab' always takes ablative — prepositions like 'ad' take accusative",
+        "Genitive": "No Latin preposition governs the genitive directly",
+        "Dative": "'ab' takes ablative, not dative — they're different cases"
+      }
     }
   ],
   "translation": "Arms and the man I sing, of Troy, who first from the shores"

@@ -8,79 +8,144 @@
       "prompt": "Which is the verb?",
       "target": "creavit",
       "choices": ["principio", "creavit", "Deus", "caelum"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "principio": "'principio' is a noun (ablative of 'principium')",
+        "Deus": "'Deus' is a noun — the subject, not the verb",
+        "caelum": "'caelum' is a noun meaning 'heaven'"
+      }
     },
     {
       "prompt": "The infinitive of 'creavit' translates to?",
       "target": "to create",
       "choices": ["to believe", "to create", "to grow", "to give"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "to believe": "'to believe' is 'credere' — similar start but different verb",
+        "to grow": "'to grow' is 'crescere' — 'creavit' comes from 'creare'",
+        "to give": "'to give' is 'dare' — not related to 'creare'"
+      }
     },
     {
       "prompt": "What tense is 'creavit'?",
       "target": "Perfect",
       "choices": ["Present", "Imperfect", "Perfect", "Future"],
-      "reveal": { "word": "creavit", "gloss": "created" }
+      "reveal": { "word": "creavit", "gloss": "created" },
+      "hints": {
+        "Present": "Present would be 'creat' — the -vit ending signals perfect",
+        "Imperfect": "Imperfect would be 'creabat' — the -ba- marker is absent",
+        "Future": "Future would be 'creabit' — the -vit ending is perfect"
+      }
     },
     {
       "prompt": "Principal parts of 'creare'?",
       "target": "creo, creare, creavi, creatum",
       "choices": ["creo, creare, creavi, creatum", "capio, capere, cepi, captum", "do, dare, dedi, datum", "facio, facere, feci, factum"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are for 'capere' (to seize), a 3rd conjugation verb",
+        "do, dare, dedi, datum": "These are for 'dare' (to give), an irregular 1st conjugation verb",
+        "facio, facere, feci, factum": "These are for 'facere' (to make), a 3rd -io verb"
+      }
     },
     {
       "prompt": "Conjugation of 'creare'?",
       "target": "1st",
       "choices": ["1st", "2nd", "3rd", "4th"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd conjugation infinitives end in -ere (long e), like 'monere'",
+        "3rd": "3rd conjugation infinitives end in -ere (short e), like 'ducere'",
+        "4th": "4th conjugation infinitives end in -ire, like 'audire'"
+      }
     },
     {
       "prompt": "Which is the subject?",
       "target": "Deus",
       "choices": ["In", "Deus", "caelum", "terram"],
-      "reveal": { "word": "Deus", "gloss": "God" }
+      "reveal": { "word": "Deus", "gloss": "God" },
+      "hints": {
+        "In": "'In' is a preposition — subjects are nouns in the nominative",
+        "caelum": "'caelum' is accusative — a direct object, not the subject",
+        "terram": "'terram' is accusative — another direct object"
+      }
     },
     {
       "prompt": "What part of speech is 'et'?",
       "target": "Conjunction",
       "choices": ["Preposition", "Conjunction", "Adverb", "Pronoun"],
-      "reveal": { "word": "et", "gloss": "and" }
+      "reveal": { "word": "et", "gloss": "and" },
+      "hints": {
+        "Preposition": "Prepositions govern nouns in specific cases — 'et' just joins words",
+        "Adverb": "Adverbs modify verbs/adjectives — 'et' connects 'caelum' and 'terram'",
+        "Pronoun": "Pronouns replace nouns — 'et' is a linking word"
+      }
     },
     {
       "prompt": "Case of 'caelum'?",
       "target": "Accusative",
       "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
-      "reveal": { "word": "caelum", "gloss": "heaven" }
+      "reveal": { "word": "caelum", "gloss": "heaven" },
+      "hints": {
+        "Nominative": "Nominative and accusative of neuter nouns look the same, but 'caelum' receives the action — it's the direct object",
+        "Ablative": "Ablative of 'caelum' would be 'caelo'",
+        "Genitive": "Genitive of 'caelum' would be 'caeli'"
+      }
     },
     {
       "prompt": "Why accusative?",
       "target": "Direct object",
       "choices": ["Subject", "Direct object", "Object of prep.", "Apposition"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "Subject": "The subject is 'Deus' — 'caelum' receives the action of creating",
+        "Object of prep.": "'caelum' is not governed by a preposition — it's governed by 'creavit'",
+        "Apposition": "Apposition restates a noun — 'caelum' is what God created"
+      }
     },
     {
       "prompt": "Case of 'terram'?",
       "target": "Accusative",
       "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
-      "reveal": { "word": "terram", "gloss": "earth" }
+      "reveal": { "word": "terram", "gloss": "earth" },
+      "hints": {
+        "Nominative": "Nominative of 'terra' is 'terra' — the -am ending is accusative",
+        "Dative": "Dative of 'terra' would be 'terrae'",
+        "Ablative": "Ablative of 'terra' would be 'terra' — but the -am ending is accusative"
+      }
     },
     {
       "prompt": "Declension of 'terra'?",
       "target": "1st",
       "choices": ["1st", "2nd", "3rd", "4th"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns typically end in -us or -um (e.g. 'dominus')",
+        "3rd": "3rd declension has varied nominatives — 'terra' with -a ending is 1st",
+        "4th": "4th declension nouns end in -us or -u (e.g. 'manus')"
+      }
     },
     {
       "prompt": "Case of 'principio'?",
       "target": "Ablative",
       "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
-      "reveal": { "word": "principio", "gloss": "the beginning" }
+      "reveal": { "word": "principio", "gloss": "the beginning" },
+      "hints": {
+        "Nominative": "Nominative of 'principium' is 'principium' — the -o ending is abl./dat.",
+        "Genitive": "Genitive of 'principium' is 'principii'",
+        "Dative": "Dative looks the same (-o), but 'in' governs ablative, not dative"
+      }
     },
     {
       "prompt": "What does 'In' + abl. mean?",
       "target": "In / at (location)",
       "choices": ["In / at (location)", "Into (motion)", "On top of", "Through"],
-      "reveal": { "word": "In", "gloss": "In" }
+      "reveal": { "word": "In", "gloss": "In" },
+      "hints": {
+        "Into (motion)": "'in' + accusative = motion toward; 'in' + ablative = location",
+        "On top of": "'on top of' would be 'super' + abl.",
+        "Through": "'through' would be 'per' + accusative"
+      }
     }
   ],
   "translation": "In the beginning God created heaven and earth"

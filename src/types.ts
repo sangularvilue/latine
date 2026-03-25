@@ -8,6 +8,8 @@ export interface Step {
   choices: [string, string, string, string];
   /** If non-null, reveals this word's gloss in the running translation. */
   reveal: { word: string; gloss: string } | null;
+  /** Per-choice hints explaining why each wrong answer is wrong. Keyed by choice text. */
+  hints?: Record<string, string>;
 }
 
 /** A complete passage for one day's drill. */
@@ -24,12 +26,12 @@ export interface Passage {
 }
 
 /** App phase. */
-export type Phase = 'title' | 'sentence' | 'question' | 'correct' | 'wrong' | 'summary';
+export type Phase = 'selector' | 'title' | 'sentence' | 'question' | 'correct' | 'wrong' | 'summary';
 
 /** App state. */
 export interface AppState {
   phase: Phase;
-  passage: Passage;
+  passage: Passage | null;
   /** Index into passage.steps. */
   stepIndex: number;
   /** Currently highlighted choice (0-3). */
@@ -38,6 +40,8 @@ export interface AppState {
   revealed: Map<string, string>;
   /** Timer for feedback phases (auto-advance). */
   feedbackTimer: number;
+  /** The wrong choice the user picked (for showing hint). */
+  wrongChoice: string | null;
 }
 
 /** Input actions from glasses or keyboard. */

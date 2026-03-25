@@ -8,55 +8,100 @@
       "prompt": "Which is the verb?",
       "target": "erat",
       "choices": ["In", "principio", "erat", "Verbum"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "In": "'In' is a preposition, not a verb",
+        "principio": "'principio' is a noun in the ablative case",
+        "Verbum": "'Verbum' is a noun meaning 'word' — it's the subject"
+      }
     },
     {
       "prompt": "The infinitive of 'erat' translates to?",
       "target": "to be",
       "choices": ["to carry", "to be", "to go", "to make"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "to carry": "'to carry' is 'ferre' — 'erat' comes from 'esse'",
+        "to go": "'to go' is 'ire' — 'erat' comes from 'esse'",
+        "to make": "'to make' is 'facere' — 'erat' comes from 'esse'"
+      }
     },
     {
       "prompt": "What tense is 'erat'?",
       "target": "Imperfect",
       "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
-      "reveal": { "word": "erat", "gloss": "was" }
+      "reveal": { "word": "erat", "gloss": "was" },
+      "hints": {
+        "Present": "Present of 'esse' would be 'est' — 'erat' has the -ba- imperfect marker",
+        "Perfect": "Perfect of 'esse' would be 'fuit' — 'erat' uses the imperfect stem",
+        "Pluperfect": "Pluperfect of 'esse' would be 'fuerat' — 'erat' is simpler"
+      }
     },
     {
       "prompt": "Principal parts of 'esse'?",
       "target": "sum, esse, fui, futurum",
       "choices": ["amo, amare, amavi, amatum", "sum, esse, fui, futurum", "fero, ferre, tuli, latum", "eo, ire, ii, itum"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love), a 1st conjugation verb",
+        "fero, ferre, tuli, latum": "These are the principal parts of 'ferre' (to carry), an irregular verb",
+        "eo, ire, ii, itum": "These are the principal parts of 'ire' (to go)"
+      }
     },
     {
       "prompt": "Which is the subject?",
       "target": "Verbum",
       "choices": ["In", "principio", "erat", "Verbum"],
-      "reveal": { "word": "Verbum", "gloss": "the Word" }
+      "reveal": { "word": "Verbum", "gloss": "the Word" },
+      "hints": {
+        "In": "'In' is a preposition — it can't be the subject",
+        "principio": "'principio' is ablative — subjects are nominative",
+        "erat": "'erat' is the verb, not the subject"
+      }
     },
     {
       "prompt": "What part of speech is 'In'?",
       "target": "Preposition",
       "choices": ["Conjunction", "Preposition", "Adverb", "Interjection"],
-      "reveal": { "word": "In", "gloss": "In" }
+      "reveal": { "word": "In", "gloss": "In" },
+      "hints": {
+        "Conjunction": "Conjunctions join clauses (et, sed) — 'In' governs a noun",
+        "Adverb": "Adverbs modify verbs — 'In' governs 'principio'",
+        "Interjection": "Interjections are exclamations — 'In' takes an object"
+      }
     },
     {
       "prompt": "What case does 'in' govern here?",
       "target": "Ablative",
       "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "Nominative": "'in' never governs the nominative",
+        "Accusative": "'in' + accusative means motion toward — this is location, not motion",
+        "Dative": "'in' never governs the dative"
+      }
     },
     {
       "prompt": "Case of 'principio'?",
       "target": "Ablative",
       "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
-      "reveal": { "word": "principio", "gloss": "the beginning" }
+      "reveal": { "word": "principio", "gloss": "the beginning" },
+      "hints": {
+        "Nominative": "Nominative of 'principium' would be 'principium' — the -o ending is ablative",
+        "Genitive": "Genitive of 'principium' would be 'principii'",
+        "Dative": "Dative of 'principium' would be 'principio' too, but 'in' governs ablative"
+      }
     },
     {
       "prompt": "Declension of 'principium'?",
       "target": "2nd",
       "choices": ["1st", "2nd", "3rd", "4th"],
-      "reveal": null
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns typically end in -a (e.g. 'terra')",
+        "3rd": "3rd declension nouns have varied nominatives — 'principium' ends in -um, which is 2nd",
+        "4th": "4th declension nouns end in -us or -u (e.g. 'manus')"
+      }
     }
   ],
   "translation": "In the beginning was the Word"
