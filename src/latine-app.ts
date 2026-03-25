@@ -129,16 +129,30 @@ function buildDisplayLines(): string[] {
   }
 }
 
+const SELECTOR_PAGE_SIZE = 8;
+
+function selectorPage(): { items: string[]; pageStart: number } {
+  const page = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
+  const pageStart = page * SELECTOR_PAGE_SIZE;
+  const pageEnd = Math.min(pageStart + SELECTOR_PAGE_SIZE, ALL_PASSAGES.length);
+  const items: string[] = [];
+  for (let i = pageStart; i < pageEnd; i++) {
+    const p = ALL_PASSAGES[i]!;
+    const check = isCompleted(p.id) ? ' [done]' : '';
+    items.push(`${p.source} - ${p.reference}${check}`);
+  }
+  return { items, pageStart };
+}
+
 async function renderSelectorPage(): Promise<void> {
-  const items = ALL_PASSAGES.map(p => {
-    const check = isCompleted(p.id) ? ' \u2713' : '';
-    return `${p.source} \u00B7 ${p.reference}${check}`;
-  });
+  const { items, pageStart } = selectorPage();
+  const totalPages = Math.ceil(ALL_PASSAGES.length / SELECTOR_PAGE_SIZE);
+  const currentPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE) + 1;
 
   const titleText = new TextContainerProperty({
     containerID: 1,
     containerName: 'lat-title',
-    content: 'LATINE — Select a passage',
+    content: `LATINE (${currentPage}/${totalPages})`,
     xPosition: 8,
     yPosition: 0,
     width: 560,
@@ -389,15 +403,25 @@ function handleAction(type: string, selectedIndex: number): void {
 
   switch (state.phase) {
     case 'selector': {
+      const pageStart = Math.floor(state.cursor / SELECTOR_PAGE_SIZE) * SELECTOR_PAGE_SIZE;
+      const pageEnd = Math.min(pageStart + SELECTOR_PAGE_SIZE, ALL_PASSAGES.length);
+      const pageLen = pageEnd - pageStart;
+
       if (type === 'scroll') {
-        if (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length) {
-          state.cursor = selectedIndex;
+        if (selectedIndex >= 0 && selectedIndex < pageLen) {
+          const prevPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
+          state.cursor = pageStart + selectedIndex;
+          const newPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
+          // If page changed due to wrapping, re-render
+          if (newPage !== prevPage) {
+            void renderToGlasses();
+          }
         }
         return;
       }
       if (type === 'click') {
-        const idx = (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length)
-          ? selectedIndex : state.cursor;
+        const idx = (selectedIndex >= 0 && selectedIndex < pageLen)
+          ? pageStart + selectedIndex : state.cursor;
         const passage = ALL_PASSAGES[idx];
         if (passage) {
           state.passage = passage;
@@ -579,7 +603,13 @@ export function simulateAction(actionType: 'SCROLL_UP' | 'SCROLL_DOWN' | 'TAP' |
   if (actionType === 'SCROLL_UP' || actionType === 'SCROLL_DOWN') {
     const dir = actionType === 'SCROLL_UP' ? -1 : 1;
     if (state.phase === 'selector') {
+      const prevPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
       state.cursor = ((state.cursor + dir) % ALL_PASSAGES.length + ALL_PASSAGES.length) % ALL_PASSAGES.length;
+      const newPage = Math.floor(state.cursor / SELECTOR_PAGE_SIZE);
+      if (newPage !== prevPage) {
+        // Page changed — re-render glasses
+        void renderToGlasses();
+      }
     } else if (state.phase === 'question' && state.passage) {
       const step = state.passage.steps[state.stepIndex];
       if (step) {
