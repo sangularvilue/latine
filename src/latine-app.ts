@@ -421,6 +421,18 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
   // Ignore input during lockout (prevents stale events after phase transitions)
   if (Date.now() < inputLockedUntil) return;
 
+  // Double-tap: return to selector from any phase
+  if (type === 'double_tap' && state.phase !== 'selector') {
+    state.phase = 'selector';
+    state.passage = null;
+    state.stepIndex = 0;
+    state.cursor = nextPassageIndex();
+    state.revealed = new Map();
+    state.wrongChoice = null;
+    void renderToGlasses();
+    return;
+  }
+
   const prevPhase = state.phase;
 
   switch (state.phase) {
@@ -611,7 +623,7 @@ async function connectBridge(): Promise<void> {
         handleAction('scroll', incomingIndex, dir);
       } else if (eventType === OsEventTypeList.DOUBLE_CLICK_EVENT) {
         log('Double tap');
-        handleAction('click', incomingIndex);
+        handleAction('double_tap', incomingIndex);
       }
     });
     log('Event listener registered');
