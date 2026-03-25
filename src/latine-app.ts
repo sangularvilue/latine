@@ -132,21 +132,46 @@ function buildDisplayLines(): string[] {
   }
 }
 
-function selectorItems(): string[] {
-  return ALL_PASSAGES.map((p, i) => {
+const PAGE_SIZE = 6; // 6 passages + up to 2 nav items = max 8 list items
+
+function selectorPageData(): { items: string[]; passageIndices: number[]; hasPrev: boolean; hasNext: boolean; page: number; totalPages: number } {
+  const page = Math.floor(state.cursor / PAGE_SIZE);
+  const totalPages = Math.ceil(ALL_PASSAGES.length / PAGE_SIZE);
+  const start = page * PAGE_SIZE;
+  const end = Math.min(start + PAGE_SIZE, ALL_PASSAGES.length);
+  const hasPrev = page > 0;
+  const hasNext = end < ALL_PASSAGES.length;
+
+  const items: string[] = [];
+  const passageIndices: number[] = [];
+
+  if (hasPrev) {
+    items.push('<< Previous');
+    passageIndices.push(-1); // sentinel
+  }
+
+  for (let i = start; i < end; i++) {
+    const p = ALL_PASSAGES[i]!;
     const check = isCompleted(p.id) ? ' *' : '';
-    const num = String(i + 1).padStart(2, ' ');
-    return `${num}. ${p.reference}${check}`;
-  });
+    items.push(`${p.reference}${check}`);
+    passageIndices.push(i);
+  }
+
+  if (hasNext) {
+    items.push('Next >>');
+    passageIndices.push(-2); // sentinel
+  }
+
+  return { items, passageIndices, hasPrev, hasNext, page, totalPages };
 }
 
 async function renderSelectorPage(): Promise<void> {
-  const items = selectorItems();
+  const { items, page, totalPages } = selectorPageData();
 
   const titleText = new TextContainerProperty({
     containerID: 1,
     containerName: 'lat-title',
-    content: `LATINE - ${ALL_PASSAGES.length} passages`,
+    content: `LATINE (${page + 1}/${totalPages})`,
     xPosition: 8,
     yPosition: 0,
     width: 560,
@@ -400,15 +425,35 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
 
   switch (state.phase) {
     case 'selector': {
+      const { passageIndices } = selectorPageData();
+
       if (type === 'scroll') {
-        if (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length) {
-          state.cursor = selectedIndex;
-        }
+        // Just let the SDK handle list highlighting
         return;
       }
       if (type === 'click') {
-        const idx = (selectedIndex >= 0 && selectedIndex < ALL_PASSAGES.length)
-          ? selectedIndex : state.cursor;
+        const listIdx = selectedIndex >= 0 && selectedIndex < passageIndices.length
+          ? selectedIndex : -1;
+        if (listIdx < 0) return;
+
+        const mapped = passageIndices[listIdx]!;
+
+        // Nav: previous page
+        if (mapped === -1) {
+          const page = Math.floor(state.cursor / PAGE_SIZE);
+          state.cursor = (page - 1) * PAGE_SIZE;
+          void renderToGlasses();
+          return;
+        }
+        // Nav: next page
+        if (mapped === -2) {
+          const page = Math.floor(state.cursor / PAGE_SIZE);
+          state.cursor = (page + 1) * PAGE_SIZE;
+          void renderToGlasses();
+          return;
+        }
+
+        const idx = mapped;
         const passage = ALL_PASSAGES[idx];
         if (passage) {
           state.passage = passage;
@@ -593,7 +638,10 @@ export function simulateAction(actionType: 'SCROLL_UP' | 'SCROLL_DOWN' | 'TAP' |
   if (actionType === 'SCROLL_UP' || actionType === 'SCROLL_DOWN') {
     const dir = actionType === 'SCROLL_UP' ? -1 : 1;
     if (state.phase === 'selector') {
+      const prevPage = Math.floor(state.cursor / PAGE_SIZE);
       state.cursor = ((state.cursor + dir) % ALL_PASSAGES.length + ALL_PASSAGES.length) % ALL_PASSAGES.length;
+      const newPage = Math.floor(state.cursor / PAGE_SIZE);
+      if (newPage !== prevPage) void renderToGlasses();
     } else if (state.phase === 'question' && state.passage) {
       const step = state.passage.steps[state.stepIndex];
       if (step) {
