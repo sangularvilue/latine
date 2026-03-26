@@ -197,5 +197,10 @@ function renderLanding() {
 }
 
 // Render and start
-renderLanding();
+try {
+  renderLanding();
+} catch (err) {
+  console.error('[Latine] Landing page error:', err);
+  appRoot!.innerHTML = `<div style="padding:20px;color:red;font-family:monospace">Error: ${(err as Error).message}<br><br>Falling back to glasses companion.</div>`;
+}
 void startApp();
