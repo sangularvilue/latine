@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-24",
+  "source": "Cicero",
+  "reference": "In Cat. I.12",
+  "latin": ["Quod", "si", "me", "interfici", "iusserit", "residebit"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause (apodosis) verb?",
+      "target": "residebit",
+      "choices": ["interfici", "iusserit", "residebit", "me"],
+      "reveal": null,
+      "hints": {
+        "interfici": "'interfici' is a passive infinitive meaning 'to be killed' — it complements 'iusserit'",
+        "iusserit": "'iusserit' is in the conditional clause (protasis) — not the main clause verb",
+        "me": "'me' is a pronoun in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'residebit' translates to?",
+      "target": "to remain / linger",
+      "choices": ["to sit back", "to remain / linger", "to resist", "to reside"],
+      "reveal": null,
+      "hints": {
+        "to sit back": "'to sit back' is close but imprecise — 'residere' means 'to remain/settle/linger'",
+        "to resist": "'to resist' is 'resistere' — 'residere' means 'to remain behind/linger'",
+        "to reside": "'to reside' is closer to 'habitare' — 'residere' means 'to remain/stay behind'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'residebit'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Future perfect indicative"],
+      "reveal": { "word": "residebit", "gloss": "will remain / will linger" },
+      "hints": {
+        "Present indicative": "Present would be 'residet' — 'residebit' with -ebit ending is future",
+        "Present subjunctive": "Present subjunctive would be 'resideat' — 'residebit' is future indicative",
+        "Future perfect indicative": "Future perfect would be 'resederit' — 'residebit' is simple future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'residebit'?",
+      "target": "resideo, residere, resedi, —",
+      "choices": ["resideo, residere, resedi, —", "sedeo, sedere, sedi, sessum", "resido, residere, resedi, —", "resisto, resistere, restiti, —"],
+      "reveal": null,
+      "hints": {
+        "sedeo, sedere, sedi, sessum": "These are the parts of 'sedere' (to sit) — the base verb",
+        "resido, residere, resedi, —": "'residere' from 'resido' means 'to settle/sink' — 'resideo' (from 'sedeo') means 'to remain'",
+        "resisto, resistere, restiti, —": "These are the parts of 'resistere' (to resist) — a different verb"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'iusserit'?",
+      "target": "Future perfect indicative",
+      "choices": ["Perfect indicative", "Future perfect indicative", "Perfect subjunctive", "Pluperfect subjunctive"],
+      "reveal": { "word": "iusserit", "gloss": "will have ordered" },
+      "hints": {
+        "Perfect indicative": "Perfect and future perfect look alike ('iusserit'), but in a 'si' clause paired with future main verb, it is future perfect",
+        "Perfect subjunctive": "Perfect subjunctive is the same form, but the future indicative 'residebit' in the main clause confirms a future condition",
+        "Pluperfect subjunctive": "Pluperfect subjunctive would be 'iussisset' — 'iusserit' is future perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iusserit'?",
+      "target": "iubeo, iubere, iussi, iussum",
+      "choices": ["iubeo, iubere, iussi, iussum", "iungo, iungere, iunxi, iunctum", "iuro, iurare, iuravi, iuratum", "iudico, iudicare, iudicavi, iudicatum"],
+      "reveal": null,
+      "hints": {
+        "iungo, iungere, iunxi, iunctum": "These are the parts of 'iungere' (to join)",
+        "iuro, iurare, iuravi, iuratum": "These are the parts of 'iurare' (to swear)",
+        "iudico, iudicare, iudicavi, iudicatum": "These are the parts of 'iudicare' (to judge)"
+      }
+    },
+    {
+      "prompt": "What type of conditional is 'si … iusserit … residebit'?",
+      "target": "Future more vivid — 'if he will have ordered, X will remain'",
+      "choices": ["Simple present condition", "Future more vivid — 'if he will have ordered, X will remain'", "Present contrary-to-fact", "Past contrary-to-fact"],
+      "reveal": null,
+      "hints": {
+        "Simple present condition": "Simple conditions use present indicative — this uses future perfect + future",
+        "Present contrary-to-fact": "Contrary-to-fact uses subjunctive — both verbs here are indicative (future system)",
+        "Past contrary-to-fact": "Past contrary-to-fact uses pluperfect subjunctive — these are indicative"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "me", "gloss": "me" },
+      "hints": {
+        "Nominative": "Nominative would be 'ego' — 'me' is accusative, subject of the infinitive 'interfici'",
+        "Dative": "Dative would be 'mihi' — 'me' is accusative",
+        "Ablative": "'me' can be ablative, but as subject of the passive infinitive it is accusative"
+      }
+    }
+  ],
+  "translation": "But if he orders me to be killed, [the danger] will remain."
+}

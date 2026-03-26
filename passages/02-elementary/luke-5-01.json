@@ -1,0 +1,75 @@
+{
+  "id": "luke-5-01",
+  "source": "Vulgate",
+  "reference": "Lucas 5:4",
+  "latin": ["Duc", "in", "altum"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Duc",
+      "choices": ["Duc", "in", "altum", "ad"],
+      "reveal": null,
+      "hints": {
+        "in": "'in' is a preposition meaning 'into'",
+        "altum": "'altum' is a noun/adjective meaning 'the deep'",
+        "ad": "'ad' is a preposition but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Duc' translates to?",
+      "target": "to lead",
+      "choices": ["to lead", "to say", "to give", "to build"],
+      "reveal": null,
+      "hints": {
+        "to say": "'to say' is 'dicere' — 'Duc' comes from 'ducere' (to lead)",
+        "to give": "'to give' is 'dare' — 'Duc' comes from 'ducere' (to lead)",
+        "to build": "'to build' is 'struere' — 'Duc' comes from 'ducere' (to lead)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Duc'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "perfect"],
+      "reveal": { "word": "Duc", "gloss": "lead! / put out!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'ducit' — 'Duc' is a command form",
+        "subjunctive": "Subjunctive would be 'ducat' — 'Duc' is the imperative singular",
+        "perfect": "Perfect would be 'duxit' — 'Duc' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Duc'?",
+      "target": "duco, ducere, duxi, ductum",
+      "choices": ["duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "do, dare, dedi, datum", "doceo, docere, docui, doctum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are principal parts of 'dico' (to say)",
+        "do, dare, dedi, datum": "These are principal parts of 'do' (to give)",
+        "doceo, docere, docui, doctum": "These are principal parts of 'doceo' (to teach)"
+      }
+    },
+    {
+      "prompt": "What case is 'altum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "altum", "gloss": "the deep / deep water" },
+      "hints": {
+        "nominative": "Nominative neuter 'altum' has the same form, but after 'in' + motion it is accusative",
+        "ablative": "Ablative would be 'alto' — 'in' + accusative means 'into'",
+        "genitive": "Genitive would be 'alti' — 'altum' after 'in' expressing motion is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'altum, alti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'alti' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'alti' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'alti' ends in -i"
+      }
+    }
+  ],
+  "translation": "Put out into the deep"
+}

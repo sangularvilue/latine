@@ -1,0 +1,130 @@
+{
+  "id": "cat-4-08",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.20",
+  "latin": ["Me", "una", "cum", "meis", "liberis", "rei", "publicae", "satisfacturum"],
+  "steps": [
+    {
+      "prompt": "What case is 'Me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Me = me (acc., subject of future infinitive in indirect discourse)",
+      "hints": {
+        "nominative": "'Ego' is nominative — 'Me' is accusative, subject of the infinitive 'satisfacturum [esse]'",
+        "ablative": "'Me' can be ablative, but here it is accusative subject of indirect discourse",
+        "dative": "'Mihi' is dative — 'Me' is accusative"
+      }
+    },
+    {
+      "prompt": "What does 'una cum' mean?",
+      "target": "together with",
+      "choices": ["together with", "one with", "only with", "once with"],
+      "reveal": "una cum = together with",
+      "hints": {
+        "one with": "'Una' here is an adverb meaning 'together,' not the number 'one' as an adjective",
+        "only with": "'Only' would be 'solum' or 'tantum' — 'una' means 'together'",
+        "once with": "'Once' would be 'olim' or 'semel' — 'una' means 'together'"
+      }
+    },
+    {
+      "prompt": "What case is 'meis liberis'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "meis liberis = with my children (abl., governed by 'cum')",
+      "hints": {
+        "nominative": "Nominative plural would be 'mei liberi' — 'meis liberis' is ablative with 'cum'",
+        "accusative": "Accusative plural would be 'meos liberos' — 'meis liberis' is ablative",
+        "dative": "'Liberis' could be dative plural, but 'cum' requires the ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'liberi, liberorum' (children)?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive plural in -arum — 'liberorum' ends in -orum",
+        "3rd declension": "3rd declension has genitive plural in -um/-ium — 'liberorum' ends in -orum",
+        "4th declension": "4th declension has genitive plural in -uum — 'liberorum' ends in -orum"
+      }
+    },
+    {
+      "prompt": "What case is 'rei publicae'?",
+      "target": "dative",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "rei publicae = for the republic (dat., with 'satisfacere')",
+      "hints": {
+        "nominative": "Nominative would be 'res publica' — 'rei publicae' is genitive or dative",
+        "genitive": "'Rei publicae' could be genitive, but 'satisfacere' takes a dative object",
+        "ablative": "Ablative would be 're publica' — 'rei publicae' is dative with 'satisfacere'"
+      }
+    },
+    {
+      "prompt": "What declension is 'res, rei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'rei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'rei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'rei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'satisfacturum [esse]' translates to?",
+      "target": "to satisfy / to make amends",
+      "choices": ["to satisfy / to make amends", "to do enough", "to sacrifice", "to make"],
+      "reveal": null,
+      "hints": {
+        "to do enough": "'To do enough' is a literal rendering — 'satisfacere' idiomatically means to satisfy or make amends",
+        "to sacrifice": "'To sacrifice' is 'sacrificare' — 'satisfacere' means to give satisfaction",
+        "to make": "'To make' is 'facere' — 'satisfacere' is a compound meaning to satisfy"
+      }
+    },
+    {
+      "prompt": "What form is 'satisfacturum'?",
+      "target": "future active participle (acc. masc. sg.)",
+      "choices": ["future active participle (acc. masc. sg.)", "perfect passive participle", "gerundive", "present active participle"],
+      "reveal": "satisfacturum [esse] = will satisfy (fut. act. inf. in indirect discourse)",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'satisfactum' — '-urum' marks the future active participle",
+        "gerundive": "Gerundive would be 'satisfaciendum' — '-urum' is future active participle",
+        "present active participle": "Present active participle would be 'satisfacientem' — '-urum' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'satisfacturum'?",
+      "target": "satisfacio, satisfacere, satisfeci, satisfactum",
+      "choices": ["satisfacio, satisfacere, satisfeci, satisfactum", "facio, facere, feci, factum", "sacrifico, sacrificare, sacrificavi, sacrificatum", "proficio, proficere, profeci, profectum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to make) — the base verb, but 'satisfacere' is the compound",
+        "sacrifico, sacrificare, sacrificavi, sacrificatum": "These are the parts of 'sacrificare' (to sacrifice) — different compound",
+        "proficio, proficere, profeci, profectum": "These are the parts of 'proficere' (to advance) — different compound"
+      }
+    },
+    {
+      "prompt": "What is the full construction of this indirect statement?",
+      "target": "Me...satisfacturum [esse] — future infinitive with accusative subject",
+      "choices": ["Me...satisfacturum [esse] — future infinitive with accusative subject", "purpose clause with ut", "result clause with ut", "relative clause of characteristic"],
+      "reveal": null,
+      "hints": {
+        "purpose clause with ut": "No 'ut' is present — this is acc. + future infinitive (indirect discourse)",
+        "result clause with ut": "No 'ut' is present — this is an indirect statement with future reference",
+        "relative clause of characteristic": "No relative pronoun is present — this is indirect discourse"
+      }
+    },
+    {
+      "prompt": "The future infinitive 'satisfacturum esse' indicates what time relation to the implied main verb?",
+      "target": "action subsequent to the time of the main verb",
+      "choices": ["action subsequent to the time of the main verb", "action contemporaneous with the main verb", "action prior to the main verb", "no time relation"],
+      "reveal": null,
+      "hints": {
+        "action contemporaneous with the main verb": "Present infinitive would express contemporaneous action — future infinitive is subsequent",
+        "action prior to the main verb": "Perfect infinitive expresses prior action — future infinitive is subsequent",
+        "no time relation": "Infinitives in indirect discourse always express relative time — future = subsequent"
+      }
+    }
+  ],
+  "translation": "(That) I, together with my children, will make amends to the republic"
+}

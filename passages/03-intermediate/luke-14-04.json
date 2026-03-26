@@ -1,0 +1,97 @@
+{
+  "id": "luke-14-04",
+  "source": "Vulgate",
+  "reference": "Lucas 14:27",
+  "latin": ["Qui", "non", "baiulat", "crucem", "suam"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "baiulat",
+      "choices": ["baiulat", "crucem", "Qui", "suam"],
+      "reveal": null,
+      "hints": {
+        "crucem": "'Crucem' is a noun meaning 'cross' in the accusative",
+        "Qui": "'Qui' is a relative pronoun meaning 'who'",
+        "suam": "'Suam' is a possessive adjective meaning 'his/her own'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'baiulat' translates to?",
+      "target": "to carry / to bear",
+      "choices": ["to carry / to bear", "to baptize", "to build", "to kiss"],
+      "reveal": null,
+      "hints": {
+        "to baptize": "'To baptize' is 'baptizare' — 'baiulat' comes from 'baiulare' (to carry)",
+        "to build": "'To build' is 'aedificare' — 'baiulare' means 'to carry/bear'",
+        "to kiss": "'To kiss' is 'basium dare' or 'osculari' — 'baiulare' means 'to carry'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'baiulat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "baiulat = he/she carries",
+      "hints": {
+        "perfect indicative": "Perfect would be 'baiulavit' — 'baiulat' has the present stem",
+        "present subjunctive": "Present subjunctive would be 'baiulet' — 'baiulat' ends in -at (1st conj. indicative)",
+        "imperfect indicative": "Imperfect would be 'baiulabat' — 'baiulat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'baiulat'?",
+      "target": "baiulo, baiulare, baiulavi, baiulatum",
+      "choices": ["baiulo, baiulare, baiulavi, baiulatum", "fero, ferre, tuli, latum", "porto, portare, portavi, portatum", "gero, gerere, gessi, gestum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry) — a synonym with irregular parts",
+        "porto, portare, portavi, portatum": "These are the parts of 'portare' (to carry) — a synonym but different verb",
+        "gero, gerere, gessi, gestum": "These are the parts of 'gerere' (to carry/wage)"
+      }
+    },
+    {
+      "prompt": "What case is 'crucem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "crucem = cross (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'crux' — the -em ending marks accusative",
+        "ablative": "Ablative would be 'cruce' — 'crucem' with -em is accusative",
+        "genitive": "Genitive would be 'crucis' — 'crucem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'crux, crucis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'crucis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'crucis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'crucis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case and gender is 'suam'?",
+      "target": "accusative feminine singular",
+      "choices": ["accusative feminine singular", "nominative feminine singular", "ablative feminine singular", "accusative masculine singular"],
+      "reveal": "suam = his/her own (acc. fem. sg.)",
+      "hints": {
+        "nominative feminine singular": "Nominative feminine would be 'sua' — the -am ending marks accusative",
+        "ablative feminine singular": "Ablative feminine would be 'sua' — 'suam' with -am is accusative",
+        "accusative masculine singular": "Accusative masculine would be 'suum' — 'suam' agrees with 'crucem' (feminine)"
+      }
+    },
+    {
+      "prompt": "What type of clause does 'Qui' introduce here?",
+      "target": "relative clause",
+      "choices": ["relative clause", "indirect question", "purpose clause", "causal clause"],
+      "reveal": null,
+      "hints": {
+        "indirect question": "An indirect question would require subjunctive — 'baiulat' is indicative",
+        "purpose clause": "A purpose clause uses 'ut/ne' + subjunctive, not 'qui' + indicative",
+        "causal clause": "A causal 'qui' would require subjunctive — 'baiulat' is indicative"
+      }
+    }
+  ],
+  "translation": "Who does not carry his own cross"
+}

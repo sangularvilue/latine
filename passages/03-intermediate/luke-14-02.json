@@ -1,0 +1,97 @@
+{
+  "id": "luke-14-02",
+  "source": "Vulgate",
+  "reference": "Lucas 14:16",
+  "latin": ["Homo", "quidam", "fecit", "cenam", "magnam"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "fecit",
+      "choices": ["fecit", "Homo", "cenam", "magnam"],
+      "reveal": null,
+      "hints": {
+        "Homo": "'Homo' is a noun meaning 'man/person' — the subject",
+        "cenam": "'Cenam' is a noun meaning 'supper/dinner' in the accusative",
+        "magnam": "'Magnam' is an adjective meaning 'great' in the accusative feminine"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fecit' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to carry", "to strike"],
+      "reveal": null,
+      "hints": {
+        "to say": "'To say' is 'dicere' — 'fecit' comes from 'facere'",
+        "to carry": "'To carry' is 'ferre' — 'fecit' comes from 'facere'",
+        "to strike": "'To strike' is 'ferire' or 'percutere' — 'fecit' means 'to make/do'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fecit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "fecit = he made",
+      "hints": {
+        "present indicative": "Present would be 'facit' — 'fecit' has the perfect stem 'fec-'",
+        "imperfect indicative": "Imperfect would be 'faciebat' — 'fecit' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'fecerat' — 'fecit' is simple perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecit'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fio, fieri, factus sum, —", "fugio, fugere, fugi, fugitum", "fallo, fallere, fefelli, falsum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become) — the passive of 'facere'",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fallo, fallere, fefelli, falsum": "These are the parts of 'fallere' (to deceive)"
+      }
+    },
+    {
+      "prompt": "What case is 'Homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Homo = a man (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'hominem' — 'Homo' is the nominative subject",
+        "ablative": "Ablative would be 'homine' — 'Homo' is nominative",
+        "vocative": "Vocative could be 'homo' but here it is the narrative subject, not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'cenam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "cenam = supper (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'cena' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'cena' — 'cenam' with -am is accusative",
+        "genitive": "Genitive would be 'cenae' — 'cenam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'cena, cenae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'cenae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'cenae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'cenae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "A certain man made a great supper"
+}

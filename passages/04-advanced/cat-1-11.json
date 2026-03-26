@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-11",
+  "source": "Cicero",
+  "reference": "In Cat. I.4",
+  "latin": ["Vivis", "et", "vivis", "non", "ad", "deponendam", "audaciam"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb? (appears twice)",
+      "target": "vivis",
+      "choices": ["et", "vivis", "deponendam", "audaciam"],
+      "reveal": null,
+      "hints": {
+        "et": "'et' is a conjunction meaning 'and'",
+        "deponendam": "'deponendam' is a gerundive (verbal adjective), not a finite verb",
+        "audaciam": "'audaciam' is a noun in the accusative case"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivis' translates to?",
+      "target": "to live",
+      "choices": ["to live", "to see", "to conquer", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is 'videre' — 'vivis' comes from 'vivere' (to live)",
+        "to conquer": "'to conquer' is 'vincere' — 'vivis' comes from 'vivere'",
+        "to avoid": "'to avoid' is 'vitare' — 'vivis' comes from 'vivere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'vivis'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "vivis", "gloss": "you live / you are alive" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'vixisti' — 'vivis' is present tense",
+        "Present subjunctive": "Present subjunctive would be 'vivas' — 'vivis' is indicative",
+        "Imperfect indicative": "Imperfect would be 'vivebas' — 'vivis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivis'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "video, videre, vidi, visum", "vinco, vincere, vici, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid)"
+      }
+    },
+    {
+      "prompt": "What form is 'deponendam'?",
+      "target": "Gerundive (accusative feminine singular)",
+      "choices": ["Present participle", "Gerundive (accusative feminine singular)", "Perfect participle", "Future active participle"],
+      "reveal": { "word": "deponendam", "gloss": "to be laid aside / for laying aside" },
+      "hints": {
+        "Present participle": "Present participle would be 'deponens' — 'deponendam' with -ndam ending is a gerundive",
+        "Perfect participle": "Perfect participle would be 'depositam' — 'deponendam' is a gerundive expressing purpose",
+        "Future active participle": "Future active participle would be 'depositura' — 'deponendam' is a gerundive"
+      }
+    },
+    {
+      "prompt": "What case is 'audaciam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "audaciam", "gloss": "boldness / audacity" },
+      "hints": {
+        "Nominative": "Nominative would be 'audacia' — 'audaciam' with -am ending is accusative",
+        "Genitive": "Genitive would be 'audaciae' — 'audaciam' is accusative",
+        "Ablative": "Ablative would be 'audacia' — 'audaciam' is accusative, governed by 'ad'"
+      }
+    },
+    {
+      "prompt": "Declension of 'audaciam'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension accusative ends in -um — 'audacia, -ae' is 1st declension",
+        "3rd": "3rd declension accusative ends in -em — 'audacia, -ae' is 1st declension",
+        "5th": "5th declension accusative ends in -em — 'audacia, -ae' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What does 'ad deponendam audaciam' express grammatically?",
+      "target": "Purpose — 'in order to lay aside audacity'",
+      "choices": ["Cause — 'because of audacity'", "Purpose — 'in order to lay aside audacity'", "Result — 'so that audacity was laid aside'", "Time — 'when audacity was laid aside'"],
+      "reveal": null,
+      "hints": {
+        "Cause — 'because of audacity'": "'ad' + gerundive expresses purpose, not cause — cause would use 'propter' or an ablative",
+        "Result — 'so that audacity was laid aside'": "Result uses 'ut' + subjunctive — 'ad' + gerundive is a purpose construction",
+        "Time — 'when audacity was laid aside'": "Temporal clauses use 'cum' or ablative absolute — 'ad' + gerundive expresses purpose"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical force of repeating 'vivis ... vivis'?",
+      "target": "Epizeuxis — repetition for emphasis, stressing Catiline's continued survival",
+      "choices": ["Chiasmus — reversed word order", "Epizeuxis — repetition for emphasis, stressing Catiline's continued survival", "Litotes — understatement", "Hyperbaton — displaced word order"],
+      "reveal": null,
+      "hints": {
+        "Chiasmus — reversed word order": "Chiasmus reverses parallel elements (ABBA) — this is simple repetition of the same word",
+        "Litotes — understatement": "Litotes negates the opposite — this is emphatic repetition, the opposite of understatement",
+        "Hyperbaton — displaced word order": "Hyperbaton involves unusual word placement — the key figure here is the repetition itself"
+      }
+    }
+  ],
+  "translation": "You live, and you live not to lay aside your audacity."
+}

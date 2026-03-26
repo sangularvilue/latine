@@ -1,0 +1,75 @@
+{
+  "id": "luke-4-03",
+  "source": "Vulgate",
+  "reference": "Lucas 4:18",
+  "latin": ["Spiritus", "Domini", "super", "me"],
+  "steps": [
+    {
+      "prompt": "What case is 'Spiritus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": { "word": "Spiritus", "gloss": "the Spirit" },
+      "hints": {
+        "genitive": "Genitive singular of 'spiritus' is also 'spiritus' (-us), but here it is the subject",
+        "accusative": "Accusative singular would be 'spiritum' — 'Spiritus' is nominative here",
+        "ablative": "Ablative singular would be 'spiritu' — 'Spiritus' is nominative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'spiritus' has genitive in -us",
+        "2nd declension": "2nd declension nouns ending in -us have genitive in -i — 'spiritus' gen. is 'spiritus'",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'spiritus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": { "word": "Domini", "gloss": "of the Lord" },
+      "hints": {
+        "nominative": "Nominative of 'Dominus' is 'Dominus' — 'Domini' is the genitive singular",
+        "dative": "Dative of 'Dominus' is 'Domino' — 'Domini' is genitive singular",
+        "vocative": "Vocative of 'Dominus' is 'Domine' — 'Domini' is genitive singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'Domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": { "word": "me", "gloss": "me" },
+      "hints": {
+        "nominative": "Nominative of the 1st person pronoun is 'ego' — 'me' is accusative/ablative",
+        "ablative": "'me' can be ablative, but after 'super' meaning 'upon' it takes the accusative",
+        "dative": "Dative of the 1st person pronoun is 'mihi' — 'me' here is accusative"
+      }
+    },
+    {
+      "prompt": "This phrase has no finite verb. What verb is implied?",
+      "target": "est (is)",
+      "choices": ["est (is)", "erat (was)", "venit (comes)", "habet (has)"],
+      "reveal": null,
+      "hints": {
+        "erat (was)": "The implied verb is present tense 'est' — the Spirit IS upon me",
+        "venit (comes)": "While the Spirit does come, the implied copula here is 'est'",
+        "habet (has)": "'habet' would need a different construction — the implied verb is 'est'"
+      }
+    }
+  ],
+  "translation": "The Spirit of the Lord is upon me"
+}

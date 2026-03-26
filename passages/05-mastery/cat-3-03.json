@@ -1,0 +1,119 @@
+{
+  "id": "cat-3-03",
+  "source": "Cicero",
+  "reference": "In Catilinam III.3",
+  "latin": ["Iam", "intellegetis", "multo", "me", "vigilare", "acrius"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'intellegetis' translates to?",
+      "target": "to understand",
+      "choices": ["to understand", "to read", "to choose", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to read": "'To read' is 'legere' — 'intellegetis' comes from 'intellegere' (to understand)",
+        "to choose": "'To choose' is 'eligere' — 'intellegetis' comes from 'intellegere'",
+        "to gather": "'To gather' is 'colligere' — 'intellegetis' comes from 'intellegere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'intellegetis'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "intellegetis = you will understand",
+      "hints": {
+        "present indicative": "Present would be 'intellegitis' with -i- — 'intellegetis' has the future -e- vowel (3rd conj.)",
+        "present subjunctive": "Present subjunctive would be 'intellegatis' — 'intellegetis' is future indicative",
+        "perfect indicative": "Perfect would be 'intellexistis' — 'intellegetis' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'intellegetis'?",
+      "target": "intellego, intellegere, intellexi, intellectum",
+      "choices": ["intellego, intellegere, intellexi, intellectum", "lego, legere, legi, lectum", "eligo, eligere, elegi, electum", "neglego, neglegere, neglexi, neglectum"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read) — the base verb without the intel- prefix",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose out)",
+        "neglego, neglegere, neglexi, neglectum": "These are the parts of 'neglegere' (to neglect) — similar compound but different"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "me = me (acc., subject of infinitive)",
+      "hints": {
+        "nominative": "'Ego' is nominative — 'me' is accusative, subject of the infinitive 'vigilare'",
+        "ablative": "'Me' can be ablative, but here it is the accusative subject of indirect discourse",
+        "dative": "'Mihi' is dative — 'me' is accusative here as subject of the infinitive"
+      }
+    },
+    {
+      "prompt": "This is an indirect statement (accusative + infinitive). Which verb introduces it?",
+      "target": "intellegetis",
+      "choices": ["intellegetis", "vigilare", "multo", "acrius"],
+      "reveal": null,
+      "hints": {
+        "vigilare": "'Vigilare' is the infinitive within the indirect statement, not the head verb",
+        "multo": "'Multo' is an ablative of degree of difference modifying 'acrius'",
+        "acrius": "'Acrius' is a comparative adverb meaning 'more keenly'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vigilare' translates to?",
+      "target": "to stay awake / to be vigilant",
+      "choices": ["to stay awake / to be vigilant", "to fight", "to see", "to live"],
+      "reveal": null,
+      "hints": {
+        "to fight": "'To fight' is 'pugnare' — 'vigilare' means to stay awake or be watchful",
+        "to see": "'To see' is 'videre' — 'vigilare' means to keep watch",
+        "to live": "'To live' is 'vivere' — 'vigilare' means to stay awake"
+      }
+    },
+    {
+      "prompt": "What tense is the infinitive 'vigilare' in this indirect discourse?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "perfect infinitive", "future infinitive", "present subjunctive"],
+      "reveal": "vigilare = to be watchful (contemporaneous with main verb)",
+      "hints": {
+        "perfect infinitive": "Perfect infinitive would be 'vigilavisse' — 'vigilare' is present",
+        "future infinitive": "Future infinitive would be 'vigilaturum esse' — 'vigilare' is present",
+        "present subjunctive": "'Vigilare' is an infinitive form, not subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vigilare'?",
+      "target": "vigilo, vigilare, vigilavi, vigilatum",
+      "choices": ["vigilo, vigilare, vigilavi, vigilatum", "video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)"
+      }
+    },
+    {
+      "prompt": "What case is 'multo' and what function does it serve?",
+      "target": "ablative of degree of difference",
+      "choices": ["ablative of degree of difference", "ablative of means", "dative of reference", "ablative of manner"],
+      "reveal": "multo = by much (abl., modifying comparative 'acrius')",
+      "hints": {
+        "ablative of means": "Ablative of means tells 'by what tool' — 'multo' measures how much more keenly",
+        "dative of reference": "Dative of reference would answer 'for whom' — 'multo' is ablative with a comparative",
+        "ablative of manner": "Ablative of manner tells 'how' — 'multo' specifically quantifies the comparative degree"
+      }
+    },
+    {
+      "prompt": "'Acrius' is the comparative form of which adverb?",
+      "target": "acriter (keenly)",
+      "choices": ["acriter (keenly)", "acer (sharp)", "acre (bitterly)", "acerbe (harshly)"],
+      "reveal": "acrius = more keenly",
+      "hints": {
+        "acer (sharp)": "'Acer' is the adjective — the adverb from which 'acrius' derives is 'acriter'",
+        "acre (bitterly)": "'Acre' is the neuter nominative adjective — the adverb is 'acriter'",
+        "acerbe (harshly)": "'Acerbe' is an adverb from 'acerbus' — 'acrius' comes from 'acriter'"
+      }
+    }
+  ],
+  "translation": "Now you will understand that I keep watch much more keenly"
+}

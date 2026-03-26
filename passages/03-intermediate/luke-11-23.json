@@ -1,0 +1,108 @@
+{
+  "id": "luke-11-23",
+  "source": "Vulgate",
+  "reference": "Lucas 11:9",
+  "latin": ["Petite", "et", "dabitur", "vobis"],
+  "steps": [
+    {
+      "prompt": "Which word is an imperative?",
+      "target": "Petite",
+      "choices": ["Petite", "et", "dabitur", "vobis"],
+      "reveal": null,
+      "hints": {
+        "et": "'Et' is a conjunction meaning 'and'",
+        "dabitur": "'Dabitur' is a verb but in the indicative mood, not imperative",
+        "vobis": "'Vobis' is a pronoun meaning 'to you'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Petite' translates to?",
+      "target": "to seek / to ask",
+      "choices": ["to seek / to ask", "to strike", "to hasten", "to be able"],
+      "reveal": null,
+      "hints": {
+        "to strike": "That would be 'petere' in another sense — here the primary meaning is 'to seek/ask'",
+        "to hasten": "That would be 'festinare' — 'petere' means 'to seek/ask'",
+        "to be able": "That would be 'posse' — 'petere' means 'to seek/ask'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Petite'?",
+      "target": "present imperative (plural)",
+      "choices": ["present indicative", "present imperative (plural)", "present subjunctive", "future indicative"],
+      "reveal": "Petite = Ask! / Seek! (imper. pl.)",
+      "hints": {
+        "present indicative": "Present indicative 2nd pl. would be 'petitis' — 'Petite' is imperative",
+        "present subjunctive": "Present subjunctive would be 'petatis' — 'Petite' is imperative plural",
+        "future indicative": "Future would be 'petetis' — 'Petite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Petite'?",
+      "target": "peto, petere, petivi, petitum",
+      "choices": ["peto, petere, petivi, petitum", "pono, ponere, posui, positum", "posco, poscere, poposci, —", "quaero, quaerere, quaesivi, quaesitum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)",
+        "posco, poscere, poposci, —": "These are the parts of 'poscere' (to demand)",
+        "quaero, quaerere, quaesivi, quaesitum": "These are the parts of 'quaerere' (to seek/ask) — a synonym"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dabitur' translates to?",
+      "target": "to give (passive: to be given)",
+      "choices": ["to give (passive: to be given)", "to lead", "to say", "to put"],
+      "reveal": null,
+      "hints": {
+        "to lead": "That would be 'ducere' — 'dabitur' comes from 'dare' (to give)",
+        "to say": "That would be 'dicere' — 'dabitur' comes from 'dare' (to give)",
+        "to put": "That would be 'ponere' — 'dabitur' comes from 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'dabitur'?",
+      "target": "future indicative passive",
+      "choices": ["present indicative passive", "future indicative passive", "present subjunctive passive", "perfect indicative passive"],
+      "reveal": "dabitur = it will be given",
+      "hints": {
+        "present indicative passive": "Present passive would be 'datur' — 'dabitur' with -bi- is future",
+        "present subjunctive passive": "Subjunctive passive would be 'detur' — 'dabitur' is future indicative",
+        "perfect indicative passive": "Perfect passive would be 'datum est' — 'dabitur' is future passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dabitur'?",
+      "target": "do, dare, dedi, datum",
+      "choices": ["do, dare, dedi, datum", "duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "disco, discere, didici, —"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dicere' (to say)",
+        "disco, discere, didici, —": "These are the parts of 'discere' (to learn)"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "vobis = to you (dat. pl., indirect object)",
+      "hints": {
+        "nominative": "Nominative would be 'vos' — 'vobis' is dative/ablative",
+        "ablative": "While 'vobis' could be ablative, with 'dabitur' it is dative (to whom it is given)",
+        "accusative": "Accusative would be 'vos' — 'vobis' is dative"
+      }
+    },
+    {
+      "prompt": "What voice is 'dabitur'?",
+      "target": "passive",
+      "choices": ["active", "passive", "deponent", "middle"],
+      "reveal": null,
+      "hints": {
+        "active": "Active future would be 'dabit' — 'dabitur' with -tur ending is passive",
+        "deponent": "'Dare' is not deponent — 'dabitur' is a true passive form",
+        "middle": "Latin does not have a middle voice — 'dabitur' is passive"
+      }
+    }
+  ],
+  "translation": "Ask, and it will be given to you"
+}

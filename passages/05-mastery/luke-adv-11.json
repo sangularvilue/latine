@@ -1,0 +1,130 @@
+{
+  "id": "luke-adv-11",
+  "source": "Vulgate",
+  "reference": "Lucas 10:30",
+  "latin": ["Homo", "quidam", "descendebat", "ab", "Hierusalem", "in", "Hiericho", "et", "incidit", "in", "latrones"],
+  "steps": [
+    {
+      "prompt": "What case is 'Homo quidam'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Homo quidam = a certain man (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'Hominem quendam' — 'Homo quidam' is nominative",
+        "ablative": "Ablative would be 'Homine quodam' — 'Homo quidam' is nominative subject",
+        "genitive": "Genitive would be 'Hominis cuiusdam' — 'Homo quidam' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'descendebat' translates to?",
+      "target": "to go down / to descend",
+      "choices": ["to go down / to descend", "to climb up", "to write", "to abandon"],
+      "reveal": null,
+      "hints": {
+        "to climb up": "'To climb up' is 'ascendere' — 'descendere' means to go down",
+        "to write": "'To write' is 'describere' — 'descendere' means to descend",
+        "to abandon": "'To abandon' is 'deserere' — 'descendere' means to go down"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'descendebat'?",
+      "target": "imperfect indicative",
+      "choices": ["present indicative", "imperfect indicative", "perfect indicative", "pluperfect indicative"],
+      "reveal": "descendebat = he was going down / he was descending",
+      "hints": {
+        "present indicative": "Present would be 'descendit' — 'descendebat' with -ba- is imperfect",
+        "perfect indicative": "Perfect would be 'descendit' — 'descendebat' with the -ba- marker is imperfect",
+        "pluperfect indicative": "Pluperfect would be 'descenderat' — 'descendebat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'descendebat'?",
+      "target": "descendo, descendere, descendi, descensum",
+      "choices": ["descendo, descendere, descendi, descensum", "ascendo, ascendere, ascendi, ascensum", "scando, scandere, scandi, scansum", "descisco, desciscere, descivi, descitum"],
+      "reveal": null,
+      "hints": {
+        "ascendo, ascendere, ascendi, ascensum": "These are the parts of 'ascendere' (to climb up) — opposite direction",
+        "scando, scandere, scandi, scansum": "These are the parts of 'scandere' (to climb) — the base verb",
+        "descisco, desciscere, descivi, descitum": "These are the parts of 'desciscere' (to revolt) — different verb"
+      }
+    },
+    {
+      "prompt": "Why is the imperfect tense used for 'descendebat'?",
+      "target": "it describes the ongoing background action when the robbers struck",
+      "choices": ["it describes the ongoing background action when the robbers struck", "it indicates a completed one-time event", "it expresses a habitual past action", "it is a polite request"],
+      "reveal": null,
+      "hints": {
+        "it indicates a completed one-time event": "Completed events use the perfect — imperfect shows the action in progress",
+        "it expresses a habitual past action": "While imperfect can be habitual, here it sets the scene for the interrupting event ('incidit')",
+        "it is a polite request": "Polite requests use imperfect subjunctive — 'descendebat' is imperfect indicative narrative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'incidit' translates to?",
+      "target": "to fall upon / to fall among",
+      "choices": ["to fall upon / to fall among", "to cut into", "to begin", "to happen"],
+      "reveal": null,
+      "hints": {
+        "to cut into": "'Incidere' (from 'caedere') means to cut into — this 'incidere' (from 'cadere') means to fall among",
+        "to begin": "'To begin' is 'incipere' — 'incidere' (in + cadere) means to fall upon",
+        "to happen": "'To happen' is 'accidere' — 'incidere' means to fall among/encounter"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'incidit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "future indicative"],
+      "reveal": "incidit = he fell among (a punctual completed event)",
+      "hints": {
+        "present indicative": "'Incidit' can be present, but context (narrative sequence after imperfect) makes it perfect",
+        "imperfect indicative": "Imperfect would be 'incidebat' — 'incidit' is a perfect form here",
+        "future indicative": "Future would be 'incidet' — 'incidit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'incidit'?",
+      "target": "incido, incidere, incidi, incasum",
+      "choices": ["incido, incidere, incidi, incasum", "incido, incidere, incidi, incisum", "incipio, incipere, incepi, inceptum", "accido, accidere, accidi, —"],
+      "reveal": null,
+      "hints": {
+        "incido, incidere, incidi, incisum": "These are the parts of 'incidere' (to cut into, from 'caedere') — a different verb with the same present stem",
+        "incipio, incipere, incepi, inceptum": "These are the parts of 'incipere' (to begin)",
+        "accido, accidere, accidi, —": "These are the parts of 'accidere' (to happen) — different compound of 'cadere'"
+      }
+    },
+    {
+      "prompt": "What case is 'latrones'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "in latrones = among robbers (acc. with 'in' expressing motion/encounter)",
+      "hints": {
+        "nominative": "Nominative plural would also be 'latrones,' but 'in' + accusative shows he fell among them",
+        "ablative": "'In' + ablative would mean 'among' (static) — 'in' + accusative shows the action of falling into",
+        "vocative": "Robbers are not being addressed — 'latrones' is accusative with 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'latro, latronis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'latronis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'latronis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'latronis' ends in -is"
+      }
+    }
+  ],
+  "translation": "A certain man was going down from Jerusalem to Jericho and fell among robbers"
+}

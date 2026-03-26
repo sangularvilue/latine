@@ -1,0 +1,97 @@
+{
+  "id": "luke-15-04",
+  "source": "Vulgate",
+  "reference": "Lucas 15:32",
+  "latin": ["Mortuus", "erat", "et", "revixit"],
+  "steps": [
+    {
+      "prompt": "Which words form the first verb phrase?",
+      "target": "Mortuus erat",
+      "choices": ["Mortuus erat", "Mortuus only", "erat only", "et revixit"],
+      "reveal": null,
+      "hints": {
+        "Mortuus only": "'Mortuus' is a participle that needs the auxiliary 'erat' to form a complete verb",
+        "erat only": "'Erat' is the auxiliary — together with 'mortuus' it forms the pluperfect passive",
+        "et revixit": "'Et revixit' is the second clause — the first verb phrase is 'mortuus erat'"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'mortuus'?",
+      "target": "perfect passive participle (deponent)",
+      "choices": ["perfect passive participle (deponent)", "present active participle", "future active participle", "gerundive"],
+      "reveal": "mortuus = having died (perf. ptcp. of deponent 'morior')",
+      "hints": {
+        "present active participle": "A present active participle would be 'moriens' — 'mortuus' is perfect",
+        "future active participle": "A future active participle would be 'moriturus' — 'mortuus' is perfect",
+        "gerundive": "A gerundive would be 'moriendus' — 'mortuus' is a perfect participle"
+      }
+    },
+    {
+      "prompt": "What tense is 'mortuus erat' together?",
+      "target": "pluperfect (passive/deponent)",
+      "choices": ["pluperfect (passive/deponent)", "perfect", "imperfect", "future perfect"],
+      "reveal": "mortuus erat = he had died / he was dead",
+      "hints": {
+        "perfect": "Perfect would be 'mortuus est' — 'erat' (imperfect of 'esse') makes this pluperfect",
+        "imperfect": "Imperfect of 'mori' would be 'moriebatur' — 'mortuus erat' is pluperfect",
+        "future perfect": "Future perfect would be 'mortuus erit' — 'erat' makes this pluperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mortuus'?",
+      "target": "morior, mori, mortuus sum, —",
+      "choices": ["morior, mori, mortuus sum, —", "moror, morari, moratus sum, —", "mordeo, mordere, momordi, morsum", "moveo, movere, movi, motum"],
+      "reveal": null,
+      "hints": {
+        "moror, morari, moratus sum, —": "These are the parts of 'morari' (to delay) — a deponent but different verb",
+        "mordeo, mordere, momordi, morsum": "These are the parts of 'mordere' (to bite)",
+        "moveo, movere, movi, motum": "These are the parts of 'movere' (to move)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'revixit' translates to?",
+      "target": "to come back to life / to revive",
+      "choices": ["to come back to life / to revive", "to see again", "to return", "to live"],
+      "reveal": null,
+      "hints": {
+        "to see again": "'To see again' is 'revisere' — 'revixit' comes from 'reviviscere'",
+        "to return": "'To return' is 'revenire' or 'redire' — 'reviviscere' means 'to come back to life'",
+        "to live": "'To live' is 'vivere' — 'reviviscere' adds 're-' meaning 'again'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'revixit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "revixit = he came back to life",
+      "hints": {
+        "present indicative": "Present would be 'reviviscit' — 'revixit' has the perfect stem",
+        "imperfect indicative": "Imperfect would be 'reviviscebat' — 'revixit' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'revixerat' — 'revixit' is simple perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'revixit'?",
+      "target": "revivisco, reviviscere, revixi, —",
+      "choices": ["revivisco, reviviscere, revixi, —", "vivo, vivere, vixi, victum", "reviso, revisere, revisi, revisum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live) — the base verb without 're-'",
+        "reviso, revisere, revisi, revisum": "These are the parts of 'revisere' (to revisit/see again)",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical contrast in this phrase?",
+      "target": "death vs. new life (mortuus vs. revixit)",
+      "choices": ["death vs. new life (mortuus vs. revixit)", "past vs. present tense", "active vs. passive voice", "singular vs. plural subject"],
+      "reveal": null,
+      "hints": {
+        "past vs. present tense": "Both verbs are past tense — the contrast is semantic: death vs. revival",
+        "active vs. passive voice": "'Mortuus erat' is deponent (active meaning) and 'revixit' is active — the contrast is death/life",
+        "singular vs. plural subject": "The subject is singular throughout — the contrast is between dying and coming back to life"
+      }
+    }
+  ],
+  "translation": "He was dead and has come back to life"
+}

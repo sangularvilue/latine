@@ -1,0 +1,108 @@
+{
+  "id": "luke-13-07",
+  "source": "Vulgate",
+  "reference": "Lucas 13:29",
+  "latin": ["Venient", "ab", "oriente", "et", "occidente", "et", "recumbent", "in", "regno", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which words are the finite verbs?",
+      "target": "Venient and recumbent",
+      "choices": ["Venient and recumbent", "Venient only", "recumbent only", "oriente and occidente"],
+      "reveal": null,
+      "hints": {
+        "Venient only": "'Recumbent' is also a finite verb meaning 'they will recline'",
+        "recumbent only": "'Venient' is also a finite verb meaning 'they will come'",
+        "oriente and occidente": "'Oriente' and 'occidente' are present participles used as nouns (east/west)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Venient' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to hunt", "to find"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'To sell' is 'vendere' — 'Venient' comes from 'venire' (to come)",
+        "to hunt": "'To hunt' is 'venari' — 'venire' means 'to come'",
+        "to find": "'To find' is 'invenire' — 'venire' means 'to come'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Venient'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "Venient = they will come",
+      "hints": {
+        "present indicative": "Present would be 'veniunt' — 'Venient' has the future -ie- formation",
+        "present subjunctive": "Present subjunctive would be 'veniant' — 'Venient' is future indicative",
+        "perfect indicative": "Perfect would be 'venerunt' — 'Venient' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Venient'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vendo, vendere, vendidi, venditum", "venor, venari, venatus sum, —", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "vendo, vendere, vendidi, venditum": "These are the parts of 'vendere' (to sell)",
+        "venor, venari, venatus sum, —": "These are the parts of 'venari' (to hunt)",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'oriente'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "oriente = from the east (abl., after 'ab')",
+      "hints": {
+        "nominative": "Nominative would be 'oriens' — 'oriente' with -e is ablative",
+        "accusative": "Accusative would be 'orientem' — 'oriente' is ablative after 'ab'",
+        "genitive": "Genitive would be 'orientis' — 'oriente' is ablative"
+      }
+    },
+    {
+      "prompt": "What is 'oriente' derived from?",
+      "target": "present participle of 'orior' (to rise), used as a noun meaning 'east'",
+      "choices": ["present participle of 'orior' (to rise), used as a noun meaning 'east'", "a 3rd declension noun unrelated to any verb", "a gerundive meaning 'to be risen'", "an adjective meaning 'oriental'"],
+      "reveal": null,
+      "hints": {
+        "a 3rd declension noun unrelated to any verb": "'Oriens' is the present participle of 'orior' (to rise) — the sun rises in the east",
+        "a gerundive meaning 'to be risen'": "A gerundive would be 'oriendus' — 'oriens/oriente' is a present participle",
+        "an adjective meaning 'oriental'": "'Oriens' is a substantivized participle, not primarily an adjective"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'recumbent' translates to?",
+      "target": "to recline (at table)",
+      "choices": ["to recline (at table)", "to lie down (to sleep)", "to fall back", "to count again"],
+      "reveal": null,
+      "hints": {
+        "to lie down (to sleep)": "'To lie down' is 'cubare' — 'recumbere' specifically means 'to recline at a banquet'",
+        "to fall back": "'To fall back' is 'recidere' — 'recumbere' means 'to recline'",
+        "to count again": "'To count again' is 'renumerare' — 'recumbere' means 'to recline at table'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'recumbent'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "recumbent = they will recline (at the banquet table)",
+      "hints": {
+        "present indicative": "Present would be 'recumbunt' — 'recumbent' has the future -e- vowel (3rd conj.)",
+        "present subjunctive": "Present subjunctive would be 'recumbant' — 'recumbent' is future indicative",
+        "perfect indicative": "Perfect would be 'recubuerunt' — 'recumbent' is future"
+      }
+    },
+    {
+      "prompt": "What case is 'regno'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "regno = kingdom (abl., after 'in')",
+      "hints": {
+        "nominative": "Nominative would be 'regnum' — 'regno' follows 'in' (place where)",
+        "dative": "'Regno' could be dative, but after 'in' it is ablative of place",
+        "genitive": "Genitive would be 'regni' — 'regno' ends in -o"
+      }
+    }
+  ],
+  "translation": "They will come from east and west and will recline in the kingdom of God"
+}

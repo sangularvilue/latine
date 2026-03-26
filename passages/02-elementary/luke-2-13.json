@@ -1,0 +1,86 @@
+{
+  "id": "luke-2-13",
+  "source": "Vulgate",
+  "reference": "Lucas 2:46",
+  "latin": ["Invenerunt", "illum", "in", "templo"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Invenerunt",
+      "choices": ["Invenerunt", "illum", "in", "templo"],
+      "reveal": null,
+      "hints": {
+        "illum": "'illum' is a demonstrative pronoun meaning 'him/that one' in the accusative",
+        "in": "'in' is a preposition meaning 'in'",
+        "templo": "'templo' is a noun meaning 'temple' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Invenerunt' translates to?",
+      "target": "to find",
+      "choices": ["to find", "to come", "to conquer", "to enter"],
+      "reveal": null,
+      "hints": {
+        "to come": "'to come' is 'venire' — 'Invenerunt' comes from 'invenire' (to find upon)",
+        "to conquer": "'to conquer' is 'vincere' — 'Invenerunt' comes from 'invenire'",
+        "to enter": "'to enter' is 'intrare/inire' — 'Invenerunt' comes from 'invenire' (to find)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Invenerunt'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "Invenerunt", "gloss": "they found" },
+      "hints": {
+        "Present": "Present would be 'inveniunt' — 'Invenerunt' with -erunt is 3rd plural perfect",
+        "Imperfect": "Imperfect would be 'inveniebant' — 'Invenerunt' is perfect",
+        "Pluperfect": "Pluperfect would be 'invenerant' — 'Invenerunt' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Invenerunt'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "video, videre, vidi, visum", "intro, intrare, intravi, intratum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — 'invenire' is its compound with in-",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "intro, intrare, intravi, intratum": "These are the parts of 'intrare' (to enter)"
+      }
+    },
+    {
+      "prompt": "What case is 'illum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "illum", "gloss": "him / that one" },
+      "hints": {
+        "Nominative": "Nominative would be 'ille' — 'illum' with -um ending is accusative",
+        "Dative": "Dative would be 'illi' — 'illum' is accusative, direct object of 'Invenerunt'",
+        "Ablative": "Ablative would be 'illo' — 'illum' is the accusative form"
+      }
+    },
+    {
+      "prompt": "What case is 'templo'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Genitive"],
+      "reveal": { "word": "templo", "gloss": "in the temple" },
+      "hints": {
+        "Nominative": "Nominative would be 'templum' — 'templo' with -o ending is dative/ablative",
+        "Dative": "'templo' could be dative, but after 'in' it is ablative of place where",
+        "Genitive": "Genitive would be 'templi' — 'templo' is ablative after 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'templum, templi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'templi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'templi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'templi' ends in -i"
+      }
+    }
+  ],
+  "translation": "They found him in the temple"
+}

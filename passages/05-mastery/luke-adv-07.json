@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-07",
+  "source": "Vulgate",
+  "reference": "Lucas 15:7",
+  "latin": ["Dico", "vobis", "quod", "ita", "gaudium", "erit", "in", "caelo", "super", "uno", "peccatore", "paenitentiam", "agente"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Dico' translates to?",
+      "target": "to say / to tell",
+      "choices": ["to say / to tell", "to lead", "to dedicate", "to learn"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'To lead' is 'ducere' — 'Dico' comes from 'dicere' (to say)",
+        "to dedicate": "'To dedicate' is 'dicare' — 'dicere' means to say",
+        "to learn": "'To learn' is 'discere' — 'dicere' means to say"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Dico'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "Dico = I say",
+      "hints": {
+        "perfect indicative": "Perfect would be 'dixi' — 'Dico' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'dicam' — 'Dico' is present indicative",
+        "future indicative": "Future would be 'dicam' — 'Dico' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Dico'?",
+      "target": "dico, dicere, dixi, dictum",
+      "choices": ["dico, dicere, dixi, dictum", "duco, ducere, duxi, ductum", "dico, dicare, dicavi, dicatum", "disco, discere, didici, —"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "dico, dicare, dicavi, dicatum": "These are the parts of 'dicare' (to dedicate) — a 1st conjugation verb",
+        "disco, discere, didici, —": "These are the parts of 'discere' (to learn)"
+      }
+    },
+    {
+      "prompt": "What case is 'gaudium'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "gaudium = joy (nom., subject of 'erit')",
+      "hints": {
+        "accusative": "'Gaudium' as neuter can be accusative too, but here it is subject of 'erit'",
+        "ablative": "Ablative would be 'gaudio' — 'gaudium' is nominative",
+        "genitive": "Genitive would be 'gaudii' — 'gaudium' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'gaudium, gaudii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'gaudii' ends in -ii/-i",
+        "3rd declension": "3rd declension has genitive in -is — 'gaudii' ends in -ii",
+        "4th declension": "4th declension has genitive in -ūs — 'gaudii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to err"],
+      "reveal": null,
+      "hints": {
+        "to go": "'To go' is 'ire' — 'erit' comes from 'esse' (to be)",
+        "to eat": "'To eat' is 'edere' — 'erit' is the future of 'esse'",
+        "to err": "'To err' is 'errare' — 'erit' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect indicative", "present subjunctive"],
+      "reveal": "erit = there will be",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erit' with -it is future of 'esse'",
+        "perfect indicative": "Perfect would be 'fuit' — 'erit' is future indicative",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative"
+      }
+    },
+    {
+      "prompt": "What case is 'caelo'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "in caelo = in heaven (abl. of place where)",
+      "hints": {
+        "nominative": "Nominative would be 'caelum' — 'caelo' with -o is ablative or dative",
+        "accusative": "Accusative would be 'caelum' — 'in' + ablative = location, not motion",
+        "dative": "'Caelo' could be dative, but with 'in' it is ablative of place"
+      }
+    },
+    {
+      "prompt": "What case is 'uno peccatore'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "super uno peccatore = over one sinner (abl. with 'super')",
+      "hints": {
+        "nominative": "Nominative would be 'unus peccator' — 'uno peccatore' is ablative",
+        "accusative": "Accusative would be 'unum peccatorem' — 'uno peccatore' is ablative",
+        "dative": "Dative would be 'uni peccatori' — 'uno peccatore' is ablative with 'super'"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccator, peccatoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'peccatoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'peccatoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'peccatoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the construction 'paenitentiam agente'?",
+      "target": "ablative absolute (present participle + ablative noun phrase)",
+      "choices": ["ablative absolute (present participle + ablative noun phrase)", "ablative of means", "gerundive obligation", "accusative + infinitive"],
+      "reveal": "paenitentiam agente = (while/with him) doing penance",
+      "hints": {
+        "ablative of means": "Ablative of means has no participle — 'agente' is a participle forming an ablative absolute",
+        "gerundive obligation": "Gerundive would be 'agendum' — 'agente' is a present active participle",
+        "accusative + infinitive": "No infinitive is present — 'agente' is a participle in the ablative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'agente'?",
+      "target": "ago, agere, egi, actum",
+      "choices": ["ago, agere, egi, actum", "aio, —, —, —", "accipio, accipere, accepi, acceptum", "augeo, augere, auxi, auctum"],
+      "reveal": null,
+      "hints": {
+        "aio, —, —, —": "These are the (defective) parts of 'aio' (to say yes/affirm) — different verb",
+        "accipio, accipere, accepi, acceptum": "These are the parts of 'accipere' (to receive)",
+        "augeo, augere, auxi, auctum": "These are the parts of 'augere' (to increase)"
+      }
+    }
+  ],
+  "translation": "I tell you that thus there will be joy in heaven over one sinner doing penance"
+}

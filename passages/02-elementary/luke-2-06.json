@@ -1,0 +1,97 @@
+{
+  "id": "luke-2-06",
+  "source": "Vulgate",
+  "reference": "Lucas 2:10",
+  "latin": ["Nolite", "timere"],
+  "steps": [
+    {
+      "prompt": "Which word is a finite verb form?",
+      "target": "Nolite",
+      "choices": ["Nolite", "timere", "noli", "timore"],
+      "reveal": null,
+      "hints": {
+        "timere": "'timere' is the present infinitive (to fear) — it completes the construction but is not finite",
+        "noli": "'noli' is the singular imperative of 'nolle' — 'Nolite' is the plural form used here",
+        "timore": "'timore' is the ablative of 'timor' (fear, the noun) — not present in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Nolite' translates to?",
+      "target": "to be unwilling / to not wish",
+      "choices": ["to be unwilling / to not wish", "to know", "to harm", "to deny"],
+      "reveal": null,
+      "hints": {
+        "to know": "'to know' is 'noscere/nosse' — 'Nolite' comes from 'nolle' (not + velle)",
+        "to harm": "'to harm' is 'nocere' — 'Nolite' comes from 'nolle' (to be unwilling)",
+        "to deny": "'to deny' is 'negare' — 'Nolite' comes from 'nolle'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Nolite'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Nolite", "gloss": "do not (plural)" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'Nolite' is a command (do not!)",
+        "Subjunctive": "Subjunctive would express wish or possibility — 'Nolite' is a direct prohibition",
+        "Infinitive": "Infinitive would be 'nolle' — 'Nolite' is the 2nd person plural imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "volo, velle, volui, —", "nosco, noscere, novi, notum", "noceo, nocere, nocui, nocitum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the parts of 'velle' (to wish) — 'nolle' is its negative (non + velle)",
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to learn/know)",
+        "noceo, nocere, nocui, nocitum": "These are the parts of 'nocere' (to harm)"
+      }
+    },
+    {
+      "prompt": "Which word is an infinitive?",
+      "target": "timere",
+      "choices": ["Nolite", "timere", "timor", "timebat"],
+      "reveal": null,
+      "hints": {
+        "Nolite": "'Nolite' is a plural imperative, not an infinitive",
+        "timor": "'timor' is the noun 'fear' — not present in this phrase",
+        "timebat": "'timebat' is an imperfect indicative form — not present in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'timere' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to honor", "to time", "to cut"],
+      "reveal": null,
+      "hints": {
+        "to honor": "'to honor' is 'honorare' — 'timere' means 'to fear'",
+        "to time": "Latin 'timere' has no relation to English 'time' — it means 'to fear'",
+        "to cut": "'to cut' is 'secare' — 'timere' means 'to fear/be afraid'"
+      }
+    },
+    {
+      "prompt": "What construction does 'Nolite timere' form?",
+      "target": "Negative command (prohibition)",
+      "choices": ["Negative command (prohibition)", "Purpose clause", "Indirect statement", "Result clause"],
+      "reveal": { "word": "timere", "gloss": "to fear" },
+      "hints": {
+        "Purpose clause": "A purpose clause uses 'ut/ne' + subjunctive — 'Nolite + infinitive' is a prohibition",
+        "Indirect statement": "Indirect statement uses accusative + infinitive — this is a direct command",
+        "Result clause": "A result clause uses 'ut' + subjunctive — 'Nolite + infinitive' forms a negative command"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timere'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "moneo, monere, monui, monitum", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)",
+        "moneo, monere, monui, monitum": "These are the parts of 'monere' (to warn)",
+        "habeo, habere, habui, habitum": "These are the parts of 'habere' (to have)"
+      }
+    }
+  ],
+  "translation": "Do not be afraid"
+}

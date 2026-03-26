@@ -1,0 +1,108 @@
+{
+  "id": "luke-1-24",
+  "source": "Vulgate",
+  "reference": "Lucas 1:76",
+  "latin": ["Tu", "puer", "propheta", "Altissimi", "vocaberis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "vocaberis",
+      "choices": ["Tu", "puer", "propheta", "vocaberis"],
+      "reveal": null,
+      "hints": {
+        "Tu": "'Tu' is a pronoun meaning 'you'",
+        "puer": "'Puer' is a noun meaning 'child/boy'",
+        "propheta": "'Propheta' is a noun meaning 'prophet'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vocaberis' translates to?",
+      "target": "to call",
+      "choices": ["to call", "to speak", "to name", "to sing"],
+      "reveal": null,
+      "hints": {
+        "to speak": "That would be 'loqui' or 'dicere'",
+        "to name": "That would be 'nominare'; 'vocare' means 'to call'",
+        "to sing": "That would be 'cantare' or 'canere'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'vocaberis'?",
+      "target": "future passive indicative",
+      "choices": ["present passive", "future passive indicative", "perfect passive", "future active"],
+      "reveal": "vocaberis = you will be called",
+      "hints": {
+        "present passive": "Present passive 2nd person would be 'vocaris'",
+        "perfect passive": "Perfect passive would be 'vocatus es'",
+        "future active": "Future active 2nd person would be 'vocabis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vocaberis'?",
+      "target": "voco, vocare, vocavi, vocatum",
+      "choices": ["voco, vocare, vocavi, vocatum", "dico, dicere, dixi, dictum", "nomino, nominare, nominavi, nominatum", "clamo, clamare, clamavi, clamatum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are the principal parts of 'dico' (to say)",
+        "nomino, nominare, nominavi, nominatum": "These are the principal parts of 'nomino' (to name)",
+        "clamo, clamare, clamavi, clamatum": "These are the principal parts of 'clamo' (to shout)"
+      }
+    },
+    {
+      "prompt": "What case is 'puer'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "puer = child/boy (voc.)",
+      "hints": {
+        "nominative": "Nominative and vocative of 'puer' are identical; context shows direct address",
+        "accusative": "Accusative would be 'puerum'",
+        "genitive": "Genitive would be 'pueri'"
+      }
+    },
+    {
+      "prompt": "What declension is 'puer'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'puer' has genitive 'pueri'",
+        "3rd declension": "3rd declension has -is genitive; 'puer' has genitive 'pueri'",
+        "4th declension": "4th declension has -us genitive; 'puer' has genitive 'pueri'"
+      }
+    },
+    {
+      "prompt": "What case is 'propheta'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "propheta = prophet (nom., predicate nominative)",
+      "hints": {
+        "ablative": "Ablative 1st declension singular is 'propheta', but here it is predicate nominative with 'vocaberis'",
+        "vocative": "Vocative would also be 'propheta' for 1st decl., but it is predicate nominative here",
+        "accusative": "Accusative would be 'prophetam'"
+      }
+    },
+    {
+      "prompt": "What case is 'Altissimi'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "Altissimi = of the Most High (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Altissimus'; 'Altissimi' with -i is genitive singular",
+        "dative": "Dative would be 'Altissimo'",
+        "accusative": "Accusative would be 'Altissimum'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'Altissimus' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have -is/-e forms; 'altissimus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Altissimus' clearly declines: altissimus, altissima, altissimum, etc."
+      }
+    }
+  ],
+  "translation": "And you, child, will be called prophet of the Most High"
+}

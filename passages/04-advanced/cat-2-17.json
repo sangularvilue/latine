@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-17",
+  "source": "Cicero",
+  "reference": "In Cat. II.13",
+  "latin": ["Est", "mihi", "tanti", "Quirites", "huius", "invidiae", "subire", "tempestatem"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Est",
+      "choices": ["Est", "mihi", "subire", "tempestatem"],
+      "reveal": null,
+      "hints": {
+        "mihi": "'mihi' is a pronoun in the dative meaning 'to/for me'",
+        "subire": "'subire' is an infinitive meaning 'to undergo/endure'",
+        "tempestatem": "'tempestatem' is a noun in the accusative meaning 'storm'"
+      }
+    },
+    {
+      "prompt": "What does 'tanti' express in this construction?",
+      "target": "Genitive of value — 'worth so much / worthwhile'",
+      "choices": ["Nominative plural", "Genitive of value — 'worth so much / worthwhile'", "Dative singular", "Ablative of price"],
+      "reveal": { "word": "tanti", "gloss": "worth so much" },
+      "hints": {
+        "Nominative plural": "'tanti' as nominative plural would modify a plural noun — here it's a genitive of value with 'est'",
+        "Dative singular": "Dative would be 'tanto' — 'tanti' is genitive of indefinite value",
+        "Ablative of price": "Ablative of price uses definite amounts — 'tanti' as genitive expresses indefinite value ('worth that much')"
+      }
+    },
+    {
+      "prompt": "What case is 'invidiae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "invidiae", "gloss": "of unpopularity / resentment" },
+      "hints": {
+        "Nominative": "Nominative would be 'invidia' — 'invidiae' with -ae ending is genitive singular",
+        "Dative": "Dative singular is also 'invidiae', but here it modifies 'tempestatem' as a genitive (storm of resentment)",
+        "Ablative": "Ablative would be 'invidia' — 'invidiae' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'tempestatem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "tempestatem", "gloss": "storm" },
+      "hints": {
+        "Nominative": "Nominative would be 'tempestas' — 'tempestatem' with -em ending is accusative, object of 'subire'",
+        "Dative": "Dative would be 'tempestati' — 'tempestatem' is accusative",
+        "Ablative": "Ablative would be 'tempestate' — 'tempestatem' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'tempestatem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'tempestas, -atis' is 3rd declension",
+        "2nd": "2nd declension accusative ends in -um — 'tempestas, -atis' is 3rd declension",
+        "5th": "5th declension accusative ends in -em too, but 'tempestas, -atis' with gen. -atis is 3rd"
+      }
+    },
+    {
+      "prompt": "The infinitive 'subire' translates to?",
+      "target": "to undergo / endure",
+      "choices": ["to be under", "to undergo / endure", "to rise", "to approach"],
+      "reveal": null,
+      "hints": {
+        "to be under": "'to be under' is 'subesse' — 'subire' means 'to undergo/approach/endure'",
+        "to rise": "'to rise' is 'surgere' — 'subire' means 'to undergo'",
+        "to approach": "'to approach' is close — 'subire' can mean 'approach' but here means 'undergo/endure'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'subire'?",
+      "target": "subeo, subire, subii, subitum",
+      "choices": ["subeo, subire, subii, subitum", "eo, ire, ii, itum", "adeo, adire, adii, aditum", "pereo, perire, perii, peritum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — the base verb",
+        "adeo, adire, adii, aditum": "These are the parts of 'adire' (to approach) — a different compound",
+        "pereo, perire, perii, peritum": "These are the parts of 'perire' (to perish) — a different compound"
+      }
+    },
+    {
+      "prompt": "What is the metaphor 'invidiae tempestas'?",
+      "target": "Political hostility as a storm to be weathered",
+      "choices": ["Actual bad weather during the speech", "Political hostility as a storm to be weathered", "A religious omen", "A military siege"],
+      "reveal": null,
+      "hints": {
+        "Actual bad weather during the speech": "'tempestas' is metaphorical here — Cicero compares political resentment to a storm",
+        "A religious omen": "While 'tempestas' can relate to omens, here it metaphorically describes political backlash",
+        "A military siege": "The metaphor is of a storm, not a siege — Cicero will endure the storm of resentment"
+      }
+    }
+  ],
+  "translation": "It is worth so much to me, Citizens, to undergo this storm of resentment."
+}

@@ -1,0 +1,130 @@
+{
+  "id": "luke-22-02",
+  "source": "Vulgate",
+  "reference": "Lucas 22:19",
+  "latin": ["Hoc", "est", "corpus", "meum", "quod", "pro", "vobis", "datur"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "est",
+      "choices": ["est", "datur", "corpus", "Hoc"],
+      "reveal": null,
+      "hints": {
+        "datur": "'Datur' is a finite verb but belongs to the subordinate relative clause",
+        "corpus": "'Corpus' is a noun meaning 'body'",
+        "Hoc": "'Hoc' is a demonstrative pronoun meaning 'this'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' has the infinitive 'esse' (from 'edo'), identical to 'sum' — context determines 'to be'",
+        "to go": "'To go' is 'ire' — 'est' is from 'sum, esse'",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "exsto, exstare, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat) — same infinitive but different verb",
+        "sto, stare, steti, statum": "These are the parts of 'sto' (to stand)",
+        "exsto, exstare, exstiti, —": "These are the parts of 'exsto' (to stand out/exist)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'datur'?",
+      "target": "present passive indicative",
+      "choices": ["present passive indicative", "perfect passive indicative", "present passive subjunctive", "future passive indicative"],
+      "reveal": "datur = is given (3rd sing. pres. pass.)",
+      "hints": {
+        "perfect passive indicative": "Perfect passive would be 'datum est' — 'datur' is present passive",
+        "present passive subjunctive": "Present passive subjunctive would be 'detur' — 'datur' has -a- (indicative)",
+        "future passive indicative": "Future passive would be 'dabitur' — 'datur' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'datur'?",
+      "target": "do, dare, dedi, datum",
+      "choices": ["do, dare, dedi, datum", "duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "disco, discere, didici, —"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'duco' (to lead)",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dico' (to say)",
+        "disco, discere, didici, —": "These are the parts of 'disco' (to learn)"
+      }
+    },
+    {
+      "prompt": "What case is 'Hoc'?",
+      "target": "nominative neuter",
+      "choices": ["nominative neuter", "accusative neuter", "ablative neuter", "dative"],
+      "reveal": "Hoc = this (nom. neut. sing.)",
+      "hints": {
+        "accusative neuter": "'Hoc' looks the same in accusative neuter, but here it is the subject of 'est'",
+        "ablative neuter": "Ablative neuter would also be 'hoc', but context shows it is the subject",
+        "dative": "Dative of 'hic' would be 'huic' — 'Hoc' is nominative here"
+      }
+    },
+    {
+      "prompt": "What case is 'corpus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "corpus = body (nom., predicate nominative)",
+      "hints": {
+        "accusative": "'Corpus' looks the same in accusative, but it is a predicate nominative after 'est'",
+        "genitive": "Genitive would be 'corporis' — 'corpus' is nominative here",
+        "ablative": "Ablative would be 'corpore' — 'corpus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'corpus, corporis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'corporis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'corporis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'corporis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis' after 'pro'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "accusative", "genitive"],
+      "reveal": "pro vobis = for you / on your behalf (abl.)",
+      "hints": {
+        "dative": "'Vobis' can be dative, but after 'pro' it must be ablative",
+        "accusative": "Accusative of 'vos' is 'vos' — 'vobis' after 'pro' is ablative",
+        "genitive": "Genitive of 'vos' is 'vestrum/vestri' — 'vobis' is dative or ablative"
+      }
+    },
+    {
+      "prompt": "What function does 'quod' serve here?",
+      "target": "relative pronoun referring to 'corpus'",
+      "choices": ["relative pronoun referring to 'corpus'", "causal conjunction (because)", "conjunction introducing indirect speech", "interrogative pronoun"],
+      "reveal": "quod pro vobis datur = which is given for you",
+      "hints": {
+        "causal conjunction (because)": "'Quod' can mean 'because', but here it refers back to 'corpus' as a relative pronoun",
+        "conjunction introducing indirect speech": "'Quod' can introduce indirect speech in later Latin, but here it is a relative pronoun",
+        "interrogative pronoun": "'Quod' as interrogative means 'which?' — here it is a relative pronoun"
+      }
+    }
+  ],
+  "translation": "This is my body which is given for you"
+}

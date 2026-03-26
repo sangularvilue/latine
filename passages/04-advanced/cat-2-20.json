@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-20",
+  "source": "Cicero",
+  "reference": "In Cat. II.14",
+  "latin": ["Denique", "isto", "animo", "estote", "ut", "desperetis"],
+  "steps": [
+    {
+      "prompt": "Which word is the first verb?",
+      "target": "estote",
+      "choices": ["Denique", "animo", "estote", "desperetis"],
+      "reveal": null,
+      "hints": {
+        "Denique": "'Denique' is an adverb meaning 'finally / in short'",
+        "animo": "'animo' is a noun in the ablative meaning 'with this spirit/attitude'",
+        "desperetis": "'desperetis' is a verb but in the subordinate 'ut' clause"
+      }
+    },
+    {
+      "prompt": "What mood is 'estote'?",
+      "target": "Future imperative",
+      "choices": ["Present imperative", "Future imperative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "estote", "gloss": "be! (in the future)" },
+      "hints": {
+        "Present imperative": "Present imperative of 'esse' is 'este' — 'estote' with -tote ending is the future imperative",
+        "Present subjunctive": "Present subjunctive would be 'sitis' — 'estote' is a rare future imperative form",
+        "Future indicative": "Future indicative would be 'eritis' — 'estote' is the future imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'estote'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "sto, stare, steti, statum", "eo, ire, ii, itum", "edo, edere, edi, esum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'desperetis'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "desperetis", "gloss": "you despair / give up hope" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'desperatis' — 'desperetis' is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'desperaretis' — 'desperetis' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'desperaveritis' — 'desperetis' is present"
+      }
+    },
+    {
+      "prompt": "Why is 'desperetis' in the subjunctive?",
+      "target": "Result clause after 'isto animo … ut' — 'of such a spirit that …'",
+      "choices": ["Purpose clause", "Result clause after 'isto animo … ut' — 'of such a spirit that …'", "Indirect command", "Indirect question"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose clauses express intention — 'isto animo … ut' describes the character of their spirit (result)",
+        "Indirect command": "Indirect commands follow verbs of ordering — this follows 'estote' with a description of attitude",
+        "Indirect question": "Indirect questions use interrogative words — 'ut' here introduces a result clause"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'desperetis'?",
+      "target": "despero, desperare, desperavi, desperatum",
+      "choices": ["despero, desperare, desperavi, desperatum", "spero, sperare, speravi, speratum", "aspero, asperare, asperavi, asperatum", "prospero, prosperare, prosperavi, prosperatum"],
+      "reveal": null,
+      "hints": {
+        "spero, sperare, speravi, speratum": "These are the parts of 'sperare' (to hope) — the base verb without de- prefix",
+        "aspero, asperare, asperavi, asperatum": "These would be the parts of 'asperare' (to roughen) — a different verb",
+        "prospero, prosperare, prosperavi, prosperatum": "These would be the parts of 'prosperare' (to prosper) — a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'animo'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "animo", "gloss": "spirit / attitude" },
+      "hints": {
+        "Nominative": "Nominative would be 'animus' — 'animo' is ablative of quality/description",
+        "Dative": "Dative would be 'animo' (same form), but with 'isto' and the context it is ablative of quality",
+        "Accusative": "Accusative would be 'animum' — 'animo' is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'animo'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'animus, -i' is 2nd declension",
+        "3rd": "3rd declension ablative ends in -e — 'animus, -i' is 2nd declension",
+        "4th": "4th declension ablative ends in -u — 'animus, -i' is 2nd declension"
+      }
+    }
+  ],
+  "translation": "Finally, be of such a spirit that you give up all hope."
+}

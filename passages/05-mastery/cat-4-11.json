@@ -1,0 +1,130 @@
+{
+  "id": "cat-4-11",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.18",
+  "latin": ["Magna", "dis", "immortalibus", "habenda", "est", "gratia"],
+  "steps": [
+    {
+      "prompt": "What case is 'Magna'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Magna = great (nom. f. sg., modifying 'gratia')",
+      "hints": {
+        "accusative": "Accusative feminine would be 'Magnam' — 'Magna' is nominative",
+        "ablative": "Ablative feminine would be 'Magna' too, but here it modifies nominative 'gratia'",
+        "vocative": "'Magna' is not being addressed — it modifies the subject 'gratia'"
+      }
+    },
+    {
+      "prompt": "What case is 'dis immortalibus'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "dis immortalibus = to the immortal gods (dat.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'di immortales' — 'dis immortalibus' is dative or ablative",
+        "accusative": "Accusative would be 'deos immortales' — 'dis immortalibus' is dative",
+        "ablative": "'Dis immortalibus' could be ablative, but with 'habenda est gratia' it is dative of recipient"
+      }
+    },
+    {
+      "prompt": "What declension is 'deus, dei'?",
+      "target": "2nd declension (with irregular plural forms)",
+      "choices": ["2nd declension (with irregular plural forms)", "2nd declension (regular)", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension (regular)": "'Deus' is 2nd declension but has irregular plurals: di/dii, deorum, dis/diis, deos, dis/diis",
+        "3rd declension": "3rd declension has genitive in -is — 'dei' ends in -i (2nd declension)",
+        "4th declension": "4th declension has genitive in -ūs — 'dei' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is 'habenda est'?",
+      "target": "passive periphrastic (gerundive of obligation)",
+      "choices": ["passive periphrastic (gerundive of obligation)", "future passive indicative", "perfect passive indicative", "present passive indicative"],
+      "reveal": "habenda est = must be held / given (gerundive obligation)",
+      "hints": {
+        "future passive indicative": "Future passive would be 'habebitur' — 'habenda' is a gerundive expressing obligation",
+        "perfect passive indicative": "Perfect passive would be 'habita est' — 'habenda' with -nd- is a gerundive",
+        "present passive indicative": "Present passive would be 'habetur' — 'habenda est' expresses obligation"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habenda est' translates to?",
+      "target": "to have / to hold",
+      "choices": ["to have / to hold", "to dwell", "to give", "to consider"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "'To dwell' is 'habitare' — 'habere' means to have or hold",
+        "to give": "'To give' is 'dare' — 'habere' means to have; 'gratiam habere' = to feel gratitude",
+        "to consider": "'Habere' can mean 'to consider,' but with 'gratiam' it means to feel/express thanks"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habenda est'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "abeo, abire, abii, abitum", "debeo, debere, debui, debitum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell) — different verb",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away)",
+        "debeo, debere, debui, debitum": "These are the parts of 'debere' (to owe) — different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'gratia'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "gratia = thanks / gratitude (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'gratiam' — 'gratia' here is nominative singular, subject of 'habenda est'",
+        "ablative": "Ablative would also be 'gratia,' but here it is the subject of the passive periphrastic",
+        "vocative": "Vocative would be 'gratia' — but thanks are not being addressed here"
+      }
+    },
+    {
+      "prompt": "What declension is 'gratia, gratiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'gratiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'gratiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'gratiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What does the idiom 'gratiam habere' mean?",
+      "target": "to feel / express gratitude",
+      "choices": ["to feel / express gratitude", "to hold a favor", "to have grace", "to possess charm"],
+      "reveal": null,
+      "hints": {
+        "to hold a favor": "'Gratiam referre' means to return a favor — 'gratiam habere' is to feel thanks",
+        "to have grace": "'Gratia' here means thanks, not grace — the idiom means to feel gratitude",
+        "to possess charm": "'Gratia' can mean charm, but with 'habere' it is the idiom for expressing gratitude"
+      }
+    },
+    {
+      "prompt": "In the passive periphrastic, who is the implied agent?",
+      "target": "the speaker and citizens (understood from context)",
+      "choices": ["the speaker and citizens (understood from context)", "the immortal gods", "Catiline", "the senate"],
+      "reveal": null,
+      "hints": {
+        "the immortal gods": "The gods are the recipients (dative) of gratitude, not the agents who must give it",
+        "Catiline": "Catiline is the enemy — he would not be expressing gratitude to the gods",
+        "the senate": "While the senate is present, the dative of agent is omitted, leaving the obligation general"
+      }
+    },
+    {
+      "prompt": "What is the word order effect of separating 'Magna...gratia' across the sentence?",
+      "target": "hyperbaton: creates emphasis by framing the obligation within the modifier",
+      "choices": ["hyperbaton: creates emphasis by framing the obligation within the modifier", "anaphora: repetition at the start", "chiasmus: mirror-image structure", "asyndeton: omission of conjunctions"],
+      "reveal": null,
+      "hints": {
+        "anaphora: repetition at the start": "Anaphora repeats words at the start of clauses — this is separation of adjective from noun",
+        "chiasmus: mirror-image structure": "Chiasmus is ABBA order — this is hyperbaton (splitting 'Magna...gratia')",
+        "asyndeton: omission of conjunctions": "Asyndeton omits conjunctions — here the figure is the wide separation of adjective and noun"
+      }
+    }
+  ],
+  "translation": "Great gratitude must be given to the immortal gods"
+}

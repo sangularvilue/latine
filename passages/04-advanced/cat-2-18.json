@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-18",
+  "source": "Cicero",
+  "reference": "In Cat. I.3",
+  "latin": ["Ne", "quid", "res", "publica", "detrimenti", "capiat"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "capiat",
+      "choices": ["Ne", "quid", "detrimenti", "capiat"],
+      "reveal": null,
+      "hints": {
+        "Ne": "'Ne' is a conjunction meaning 'lest / that … not'",
+        "quid": "'quid' here is an indefinite pronoun meaning 'any / some'",
+        "detrimenti": "'detrimenti' is a noun in the genitive meaning 'of harm/damage'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'capiat' translates to?",
+      "target": "to take / receive",
+      "choices": ["to seize", "to take / receive", "to capture", "to begin"],
+      "reveal": null,
+      "hints": {
+        "to seize": "'to seize' is 'rapere' — 'capere' means 'to take/receive'",
+        "to capture": "'to capture' is close — 'capere' can mean 'capture', but in this idiom 'detrimentum capere' = 'to suffer harm'",
+        "to begin": "'to begin' is 'incipere' — 'capere' means 'to take'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'capiat'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "capiat", "gloss": "should take / suffer" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'capit' — 'capiat' with -iat ending is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'caperet' — 'capiat' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'ceperit' — 'capiat' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used here?",
+      "target": "Negative purpose clause — 'ne' + subjunctive = 'lest'",
+      "choices": ["Indirect question", "Negative purpose clause — 'ne' + subjunctive = 'lest'", "Result clause", "Jussive subjunctive"],
+      "reveal": null,
+      "hints": {
+        "Indirect question": "Indirect questions use interrogative words — 'ne' here introduces a negative purpose/proviso",
+        "Result clause": "Result uses 'ut … non' for negation — 'ne' introduces purpose or negative stipulation",
+        "Jussive subjunctive": "Jussive stands alone as a command — 'ne … capiat' depends on the decree formula"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'capiat'?",
+      "target": "capio, capere, cepi, captum",
+      "choices": ["capio, capere, cepi, captum", "rapio, rapere, rapui, raptum", "incipio, incipere, incepi, inceptum", "accipio, accipere, accepi, acceptum"],
+      "reveal": null,
+      "hints": {
+        "rapio, rapere, rapui, raptum": "These are the parts of 'rapere' (to seize/snatch)",
+        "incipio, incipere, incepi, inceptum": "These are the parts of 'incipere' (to begin) — a compound of 'capere'",
+        "accipio, accipere, accepi, acceptum": "These are the parts of 'accipere' (to receive) — a compound of 'capere'"
+      }
+    },
+    {
+      "prompt": "What case is 'detrimenti'?",
+      "target": "Genitive (partitive)",
+      "choices": ["Nominative", "Genitive (partitive)", "Dative", "Ablative"],
+      "reveal": { "word": "detrimenti", "gloss": "of harm / damage" },
+      "hints": {
+        "Nominative": "Nominative would be 'detrimentum' — 'detrimenti' with -i ending is genitive",
+        "Dative": "Dative would be 'detrimento' — 'detrimenti' is genitive (partitive with 'quid')",
+        "Ablative": "Ablative would be 'detrimento' — 'detrimenti' is partitive genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'res publica'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "res publica", "gloss": "the republic / state" },
+      "hints": {
+        "Accusative": "Accusative would be 'rem publicam' — 'res publica' is nominative, subject of 'capiat'",
+        "Dative": "Dative would be 'rei publicae' — 'res publica' is nominative",
+        "Ablative": "Ablative would be 're publica' — 'res publica' is nominative"
+      }
+    },
+    {
+      "prompt": "This is the formula of the senatus consultum ultimum. What does it authorize?",
+      "target": "Emergency powers — the consul may use any means to protect the state",
+      "choices": ["A routine tax increase", "Emergency powers — the consul may use any means to protect the state", "A declaration of war", "An election of a dictator"],
+      "reveal": null,
+      "hints": {
+        "A routine tax increase": "The SCU is the senate's ultimate emergency measure, not a fiscal matter",
+        "A declaration of war": "War declarations followed different procedures — the SCU authorizes domestic emergency action",
+        "An election of a dictator": "The dictatorship is a separate institution — the SCU empowers the sitting consuls directly"
+      }
+    }
+  ],
+  "translation": "Lest the republic suffer any harm."
+}

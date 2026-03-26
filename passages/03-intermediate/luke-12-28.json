@@ -1,0 +1,119 @@
+{
+  "id": "luke-12-28",
+  "source": "Vulgate",
+  "reference": "Lucas 12:34",
+  "latin": ["Ubi", "thesaurus", "vester", "est", "ibi", "cor", "vestrum", "erit"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "two (est, erit)",
+      "choices": ["one (est)", "two (est, erit)", "three", "none"],
+      "reveal": null,
+      "hints": {
+        "one (est)": "There are two verbs: 'est' (is) and 'erit' (will be)",
+        "three": "Only 'est' and 'erit' are finite verbs — two total",
+        "none": "Both 'est' and 'erit' are finite verbs of 'esse'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'est' here is from 'esse' (to be)",
+        "to stand": "That would be 'stare' — 'est' is from 'esse'",
+        "to go": "That would be 'ire' — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is present indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present indicative",
+        "future indicative": "Future would be 'erit' — that is the other verb in this sentence"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "erit = will be",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erit' with -eri- is future of 'esse'",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'erit' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est' and 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'thesaurus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "thesaurus = treasure (nom., subject of 'est')",
+      "hints": {
+        "accusative": "Accusative would be 'thesaurum' — 'thesaurus' is nominative subject",
+        "genitive": "Genitive would be 'thesauri' — 'thesaurus' is nominative",
+        "vocative": "Vocative would be 'thesaure' — 'thesaurus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'thesaurus, thesauri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'thesauri' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'thesauri' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'thesauri' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'cor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "cor = heart (nom., subject of 'erit')",
+      "hints": {
+        "accusative": "While 'cor' looks identical in accusative, it is the subject of 'erit' — nominative",
+        "ablative": "Ablative would be 'corde' — 'cor' is nominative",
+        "genitive": "Genitive would be 'cordis' — 'cor' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'cor, cordis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'cordis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'cordis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'cordis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the function of 'Ubi' and 'ibi'?",
+      "target": "correlative adverbs (where ... there)",
+      "choices": ["correlative adverbs (where ... there)", "relative and demonstrative pronouns", "interrogative and indefinite", "conjunctions"],
+      "reveal": null,
+      "hints": {
+        "relative and demonstrative pronouns": "'Ubi' and 'ibi' are adverbs of place, not pronouns",
+        "interrogative and indefinite": "'Ubi' can be interrogative, but with 'ibi' they form a correlative pair",
+        "conjunctions": "'Ubi' and 'ibi' are adverbs, not conjunctions"
+      }
+    }
+  ],
+  "translation": "Where your treasure is, there your heart will be"
+}

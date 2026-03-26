@@ -1,0 +1,119 @@
+{
+  "id": "luke-9-13",
+  "source": "Vulgate",
+  "reference": "Lucas 9:44",
+  "latin": ["Filius", "hominis", "tradendus", "est", "in", "manus", "hominum"],
+  "steps": [
+    {
+      "prompt": "What kind of word is 'tradendus'?",
+      "target": "gerundive (passive periphrastic)",
+      "choices": ["perfect passive participle", "present active participle", "gerundive (passive periphrastic)", "future active participle"],
+      "reveal": "tradendus = about to be handed over / must be handed over",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'traditus' — 'tradendus' with -ndus is the gerundive",
+        "present active participle": "Present active participle would be 'tradens' — 'tradendus' is the gerundive",
+        "future active participle": "Future active would be 'traditurus' — 'tradendus' with -ndus is passive, the gerundive"
+      }
+    },
+    {
+      "prompt": "What does 'tradendus est' express?",
+      "target": "necessity / obligation (must be handed over)",
+      "choices": ["simple future (will be)", "necessity / obligation (must be handed over)", "past action (was handed over)", "possibility (might be)"],
+      "reveal": "tradendus est = must be / is about to be handed over",
+      "hints": {
+        "simple future (will be)": "Simple future would use 'tradetur' — gerundive + 'est' expresses necessity",
+        "past action (was handed over)": "Past would use 'traditus est' — 'tradendus est' is the passive periphrastic",
+        "possibility (might be)": "Possibility would use subjunctive — gerundive + 'est' expresses obligation"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tradendus' translates to?",
+      "target": "to hand over / to betray",
+      "choices": ["to hand over / to betray", "to lead across", "to give back", "to teach"],
+      "reveal": null,
+      "hints": {
+        "to lead across": "That would be 'traducere' — 'tradere' means 'to hand over/betray'",
+        "to give back": "That would be 'reddere' — 'tradere' means 'to hand over/betray'",
+        "to teach": "That would be 'docere' — though 'tradere' can mean 'to transmit (teaching)'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tradendus'?",
+      "target": "trado, tradere, tradidi, traditum",
+      "choices": ["trado, tradere, tradidi, traditum", "duco, ducere, duxi, ductum", "reddo, reddere, reddidi, redditum", "credo, credere, credidi, creditum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "reddo, reddere, reddidi, redditum": "These are the parts of 'reddere' (to give back)",
+        "credo, credere, credidi, creditum": "These are the parts of 'credere' (to believe)"
+      }
+    },
+    {
+      "prompt": "What case is 'Filius'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "Filius = the Son (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'Filium' — 'Filius' is nominative subject",
+        "genitive": "Genitive would be 'Filii' — 'Filius' is nominative",
+        "vocative": "Vocative would be 'Fili' — 'Filius' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What case is 'hominis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "hominis = of man (gen. sg.)",
+      "hints": {
+        "nominative": "Nominative would be 'homo' — 'hominis' with -is is genitive singular",
+        "dative": "Dative would be 'homini' — 'hominis' is genitive",
+        "ablative": "Ablative would be 'homine' — 'hominis' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'manus'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "dative"],
+      "reveal": "manus = hands (acc. pl.)",
+      "hints": {
+        "nominative": "While 'manus' is nominative singular, after 'in' + acc. it is accusative plural",
+        "genitive": "Genitive singular would also be 'manus' (4th decl.), but 'in' + acc. = 'into'",
+        "dative": "Dative would be 'manibus' — 'manus' after 'in' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'manus, manūs'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'manus' has gen. -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'manus' has gen. -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'manus' has gen. -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'hominum'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "hominum = of men (gen. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'homines' — 'hominum' is genitive plural",
+        "accusative": "Accusative plural would be 'homines' — 'hominum' with -um is genitive plural",
+        "ablative": "Ablative plural would be 'hominibus' — 'hominum' is genitive plural"
+      }
+    }
+  ],
+  "translation": "The Son of Man must be handed over into the hands of men"
+}

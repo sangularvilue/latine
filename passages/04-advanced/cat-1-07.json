@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-07",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Vivit", "immo", "vero", "etiam", "in", "senatum", "venit"],
+  "steps": [
+    {
+      "prompt": "Which words are the verbs in this sentence?",
+      "target": "Vivit, venit",
+      "choices": ["Vivit, vero", "Vivit, venit", "immo, venit", "vero, senatum"],
+      "reveal": null,
+      "hints": {
+        "Vivit, vero": "'vero' is an adverb meaning 'indeed/truly' — not a verb",
+        "immo, venit": "'immo' is a particle meaning 'nay rather / on the contrary'",
+        "vero, senatum": "'vero' is an adverb and 'senatum' is a noun (accusative)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'venit' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to hunt", "to find"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'to sell' is 'vendere' — 'venit' here comes from 'venire' (to come)",
+        "to hunt": "'to hunt' is 'venari' — a deponent verb, different from 'venire'",
+        "to find": "'to find' is 'invenire' — 'venire' is the simpler base verb meaning 'to come'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'venit'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Future indicative", "Present subjunctive"],
+      "reveal": { "word": "venit", "gloss": "comes / enters" },
+      "hints": {
+        "Perfect indicative": "'venit' can be perfect (vēnit) or present (vĕnit) — in this rhetorical present context, it is present tense",
+        "Future indicative": "Future would be 'veniet' — 'venit' is present",
+        "Present subjunctive": "Present subjunctive would be 'veniat' — 'venit' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venit'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "veneo, venire, venii, venitum", "vendo, vendere, vendidi, venditum", "venor, venari, venatus sum"],
+      "reveal": null,
+      "hints": {
+        "veneo, venire, venii, venitum": "'veneo' means 'to be sold' — a different verb from 'venire' (to come)",
+        "vendo, vendere, vendidi, venditum": "These are the parts of 'vendere' (to sell)",
+        "venor, venari, venatus sum": "These are the parts of 'venari' (to hunt) — a deponent verb"
+      }
+    },
+    {
+      "prompt": "What case is 'senatum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "senatum", "gloss": "the senate" },
+      "hints": {
+        "Nominative": "Nominative would be 'senatus' — 'senatum' with -um ending is accusative (with 'in' = motion into)",
+        "Dative": "Dative would be 'senatui' — 'senatum' is accusative after 'in' (motion toward)",
+        "Ablative": "Ablative after 'in' would mean 'in the senate' (location) — 'senatum' is accusative, meaning 'into the senate' (motion)"
+      }
+    },
+    {
+      "prompt": "Declension of 'senatum'?",
+      "target": "4th",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "The -um accusative ending looks like 2nd declension, but 'senatus, -us' is 4th declension",
+        "3rd": "3rd declension accusative would typically end in -em — 'senatus' is 4th declension",
+        "5th": "5th declension nouns end in -es — 'senatus' is 4th declension"
+      }
+    },
+    {
+      "prompt": "What does 'immo vero' mean as a phrase?",
+      "target": "Nay rather / what is more",
+      "choices": ["Truly not", "Nay rather / what is more", "At least", "On the other hand"],
+      "reveal": null,
+      "hints": {
+        "Truly not": "'immo' corrects upward, not downward — it intensifies rather than negates",
+        "At least": "'At least' is 'saltem' — 'immo vero' is a stronger rhetorical escalation",
+        "On the other hand": "'On the other hand' suggests balanced contrast — 'immo vero' is a dramatic heightening"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical technique of 'Vivit? Immo vero … venit'?",
+      "target": "Correctio — self-correction that intensifies",
+      "choices": ["Praeteritio — pretending to pass over", "Correctio — self-correction that intensifies", "Antithesis — opposing ideas", "Tricolon — three parallel elements"],
+      "reveal": null,
+      "hints": {
+        "Praeteritio — pretending to pass over": "Praeteritio claims not to mention something while mentioning it — Cicero is escalating, not omitting",
+        "Antithesis — opposing ideas": "Antithesis contrasts opposites — Cicero is not contrasting but amplifying the same point",
+        "Tricolon — three parallel elements": "There are only two main actions (lives, comes into the senate) — this is correctio, not tricolon"
+      }
+    }
+  ],
+  "translation": "He lives? Nay rather, he even comes into the senate."
+}

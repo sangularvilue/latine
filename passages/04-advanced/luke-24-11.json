@@ -1,0 +1,141 @@
+{
+  "id": "luke-24-11",
+  "source": "Vulgate",
+  "reference": "Lucas 24:45",
+  "latin": ["Tunc", "aperuit", "illis", "sensum", "ut", "intellegerent", "scripturas"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "aperuit",
+      "choices": ["aperuit", "intellegerent", "sensum", "scripturas"],
+      "reveal": null,
+      "hints": {
+        "intellegerent": "'Intellegerent' is a finite verb but in the subordinate purpose clause after 'ut'",
+        "sensum": "'Sensum' is a noun meaning 'understanding/mind' in the accusative",
+        "scripturas": "'Scripturas' is a noun meaning 'scriptures' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'aperuit' translates to?",
+      "target": "to open",
+      "choices": ["to open", "to appear", "to prepare", "to seize"],
+      "reveal": null,
+      "hints": {
+        "to appear": "'To appear' is 'apparere' — 'aperuit' comes from 'aperire' (to open)",
+        "to prepare": "'To prepare' is 'parare' — 'aperuit' comes from 'aperire'",
+        "to seize": "'To seize' is 'apprehendere' — 'aperuit' comes from 'aperire' (to open)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'aperuit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "aperuit = he opened (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'aperit' — 'aperuit' with -uit is perfect",
+        "pluperfect indicative": "Pluperfect would be 'aperuerat' — 'aperuit' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'aperuerit' — 'aperuit' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'aperuit'?",
+      "target": "aperio, aperire, aperui, apertum",
+      "choices": ["aperio, aperire, aperui, apertum", "appareo, apparere, apparui, apparitum", "paro, parare, paravi, paratum", "operio, operire, operui, opertum"],
+      "reveal": null,
+      "hints": {
+        "appareo, apparere, apparui, apparitum": "These are the parts of 'appareo' (to appear)",
+        "paro, parare, paravi, paratum": "These are the parts of 'paro' (to prepare)",
+        "operio, operire, operui, opertum": "These are the parts of 'operio' (to cover) — the opposite of 'aperire'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'intellegerent'?",
+      "target": "imperfect subjunctive",
+      "choices": ["imperfect subjunctive", "imperfect indicative", "present subjunctive", "pluperfect subjunctive"],
+      "reveal": "ut intellegerent = so that they might understand (purpose clause)",
+      "hints": {
+        "imperfect indicative": "Imperfect indicative would be 'intellegebant' — '-erent' marks subjunctive",
+        "present subjunctive": "Present subjunctive would be 'intellegant' — 'intellegerent' is imperfect",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'intellexissent' — 'intellegerent' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'intellegerent'?",
+      "target": "intellego, intellegere, intellexi, intellectum",
+      "choices": ["intellego, intellegere, intellexi, intellectum", "lego, legere, legi, lectum", "neglego, neglegere, neglexi, neglectum", "eligo, eligere, elegi, electum"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the parts of 'lego' (to read/choose) — 'intellegere' is inter + legere",
+        "neglego, neglegere, neglexi, neglectum": "These are the parts of 'neglego' (to neglect) — a different compound of 'legere'",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligo' (to choose/elect)"
+      }
+    },
+    {
+      "prompt": "Why is 'intellegerent' imperfect subjunctive (not present)?",
+      "target": "sequence of tenses: primary verb 'aperuit' (historical perfect) takes secondary sequence",
+      "choices": ["sequence of tenses: primary verb 'aperuit' (historical perfect) takes secondary sequence", "the purpose is in the past", "it is an unreal condition", "it expresses repeated action"],
+      "reveal": "After a historical perfect, 'ut' purpose clauses use imperfect subjunctive (secondary sequence)",
+      "hints": {
+        "the purpose is in the past": "Purpose clauses express intent, not past time — the imperfect is required by sequence of tenses",
+        "it is an unreal condition": "Unreal conditions use 'si' — this is a purpose clause with 'ut'",
+        "it expresses repeated action": "Imperfect subjunctive in purpose clauses reflects secondary sequence, not repeated action"
+      }
+    },
+    {
+      "prompt": "What case is 'illis'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "accusative", "genitive"],
+      "reveal": "aperuit illis sensum = he opened their understanding (dat. of advantage)",
+      "hints": {
+        "ablative": "'Illis' can be ablative, but 'aperuit' + dative = opened to/for them",
+        "accusative": "Accusative would be 'illos' — 'illis' is dative",
+        "genitive": "Genitive would be 'illorum' — 'illis' is dative"
+      }
+    },
+    {
+      "prompt": "What case is 'sensum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "genitive", "ablative"],
+      "reveal": "sensum = understanding/mind (acc., direct object of 'aperuit')",
+      "hints": {
+        "nominative": "Nominative would be 'sensus' — 'sensum' with -um is accusative",
+        "genitive": "Genitive would be 'sensus' — 'sensum' is accusative",
+        "ablative": "Ablative would be 'sensu' — 'sensum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'sensus, sensus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'sensus' has genitive in -us",
+        "2nd declension": "2nd declension has genitive in -i — 'sensus' has genitive in -us",
+        "3rd declension": "3rd declension has genitive in -is — 'sensus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'scripturas'?",
+      "target": "accusative plural",
+      "choices": ["accusative plural", "nominative plural", "genitive singular", "ablative plural"],
+      "reveal": "scripturas = the scriptures (acc. pl., direct object of 'intellegerent')",
+      "hints": {
+        "nominative plural": "Nominative plural would be 'scripturae' — 'scripturas' with -as is accusative",
+        "genitive singular": "Genitive singular would be 'scripturae' — 'scripturas' ends in -as (acc. pl.)",
+        "ablative plural": "Ablative plural would be 'scripturis' — 'scripturas' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'scriptura, scripturae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'scripturae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'scripturae' ends in -ae",
+        "4th declension": "4th declension has genitive in -us — 'scripturae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Then he opened their minds so that they might understand the scriptures"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "luke-adv-02",
+  "source": "Vulgate",
+  "reference": "Lucas 9:36",
+  "latin": ["Et", "ipsi", "tacuerunt", "et", "nemini", "dixerunt", "in", "illis", "diebus"],
+  "steps": [
+    {
+      "prompt": "What case is 'ipsi'?",
+      "target": "nominative",
+      "choices": ["nominative", "dative", "genitive", "ablative"],
+      "reveal": "ipsi = they themselves (nom. masc. pl.)",
+      "hints": {
+        "dative": "'Ipsi' can be dative singular, but here it is nominative plural — subject of 'tacuerunt'",
+        "genitive": "Genitive singular would be 'ipsius' — 'ipsi' here is nominative plural",
+        "ablative": "Ablative plural would be 'ipsis' — 'ipsi' is nominative plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tacuerunt' translates to?",
+      "target": "to be silent",
+      "choices": ["to be silent", "to touch", "to hide", "to flee"],
+      "reveal": null,
+      "hints": {
+        "to touch": "'To touch' is 'tangere' — 'tacuerunt' comes from 'tacere' (to be silent)",
+        "to hide": "'To hide' is 'celare' — 'tacere' means to be silent",
+        "to flee": "'To flee' is 'fugere' — 'tacere' means to be silent"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'tacuerunt'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "tacuerunt = they were silent / they kept silent",
+      "hints": {
+        "present indicative": "Present would be 'tacent' — 'tacuerunt' with -erunt is perfect",
+        "imperfect indicative": "Imperfect would be 'tacebant' — 'tacuerunt' is perfect indicative",
+        "pluperfect indicative": "Pluperfect would be 'tacuerant' — 'tacuerunt' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tacuerunt'?",
+      "target": "taceo, tacere, tacui, tacitum",
+      "choices": ["taceo, tacere, tacui, tacitum", "tango, tangere, tetigi, tactum", "tego, tegere, texi, tectum", "teneo, tenere, tenui, tentum"],
+      "reveal": null,
+      "hints": {
+        "tango, tangere, tetigi, tactum": "These are the parts of 'tangere' (to touch)",
+        "tego, tegere, texi, tectum": "These are the parts of 'tegere' (to cover)",
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)"
+      }
+    },
+    {
+      "prompt": "What case is 'nemini'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "nemini = to no one (dat.)",
+      "hints": {
+        "nominative": "Nominative would be 'nemo' — 'nemini' is dative singular",
+        "accusative": "Accusative would be 'neminem' — 'nemini' is dative",
+        "ablative": "Ablative would be 'nemine' or 'nullo' — 'nemini' is dative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dixerunt' translates to?",
+      "target": "to say / to tell",
+      "choices": ["to say / to tell", "to lead", "to give", "to learn"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'To lead' is 'ducere' — 'dixerunt' comes from 'dicere' (to say)",
+        "to give": "'To give' is 'dare' — 'dicere' means to say or tell",
+        "to learn": "'To learn' is 'discere' — 'dicere' means to say"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'dixerunt'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "perfect subjunctive"],
+      "reveal": "dixerunt = they told / they said",
+      "hints": {
+        "present indicative": "Present would be 'dicunt' — 'dixerunt' with the dix- perfect stem is perfect",
+        "future indicative": "Future would be 'dicent' — 'dixerunt' is perfect indicative",
+        "perfect subjunctive": "Perfect subjunctive would be 'dixerint' — 'dixerunt' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dixerunt'?",
+      "target": "dico, dicere, dixi, dictum",
+      "choices": ["dico, dicere, dixi, dictum", "duco, ducere, duxi, ductum", "disco, discere, didici, —", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "disco, discere, didici, —": "These are the parts of 'discere' (to learn)",
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "What case is 'illis diebus'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "illis diebus = in those days (abl. of time when)",
+      "hints": {
+        "nominative": "Nominative plural would be 'illi dies' — 'illis diebus' is ablative",
+        "accusative": "Accusative of duration would be 'illos dies' — 'illis diebus' is ablative of time when",
+        "dative": "'Illis diebus' could be dative, but here it is ablative of time when"
+      }
+    },
+    {
+      "prompt": "What declension is 'dies, diei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'diei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'diei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'diei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What is the narrative context: why did 'ipsi' keep silent?",
+      "target": "the disciples witnessed the Transfiguration and told no one at that time",
+      "choices": ["the disciples witnessed the Transfiguration and told no one at that time", "they were afraid of the Pharisees", "Jesus commanded silence after a healing", "they did not understand the parable"],
+      "reveal": null,
+      "hints": {
+        "they were afraid of the Pharisees": "Fear of Pharisees is not the context — the silence follows the extraordinary vision on the mountain",
+        "Jesus commanded silence after a healing": "While Jesus sometimes commands post-miracle silence, this is after the Transfiguration",
+        "they did not understand the parable": "No parable is involved — the disciples kept silent about seeing Moses and Elijah with Jesus"
+      }
+    }
+  ],
+  "translation": "And they themselves were silent and told no one in those days"
+}

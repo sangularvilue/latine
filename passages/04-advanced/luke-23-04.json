@@ -1,0 +1,119 @@
+{
+  "id": "luke-23-04",
+  "source": "Vulgate",
+  "reference": "Lucas 23:47",
+  "latin": ["Vere", "hic", "homo", "iustus", "erat"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "erat",
+      "choices": ["erat", "Vere", "homo", "iustus"],
+      "reveal": null,
+      "hints": {
+        "Vere": "'Vere' is an adverb meaning 'truly'",
+        "homo": "'Homo' is a noun meaning 'man'",
+        "iustus": "'Iustus' is an adjective meaning 'just/righteous'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erat' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to wander", "to plow", "to go"],
+      "reveal": null,
+      "hints": {
+        "to wander": "'To wander' is 'errare' — 'erat' is from 'sum, esse' (to be)",
+        "to plow": "'To plow' is 'arare' — 'erat' is from 'sum, esse'",
+        "to go": "'To go' is 'ire' — 'erat' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erat'?",
+      "target": "imperfect indicative",
+      "choices": ["imperfect indicative", "present indicative", "perfect indicative", "pluperfect indicative"],
+      "reveal": "erat = was (3rd sing. imperfect)",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erat' with -era- is imperfect",
+        "perfect indicative": "Perfect would be 'fuit' — 'erat' is imperfect",
+        "pluperfect indicative": "Pluperfect would be 'fuerat' — 'erat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erat'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "erro, errare, erravi, erratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "erro, errare, erravi, erratum": "These are the parts of 'erro' (to wander/err)"
+      }
+    },
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "homo = man (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'hominem' — 'homo' is nominative",
+        "ablative": "Ablative would be 'homine' — 'homo' is nominative",
+        "dative": "Dative would be 'homini' — 'homo' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'iustus'?",
+      "target": "nominative (predicate adjective)",
+      "choices": ["nominative (predicate adjective)", "genitive singular", "vocative singular", "accusative plural"],
+      "reveal": "iustus = just/righteous (nom., predicate adjective after 'erat')",
+      "hints": {
+        "genitive singular": "Genitive singular would be 'iusti' — 'iustus' is nominative",
+        "vocative singular": "Vocative would be 'iuste' — 'iustus' is nominative as a predicate adjective",
+        "accusative plural": "Accusative plural would be 'iustos' — 'iustus' is nominative singular"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'iustus, -a, -um' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e — 'iustus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Iustus' clearly declines: iustus, iusta, iustum"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'hic' here?",
+      "target": "demonstrative pronoun (this man)",
+      "choices": ["demonstrative pronoun (this man)", "adverb (here)", "conjunction", "relative pronoun"],
+      "reveal": "hic homo = this man",
+      "hints": {
+        "adverb (here)": "'Hic' can be an adverb meaning 'here', but here it modifies 'homo' as a demonstrative",
+        "conjunction": "'Hic' is never a conjunction",
+        "relative pronoun": "Relative pronoun would be 'qui' — 'hic' is a demonstrative pronoun"
+      }
+    },
+    {
+      "prompt": "Why does the centurion use 'erat' (imperfect) rather than 'fuit' (perfect)?",
+      "target": "imperfect describes an ongoing state — 'this man was (always) righteous'",
+      "choices": ["imperfect describes an ongoing state — 'this man was (always) righteous'", "there is no difference in meaning", "'fuit' would mean he is no longer righteous", "erat is the only past tense of 'sum'"],
+      "reveal": "The imperfect emphasizes the enduring quality of his righteousness",
+      "hints": {
+        "there is no difference in meaning": "The imperfect stresses duration/ongoing state, while perfect would be a simple past fact",
+        "'fuit' would mean he is no longer righteous": "'Fuit' marks a simple past fact — 'erat' more strongly emphasizes the ongoing nature",
+        "erat is the only past tense of 'sum'": "'Sum' has both 'erat' (imperfect) and 'fuit' (perfect) as past tenses"
+      }
+    }
+  ],
+  "translation": "Truly this man was righteous"
+}

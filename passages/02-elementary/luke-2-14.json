@@ -1,0 +1,86 @@
+{
+  "id": "luke-2-14",
+  "source": "Vulgate",
+  "reference": "Lucas 2:52",
+  "latin": ["Et", "Iesus", "proficiebat", "sapientia"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "proficiebat",
+      "choices": ["Et", "Iesus", "proficiebat", "sapientia"],
+      "reveal": null,
+      "hints": {
+        "Et": "'Et' is a conjunction meaning 'and'",
+        "Iesus": "'Iesus' is a proper noun — the subject of the sentence",
+        "sapientia": "'sapientia' is a noun meaning 'wisdom' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'proficiebat' translates to?",
+      "target": "to advance / to make progress",
+      "choices": ["to advance / to make progress", "to profit", "to throw forward", "to teach"],
+      "reveal": null,
+      "hints": {
+        "to profit": "English 'profit' derives from this root, but Latin 'proficere' means 'to advance/progress'",
+        "to throw forward": "'to throw forward' is 'proicere' — 'proficere' means 'to make progress' (pro + facere)",
+        "to teach": "'to teach' is 'docere' — 'proficiebat' comes from 'proficere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'proficiebat'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "proficiebat", "gloss": "was advancing / was progressing" },
+      "hints": {
+        "Present": "Present would be 'proficit' — 'proficiebat' with -ieba- is imperfect",
+        "Perfect": "Perfect would be 'profecit' — 'proficiebat' is imperfect",
+        "Future": "Future would be 'proficiet' — 'proficiebat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'proficiebat'?",
+      "target": "proficio, proficere, profeci, profectum",
+      "choices": ["proficio, proficere, profeci, profectum", "facio, facere, feci, factum", "proicio, proicere, proieci, proiectum", "proficiscor, proficisci, profectus sum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to make/do) — 'proficere' is its compound",
+        "proicio, proicere, proieci, proiectum": "These are the parts of 'proicere' (to throw forward)",
+        "proficiscor, proficisci, profectus sum": "These are the parts of 'proficisci' (to set out) — a deponent verb, different from 'proficere'"
+      }
+    },
+    {
+      "prompt": "Who is the subject of 'proficiebat'?",
+      "target": "Iesus",
+      "choices": ["Et", "Iesus", "sapientia", "proficiebat"],
+      "reveal": null,
+      "hints": {
+        "Et": "'Et' is a conjunction — it cannot be the subject",
+        "sapientia": "'sapientia' is in the ablative — it expresses the respect in which Jesus advanced",
+        "proficiebat": "'proficiebat' is the verb itself — not the subject"
+      }
+    },
+    {
+      "prompt": "What case is 'sapientia'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "sapientia", "gloss": "in wisdom" },
+      "hints": {
+        "Nominative": "'sapientia' could be nominative, but here it is ablative of respect (advanced in wisdom)",
+        "Vocative": "Vocative would be used for direct address — 'sapientia' is ablative of respect here",
+        "Accusative": "Accusative would be 'sapientiam' — 'sapientia' is the ablative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'sapientia, sapientiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'sapientiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'sapientiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'sapientiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "And Jesus was advancing in wisdom"
+}

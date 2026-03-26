@@ -1,0 +1,75 @@
+{
+  "id": "luke-6-04",
+  "source": "Vulgate",
+  "reference": "Lucas 6:27",
+  "latin": ["Diligite", "inimicos", "vestros"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Diligite",
+      "choices": ["Diligite", "inimicos", "vestros", "amate"],
+      "reveal": null,
+      "hints": {
+        "inimicos": "'inimicos' is a noun meaning 'enemies'",
+        "vestros": "'vestros' is a possessive adjective meaning 'your'",
+        "amate": "'amate' means 'love!' but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Diligite' translates to?",
+      "target": "to love / to esteem",
+      "choices": ["to love / to esteem", "to choose", "to be diligent", "to destroy"],
+      "reveal": null,
+      "hints": {
+        "to choose": "'to choose' is 'eligere' — 'Diligite' comes from 'diligere' (to love/esteem)",
+        "to be diligent": "English 'diligent' is related, but 'diligere' means 'to love/esteem'",
+        "to destroy": "'to destroy' is 'delere' — 'Diligite' comes from 'diligere' (to love)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Diligite'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "perfect"],
+      "reveal": { "word": "Diligite", "gloss": "love! (pl.)" },
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'diligitis' — 'Diligite' is imperative",
+        "subjunctive": "Subjunctive would be 'diligatis' — 'Diligite' is the imperative plural",
+        "perfect": "Perfect would be 'dilexistis' — 'Diligite' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Diligite'?",
+      "target": "diligo, diligere, dilexi, dilectum",
+      "choices": ["diligo, diligere, dilexi, dilectum", "eligo, eligere, elegi, electum", "lego, legere, legi, lectum", "deleo, delere, delevi, deletum"],
+      "reveal": null,
+      "hints": {
+        "eligo, eligere, elegi, electum": "These are principal parts of 'eligo' (to choose)",
+        "lego, legere, legi, lectum": "These are principal parts of 'lego' (to read/gather)",
+        "deleo, delere, delevi, deletum": "These are principal parts of 'deleo' (to destroy)"
+      }
+    },
+    {
+      "prompt": "What case is 'inimicos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "inimicos", "gloss": "enemies" },
+      "hints": {
+        "nominative": "Nominative plural would be 'inimici' — 'inimicos' with -os is accusative plural",
+        "ablative": "Ablative plural would be 'inimicis' — 'inimicos' is accusative",
+        "genitive": "Genitive plural would be 'inimicorum' — 'inimicos' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'inimicus, inimici'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'inimici' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'inimici' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'inimici' ends in -i"
+      }
+    }
+  ],
+  "translation": "Love your enemies"
+}

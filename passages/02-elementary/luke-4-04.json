@@ -1,0 +1,108 @@
+{
+  "id": "luke-4-04",
+  "source": "Vulgate",
+  "reference": "Lucas 4:18",
+  "latin": ["Evangelizare", "pauperibus", "misit", "me"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "misit",
+      "choices": ["Evangelizare", "pauperibus", "misit", "me"],
+      "reveal": null,
+      "hints": {
+        "Evangelizare": "'Evangelizare' is an infinitive, not a finite verb",
+        "pauperibus": "'pauperibus' is a noun/adjective in the dative/ablative plural",
+        "me": "'me' is a pronoun, not a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'misit' translates to?",
+      "target": "to send",
+      "choices": ["to send", "to put", "to mix", "to pity"],
+      "reveal": null,
+      "hints": {
+        "to put": "'to put' is 'ponere' — 'misit' comes from 'mittere' (to send)",
+        "to mix": "'to mix' is 'miscere' — 'misit' comes from 'mittere' (to send)",
+        "to pity": "'to pity' is 'misereri' — 'misit' comes from 'mittere' (to send)"
+      }
+    },
+    {
+      "prompt": "What tense is 'misit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": { "word": "misit", "gloss": "he sent" },
+      "hints": {
+        "present indicative": "Present of 'mittere' would be 'mittit' — 'misit' is perfect",
+        "imperfect": "Imperfect would be 'mittebat' — 'misit' is perfect",
+        "future": "Future would be 'mittet' — 'misit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'misit'?",
+      "target": "mitto, mittere, misi, missum",
+      "choices": ["mitto, mittere, misi, missum", "misceo, miscere, miscui, mixtum", "moneo, monere, monui, monitum", "moveo, movere, movi, motum"],
+      "reveal": null,
+      "hints": {
+        "misceo, miscere, miscui, mixtum": "These are principal parts of 'misceo' (to mix)",
+        "moneo, monere, monui, monitum": "These are principal parts of 'moneo' (to warn)",
+        "moveo, movere, movi, motum": "These are principal parts of 'moveo' (to move)"
+      }
+    },
+    {
+      "prompt": "'Evangelizare' is what form of the verb?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "participle", "gerund"],
+      "reveal": null,
+      "hints": {
+        "imperative": "Imperative would be 'evangeliza' — 'evangelizare' ending in -are is the infinitive",
+        "participle": "A participle would be 'evangelizans' or 'evangelizatus' — '-are' marks the infinitive",
+        "gerund": "A gerund would be 'evangelizandi/evangelizando' — '-are' marks the infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'evangelizare' translates to?",
+      "target": "to preach the good news",
+      "choices": ["to preach the good news", "to read aloud", "to baptize", "to heal"],
+      "reveal": { "word": "evangelizare", "gloss": "to evangelize / preach good news" },
+      "hints": {
+        "to read aloud": "'to read aloud' is 'recitare' — 'evangelizare' means to bring good news",
+        "to baptize": "'to baptize' is 'baptizare' — 'evangelizare' means to preach good news",
+        "to heal": "'to heal' is 'sanare' — 'evangelizare' means to preach good news"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'evangelizare'?",
+      "target": "evangelizo, evangelizare, evangelizavi, evangelizatum",
+      "choices": ["evangelizo, evangelizare, evangelizavi, evangelizatum", "baptizo, baptizare, baptizavi, baptizatum", "nuntio, nuntiare, nuntiavi, nuntiatum", "praedico, praedicare, praedicavi, praedicatum"],
+      "reveal": null,
+      "hints": {
+        "baptizo, baptizare, baptizavi, baptizatum": "These are principal parts of 'baptizo' (to baptize)",
+        "nuntio, nuntiare, nuntiavi, nuntiatum": "These are principal parts of 'nuntio' (to announce)",
+        "praedico, praedicare, praedicavi, praedicatum": "These are principal parts of 'praedico' (to proclaim)"
+      }
+    },
+    {
+      "prompt": "What case is 'pauperibus'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "ablative"],
+      "reveal": { "word": "pauperibus", "gloss": "to the poor" },
+      "hints": {
+        "nominative": "Nominative plural would be 'pauperes' — 'pauperibus' is dative/ablative plural",
+        "accusative": "Accusative plural would be 'pauperes' — 'pauperibus' is dative plural (indirect object)",
+        "ablative": "'pauperibus' could be ablative, but here it is dative — 'to preach TO the poor'"
+      }
+    },
+    {
+      "prompt": "What declension is 'pauper, pauperis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'pauperis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'pauperis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'pauperis' ends in -is"
+      }
+    }
+  ],
+  "translation": "He sent me to preach the good news to the poor"
+}

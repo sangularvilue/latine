@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-14",
+  "source": "Cicero",
+  "reference": "In Cat. II.10",
+  "latin": ["Quibus", "ego", "confido", "impendere", "fatum", "aliquod"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "confido",
+      "choices": ["ego", "confido", "impendere", "fatum"],
+      "reveal": null,
+      "hints": {
+        "ego": "'ego' is the 1st person pronoun meaning 'I'",
+        "impendere": "'impendere' is an infinitive meaning 'to hang over / threaten'",
+        "fatum": "'fatum' is a noun meaning 'fate / doom'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'confido' translates to?",
+      "target": "to trust / be confident",
+      "choices": ["to confide in", "to trust / be confident", "to confuse", "to strengthen"],
+      "reveal": null,
+      "hints": {
+        "to confide in": "Close, but 'confidere' in Latin means 'to trust firmly / be confident that'",
+        "to confuse": "'to confuse' is 'confundere' — 'confidere' means 'to trust/be confident'",
+        "to strengthen": "'to strengthen' is 'confirmare' — 'confidere' means 'to be confident'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'confido'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "confido", "gloss": "I am confident / trust" },
+      "hints": {
+        "Perfect indicative": "'confido' is semi-deponent: perfect would be 'confisus sum' — 'confido' is present",
+        "Present subjunctive": "Present subjunctive would be 'confidam' — 'confido' is indicative",
+        "Future indicative": "Future would be 'confidam' (same form as subjunctive) — 'confido' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'confido'?",
+      "target": "confido, confidere, confisus sum",
+      "choices": ["confido, confidere, confisus sum", "fido, fidere, fisus sum", "confundo, confundere, confudi, confusum", "confirmo, confirmare, confirmavi, confirmatum"],
+      "reveal": null,
+      "hints": {
+        "fido, fidere, fisus sum": "These are the parts of 'fidere' (to trust) — the base verb without con- prefix",
+        "confundo, confundere, confudi, confusum": "These are the parts of 'confundere' (to confuse/pour together)",
+        "confirmo, confirmare, confirmavi, confirmatum": "These are the parts of 'confirmare' (to strengthen)"
+      }
+    },
+    {
+      "prompt": "What case is 'Quibus'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "Quibus", "gloss": "for whom / over whom" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'qui/quae' — 'Quibus' is dative/ablative; here dative with 'impendere'",
+        "Accusative": "Accusative would be 'quos/quas/quae' — 'Quibus' is dative",
+        "Ablative": "'Quibus' can be ablative, but with 'impendere' (to hang over) it is dative — threat hangs over them"
+      }
+    },
+    {
+      "prompt": "What case is 'fatum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "fatum", "gloss": "fate / doom" },
+      "hints": {
+        "Nominative": "Neuter nom. and acc. are the same form, but 'fatum' is the subject-accusative of the infinitive 'impendere'",
+        "Genitive": "Genitive would be 'fati' — 'fatum' is accusative in indirect statement",
+        "Ablative": "Ablative would be 'fato' — 'fatum' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'fatum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'fatum, fati' is 2nd declension neuter",
+        "3rd": "3rd declension neuters have varied endings — 'fatum, fati' is 2nd declension",
+        "4th": "4th declension nouns have gen. in -us — 'fatum, fati' has gen. -i (2nd)"
+      }
+    },
+    {
+      "prompt": "What construction follows 'confido'?",
+      "target": "Accusative + infinitive (indirect statement)",
+      "choices": ["Ut + subjunctive", "Accusative + infinitive (indirect statement)", "Quod + indicative", "Dative + infinitive"],
+      "reveal": null,
+      "hints": {
+        "Ut + subjunctive": "'confidere' can take 'ut' clause, but here 'fatum … impendere' is accusative + infinitive",
+        "Quod + indicative": "'quod' clauses can follow verbs of emotion, but 'confido' here takes acc. + inf.",
+        "Dative + infinitive": "There is no standard dative + infinitive construction — 'confido' takes acc. + inf."
+      }
+    }
+  ],
+  "translation": "Over whom I am confident some doom hangs."
+}

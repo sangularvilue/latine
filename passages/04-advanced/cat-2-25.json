@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-25",
+  "source": "Cicero",
+  "reference": "In Cat. II.16",
+  "latin": ["Videant", "consules", "ne", "quid", "res", "publica", "detrimenti", "capiat"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Videant",
+      "choices": ["Videant", "consules", "detrimenti", "capiat"],
+      "reveal": null,
+      "hints": {
+        "consules": "'consules' is a noun meaning 'the consuls' — subject of 'videant'",
+        "detrimenti": "'detrimenti' is a noun in the genitive meaning 'of harm'",
+        "capiat": "'capiat' is a verb but in the subordinate 'ne' clause"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Videant'?",
+      "target": "Present subjunctive (jussive)",
+      "choices": ["Present indicative", "Present subjunctive (jussive)", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "Videant", "gloss": "let them see to it" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'vident' — 'Videant' with -eant ending is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'viderent' — 'Videant' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'viderint' — 'Videant' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Videant'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid)"
+      }
+    },
+    {
+      "prompt": "What use of the subjunctive is 'Videant'?",
+      "target": "Jussive — a 3rd person command",
+      "choices": ["Purpose", "Jussive — a 3rd person command", "Potential", "Deliberative"],
+      "reveal": null,
+      "hints": {
+        "Purpose": "Purpose clauses are subordinate — 'Videant' is a main clause command",
+        "Potential": "Potential subjunctive expresses possibility — this is a direct command",
+        "Deliberative": "Deliberative asks 'should I?' — 'Videant' commands 'let them see to it'"
+      }
+    },
+    {
+      "prompt": "What case is 'consules'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "consules", "gloss": "the consuls" },
+      "hints": {
+        "Accusative": "Accusative plural is also 'consules' (3rd decl.), but here it is the subject of 'Videant'",
+        "Vocative": "Vocative plural is also 'consules', but Cicero is speaking about the consuls, not to them",
+        "Ablative": "Ablative would be 'consulibus' — 'consules' is nominative"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'capiat'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "capiat", "gloss": "should suffer / take" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'capit' — 'capiat' is subjunctive after 'ne'",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'caperet' — 'capiat' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'ceperit' — 'capiat' is present"
+      }
+    },
+    {
+      "prompt": "This is the full formula of the senatus consultum ultimum. What does 'videant' mean idiomatically?",
+      "target": "'See to it' — ensure / take care",
+      "choices": ["'Look at' — observe", "'See to it' — ensure / take care", "'Seem' — appear", "'Foresee' — predict"],
+      "reveal": null,
+      "hints": {
+        "'Look at' — observe": "'videre' can mean 'look at', but 'videant ne' is an idiom meaning 'let them see to it that … not'",
+        "'Seem' — appear": "'videri' (passive) means 'seem' — active 'videant' here means 'see to it'",
+        "'Foresee' — predict": "'pravidere' means 'foresee' — 'videant ne' is a formula of care/responsibility"
+      }
+    },
+    {
+      "prompt": "What is the function of 'ne … capiat' relative to 'Videant'?",
+      "target": "Negative substantive clause of purpose — 'see to it that … not …'",
+      "choices": ["Result clause", "Negative substantive clause of purpose — 'see to it that … not …'", "Indirect question", "Fear clause"],
+      "reveal": null,
+      "hints": {
+        "Result clause": "Result clause negates with 'ut … non' — 'ne' indicates purpose/prevention",
+        "Indirect question": "Indirect questions use interrogative words — 'ne' here prevents an outcome",
+        "Fear clause": "Fear clauses use 'ne' after verbs of fearing — 'videant' is a verb of care, not fear"
+      }
+    }
+  ],
+  "translation": "Let the consuls see to it that the republic suffer no harm."
+}

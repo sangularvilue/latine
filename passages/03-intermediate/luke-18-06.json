@@ -1,0 +1,97 @@
+{
+  "id": "luke-18-06",
+  "source": "Vulgate",
+  "reference": "Lucas 18:38",
+  "latin": ["Fili", "David", "miserere", "mei"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "miserere",
+      "choices": ["miserere", "Fili", "David", "mei"],
+      "reveal": null,
+      "hints": {
+        "Fili": "'Fili' is a noun meaning 'Son' in the vocative",
+        "David": "'David' is a proper name (indeclinable)",
+        "mei": "'Mei' is a pronoun meaning 'of me' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'miserere' translates to?",
+      "target": "to have mercy / to pity",
+      "choices": ["to have mercy / to pity", "to send", "to be miserable", "to measure"],
+      "reveal": null,
+      "hints": {
+        "to send": "'To send' is 'mittere' — 'miserere' comes from 'misereri' (to have mercy)",
+        "to be miserable": "'To be miserable' is 'miserum esse' — 'misereri' is a deponent meaning 'to pity'",
+        "to measure": "'To measure' is 'metiri' — 'misereri' means 'to have mercy'"
+      }
+    },
+    {
+      "prompt": "What mood is 'miserere'?",
+      "target": "imperative (deponent verb)",
+      "choices": ["imperative (deponent verb)", "present indicative", "infinitive", "present subjunctive"],
+      "reveal": "miserere = have mercy! (2nd sg. imperative of deponent 'misereor')",
+      "hints": {
+        "present indicative": "Present indicative would be 'misereris' — 'miserere' is the imperative",
+        "infinitive": "The infinitive is 'misereri' — 'miserere' is the singular imperative",
+        "present subjunctive": "Present subjunctive would be 'miserearis' — 'miserere' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'miserere'?",
+      "target": "misereor, misereri, misertus sum, —",
+      "choices": ["misereor, misereri, misertus sum, —", "mitto, mittere, misi, missum", "metior, metiri, mensus sum, —", "misceo, miscere, miscui, mixtum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are the parts of 'mittere' (to send)",
+        "metior, metiri, mensus sum, —": "These are the parts of 'metiri' (to measure) — also a deponent",
+        "misceo, miscere, miscui, mixtum": "These are the parts of 'miscere' (to mix)"
+      }
+    },
+    {
+      "prompt": "What case is 'Fili'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "genitive", "dative"],
+      "reveal": "Fili = O Son! (voc. sg. of 'filius')",
+      "hints": {
+        "nominative": "Nominative would be 'filius' — 'Fili' with -i is the vocative of 2nd declension -ius nouns",
+        "genitive": "Genitive would be 'filii' — 'Fili' is the special vocative form",
+        "dative": "Dative would be 'filio' — 'Fili' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -ii",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -ii",
+        "4th declension": "4th declension has genitive in -ūs — 'filii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'mei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "mei = of me (gen., 'misereor' takes genitive)",
+      "hints": {
+        "nominative": "Nominative would be 'ego' — 'mei' is the genitive of 'ego'",
+        "dative": "Dative would be 'mihi' — 'misereor' governs the genitive, not dative",
+        "accusative": "Accusative would be 'me' — 'mei' is genitive, required by 'misereor'"
+      }
+    },
+    {
+      "prompt": "Why does 'misereor' take the genitive?",
+      "target": "it is a special deponent verb that governs the genitive of the person pitied",
+      "choices": ["it is a special deponent verb that governs the genitive of the person pitied", "all deponent verbs take genitive", "it is an ablative that looks like genitive", "the genitive is partitive"],
+      "reveal": null,
+      "hints": {
+        "all deponent verbs take genitive": "Most deponent verbs take accusative — 'misereor' is special in taking genitive",
+        "it is an ablative that looks like genitive": "'Mei' is distinctly genitive — ablative of 'ego' would be 'me'",
+        "the genitive is partitive": "Partitive genitive indicates a part of a whole — here 'mei' is the person pitied"
+      }
+    }
+  ],
+  "translation": "Son of David, have mercy on me"
+}

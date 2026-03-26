@@ -1,0 +1,119 @@
+{
+  "id": "luke-22-08",
+  "source": "Vulgate",
+  "reference": "Lucas 22:61",
+  "latin": ["Et", "conversus", "Dominus", "respexit", "Petrum"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "respexit",
+      "choices": ["respexit", "conversus", "Dominus", "Petrum"],
+      "reveal": null,
+      "hints": {
+        "conversus": "'Conversus' is a perfect passive participle meaning 'having turned'",
+        "Dominus": "'Dominus' is a noun meaning 'the Lord' — the subject",
+        "Petrum": "'Petrum' is a proper noun in the accusative — the direct object"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'respexit' translates to?",
+      "target": "to look back at / to regard",
+      "choices": ["to look back at / to regard", "to respect", "to inspect", "to expect"],
+      "reveal": null,
+      "hints": {
+        "to respect": "'To respect' is a later meaning of 'respicere' — here it means 'to look back at'",
+        "to inspect": "'To inspect' is 'inspicere' — 'respexit' comes from 'respicere' (re- + specere)",
+        "to expect": "'To expect' is 'exspectare' — 'respexit' comes from 'respicere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'respexit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "future perfect"],
+      "reveal": "respexit = looked at (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'respicit' — 'respexit' with -exit is perfect",
+        "pluperfect indicative": "Pluperfect would be 'respexerat' — 'respexit' is perfect",
+        "future perfect": "Future perfect would be 'respexerit' — 'respexit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'respexit'?",
+      "target": "respicio, respicere, respexi, respectum",
+      "choices": ["respicio, respicere, respexi, respectum", "aspicio, aspicere, aspexi, aspectum", "specto, spectare, spectavi, spectatum", "suspicio, suspicere, suspexi, suspectum"],
+      "reveal": null,
+      "hints": {
+        "aspicio, aspicere, aspexi, aspectum": "These are the parts of 'aspicio' (to look at) — 'respicere' has the prefix re- (back)",
+        "specto, spectare, spectavi, spectatum": "These are the parts of 'specto' (to watch) — 'respicere' is re- + specere",
+        "suspicio, suspicere, suspexi, suspectum": "These are the parts of 'suspicio' (to look up at / to suspect)"
+      }
+    },
+    {
+      "prompt": "What is 'conversus' grammatically?",
+      "target": "perfect passive participle (having turned)",
+      "choices": ["perfect passive participle (having turned)", "present active participle", "gerundive", "finite verb"],
+      "reveal": "conversus = having turned (perf. pass. part., used as a circumstantial participle)",
+      "hints": {
+        "present active participle": "Present active participle would be 'convertens' — 'conversus' is perfect passive",
+        "gerundive": "Gerundive would be 'convertendus' — 'conversus' is a perfect passive participle",
+        "finite verb": "'Conversus' is a participle, not a finite verb form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'conversus' (from 'converto')?",
+      "target": "converto, convertere, converti, conversum",
+      "choices": ["converto, convertere, converti, conversum", "verto, vertere, verti, versum", "converso, conversare, conversavi, conversatum", "confero, conferre, contuli, collatum"],
+      "reveal": null,
+      "hints": {
+        "verto, vertere, verti, versum": "These are the parts of 'verto' (to turn) — 'convertere' is com- + vertere",
+        "converso, conversare, conversavi, conversatum": "These would be the parts of 'conversare' (to live with) — different verb from 'convertere'",
+        "confero, conferre, contuli, collatum": "These are the parts of 'confero' (to bring together/compare)"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "accusative"],
+      "reveal": "Dominus = the Lord (nom., subject)",
+      "hints": {
+        "genitive": "Genitive would be 'Domini' — 'Dominus' is nominative",
+        "vocative": "Vocative would be 'Domine' — 'Dominus' is nominative (subject)",
+        "accusative": "Accusative would be 'Dominum' — 'Dominus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'dominus, domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'domini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'domini' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Petrum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "genitive", "dative"],
+      "reveal": "Petrum = Peter (acc., direct object of 'respexit')",
+      "hints": {
+        "nominative": "Nominative would be 'Petrus' — 'Petrum' with -um is accusative",
+        "genitive": "Genitive would be 'Petri' — 'Petrum' is accusative",
+        "dative": "Dative would be 'Petro' — 'Petrum' is accusative"
+      }
+    },
+    {
+      "prompt": "What temporal relationship does 'conversus' express relative to 'respexit'?",
+      "target": "prior action: 'having turned' (first), then 'he looked at' (second)",
+      "choices": ["prior action: 'having turned' (first), then 'he looked at' (second)", "simultaneous action", "subsequent action", "no temporal relationship"],
+      "reveal": "Perfect participles typically express action prior to the main verb",
+      "hints": {
+        "simultaneous action": "Present participles express simultaneous action — perfect participles express prior action",
+        "subsequent action": "Future participles express subsequent action — perfect participles express prior action",
+        "no temporal relationship": "Participles inherently carry temporal information relative to the main verb"
+      }
+    }
+  ],
+  "translation": "And the Lord turned and looked at Peter"
+}

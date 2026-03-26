@@ -1,0 +1,75 @@
+{
+  "id": "luke-3-07",
+  "source": "Vulgate",
+  "reference": "Lucas 3:13",
+  "latin": ["Nihil", "amplius", "quam", "constitutum", "est"],
+  "steps": [
+    {
+      "prompt": "Which words form the verb?",
+      "target": "constitutum est",
+      "choices": ["constitutum est", "Nihil amplius", "amplius quam", "Nihil est"],
+      "reveal": null,
+      "hints": {
+        "Nihil amplius": "'Nihil amplius' means 'nothing more' — it is the object, not the verb",
+        "amplius quam": "'amplius quam' means 'more than' — these are comparative words, not a verb",
+        "Nihil est": "'Nihil' is a pronoun and 'est' is part of the verb, but 'constitutum est' is the full compound verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'constitutum est' translates to?",
+      "target": "to establish / to appoint",
+      "choices": ["to establish / to appoint", "to stand together", "to build", "to constitute (modern sense)"],
+      "reveal": null,
+      "hints": {
+        "to stand together": "'to stand together' is a literal reading of 'con + statuere', but 'constituere' means 'to establish/set up'",
+        "to build": "'to build' is 'aedificare/construere' — 'constituere' means 'to establish/appoint'",
+        "to constitute (modern sense)": "The modern English sense diverges — Latin 'constituere' means 'to establish/ordain'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'constitutum est'?",
+      "target": "Perfect passive",
+      "choices": ["Present passive", "Perfect passive", "Future passive", "Imperfect passive"],
+      "reveal": { "word": "constitutum est", "gloss": "has been appointed / was established" },
+      "hints": {
+        "Present passive": "Present passive would be 'constituitur' — 'constitutum est' (participle + est) is perfect passive",
+        "Future passive": "Future passive would be 'constituetur' — 'constitutum est' is perfect passive",
+        "Imperfect passive": "Imperfect passive would be 'constituebatur' — 'constitutum est' is perfect passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'constitutum est'?",
+      "target": "constituo, constituere, constitui, constitutum",
+      "choices": ["constituo, constituere, constitui, constitutum", "sto, stare, steti, statum", "statuo, statuere, statui, statutum", "instituo, instituere, institui, institutum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — a 1st conjugation verb",
+        "statuo, statuere, statui, statutum": "These are the parts of 'statuere' (to set up) — 'constituere' adds the prefix con-",
+        "instituo, instituere, institui, institutum": "These are the parts of 'instituere' (to set up/institute) — different prefix"
+      }
+    },
+    {
+      "prompt": "What does 'Nihil' mean?",
+      "target": "Nothing",
+      "choices": ["Nothing", "Not", "No one", "Never"],
+      "reveal": { "word": "Nihil", "gloss": "nothing" },
+      "hints": {
+        "Not": "'not' is 'non' — 'nihil' is an indeclinable pronoun meaning 'nothing'",
+        "No one": "'no one' is 'nemo' — 'nihil' means 'nothing' (a thing, not a person)",
+        "Never": "'never' is 'numquam' — 'nihil' means 'nothing'"
+      }
+    },
+    {
+      "prompt": "What does 'amplius quam' mean?",
+      "target": "more than",
+      "choices": ["more than", "as much as", "less than", "other than"],
+      "reveal": { "word": "amplius", "gloss": "more" },
+      "hints": {
+        "as much as": "'as much as' is 'tantum quantum' — 'amplius quam' means 'more than'",
+        "less than": "'less than' is 'minus quam' — 'amplius' is the comparative of 'ample' (more)",
+        "other than": "'other than' is 'aliter quam' — 'amplius quam' means 'more than'"
+      }
+    }
+  ],
+  "translation": "Nothing more than what has been appointed"
+}

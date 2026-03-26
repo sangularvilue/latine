@@ -1,0 +1,75 @@
+{
+  "id": "luke-3-14",
+  "source": "Vulgate",
+  "reference": "Lucas 3:10",
+  "latin": ["Quid", "ergo", "faciemus"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "faciemus",
+      "choices": ["Quid", "ergo", "faciemus", "facere"],
+      "reveal": null,
+      "hints": {
+        "Quid": "'Quid' is an interrogative pronoun meaning 'what?'",
+        "ergo": "'ergo' is a conjunction/adverb meaning 'therefore/then'",
+        "facere": "'facere' is the infinitive — 'faciemus' is the conjugated form used here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'faciemus' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to speak", "to go", "to be"],
+      "reveal": null,
+      "hints": {
+        "to speak": "'to speak' is 'loqui/dicere' — 'faciemus' comes from 'facere' (to make/do)",
+        "to go": "'to go' is 'ire' — 'faciemus' comes from 'facere'",
+        "to be": "'to be' is 'esse' — 'faciemus' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'faciemus'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Future", "Perfect"],
+      "reveal": { "word": "faciemus", "gloss": "shall we do / will we do" },
+      "hints": {
+        "Present": "Present 1st plural would be 'facimus' — 'faciemus' with -ie- is future",
+        "Imperfect": "Imperfect would be 'faciebamus' — 'faciemus' is future",
+        "Perfect": "Perfect would be 'fecimus' — 'faciemus' is future active"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'faciemus'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fateor, fateri, fassus sum", "fugio, fugere, fugi, fugitum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "fateor, fateri, fassus sum": "These are the parts of 'fateri' (to confess) — a deponent verb",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)"
+      }
+    },
+    {
+      "prompt": "What does 'Quid' function as here?",
+      "target": "Interrogative pronoun (direct object)",
+      "choices": ["Interrogative pronoun (direct object)", "Relative pronoun", "Indefinite pronoun", "Interrogative adverb"],
+      "reveal": { "word": "Quid", "gloss": "what?" },
+      "hints": {
+        "Relative pronoun": "Relative 'quod' introduces a subordinate clause — 'Quid' here asks a direct question",
+        "Indefinite pronoun": "Indefinite 'quid' means 'something' — here it is interrogative (what?)",
+        "Interrogative adverb": "Interrogative adverbs are 'cur, ubi, quando' — 'Quid' is a pronoun (what thing?)"
+      }
+    },
+    {
+      "prompt": "What does 'ergo' mean?",
+      "target": "therefore / then",
+      "choices": ["therefore / then", "but", "and", "because"],
+      "reveal": { "word": "ergo", "gloss": "therefore" },
+      "hints": {
+        "but": "'but' is 'sed/autem' — 'ergo' means 'therefore/then'",
+        "and": "'and' is 'et/atque' — 'ergo' is a conclusive conjunction meaning 'therefore'",
+        "because": "'because' is 'quia/quod' — 'ergo' expresses consequence, not cause"
+      }
+    }
+  ],
+  "translation": "What then shall we do?"
+}

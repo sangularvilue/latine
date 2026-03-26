@@ -1,0 +1,130 @@
+{
+  "id": "luke-adv-06",
+  "source": "Vulgate",
+  "reference": "Lucas 15:4",
+  "latin": ["Quis", "ex", "vobis", "habens", "centum", "oves", "et", "perdiderit", "unam", "ex", "illis"],
+  "steps": [
+    {
+      "prompt": "What case is 'Quis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "dative"],
+      "reveal": "Quis = who? / which man? (nom., interrogative pronoun)",
+      "hints": {
+        "accusative": "Accusative would be 'quem' — 'Quis' is nominative",
+        "genitive": "Genitive would be 'cuius' — 'Quis' is nominative",
+        "dative": "Dative would be 'cui' — 'Quis' is nominative"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'habens'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "gerund", "gerundive", "perfect participle"],
+      "reveal": "habens = having / who has (pres. act. participle of 'habere')",
+      "hints": {
+        "gerund": "A gerund would be 'habendi/habendo' — 'habens' is a participle modifying 'Quis'",
+        "gerundive": "A gerundive would be 'habendus' — 'habens' is a present active participle",
+        "perfect participle": "Perfect participle would be 'habitus' (passive) — 'habens' is present active"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habens'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "abeo, abire, abii, abitum", "capio, capere, cepi, captum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell)",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away)",
+        "capio, capere, cepi, captum": "These are the parts of 'capere' (to take)"
+      }
+    },
+    {
+      "prompt": "What case is 'centum oves'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "centum oves = a hundred sheep (acc., object of 'habens')",
+      "hints": {
+        "nominative": "Nominative plural would also be 'oves,' but here it is the object of the participle 'habens'",
+        "ablative": "Ablative plural would be 'ovibus' — 'oves' is accusative object of 'habens'",
+        "genitive": "Genitive plural would be 'ovium' — 'oves' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'ovis, ovis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'ovis' (gen.) ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'ovis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'ovis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perdiderit' translates to?",
+      "target": "to lose / to destroy",
+      "choices": ["to lose / to destroy", "to find", "to endure", "to complete"],
+      "reveal": null,
+      "hints": {
+        "to find": "'To find' is 'invenire' — 'perdiderit' comes from 'perdere' (to lose/destroy)",
+        "to endure": "'To endure' is 'perferre' or 'pati' — 'perdere' means to lose",
+        "to complete": "'To complete' is 'perficere' — 'perdere' means to lose or destroy"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'perdiderit'?",
+      "target": "perfect subjunctive",
+      "choices": ["perfect indicative", "perfect subjunctive", "future perfect indicative", "pluperfect subjunctive"],
+      "reveal": "perdiderit = has lost / should lose",
+      "hints": {
+        "perfect indicative": "Perfect indicative would be 'perdidit' — 'perdiderit' with -erit is subjunctive",
+        "future perfect indicative": "Future perfect looks identical in form — context (conditional question) indicates subjunctive",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'perdidisset' — 'perdiderit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perdiderit'?",
+      "target": "perdo, perdere, perdidi, perditum",
+      "choices": ["perdo, perdere, perdidi, perditum", "do, dare, dedi, datum", "pendo, pendere, pependi, pensum", "perficio, perficere, perfeci, perfectum"],
+      "reveal": null,
+      "hints": {
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give) — 'perdere' is a compound of 'dare' but with different conjugation pattern",
+        "pendo, pendere, pependi, pensum": "These are the parts of 'pendere' (to weigh/pay)",
+        "perficio, perficere, perfeci, perfectum": "These are the parts of 'perficere' (to complete)"
+      }
+    },
+    {
+      "prompt": "What case is 'unam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "unam = one (acc. f. sg., object of 'perdiderit')",
+      "hints": {
+        "nominative": "Nominative feminine would be 'una' — 'unam' with -am is accusative",
+        "ablative": "Ablative feminine would be 'una' — 'unam' is accusative",
+        "genitive": "Genitive feminine would be 'unius' — 'unam' is accusative"
+      }
+    },
+    {
+      "prompt": "What type of question does this passage introduce?",
+      "target": "a rhetorical question expecting an obvious answer",
+      "choices": ["a rhetorical question expecting an obvious answer", "a genuine information question", "an indirect question", "a deliberative question"],
+      "reveal": null,
+      "hints": {
+        "a genuine information question": "Jesus is not seeking information — the answer is obvious and leads into the parable",
+        "an indirect question": "An indirect question would be subordinate — this is a main clause with 'Quis'",
+        "a deliberative question": "Deliberative questions ask 'what should I do?' — this asks 'who among you would not...'"
+      }
+    },
+    {
+      "prompt": "This verse opens which famous parable?",
+      "target": "the Parable of the Lost Sheep",
+      "choices": ["the Parable of the Lost Sheep", "the Parable of the Prodigal Son", "the Parable of the Good Samaritan", "the Parable of the Sower"],
+      "reveal": null,
+      "hints": {
+        "the Parable of the Prodigal Son": "The Prodigal Son follows later in Luke 15 — this opening about sheep is the Lost Sheep",
+        "the Parable of the Good Samaritan": "The Good Samaritan is in Luke 10 — this is about a man losing one of a hundred sheep",
+        "the Parable of the Sower": "The Sower is in Luke 8 — this parable concerns a lost sheep from a flock of 100"
+      }
+    }
+  ],
+  "translation": "Which man among you, having a hundred sheep and having lost one of them"
+}

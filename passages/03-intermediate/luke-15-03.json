@@ -1,0 +1,97 @@
+{
+  "id": "luke-15-03",
+  "source": "Vulgate",
+  "reference": "Lucas 15:18",
+  "latin": ["Pater", "peccavi", "in", "caelum", "et", "coram", "te"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "peccavi",
+      "choices": ["peccavi", "Pater", "caelum", "te"],
+      "reveal": null,
+      "hints": {
+        "Pater": "'Pater' is a noun meaning 'Father' — here in the vocative",
+        "caelum": "'Caelum' is a noun meaning 'heaven' in the accusative",
+        "te": "'Te' is a personal pronoun meaning 'you' (acc./abl.)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'peccavi' translates to?",
+      "target": "to sin",
+      "choices": ["to sin", "to comb", "to feed", "to ask"],
+      "reveal": null,
+      "hints": {
+        "to comb": "'To comb' is 'pectere' — 'peccavi' comes from 'peccare' (to sin)",
+        "to feed": "'To feed' is 'pascere' — 'peccare' means 'to sin'",
+        "to ask": "'To ask' is 'rogare' or 'petere' — 'peccare' means 'to sin'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'peccavi'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "peccavi = I have sinned",
+      "hints": {
+        "present indicative": "Present would be 'pecco' — 'peccavi' has the perfect -vi ending",
+        "imperfect indicative": "Imperfect would be 'peccabam' — 'peccavi' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'peccaveram' — 'peccavi' is simple perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'peccavi'?",
+      "target": "pecco, peccare, peccavi, peccatum",
+      "choices": ["pecco, peccare, peccavi, peccatum", "pecto, pectere, pexi, pexum", "pasco, pascere, pavi, pastum", "pango, pangere, pepigi, pactum"],
+      "reveal": null,
+      "hints": {
+        "pecto, pectere, pexi, pexum": "These are the parts of 'pectere' (to comb)",
+        "pasco, pascere, pavi, pastum": "These are the parts of 'pascere' (to feed/pasture)",
+        "pango, pangere, pepigi, pactum": "These are the parts of 'pangere' (to fix/agree)"
+      }
+    },
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": "Pater = Father! (voc.)",
+      "hints": {
+        "nominative": "While 'pater' is the same form in nominative, here the son addresses his father directly — vocative",
+        "accusative": "Accusative would be 'patrem' — 'Pater' is vocative of address",
+        "ablative": "Ablative would be 'patre' — 'Pater' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'caelum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "caelum = heaven (acc., after 'in' with motion implied)",
+      "hints": {
+        "nominative": "'Caelum' could be nominative, but after 'in' meaning 'against' it is accusative",
+        "ablative": "Ablative after 'in' would mean 'in/within' — here 'in caelum' means 'against heaven' (accusative)",
+        "genitive": "Genitive would be 'caeli' — 'caelum' is accusative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'caelum, caeli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'caeli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'caeli' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'caeli' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is the function of 'coram' in this sentence?",
+      "target": "preposition meaning 'before / in the presence of' (+ ablative)",
+      "choices": ["preposition meaning 'before / in the presence of' (+ ablative)", "conjunction meaning 'when'", "adverb meaning 'together'", "preposition meaning 'around' (+ accusative)"],
+      "reveal": "coram te = before you / in your presence",
+      "hints": {
+        "conjunction meaning 'when'": "'When' is 'cum' — 'coram' is a preposition meaning 'in the presence of'",
+        "adverb meaning 'together'": "'Together' is 'simul' or 'una' — 'coram' means 'before/in the presence of'",
+        "preposition meaning 'around' (+ accusative)": "'Around' is 'circum' — 'coram' takes the ablative and means 'before'"
+      }
+    }
+  ],
+  "translation": "Father, I have sinned against heaven and before you"
+}

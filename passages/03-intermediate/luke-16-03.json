@@ -1,0 +1,97 @@
+{
+  "id": "luke-16-03",
+  "source": "Vulgate",
+  "reference": "Lucas 16:26",
+  "latin": ["Inter", "nos", "et", "vos", "chaos", "magnum", "firmatum", "est"],
+  "steps": [
+    {
+      "prompt": "Which words form the main verb phrase?",
+      "target": "firmatum est",
+      "choices": ["firmatum est", "firmatum only", "est only", "chaos magnum"],
+      "reveal": null,
+      "hints": {
+        "firmatum only": "'Firmatum' is a perfect passive participle — it needs 'est' to form the perfect passive",
+        "est only": "'Est' is the auxiliary — together with 'firmatum' it forms 'has been established'",
+        "chaos magnum": "'Chaos magnum' is the subject — 'a great chasm'"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'firmatum'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "future active participle", "gerundive"],
+      "reveal": "firmatum = (having been) established/fixed (perf. pass. ptcp.)",
+      "hints": {
+        "present active participle": "A present active participle would be 'firmans' — 'firmatum' ends in -tum",
+        "future active participle": "A future active participle would be 'firmaturum' — 'firmatum' is perfect passive",
+        "gerundive": "A gerundive would be 'firmandum' — 'firmatum' indicates a completed action"
+      }
+    },
+    {
+      "prompt": "What tense is 'firmatum est' together?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "future passive indicative"],
+      "reveal": "firmatum est = has been established/fixed",
+      "hints": {
+        "present passive indicative": "Present passive would be 'firmatur' — 'firmatum est' uses the participle",
+        "pluperfect passive indicative": "Pluperfect passive would be 'firmatum erat' — 'est' makes this perfect",
+        "future passive indicative": "Future passive would be 'firmabitur' — 'firmatum est' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'firmatum'?",
+      "target": "firmo, firmare, firmavi, firmatum",
+      "choices": ["firmo, firmare, firmavi, firmatum", "fero, ferre, tuli, latum", "fingo, fingere, finxi, fictum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)",
+        "fingo, fingere, finxi, fictum": "These are the parts of 'fingere' (to shape/form)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become/be made)"
+      }
+    },
+    {
+      "prompt": "What case is 'chaos'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "chaos = chasm/abyss (nom., Greek loanword)",
+      "hints": {
+        "accusative": "'Chaos' is indeclinable (or neuter Greek) — here it is the subject, nominative",
+        "ablative": "As an indeclinable noun, context determines case — here it is the subject",
+        "genitive": "Genitive is not indicated by context — 'chaos' is the nominative subject of 'firmatum est'"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "nos = us (acc., after 'inter')",
+      "hints": {
+        "nominative": "'Nos' can be nominative, but after 'inter' (between) it is accusative",
+        "ablative": "Ablative would be 'nobis' — 'nos' after 'inter' is accusative",
+        "dative": "Dative would be 'nobis' — 'nos' is accusative after the preposition"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "vos = you (acc., after 'inter...et')",
+      "hints": {
+        "nominative": "'Vos' can be nominative, but parallel with 'nos' after 'inter' it is accusative",
+        "ablative": "Ablative would be 'vobis' — 'vos' is accusative here",
+        "dative": "Dative would be 'vobis' — 'vos' is accusative, parallel to 'nos'"
+      }
+    },
+    {
+      "prompt": "What kind of construction is 'inter nos et vos'?",
+      "target": "prepositional phrase with accusative",
+      "choices": ["prepositional phrase with accusative", "prepositional phrase with ablative", "ablative absolute", "dative of reference"],
+      "reveal": null,
+      "hints": {
+        "prepositional phrase with ablative": "'Inter' always takes the accusative — 'nos' and 'vos' are accusative",
+        "ablative absolute": "An ablative absolute needs a noun + participle in ablative — this is 'inter' + accusative",
+        "dative of reference": "Dative would use 'nobis/vobis' — 'inter' governs accusative"
+      }
+    }
+  ],
+  "translation": "Between us and you a great chasm has been fixed"
+}

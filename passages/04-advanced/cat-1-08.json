@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-08",
+  "source": "Cicero",
+  "reference": "In Cat. I.2",
+  "latin": ["Nos", "autem", "fortes", "viri", "satis", "facere", "rei", "publicae", "videmur"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "videmur",
+      "choices": ["fortes", "facere", "videmur", "satis"],
+      "reveal": null,
+      "hints": {
+        "fortes": "'fortes' is an adjective meaning 'brave' (nominative plural)",
+        "facere": "'facere' is an infinitive meaning 'to do' — it complements 'videmur' but is not the main finite verb",
+        "satis": "'satis' is an adverb/noun meaning 'enough'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'videmur' translates to?",
+      "target": "to seem (passive of 'to see')",
+      "choices": ["to see", "to seem (passive of 'to see')", "to conquer", "to live"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is the active 'videre' — 'videmur' is passive, meaning 'we seem'",
+        "to conquer": "'to conquer' is 'vincere' — 'videmur' comes from 'videre' in passive voice",
+        "to live": "'to live' is 'vivere' — 'videmur' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense, mood, and voice is 'videmur'?",
+      "target": "Present passive indicative",
+      "choices": ["Present active indicative", "Present passive indicative", "Perfect passive indicative", "Present passive subjunctive"],
+      "reveal": { "word": "videmur", "gloss": "we seem / we are seen" },
+      "hints": {
+        "Present active indicative": "Active would be 'videmus' (we see) — 'videmur' with -mur ending is passive",
+        "Perfect passive indicative": "Perfect passive would be 'visi sumus' — 'videmur' is present passive",
+        "Present passive subjunctive": "Present passive subjunctive would be 'videamur' — 'videmur' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videmur'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid)"
+      }
+    },
+    {
+      "prompt": "What case is 'rei publicae'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "rei publicae", "gloss": "for the republic" },
+      "hints": {
+        "Nominative": "Nominative would be 'res publica' — 'rei publicae' is dative ('satisfacere' takes dative)",
+        "Genitive": "Genitive singular is also 'rei publicae', but here with 'satis facere' it is dative (to satisfy)",
+        "Ablative": "Ablative would be 're publica' — 'rei publicae' is dative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'res'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'res, rei' is a classic 5th declension noun",
+        "3rd": "3rd declension nouns have gen. in -is — 'res' has gen. 'rei' (5th declension)",
+        "4th": "4th declension nouns have gen. in -us — 'res' has gen. 'rei' (5th)"
+      }
+    },
+    {
+      "prompt": "What case is 'viri'?",
+      "target": "Nominative plural",
+      "choices": ["Nominative plural", "Genitive singular", "Dative singular", "Vocative plural"],
+      "reveal": { "word": "viri", "gloss": "men" },
+      "hints": {
+        "Genitive singular": "Genitive singular is also 'viri', but here it agrees with 'nos' and 'fortes' as nominative plural",
+        "Dative singular": "Dative singular would be 'viro' — 'viri' is nominative plural",
+        "Vocative plural": "Vocative plural is also 'viri', but Cicero is speaking about 'us brave men,' not addressing them"
+      }
+    },
+    {
+      "prompt": "What is the tone of 'nos fortes viri'?",
+      "target": "Ironic — Cicero mocks the senate's inaction",
+      "choices": ["Sincere praise of Roman bravery", "Ironic — Cicero mocks the senate's inaction", "A military rallying cry", "Humble self-deprecation"],
+      "reveal": null,
+      "hints": {
+        "Sincere praise of Roman bravery": "Cicero is criticizing the senate for doing nothing about Catiline — 'fortes viri' is sarcastic",
+        "A military rallying cry": "This is not a call to arms but a critique of passivity — 'videmur' (we seem) undercuts any real bravery",
+        "Humble self-deprecation": "It is not humble — it is biting irony directed at the senate's failure to act"
+      }
+    }
+  ],
+  "translation": "But we, brave men, seem to do enough for the republic."
+}

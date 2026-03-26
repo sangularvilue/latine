@@ -1,0 +1,130 @@
+{
+  "id": "cat-4-01",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.1",
+  "latin": ["Video", "duos", "adhuc", "esse", "sententias"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Video' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to seem", "to avoid", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to seem": "'To seem' is 'videri' (passive of 'videre') — active 'video' means 'I see'",
+        "to avoid": "'To avoid' is 'vitare' — 'video' comes from 'videre' (to see)",
+        "to conquer": "'To conquer' is 'vincere' — 'video' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Video'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "Video = I see",
+      "hints": {
+        "perfect indicative": "Perfect would be 'vidi' — 'Video' with the -eo ending is present indicative",
+        "future indicative": "Future would be 'videbo' — 'Video' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'videam' — 'Video' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Video'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid)"
+      }
+    },
+    {
+      "prompt": "This sentence uses indirect discourse. What is the construction?",
+      "target": "accusative ('sententias') + infinitive ('esse')",
+      "choices": ["accusative ('sententias') + infinitive ('esse')", "ut + subjunctive", "quod + indicative", "relative clause of characteristic"],
+      "reveal": null,
+      "hints": {
+        "ut + subjunctive": "'Ut' + subjunctive is for purpose or result — 'video' takes acc. + inf. for indirect statement",
+        "quod + indicative": "'Quod' + indicative can introduce facts, but 'video' here governs acc. + infinitive",
+        "relative clause of characteristic": "There is no relative pronoun — this is acc. + inf. indirect discourse"
+      }
+    },
+    {
+      "prompt": "What case is 'duos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "duos = two (acc. masc.)",
+      "hints": {
+        "nominative": "Nominative masculine would be 'duo' — 'duos' is accusative masculine plural",
+        "ablative": "Ablative would be 'duobus' — 'duos' is accusative",
+        "genitive": "Genitive would be 'duorum' — 'duos' is accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'esse' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to go"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'esse/edere' (from 'edo') — this 'esse' is from 'sum' (to be)",
+        "to go out": "'To go out' is 'exire' — 'esse' means to be",
+        "to go": "'To go' is 'ire' — 'esse' means to be"
+      }
+    },
+    {
+      "prompt": "What tense is the infinitive 'esse' in this indirect discourse?",
+      "target": "present infinitive (contemporaneous with 'Video')",
+      "choices": ["present infinitive (contemporaneous with 'Video')", "perfect infinitive", "future infinitive", "imperfect infinitive"],
+      "reveal": "esse = to be / that there are (present inf.)",
+      "hints": {
+        "perfect infinitive": "Perfect infinitive would be 'fuisse' — 'esse' is the present infinitive",
+        "future infinitive": "Future infinitive would be 'futurum esse' or 'fore' — 'esse' is present",
+        "imperfect infinitive": "Latin has no 'imperfect infinitive' — the three infinitive tenses are present, perfect, and future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat) — confusingly, its infinitive is also 'esse'",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'sententias'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "sententias = opinions / proposals (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'sententiae' — 'sententias' with -as is accusative plural",
+        "genitive": "Genitive singular would be 'sententiae' — 'sententias' is accusative plural",
+        "ablative": "Ablative plural would be 'sententiis' — 'sententias' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'sententia, sententiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'sententiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'sententiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'sententiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "In the Fourth Catilinarian, what 'two proposals' is Cicero referring to?",
+      "target": "death penalty (Silanus) vs. life imprisonment (Caesar)",
+      "choices": ["death penalty (Silanus) vs. life imprisonment (Caesar)", "exile vs. acquittal", "war vs. negotiation", "trial vs. summary execution"],
+      "reveal": null,
+      "hints": {
+        "exile vs. acquittal": "Exile was not proposed — the debate was between execution and perpetual imprisonment",
+        "war vs. negotiation": "The military question was separate — this debate concerned the arrested conspirators' fate",
+        "trial vs. summary execution": "Both proposals bypassed a regular trial — the question was death vs. imprisonment"
+      }
+    }
+  ],
+  "translation": "I see that there are two proposals"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-31",
+  "source": "Cicero",
+  "reference": "In Cat. II.20",
+  "latin": ["Quae", "cum", "ita", "sint", "pro", "imperio", "auctoritate", "providebo"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "providebo",
+      "choices": ["sint", "imperio", "auctoritate", "providebo"],
+      "reveal": null,
+      "hints": {
+        "sint": "'sint' is subjunctive in the 'cum' clause",
+        "imperio": "'imperio' is a noun in the ablative meaning 'in accordance with my command/authority'",
+        "auctoritate": "'auctoritate' is a noun in the ablative meaning 'in accordance with authority'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sint'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "sint", "gloss": "are (since these things are so)" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'sunt' — 'sint' is subjunctive after 'cum' (causal)",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'essent' — 'sint' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'fuerint' — 'sint' is present"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'providebo'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Future perfect"],
+      "reveal": { "word": "providebo", "gloss": "I will provide for / take care of" },
+      "hints": {
+        "Present indicative": "Present would be 'provideo' — 'providebo' with -ebo ending is future",
+        "Present subjunctive": "Present subjunctive would be 'provideam' — 'providebo' is future indicative",
+        "Future perfect": "Future perfect would be 'providero' — 'providebo' is simple future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'providebo'?",
+      "target": "provideo, providere, providi, provisum",
+      "choices": ["provideo, providere, providi, provisum", "video, videre, vidi, visum", "praevideo, praevidere, praevidi, praevisum", "invideo, invidere, invidi, invisum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see) — the base verb",
+        "praevideo, praevidere, praevidi, praevisum": "These are the parts of 'praevidere' (to foresee) — a different compound",
+        "invideo, invidere, invidi, invisum": "These are the parts of 'invidere' (to envy) — a different compound"
+      }
+    },
+    {
+      "prompt": "What case is 'imperio'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "imperio", "gloss": "command / consular authority" },
+      "hints": {
+        "Nominative": "Nominative would be 'imperium' — 'imperio' is ablative of accordance",
+        "Dative": "Dative would be 'imperio' (same form), but with 'pro' it is ablative",
+        "Accusative": "Accusative would be 'imperium' — 'pro' governs the ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'imperio'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'imperium, -ii' is 2nd declension neuter",
+        "3rd": "3rd declension ablative ends in -e — 'imperium, -ii' is 2nd declension",
+        "4th": "4th declension ablative ends in -u — 'imperium, -ii' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'auctoritate'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "auctoritate", "gloss": "authority / prestige" },
+      "hints": {
+        "Nominative": "Nominative would be 'auctoritas' — 'auctoritate' with -e ending is ablative",
+        "Genitive": "Genitive would be 'auctoritatis' — 'auctoritate' is ablative",
+        "Dative": "Dative would be 'auctoritati' — 'auctoritate' is ablative"
+      }
+    },
+    {
+      "prompt": "What does 'Quae cum ita sint' transition to?",
+      "target": "A concluding promise — 'since these things are so, I will act'",
+      "choices": ["An introduction of a new topic", "A concluding promise — 'since these things are so, I will act'", "A question to the audience", "A prayer to the gods"],
+      "reveal": null,
+      "hints": {
+        "An introduction of a new topic": "'quae cum ita sint' summarizes what came before and introduces a conclusion",
+        "A question to the audience": "This is a declarative conclusion, not a question",
+        "A prayer to the gods": "Cicero is making a political promise, not a religious invocation"
+      }
+    }
+  ],
+  "translation": "Since these things are so, I will take care of it in accordance with my authority and command."
+}

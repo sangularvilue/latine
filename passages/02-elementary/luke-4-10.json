@@ -1,0 +1,86 @@
+{
+  "id": "luke-4-10",
+  "source": "Vulgate",
+  "reference": "Lucas 4:35",
+  "latin": ["Obmutesce", "et", "exi", "ab", "eo"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "Obmutesce and exi",
+      "choices": ["Obmutesce and exi", "Obmutesce only", "exi only", "ab and eo"],
+      "reveal": null,
+      "hints": {
+        "Obmutesce only": "There are two imperatives: 'Obmutesce' (be silent) and 'exi' (go out)",
+        "exi only": "'exi' is an imperative, but so is 'Obmutesce' — both are commands",
+        "ab and eo": "'ab' is a preposition and 'eo' is a pronoun here, not verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Obmutesce' translates to?",
+      "target": "to be silent / to be mute",
+      "choices": ["to be silent / to be mute", "to change", "to die", "to object"],
+      "reveal": null,
+      "hints": {
+        "to change": "'to change' is 'mutare' — 'Obmutesce' comes from 'obmutescere' (to become silent)",
+        "to die": "'to die' is 'mori' — 'Obmutesce' comes from 'obmutescere' (to become mute)",
+        "to object": "'to object' is 'obicere' — 'Obmutesce' comes from 'obmutescere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Obmutesce'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "Obmutesce", "gloss": "be silent! / be mute!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'obmutescit' — 'Obmutesce' is a command",
+        "subjunctive": "Subjunctive would be 'obmutescat' — 'Obmutesce' is the imperative",
+        "infinitive": "Infinitive would be 'obmutescere' — 'Obmutesce' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Obmutesce'?",
+      "target": "obmutesco, obmutescere, obmutui, —",
+      "choices": ["obmutesco, obmutescere, obmutui, —", "muto, mutare, mutavi, mutatum", "obicio, obicere, obieci, obiectum", "morior, mori, mortuus sum, —"],
+      "reveal": null,
+      "hints": {
+        "muto, mutare, mutavi, mutatum": "These are principal parts of 'muto' (to change)",
+        "obicio, obicere, obieci, obiectum": "These are principal parts of 'obicio' (to throw before/object)",
+        "morior, mori, mortuus sum, —": "These are principal parts of 'morior' (to die)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'exi' translates to?",
+      "target": "to go out",
+      "choices": ["to go out", "to exist", "to demand", "to be"],
+      "reveal": null,
+      "hints": {
+        "to exist": "'to exist' is 'existere' — 'exi' comes from 'exire' (to go out)",
+        "to demand": "'to demand' is 'exigere' — 'exi' comes from 'exire' (to go out)",
+        "to be": "'to be' is 'esse' — 'exi' comes from 'exire' (to go out)"
+      }
+    },
+    {
+      "prompt": "What mood is 'exi'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "perfect indicative", "subjunctive"],
+      "reveal": { "word": "exi", "gloss": "go out! / come out!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'exit' — 'exi' is an imperative command",
+        "perfect indicative": "Perfect indicative would be 'exiit' — 'exi' is the imperative",
+        "subjunctive": "Subjunctive would be 'exeat' — 'exi' is a direct command"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'exi'?",
+      "target": "exeo, exire, exii, exitum",
+      "choices": ["exeo, exire, exii, exitum", "eo, ire, ivi, itum", "exigo, exigere, exegi, exactum", "exsisto, exsistere, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are principal parts of 'eo' (to go) — 'exeo' adds the prefix 'ex-'",
+        "exigo, exigere, exegi, exactum": "These are principal parts of 'exigo' (to demand/drive out)",
+        "exsisto, exsistere, exstiti, —": "These are principal parts of 'exsisto' (to come forth/exist)"
+      }
+    }
+  ],
+  "translation": "Be silent and come out of him"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "luke-17-03",
+  "source": "Vulgate",
+  "reference": "Lucas 17:21",
+  "latin": ["Regnum", "Dei", "intra", "vos", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "est",
+      "choices": ["est", "Regnum", "Dei", "vos"],
+      "reveal": null,
+      "hints": {
+        "Regnum": "'Regnum' is a noun meaning 'kingdom' — the subject",
+        "Dei": "'Dei' is a noun meaning 'of God' in the genitive",
+        "vos": "'Vos' is a pronoun meaning 'you' (acc./nom.)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to go": "'To go' is 'ire' — 'est' is from 'esse'",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "future indicative": "Future would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)"
+      }
+    },
+    {
+      "prompt": "What case is 'Regnum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Regnum = kingdom (nom.)",
+      "hints": {
+        "accusative": "'Regnum' can be accusative, but here it is the subject of 'est' — nominative",
+        "ablative": "Ablative would be 'regno' — 'Regnum' is nominative",
+        "vocative": "One does not address a kingdom — 'Regnum' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'regnum, regni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regni' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'regni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'regni' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "vos = you (acc., after 'intra')",
+      "hints": {
+        "nominative": "'Vos' can be nominative, but after 'intra' it is accusative",
+        "ablative": "Ablative would be 'vobis' — 'vos' after 'intra' is accusative",
+        "dative": "Dative would be 'vobis' — 'vos' is accusative after the preposition"
+      }
+    },
+    {
+      "prompt": "What does 'intra' govern?",
+      "target": "the accusative case",
+      "choices": ["the accusative case", "the ablative case", "the genitive case", "the dative case"],
+      "reveal": "intra = within (+ acc.)",
+      "hints": {
+        "the ablative case": "'In' can take ablative, but 'intra' always takes accusative",
+        "the genitive case": "No common Latin preposition governs genitive alone — 'intra' takes accusative",
+        "the dative case": "Prepositions do not govern dative in Latin — 'intra' takes accusative"
+      }
+    }
+  ],
+  "translation": "The kingdom of God is within you"
+}

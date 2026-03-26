@@ -1,0 +1,119 @@
+{
+  "id": "luke-13-01",
+  "source": "Vulgate",
+  "reference": "Lucas 13:3",
+  "latin": ["Nisi", "paenitentiam", "habueritis", "omnes", "similiter", "peribitis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb of the conditional clause?",
+      "target": "habueritis",
+      "choices": ["habueritis", "peribitis", "paenitentiam", "omnes"],
+      "reveal": null,
+      "hints": {
+        "peribitis": "'Peribitis' is the main verb of the result clause, not the 'nisi' (unless) clause",
+        "paenitentiam": "'Paenitentiam' is a noun meaning 'repentance' in the accusative",
+        "omnes": "'Omnes' is an adjective/pronoun meaning 'all'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habueritis' translates to?",
+      "target": "to have / to hold",
+      "choices": ["to have / to hold", "to repent", "to perish", "to know"],
+      "reveal": null,
+      "hints": {
+        "to repent": "'To repent' would be 'paenitere' — 'habueritis' comes from 'habere'",
+        "to perish": "'To perish' is 'perire' — that corresponds to 'peribitis'",
+        "to know": "'To know' is 'scire' or 'cognoscere' — unrelated to 'habere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'habueritis'?",
+      "target": "future perfect indicative",
+      "choices": ["future perfect indicative", "perfect subjunctive", "pluperfect subjunctive", "present subjunctive"],
+      "reveal": "habueritis = you will have had",
+      "hints": {
+        "perfect subjunctive": "In form these look identical, but in a conditional with future 'peribitis' this is future perfect indicative",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'habuissetis' with the -isse- marker",
+        "present subjunctive": "Present subjunctive would be 'habeatis' — 'habueritis' has the perfect stem"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habueritis'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "abeo, abire, abii, abitum", "habito, habitare, habitavi, habitatum", "teneo, tenere, tenui, tentum"],
+      "reveal": null,
+      "hints": {
+        "abeo, abire, abii, abitum": "These are the principal parts of 'abire' (to go away)",
+        "habito, habitare, habitavi, habitatum": "These are the principal parts of 'habitare' (to dwell)",
+        "teneo, tenere, tenui, tentum": "These are the principal parts of 'tenere' (to hold) — similar but distinct"
+      }
+    },
+    {
+      "prompt": "What case is 'paenitentiam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "paenitentiam = repentance (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'paenitentia' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'paenitentia' — the -am ending is accusative singular",
+        "genitive": "Genitive would be 'paenitentiae' — 'paenitentiam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'paenitentia, paenitentiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'paenitentiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'paenitentiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'paenitentiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'peribitis' translates to?",
+      "target": "to perish",
+      "choices": ["to perish", "to carry", "to experience", "to endure"],
+      "reveal": null,
+      "hints": {
+        "to carry": "'To carry' is 'ferre' or 'portare' — unrelated to 'perire'",
+        "to experience": "'To experience' is 'experiri' — 'peribitis' comes from 'perire'",
+        "to endure": "'To endure' is 'pati' or 'perferre' — not 'perire'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'peribitis'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "perfect indicative", "future perfect indicative"],
+      "reveal": "peribitis = you will perish",
+      "hints": {
+        "present indicative": "Present would be 'peritis' — 'peribitis' has the future -bi- marker",
+        "perfect indicative": "Perfect would be 'periistis' — 'peribitis' is future",
+        "future perfect indicative": "Future perfect would be 'perieritis' — 'peribitis' is simple future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'peribitis'?",
+      "target": "pereo, perire, perii, peritum",
+      "choices": ["pereo, perire, perii, peritum", "pario, parere, peperi, partum", "patior, pati, passus sum, —", "paro, parare, paravi, paratum"],
+      "reveal": null,
+      "hints": {
+        "pario, parere, peperi, partum": "These are the principal parts of 'parere' (to give birth / produce)",
+        "patior, pati, passus sum, —": "These are the principal parts of 'pati' (to suffer) — a deponent verb",
+        "paro, parare, paravi, paratum": "These are the principal parts of 'parare' (to prepare)"
+      }
+    },
+    {
+      "prompt": "What case is 'omnes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "omnes = all (nom. pl.)",
+      "hints": {
+        "accusative": "'Omnes' can be accusative plural, but here it is the subject — nominative",
+        "vocative": "While addressing 'you all,' 'omnes' functions as a nominative subject here",
+        "ablative": "Ablative plural would be 'omnibus' — 'omnes' is nominative/accusative"
+      }
+    }
+  ],
+  "translation": "Unless you will have repented, you will all likewise perish"
+}

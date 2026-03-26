@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-14",
+  "source": "Cicero",
+  "reference": "In Cat. I.4",
+  "latin": ["Quid", "proxima", "quid", "superiore", "nocte", "egeris"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "egeris",
+      "choices": ["Quid", "proxima", "superiore", "egeris"],
+      "reveal": null,
+      "hints": {
+        "Quid": "'Quid' is an interrogative pronoun meaning 'what'",
+        "proxima": "'proxima' is an adjective meaning 'last / nearest' (modifying 'nocte')",
+        "superiore": "'superiore' is an adjective meaning 'previous / earlier'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'egeris' translates to?",
+      "target": "to do / accomplish",
+      "choices": ["to need", "to do / accomplish", "to go out", "to drive"],
+      "reveal": null,
+      "hints": {
+        "to need": "'to need' is 'egere' — a different verb from 'agere' (to do/drive)",
+        "to go out": "'to go out' is 'egredi' — 'egeris' comes from 'agere'",
+        "to drive": "'to drive' is close — 'agere' means both 'to do' and 'to drive', but in this context 'to do/accomplish' fits"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'egeris'?",
+      "target": "Perfect subjunctive",
+      "choices": ["Perfect indicative", "Perfect subjunctive", "Future perfect indicative", "Pluperfect subjunctive"],
+      "reveal": { "word": "egeris", "gloss": "you did / have done" },
+      "hints": {
+        "Perfect indicative": "Perfect indicative would be 'egisti' — 'egeris' with -eris ending is subjunctive",
+        "Future perfect indicative": "Future perfect is also 'egeris' in form, but the indirect question context requires subjunctive",
+        "Pluperfect subjunctive": "Pluperfect subjunctive would be 'egisses' — 'egeris' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used here?",
+      "target": "Indirect question — 'what you did'",
+      "choices": ["Purpose clause", "Indirect question — 'what you did'", "Result clause", "Jussive subjunctive"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose clauses use 'ut/ne' + subjunctive — this is introduced by 'quid' (what), making it an indirect question",
+        "Result clause": "Result clauses use 'ut' + subjunctive — 'quid' introduces an indirect question",
+        "Jussive subjunctive": "Jussive is a command in subjunctive — 'quid ... egeris' asks what Catiline did"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'egeris'?",
+      "target": "ago, agere, egi, actum",
+      "choices": ["ago, agere, egi, actum", "egeo, egere, egui, —", "egredior, egredi, egressus sum", "exigo, exigere, exegi, exactum"],
+      "reveal": null,
+      "hints": {
+        "egeo, egere, egui, —": "These are the parts of 'egere' (to need/lack) — a different verb",
+        "egredior, egredi, egressus sum": "These are the parts of 'egredi' (to go out) — a deponent verb",
+        "exigo, exigere, exegi, exactum": "These are the parts of 'exigere' (to drive out/demand) — a compound of 'agere' but different"
+      }
+    },
+    {
+      "prompt": "What case is 'nocte' (understood with both 'proxima' and 'superiore')?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nocte", "gloss": "on ... night" },
+      "hints": {
+        "Nominative": "Nominative would be 'nox' — 'nocte' is ablative of time when",
+        "Accusative": "Accusative would be 'noctem' — 'nocte' is ablative",
+        "Dative": "Dative would be 'nocti' — 'nocte' is ablative of time when"
+      }
+    },
+    {
+      "prompt": "What rhetorical figure is 'quid proxima, quid superiore nocte'?",
+      "target": "Anaphora — repetition of 'quid'",
+      "choices": ["Asyndeton", "Anaphora — repetition of 'quid'", "Chiasmus", "Hyperbole"],
+      "reveal": null,
+      "hints": {
+        "Asyndeton": "Asyndeton is omission of conjunctions — the key figure is the repeated 'quid' (anaphora)",
+        "Chiasmus": "Chiasmus is ABBA word order — the parallel 'quid ... quid ...' is anaphora",
+        "Hyperbole": "Hyperbole is exaggeration — the repetition of 'quid' is anaphora, not exaggeration"
+      }
+    },
+    {
+      "prompt": "What does the accumulation of specific nights demonstrate?",
+      "target": "Cicero's thorough surveillance of Catiline's movements",
+      "choices": ["Cicero's uncertainty about the timeline", "Cicero's thorough surveillance of Catiline's movements", "That the conspiracy just began", "That Catiline was sleeping peacefully"],
+      "reveal": null,
+      "hints": {
+        "Cicero's uncertainty about the timeline": "The specificity ('last night, the night before') shows certainty, not uncertainty",
+        "That the conspiracy just began": "Multiple nights implies ongoing activity — the conspiracy is well established",
+        "That Catiline was sleeping peacefully": "Cicero implies Catiline was actively conspiring each night, not sleeping"
+      }
+    }
+  ],
+  "translation": "What you did last night, what the night before."
+}

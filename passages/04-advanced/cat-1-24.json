@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-24",
+  "source": "Cicero",
+  "reference": "In Cat. I.12",
+  "latin": ["Si", "te", "iam", "Catilina", "mors", "duceret", "libenter", "parerem"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "parerem",
+      "choices": ["duceret", "mors", "libenter", "parerem"],
+      "reveal": null,
+      "hints": {
+        "duceret": "'duceret' is subjunctive in the 'si' clause — not the main verb",
+        "mors": "'mors' is a noun meaning 'death'",
+        "libenter": "'libenter' is an adverb meaning 'willingly / gladly'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'parerem'?",
+      "target": "Imperfect subjunctive",
+      "choices": ["Present subjunctive", "Imperfect subjunctive", "Imperfect indicative", "Pluperfect subjunctive"],
+      "reveal": { "word": "parerem", "gloss": "I would obey" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'paream' — 'parerem' with -rem ending is imperfect subjunctive",
+        "Imperfect indicative": "Imperfect indicative would be 'parebam' — 'parerem' is subjunctive",
+        "Pluperfect subjunctive": "Pluperfect subjunctive would be 'paruissem' — 'parerem' is imperfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'parerem'?",
+      "target": "pareo, parere, parui, paritum",
+      "choices": ["pareo, parere, parui, paritum", "paro, parare, paravi, paratum", "patior, pati, passus sum", "pario, parere, peperi, partum"],
+      "reveal": null,
+      "hints": {
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare) — a 1st conjugation verb",
+        "patior, pati, passus sum": "These are the parts of 'pati' (to suffer) — a deponent verb",
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth) — a different verb with the same infinitive form"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'duceret'?",
+      "target": "Imperfect subjunctive",
+      "choices": ["Present indicative", "Imperfect subjunctive", "Imperfect indicative", "Perfect subjunctive"],
+      "reveal": { "word": "duceret", "gloss": "were leading" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'ducit' — 'duceret' is subjunctive",
+        "Imperfect indicative": "Imperfect indicative would be 'ducebat' — 'duceret' has the subjunctive -ret ending",
+        "Perfect subjunctive": "Perfect subjunctive would be 'duxerit' — 'duceret' is imperfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'duceret'?",
+      "target": "duco, ducere, duxi, ductum",
+      "choices": ["duco, ducere, duxi, ductum", "doceo, docere, docui, doctum", "dico, dicere, dixi, dictum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "doceo, docere, docui, doctum": "These are the parts of 'docere' (to teach)",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dicere' (to say)",
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "What type of conditional is 'si … duceret … parerem'?",
+      "target": "Present contrary-to-fact (imperfect subjunctive in both clauses)",
+      "choices": ["Simple/open condition", "Present contrary-to-fact (imperfect subjunctive in both clauses)", "Past contrary-to-fact", "Future less vivid"],
+      "reveal": null,
+      "hints": {
+        "Simple/open condition": "Simple conditions use the indicative — both verbs here are imperfect subjunctive",
+        "Past contrary-to-fact": "Past contrary-to-fact uses pluperfect subjunctive — this uses imperfect (present time)",
+        "Future less vivid": "Future less vivid uses present subjunctive — this uses imperfect subjunctive (present contrary-to-fact)"
+      }
+    },
+    {
+      "prompt": "What case is 'mors'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "mors", "gloss": "death" },
+      "hints": {
+        "Genitive": "Genitive would be 'mortis' — 'mors' is nominative, subject of 'duceret'",
+        "Accusative": "Accusative would be 'mortem' — 'mors' is nominative",
+        "Ablative": "Ablative would be 'morte' — 'mors' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'mors'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'mors, mortis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'mors, mortis' is 3rd declension",
+        "4th": "4th declension nouns have gen. in -us — 'mors, mortis' has gen. -is (3rd)"
+      }
+    }
+  ],
+  "translation": "If death were already leading you away, Catiline, I would willingly obey."
+}

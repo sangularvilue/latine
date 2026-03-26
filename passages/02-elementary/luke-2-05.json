@@ -1,0 +1,97 @@
+{
+  "id": "luke-2-05",
+  "source": "Vulgate",
+  "reference": "Lucas 2:8",
+  "latin": ["Pastores", "erant", "in", "regione"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "erant",
+      "choices": ["Pastores", "erant", "in", "regione"],
+      "reveal": null,
+      "hints": {
+        "Pastores": "'Pastores' is a noun meaning 'shepherds' — it is the subject",
+        "in": "'in' is a preposition meaning 'in'",
+        "regione": "'regione' is a noun meaning 'region' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erant' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to err"],
+      "reveal": null,
+      "hints": {
+        "to go": "'to go' is 'ire' — 'erant' comes from 'esse' (to be)",
+        "to eat": "'to eat' is 'edere/esse' — 'erant' comes from 'esse' (to be), the irregular verb",
+        "to err": "'to err' is 'errare' — 'erant' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'erant'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "erant", "gloss": "they were" },
+      "hints": {
+        "Present": "Present 3rd plural of 'esse' is 'sunt' — 'erant' is imperfect",
+        "Perfect": "Perfect 3rd plural of 'esse' is 'fuerunt' — 'erant' is imperfect",
+        "Pluperfect": "Pluperfect 3rd plural of 'esse' is 'fuerant' — 'erant' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erant'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "erro, errare, erravi, erratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — not 'esse' (to be)",
+        "edo, esse, edi, esum": "These are the parts of 'edere/esse' (to eat) — a different verb with the same infinitive form",
+        "erro, errare, erravi, erratum": "These are the parts of 'errare' (to wander/err)"
+      }
+    },
+    {
+      "prompt": "What case is 'Pastores'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Genitive"],
+      "reveal": { "word": "Pastores", "gloss": "shepherds" },
+      "hints": {
+        "Accusative": "'Pastores' could be accusative plural, but here it is the subject — nominative",
+        "Vocative": "Vocative would be used for direct address — 'Pastores' is the subject here",
+        "Genitive": "Genitive plural would be 'pastorum' — 'Pastores' is nominative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'pastor, pastoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pastoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'pastoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'pastoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'regione'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "regione", "gloss": "in the region" },
+      "hints": {
+        "Nominative": "Nominative would be 'regio' — 'regione' with -e ending is ablative",
+        "Accusative": "Accusative would be 'regionem' — 'regione' is ablative after 'in'",
+        "Genitive": "Genitive would be 'regionis' — 'regione' is ablative governed by 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'regio, regionis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regionis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'regionis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'regionis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Shepherds were in the region"
+}

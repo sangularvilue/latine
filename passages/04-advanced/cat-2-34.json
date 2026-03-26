@@ -1,0 +1,108 @@
+{
+  "id": "cat-2-34",
+  "source": "Cicero",
+  "reference": "In Cat. II.22",
+  "latin": ["Iovem", "Statorem", "huius", "urbis", "custodem", "invocamus"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "invocamus",
+      "choices": ["Iovem", "Statorem", "custodem", "invocamus"],
+      "reveal": null,
+      "hints": {
+        "Iovem": "'Iovem' is a proper noun in the accusative meaning 'Jupiter'",
+        "Statorem": "'Statorem' is a title/epithet in the accusative meaning 'the Stayer (defender)'",
+        "custodem": "'custodem' is a noun in the accusative meaning 'guardian'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'invocamus' translates to?",
+      "target": "to call upon / invoke",
+      "choices": ["to find", "to call upon / invoke", "to enter", "to summon to court"],
+      "reveal": null,
+      "hints": {
+        "to find": "'to find' is 'invenire' — 'invocare' means 'to call upon'",
+        "to enter": "'to enter' is 'intrare' — 'invocare' means 'to invoke'",
+        "to summon to court": "'to summon' is 'citare' — 'invocare' means 'to call upon (a god)'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'invocamus'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "invocamus", "gloss": "we call upon / invoke" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'invocavimus' — 'invocamus' is present",
+        "Present subjunctive": "Present subjunctive would be 'invocemus' — 'invocamus' is indicative",
+        "Future indicative": "Future would be 'invocabimus' — 'invocamus' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'invocamus'?",
+      "target": "invoco, invocare, invocavi, invocatum",
+      "choices": ["invoco, invocare, invocavi, invocatum", "voco, vocare, vocavi, vocatum", "provoco, provocare, provocavi, provocatum", "revoco, revocare, revocavi, revocatum"],
+      "reveal": null,
+      "hints": {
+        "voco, vocare, vocavi, vocatum": "These are the parts of 'vocare' (to call) — the base verb",
+        "provoco, provocare, provocavi, provocatum": "These are the parts of 'provocare' (to call forth/challenge)",
+        "revoco, revocare, revocavi, revocatum": "These are the parts of 'revocare' (to call back)"
+      }
+    },
+    {
+      "prompt": "What case is 'Iovem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Vocative"],
+      "reveal": { "word": "Iovem", "gloss": "Jupiter" },
+      "hints": {
+        "Nominative": "Nominative would be 'Iuppiter' — 'Iovem' is the accusative of this irregular noun",
+        "Dative": "Dative would be 'Iovi' — 'Iovem' is accusative, object of 'invocamus'",
+        "Vocative": "Vocative would be 'Iuppiter' — 'Iovem' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'Iovem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'Iuppiter, Iovis' is an irregular 3rd declension noun",
+        "2nd": "2nd declension accusative ends in -um — 'Iuppiter, Iovis' is 3rd declension",
+        "4th": "4th declension accusative ends in -um — 'Iuppiter, Iovis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'custodem'?",
+      "target": "Accusative (in apposition to Iovem)",
+      "choices": ["Nominative", "Accusative (in apposition to Iovem)", "Genitive", "Ablative"],
+      "reveal": { "word": "custodem", "gloss": "guardian / protector" },
+      "hints": {
+        "Nominative": "Nominative would be 'custos' — 'custodem' is accusative, in apposition with 'Iovem'",
+        "Genitive": "Genitive would be 'custodis' — 'custodem' is accusative",
+        "Ablative": "Ablative would be 'custode' — 'custodem' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'urbis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "urbis", "gloss": "of this city" },
+      "hints": {
+        "Nominative": "Nominative would be 'urbs' — 'urbis' with -is ending is genitive",
+        "Dative": "Dative would be 'urbi' — 'urbis' is genitive, modifying 'custodem'",
+        "Accusative": "Accusative would be 'urbem' — 'urbis' is genitive"
+      }
+    },
+    {
+      "prompt": "Who is 'Iuppiter Stator'?",
+      "target": "Jupiter in his role as 'the one who halts' (enemies) — whose temple stood nearby",
+      "choices": ["Jupiter as king of the gods", "Jupiter in his role as 'the one who halts' (enemies) — whose temple stood nearby", "A different deity named Stator", "Jupiter as god of storms"],
+      "reveal": null,
+      "hints": {
+        "Jupiter as king of the gods": "While Jupiter is king, 'Stator' specifically means 'the one who stops/stays' — referring to his role in halting enemies in battle",
+        "A different deity named Stator": "'Stator' is an epithet of Jupiter, not a separate deity — from 'stare/sistere' (to stand/halt)",
+        "Jupiter as god of storms": "Jupiter governs storms, but 'Stator' specifically refers to halting the enemy, relevant to Catiline's threat"
+      }
+    }
+  ],
+  "translation": "We call upon Jupiter the Stayer, guardian of this city."
+}

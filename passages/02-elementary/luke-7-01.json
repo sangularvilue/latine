@@ -1,0 +1,75 @@
+{
+  "id": "luke-7-01",
+  "source": "Vulgate",
+  "reference": "Lucas 7:6",
+  "latin": ["Domine", "non", "sum", "dignus"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "sum",
+      "choices": ["Domine", "non", "sum", "dignus"],
+      "reveal": null,
+      "hints": {
+        "Domine": "'Domine' is a noun in the vocative case meaning 'Lord!'",
+        "non": "'non' is an adverb meaning 'not'",
+        "dignus": "'dignus' is an adjective meaning 'worthy'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sum' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to take", "to know", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to take": "'to take' is 'sumere' — 'sum' is from 'esse' (to be)",
+        "to know": "'to know' is 'scire' — 'sum' is from 'esse' (to be)",
+        "to follow": "'to follow' is 'sequi' — 'sum' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'sum'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "sum", "gloss": "I am" },
+      "hints": {
+        "perfect": "Perfect 1st person would be 'fui' — 'sum' is present",
+        "imperfect": "Imperfect 1st person would be 'eram' — 'sum' is present",
+        "future": "Future 1st person would be 'ero' — 'sum' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sum'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sumo, sumere, sumpsi, sumptum", "sequor, sequi, secutus sum, —", "scio, scire, scivi, scitum"],
+      "reveal": null,
+      "hints": {
+        "sumo, sumere, sumpsi, sumptum": "These are principal parts of 'sumo' (to take up)",
+        "sequor, sequi, secutus sum, —": "These are principal parts of 'sequor' (to follow)",
+        "scio, scire, scivi, scitum": "These are principal parts of 'scio' (to know)"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "ablative", "dative"],
+      "reveal": { "word": "Domine", "gloss": "Lord!" },
+      "hints": {
+        "nominative": "Nominative is 'Dominus' — 'Domine' with the -e ending is vocative (direct address)",
+        "ablative": "Ablative would be 'Domino' — 'Domine' is vocative",
+        "dative": "Dative would be 'Domino' — 'Domine' is vocative (O Lord!)"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'Domini' ends in -i"
+      }
+    }
+  ],
+  "translation": "Lord, I am not worthy"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "luke-5-02",
+  "source": "Vulgate",
+  "reference": "Lucas 5:4",
+  "latin": ["Laxate", "retia", "vestra"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Laxate",
+      "choices": ["Laxate", "retia", "vestra", "date"],
+      "reveal": null,
+      "hints": {
+        "retia": "'retia' is a noun meaning 'nets'",
+        "vestra": "'vestra' is a possessive adjective meaning 'your'",
+        "date": "'date' means 'give' but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Laxate' translates to?",
+      "target": "to loosen / to let down",
+      "choices": ["to loosen / to let down", "to wash", "to praise", "to relax"],
+      "reveal": null,
+      "hints": {
+        "to wash": "'to wash' is 'lavare' — 'Laxate' comes from 'laxare' (to loosen)",
+        "to praise": "'to praise' is 'laudare' — 'Laxate' comes from 'laxare' (to loosen)",
+        "to relax": "While related in English, 'laxare' in this context means 'to let down/loosen' the nets"
+      }
+    },
+    {
+      "prompt": "What mood is 'Laxate'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "Laxate", "gloss": "let down! / lower!" },
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'laxatis' — 'Laxate' is imperative plural",
+        "subjunctive": "Subjunctive would be 'laxetis' — 'Laxate' is the imperative plural",
+        "infinitive": "Infinitive would be 'laxare' — 'Laxate' ending in -ate is imperative plural"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Laxate'?",
+      "target": "laxo, laxare, laxavi, laxatum",
+      "choices": ["laxo, laxare, laxavi, laxatum", "laudo, laudare, laudavi, laudatum", "lavo, lavare, lavi, lautum", "lego, legere, legi, lectum"],
+      "reveal": null,
+      "hints": {
+        "laudo, laudare, laudavi, laudatum": "These are principal parts of 'laudo' (to praise)",
+        "lavo, lavare, lavi, lautum": "These are principal parts of 'lavo' (to wash)",
+        "lego, legere, legi, lectum": "These are principal parts of 'lego' (to read/gather)"
+      }
+    },
+    {
+      "prompt": "What case is 'retia'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "retia", "gloss": "nets" },
+      "hints": {
+        "nominative": "Nominative plural neuter is also 'retia', but here it is the direct object of 'laxate'",
+        "ablative": "Ablative plural would be 'retibus' — 'retia' is accusative plural neuter",
+        "vocative": "You cannot address nets — 'retia' is the accusative direct object"
+      }
+    },
+    {
+      "prompt": "What declension is 'rete, retis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'retis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'retis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'retis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Let down your nets"
+}

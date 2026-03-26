@@ -1,0 +1,75 @@
+{
+  "id": "luke-3-08",
+  "source": "Vulgate",
+  "reference": "Lucas 3:14",
+  "latin": ["Neminem", "concutiatis"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "concutiatis",
+      "choices": ["Neminem", "concutiatis", "nemo", "concutere"],
+      "reveal": null,
+      "hints": {
+        "Neminem": "'Neminem' is a pronoun meaning 'no one' in the accusative — the direct object",
+        "nemo": "'nemo' is the nominative form of the pronoun — 'Neminem' is the accusative used here",
+        "concutere": "'concutere' is the infinitive — 'concutiatis' is the conjugated form"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'concutiatis' translates to?",
+      "target": "to shake / to extort",
+      "choices": ["to shake / to extort", "to cut", "to discuss", "to strike down"],
+      "reveal": null,
+      "hints": {
+        "to cut": "'to cut' is 'secare/caedere' — 'concutiatis' comes from 'concutere' (to shake violently)",
+        "to discuss": "'to discuss' is 'discutere' — 'concutere' means 'to shake/extort' (con + quatere)",
+        "to strike down": "'to strike down' is 'percutere' — 'concutere' means 'to shake violently/extort'"
+      }
+    },
+    {
+      "prompt": "What mood is 'concutiatis'?",
+      "target": "Subjunctive",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "concutiatis", "gloss": "you should shake down / extort" },
+      "hints": {
+        "Indicative": "Indicative present would be 'concutitis' — 'concutiatis' with -ia- is subjunctive",
+        "Imperative": "Imperative would be 'concutite' — 'concutiatis' is a subjunctive prohibition",
+        "Infinitive": "Infinitive would be 'concutere' — 'concutiatis' is a conjugated subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'concutiatis'?",
+      "target": "concutio, concutere, concussi, concussum",
+      "choices": ["concutio, concutere, concussi, concussum", "quatio, quatere, quassi, quassum", "percutio, percutere, percussi, percussum", "discutio, discutere, discussi, discussum"],
+      "reveal": null,
+      "hints": {
+        "quatio, quatere, quassi, quassum": "These are the parts of 'quatere' (to shake) — 'concutere' adds the prefix con-",
+        "percutio, percutere, percussi, percussum": "These are the parts of 'percutere' (to strike through)",
+        "discutio, discutere, discussi, discussum": "These are the parts of 'discutere' (to shatter/discuss)"
+      }
+    },
+    {
+      "prompt": "What case is 'Neminem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "Neminem", "gloss": "no one" },
+      "hints": {
+        "Nominative": "Nominative would be 'nemo' — 'Neminem' with -em ending is accusative",
+        "Dative": "Dative would be 'nemini' — 'Neminem' is accusative, direct object of 'concutiatis'",
+        "Ablative": "Ablative would be 'nemine' — 'Neminem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'nemo, neminis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "Indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'neminis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'neminis' ends in -is",
+        "Indeclinable": "'nemo' is fully declinable (nemo, neminis, nemini, neminem, nemine) — 3rd declension"
+      }
+    }
+  ],
+  "translation": "Extort no one"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "luke-12-29",
+  "source": "Vulgate",
+  "reference": "Lucas 12:40",
+  "latin": ["Estote", "parati"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Estote",
+      "choices": ["Estote", "parati", "estate", "estis"],
+      "reveal": null,
+      "hints": {
+        "parati": "'Parati' is a participle/adjective meaning 'prepared/ready'",
+        "estate": "'Estate' is not a Latin form — the correct imperative of 'esse' is 'estote'",
+        "estis": "'Estis' means 'you are' (indicative) and does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Estote' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'Estote' is from 'esse' (to be)",
+        "to stand": "That would be 'stare' — 'Estote' is from 'esse' (to be)",
+        "to remain": "That would be 'manere' — 'Estote' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Estote'?",
+      "target": "future imperative (plural)",
+      "choices": ["present indicative", "present imperative (plural)", "future imperative (plural)", "present subjunctive"],
+      "reveal": "Estote = Be! (fut. imper. pl.)",
+      "hints": {
+        "present indicative": "Present indicative would be 'estis' — 'Estote' is imperative",
+        "present imperative (plural)": "Present imperative of 'esse' would be 'este' — 'Estote' with -tote is the future imperative",
+        "present subjunctive": "Present subjunctive would be 'sitis' — 'Estote' is future imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Estote'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "sisto, sistere, stiti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to cause to stand)"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'parati'?",
+      "target": "perfect passive participle (used as predicate adjective)",
+      "choices": ["present active participle", "perfect passive participle (used as predicate adjective)", "future active participle", "gerundive"],
+      "reveal": "parati = prepared / ready (perf. pass. part., nom. masc. pl.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'parantes' — 'parati' is perfect passive",
+        "future active participle": "Future active would be 'paraturi' — 'parati' is perfect passive",
+        "gerundive": "Gerundive would be 'parandi' — 'parati' is perfect passive participle"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'parati'?",
+      "target": "paro, parare, paravi, paratum",
+      "choices": ["paro, parare, paravi, paratum", "pareo, parere, parui, paritum", "pario, parere, peperi, partum", "comparo, comparare, comparavi, comparatum"],
+      "reveal": null,
+      "hints": {
+        "pareo, parere, parui, paritum": "These are the parts of 'parere' (to obey)",
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth/produce)",
+        "comparo, comparare, comparavi, comparatum": "These are the parts of 'comparare' (to prepare/compare) — a compound of 'parare'"
+      }
+    },
+    {
+      "prompt": "What case is 'parati'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "parati = ready (nom. masc. pl., predicate)",
+      "hints": {
+        "genitive": "Genitive singular would be 'parati', but context with 'Estote' (pl.) shows nom. pl.",
+        "dative": "Dative plural would be 'paratis' — 'parati' is nominative plural",
+        "vocative": "Vocative plural would also be 'parati', but here it is predicate nominative with 'Estote'"
+      }
+    },
+    {
+      "prompt": "The future imperative 'estote' is rare in Latin. It implies?",
+      "target": "a standing or permanent command",
+      "choices": ["an immediate command", "a standing or permanent command", "a polite request", "a past command"],
+      "reveal": null,
+      "hints": {
+        "an immediate command": "An immediate command would use present imperative — future imperative implies ongoing obligation",
+        "a polite request": "Politeness is not the primary function — the future imperative stresses permanence",
+        "a past command": "Commands cannot be in the past — 'estote' is future imperative, stressing permanence"
+      }
+    }
+  ],
+  "translation": "Be prepared"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-27",
+  "source": "Cicero",
+  "reference": "In Cat. II.17",
+  "latin": ["Hisce", "ominibus", "Catilina", "cum", "summa", "salute", "proficiscere"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "proficiscere",
+      "choices": ["ominibus", "Catilina", "salute", "proficiscere"],
+      "reveal": null,
+      "hints": {
+        "ominibus": "'ominibus' is a noun in the ablative meaning 'with these omens'",
+        "Catilina": "'Catilina' is a proper noun in the vocative — direct address",
+        "salute": "'salute' is a noun in the ablative meaning 'with safety/welfare'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'proficiscere' translates to?",
+      "target": "to set out / depart",
+      "choices": ["to profit", "to set out / depart", "to advance", "to confess"],
+      "reveal": null,
+      "hints": {
+        "to profit": "'to profit' is not a direct Latin equivalent — 'proficisci' means 'to set out/depart'",
+        "to advance": "'to advance' is 'progredi' — 'proficisci' means 'to depart/set out on a journey'",
+        "to confess": "'to confess' is 'confiteri' — 'proficisci' means 'to depart'"
+      }
+    },
+    {
+      "prompt": "What mood is 'proficiscere'?",
+      "target": "Imperative (deponent)",
+      "choices": ["Present indicative", "Imperative (deponent)", "Present infinitive", "Future indicative"],
+      "reveal": { "word": "proficiscere", "gloss": "depart! / set out!" },
+      "hints": {
+        "Present indicative": "Present indicative deponent 2nd sing. would be 'proficisceris' — 'proficiscere' is imperative",
+        "Present infinitive": "Infinitive would be 'proficisci' — 'proficiscere' is the singular imperative of this deponent",
+        "Future indicative": "Future would be 'proficisceris' — 'proficiscere' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'proficiscere'?",
+      "target": "proficiscor, proficisci, profectus sum",
+      "choices": ["proficiscor, proficisci, profectus sum", "facio, facere, feci, factum", "progredior, progredi, progressus sum", "confiteor, confiteri, confessus sum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to do/make) — unrelated to 'proficisci'",
+        "progredior, progredi, progressus sum": "These are the parts of 'progredi' (to advance) — a different deponent",
+        "confiteor, confiteri, confessus sum": "These are the parts of 'confiteri' (to confess) — a different deponent"
+      }
+    },
+    {
+      "prompt": "What case is 'ominibus'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "ominibus", "gloss": "with (these) omens" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'omina' — 'ominibus' is ablative of accompaniment",
+        "Dative": "Dative and ablative are the same form for 3rd declension — but context shows ablative of accompaniment",
+        "Accusative": "Accusative plural would be 'omina' — 'ominibus' is ablative"
+      }
+    },
+    {
+      "prompt": "What case is 'salute'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "salute", "gloss": "safety / welfare" },
+      "hints": {
+        "Nominative": "Nominative would be 'salus' — 'salute' with -e ending is ablative",
+        "Accusative": "Accusative would be 'salutem' — 'salute' is ablative after 'cum'",
+        "Dative": "Dative would be 'saluti' — 'salute' is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'salute'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'salus, salutis' is 3rd declension",
+        "2nd": "2nd declension ablative ends in -o — 'salus, salutis' is 3rd declension",
+        "5th": "5th declension ablative ends in -e too, but 'salus, salutis' with gen. -is is 3rd"
+      }
+    },
+    {
+      "prompt": "Is 'cum summa salute' sincere or ironic?",
+      "target": "Bitterly ironic — Cicero wishes Catiline's departure brings safety to Rome, not to Catiline",
+      "choices": ["Sincerely wishing Catiline well", "Bitterly ironic — Cicero wishes Catiline's departure brings safety to Rome, not to Catiline", "A neutral farewell", "A religious formula"],
+      "reveal": null,
+      "hints": {
+        "Sincerely wishing Catiline well": "Cicero has been denouncing Catiline — 'summa salute' refers to Rome's welfare, not Catiline's",
+        "A neutral farewell": "Nothing about this speech is neutral — the phrase drips with irony",
+        "A religious formula": "While 'ominibus' has religious overtones, the overall effect is bitter irony"
+      }
+    }
+  ],
+  "translation": "With these omens, Catiline, depart to the greatest safety of the state."
+}

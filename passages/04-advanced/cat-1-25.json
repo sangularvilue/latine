@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-25",
+  "source": "Cicero",
+  "reference": "In Cat. I.13",
+  "latin": ["Quare", "egredere", "et", "magnum", "mihi", "timorem", "detrahe"],
+  "steps": [
+    {
+      "prompt": "Which words are the imperative verbs?",
+      "target": "egredere, detrahe",
+      "choices": ["Quare, egredere", "egredere, detrahe", "magnum, timorem", "mihi, detrahe"],
+      "reveal": null,
+      "hints": {
+        "Quare, egredere": "'Quare' is a conjunction meaning 'therefore' — only 'egredere' and 'detrahe' are imperatives",
+        "magnum, timorem": "'magnum' is an adjective and 'timorem' is a noun — neither is a verb",
+        "mihi, detrahe": "'mihi' is a pronoun (dative) — only 'detrahe' is an imperative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'detrahe' translates to?",
+      "target": "to remove / take away",
+      "choices": ["to draw", "to remove / take away", "to betray", "to pull down"],
+      "reveal": null,
+      "hints": {
+        "to draw": "'to draw' is 'trahere' — 'detrahere' with de- prefix means 'to take away/remove'",
+        "to betray": "'to betray' is 'tradere' (from 'trans-dare') — 'detrahere' means 'to remove'",
+        "to pull down": "'to pull down' is close but more precisely 'destruere' — 'detrahere' means 'to take away from'"
+      }
+    },
+    {
+      "prompt": "What mood is 'detrahe'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Imperative", "Subjunctive", "Infinitive"],
+      "reveal": { "word": "detrahe", "gloss": "remove! / take away!" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'detrahe' is a command",
+        "Subjunctive": "Subjunctive would be 'detrahas' — 'detrahe' is direct imperative",
+        "Infinitive": "Infinitive would be 'detrahere' — 'detrahe' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'detrahe'?",
+      "target": "detraho, detrahere, detraxi, detractum",
+      "choices": ["detraho, detrahere, detraxi, detractum", "traho, trahere, traxi, tractum", "abstraho, abstrahere, abstraxi, abstractum", "trado, tradere, tradidi, traditum"],
+      "reveal": null,
+      "hints": {
+        "traho, trahere, traxi, tractum": "These are the parts of 'trahere' (to drag) — the base verb without de- prefix",
+        "abstraho, abstrahere, abstraxi, abstractum": "These are the parts of 'abstrahere' (to drag away) — a different compound",
+        "trado, tradere, tradidi, traditum": "These are the parts of 'tradere' (to hand over) — a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'timorem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "timorem", "gloss": "fear" },
+      "hints": {
+        "Nominative": "Nominative would be 'timor' — 'timorem' with -em ending is accusative, object of 'detrahe'",
+        "Dative": "Dative would be 'timori' — 'timorem' is accusative",
+        "Ablative": "Ablative would be 'timore' — 'timorem' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'timorem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'timor, timoris' is 3rd declension",
+        "2nd": "2nd declension accusative ends in -um — 'timor, timoris' is 3rd declension",
+        "4th": "4th declension accusative ends in -um — 'timor, timoris' with gen. -is is 3rd"
+      }
+    },
+    {
+      "prompt": "What case is 'mihi'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "mihi", "gloss": "from me" },
+      "hints": {
+        "Nominative": "Nominative would be 'ego' — 'mihi' is the dative form",
+        "Accusative": "Accusative would be 'me' — 'mihi' is dative (dative of separation with 'detrahere')",
+        "Ablative": "Ablative would be 'me' — 'mihi' is dative"
+      }
+    },
+    {
+      "prompt": "What is Cicero asking Catiline to do?",
+      "target": "Leave the city and thereby remove Cicero's fear",
+      "choices": ["Surrender to the senate", "Leave the city and thereby remove Cicero's fear", "Stop speaking in the senate", "Pay a fine"],
+      "reveal": null,
+      "hints": {
+        "Surrender to the senate": "'egredere' means 'depart' — Cicero wants Catiline to leave, not surrender",
+        "Stop speaking in the senate": "The command is 'egredere' (go out) — Cicero wants Catiline to leave Rome entirely",
+        "Pay a fine": "There is no mention of a fine — the two commands are to depart and to remove fear"
+      }
+    }
+  ],
+  "translation": "Therefore depart, and remove from me this great fear."
+}

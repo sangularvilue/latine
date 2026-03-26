@@ -1,0 +1,108 @@
+{
+  "id": "luke-10-20",
+  "source": "Vulgate",
+  "reference": "Lucas 10:37",
+  "latin": ["Vade", "et", "tu", "fac", "similiter"],
+  "steps": [
+    {
+      "prompt": "Which words are verbs?",
+      "target": "Vade and fac",
+      "choices": ["Vade and fac", "et and tu", "tu and similiter", "Vade only"],
+      "reveal": null,
+      "hints": {
+        "et and tu": "'Et' is a conjunction and 'tu' is a pronoun — 'Vade' and 'fac' are the verbs",
+        "tu and similiter": "'Tu' is a pronoun and 'similiter' is an adverb — 'Vade' and 'fac' are verbs",
+        "Vade only": "'Vade' is one verb, but 'fac' is also an imperative verb meaning 'do/make'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Vade' translates to?",
+      "target": "to go",
+      "choices": ["to go", "to wade", "to be strong", "to invade"],
+      "reveal": null,
+      "hints": {
+        "to wade": "English 'wade' is unrelated — 'Vade' comes from 'vadere' (to go)",
+        "to be strong": "That would be 'valere' — 'Vade' comes from 'vadere' (to go)",
+        "to invade": "That would be 'invadere' — 'Vade' comes from 'vadere' (to go)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Vade'?",
+      "target": "present imperative",
+      "choices": ["present indicative", "present imperative", "present subjunctive", "perfect indicative"],
+      "reveal": "Vade = Go!",
+      "hints": {
+        "present indicative": "Present indicative would be 'vadit' (3rd pers.) — 'Vade' is imperative",
+        "present subjunctive": "Present subjunctive would be 'vadat' — 'Vade' is imperative",
+        "perfect indicative": "Perfect would be a past tense form — 'Vade' is a present command"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Vade'?",
+      "target": "vado, vadere, vasi, —",
+      "choices": ["vado, vadere, vasi, —", "eo, ire, ii, itum", "venio, venire, veni, ventum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — a synonym but different verb",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fac' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to speak", "to carry", "to sacrifice"],
+      "reveal": null,
+      "hints": {
+        "to speak": "That would be 'dicere/loqui' — 'fac' comes from 'facere' (to do/make)",
+        "to carry": "That would be 'ferre' — 'fac' comes from 'facere' (to do/make)",
+        "to sacrifice": "That would be 'sacrificare' — 'fac' comes from 'facere' (to do/make)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'fac'?",
+      "target": "present imperative",
+      "choices": ["present indicative", "present imperative", "present subjunctive", "perfect indicative"],
+      "reveal": "fac = do! / make!",
+      "hints": {
+        "present indicative": "Present indicative would be 'facit' — 'fac' is the irregular imperative of 'facere'",
+        "present subjunctive": "Present subjunctive would be 'faciat' — 'fac' is imperative",
+        "perfect indicative": "Perfect would be 'fecit' — 'fac' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fac'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "ago, agere, egi, actum", "do, dare, dedi, datum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the parts of 'agere' (to drive/do)",
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)"
+      }
+    },
+    {
+      "prompt": "'Fac' is an irregular imperative. The regular form would be?",
+      "target": "face",
+      "choices": ["face", "faci", "faca", "facie"],
+      "reveal": null,
+      "hints": {
+        "faci": "3rd conj. imperatives drop the -ere ending — the expected form is 'face', but 'fac' is the usual form",
+        "faca": "This is not a valid Latin form — the regular form would be 'face'",
+        "facie": "This is not a valid imperative form — the regular form would be 'face'"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'similiter'?",
+      "target": "adverb (similarly/likewise)",
+      "choices": ["adjective", "adverb (similarly/likewise)", "conjunction", "preposition"],
+      "reveal": null,
+      "hints": {
+        "adjective": "An adjective would modify a noun — 'similiter' modifies the verb 'fac'",
+        "conjunction": "A conjunction would join clauses — 'similiter' modifies how one should act",
+        "preposition": "A preposition would govern a noun — 'similiter' is an adverb"
+      }
+    }
+  ],
+  "translation": "Go, and you do likewise"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-01",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Quo", "usque", "tandem", "abutere", "Catilina", "patientia", "nostra"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "abutere",
+      "choices": ["tandem", "abutere", "patientia", "nostra"],
+      "reveal": null,
+      "hints": {
+        "tandem": "'tandem' is an adverb meaning 'at last / finally'",
+        "patientia": "'patientia' is a noun meaning 'patience'",
+        "nostra": "'nostra' is a possessive adjective meaning 'our'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'abutere' translates to?",
+      "target": "to abuse / misuse",
+      "choices": ["to use", "to abuse / misuse", "to take away", "to be absent"],
+      "reveal": null,
+      "hints": {
+        "to use": "'to use' is 'uti' — 'abutere' comes from 'abuti' (to misuse)",
+        "to take away": "'to take away' is 'auferre' — different verb entirely",
+        "to be absent": "'to be absent' is 'abesse' — don't confuse the ab- prefix"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'abutere'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Imperfect subjunctive"],
+      "reveal": { "word": "abutere", "gloss": "will you abuse" },
+      "hints": {
+        "Present indicative": "Present of deponent 'abutor' would be 'abuteris' — 'abutere' is the future form",
+        "Present subjunctive": "Present subjunctive would be 'abutaris' — this is a future indicative form",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'abuterēris' — 'abutere' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'abutere'?",
+      "target": "abutor, abuti, abusus sum",
+      "choices": ["abutor, abuti, abusus sum", "utor, uti, usus sum", "abiicio, abiicere, abieci, abiectum", "abeo, abire, abii, abitum"],
+      "reveal": null,
+      "hints": {
+        "utor, uti, usus sum": "These are the parts of 'uti' (to use) — missing the ab- prefix",
+        "abiicio, abiicere, abieci, abiectum": "These are the parts of 'abiicere' (to throw away) — a different ab- compound",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away) — a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'Catilina'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Vocative", "Ablative", "Accusative"],
+      "reveal": { "word": "Catilina", "gloss": "O Catiline" },
+      "hints": {
+        "Nominative": "Nominative would make Catiline the subject, but Cicero is addressing him directly",
+        "Ablative": "Ablative would require a preposition or different context — Cicero is calling out to Catiline",
+        "Accusative": "Accusative would be 'Catilinam' — this is the vocative of direct address"
+      }
+    },
+    {
+      "prompt": "Declension of 'Catilina'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension masculine nouns end in -us — 'Catilina' is a 1st declension masculine noun",
+        "3rd": "3rd declension nouns have varied nominative endings — 'Catilina' ends in -a (1st declension)",
+        "4th": "4th declension nouns end in -us/-u — 'Catilina' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'patientia'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "patientia", "gloss": "patience" },
+      "hints": {
+        "Nominative": "Nominative 'patientia' is the same form, but 'abuti' governs the ablative case",
+        "Accusative": "Accusative would be 'patientiam' — 'abuti' takes the ablative",
+        "Vocative": "Cicero is not addressing patience — 'patientia' is the object of 'abuti'"
+      }
+    },
+    {
+      "prompt": "Declension of 'patientia'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'patientia' with -ia ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'patientia' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'patientia' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What rhetorical effect does this opening question achieve?",
+      "target": "Exasperated indignation at Catiline's audacity",
+      "choices": ["A polite request for information", "Exasperated indignation at Catiline's audacity", "A calm philosophical inquiry", "An expression of fear"],
+      "reveal": null,
+      "hints": {
+        "A polite request for information": "Cicero is not seeking information — this is a rhetorical question expressing outrage",
+        "A calm philosophical inquiry": "The words 'tandem' (finally!) and 'abutere' (abuse) convey anger, not calm inquiry",
+        "An expression of fear": "Cicero projects authority and indignation here, not fear"
+      }
+    }
+  ],
+  "translation": "How far, at last, will you abuse our patience, Catiline?"
+}

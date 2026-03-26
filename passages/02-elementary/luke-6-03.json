@@ -1,0 +1,64 @@
+{
+  "id": "luke-6-03",
+  "source": "Vulgate",
+  "reference": "Lucas 6:24",
+  "latin": ["Vae", "vobis", "divitibus"],
+  "steps": [
+    {
+      "prompt": "What kind of word is 'Vae'?",
+      "target": "interjection",
+      "choices": ["interjection", "noun", "verb", "adverb"],
+      "reveal": { "word": "Vae", "gloss": "woe!" },
+      "hints": {
+        "noun": "'Vae' is not a noun — it is an exclamation expressing grief or warning",
+        "verb": "'Vae' is not a verb — it is an interjection meaning 'woe!'",
+        "adverb": "'Vae' is not an adverb — it is an interjection (exclamation)"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "ablative"],
+      "reveal": { "word": "vobis", "gloss": "to you (pl.)" },
+      "hints": {
+        "nominative": "Nominative 2nd person plural is 'vos' — 'vobis' is dative/ablative",
+        "accusative": "Accusative 2nd person plural is 'vos' — 'vobis' is dative here (woe TO you)",
+        "ablative": "'vobis' can be ablative, but after 'vae' it is dative (woe to you)"
+      }
+    },
+    {
+      "prompt": "What case is 'divitibus'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "ablative"],
+      "reveal": { "word": "divitibus", "gloss": "the rich" },
+      "hints": {
+        "nominative": "Nominative plural would be 'divites' — 'divitibus' is dative/ablative plural",
+        "accusative": "Accusative plural would be 'divites' — 'divitibus' is dative, in apposition to 'vobis'",
+        "ablative": "'divitibus' could be ablative, but here it is dative, agreeing with 'vobis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'dives, divitis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'divitis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'divitis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'divitis' ends in -is"
+      }
+    },
+    {
+      "prompt": "This phrase has no finite verb. What verb is implied?",
+      "target": "est/sit (is/may it be)",
+      "choices": ["est/sit (is/may it be)", "venit (comes)", "habet (has)", "dat (gives)"],
+      "reveal": null,
+      "hints": {
+        "venit (comes)": "'Vae' is an exclamation — the implied verb is 'est' or 'sit' (woe IS to you)",
+        "habet (has)": "'Vae' takes a dative — the implied copula is 'est', not 'habet'",
+        "dat (gives)": "'Vae' is an interjection with dative — the implied verb is 'est/sit'"
+      }
+    }
+  ],
+  "translation": "Woe to you who are rich"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-17-04",
+  "source": "Vulgate",
+  "reference": "Lucas 17:3",
+  "latin": ["Si", "peccaverit", "frater", "tuus", "increpa", "illum"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb in the conditional clause?",
+      "target": "peccaverit",
+      "choices": ["peccaverit", "increpa", "frater", "illum"],
+      "reveal": null,
+      "hints": {
+        "increpa": "'Increpa' is the main clause verb — an imperative meaning 'rebuke'",
+        "frater": "'Frater' is a noun meaning 'brother'",
+        "illum": "'Illum' is a demonstrative pronoun meaning 'him' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'peccaverit' translates to?",
+      "target": "to sin",
+      "choices": ["to sin", "to comb", "to strike", "to feed"],
+      "reveal": null,
+      "hints": {
+        "to comb": "'To comb' is 'pectere' — 'peccaverit' comes from 'peccare' (to sin)",
+        "to strike": "'To strike' is 'percutere' — 'peccare' means 'to sin'",
+        "to feed": "'To feed' is 'pascere' — 'peccare' means 'to sin'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'peccaverit'?",
+      "target": "future perfect indicative (in conditional protasis)",
+      "choices": ["future perfect indicative (in conditional protasis)", "perfect subjunctive", "perfect indicative", "pluperfect subjunctive"],
+      "reveal": "peccaverit = will have sinned (if he shall have sinned)",
+      "hints": {
+        "perfect subjunctive": "The form is identical — but with imperative 'increpa' in the apodosis, future perfect fits the conditional",
+        "perfect indicative": "Perfect indicative would be 'peccavit' — 'peccaverit' has the -eri- formation",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'peccavisset' — 'peccaverit' is future perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'peccaverit'?",
+      "target": "pecco, peccare, peccavi, peccatum",
+      "choices": ["pecco, peccare, peccavi, peccatum", "pecto, pectere, pexi, pexum", "pango, pangere, pepigi, pactum", "percutio, percutere, percussi, percussum"],
+      "reveal": null,
+      "hints": {
+        "pecto, pectere, pexi, pexum": "These are the parts of 'pectere' (to comb)",
+        "pango, pangere, pepigi, pactum": "These are the parts of 'pangere' (to fix/agree)",
+        "percutio, percutere, percussi, percussum": "These are the parts of 'percutere' (to strike)"
+      }
+    },
+    {
+      "prompt": "What mood is 'increpa'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "infinitive"],
+      "reveal": "increpa = rebuke! (2nd sg. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 3rd sg. would be 'increpat' — 'increpa' is a command",
+        "present subjunctive": "Present subjunctive would be 'increpet' — 'increpa' is a direct imperative",
+        "infinitive": "Infinitive would be 'increpare' — 'increpa' is the singular imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'increpa'?",
+      "target": "increpo, increpare, increpavi, increpatum",
+      "choices": ["increpo, increpare, increpavi, increpatum", "crepo, crepare, crepui, crepitum", "crepo, crepare, crepavi, crepatum", "incido, incidere, incidi, incasum"],
+      "reveal": null,
+      "hints": {
+        "crepo, crepare, crepui, crepitum": "These are the parts of 'crepare' (to rattle/crack) — the simple verb",
+        "crepo, crepare, crepavi, crepatum": "The simple 'crepare' has 'crepui' not 'crepavi' — 'increpare' regularizes to -avi",
+        "incido, incidere, incidi, incasum": "These are the parts of 'incidere' (to fall upon)"
+      }
+    },
+    {
+      "prompt": "What case is 'frater'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": "frater = brother (nom., subject of 'peccaverit')",
+      "hints": {
+        "vocative": "Vocative would also be 'frater' but here it is the subject, not being addressed",
+        "accusative": "Accusative would be 'fratrem' — 'frater' is nominative",
+        "ablative": "Ablative would be 'fratre' — 'frater' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'frater, fratris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'fratris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'fratris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'fratris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'illum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "illum = him (acc., direct object of 'increpa')",
+      "hints": {
+        "nominative": "Nominative would be 'ille' — 'illum' with -um is accusative",
+        "ablative": "Ablative would be 'illo' — 'illum' is accusative",
+        "dative": "Dative would be 'illi' — 'illum' is accusative"
+      }
+    }
+  ],
+  "translation": "If your brother sins, rebuke him"
+}

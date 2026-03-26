@@ -1,0 +1,75 @@
+{
+  "id": "luke-2-15",
+  "source": "Vulgate",
+  "reference": "Lucas 2:15",
+  "latin": ["Transeamus", "usque", "Bethlehem"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Transeamus",
+      "choices": ["Transeamus", "usque", "Bethlehem", "transire"],
+      "reveal": null,
+      "hints": {
+        "usque": "'usque' is an adverb meaning 'all the way / as far as'",
+        "Bethlehem": "'Bethlehem' is a proper noun — the name of the town (indeclinable)",
+        "transire": "'transire' is the infinitive form — 'Transeamus' is the conjugated verb here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Transeamus' translates to?",
+      "target": "to cross over / to go across",
+      "choices": ["to cross over / to go across", "to send across", "to carry", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to send across": "'to send across' is 'transmittere' — 'Transeamus' comes from 'transire' (trans + ire)",
+        "to carry": "'to carry' is 'ferre/portare' — 'Transeamus' comes from 'transire'",
+        "to follow": "'to follow' is 'sequi' — 'Transeamus' comes from 'transire'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Transeamus'?",
+      "target": "Subjunctive",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Transeamus", "gloss": "let us cross over" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'Transeamus' is a hortatory subjunctive (let us...)",
+        "Imperative": "Imperative gives a direct command — 'Transeamus' with -mus ending is 1st person plural subjunctive",
+        "Infinitive": "Infinitive would be 'transire' — 'Transeamus' is a conjugated subjunctive form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Transeamus'?",
+      "target": "transeo, transire, transii, transitum",
+      "choices": ["transeo, transire, transii, transitum", "eo, ire, ii, itum", "transmitto, transmittere, transmisi, transmissum", "transfero, transferre, transtuli, translatum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — 'transire' is its compound with trans-",
+        "transmitto, transmittere, transmisi, transmissum": "These are the parts of 'transmittere' (to send across)",
+        "transfero, transferre, transtuli, translatum": "These are the parts of 'transferre' (to carry across)"
+      }
+    },
+    {
+      "prompt": "What type of subjunctive is 'Transeamus'?",
+      "target": "Hortatory (let us...)",
+      "choices": ["Hortatory (let us...)", "Jussive (let him...)", "Purpose (in order to...)", "Result (so that...)"],
+      "reveal": null,
+      "hints": {
+        "Jussive (let him...)": "Jussive uses 3rd person — 'Transeamus' is 1st person plural, expressing self-exhortation",
+        "Purpose (in order to...)": "Purpose clauses are subordinate — 'Transeamus' is a main clause exhortation",
+        "Result (so that...)": "Result clauses follow 'ut/ita' — 'Transeamus' is a main clause hortatory subjunctive"
+      }
+    },
+    {
+      "prompt": "What does 'usque' mean here?",
+      "target": "all the way to / as far as",
+      "choices": ["all the way to / as far as", "until (temporal)", "always", "everywhere"],
+      "reveal": { "word": "usque", "gloss": "all the way to" },
+      "hints": {
+        "until (temporal)": "'usque' can mean 'until' in temporal contexts, but here with a place name it means 'as far as'",
+        "always": "'always' is 'semper' — 'usque' here indicates spatial extent",
+        "everywhere": "'everywhere' is 'ubique' — 'usque' with a place name means 'all the way to'"
+      }
+    }
+  ],
+  "translation": "Let us cross over to Bethlehem"
+}

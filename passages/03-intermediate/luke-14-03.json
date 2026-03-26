@@ -1,0 +1,108 @@
+{
+  "id": "luke-14-03",
+  "source": "Vulgate",
+  "reference": "Lucas 14:26",
+  "latin": ["Si", "quis", "venit", "ad", "me", "et", "non", "odit", "patrem"],
+  "steps": [
+    {
+      "prompt": "Which words are the finite verbs?",
+      "target": "venit and odit",
+      "choices": ["venit and odit", "venit only", "odit only", "quis and patrem"],
+      "reveal": null,
+      "hints": {
+        "venit only": "There are two clauses joined by 'et non' — 'odit' is also a finite verb",
+        "odit only": "'Venit' is also a finite verb meaning 'comes' — both are verbs",
+        "quis and patrem": "'Quis' is an indefinite pronoun and 'patrem' is a noun — neither is a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'venit' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to hunt", "to find"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'To sell' is 'vendere' — 'venit' here is from 'venire' (to come)",
+        "to hunt": "'To hunt' is 'venari' — a deponent verb, not 'venire'",
+        "to find": "'To find' is 'invenire' — 'venire' by itself means 'to come'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'venit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "venit = comes",
+      "hints": {
+        "perfect indicative": "'Venit' can be perfect (vēnit with long e), but in this conditional context it is present (vĕnit)",
+        "present subjunctive": "Present subjunctive would be 'veniat' — 'venit' ends in -it (indicative)",
+        "future indicative": "Future would be 'veniet' — 'venit' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venit'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "veneo, venire, venii, venitum", "vendo, vendere, vendidi, venditum", "venor, venari, venatus sum, —"],
+      "reveal": null,
+      "hints": {
+        "veneo, venire, venii, venitum": "These are the parts of 'venire' meaning 'to be sold' — a different verb",
+        "vendo, vendere, vendidi, venditum": "These are the parts of 'vendere' (to sell)",
+        "venor, venari, venatus sum, —": "These are the parts of 'venari' (to hunt) — a deponent verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'odit' translates to?",
+      "target": "to hate",
+      "choices": ["to hate", "to smell", "to hear", "to love"],
+      "reveal": null,
+      "hints": {
+        "to smell": "'To smell' is 'olere' — 'odit' comes from 'odisse' (to hate)",
+        "to hear": "'To hear' is 'audire' — 'odit' comes from 'odisse'",
+        "to love": "'To love' is 'amare' — the opposite of 'odisse' (to hate)"
+      }
+    },
+    {
+      "prompt": "What is unusual about the verb 'odit'?",
+      "target": "it is a defective verb — perfect in form, present in meaning",
+      "choices": ["it is a defective verb — perfect in form, present in meaning", "it is a deponent verb", "it is an impersonal verb", "it is a semi-deponent verb"],
+      "reveal": "odit = he/she hates (perfect form, present meaning)",
+      "hints": {
+        "it is a deponent verb": "Deponents are passive in form, active in meaning — 'odit' is active in form but perfect-present",
+        "it is an impersonal verb": "Impersonal verbs lack a personal subject — 'odit' has 'quis' as subject",
+        "it is a semi-deponent verb": "Semi-deponents have present active and perfect passive — 'odi' has only perfect-system forms with present meaning"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'odit'?",
+      "target": "odi, odisse, —, osum",
+      "choices": ["odi, odisse, —, osum", "audio, audire, audivi, auditum", "oleo, olere, olui, —", "ordior, ordiri, orsus sum, —"],
+      "reveal": null,
+      "hints": {
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear)",
+        "oleo, olere, olui, —": "These are the parts of 'olere' (to smell)",
+        "ordior, ordiri, orsus sum, —": "These are the parts of 'ordiri' (to begin) — a deponent verb"
+      }
+    },
+    {
+      "prompt": "What case is 'patrem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "patrem = father (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'pater' — the -em ending marks accusative",
+        "ablative": "Ablative would be 'patre' — 'patrem' with -em is accusative",
+        "dative": "Dative would be 'patri' — 'patrem' is accusative, direct object of 'odit'"
+      }
+    },
+    {
+      "prompt": "What declension is 'pater, patris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'patris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'patris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'patris' ends in -is"
+      }
+    }
+  ],
+  "translation": "If anyone comes to me and does not hate his father"
+}

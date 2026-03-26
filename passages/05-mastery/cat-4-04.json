@@ -1,0 +1,119 @@
+{
+  "id": "cat-4-04",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.3",
+  "latin": ["Nulla", "vis", "umquam", "convellet", "a", "meis", "manibus"],
+  "steps": [
+    {
+      "prompt": "What case is 'Nulla vis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Nulla vis = no force (nom.)",
+      "hints": {
+        "accusative": "Accusative of 'vis' would be 'vim' — 'vis' here is nominative singular subject",
+        "ablative": "Ablative would be 'nulla vi' — 'Nulla vis' is nominative",
+        "genitive": "Genitive of 'vis' is rare in singular — 'vis' here is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'vis' (force)?",
+      "target": "3rd declension (irregular/defective)",
+      "choices": ["3rd declension (irregular/defective)", "3rd declension (regular)", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "3rd declension (regular)": "'Vis' is 3rd declension but highly irregular — it lacks genitive/dative singular forms",
+        "2nd declension": "'Vis' does not follow 2nd declension -us/-i patterns",
+        "4th declension": "'Vis' is not 4th declension — it is an irregular 3rd declension noun"
+      }
+    },
+    {
+      "prompt": "What does 'umquam' mean?",
+      "target": "ever",
+      "choices": ["ever", "never", "always", "once"],
+      "reveal": "umquam = ever (with 'nulla' = never any)",
+      "hints": {
+        "never": "'Numquam' means 'never' — 'umquam' means 'ever,' and 'nulla' provides the negation",
+        "always": "'Semper' means 'always' — 'umquam' means 'ever'",
+        "once": "'Olim' or 'semel' means 'once' — 'umquam' means 'ever'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'convellet' translates to?",
+      "target": "to tear away / to wrench",
+      "choices": ["to tear away / to wrench", "to come together", "to wish", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to come together": "'To come together' is 'convenire' — 'convellet' comes from 'convellere' (to tear away)",
+        "to wish": "'To wish' is 'velle' — 'convellere' means to tear/wrench away",
+        "to carry": "'To carry' is 'vehere' — 'convellere' means to tear away"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'convellet'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "convellet = will tear away",
+      "hints": {
+        "present indicative": "Present would be 'convellit' — 'convellet' with -et is future indicative (3rd conj.)",
+        "present subjunctive": "Present subjunctive would be 'convellat' — 'convellet' is future indicative",
+        "perfect indicative": "Perfect would be 'convulsit' or 'convelli' — 'convellet' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'convellet'?",
+      "target": "convello, convellere, convelli, convulsum",
+      "choices": ["convello, convellere, convelli, convulsum", "volo, velle, volui, —", "veho, vehere, vexi, vectum", "vello, vellere, velli, vulsum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the parts of 'velle' (to wish) — an irregular verb, not related to 'convellere'",
+        "veho, vehere, vexi, vectum": "These are the parts of 'vehere' (to carry) — different verb",
+        "vello, vellere, velli, vulsum": "These are the parts of 'vellere' (to pluck) — the base verb, but 'convellere' is the compound"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'a' govern here?",
+      "target": "ablative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": "a + ablative = from / away from",
+      "hints": {
+        "accusative": "'A/ab' always takes the ablative, not the accusative",
+        "genitive": "'A/ab' governs the ablative — genitive is not used with 'a'",
+        "dative": "'A/ab' governs the ablative — dative is not used with 'a'"
+      }
+    },
+    {
+      "prompt": "What case is 'meis manibus'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "meis manibus = from my hands (abl. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'meae manus' — 'meis manibus' is ablative",
+        "accusative": "Accusative plural would be 'meas manus' — 'meis manibus' is ablative governed by 'a'",
+        "dative": "'Manibus' could be dative plural, but here 'a' requires ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'manus, manus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'manus' (gen.) ends in -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'manus' (gen.) ends in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'manus' (gen.) ends in -ūs"
+      }
+    },
+    {
+      "prompt": "How does 'nulla...umquam' function rhetorically?",
+      "target": "emphatic negation: 'no force will ever'",
+      "choices": ["emphatic negation: 'no force will ever'", "double negative creating a positive", "litotes (understatement)", "rhetorical question"],
+      "reveal": null,
+      "hints": {
+        "double negative creating a positive": "In Latin, 'nulla' + 'umquam' is not a double negative — 'umquam' means 'ever,' not 'never'",
+        "litotes (understatement)": "Litotes would be 'not without force' — this is direct emphatic denial",
+        "rhetorical question": "This is a declarative statement, not a question"
+      }
+    }
+  ],
+  "translation": "No force will ever tear (them) from my hands"
+}

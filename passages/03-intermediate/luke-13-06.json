@@ -1,0 +1,108 @@
+{
+  "id": "luke-13-06",
+  "source": "Vulgate",
+  "reference": "Lucas 13:16",
+  "latin": ["Hanc", "filiam", "Abrahae", "quam", "alligavit", "Satanas", "annis", "decem", "et", "octo"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "alligavit",
+      "choices": ["alligavit", "filiam", "Satanas", "Hanc"],
+      "reveal": null,
+      "hints": {
+        "filiam": "'Filiam' is a noun meaning 'daughter' in the accusative",
+        "Satanas": "'Satanas' is a proper noun — the subject of the relative clause",
+        "Hanc": "'Hanc' is a demonstrative pronoun meaning 'this' in the accusative feminine"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'alligavit' translates to?",
+      "target": "to bind / to tie",
+      "choices": ["to bind / to tie", "to allege", "to read", "to choose"],
+      "reveal": null,
+      "hints": {
+        "to allege": "'To allege' is 'allegare' — 'alligavit' comes from 'alligare' (to bind)",
+        "to read": "'To read' is 'legere' — 'alligare' means 'to bind/tie'",
+        "to choose": "'To choose' is 'eligere' — 'alligare' means 'to bind'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'alligavit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "alligavit = has bound / bound",
+      "hints": {
+        "present indicative": "Present would be 'alligat' — 'alligavit' has the perfect -avi- stem",
+        "imperfect indicative": "Imperfect would be 'alligabat' — 'alligavit' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'alligaverat' — 'alligavit' is simple perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'alligavit'?",
+      "target": "alligo, alligare, alligavi, alligatum",
+      "choices": ["alligo, alligare, alligavi, alligatum", "lego, legere, legi, lectum", "ligo, ligare, ligavi, ligatum", "eligo, eligere, elegi, electum"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read/gather)",
+        "ligo, ligare, ligavi, ligatum": "These are the parts of 'ligare' (to bind) — the simple verb; 'alligare' adds 'ad-'",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose)"
+      }
+    },
+    {
+      "prompt": "What case is 'filiam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "filiam = daughter (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'filia' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'filia' — 'filiam' is accusative",
+        "genitive": "Genitive would be 'filiae' — 'filiam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'Abrahae'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Abrahae = of Abraham (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Abraham' — 'Abrahae' is genitive/dative",
+        "dative": "'Abrahae' could be dative, but here it shows possession — 'daughter of Abraham'",
+        "ablative": "Ablative would be 'Abraha' — 'Abrahae' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'annis'?",
+      "target": "ablative (duration/time)",
+      "choices": ["nominative", "dative", "ablative (duration/time)", "genitive"],
+      "reveal": "annis = for years (abl. of duration)",
+      "hints": {
+        "nominative": "Nominative plural would be 'anni' — 'annis' is dative/ablative plural",
+        "dative": "'Annis' could be dative, but here it expresses duration of time — ablative",
+        "genitive": "Genitive plural would be 'annorum' — 'annis' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'annus, anni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'anni' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'anni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'anni' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is the function of 'quam' in this sentence?",
+      "target": "relative pronoun (acc. fem. sg.) referring back to 'filiam'",
+      "choices": ["relative pronoun (acc. fem. sg.) referring back to 'filiam'", "conjunction meaning 'than'", "exclamatory adverb meaning 'how'", "interrogative pronoun"],
+      "reveal": "quam = whom",
+      "hints": {
+        "conjunction meaning 'than'": "'Quam' can mean 'than' after comparatives, but here it introduces a relative clause",
+        "exclamatory adverb meaning 'how'": "'Quam' can be exclamatory, but here it refers to 'filiam' as object of 'alligavit'",
+        "interrogative pronoun": "An interrogative 'quam' would introduce a question — this is a statement"
+      }
+    }
+  ],
+  "translation": "This daughter of Abraham, whom Satan has bound for eighteen years"
+}

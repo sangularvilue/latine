@@ -1,0 +1,141 @@
+{
+  "id": "luke-24-10",
+  "source": "Vulgate",
+  "reference": "Lucas 24:51",
+  "latin": ["Et", "factum", "est", "dum", "benediceret", "illis", "recessit", "ab", "eis"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "three: 'est' (with 'factum'), 'benediceret', and 'recessit'",
+      "choices": ["three: 'est' (with 'factum'), 'benediceret', and 'recessit'", "two: 'est' and 'recessit'", "one: 'recessit'", "four"],
+      "reveal": null,
+      "hints": {
+        "two: 'est' and 'recessit'": "'Benediceret' is also a finite verb (imperfect subjunctive) in the 'dum' clause",
+        "one: 'recessit'": "'Factum est' and 'benediceret' are also finite verb forms",
+        "four": "There are exactly three finite verbs: 'est', 'benediceret', and 'recessit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'factum est' translates to?",
+      "target": "to happen / to come about",
+      "choices": ["to happen / to come about", "to make", "to carry", "to trust"],
+      "reveal": null,
+      "hints": {
+        "to make": "'To make' is 'facere' (active) — 'factum est' here is impersonal 'it happened'",
+        "to carry": "'To carry' is 'ferre' — 'factum est' is from 'fio, fieri'",
+        "to trust": "'To trust' is 'fidere' — 'factum est' is from 'fio, fieri'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'factum est'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "Et factum est = And it happened (narrative formula)",
+      "hints": {
+        "present indicative": "Present would be 'fit' — 'factum est' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'factum erat' — 'factum est' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'factum sit' — 'factum est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'factum est'?",
+      "target": "fio, fieri, factus sum, —",
+      "choices": ["fio, fieri, factus sum, —", "facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the active parts of 'facio' — 'fio' is its passive",
+        "fero, ferre, tuli, latum": "These are the parts of 'fero' (to carry)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugio' (to flee)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'benediceret'?",
+      "target": "imperfect subjunctive",
+      "choices": ["imperfect subjunctive", "imperfect indicative", "present subjunctive", "pluperfect subjunctive"],
+      "reveal": "dum benediceret = while he was blessing (impf. subj. in temporal clause)",
+      "hints": {
+        "imperfect indicative": "Imperfect indicative would be 'benedicebat' — 'benediceret' with -ret is subjunctive",
+        "present subjunctive": "Present subjunctive would be 'benedicat' — 'benediceret' is imperfect",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'benedixisset' — 'benediceret' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'benediceret'?",
+      "target": "benedico, benedicere, benedixi, benedictum",
+      "choices": ["benedico, benedicere, benedixi, benedictum", "dico, dicere, dixi, dictum", "bene, —, —, —", "maledico, maledicere, maledixi, maledictum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are the parts of 'dico' (to say) — 'benedicere' is bene + dicere",
+        "bene, —, —, —": "'Bene' is an adverb meaning 'well' — it is not a verb",
+        "maledico, maledicere, maledixi, maledictum": "These are the parts of 'maledico' (to curse) — the opposite of 'benedico'"
+      }
+    },
+    {
+      "prompt": "Why is 'benediceret' subjunctive after 'dum'?",
+      "target": "'dum' + subjunctive = 'while' with circumstantial/temporal nuance",
+      "choices": ["'dum' + subjunctive = 'while' with circumstantial/temporal nuance", "'dum' always requires subjunctive", "it is an indirect question", "it is a purpose clause"],
+      "reveal": "'Dum' with subjunctive emphasizes the circumstantial/ongoing nature of the action",
+      "hints": {
+        "'dum' always requires subjunctive": "'Dum' can take indicative (while/as long as) or subjunctive — the mood affects meaning",
+        "it is an indirect question": "Indirect questions use interrogative words — 'dum' is temporal",
+        "it is a purpose clause": "Purpose clauses use 'ut' — 'dum' here is temporal (while)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'recessit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "recessit = he withdrew / departed (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'recedit' — 'recessit' with -essit is perfect",
+        "pluperfect indicative": "Pluperfect would be 'recesserat' — 'recessit' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'recesserit' — 'recessit' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'recessit'?",
+      "target": "recedo, recedere, recessi, recessum",
+      "choices": ["recedo, recedere, recessi, recessum", "cedo, cedere, cessi, cessum", "recipio, recipere, recepi, receptum", "redeo, redire, redii, reditum"],
+      "reveal": null,
+      "hints": {
+        "cedo, cedere, cessi, cessum": "These are the parts of 'cedo' (to go/yield) — 'recedere' is re- + cedere",
+        "recipio, recipere, recepi, receptum": "These are the parts of 'recipio' (to receive/take back)",
+        "redeo, redire, redii, reditum": "These are the parts of 'redeo' (to go back/return)"
+      }
+    },
+    {
+      "prompt": "What case is 'illis'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "accusative", "genitive"],
+      "reveal": "benediceret illis = he was blessing them (dat.)",
+      "hints": {
+        "ablative": "'Illis' can be ablative, but 'benedicere' + dative = to bless someone",
+        "accusative": "Accusative would be 'illos' — 'illis' is dative after 'benedicere'",
+        "genitive": "Genitive would be 'illorum' — 'illis' is dative"
+      }
+    },
+    {
+      "prompt": "What case is 'eis'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "accusative", "genitive"],
+      "reveal": "ab eis = from them (abl., governed by 'ab')",
+      "hints": {
+        "dative": "'Eis' can be dative, but 'ab' requires the ablative",
+        "accusative": "Accusative would be 'eos' — 'eis' after 'ab' is ablative",
+        "genitive": "Genitive would be 'eorum' — 'eis' is ablative after 'ab'"
+      }
+    },
+    {
+      "prompt": "What is 'Et factum est dum...' as a narrative formula?",
+      "target": "Hebraism (kai egeneto) — a Septuagintal narrative introduction",
+      "choices": ["Hebraism (kai egeneto) — a Septuagintal narrative introduction", "standard classical Latin idiom", "ablative absolute construction", "passive periphrastic"],
+      "reveal": "'Et factum est' translates Greek 'kai egeneto', reflecting Hebrew 'wayehi' — a biblical narrative formula",
+      "hints": {
+        "standard classical Latin idiom": "Classical Latin would not use 'factum est' this way — it reflects Greek/Hebrew patterns",
+        "ablative absolute construction": "Ablative absolute uses ablative noun + participle — 'factum est' is a main clause",
+        "passive periphrastic": "Passive periphrastic uses gerundive + esse — 'factum' is a perfect participle"
+      }
+    }
+  ],
+  "translation": "And it happened that while he was blessing them, he withdrew from them"
+}

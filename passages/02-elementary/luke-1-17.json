@@ -1,0 +1,86 @@
+{
+  "id": "luke-1-17",
+  "source": "Vulgate",
+  "reference": "Lucas 1:53",
+  "latin": ["Esurientes", "implevit", "bonis"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "implevit",
+      "choices": ["Esurientes", "implevit", "bonis", "fecit"],
+      "reveal": null,
+      "hints": {
+        "Esurientes": "'Esurientes' is a present participle meaning 'the hungry/those hungering'",
+        "bonis": "'Bonis' is a noun/adjective meaning 'good things'",
+        "fecit": "'Fecit' means 'he did' but does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'implevit' translates to?",
+      "target": "to fill",
+      "choices": ["to fill", "to complete", "to accomplish", "to pour"],
+      "reveal": null,
+      "hints": {
+        "to complete": "That would be 'complere' or 'perficere'",
+        "to accomplish": "That would be 'perficere'",
+        "to pour": "That would be 'fundere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'implevit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": "implevit = he has filled",
+      "hints": {
+        "present indicative": "Present would be 'implet'; 'implevit' with -evit is perfect",
+        "imperfect": "Imperfect would be 'implebat'",
+        "future": "Future would be 'implebit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'implevit'?",
+      "target": "impleo, implere, implevi, impletum",
+      "choices": ["impleo, implere, implevi, impletum", "pleo, plere, plevi, pletum", "compleo, complere, complevi, completum", "deleo, delere, delevi, deletum"],
+      "reveal": null,
+      "hints": {
+        "pleo, plere, plevi, pletum": "'Pleo' is archaic and rarely used independently",
+        "compleo, complere, complevi, completum": "These are the principal parts of 'compleo' (to fill up/complete)",
+        "deleo, delere, delevi, deletum": "These are the principal parts of 'deleo' (to destroy)"
+      }
+    },
+    {
+      "prompt": "What case is 'esurientes'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "esurientes = the hungry (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative would make them the subject, but they are the object of 'implevit'",
+        "ablative": "Ablative plural would be 'esurientibus'",
+        "genitive": "Genitive plural would be 'esurientium'"
+      }
+    },
+    {
+      "prompt": "What case is 'bonis'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "bonis = good things (abl. pl.)",
+      "hints": {
+        "nominative": "Nominative plural neuter would be 'bona'",
+        "dative": "Dative plural would also be 'bonis', but 'impleo' takes ablative of means",
+        "accusative": "Accusative plural neuter would be 'bona'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'bonus' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have -is/-e forms; 'bonus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Bonus' clearly declines: bonus, bona, bonum, boni, bonae, etc."
+      }
+    }
+  ],
+  "translation": "He has filled the hungry with good things"
+}

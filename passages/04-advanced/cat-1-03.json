@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-03",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Nihilne", "te", "nocturnum", "praesidium", "Palati", "movit"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "movit",
+      "choices": ["Nihilne", "nocturnum", "praesidium", "movit"],
+      "reveal": null,
+      "hints": {
+        "Nihilne": "'Nihilne' is a pronoun + enclitic particle: 'nihil' (nothing) + '-ne' (question marker)",
+        "nocturnum": "'nocturnum' is an adjective meaning 'nocturnal / nightly'",
+        "praesidium": "'praesidium' is a noun meaning 'guard / garrison'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'movit' translates to?",
+      "target": "to move / disturb",
+      "choices": ["to warn", "to move / disturb", "to die", "to change"],
+      "reveal": null,
+      "hints": {
+        "to warn": "'to warn' is 'monere' — 'movit' comes from 'movere' (to move)",
+        "to die": "'to die' is 'mori' — a deponent verb, not related to 'movit'",
+        "to change": "'to change' is 'mutare' — 'movit' means to move or disturb"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'movit'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Future indicative", "Imperfect indicative"],
+      "reveal": { "word": "movit", "gloss": "moved / disturbed" },
+      "hints": {
+        "Present indicative": "Present would be 'movet' — 'movit' with the -it perfect ending is perfect tense",
+        "Future indicative": "Future would be 'movebit' — 'movit' is perfect",
+        "Imperfect indicative": "Imperfect would be 'movebat' — 'movit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'movit'?",
+      "target": "moveo, movere, movi, motum",
+      "choices": ["moveo, movere, movi, motum", "moneo, monere, monui, monitum", "morior, mori, mortuus sum", "muto, mutare, mutavi, mutatum"],
+      "reveal": null,
+      "hints": {
+        "moneo, monere, monui, monitum": "These are the parts of 'monere' (to warn) — similar spelling but different verb",
+        "morior, mori, mortuus sum": "These are the parts of 'mori' (to die) — a deponent verb",
+        "muto, mutare, mutavi, mutatum": "These are the parts of 'mutare' (to change) — a 1st conjugation verb"
+      }
+    },
+    {
+      "prompt": "What case is 'praesidium'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "praesidium", "gloss": "guard / garrison" },
+      "hints": {
+        "Accusative": "Accusative singular of neuter 'praesidium' looks the same, but here it is the subject that should have moved Catiline",
+        "Genitive": "Genitive would be 'praesidii' — 'praesidium' is nominative, the subject of 'movit'",
+        "Ablative": "Ablative would be 'praesidio' — 'praesidium' is nominative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'praesidium'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'praesidium' with -ium ending is 2nd declension neuter",
+        "3rd": "3rd declension neuters have varied endings — 'praesidium' is a standard 2nd declension -ium neuter",
+        "4th": "4th declension nouns end in -us/-u — 'praesidium' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'Palati'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Locative"],
+      "reveal": { "word": "Palati", "gloss": "of the Palatine" },
+      "hints": {
+        "Nominative": "Nominative would be 'Palatium' — 'Palati' with the -i ending is genitive singular",
+        "Dative": "Dative would be 'Palatio' — 'Palati' is the genitive form",
+        "Locative": "Locative is possible for place names, but 'Palati' here modifies 'praesidium' as a genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "te", "gloss": "you" },
+      "hints": {
+        "Nominative": "Nominative would be 'tu' — 'te' is the accusative/ablative form, here accusative as object of 'movit'",
+        "Dative": "Dative would be 'tibi' — 'te' is accusative here",
+        "Ablative": "'te' can be ablative, but here it's the direct object of 'movit' (accusative)"
+      }
+    },
+    {
+      "prompt": "What does the enclitic '-ne' on 'Nihilne' signal?",
+      "target": "A yes/no question",
+      "choices": ["Negation", "A yes/no question", "Emphasis", "A relative clause"],
+      "reveal": null,
+      "hints": {
+        "Negation": "'nihil' already means 'nothing' — the '-ne' is an interrogative enclitic, not a negation",
+        "Emphasis": "While emphatic in tone, '-ne' specifically marks the sentence as a direct question",
+        "A relative clause": "Relative clauses use 'qui/quae/quod' — '-ne' introduces a direct question"
+      }
+    }
+  ],
+  "translation": "Did not the nightly guard of the Palatine move you at all?"
+}

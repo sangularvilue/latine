@@ -1,0 +1,64 @@
+{
+  "id": "luke-1-04",
+  "source": "Vulgate",
+  "reference": "Lucas 1:38",
+  "latin": ["Ecce", "ancilla", "Domini"],
+  "steps": [
+    {
+      "prompt": "Which word is an interjection?",
+      "target": "Ecce",
+      "choices": ["Ecce", "ancilla", "Domini", "ergo"],
+      "reveal": null,
+      "hints": {
+        "ancilla": "'Ancilla' is a noun meaning 'handmaid'",
+        "Domini": "'Domini' is a noun in the genitive meaning 'of the Lord'",
+        "ergo": "'Ergo' is a conjunction meaning 'therefore' and does not appear here"
+      }
+    },
+    {
+      "prompt": "What case is 'ancilla'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "ancilla = handmaid (nom.)",
+      "hints": {
+        "ablative": "Ablative singular of 'ancilla' would be 'ancilla' in form, but context shows this is the subject",
+        "vocative": "Vocative would be used for direct address; here 'ancilla' is the subject of the declaration",
+        "accusative": "Accusative would be 'ancillam'; 'ancilla' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'ancilla'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns typically end in -us or -um; 'ancilla' ends in -a",
+        "3rd declension": "3rd declension has varied nominative forms and -is in the genitive",
+        "5th declension": "5th declension nouns end in -es; 'ancilla' follows the 1st declension -a pattern"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Domini = of the Lord (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Dominus'; 'Domini' with -i ending is genitive singular",
+        "dative": "Dative singular would be 'Domino'; 'Domini' is genitive",
+        "vocative": "Vocative would be 'Domine'; 'Domini' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a; 'Dominus' ends in -us",
+        "3rd declension": "3rd declension has -is in the genitive; 'Dominus' has -i (Domini)",
+        "4th declension": "4th declension -us nouns have -us in the genitive; 'Dominus' has -i (Domini)"
+      }
+    }
+  ],
+  "translation": "Behold the handmaid of the Lord"
+}

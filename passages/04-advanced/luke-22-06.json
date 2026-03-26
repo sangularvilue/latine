@@ -1,0 +1,119 @@
+{
+  "id": "luke-22-06",
+  "source": "Vulgate",
+  "reference": "Lucas 22:48",
+  "latin": ["Osculo", "Filium", "hominis", "tradis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "tradis",
+      "choices": ["tradis", "Osculo", "Filium", "hominis"],
+      "reveal": null,
+      "hints": {
+        "Osculo": "'Osculo' is a noun in the ablative meaning 'with a kiss'",
+        "Filium": "'Filium' is a noun meaning 'Son' in the accusative",
+        "hominis": "'Hominis' is a noun meaning 'of man' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tradis' translates to?",
+      "target": "to hand over / to betray",
+      "choices": ["to hand over / to betray", "to lead", "to draw", "to give"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'To lead' is 'ducere' — 'tradis' comes from 'tradere' (trans- + dare)",
+        "to draw": "'To draw' is 'trahere' — 'tradis' comes from 'tradere'",
+        "to give": "'To give' is 'dare' — 'tradere' means specifically 'to hand over/betray'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'tradis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "tradis = you betray / you hand over (2nd sing. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'tradas' — 'tradis' is indicative",
+        "perfect indicative": "Perfect would be 'tradidisti' — 'tradis' is present",
+        "future indicative": "Future would be 'trades' — 'tradis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tradis'?",
+      "target": "trado, tradere, tradidi, traditum",
+      "choices": ["trado, tradere, tradidi, traditum", "traho, trahere, traxi, tractum", "duco, ducere, duxi, ductum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "traho, trahere, traxi, tractum": "These are the parts of 'traho' (to drag/draw)",
+        "duco, ducere, duxi, ductum": "These are the parts of 'duco' (to lead)",
+        "do, dare, dedi, datum": "These are the parts of 'do' (to give) — 'tradere' is the compound trans- + dare"
+      }
+    },
+    {
+      "prompt": "What case is 'Osculo'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "accusative"],
+      "reveal": "Osculo = with a kiss (abl. of means/instrument)",
+      "hints": {
+        "dative": "Dative 'osculo' looks the same, but the sense is 'by means of a kiss' — ablative of means",
+        "nominative": "Nominative would be 'osculum' — 'Osculo' is ablative",
+        "accusative": "Accusative would be 'osculum' — 'Osculo' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'osculum, osculi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'osculi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'osculi' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'osculi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What type of ablative is 'Osculo'?",
+      "target": "ablative of means / instrument",
+      "choices": ["ablative of means / instrument", "ablative absolute", "ablative of manner", "ablative of place"],
+      "reveal": "The kiss is the instrument of betrayal",
+      "hints": {
+        "ablative absolute": "Ablative absolute requires noun + participle — 'Osculo' alone is not an ablative absolute",
+        "ablative of manner": "Ablative of manner describes how something is done (usually with 'cum') — this names the instrument",
+        "ablative of place": "Ablative of place would name a location — 'Osculo' names the means of betrayal"
+      }
+    },
+    {
+      "prompt": "What case is 'Filium'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "genitive", "dative"],
+      "reveal": "Filium = the Son (acc., direct object of 'tradis')",
+      "hints": {
+        "nominative": "Nominative would be 'Filius' — 'Filium' with -um is accusative",
+        "genitive": "Genitive would be 'Filii' — 'Filium' ends in -um (accusative)",
+        "dative": "Dative would be 'Filio' — 'Filium' ends in -um (accusative)"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -ii",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -ii",
+        "4th declension": "4th declension has genitive in -us — 'filii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'hominis'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "hominis = of man (gen., modifying 'Filium')",
+      "hints": {
+        "nominative": "Nominative would be 'homo' — 'hominis' is genitive",
+        "dative": "Dative would be 'homini' — 'hominis' ends in -is (genitive)",
+        "ablative": "Ablative would be 'homine' — 'hominis' ends in -is (genitive)"
+      }
+    }
+  ],
+  "translation": "Do you betray the Son of Man with a kiss?"
+}

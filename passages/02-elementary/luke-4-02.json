@@ -1,0 +1,97 @@
+{
+  "id": "luke-4-02",
+  "source": "Vulgate",
+  "reference": "Lucas 4:4",
+  "latin": ["Non", "in", "pane", "solo", "vivet", "homo"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "vivet",
+      "choices": ["Non", "pane", "vivet", "homo"],
+      "reveal": null,
+      "hints": {
+        "Non": "'Non' is an adverb meaning 'not'",
+        "pane": "'pane' is a noun meaning 'bread'",
+        "homo": "'homo' is a noun meaning 'man'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivet' translates to?",
+      "target": "to live",
+      "choices": ["to live", "to see", "to conquer", "to come"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is 'videre' — 'vivet' comes from 'vivere' (to live)",
+        "to conquer": "'to conquer' is 'vincere' — 'vivet' comes from 'vivere' (to live)",
+        "to come": "'to come' is 'venire' — 'vivet' comes from 'vivere' (to live)"
+      }
+    },
+    {
+      "prompt": "What tense is 'vivet'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "subjunctive"],
+      "reveal": { "word": "vivet", "gloss": "he/she will live" },
+      "hints": {
+        "present indicative": "Present indicative would be 'vivit' — 'vivet' has the future marker -e-",
+        "perfect": "Perfect would be 'vixit' — 'vivet' is future tense",
+        "subjunctive": "Present subjunctive would be 'vivat' — 'vivet' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivet'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "video, videre, vidi, visum", "vinco, vincere, vici, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are principal parts of 'video' (to see)",
+        "vinco, vincere, vici, victum": "These are principal parts of 'vinco' (to conquer)",
+        "venio, venire, veni, ventum": "These are principal parts of 'venio' (to come)"
+      }
+    },
+    {
+      "prompt": "What case is 'pane'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": { "word": "pane", "gloss": "bread" },
+      "hints": {
+        "nominative": "Nominative of 'panis' is 'panis' — 'pane' is the ablative singular",
+        "accusative": "Accusative of 'panis' is 'panem' — 'pane' is ablative",
+        "dative": "Dative of 'panis' is 'pani' — 'pane' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'panis, panis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'panis' has genitive 'panis' (-is)",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'panis' has genitive 'panis' (-is)",
+        "4th declension": "4th declension nouns have genitive in -us — 'panis' has genitive 'panis' (-is)"
+      }
+    },
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "homo", "gloss": "man / human being" },
+      "hints": {
+        "accusative": "Accusative of 'homo' would be 'hominem' — 'homo' is the nominative subject",
+        "ablative": "Ablative of 'homo' would be 'homine' — 'homo' is nominative",
+        "vocative": "Vocative of 'homo' would also be 'homo' but here it is the subject of 'vivet'"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'hominis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Man shall not live by bread alone"
+}

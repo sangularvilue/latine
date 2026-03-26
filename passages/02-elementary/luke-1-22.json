@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-22",
+  "source": "Vulgate",
+  "reference": "Lucas 1:78",
+  "latin": ["Visitavit", "nos", "oriens", "ex", "alto"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "Visitavit",
+      "choices": ["Visitavit", "nos", "oriens", "alto"],
+      "reveal": null,
+      "hints": {
+        "nos": "'Nos' is a pronoun meaning 'us'",
+        "oriens": "'Oriens' is a participle/noun meaning 'the rising one / the dawn'",
+        "alto": "'Alto' is a noun/adjective meaning 'the height / on high'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'visitavit' translates to?",
+      "target": "to visit",
+      "choices": ["to visit", "to see", "to call", "to seek"],
+      "reveal": null,
+      "hints": {
+        "to see": "That would be 'videre'",
+        "to call": "That would be 'vocare'",
+        "to seek": "That would be 'quaerere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'visitavit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "pluperfect"],
+      "reveal": "visitavit = has visited",
+      "hints": {
+        "present indicative": "Present would be 'visitat'; 'visitavit' with -avit is perfect",
+        "imperfect": "Imperfect would be 'visitabat'",
+        "pluperfect": "Pluperfect would be 'visitaverat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'visitavit'?",
+      "target": "visito, visitare, visitavi, visitatum",
+      "choices": ["visito, visitare, visitavi, visitatum", "video, videre, vidi, visum", "viso, visere, visi, visum", "inviso, invisere, invisi, invisum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)",
+        "viso, visere, visi, visum": "These are the principal parts of 'viso' (to go to see)",
+        "inviso, invisere, invisi, invisum": "These are the principal parts of 'inviso' (to look at)"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "nos = us (acc.)",
+      "hints": {
+        "nominative": "Nominative 'nos' means 'we'; here it is the direct object of 'visitavit'",
+        "dative": "Dative would be 'nobis'",
+        "ablative": "Ablative would be 'nobis'"
+      }
+    },
+    {
+      "prompt": "What case is 'oriens'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "oriens = the dawn / the rising one (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'orientem'; 'oriens' is nominative, the subject",
+        "genitive": "Genitive would be 'orientis'",
+        "ablative": "Ablative would be 'oriente' or 'orienti'"
+      }
+    },
+    {
+      "prompt": "What declension is 'oriens' (as a noun)?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'oriens' has genitive 'orientis'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'oriens' has genitive 'orientis'",
+        "4th declension": "4th declension nouns have -us genitive; 'oriens' has genitive 'orientis'"
+      }
+    },
+    {
+      "prompt": "What case is 'alto'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "alto = the height / on high (abl.)",
+      "hints": {
+        "nominative": "Nominative would be 'altum' or 'altus'; 'alto' with -o is ablative after 'ex'",
+        "dative": "Dative would also be 'alto', but after 'ex' it is ablative of source",
+        "accusative": "Accusative would be 'altum'"
+      }
+    }
+  ],
+  "translation": "The dawn from on high has visited us"
+}

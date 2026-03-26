@@ -1,0 +1,130 @@
+{
+  "id": "luke-adv-09",
+  "source": "Vulgate",
+  "reference": "Lucas 15:24",
+  "latin": ["Quia", "hic", "filius", "meus", "mortuus", "erat", "et", "revixit"],
+  "steps": [
+    {
+      "prompt": "What does 'Quia' introduce here?",
+      "target": "causal clause ('because')",
+      "choices": ["causal clause ('because')", "noun clause ('that')", "relative clause", "temporal clause ('when')"],
+      "reveal": "Quia = because",
+      "hints": {
+        "noun clause ('that')": "'Quia' can mean 'that' in Vulgate Latin after verbs of saying, but here it gives the reason for rejoicing",
+        "relative clause": "Relative clauses use 'qui/quae/quod' — 'quia' is a conjunction",
+        "temporal clause ('when')": "'When' is 'cum' or 'quando' — 'quia' means 'because'"
+      }
+    },
+    {
+      "prompt": "What case is 'hic filius meus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "hic filius meus = this son of mine (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'hunc filium meum' — 'hic filius meus' is nominative",
+        "vocative": "Vocative would be 'fili mi' — 'hic filius meus' is nominative subject",
+        "genitive": "Genitive would be 'huius filii mei' — this is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'filii' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'mortuus erat' translates to?",
+      "target": "to die",
+      "choices": ["to die", "to kill", "to remain", "to bite"],
+      "reveal": null,
+      "hints": {
+        "to kill": "'To kill' is 'occidere' or 'necare' — 'mortuus erat' comes from 'mori' (to die)",
+        "to remain": "'To remain' is 'manere' or 'morari' — 'mori' means to die",
+        "to bite": "'To bite' is 'mordere' — 'mori' means to die"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'mortuus erat'?",
+      "target": "pluperfect indicative (deponent verb)",
+      "choices": ["pluperfect indicative (deponent verb)", "perfect indicative", "imperfect indicative", "pluperfect passive indicative"],
+      "reveal": "mortuus erat = had died / was dead",
+      "hints": {
+        "perfect indicative": "Perfect would be 'mortuus est' — 'erat' makes this pluperfect",
+        "imperfect indicative": "Imperfect would be 'moriebatur' — 'mortuus erat' is pluperfect",
+        "pluperfect passive indicative": "'Mori' is deponent — passive in form but active in meaning"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mortuus erat'?",
+      "target": "morior, mori, mortuus sum",
+      "choices": ["morior, mori, mortuus sum", "moror, morari, moratus sum", "mordeo, mordere, momordi, morsum", "moveo, movere, movi, motum"],
+      "reveal": null,
+      "hints": {
+        "moror, morari, moratus sum": "These are the parts of 'morari' (to delay) — different deponent verb",
+        "mordeo, mordere, momordi, morsum": "These are the parts of 'mordere' (to bite)",
+        "moveo, movere, movi, motum": "These are the parts of 'movere' (to move)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'revixit' translates to?",
+      "target": "to come back to life / to revive",
+      "choices": ["to come back to life / to revive", "to see again", "to revisit", "to rule again"],
+      "reveal": null,
+      "hints": {
+        "to see again": "'To see again' is 'revidere' — 'revixit' comes from 'reviviscere' or 'revivere'",
+        "to revisit": "'To revisit' is 'revisere' — 'revivere' means to come back to life",
+        "to rule again": "'To rule again' is 'regnare iterum' — 'revivere' means to revive"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'revixit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "revixit = he has come back to life / he revived",
+      "hints": {
+        "present indicative": "Present would be 'reviviscit' — 'revixit' with -xit is perfect",
+        "imperfect indicative": "Imperfect would be 'reviviscebat' — 'revixit' is perfect indicative",
+        "pluperfect indicative": "Pluperfect would be 'revixerat' — 'revixit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'revixit'?",
+      "target": "revivisco, reviviscere, revixi, —",
+      "choices": ["revivisco, reviviscere, revixi, —", "vivo, vivere, vixi, victum", "revideo, revidere, revidi, revisum", "reviso, revisere, revisi, revisum"],
+      "reveal": null,
+      "hints": {
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live) — the base verb without the re- prefix",
+        "revideo, revidere, revidi, revisum": "These are the parts of 'revidere' (to see again) — different verb",
+        "reviso, revisere, revisi, revisum": "These are the parts of 'revisere' (to revisit) — different verb"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical force of the contrast 'mortuus erat...revixit'?",
+      "target": "antithesis: death vs. new life, expressing the father's joy at restoration",
+      "choices": ["antithesis: death vs. new life, expressing the father's joy at restoration", "parallelism: repeating the same idea", "litotes: understatement", "hyperbole: exaggeration for effect"],
+      "reveal": null,
+      "hints": {
+        "parallelism: repeating the same idea": "The two clauses express opposite ideas (dead vs. alive), not the same idea",
+        "litotes: understatement": "This is not understatement — 'dead and alive again' is a powerful direct antithesis",
+        "hyperbole: exaggeration for effect": "While metaphorical (the son did not literally die), the figure is antithesis, not hyperbole"
+      }
+    },
+    {
+      "prompt": "What is the tense sequence significance of 'mortuus erat' (pluperfect) vs. 'revixit' (perfect)?",
+      "target": "the pluperfect shows the prior state; the perfect shows the new, current reality",
+      "choices": ["the pluperfect shows the prior state; the perfect shows the new, current reality", "both refer to the same time", "the pluperfect is more recent than the perfect", "the pluperfect shows repeated action"],
+      "reveal": null,
+      "hints": {
+        "both refer to the same time": "The pluperfect is further past than the perfect — 'was dead' preceded 'has come alive'",
+        "the pluperfect is more recent than the perfect": "The opposite: pluperfect is more remote — the son 'had been dead' before he 'came alive'",
+        "the pluperfect shows repeated action": "Repeated action is imperfect — pluperfect shows a completed prior state"
+      }
+    }
+  ],
+  "translation": "Because this son of mine was dead and has come back to life"
+}

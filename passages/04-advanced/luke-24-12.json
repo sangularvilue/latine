@@ -1,0 +1,130 @@
+{
+  "id": "luke-24-12",
+  "source": "Vulgate",
+  "reference": "Lucas 24:46-47",
+  "latin": ["Sic", "scriptum", "est", "et", "sic", "oportebat", "pati", "Christum", "et", "resurgere"],
+  "steps": [
+    {
+      "prompt": "How many main finite verbs are in this sentence?",
+      "target": "two: 'est' (with 'scriptum') and 'oportebat'",
+      "choices": ["two: 'est' (with 'scriptum') and 'oportebat'", "one: 'oportebat'", "three", "one: 'est'"],
+      "reveal": null,
+      "hints": {
+        "one: 'oportebat'": "'Scriptum est' is also a compound finite verb (perfect passive)",
+        "three": "'Pati' and 'resurgere' are infinitives, not finite verbs — there are exactly two",
+        "one: 'est'": "'Est' forms a compound with 'scriptum', and 'oportebat' is also finite"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'scriptum est' translates to?",
+      "target": "to be written",
+      "choices": ["to be written", "to write", "to describe", "to prescribe"],
+      "reveal": null,
+      "hints": {
+        "to write": "'To write' is active 'scribere' — 'scriptum est' is perfect passive",
+        "to describe": "'To describe' is 'describere' — 'scriptum est' is from 'scribere' (passive)",
+        "to prescribe": "'To prescribe' is 'praescribere' — 'scriptum est' is from 'scribere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'scriptum est'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect passive subjunctive"],
+      "reveal": "scriptum est = it has been written / it is written (3rd sing. perf. pass.)",
+      "hints": {
+        "present passive indicative": "Present passive would be 'scribitur' — 'scriptum est' is perfect",
+        "pluperfect passive indicative": "Pluperfect passive would be 'scriptum erat' — 'scriptum est' is perfect",
+        "perfect passive subjunctive": "Perfect passive subjunctive would be 'scriptum sit' — 'scriptum est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'scriptum est' (from 'scribo')?",
+      "target": "scribo, scribere, scripsi, scriptum",
+      "choices": ["scribo, scribere, scripsi, scriptum", "sculpo, sculpere, sculpsi, sculptum", "scio, scire, scivi, scitum", "seco, secare, secui, sectum"],
+      "reveal": null,
+      "hints": {
+        "sculpo, sculpere, sculpsi, sculptum": "These are the parts of 'sculpo' (to carve)",
+        "scio, scire, scivi, scitum": "These are the parts of 'scio' (to know)",
+        "seco, secare, secui, sectum": "These are the parts of 'seco' (to cut)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'oportebat'?",
+      "target": "imperfect indicative (impersonal)",
+      "choices": ["imperfect indicative (impersonal)", "imperfect subjunctive", "perfect indicative", "pluperfect indicative"],
+      "reveal": "oportebat = it was necessary (3rd sing. impf., impersonal)",
+      "hints": {
+        "imperfect subjunctive": "Imperfect subjunctive would be 'oporteret' — 'oportebat' with -bat is indicative",
+        "perfect indicative": "Perfect would be 'oportuit' — 'oportebat' with -bat is imperfect",
+        "pluperfect indicative": "Pluperfect would be 'oportuerat' — 'oportebat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'oportebat'?",
+      "target": "oportet, oportere, oportuit, —",
+      "choices": ["oportet, oportere, oportuit, —", "operor, operari, operatus sum, —", "opto, optare, optavi, optatum", "obtineo, obtinere, obtinui, obtentum"],
+      "reveal": null,
+      "hints": {
+        "operor, operari, operatus sum, —": "These are the parts of 'operor' (to work)",
+        "opto, optare, optavi, optatum": "These are the parts of 'opto' (to wish)",
+        "obtineo, obtinere, obtinui, obtentum": "These are the parts of 'obtineo' (to hold/obtain)"
+      }
+    },
+    {
+      "prompt": "What is special about 'pati' as an infinitive?",
+      "target": "it is a deponent verb (passive form, active meaning: 'to suffer')",
+      "choices": ["it is a deponent verb (passive form, active meaning: 'to suffer')", "it is a regular active infinitive", "it is a passive infinitive of a regular verb", "it is a gerund"],
+      "reveal": "pati = to suffer (deponent: patior, pati, passus sum)",
+      "hints": {
+        "it is a regular active infinitive": "Active infinitive of 3rd conjugation ends in -ere — 'pati' has passive form but active meaning",
+        "it is a passive infinitive of a regular verb": "'Pati' is from a deponent verb, not a regular passive",
+        "it is a gerund": "A gerund would be 'patiendum' — 'pati' is the deponent infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'pati'?",
+      "target": "patior, pati, passus sum, —",
+      "choices": ["patior, pati, passus sum, —", "pando, pandere, pandi, passum", "pasco, pascere, pavi, pastum", "pateo, patere, patui, —"],
+      "reveal": null,
+      "hints": {
+        "pando, pandere, pandi, passum": "These are the parts of 'pando' (to spread) — note similar 4th part",
+        "pasco, pascere, pavi, pastum": "These are the parts of 'pasco' (to feed)",
+        "pateo, patere, patui, —": "These are the parts of 'pateo' (to lie open/be evident)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'resurgere' translates to?",
+      "target": "to rise again",
+      "choices": ["to rise again", "to destroy", "to restore", "to resist"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'To destroy' is 'destruere' — 'resurgere' means 'to rise again' (re- + surgere)",
+        "to restore": "'To restore' is 'restituere' — 'resurgere' means 'to rise again'",
+        "to resist": "'To resist' is 'resistere' — 'resurgere' means 'to rise again'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'resurgere'?",
+      "target": "resurgo, resurgere, resurrexi, resurrectum",
+      "choices": ["resurgo, resurgere, resurrexi, resurrectum", "surgo, surgere, surrexi, surrectum", "rego, regere, rexi, rectum", "redeo, redire, redii, reditum"],
+      "reveal": null,
+      "hints": {
+        "surgo, surgere, surrexi, surrectum": "These are the parts of 'surgo' (to rise) — 'resurgere' adds re- (again)",
+        "rego, regere, rexi, rectum": "These are the parts of 'rego' (to rule)",
+        "redeo, redire, redii, reditum": "These are the parts of 'redeo' (to go back)"
+      }
+    },
+    {
+      "prompt": "What case is 'Christum' and why?",
+      "target": "accusative — subject of the infinitives 'pati' and 'resurgere' after 'oportebat'",
+      "choices": ["accusative — subject of the infinitives 'pati' and 'resurgere' after 'oportebat'", "accusative — direct object of 'oportebat'", "nominative — subject of 'oportebat'", "ablative — agent"],
+      "reveal": "oportebat Christum pati et resurgere = it was necessary for Christ to suffer and rise",
+      "hints": {
+        "accusative — direct object of 'oportebat'": "'Oportebat' is impersonal — 'Christum' is the subject of the infinitive, not the object of the impersonal verb",
+        "nominative — subject of 'oportebat'": "'Christum' with -um is accusative — 'oportebat' is impersonal (no nominative subject)",
+        "ablative — agent": "Ablative of agent would be 'a Christo' — 'Christum' is accusative subject of the infinitive"
+      }
+    }
+  ],
+  "translation": "Thus it is written and thus it was necessary for Christ to suffer and to rise again"
+}

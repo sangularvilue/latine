@@ -1,0 +1,119 @@
+{
+  "id": "luke-1-14",
+  "source": "Vulgate",
+  "reference": "Lucas 1:49",
+  "latin": ["Fecit", "mihi", "magna", "qui", "potens", "est"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "Fecit",
+      "choices": ["Fecit", "magna", "potens", "est"],
+      "reveal": null,
+      "hints": {
+        "magna": "'Magna' is an adjective/noun meaning 'great things'",
+        "potens": "'Potens' is an adjective meaning 'powerful'",
+        "est": "'Est' is a linking verb in the relative clause, not the main verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fecit' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to carry", "to say", "to give"],
+      "reveal": null,
+      "hints": {
+        "to carry": "That would be 'ferre'",
+        "to say": "That would be 'dicere'",
+        "to give": "That would be 'dare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'fecit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future", "imperfect"],
+      "reveal": "fecit = he has done / he did",
+      "hints": {
+        "present indicative": "Present would be 'facit'; 'fecit' with the changed stem is perfect",
+        "future": "Future would be 'faciet'",
+        "imperfect": "Imperfect would be 'faciebat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecit'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fingo, fingere, finxi, fictum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the principal parts of 'fero' (to carry)",
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugio' (to flee)",
+        "fingo, fingere, finxi, fictum": "These are the principal parts of 'fingo' (to shape/form)"
+      }
+    },
+    {
+      "prompt": "What case is 'mihi'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "ablative"],
+      "reveal": "mihi = to me / for me (dat.)",
+      "hints": {
+        "nominative": "Nominative of 'ego' is 'ego'; 'mihi' is dative",
+        "accusative": "Accusative would be 'me'",
+        "ablative": "Ablative would be 'me'; 'mihi' is dative"
+      }
+    },
+    {
+      "prompt": "What case is 'magna'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "magna = great things (acc. neut. pl.)",
+      "hints": {
+        "nominative": "Nominative neuter plural is also 'magna', but here it is the direct object of 'fecit'",
+        "ablative": "Ablative feminine singular would be 'magna', but context shows neuter plural accusative",
+        "vocative": "Vocative would not make sense here; 'magna' is the object of the verb"
+      }
+    },
+    {
+      "prompt": "What is the second verb in this sentence?",
+      "target": "est",
+      "choices": ["Fecit", "magna", "potens", "est"],
+      "reveal": null,
+      "hints": {
+        "Fecit": "'Fecit' is the main verb, not the second verb",
+        "magna": "'Magna' is a substantive adjective meaning 'great things'",
+        "potens": "'Potens' is a predicate adjective meaning 'powerful', not a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere'",
+        "to go": "That would be 'ire'",
+        "to stand": "That would be 'stare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "future", "perfect", "imperfect"],
+      "reveal": "est = is (he who is powerful)",
+      "hints": {
+        "future": "Future would be 'erit'",
+        "perfect": "Perfect would be 'fuit'",
+        "imperfect": "Imperfect would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edo' (to eat)",
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)"
+      }
+    }
+  ],
+  "translation": "He who is mighty has done great things for me"
+}

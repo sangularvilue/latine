@@ -1,0 +1,75 @@
+{
+  "id": "luke-1-13",
+  "source": "Vulgate",
+  "reference": "Lucas 1:31",
+  "latin": ["Ecce", "concipies", "in", "utero"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "concipies",
+      "choices": ["Ecce", "concipies", "in", "utero"],
+      "reveal": null,
+      "hints": {
+        "Ecce": "'Ecce' is an interjection meaning 'behold'",
+        "in": "'In' is a preposition meaning 'in'",
+        "utero": "'Utero' is a noun meaning 'womb'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'concipies' translates to?",
+      "target": "to conceive",
+      "choices": ["to conceive", "to take", "to receive", "to begin"],
+      "reveal": null,
+      "hints": {
+        "to take": "That would be 'capere'; 'concipere' means 'to conceive'",
+        "to receive": "That would be 'accipere'",
+        "to begin": "That would be 'incipere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'concipies'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect"],
+      "reveal": "concipies = you will conceive",
+      "hints": {
+        "present indicative": "Present would be 'concipis'; 'concipies' with -ie- is future",
+        "present subjunctive": "Present subjunctive would be 'concipias'",
+        "perfect": "Perfect would be 'concepisti'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'concipies'?",
+      "target": "concipio, concipere, concepi, conceptum",
+      "choices": ["concipio, concipere, concepi, conceptum", "capio, capere, cepi, captum", "accipio, accipere, accepi, acceptum", "incipio, incipere, incepi, inceptum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the principal parts of 'capio' (to take); 'concipio' is a compound",
+        "accipio, accipere, accepi, acceptum": "These are the principal parts of 'accipio' (to receive)",
+        "incipio, incipere, incepi, inceptum": "These are the principal parts of 'incipio' (to begin)"
+      }
+    },
+    {
+      "prompt": "What case is 'utero'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "utero = womb (abl.)",
+      "hints": {
+        "nominative": "Nominative is 'uterus'; 'utero' with -o ending is ablative or dative",
+        "dative": "Dative would also be 'utero', but after 'in' it is ablative of place",
+        "accusative": "Accusative would be 'uterum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'uterus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'uterus' ends in -us with genitive 'uteri'",
+        "3rd declension": "3rd declension has -is in the genitive; 'uterus' has genitive 'uteri'",
+        "4th declension": "4th declension -us nouns have genitive -us; 'uterus' has genitive 'uteri'"
+      }
+    }
+  ],
+  "translation": "Behold, you will conceive in your womb"
+}

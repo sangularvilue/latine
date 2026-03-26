@@ -1,0 +1,130 @@
+{
+  "id": "luke-adv-10",
+  "source": "Vulgate",
+  "reference": "Lucas 6:46",
+  "latin": ["Quid", "autem", "vocatis", "me", "Domine", "Domine", "et", "non", "facitis", "quae", "dico"],
+  "steps": [
+    {
+      "prompt": "What case is 'Quid'?",
+      "target": "accusative (adverbial: 'why?')",
+      "choices": ["accusative (adverbial: 'why?')", "nominative ('what?')", "ablative", "genitive"],
+      "reveal": "Quid = why (acc. used adverbially)",
+      "hints": {
+        "nominative ('what?')": "'Quid' can be nominative 'what,' but here it functions adverbially meaning 'why'",
+        "ablative": "Ablative of 'quid' would be 'quo' — 'quid' here is adverbial accusative",
+        "genitive": "Genitive would be 'cuius' — 'quid' is adverbial 'why'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vocatis' translates to?",
+      "target": "to call",
+      "choices": ["to call", "to wish", "to fly", "to vow"],
+      "reveal": null,
+      "hints": {
+        "to wish": "'To wish' is 'velle' — 'vocatis' comes from 'vocare' (to call)",
+        "to fly": "'To fly' is 'volare' — 'vocare' means to call",
+        "to vow": "'To vow' is 'vovere' — 'vocare' means to call"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'vocatis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "vocatis = you call (2nd pl.)",
+      "hints": {
+        "perfect indicative": "Perfect would be 'vocavistis' — 'vocatis' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'vocetis' — 'vocatis' is present indicative",
+        "future indicative": "Future would be 'vocabitis' — 'vocatis' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vocatis'?",
+      "target": "voco, vocare, vocavi, vocatum",
+      "choices": ["voco, vocare, vocavi, vocatum", "volo, velle, volui, —", "voveo, vovere, vovi, votum", "volo, volare, volavi, volatum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the parts of 'velle' (to wish) — irregular verb",
+        "voveo, vovere, vovi, votum": "These are the parts of 'vovere' (to vow)",
+        "volo, volare, volavi, volatum": "These are the parts of 'volare' (to fly)"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "me = me (acc., direct object of 'vocatis')",
+      "hints": {
+        "nominative": "Nominative would be 'ego' — 'me' is accusative",
+        "ablative": "'Me' can be ablative, but here it is direct object of 'vocatis'",
+        "dative": "Dative would be 'mihi' — 'me' is accusative object"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine Domine'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": "Domine = Lord! (voc., direct address, repeated for emphasis)",
+      "hints": {
+        "nominative": "Nominative would be 'Dominus' — 'Domine' with -e is vocative of 2nd declension",
+        "accusative": "Accusative would be 'Dominum' — 'Domine' is vocative",
+        "ablative": "Ablative would be 'Domino' — 'Domine' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'facitis' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to say", "to happen", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to say": "'To say' is 'dicere' — 'facitis' comes from 'facere' (to do/make)",
+        "to happen": "'To happen' is 'fieri' (passive of 'facere') — active 'facere' means to do/make",
+        "to carry": "'To carry' is 'ferre' — 'facere' means to do"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'facitis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "facitis = you do (2nd pl.)",
+      "hints": {
+        "perfect indicative": "Perfect would be 'fecistis' — 'facitis' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'faciatis' — 'facitis' is present indicative",
+        "future indicative": "Future would be 'facietis' — 'facitis' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facitis'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fugio, fugere, fugi, fugitum", "fero, ferre, tuli, latum", "fio, fieri, factus sum"],
+      "reveal": null,
+      "hints": {
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)",
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — passive of 'facere'"
+      }
+    },
+    {
+      "prompt": "What is the function of 'quae' in 'quae dico'?",
+      "target": "relative pronoun (neut. acc. pl.): 'the things which I say'",
+      "choices": ["relative pronoun (neut. acc. pl.): 'the things which I say'", "interrogative pronoun: 'what things?'", "indefinite pronoun: 'some things'", "conjunction: 'because'"],
+      "reveal": "quae dico = the things which I say",
+      "hints": {
+        "interrogative pronoun: 'what things?'": "This is not a question — 'quae' refers back to unstated antecedent (the things)",
+        "indefinite pronoun: 'some things'": "'Quae' as indefinite follows 'si/nisi' — here it is a relative pronoun",
+        "conjunction: 'because'": "'Quae' is not a conjunction — it is a relative pronoun introducing 'quae dico'"
+      }
+    }
+  ],
+  "translation": "Why do you call me 'Lord, Lord,' and do not do the things which I say?"
+}

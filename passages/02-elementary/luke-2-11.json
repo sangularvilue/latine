@@ -1,0 +1,86 @@
+{
+  "id": "luke-2-11",
+  "source": "Vulgate",
+  "reference": "Lucas 2:19",
+  "latin": ["Maria", "conservabat", "omnia", "verba", "haec"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "conservabat",
+      "choices": ["Maria", "conservabat", "omnia", "verba"],
+      "reveal": null,
+      "hints": {
+        "Maria": "'Maria' is a proper noun — the subject of the sentence",
+        "omnia": "'omnia' is an adjective meaning 'all' modifying 'verba'",
+        "verba": "'verba' is a noun meaning 'words' in the accusative plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'conservabat' translates to?",
+      "target": "to preserve / to keep",
+      "choices": ["to preserve / to keep", "to observe", "to serve", "to conserve energy"],
+      "reveal": null,
+      "hints": {
+        "to observe": "'to observe' is 'observare' — 'conservabat' comes from 'conservare' (to keep safe)",
+        "to serve": "'to serve' is 'servire' — 'conservabat' comes from 'conservare' (con + servare)",
+        "to conserve energy": "'conservare' means 'to keep/preserve' in a broader sense, not the modern technical meaning"
+      }
+    },
+    {
+      "prompt": "What tense is 'conservabat'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "conservabat", "gloss": "was keeping / kept" },
+      "hints": {
+        "Present": "Present would be 'conservat' — 'conservabat' with -ba- infix is imperfect",
+        "Perfect": "Perfect would be 'conservavit' — 'conservabat' with -ba- is imperfect",
+        "Pluperfect": "Pluperfect would be 'conservaverat' — 'conservabat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'conservabat'?",
+      "target": "conservo, conservare, conservavi, conservatum",
+      "choices": ["conservo, conservare, conservavi, conservatum", "servo, servare, servavi, servatum", "observo, observare, observavi, observatum", "servio, servire, servivi, servitum"],
+      "reveal": null,
+      "hints": {
+        "servo, servare, servavi, servatum": "These are the parts of 'servare' (to save/guard) — 'conservare' adds the prefix con-",
+        "observo, observare, observavi, observatum": "These are the parts of 'observare' (to watch/observe) — different prefix",
+        "servio, servire, servivi, servitum": "These are the parts of 'servire' (to serve) — a different verb entirely"
+      }
+    },
+    {
+      "prompt": "What case is 'verba'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "verba", "gloss": "words / things" },
+      "hints": {
+        "Nominative": "'verba' could be nominative plural, but here it is the direct object — accusative",
+        "Ablative": "Ablative singular would be 'verbo' — 'verba' is accusative plural neuter",
+        "Vocative": "Vocative would be 'verba' (same form), but here it is the direct object of 'conservabat'"
+      }
+    },
+    {
+      "prompt": "What declension is 'verbum, verbi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'verbi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'verbi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'verbi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'omnia'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "omnia", "gloss": "all" },
+      "hints": {
+        "Nominative": "'omnia' could be nominative neuter plural, but here it agrees with 'verba' as accusative",
+        "Ablative": "Ablative would be 'omnibus' — 'omnia' is accusative plural neuter here",
+        "Genitive": "Genitive would be 'omnium' — 'omnia' is accusative agreeing with 'verba'"
+      }
+    }
+  ],
+  "translation": "Mary was keeping all these words"
+}

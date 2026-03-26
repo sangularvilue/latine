@@ -1,0 +1,97 @@
+{
+  "id": "luke-18-05",
+  "source": "Vulgate",
+  "reference": "Lucas 18:31",
+  "latin": ["Ecce", "ascendimus", "Hierosolymam"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "ascendimus",
+      "choices": ["ascendimus", "Ecce", "Hierosolymam", "none of these"],
+      "reveal": null,
+      "hints": {
+        "Ecce": "'Ecce' is an interjection meaning 'behold'",
+        "Hierosolymam": "'Hierosolymam' is a proper noun meaning 'Jerusalem' in the accusative",
+        "none of these": "There is a verb — 'ascendimus' is the 1st person plural form"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'ascendimus' translates to?",
+      "target": "to ascend / to go up",
+      "choices": ["to ascend / to go up", "to send", "to light/kindle", "to climb down"],
+      "reveal": null,
+      "hints": {
+        "to send": "'To send' is 'mittere' — 'ascendimus' comes from 'ascendere' (to go up)",
+        "to light/kindle": "'To light' is 'accendere' — similar sounding but 'ascendere' means 'to ascend'",
+        "to climb down": "'To climb down' is 'descendere' — 'ascendere' means 'to go up'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'ascendimus'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "ascendimus = we are going up / we ascend",
+      "hints": {
+        "perfect indicative": "'Ascendimus' can be perfect (we ascended), but with 'ecce' announcing imminent action, present is more natural",
+        "future indicative": "Future would be 'ascendemus' — 'ascendimus' is present or perfect",
+        "present subjunctive": "Present subjunctive would be 'ascendamus' — 'ascendimus' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ascendimus'?",
+      "target": "ascendo, ascendere, ascendi, ascensum",
+      "choices": ["ascendo, ascendere, ascendi, ascensum", "accendo, accendere, accendi, accensum", "descendo, descendere, descendi, descensum", "scando, scandere, scandi, scansum"],
+      "reveal": null,
+      "hints": {
+        "accendo, accendere, accendi, accensum": "These are the parts of 'accendere' (to kindle/light)",
+        "descendo, descendere, descendi, descensum": "These are the parts of 'descendere' (to descend) — the opposite",
+        "scando, scandere, scandi, scansum": "These are the parts of 'scandere' (to climb) — the simple verb"
+      }
+    },
+    {
+      "prompt": "What case is 'Hierosolymam'?",
+      "target": "accusative (place to which)",
+      "choices": ["accusative (place to which)", "nominative", "ablative", "dative"],
+      "reveal": "Hierosolymam = to Jerusalem (acc., goal of motion)",
+      "hints": {
+        "nominative": "Nominative would be 'Hierosolyma' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'Hierosolyma' or 'Hierosolymis' — 'Hierosolymam' is accusative",
+        "dative": "Dative would be 'Hierosolymae' — 'Hierosolymam' indicates direction toward"
+      }
+    },
+    {
+      "prompt": "Why is there no preposition before 'Hierosolymam'?",
+      "target": "names of cities use accusative without a preposition for 'place to which'",
+      "choices": ["names of cities use accusative without a preposition for 'place to which'", "the preposition 'ad' is implied but omitted by scribal error", "'Hierosolymam' is actually ablative", "interjections replace prepositions"],
+      "reveal": null,
+      "hints": {
+        "the preposition 'ad' is implied but omitted by scribal error": "This is standard Latin grammar — city names take bare accusative for destination",
+        "'Hierosolymam' is actually ablative": "'Hierosolymam' with -am is clearly accusative — city names use this for 'to'",
+        "interjections replace prepositions": "'Ecce' does not replace a preposition — the bare accusative is the rule for city names"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'Ecce'?",
+      "target": "interjection",
+      "choices": ["interjection", "adverb", "conjunction", "preposition"],
+      "reveal": "Ecce = Behold! / Look!",
+      "hints": {
+        "adverb": "'Ecce' does not modify a verb — it is an exclamatory interjection",
+        "conjunction": "A conjunction joins clauses — 'ecce' introduces with emphasis",
+        "preposition": "A preposition would govern a case — 'ecce' is an interjection"
+      }
+    },
+    {
+      "prompt": "What person and number is 'ascendimus'?",
+      "target": "1st person plural",
+      "choices": ["1st person singular", "1st person plural", "3rd person plural", "2nd person plural"],
+      "reveal": null,
+      "hints": {
+        "1st person singular": "1st singular would be 'ascendo' — 'ascendimus' ends in -mus (1st plural)",
+        "3rd person plural": "3rd plural would be 'ascendunt' — 'ascendimus' ends in -mus",
+        "2nd person plural": "2nd plural would be 'ascenditis' — 'ascendimus' ends in -mus (we)"
+      }
+    }
+  ],
+  "translation": "Behold, we are going up to Jerusalem"
+}

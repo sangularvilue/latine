@@ -1,0 +1,86 @@
+{
+  "id": "luke-3-06",
+  "source": "Vulgate",
+  "reference": "Lucas 3:11",
+  "latin": ["Qui", "habet", "duas", "tunicas"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "habet",
+      "choices": ["Qui", "habet", "duas", "tunicas"],
+      "reveal": null,
+      "hints": {
+        "Qui": "'Qui' is a relative pronoun meaning 'he who / whoever'",
+        "duas": "'duas' is a numeral meaning 'two' in the accusative feminine",
+        "tunicas": "'tunicas' is a noun meaning 'tunics' in the accusative plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habet' translates to?",
+      "target": "to have",
+      "choices": ["to have", "to dwell", "to hold", "to consider"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "'to dwell' is 'habitare' — 'habet' comes from 'habere' (to have)",
+        "to hold": "'to hold' is 'tenere' — 'habere' means 'to have/possess'",
+        "to consider": "'to consider' is 'considerare' — 'habet' comes from 'habere' (to have)"
+      }
+    },
+    {
+      "prompt": "What tense is 'habet'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "habet", "gloss": "has" },
+      "hints": {
+        "Imperfect": "Imperfect would be 'habebat' — 'habet' is present indicative",
+        "Perfect": "Perfect would be 'habuit' — 'habet' is present",
+        "Future": "Future would be 'habebit' — 'habet' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habet'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "capio, capere, cepi, captum", "teneo, tenere, tenui, tentum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell) — derived from 'habere' but a different verb",
+        "capio, capere, cepi, captum": "These are the parts of 'capere' (to seize/take)",
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)"
+      }
+    },
+    {
+      "prompt": "What case is 'tunicas'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "tunicas", "gloss": "tunics" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'tunicae' — 'tunicas' with -as ending is accusative plural",
+        "Ablative": "Ablative plural would be 'tunicis' — 'tunicas' is accusative",
+        "Genitive": "Genitive plural would be 'tunicarum' — 'tunicas' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'tunica, tunicae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'tunicae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'tunicae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'tunicae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What type of pronoun is 'Qui'?",
+      "target": "Relative pronoun",
+      "choices": ["Personal pronoun", "Relative pronoun", "Demonstrative pronoun", "Reflexive pronoun"],
+      "reveal": { "word": "Qui", "gloss": "he who / whoever" },
+      "hints": {
+        "Personal pronoun": "Personal pronouns are 'ego, tu, is' — 'Qui' introduces a relative clause",
+        "Demonstrative pronoun": "Demonstrative pronouns are 'hic, ille, iste' — 'Qui' is relative",
+        "Reflexive pronoun": "Reflexive pronouns are 'se, sui' — 'Qui' is the relative pronoun"
+      }
+    }
+  ],
+  "translation": "He who has two tunics"
+}

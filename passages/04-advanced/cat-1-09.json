@@ -1,0 +1,119 @@
+{
+  "id": "cat-1-09",
+  "source": "Cicero",
+  "reference": "In Cat. I.3",
+  "latin": ["Castra", "sunt", "in", "Italia", "contra", "populum", "Romanum"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "sunt",
+      "choices": ["Castra", "sunt", "Italia", "populum"],
+      "reveal": null,
+      "hints": {
+        "Castra": "'Castra' is a neuter plural noun meaning 'camp / military camp'",
+        "Italia": "'Italia' is a proper noun — the name of Italy",
+        "populum": "'populum' is a noun in the accusative case"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to go", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to stand": "'to stand' is 'stare' — 'sunt' comes from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'sunt' is a form of 'esse'",
+        "to follow": "'to follow' is 'sequi' — 'sunt' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sunt'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Present subjunctive"],
+      "reveal": { "word": "sunt", "gloss": "are / exist" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'fuerunt' — 'sunt' is present",
+        "Imperfect indicative": "Imperfect would be 'erant' — 'sunt' is present tense",
+        "Present subjunctive": "Present subjunctive would be 'sint' — 'sunt' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "sto, stare, steti, statum", "eo, ire, ii, itum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'Castra'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "Castra", "gloss": "a military camp" },
+      "hints": {
+        "Accusative": "Neuter plural accusative is the same form, but 'Castra' is the subject of 'sunt'",
+        "Ablative": "Ablative plural would be 'castris' — 'Castra' is nominative",
+        "Vocative": "One does not address a camp — 'Castra' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'castra'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension plural nominative ends in -ae — 'castra' is 2nd declension neuter plural (castrum, -i)",
+        "3rd": "3rd declension neuter plurals end in -a too, but 'castrum' with gen. 'castri' is 2nd declension",
+        "4th": "4th declension nouns have gen. in -us — 'castrum' has gen. 'castri' (2nd)"
+      }
+    },
+    {
+      "prompt": "What case is 'populum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "populum", "gloss": "the people" },
+      "hints": {
+        "Nominative": "Nominative would be 'populus' — 'populum' with -um ending is accusative",
+        "Genitive": "Genitive would be 'populi' — 'populum' is accusative after 'contra'",
+        "Ablative": "Ablative would be 'populo' — 'contra' governs the accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'populum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'populus, -i' is 2nd declension",
+        "3rd": "3rd declension accusative ends in -em — 'populus, -i' is 2nd declension",
+        "4th": "4th declension accusative singular ends in -um too, but 'populus, populi' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What does 'contra populum Romanum' mean?",
+      "target": "Against the Roman people",
+      "choices": ["For the Roman people", "Against the Roman people", "Near the Roman people", "Among the Roman people"],
+      "reveal": null,
+      "hints": {
+        "For the Roman people": "'For' would be 'pro' + ablative — 'contra' + accusative means 'against'",
+        "Near the Roman people": "'Near' would be 'prope' or 'apud' — 'contra' means 'against / facing'",
+        "Among the Roman people": "'Among' would be 'inter' — 'contra' specifically means 'against'"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical purpose of stating this plain fact?",
+      "target": "To shock the senate into recognizing the immediate military threat",
+      "choices": ["To praise Rome's military readiness", "To shock the senate into recognizing the immediate military threat", "To describe routine military exercises", "To reassure the senate that all is well"],
+      "reveal": null,
+      "hints": {
+        "To praise Rome's military readiness": "The camp is Catiline's — it is an enemy camp threatening Rome, not a Roman defense",
+        "To describe routine military exercises": "A camp 'against the Roman people' is treasonous, not routine",
+        "To reassure the senate that all is well": "The opposite — Cicero is alarming the senate about the danger they are ignoring"
+      }
+    }
+  ],
+  "translation": "There is a military camp in Italy against the Roman people."
+}

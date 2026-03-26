@@ -1,0 +1,130 @@
+{
+  "id": "cat-4-10",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.11",
+  "latin": ["Etenim", "si", "P", "Lentulus", "suum", "nomen", "fatalem", "putavit"],
+  "steps": [
+    {
+      "prompt": "What does 'Etenim' mean?",
+      "target": "for indeed / and in fact",
+      "choices": ["for indeed / and in fact", "although", "therefore", "but"],
+      "reveal": "Etenim = for indeed (explanatory conjunction)",
+      "hints": {
+        "although": "'Although' is 'etsi' or 'quamquam' — 'etenim' means 'for indeed'",
+        "therefore": "'Therefore' is 'igitur' or 'ergo' — 'etenim' introduces an explanation",
+        "but": "'But' is 'sed' or 'autem' — 'etenim' is explanatory, not adversative"
+      }
+    },
+    {
+      "prompt": "What case is 'Lentulus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Lentulus = Lentulus (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'Lentulum' — 'Lentulus' with -us is nominative",
+        "vocative": "Vocative would be 'Lentule' — this is nominative",
+        "genitive": "Genitive would be 'Lentuli' — 'Lentulus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Lentulus, Lentuli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Lentuli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Lentuli' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Lentuli' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'suum nomen'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "suum nomen = his own name (acc.)",
+      "hints": {
+        "nominative": "'Nomen' can be nominative, but here it is the object of 'putavit' — accusative",
+        "ablative": "Ablative would be 'suo nomine' — 'suum nomen' is accusative",
+        "genitive": "Genitive would be 'sui nominis' — 'suum nomen' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'nomen, nominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'nominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'nominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'nominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'fatalem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "fatalem = fated / destined (acc., predicate adj.)",
+      "hints": {
+        "nominative": "Nominative would be 'fatalis' — 'fatalem' with -em is accusative",
+        "ablative": "Ablative would be 'fatali' — 'fatalem' is accusative",
+        "genitive": "Genitive would be 'fatalis' — 'fatalem' is accusative"
+      }
+    },
+    {
+      "prompt": "In 'nomen fatalem putavit,' what construction is at work?",
+      "target": "double accusative with 'putare' (object + predicate complement)",
+      "choices": ["double accusative with 'putare' (object + predicate complement)", "accusative + infinitive", "accusative + ablative", "accusative + dative"],
+      "reveal": null,
+      "hints": {
+        "accusative + infinitive": "There is no infinitive here — 'putavit' takes a double accusative (object + complement)",
+        "accusative + ablative": "No ablative is present — both 'nomen' and 'fatalem' are accusative",
+        "accusative + dative": "No dative is present — 'putare' takes a double accusative construction"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'putavit' translates to?",
+      "target": "to think / to consider",
+      "choices": ["to think / to consider", "to prune", "to compute", "to punish"],
+      "reveal": null,
+      "hints": {
+        "to prune": "'Putare' literally means 'to prune' but idiomatically means 'to think/consider'",
+        "to compute": "'To compute' is 'computare' — 'putare' means to think or consider",
+        "to punish": "'To punish' is 'punire' — 'putare' means to think"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'putavit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "putavit = he thought / considered",
+      "hints": {
+        "present indicative": "Present would be 'putat' — 'putavit' with -av- perfect stem is perfect",
+        "imperfect indicative": "Imperfect would be 'putabat' — 'putavit' is perfect indicative",
+        "pluperfect indicative": "Pluperfect would be 'putaverat' — 'putavit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'putavit'?",
+      "target": "puto, putare, putavi, putatum",
+      "choices": ["puto, putare, putavi, putatum", "punio, punire, punivi, punitum", "pono, ponere, posui, positum", "peto, petere, petivi, petitum"],
+      "reveal": null,
+      "hints": {
+        "punio, punire, punivi, punitum": "These are the parts of 'punire' (to punish)",
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)",
+        "peto, petere, petivi, petitum": "These are the parts of 'petere' (to seek)"
+      }
+    },
+    {
+      "prompt": "What is the historical allusion in Lentulus considering his 'nomen fatalem'?",
+      "target": "Lentulus believed a Sibylline prophecy that a third Cornelius would rule Rome",
+      "choices": ["Lentulus believed a Sibylline prophecy that a third Cornelius would rule Rome", "his family name was cursed", "he wanted to change his name", "his name appeared in a will"],
+      "reveal": null,
+      "hints": {
+        "his family name was cursed": "The name was not cursed — Lentulus believed prophecy destined a 'Cornelius' for power",
+        "he wanted to change his name": "He did not want to change it — he took pride in it as prophetically significant",
+        "his name appeared in a will": "No will is involved — the Sibylline books allegedly predicted a third 'Cornelius' (after Cinna and Sulla)"
+      }
+    }
+  ],
+  "translation": "For indeed if P. Lentulus thought his name fated"
+}

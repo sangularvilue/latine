@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-23",
+  "source": "Cicero",
+  "reference": "In Cat. II.15",
+  "latin": ["Vigilabo", "pro", "vobis", "etiam", "si", "vos", "dormietis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "Vigilabo",
+      "choices": ["Vigilabo", "vobis", "vos", "dormietis"],
+      "reveal": null,
+      "hints": {
+        "vobis": "'vobis' is a pronoun in the ablative/dative — here ablative after 'pro' (for you)",
+        "vos": "'vos' is a pronoun meaning 'you' (nominative/accusative) — here nominative, subject of 'dormietis'",
+        "dormietis": "'dormietis' is a verb but in the conditional 'si' clause"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Vigilabo' translates to?",
+      "target": "to keep watch / stay awake",
+      "choices": ["to be strong", "to keep watch / stay awake", "to conquer", "to live"],
+      "reveal": null,
+      "hints": {
+        "to be strong": "'to be strong' is 'valere' — 'vigilare' means 'to keep watch'",
+        "to conquer": "'to conquer' is 'vincere' — 'vigilare' means 'to stay awake/keep vigil'",
+        "to live": "'to live' is 'vivere' — 'vigilare' means 'to watch'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Vigilabo'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Future perfect indicative"],
+      "reveal": { "word": "Vigilabo", "gloss": "I will keep watch" },
+      "hints": {
+        "Present indicative": "Present would be 'vigilo' — 'Vigilabo' with -bo ending is future",
+        "Present subjunctive": "Present subjunctive would be 'vigilem' — 'Vigilabo' is future indicative",
+        "Future perfect indicative": "Future perfect would be 'vigilavero' — 'Vigilabo' is simple future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Vigilabo'?",
+      "target": "vigilo, vigilare, vigilavi, vigilatum",
+      "choices": ["vigilo, vigilare, vigilavi, vigilatum", "valeo, valere, valui, valitum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "valeo, valere, valui, valitum": "These are the parts of 'valere' (to be strong/well)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'dormietis'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Imperfect subjunctive"],
+      "reveal": { "word": "dormietis", "gloss": "you (will) sleep" },
+      "hints": {
+        "Present indicative": "Present would be 'dormitis' — 'dormietis' with -ietis ending is future",
+        "Present subjunctive": "Present subjunctive would be 'dormiatis' — 'dormietis' is future indicative",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'dormiretis' — 'dormietis' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dormietis'?",
+      "target": "dormio, dormire, dormivi, dormitum",
+      "choices": ["dormio, dormire, dormivi, dormitum", "doleo, dolere, dolui, dolitum", "doceo, docere, docui, doctum", "dono, donare, donavi, donatum"],
+      "reveal": null,
+      "hints": {
+        "doleo, dolere, dolui, dolitum": "These are the parts of 'dolere' (to grieve/hurt)",
+        "doceo, docere, docui, doctum": "These are the parts of 'docere' (to teach)",
+        "dono, donare, donavi, donatum": "These are the parts of 'donare' (to give/donate)"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "vobis", "gloss": "you (for your sake)" },
+      "hints": {
+        "Nominative": "Nominative would be 'vos' — 'vobis' after 'pro' is ablative",
+        "Accusative": "Accusative would be 'vos' — 'pro' governs the ablative",
+        "Dative": "Dative is also 'vobis', but after 'pro' it is ablative meaning 'on behalf of you'"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical contrast between 'vigilabo' and 'dormietis'?",
+      "target": "Cicero's tireless devotion vs. the citizens' ability to rest in safety",
+      "choices": ["Cicero criticizes lazy citizens", "Cicero's tireless devotion vs. the citizens' ability to rest in safety", "A threat that Cicero will attack at night", "Cicero admits he suffers from insomnia"],
+      "reveal": null,
+      "hints": {
+        "Cicero criticizes lazy citizens": "Cicero is not criticizing — he is reassuring them that they can sleep while he watches",
+        "A threat that Cicero will attack at night": "Cicero is promising protection, not threatening attack",
+        "Cicero admits he suffers from insomnia": "The contrast is rhetorical — Cicero portrays himself as a devoted guardian"
+      }
+    }
+  ],
+  "translation": "I will keep watch on your behalf, even if you sleep."
+}

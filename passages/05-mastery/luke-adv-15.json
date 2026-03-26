@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-15",
+  "source": "Vulgate",
+  "reference": "Lucas 23:46",
+  "latin": ["Pater", "in", "manus", "tuas", "commendo", "spiritum", "meum"],
+  "steps": [
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Pater = Father! (voc., direct address)",
+      "hints": {
+        "nominative": "Nominative would also be 'Pater,' but this is direct address — vocative",
+        "accusative": "Accusative would be 'Patrem' — 'Pater' is vocative",
+        "genitive": "Genitive would be 'Patris' — 'Pater' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'pater, patris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'patris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'patris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'patris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does 'in' + accusative 'manus tuas' express?",
+      "target": "motion/direction: 'into your hands'",
+      "choices": ["motion/direction: 'into your hands'", "location: 'in your hands'", "purpose: 'for your hands'", "accompaniment: 'with your hands'"],
+      "reveal": "in manus tuas = into your hands (acc. expressing entrusting)",
+      "hints": {
+        "location: 'in your hands'": "'In' + ablative would express location — 'in' + accusative expresses direction/entrusting",
+        "purpose: 'for your hands'": "Purpose uses 'ad' or a purpose clause — 'in' + accusative here is directional",
+        "accompaniment: 'with your hands'": "'Cum' + ablative expresses accompaniment — 'in' + accusative is directional"
+      }
+    },
+    {
+      "prompt": "What case is 'manus tuas'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "manus tuas = your hands (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural is also 'manus,' but 'tuas' shows feminine accusative plural",
+        "ablative": "Ablative plural would be 'manibus tuis' — 'manus tuas' is accusative",
+        "genitive": "Genitive plural would be 'manuum tuarum' — 'manus tuas' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'manus, manus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'manus' (gen.) ends in -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'manus' (gen.) ends in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'manus' (gen.) ends in -ūs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'commendo' translates to?",
+      "target": "to entrust / to commend",
+      "choices": ["to entrust / to commend", "to command", "to recommend", "to remember"],
+      "reveal": null,
+      "hints": {
+        "to command": "'To command' is 'imperare' or 'iubere' — 'commendare' means to entrust",
+        "to recommend": "While 'commendare' can mean recommend, the primary sense here is to entrust into safekeeping",
+        "to remember": "'To remember' is 'meminisse' or 'commemorare' — 'commendare' means to entrust"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'commendo'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "commendo = I entrust / I commend",
+      "hints": {
+        "perfect indicative": "Perfect would be 'commendavi' — 'commendo' is present indicative",
+        "future indicative": "Future would be 'commendabo' — 'commendo' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'commendem' — 'commendo' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'commendo'?",
+      "target": "commendo, commendare, commendavi, commendatum",
+      "choices": ["commendo, commendare, commendavi, commendatum", "mando, mandare, mandavi, mandatum", "committo, committere, commisi, commissum", "commemoro, commemorare, commemoravi, commemoratum"],
+      "reveal": null,
+      "hints": {
+        "mando, mandare, mandavi, mandatum": "These are the parts of 'mandare' (to entrust/command) — similar but different verb",
+        "committo, committere, commisi, commissum": "These are the parts of 'committere' (to join/entrust) — different compound",
+        "commemoro, commemorare, commemoravi, commemoratum": "These are the parts of 'commemorare' (to recall) — different compound"
+      }
+    },
+    {
+      "prompt": "What case is 'spiritum meum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "spiritum meum = my spirit (acc., object of 'commendo')",
+      "hints": {
+        "nominative": "Nominative would be 'spiritus meus' — 'spiritum meum' with -um is accusative",
+        "ablative": "Ablative would be 'spiritu meo' — 'spiritum meum' is accusative",
+        "genitive": "Genitive would be 'spiritus mei' — 'spiritum meum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'spiritus' (gen.) ends in -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'spiritus' (gen.) ends in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'spiritus' (gen.) ends in -ūs"
+      }
+    },
+    {
+      "prompt": "This verse quotes from which Old Testament psalm?",
+      "target": "Psalm 31 (30):6 — 'In manus tuas commendo spiritum meum'",
+      "choices": ["Psalm 31 (30):6 — 'In manus tuas commendo spiritum meum'", "Psalm 22 (21):1 — 'Deus meus quare me dereliquisti'", "Psalm 23 (22):1 — 'Dominus pascit me'", "Psalm 51 (50):1 — 'Miserere mei Deus'"],
+      "reveal": null,
+      "hints": {
+        "Psalm 22 (21):1 — 'Deus meus quare me dereliquisti'": "That is the cry from Matthew/Mark's crucifixion — Luke's 'in manus tuas' quotes Psalm 31",
+        "Psalm 23 (22):1 — 'Dominus pascit me'": "That is the shepherd psalm — 'in manus tuas commendo' comes from Psalm 31",
+        "Psalm 51 (50):1 — 'Miserere mei Deus'": "That is David's penitential psalm — 'in manus tuas' is from Psalm 31"
+      }
+    },
+    {
+      "prompt": "This is Jesus's last word in Luke's Gospel. How does the use of present tense 'commendo' differ from a past tense?",
+      "target": "the present tense makes the act of entrusting immediate and volitional",
+      "choices": ["the present tense makes the act of entrusting immediate and volitional", "the present tense is used because the action is incomplete", "the present tense is a historical present for past events", "there is no difference in meaning"],
+      "reveal": null,
+      "hints": {
+        "the present tense is used because the action is incomplete": "The action is being completed at this moment — the present expresses the immediacy of the act",
+        "the present tense is a historical present for past events": "Historical presents narrate past events — but Jesus is speaking in the present moment of his death",
+        "there is no difference in meaning": "The choice of present tense is significant — it shows active, conscious surrender at the moment of death"
+      }
+    }
+  ],
+  "translation": "Father, into your hands I commend my spirit"
+}

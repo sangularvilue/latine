@@ -1,0 +1,119 @@
+{
+  "id": "luke-22-04",
+  "source": "Vulgate",
+  "reference": "Lucas 22:42",
+  "latin": ["Non", "mea", "voluntas", "sed", "tua", "fiat"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "fiat",
+      "choices": ["fiat", "voluntas", "mea", "tua"],
+      "reveal": null,
+      "hints": {
+        "voluntas": "'Voluntas' is a noun meaning 'will' — it is the subject",
+        "mea": "'Mea' is a possessive adjective meaning 'my'",
+        "tua": "'Tua' is a possessive adjective meaning 'your'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fiat' translates to?",
+      "target": "to become / to be made / to be done",
+      "choices": ["to become / to be made / to be done", "to make / to do", "to carry", "to trust"],
+      "reveal": null,
+      "hints": {
+        "to make / to do": "'To make' is 'facere' — 'fiat' is from 'fieri' (the passive of 'facere')",
+        "to carry": "'To carry' is 'ferre' — 'fiat' is from 'fio, fieri'",
+        "to trust": "'To trust' is 'fidere' — 'fiat' is from 'fio, fieri' (to become/be done)"
+      }
+    },
+    {
+      "prompt": "What mood is 'fiat'?",
+      "target": "present subjunctive (jussive)",
+      "choices": ["present subjunctive (jussive)", "present indicative", "future indicative", "imperfect subjunctive"],
+      "reveal": "fiat = let [it] be done / may [it] happen (jussive subjunctive)",
+      "hints": {
+        "present indicative": "Present indicative would be 'fit' — 'fiat' with -a- is subjunctive",
+        "future indicative": "Future would be 'fiet' — 'fiat' is present subjunctive",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'fieret' — 'fiat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fiat'?",
+      "target": "fio, fieri, factus sum, —",
+      "choices": ["fio, fieri, factus sum, —", "facio, facere, feci, factum", "fido, fidere, fisus sum, —", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facio' (to make) — 'fio' serves as its passive",
+        "fido, fidere, fisus sum, —": "These are the parts of 'fido' (to trust) — a semi-deponent",
+        "fero, ferre, tuli, latum": "These are the parts of 'fero' (to carry/bear)"
+      }
+    },
+    {
+      "prompt": "Why is 'fiat' subjunctive here?",
+      "target": "jussive subjunctive expressing a wish or command",
+      "choices": ["jussive subjunctive expressing a wish or command", "purpose clause after 'ut'", "indirect question", "result clause"],
+      "reveal": "The subjunctive expresses Jesus' prayer: 'let your will be done'",
+      "hints": {
+        "purpose clause after 'ut'": "There is no 'ut' — this is an independent jussive subjunctive",
+        "indirect question": "There is no interrogative word — this is a direct wish/command",
+        "result clause": "Result clauses use 'ut' + subjunctive — this is independent, expressing a wish"
+      }
+    },
+    {
+      "prompt": "What case is 'voluntas'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "voluntas = will (nom., subject of 'fiat')",
+      "hints": {
+        "accusative": "Accusative would be 'voluntatem' — 'voluntas' is nominative",
+        "genitive": "Genitive would be 'voluntatis' — 'voluntas' is nominative",
+        "ablative": "Ablative would be 'voluntate' — 'voluntas' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'voluntas, voluntatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'voluntatis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'voluntatis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'voluntatis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the understood subject of 'fiat'?",
+      "target": "'voluntas' (tua) — your will",
+      "choices": ["'voluntas' (tua) — your will", "'ego' — I", "'corpus' — body", "'Deus' — God"],
+      "reveal": "Non mea [voluntas] sed tua [voluntas] fiat = Not my will but yours be done",
+      "hints": {
+        "'ego' — I": "The verb 'fiat' is 3rd person singular — 'I' would require 'fiam'",
+        "'corpus' — body": "'Corpus' is not mentioned in this passage — the subject is 'voluntas'",
+        "'Deus' — God": "'Deus' is not the grammatical subject — 'tua voluntas' (your will) is"
+      }
+    },
+    {
+      "prompt": "What grammatical feature is 'Non mea... sed tua'?",
+      "target": "ellipsis — 'voluntas' is understood with both 'mea' and 'tua'",
+      "choices": ["ellipsis — 'voluntas' is understood with both 'mea' and 'tua'", "ablative absolute", "indirect statement", "asyndeton"],
+      "reveal": null,
+      "hints": {
+        "ablative absolute": "Ablative absolute requires ablative noun + participle — these are nominatives",
+        "indirect statement": "Indirect statement uses accusative + infinitive — this is a direct wish",
+        "asyndeton": "Asyndeton omits conjunctions — 'sed' is present as a conjunction here"
+      }
+    },
+    {
+      "prompt": "What case is 'mea'?",
+      "target": "nominative feminine",
+      "choices": ["nominative feminine", "ablative feminine", "vocative feminine", "accusative neuter plural"],
+      "reveal": "mea [voluntas] = my [will] (nom. fem.)",
+      "hints": {
+        "ablative feminine": "Ablative feminine 'mea' looks the same, but it agrees with 'voluntas' (nom.)",
+        "vocative feminine": "Vocative would be for direct address — 'mea' modifies the subject 'voluntas'",
+        "accusative neuter plural": "Accusative neuter plural 'mea' is possible, but here it modifies 'voluntas' (fem. nom.)"
+      }
+    }
+  ],
+  "translation": "Not my will but yours be done"
+}

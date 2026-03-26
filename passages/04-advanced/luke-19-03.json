@@ -1,0 +1,130 @@
+{
+  "id": "luke-19-03",
+  "source": "Vulgate",
+  "reference": "Lucas 19:42",
+  "latin": ["Si", "cognovisses", "et", "tu", "quae", "ad", "pacem", "tibi"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "cognovisses",
+      "choices": ["cognovisses", "Si", "tu", "pacem"],
+      "reveal": null,
+      "hints": {
+        "Si": "'Si' is a conjunction meaning 'if' — it introduces the conditional clause",
+        "tu": "'Tu' is a personal pronoun meaning 'you'",
+        "pacem": "'Pacem' is a noun meaning 'peace' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cognovisses' translates to?",
+      "target": "to know / to recognize",
+      "choices": ["to know / to recognize", "to think", "to believe", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to think": "'To think' is 'cogitare' — 'cognovisses' comes from 'cognoscere'",
+        "to believe": "'To believe' is 'credere' — 'cognovisses' comes from 'cognoscere'",
+        "to gather": "'To gather' is 'cogere' — 'cognovisses' comes from 'cognoscere' (co- + gnoscere)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'cognovisses'?",
+      "target": "pluperfect subjunctive",
+      "choices": ["pluperfect subjunctive", "perfect subjunctive", "pluperfect indicative", "imperfect subjunctive"],
+      "reveal": "cognovisses = you had known (if only you had known!)",
+      "hints": {
+        "perfect subjunctive": "Perfect subjunctive would be 'cognoveris' — 'cognovisses' with -isse- is pluperfect",
+        "pluperfect indicative": "Pluperfect indicative would be 'cognoveras' — '-isses' marks the subjunctive",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'cognosceres' — '-isses' marks the pluperfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cognovisses'?",
+      "target": "cognosco, cognoscere, cognovi, cognitum",
+      "choices": ["cognosco, cognoscere, cognovi, cognitum", "cogito, cogitare, cogitavi, cogitatum", "cogo, cogere, coegi, coactum", "nosco, noscere, novi, notum"],
+      "reveal": null,
+      "hints": {
+        "cogito, cogitare, cogitavi, cogitatum": "These are the principal parts of 'cogito' (to think)",
+        "cogo, cogere, coegi, coactum": "These are the principal parts of 'cogo' (to compel/gather)",
+        "nosco, noscere, novi, notum": "These are the parts of 'nosco' (to learn) — 'cognoscere' is the compound co- + gnoscere"
+      }
+    },
+    {
+      "prompt": "What type of conditional is 'Si cognovisses'?",
+      "target": "contrary-to-fact (past unreal)",
+      "choices": ["contrary-to-fact (past unreal)", "simple present condition", "future more vivid", "future less vivid"],
+      "reveal": "Si + pluperfect subjunctive = past contrary-to-fact condition",
+      "hints": {
+        "simple present condition": "A simple present condition uses 'si' + present indicative, not subjunctive",
+        "future more vivid": "Future more vivid uses 'si' + future indicative or future perfect",
+        "future less vivid": "Future less vivid uses 'si' + present subjunctive, not pluperfect"
+      }
+    },
+    {
+      "prompt": "What case is 'tu'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "accusative", "dative"],
+      "reveal": "tu = you (nom., emphatic)",
+      "hints": {
+        "ablative": "Ablative of 'tu' would be 'te' — 'tu' is nominative",
+        "accusative": "Accusative of 'tu' would be 'te' — 'tu' is nominative",
+        "dative": "Dative of 'tu' would be 'tibi' — 'tu' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'pacem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "pacem = peace (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'pax' — 'pacem' with -em ending is accusative",
+        "ablative": "Ablative would be 'pace' — 'pacem' ends in -em (accusative)",
+        "dative": "Dative would be 'paci' — 'pacem' ends in -em (accusative)"
+      }
+    },
+    {
+      "prompt": "What declension is 'pax, pacis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pacis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'pacis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'pacis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'tibi'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "accusative", "nominative"],
+      "reveal": "tibi = for you (dat.)",
+      "hints": {
+        "ablative": "Ablative of 'tu' is 'te' — 'tibi' is the dative form",
+        "accusative": "Accusative of 'tu' is 'te' — 'tibi' is the dative form",
+        "nominative": "Nominative is 'tu' — 'tibi' is the dative singular"
+      }
+    },
+    {
+      "prompt": "What function does 'quae' serve?",
+      "target": "relative pronoun (the things which)",
+      "choices": ["relative pronoun (the things which)", "interrogative adjective", "indefinite pronoun", "conjunction"],
+      "reveal": "quae = the things which (nom./acc. neut. pl.)",
+      "hints": {
+        "interrogative adjective": "'Quae' can be interrogative, but here it introduces a relative clause after 'cognovisses'",
+        "indefinite pronoun": "'Quae' as indefinite would follow 'si/ne/num' — here it is relative",
+        "conjunction": "'Quae' is not a conjunction — it is a form of the relative pronoun 'qui, quae, quod'"
+      }
+    },
+    {
+      "prompt": "Why is the 'et' before 'tu' significant?",
+      "target": "it adds emphasis: 'even you / you too'",
+      "choices": ["it adds emphasis: 'even you / you too'", "it joins two subjects", "it introduces an additional clause", "it is a scribal error"],
+      "reveal": null,
+      "hints": {
+        "it joins two subjects": "There is only one subject 'tu' — 'et tu' is emphatic, meaning 'you also/even you'",
+        "it introduces an additional clause": "'Et' here modifies 'tu' adverbially (= etiam), not a new clause",
+        "it is a scribal error": "'Et tu' meaning 'even you' is a well-attested Vulgate reading, not an error"
+      }
+    }
+  ],
+  "translation": "If you had known, even you, the things that make for your peace"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "luke-adv-13",
+  "source": "Vulgate",
+  "reference": "Lucas 11:9",
+  "latin": ["Petite", "et", "dabitur", "vobis", "quaerite", "et", "invenietis"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Petite' translates to?",
+      "target": "to seek / to ask",
+      "choices": ["to seek / to ask", "to strike", "to think", "to push"],
+      "reveal": null,
+      "hints": {
+        "to strike": "'To strike' is 'petere' in one sense, but with 'dabitur' it means to ask/request",
+        "to think": "'To think' is 'putare' or 'cogitare' — 'petere' means to seek or ask",
+        "to push": "'To push' is 'pellere' — 'petere' means to seek or request"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Petite'?",
+      "target": "present imperative (2nd pl.)",
+      "choices": ["present indicative", "present imperative (2nd pl.)", "present subjunctive", "future indicative"],
+      "reveal": "Petite = Ask! / Seek! (imperative)",
+      "hints": {
+        "present indicative": "Present indicative would be 'petitis' — 'Petite' without -is is imperative",
+        "present subjunctive": "Present subjunctive would be 'petatis' — 'Petite' is imperative",
+        "future indicative": "Future would be 'petetis' — 'Petite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Petite'?",
+      "target": "peto, petere, petivi, petitum",
+      "choices": ["peto, petere, petivi, petitum", "pono, ponere, posui, positum", "pello, pellere, pepuli, pulsum", "puto, putare, putavi, putatum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)",
+        "pello, pellere, pepuli, pulsum": "These are the parts of 'pellere' (to drive)",
+        "puto, putare, putavi, putatum": "These are the parts of 'putare' (to think)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dabitur' translates to?",
+      "target": "to give",
+      "choices": ["to give", "to lead", "to say", "to take"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'To lead' is 'ducere' — 'dabitur' comes from 'dare' (to give)",
+        "to say": "'To say' is 'dicere' — 'dare' means to give",
+        "to take": "'To take' is 'capere' — 'dare' means to give"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'dabitur'?",
+      "target": "future passive indicative",
+      "choices": ["present passive indicative", "future passive indicative", "present subjunctive", "perfect passive indicative"],
+      "reveal": "dabitur = it will be given",
+      "hints": {
+        "present passive indicative": "Present passive would be 'datur' — 'dabitur' with -bi- is future",
+        "present subjunctive": "Present subjunctive passive would be 'detur' — 'dabitur' is future indicative",
+        "perfect passive indicative": "Perfect passive would be 'datum est' — 'dabitur' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dabitur'?",
+      "target": "do, dare, dedi, datum",
+      "choices": ["do, dare, dedi, datum", "duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "doceo, docere, docui, doctum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dicere' (to say)",
+        "doceo, docere, docui, doctum": "These are the parts of 'docere' (to teach)"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "vobis = to you (dat., indirect object of 'dabitur')",
+      "hints": {
+        "nominative": "Nominative would be 'vos' — 'vobis' is dative or ablative",
+        "accusative": "Accusative would be 'vos' — 'vobis' is dative here",
+        "ablative": "'Vobis' can be ablative, but with passive 'dabitur' it is dative recipient"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'quaerite' translates to?",
+      "target": "to seek / to search for",
+      "choices": ["to seek / to search for", "to ask", "to complain", "to acquire"],
+      "reveal": null,
+      "hints": {
+        "to ask": "'To ask' is 'quaerere' in one sense, but the primary meaning is to seek or search",
+        "to complain": "'To complain' is 'queri' (deponent) — 'quaerere' means to seek",
+        "to acquire": "'To acquire' is 'acquirere' — 'quaerere' means to seek"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'quaerite'?",
+      "target": "present imperative (2nd pl.)",
+      "choices": ["present indicative", "present imperative (2nd pl.)", "present subjunctive", "perfect indicative"],
+      "reveal": "quaerite = Seek! / Search! (imperative)",
+      "hints": {
+        "present indicative": "Present indicative would be 'quaeritis' — 'quaerite' is imperative",
+        "present subjunctive": "Present subjunctive would be 'quaeratis' — 'quaerite' is imperative",
+        "perfect indicative": "Perfect would be 'quaesivistis' — 'quaerite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'quaerite'?",
+      "target": "quaero, quaerere, quaesivi, quaesitum",
+      "choices": ["quaero, quaerere, quaesivi, quaesitum", "queror, queri, questus sum", "acquiro, acquirere, acquisivi, acquisitum", "requiro, requirere, requisivi, requisitum"],
+      "reveal": null,
+      "hints": {
+        "queror, queri, questus sum": "These are the parts of 'queri' (to complain) — a deponent verb",
+        "acquiro, acquirere, acquisivi, acquisitum": "These are the parts of 'acquirere' (to acquire) — different compound",
+        "requiro, requirere, requisivi, requisitum": "These are the parts of 'requirere' (to seek again) — different compound"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'invenietis' translates to?",
+      "target": "to find / to discover",
+      "choices": ["to find / to discover", "to come", "to invent", "to enter"],
+      "reveal": null,
+      "hints": {
+        "to come": "'To come' is 'venire' — 'invenietis' comes from 'invenire' (to find)",
+        "to invent": "While English 'invent' derives from it, Latin 'invenire' primarily means to find or discover",
+        "to enter": "'To enter' is 'intrare' or 'ingredi' — 'invenire' means to find"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'invenietis'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "invenietis = you will find",
+      "hints": {
+        "present indicative": "Present would be 'invenitis' — 'invenietis' with -ie- is future (4th conj.)",
+        "present subjunctive": "Present subjunctive would be 'inveniatis' — 'invenietis' is future indicative",
+        "perfect indicative": "Perfect would be 'invenistis' — 'invenietis' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'invenietis'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "convenio, convenire, conveni, conventum", "evenio, evenire, eveni, eventum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — the base verb",
+        "convenio, convenire, conveni, conventum": "These are the parts of 'convenire' (to come together)",
+        "evenio, evenire, eveni, eventum": "These are the parts of 'evenire' (to turn out/happen)"
+      }
+    }
+  ],
+  "translation": "Ask and it will be given to you; seek and you will find"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-7-07",
+  "source": "Vulgate",
+  "reference": "Lucas 7:22",
+  "latin": ["Caeci", "vident", "claudi", "ambulant"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "vident and ambulant",
+      "choices": ["vident and ambulant", "Caeci and claudi", "vident only", "ambulant only"],
+      "reveal": null,
+      "hints": {
+        "Caeci and claudi": "'Caeci' (the blind) and 'claudi' (the lame) are adjectives used as nouns",
+        "vident only": "There are two verbs: 'vident' (they see) and 'ambulant' (they walk)",
+        "ambulant only": "'ambulant' is a verb, but so is 'vident' — both are finite"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vident' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to live", "to conquer", "to come"],
+      "reveal": null,
+      "hints": {
+        "to live": "'to live' is 'vivere' — 'vident' comes from 'videre' (to see)",
+        "to conquer": "'to conquer' is 'vincere' — 'vident' comes from 'videre' (to see)",
+        "to come": "'to come' is 'venire' — 'vident' comes from 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "What tense is 'vident'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "vident", "gloss": "they see" },
+      "hints": {
+        "perfect": "Perfect 3rd plural would be 'viderunt' — 'vident' is present",
+        "imperfect": "Imperfect would be 'videbant' — 'vident' is present",
+        "future": "Future would be 'videbunt' — 'vident' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vident'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vivo, vivere, vixi, victum": "These are principal parts of 'vivo' (to live)",
+        "vinco, vincere, vici, victum": "These are principal parts of 'vinco' (to conquer)",
+        "venio, venire, veni, ventum": "These are principal parts of 'venio' (to come)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'ambulant' translates to?",
+      "target": "to walk",
+      "choices": ["to walk", "to love", "to wander", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to love": "'to love' is 'amare' — 'ambulant' comes from 'ambulare' (to walk)",
+        "to wander": "'to wander' is 'errare/vagari' — 'ambulare' specifically means 'to walk'",
+        "to carry": "'to carry' is 'ferre/portare' — 'ambulant' comes from 'ambulare' (to walk)"
+      }
+    },
+    {
+      "prompt": "What tense is 'ambulant'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "ambulant", "gloss": "they walk" },
+      "hints": {
+        "perfect": "Perfect would be 'ambulaverunt' — 'ambulant' is present",
+        "imperfect": "Imperfect would be 'ambulabant' — 'ambulant' is present",
+        "future": "Future would be 'ambulabunt' — 'ambulant' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ambulant'?",
+      "target": "ambulo, ambulare, ambulavi, ambulatum",
+      "choices": ["ambulo, ambulare, ambulavi, ambulatum", "amo, amare, amavi, amatum", "erro, errare, erravi, erratum", "porto, portare, portavi, portatum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are principal parts of 'amo' (to love)",
+        "erro, errare, erravi, erratum": "These are principal parts of 'erro' (to wander/err)",
+        "porto, portare, portavi, portatum": "These are principal parts of 'porto' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'Caeci'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": { "word": "Caeci", "gloss": "the blind" },
+      "hints": {
+        "genitive": "Genitive singular would also be 'caeci', but here it is nominative plural (subject of 'vident')",
+        "dative": "Dative plural would be 'caecis' — 'Caeci' is nominative plural",
+        "vocative": "Vocative plural would also be 'caeci', but this is a declaration, not an address"
+      }
+    },
+    {
+      "prompt": "What case is 'claudi'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": { "word": "claudi", "gloss": "the lame" },
+      "hints": {
+        "genitive": "Genitive singular would also be 'claudi', but here it is nominative plural (subject of 'ambulant')",
+        "dative": "Dative plural would be 'claudis' — 'claudi' is nominative plural",
+        "vocative": "Vocative plural would also be 'claudi' but this is a declaration"
+      }
+    }
+  ],
+  "translation": "The blind see, the lame walk"
+}

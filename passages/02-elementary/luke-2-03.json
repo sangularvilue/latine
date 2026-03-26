@@ -1,0 +1,97 @@
+{
+  "id": "luke-2-03",
+  "source": "Vulgate",
+  "reference": "Lucas 2:7",
+  "latin": ["Peperit", "filium", "suum", "primogenitum"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Peperit",
+      "choices": ["Peperit", "filium", "suum", "primogenitum"],
+      "reveal": null,
+      "hints": {
+        "filium": "'filium' is a noun meaning 'son' in the accusative case",
+        "suum": "'suum' is a possessive adjective meaning 'her own'",
+        "primogenitum": "'primogenitum' is an adjective meaning 'firstborn'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Peperit' translates to?",
+      "target": "to give birth to",
+      "choices": ["to give birth to", "to prepare", "to seek", "to endure"],
+      "reveal": null,
+      "hints": {
+        "to prepare": "'to prepare' is 'parare' — 'Peperit' comes from 'parere' (to give birth)",
+        "to seek": "'to seek' is 'petere' — 'Peperit' comes from 'parere'",
+        "to endure": "'to endure' is 'perpeti' — 'Peperit' comes from 'parere' (to bear/bring forth)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Peperit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "Peperit", "gloss": "she bore / gave birth to" },
+      "hints": {
+        "Present": "Present would be 'parit' — 'Peperit' with reduplication (pe-) marks the perfect",
+        "Imperfect": "Imperfect would be 'pariebat' — 'Peperit' is the 3rd singular perfect",
+        "Pluperfect": "Pluperfect would be 'pepererat' — 'Peperit' is 3rd singular perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Peperit'?",
+      "target": "pario, parere, peperi, partum",
+      "choices": ["pario, parere, peperi, partum", "paro, parare, paravi, paratum", "pareo, parere, parui, paritum", "pello, pellere, pepuli, pulsum"],
+      "reveal": null,
+      "hints": {
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare) — a 1st conjugation verb",
+        "pareo, parere, parui, paritum": "These are the parts of 'parere' (to obey) — a different verb",
+        "pello, pellere, pepuli, pulsum": "These are the parts of 'pellere' (to drive) — also has reduplication but different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'filium'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Dative"],
+      "reveal": { "word": "filium", "gloss": "son" },
+      "hints": {
+        "Nominative": "Nominative would be 'filius' — 'filium' with -um ending is accusative",
+        "Ablative": "Ablative would be 'filio' — 'filium' is the accusative direct object",
+        "Dative": "Dative would be 'filio' — 'filium' is the accusative direct object of 'Peperit'"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'filii' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'primogenitum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "primogenitum", "gloss": "firstborn" },
+      "hints": {
+        "Nominative": "Nominative would be 'primogenitus' — 'primogenitum' agrees with 'filium' in the accusative",
+        "Ablative": "Ablative would be 'primogenito' — 'primogenitum' is accusative modifying 'filium'",
+        "Genitive": "Genitive would be 'primogeniti' — 'primogenitum' is accusative agreeing with 'filium'"
+      }
+    },
+    {
+      "prompt": "What declension is 'primogenitus, primogeniti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'primogeniti' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'primogeniti' ends in -i",
+        "5th declension": "5th declension has genitive in -ei — 'primogeniti' ends in -i"
+      }
+    }
+  ],
+  "translation": "She bore her firstborn son"
+}

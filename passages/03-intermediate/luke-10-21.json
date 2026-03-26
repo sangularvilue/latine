@@ -1,0 +1,108 @@
+{
+  "id": "luke-10-21",
+  "source": "Vulgate",
+  "reference": "Lucas 10:41",
+  "latin": ["Martha", "Martha", "sollicita", "es", "et", "turbaris"],
+  "steps": [
+    {
+      "prompt": "Why is 'Martha' repeated?",
+      "target": "emphatic vocative (direct address with urgency)",
+      "choices": ["emphatic vocative (direct address with urgency)", "it is a scribal error", "one is nominative, one is vocative", "it indicates two different people"],
+      "reveal": null,
+      "hints": {
+        "it is a scribal error": "The repetition is intentional in the Vulgate — it conveys urgency and affection",
+        "one is nominative, one is vocative": "Both 'Martha' are vocative — the repetition adds emphasis",
+        "it indicates two different people": "Both refer to the same Martha — the repetition is for rhetorical emphasis"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to know"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'es' here is from 'esse' (to be)",
+        "to go": "That would be 'ire' — 'es' is from 'esse' (to be)",
+        "to know": "That would be 'scire' — 'es' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'es'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "imperfect indicative", "future indicative"],
+      "reveal": "es = you are",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sis' — 'es' is present indicative",
+        "imperfect indicative": "Imperfect would be 'eras' — 'es' is present indicative",
+        "future indicative": "Future would be 'eris' — 'es' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'es'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "exsto, exstare, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "exsto, exstare, exstiti, —": "These are the parts of 'exstare' (to stand out)"
+      }
+    },
+    {
+      "prompt": "What case is 'sollicita'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "sollicita = anxious/worried (nom. fem. sg., predicate adj.)",
+      "hints": {
+        "accusative": "Accusative feminine would be 'sollicitam' — 'sollicita' is nominative predicate",
+        "ablative": "Ablative feminine would be 'sollicita', but here it is predicate nominative with 'es'",
+        "vocative": "Vocative would be for direct address — 'sollicita' describes Martha, predicate nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'turbaris' translates to?",
+      "target": "to be troubled / to be disturbed",
+      "choices": ["to be troubled / to be disturbed", "to turn", "to crowd", "to stir up"],
+      "reveal": null,
+      "hints": {
+        "to turn": "That would be 'vertere' — 'turbaris' comes from 'turbari' (to be troubled)",
+        "to crowd": "While 'turba' means 'crowd', 'turbari' means 'to be troubled/disturbed'",
+        "to stir up": "That would be the active 'turbare' — 'turbaris' is passive, 'to be troubled'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'turbaris'?",
+      "target": "present indicative passive",
+      "choices": ["present indicative active", "present indicative passive", "present subjunctive passive", "perfect indicative passive"],
+      "reveal": "turbaris = you are troubled",
+      "hints": {
+        "present indicative active": "Active would be 'turbas' — 'turbaris' with -ris is passive",
+        "present subjunctive passive": "Subjunctive passive would be 'turberis' — 'turbaris' with -a- is indicative (1st conj.)",
+        "perfect indicative passive": "Perfect passive would be 'turbata es' — 'turbaris' is present passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'turbaris'?",
+      "target": "turbo, turbare, turbavi, turbatum",
+      "choices": ["turbo, turbare, turbavi, turbatum", "turbo, turbinis, m. (noun)", "verto, vertere, verti, versum", "perturbo, perturbare, perturbavi, perturbatum"],
+      "reveal": null,
+      "hints": {
+        "turbo, turbinis, m. (noun)": "That is the noun 'turbo' (whirlwind) — the verb is 'turbo, turbare'",
+        "verto, vertere, verti, versum": "These are the parts of 'vertere' (to turn)",
+        "perturbo, perturbare, perturbavi, perturbatum": "These are the parts of 'perturbare' (to thoroughly disturb) — a compound of 'turbare'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Martha'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension names end in -us — 'Martha' ends in -a (1st declension)",
+        "3rd declension": "3rd declension names have -is in genitive — 'Martha' follows -a pattern",
+        "indeclinable": "'Martha' does decline in Latin: Martha, Marthae, etc."
+      }
+    }
+  ],
+  "translation": "Martha, Martha, you are anxious and troubled"
+}

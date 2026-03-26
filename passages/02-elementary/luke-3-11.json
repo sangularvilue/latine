@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-11",
+  "source": "Vulgate",
+  "reference": "Lucas 3:6",
+  "latin": ["Videbit", "omnis", "caro", "salutare", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Videbit",
+      "choices": ["Videbit", "omnis", "caro", "salutare"],
+      "reveal": null,
+      "hints": {
+        "omnis": "'omnis' is an adjective meaning 'all/every' modifying 'caro'",
+        "caro": "'caro' is a noun meaning 'flesh' — the subject",
+        "salutare": "'salutare' is a noun (neuter) meaning 'salvation' — the direct object"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Videbit' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to seem", "to divide", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to seem": "'to seem' is 'videri' (passive of videre) — active 'videre' means 'to see'",
+        "to divide": "'to divide' is 'dividere' — 'Videbit' comes from 'videre' (to see)",
+        "to avoid": "'to avoid' is 'vitare' — 'Videbit' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Videbit'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Videbit", "gloss": "shall see" },
+      "hints": {
+        "Present": "Present would be 'videt' — 'Videbit' with -bi- is future",
+        "Imperfect": "Imperfect would be 'videbat' — 'Videbit' is future active",
+        "Perfect": "Perfect would be 'vidit' — 'Videbit' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Videbit'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "venio, venire, veni, ventum", "vivo, vivere, vixi, victum", "vinco, vincere, vici, victum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)"
+      }
+    },
+    {
+      "prompt": "What case is 'caro'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "caro", "gloss": "flesh / all mankind" },
+      "hints": {
+        "Accusative": "Accusative would be 'carnem' — 'caro' is nominative, the subject",
+        "Ablative": "Ablative would be 'carne' — 'caro' is nominative",
+        "Genitive": "Genitive would be 'carnis' — 'caro' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'caro, carnis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'carnis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'carnis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'carnis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'salutare'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "salutare", "gloss": "the salvation" },
+      "hints": {
+        "Nominative": "'salutare' (neuter noun) looks the same in nominative, but here it is the direct object — accusative",
+        "Ablative": "Ablative of a neuter 3rd declension noun would be 'salutari' — 'salutare' is accusative",
+        "Vocative": "Vocative is the same as nominative for neuters, but 'salutare' is the direct object here"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Dei", "gloss": "of God" },
+      "hints": {
+        "Nominative": "Nominative would be 'Deus' — 'Dei' with -i ending is genitive",
+        "Dative": "Dative would be 'Deo' — 'Dei' is genitive (the salvation of God)",
+        "Vocative": "Vocative would be 'Deus/Dee' — 'Dei' is genitive"
+      }
+    }
+  ],
+  "translation": "All flesh shall see the salvation of God"
+}

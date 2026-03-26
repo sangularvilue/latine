@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-15",
+  "source": "Vulgate",
+  "reference": "Lucas 1:51",
+  "latin": ["Fecit", "potentiam", "in", "brachio", "suo"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Fecit",
+      "choices": ["Fecit", "potentiam", "brachio", "suo"],
+      "reveal": null,
+      "hints": {
+        "potentiam": "'Potentiam' is a noun meaning 'power/might'",
+        "brachio": "'Brachio' is a noun meaning 'arm'",
+        "suo": "'Suo' is a possessive adjective meaning 'his/its'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fecit' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to say", "to carry", "to be able"],
+      "reveal": null,
+      "hints": {
+        "to say": "That would be 'dicere'",
+        "to carry": "That would be 'ferre'",
+        "to be able": "That would be 'posse'"
+      }
+    },
+    {
+      "prompt": "What tense is 'fecit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "pluperfect"],
+      "reveal": "fecit = he has shown / he wrought",
+      "hints": {
+        "present indicative": "Present would be 'facit'; 'fecit' uses the perfect stem 'fec-'",
+        "imperfect": "Imperfect would be 'faciebat'",
+        "pluperfect": "Pluperfect would be 'fecerat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecit'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "possum, posse, potui, —", "pono, ponere, posui, positum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the principal parts of 'fero' (to carry)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)",
+        "pono, ponere, posui, positum": "These are the principal parts of 'pono' (to place)"
+      }
+    },
+    {
+      "prompt": "What case is 'potentiam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "potentiam = power/might (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'potentia'; 'potentiam' with -am is accusative",
+        "ablative": "Ablative would be 'potentia'",
+        "genitive": "Genitive would be 'potentiae'"
+      }
+    },
+    {
+      "prompt": "What declension is 'potentia'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um; 'potentia' ends in -a",
+        "3rd declension": "3rd declension has -is in the genitive; 'potentia' has genitive 'potentiae'",
+        "5th declension": "5th declension nouns end in -es; 'potentia' follows the 1st declension -a pattern"
+      }
+    },
+    {
+      "prompt": "What case is 'brachio'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "brachio = arm (abl.)",
+      "hints": {
+        "nominative": "Nominative is 'brachium'; 'brachio' with -o is ablative/dative",
+        "dative": "Dative would also be 'brachio', but after 'in' it is ablative of means/instrument",
+        "accusative": "Accusative would be 'brachium'"
+      }
+    },
+    {
+      "prompt": "What declension is 'brachium'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'brachium' ends in -um",
+        "3rd declension": "3rd declension has -is in the genitive; 'brachium' has genitive 'brachii'",
+        "4th declension": "4th declension nouns have genitive -us; 'brachium' has genitive 'brachii'"
+      }
+    }
+  ],
+  "translation": "He has shown strength with his arm"
+}

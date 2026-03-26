@@ -1,0 +1,86 @@
+{
+  "id": "luke-2-02",
+  "source": "Vulgate",
+  "reference": "Lucas 2:4",
+  "latin": ["Ascendit", "et", "Ioseph", "a", "Galilaea"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Ascendit",
+      "choices": ["Ascendit", "et", "Ioseph", "Galilaea"],
+      "reveal": null,
+      "hints": {
+        "et": "'et' is a conjunction meaning 'also/and'",
+        "Ioseph": "'Ioseph' is a proper noun — the subject of the sentence",
+        "Galilaea": "'Galilaea' is a proper noun — the name of the region Galilee"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Ascendit' translates to?",
+      "target": "to go up",
+      "choices": ["to go up", "to send", "to know", "to set on fire"],
+      "reveal": null,
+      "hints": {
+        "to send": "'to send' is 'mittere' — 'Ascendit' comes from 'ascendere' (to climb up)",
+        "to know": "'to know' is 'scire' — 'Ascendit' comes from 'ascendere'",
+        "to set on fire": "'to set on fire' is 'accendere' — 'Ascendit' comes from 'ascendere' (ad + scandere)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Ascendit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Ascendit", "gloss": "went up" },
+      "hints": {
+        "Present": "Present 'ascendit' looks identical but context (narrative) confirms perfect tense here",
+        "Imperfect": "Imperfect would be 'ascendebat' — 'Ascendit' is 3rd singular perfect",
+        "Future": "Future would be 'ascendet' — 'Ascendit' is 3rd singular perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Ascendit'?",
+      "target": "ascendo, ascendere, ascendi, ascensum",
+      "choices": ["ascendo, ascendere, ascendi, ascensum", "accendo, accendere, accendi, accensum", "scando, scandere, scandi, scansum", "descendo, descendere, descendi, descensum"],
+      "reveal": null,
+      "hints": {
+        "accendo, accendere, accendi, accensum": "These are the parts of 'accendere' (to kindle/set fire)",
+        "scando, scandere, scandi, scansum": "These are the parts of 'scandere' (to climb) — 'ascendere' adds the prefix ad-",
+        "descendo, descendere, descendi, descensum": "These are the parts of 'descendere' (to go down) — the opposite direction"
+      }
+    },
+    {
+      "prompt": "What case is 'Galilaea'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Genitive"],
+      "reveal": { "word": "Galilaea", "gloss": "from Galilee" },
+      "hints": {
+        "Nominative": "Nominative 'Galilaea' looks the same, but 'a' (from) governs the ablative here",
+        "Vocative": "Vocative would be used for direct address — here 'Galilaea' follows the preposition 'a'",
+        "Genitive": "Genitive would be 'Galilaeae' — 'Galilaea' is ablative after 'a'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Galilaea, Galilaeae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Galilaeae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'Galilaeae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'Galilaeae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "Who is the subject of 'Ascendit'?",
+      "target": "Ioseph",
+      "choices": ["Ascendit", "et", "Ioseph", "Galilaea"],
+      "reveal": null,
+      "hints": {
+        "Ascendit": "'Ascendit' is the verb itself, not the subject",
+        "et": "'et' is a conjunction (and/also) — it cannot be the subject",
+        "Galilaea": "'Galilaea' is in the ablative after 'a' — it names the place departed from"
+      }
+    }
+  ],
+  "translation": "And Joseph went up from Galilee"
+}

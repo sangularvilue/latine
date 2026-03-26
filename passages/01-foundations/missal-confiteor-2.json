@@ -1,0 +1,119 @@
+{
+  "id": "missal-confiteor-2",
+  "source": "Missal",
+  "reference": "Confiteor (II)",
+  "latin": ["Mea", "culpa", "mea", "culpa", "mea", "maxima", "culpa", "ideo", "precor", "vos", "fratres", "orare", "pro", "me"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb of the second clause?",
+      "target": "precor",
+      "choices": ["culpa", "precor", "orare", "maxima"],
+      "reveal": null,
+      "hints": {
+        "culpa": "'culpa' is a noun meaning 'fault' — it appears in the ablative phrase 'mea culpa'",
+        "orare": "'orare' is an infinitive — it depends on 'precor', not the main finite verb itself",
+        "maxima": "'maxima' is a superlative adjective modifying 'culpa'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'precor' translates to?",
+      "target": "to pray / to beseech",
+      "choices": ["to sin", "to pray / to beseech", "to believe", "to confess"],
+      "reveal": null,
+      "hints": {
+        "to sin": "'to sin' is 'peccare' — 'precor' comes from 'precari'",
+        "to believe": "'to believe' is 'credere' — 'precari' means to pray or beseech",
+        "to confess": "'to confess' is 'confiteri' — that was the verb in the first half"
+      }
+    },
+    {
+      "prompt": "'precor' is also deponent. What person/number?",
+      "target": "1st singular",
+      "choices": ["1st singular", "2nd singular", "3rd singular", "1st plural"],
+      "reveal": { "word": "precor", "gloss": "I pray" },
+      "hints": {
+        "2nd singular": "2nd singular deponent would be 'precaris' — the -or ending is 1st singular",
+        "3rd singular": "3rd singular deponent would be 'precatur' — the -or ending is 1st person",
+        "1st plural": "1st plural deponent would be 'precamur' — 'precor' has no plural marker"
+      }
+    },
+    {
+      "prompt": "Case of 'culpa' in 'mea culpa'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "culpa", "gloss": "fault" },
+      "hints": {
+        "Nominative": "Nominative is the same form, but 'mea culpa' is an ablative of cause — 'through my fault'",
+        "Genitive": "Genitive singular of 'culpa' would be 'culpae'",
+        "Dative": "Dative singular of 'culpa' would be 'culpae'"
+      }
+    },
+    {
+      "prompt": "What degree is 'maxima'?",
+      "target": "Superlative",
+      "choices": ["Positive", "Comparative", "Superlative", "Elative"],
+      "reveal": { "word": "maxima", "gloss": "most grievous" },
+      "hints": {
+        "Positive": "The positive degree is 'magna' — 'maxima' is the superlative of 'magnus'",
+        "Comparative": "The comparative is 'maior' — 'maxima' goes one step further to superlative",
+        "Elative": "Elative is an intensive use of the superlative — 'maxima' here is true superlative in the triple climax"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical effect of 'mea culpa' repeated three times?",
+      "target": "Climax — each repetition intensifies",
+      "choices": ["Simple emphasis", "Climax — each repetition intensifies", "Enumeration of different faults", "Antithesis"],
+      "reveal": null,
+      "hints": {
+        "Simple emphasis": "It's more than simple emphasis — the addition of 'maxima' in the third creates escalation",
+        "Enumeration of different faults": "The same word 'culpa' is repeated, not different faults — it intensifies the single confession",
+        "Antithesis": "Antithesis contrasts opposites — this builds in the same direction toward 'maxima'"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'ideo'?",
+      "target": "Adverb",
+      "choices": ["Conjunction", "Adverb", "Preposition", "Pronoun"],
+      "reveal": { "word": "ideo", "gloss": "therefore" },
+      "hints": {
+        "Conjunction": "Conjunctions join clauses — 'ideo' modifies the whole clause as a connective adverb",
+        "Preposition": "Prepositions govern nouns — 'ideo' doesn't take an object",
+        "Pronoun": "Pronouns replace nouns — 'ideo' is an adverb of cause/result"
+      }
+    },
+    {
+      "prompt": "What construction is 'precor vos orare'?",
+      "target": "Accusative + infinitive",
+      "choices": ["Indirect command (ut + subj.)", "Accusative + infinitive", "Ablative absolute", "Purpose clause"],
+      "reveal": null,
+      "hints": {
+        "Indirect command (ut + subj.)": "'precor' can take ut + subjunctive, but here the infinitive 'orare' is used directly with 'vos'",
+        "Ablative absolute": "Ablative absolute uses noun+participle in ablative — this is acc.+inf.",
+        "Purpose clause": "Purpose clauses use ut/ne + subjunctive — 'orare' is an infinitive, not subjunctive"
+      }
+    },
+    {
+      "prompt": "Case of 'vos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "vos", "gloss": "you" },
+      "hints": {
+        "Nominative": "'vos' as nominative would be the subject — here it's the object of 'precor' in the acc.+inf. construction",
+        "Dative": "Dative of 'vos' would also be 'vobis' — here 'vos' is accusative, subject of 'orare'",
+        "Ablative": "Ablative of 'vos' would be 'vobis'"
+      }
+    },
+    {
+      "prompt": "What does 'pro' govern?",
+      "target": "Ablative",
+      "choices": ["Accusative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "me", "gloss": "for me" },
+      "hints": {
+        "Accusative": "'pro' always takes ablative — prepositions like 'per' take accusative",
+        "Genitive": "No standard Latin preposition governs genitive directly",
+        "Dative": "'pro' takes ablative, not dative"
+      }
+    }
+  ],
+  "translation": "Through my fault, through my fault, through my most grievous fault; therefore I pray you, brothers, to pray for me"
+}

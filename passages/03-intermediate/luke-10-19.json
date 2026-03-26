@@ -1,0 +1,97 @@
+{
+  "id": "luke-10-19",
+  "source": "Vulgate",
+  "reference": "Lucas 10:29",
+  "latin": ["Quis", "est", "meus", "proximus"],
+  "steps": [
+    {
+      "prompt": "Which word is an interrogative pronoun?",
+      "target": "Quis",
+      "choices": ["Quis", "est", "meus", "proximus"],
+      "reveal": null,
+      "hints": {
+        "est": "'Est' is a verb meaning 'is'",
+        "meus": "'Meus' is a possessive adjective meaning 'my'",
+        "proximus": "'Proximus' is a noun/adjective meaning 'neighbor/nearest'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to exist"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'est' here is from 'esse' (to be)",
+        "to go": "That would be 'ire' — 'est' is from 'esse'",
+        "to exist": "While 'esse' can mean 'to exist', the standard translation is 'to be'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is present indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present indicative",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'proximus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "proximus = neighbor (nom., predicate nominative)",
+      "hints": {
+        "accusative": "Accusative would be 'proximum' — 'proximus' is predicate nominative with 'est'",
+        "genitive": "Genitive would be 'proximi' — 'proximus' is nominative",
+        "vocative": "Vocative would be 'proxime' — 'proximus' is predicate nominative"
+      }
+    },
+    {
+      "prompt": "'Proximus' is the superlative of which adjective?",
+      "target": "prope (near)",
+      "choices": ["prope (near)", "probus (good/honest)", "proprius (one's own)", "prior (former)"],
+      "reveal": null,
+      "hints": {
+        "probus (good/honest)": "'Probus' has superlative 'probissimus' — 'proximus' comes from 'prope' (near)",
+        "proprius (one's own)": "'Proprius' is not related — 'proximus' means 'nearest' from 'prope'",
+        "prior (former)": "'Prior' has superlative 'primus' — 'proximus' comes from 'prope'"
+      }
+    },
+    {
+      "prompt": "What case is 'meus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "meus = my (nom. masc. sg.)",
+      "hints": {
+        "accusative": "Accusative would be 'meum' — 'meus' is nominative, agreeing with 'proximus'",
+        "genitive": "Genitive would be 'mei' — 'meus' is nominative",
+        "vocative": "Vocative would be 'mi' — 'meus' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'Quis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "Quis = who? (nom., interrogative)",
+      "hints": {
+        "accusative": "Accusative would be 'quem' — 'Quis' is nominative, subject of 'est'",
+        "dative": "Dative would be 'cui' — 'Quis' is nominative",
+        "ablative": "Ablative would be 'quo' — 'Quis' is nominative"
+      }
+    }
+  ],
+  "translation": "Who is my neighbor?"
+}

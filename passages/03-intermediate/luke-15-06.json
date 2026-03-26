@@ -1,0 +1,108 @@
+{
+  "id": "luke-15-06",
+  "source": "Vulgate",
+  "reference": "Lucas 15:4",
+  "latin": ["Quis", "ex", "vobis", "habens", "centum", "oves", "et", "perdiderit", "unam"],
+  "steps": [
+    {
+      "prompt": "Which word is the participle?",
+      "target": "habens",
+      "choices": ["habens", "perdiderit", "Quis", "oves"],
+      "reveal": null,
+      "hints": {
+        "perdiderit": "'Perdiderit' is a finite verb in the subjunctive, not a participle",
+        "Quis": "'Quis' is an interrogative pronoun meaning 'who'",
+        "oves": "'Oves' is a noun meaning 'sheep' in the accusative plural"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'habens'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": "habens = having (pres. act. ptcp.)",
+      "hints": {
+        "perfect passive participle": "A perfect passive participle would end in -tus/-ta — 'habens' ends in -ens",
+        "future active participle": "A future active participle would end in -urus — 'habens' ends in -ens",
+        "gerundive": "A gerundive would end in -endus — 'habens' is a present participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perdiderit' translates to?",
+      "target": "to lose / to destroy",
+      "choices": ["to lose / to destroy", "to give", "to learn", "to forgive"],
+      "reveal": null,
+      "hints": {
+        "to give": "'To give' is 'dare' — 'perdiderit' comes from 'perdere' (to lose)",
+        "to learn": "'To learn' is 'discere' — 'perdere' means 'to destroy/lose'",
+        "to forgive": "'To forgive' is 'ignoscere' — 'perdere' means 'to lose'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'perdiderit'?",
+      "target": "perfect subjunctive",
+      "choices": ["perfect subjunctive", "future perfect indicative", "perfect indicative", "pluperfect subjunctive"],
+      "reveal": "perdiderit = should have lost (perf. subjunctive in indefinite condition)",
+      "hints": {
+        "future perfect indicative": "In form these look identical — but in a hypothetical question 'perdiderit' is subjunctive",
+        "perfect indicative": "Perfect indicative would be 'perdidit' — 'perdiderit' has the -eri- subjunctive marker",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'perdidisset' — 'perdiderit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perdiderit'?",
+      "target": "perdo, perdere, perdidi, perditum",
+      "choices": ["perdo, perdere, perdidi, perditum", "do, dare, dedi, datum", "pario, parere, peperi, partum", "prodo, prodere, prodidi, proditum"],
+      "reveal": null,
+      "hints": {
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give) — the simple verb",
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth)",
+        "prodo, prodere, prodidi, proditum": "These are the parts of 'prodere' (to betray) — a similar compound of 'dare'"
+      }
+    },
+    {
+      "prompt": "What case is 'oves'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "oves = sheep (acc. pl.)",
+      "hints": {
+        "nominative": "'Oves' could be nominative plural, but here it is the object of 'habens' — accusative",
+        "ablative": "Ablative plural would be 'ovibus' — 'oves' is nominative/accusative",
+        "genitive": "Genitive singular would be 'ovis' — 'oves' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'ovis, ovis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'ovis' has gen. in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'ovis' has gen. in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'ovis' has gen. in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'unam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "unam = one (acc. fem. sg.)",
+      "hints": {
+        "nominative": "Nominative feminine would be 'una' — the -am ending marks accusative",
+        "ablative": "Ablative feminine would be 'una' — 'unam' is accusative",
+        "genitive": "Genitive feminine would be 'unius' — 'unam' is accusative"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used for 'perdiderit'?",
+      "target": "it is in an indefinite hypothetical question",
+      "choices": ["it is in an indefinite hypothetical question", "it expresses a wish", "it is in an indirect statement", "it is in a purpose clause"],
+      "reveal": null,
+      "hints": {
+        "it expresses a wish": "A wish (optative) is possible with subjunctive, but 'quis...perdiderit' is a rhetorical question",
+        "it is in an indirect statement": "Indirect statements use accusative + infinitive, not subjunctive in Latin",
+        "it is in a purpose clause": "A purpose clause uses 'ut/ne' — this is a conditional-hypothetical question with 'quis'"
+      }
+    }
+  ],
+  "translation": "Which of you, having a hundred sheep and having lost one"
+}

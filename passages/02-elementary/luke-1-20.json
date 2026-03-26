@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-20",
+  "source": "Vulgate",
+  "reference": "Lucas 1:35",
+  "latin": ["Spiritus", "Sanctus", "superveniet", "in", "te"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "superveniet",
+      "choices": ["Spiritus", "Sanctus", "superveniet", "te"],
+      "reveal": null,
+      "hints": {
+        "Spiritus": "'Spiritus' is a noun meaning 'Spirit'",
+        "Sanctus": "'Sanctus' is an adjective meaning 'Holy'",
+        "te": "'Te' is a pronoun meaning 'you'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'superveniet' translates to?",
+      "target": "to come upon / to overshadow",
+      "choices": ["to come upon / to overshadow", "to come", "to go above", "to overcome"],
+      "reveal": null,
+      "hints": {
+        "to come": "That would be 'venire'; 'supervenire' means 'to come upon'",
+        "to go above": "That would be 'superire' or 'superare'",
+        "to overcome": "That would be 'superare' or 'vincere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'superveniet'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "present subjunctive"],
+      "reveal": "superveniet = will come upon",
+      "hints": {
+        "present indicative": "Present would be 'supervenit'; 'superveniet' with -iet is future",
+        "perfect": "Perfect would be 'supervenit' (same spelling, different quantity)",
+        "present subjunctive": "Present subjunctive would be 'superveniat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'superveniet'?",
+      "target": "supervenio, supervenire, superveni, superventum",
+      "choices": ["supervenio, supervenire, superveni, superventum", "venio, venire, veni, ventum", "invenio, invenire, inveni, inventum", "advenio, advenire, adveni, adventum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the principal parts of 'venio' (to come); 'supervenio' is a compound",
+        "invenio, invenire, inveni, inventum": "These are the principal parts of 'invenio' (to find)",
+        "advenio, advenire, adveni, adventum": "These are the principal parts of 'advenio' (to arrive)"
+      }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "Spiritus",
+      "choices": ["Spiritus", "Sanctus", "superveniet", "te"],
+      "reveal": null,
+      "hints": {
+        "Sanctus": "'Sanctus' is an adjective modifying 'Spiritus', not the subject by itself",
+        "superveniet": "'Superveniet' is the verb, not the subject",
+        "te": "'Te' is the object pronoun 'you'"
+      }
+    },
+    {
+      "prompt": "What case is 'Spiritus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "Spiritus = Spirit (nom.)",
+      "hints": {
+        "genitive": "Genitive singular would also be 'spiritus' (4th decl.), but here it is the subject",
+        "accusative": "Accusative would be 'spiritum'",
+        "ablative": "Ablative would be 'spiritu'"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension -us nouns have genitive -i; 'spiritus' has genitive 'spiritus' (-us)",
+        "3rd declension": "3rd declension has -is in the genitive; 'spiritus' has genitive 'spiritus'",
+        "5th declension": "5th declension nouns end in -es; 'spiritus' is a 4th declension -us noun"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "te = you (acc., after 'in')",
+      "hints": {
+        "nominative": "Nominative would be 'tu'",
+        "dative": "Dative would be 'tibi'",
+        "ablative": "Ablative would also be 'te', but after 'in' + acc. it indicates motion toward"
+      }
+    }
+  ],
+  "translation": "The Holy Spirit will come upon you"
+}

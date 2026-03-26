@@ -1,0 +1,130 @@
+{
+  "id": "luke-22-01",
+  "source": "Vulgate",
+  "reference": "Lucas 22:15",
+  "latin": ["Desiderio", "desideravi", "hoc", "pascha", "manducare", "vobiscum"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "desideravi",
+      "choices": ["desideravi", "Desiderio", "manducare", "pascha"],
+      "reveal": null,
+      "hints": {
+        "Desiderio": "'Desiderio' is a noun in the ablative meaning 'with desire'",
+        "manducare": "'Manducare' is a complementary infinitive meaning 'to eat'",
+        "pascha": "'Pascha' is a noun meaning 'Passover' — the direct object"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'desideravi' translates to?",
+      "target": "to desire / to long for",
+      "choices": ["to desire / to long for", "to consider", "to descend", "to despise"],
+      "reveal": null,
+      "hints": {
+        "to consider": "'To consider' is 'considerare' — 'desideravi' comes from 'desiderare'",
+        "to descend": "'To descend' is 'descendere' — 'desideravi' comes from 'desiderare'",
+        "to despise": "'To despise' is 'despicere' — 'desideravi' comes from 'desiderare' (to long for)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'desideravi'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "desideravi = I have desired (1st sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'desidero' — 'desideravi' with -avi is perfect",
+        "pluperfect indicative": "Pluperfect would be 'desideraveram' — 'desideravi' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'desideraverim' — 'desideravi' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'desideravi'?",
+      "target": "desidero, desiderare, desideravi, desideratum",
+      "choices": ["desidero, desiderare, desideravi, desideratum", "descendo, descendere, descendi, descensum", "despicio, despicere, despexi, despectum", "desero, deserere, deserui, desertum"],
+      "reveal": null,
+      "hints": {
+        "descendo, descendere, descendi, descensum": "These are the parts of 'descendo' (to descend)",
+        "despicio, despicere, despexi, despectum": "These are the parts of 'despicio' (to look down on/despise)",
+        "desero, deserere, deserui, desertum": "These are the parts of 'desero' (to abandon/desert)"
+      }
+    },
+    {
+      "prompt": "What is the construction 'Desiderio desideravi'?",
+      "target": "cognate accusative / ablative of manner (Hebraism: intensifying figure)",
+      "choices": ["cognate accusative / ablative of manner (Hebraism: intensifying figure)", "ablative absolute", "indirect statement", "ablative of means"],
+      "reveal": "Desiderio desideravi = With desire I have desired = I have earnestly desired",
+      "hints": {
+        "ablative absolute": "Ablative absolute requires a noun + participle — 'Desiderio' alone is not an ablative absolute",
+        "indirect statement": "Indirect statement uses accusative + infinitive — this is an intensifying Hebraism",
+        "ablative of means": "Ablative of means names an instrument — 'Desiderio' here intensifies the verb (figura etymologica)"
+      }
+    },
+    {
+      "prompt": "What case is 'Desiderio'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "Desiderio = with desire (abl.)",
+      "hints": {
+        "dative": "Dative and ablative look the same for 2nd declension, but this is ablative of manner",
+        "nominative": "Nominative would be 'desiderium' — 'Desiderio' is ablative",
+        "genitive": "Genitive would be 'desiderii' — 'Desiderio' ends in -o (abl./dat.)"
+      }
+    },
+    {
+      "prompt": "What declension is 'desiderium, desiderii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'desiderii' ends in -ii",
+        "3rd declension": "3rd declension has genitive in -is — 'desiderii' ends in -ii",
+        "4th declension": "4th declension has genitive in -us — 'desiderii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'pascha'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "vocative"],
+      "reveal": "pascha = Passover (acc., indeclinable Greek loanword)",
+      "hints": {
+        "nominative": "'Pascha' is indeclinable; context (direct object of 'manducare') shows accusative function",
+        "ablative": "'Pascha' is indeclinable — context determines it is the object to be eaten",
+        "vocative": "Vocative would be for direct address — 'pascha' is the object of 'manducare'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'manducare' translates to?",
+      "target": "to eat",
+      "choices": ["to eat", "to command", "to send", "to handle"],
+      "reveal": null,
+      "hints": {
+        "to command": "'To command' is 'mandare' — 'manducare' means 'to eat/chew'",
+        "to send": "'To send' is 'mittere' — 'manducare' means 'to eat'",
+        "to handle": "'To handle' is 'tractare' — 'manducare' means 'to eat' (from 'mandere')"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'manducare'?",
+      "target": "manduco, manducare, manducavi, manducatum",
+      "choices": ["manduco, manducare, manducavi, manducatum", "mando, mandare, mandavi, mandatum", "mando, mandere, mandi, mansum", "maneo, manere, mansi, mansum"],
+      "reveal": null,
+      "hints": {
+        "mando, mandare, mandavi, mandatum": "These are the parts of 'mando' (to command/entrust)",
+        "mando, mandere, mandi, mansum": "These are the parts of 'mando' (to chew) — 'manducare' is the frequentative form",
+        "maneo, manere, mansi, mansum": "These are the parts of 'maneo' (to remain)"
+      }
+    },
+    {
+      "prompt": "What is 'vobiscum' grammatically?",
+      "target": "'vobis' (abl.) + 'cum' (with) in enclitic form",
+      "choices": ["'vobis' (abl.) + 'cum' (with) in enclitic form", "dative plural of 'vos'", "nominative plural pronoun", "accusative plural of 'vos'"],
+      "reveal": "vobiscum = with you (abl. + enclitic -cum)",
+      "hints": {
+        "dative plural of 'vos'": "'Vobis' alone is dative, but 'vobiscum' is the enclitic ablative + cum form",
+        "nominative plural pronoun": "Nominative plural would be 'vos' — 'vobiscum' is ablative with enclitic 'cum'",
+        "accusative plural of 'vos'": "Accusative plural would be 'vos' — 'vobiscum' = cum + vobis (ablative)"
+      }
+    }
+  ],
+  "translation": "With desire I have desired to eat this Passover with you"
+}

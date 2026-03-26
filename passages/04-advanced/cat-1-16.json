@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-16",
+  "source": "Cicero",
+  "reference": "In Cat. I.2",
+  "latin": ["Decrevit", "quondam", "senatus", "uti", "consul", "videret"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Decrevit",
+      "choices": ["Decrevit", "senatus", "uti", "videret"],
+      "reveal": null,
+      "hints": {
+        "senatus": "'senatus' is a noun meaning 'the senate' — the subject of the sentence",
+        "uti": "'uti' is a conjunction here meaning 'that' — introduces the subordinate clause",
+        "videret": "'videret' is a verb but in the subordinate clause, not the main verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Decrevit' translates to?",
+      "target": "to decree / decide",
+      "choices": ["to grow", "to decree / decide", "to believe", "to describe"],
+      "reveal": null,
+      "hints": {
+        "to grow": "'to grow' is 'crescere' — 'decernere' means 'to decree/decide'",
+        "to believe": "'to believe' is 'credere' — 'decernere' means 'to decree'",
+        "to describe": "'to describe' is 'describere' — 'decernere' means 'to decree/decide'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Decrevit'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Future indicative"],
+      "reveal": { "word": "Decrevit", "gloss": "decreed" },
+      "hints": {
+        "Present indicative": "Present would be 'decernit' — 'Decrevit' is the perfect form",
+        "Imperfect indicative": "Imperfect would be 'decernebat' — 'Decrevit' is perfect",
+        "Future indicative": "Future would be 'decernet' — 'Decrevit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Decrevit'?",
+      "target": "decerno, decernere, decrevi, decretum",
+      "choices": ["decerno, decernere, decrevi, decretum", "cresco, crescere, crevi, cretum", "cerno, cernere, crevi, cretum", "credo, credere, credidi, creditum"],
+      "reveal": null,
+      "hints": {
+        "cresco, crescere, crevi, cretum": "These are the parts of 'crescere' (to grow)",
+        "cerno, cernere, crevi, cretum": "These are the parts of 'cernere' (to discern) — the base verb, but 'decernere' has its own compound forms",
+        "credo, credere, credidi, creditum": "These are the parts of 'credere' (to believe)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'videret'?",
+      "target": "Imperfect subjunctive",
+      "choices": ["Present subjunctive", "Imperfect subjunctive", "Imperfect indicative", "Perfect subjunctive"],
+      "reveal": { "word": "videret", "gloss": "should see to it" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'videat' — 'videret' with -ret ending is imperfect subjunctive",
+        "Imperfect indicative": "Imperfect indicative would be 'videbat' — 'videret' is subjunctive",
+        "Perfect subjunctive": "Perfect subjunctive would be 'viderit' — 'videret' is imperfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used with 'videret'?",
+      "target": "Substantive clause of commanding (indirect command after 'decrevit')",
+      "choices": ["Purpose clause", "Substantive clause of commanding (indirect command after 'decrevit')", "Result clause", "Indirect question"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose clauses also use subjunctive, but this is introduced by 'uti' after a verb of decreeing — it's an indirect command",
+        "Result clause": "Result clauses use 'ut' + subjunctive but follow expressions of degree — 'decrevit' triggers an indirect command",
+        "Indirect question": "Indirect questions use interrogative words (quid, cur, etc.) — 'uti' here introduces a command"
+      }
+    },
+    {
+      "prompt": "What case is 'consul'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "consul", "gloss": "the consul" },
+      "hints": {
+        "Genitive": "Genitive would be 'consulis' — 'consul' is nominative, subject of 'videret'",
+        "Accusative": "Accusative would be 'consulem' — 'consul' is nominative",
+        "Vocative": "Vocative would look the same, but in this reported decree 'consul' is the subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'consul'?",
+      "target": "3rd",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-er — 'consul, consulis' is 3rd declension",
+        "4th": "4th declension nouns have gen. -us — 'consul, consulis' has gen. -is (3rd)",
+        "5th": "5th declension nouns end in -es — 'consul, consulis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What famous decree is Cicero referencing?",
+      "target": "The senatus consultum ultimum — emergency decree",
+      "choices": ["A routine administrative decree", "The senatus consultum ultimum — emergency decree", "A declaration of war", "A decree of exile"],
+      "reveal": null,
+      "hints": {
+        "A routine administrative decree": "The formula 'ut consul videret' (that the consul should see to it) is the language of the emergency decree (SCU)",
+        "A declaration of war": "Declarations of war followed different procedures — this is the SCU, granting extraordinary powers to the consul",
+        "A decree of exile": "Exile required a specific legal process — the SCU authorized the consul to take any measures to protect the state"
+      }
+    }
+  ],
+  "translation": "The senate once decreed that the consul should see to it."
+}

@@ -1,0 +1,130 @@
+{
+  "id": "cat-3-04",
+  "source": "Cicero",
+  "reference": "In Catilinam III.4",
+  "latin": ["Tanta", "vis", "sceleris", "in", "unum", "me", "se", "convertit"],
+  "steps": [
+    {
+      "prompt": "What case is 'Tanta vis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Tanta vis = so great a force (nom.)",
+      "hints": {
+        "accusative": "Accusative of 'vis' would be 'vim' — 'vis' here is nominative singular, the subject",
+        "ablative": "Ablative would be 'vi' — 'vis' is nominative singular",
+        "genitive": "Genitive would be 'vis' in plural 'virium' — here 'vis' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'vis' and what is unusual about it?",
+      "target": "3rd declension, defective/irregular",
+      "choices": ["3rd declension, defective/irregular", "3rd declension, regular", "2nd declension", "4th declension"],
+      "reveal": "vis = force (nom.); irregular: vis, —, —, vim, vi; pl. vires, virium...",
+      "hints": {
+        "3rd declension, regular": "'Vis' is 3rd declension but highly irregular — it lacks genitive/dative singular",
+        "2nd declension": "'Vis' does not follow 2nd declension patterns — it is an irregular 3rd declension noun",
+        "4th declension": "'Vis' is not 4th declension — it is an irregular 3rd declension noun"
+      }
+    },
+    {
+      "prompt": "What case is 'sceleris'?",
+      "target": "genitive",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "sceleris = of crime (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'scelus' — 'sceleris' with -is is genitive singular",
+        "accusative": "Accusative would be 'scelus' — 'sceleris' is genitive",
+        "ablative": "Ablative would be 'scelere' — 'sceleris' with -is is genitive singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'scelus, sceleris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'sceleris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'sceleris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'sceleris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'unum me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "in unum me = against me alone (acc. with 'in')",
+      "hints": {
+        "nominative": "Nominative would not follow 'in' — 'in' + accusative means 'against'",
+        "ablative": "'In' + ablative means 'in/on' — here 'in' + accusative means 'against'",
+        "dative": "'In' does not govern the dative — it takes accusative (motion/hostility) or ablative (location)"
+      }
+    },
+    {
+      "prompt": "What is the function of 'in' + accusative here?",
+      "target": "hostility / direction against",
+      "choices": ["hostility / direction against", "location within", "purpose", "accompaniment"],
+      "reveal": "in + acc. = against (hostile sense)",
+      "hints": {
+        "location within": "'In' + ablative expresses location — 'in' + accusative expresses motion toward or hostility",
+        "purpose": "Purpose clauses use 'ut' or 'ad' — 'in' + accusative here means 'against'",
+        "accompaniment": "'Cum' + ablative expresses accompaniment — 'in' + accusative here is hostile"
+      }
+    },
+    {
+      "prompt": "What is the function of the reflexive 'se'?",
+      "target": "direct object referring back to the subject 'vis'",
+      "choices": ["direct object referring back to the subject 'vis'", "indirect object", "subject of an infinitive", "ablative reflexive"],
+      "reveal": "se convertit = turned itself",
+      "hints": {
+        "indirect object": "Indirect object would be 'sibi' — 'se' is accusative, direct object of 'convertit'",
+        "subject of an infinitive": "There is no indirect discourse here — 'se' is simply reflexive with 'convertit'",
+        "ablative reflexive": "Ablative would be 'se' with a preposition — here 'se' is accusative object of 'convertit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'convertit' translates to?",
+      "target": "to turn / to direct",
+      "choices": ["to turn / to direct", "to come together", "to converse", "to overthrow"],
+      "reveal": null,
+      "hints": {
+        "to come together": "'To come together' is 'convenire' — 'convertit' comes from 'convertere' (to turn)",
+        "to converse": "'To converse' is 'colloqui' — 'convertit' comes from 'convertere'",
+        "to overthrow": "'To overthrow' is 'evertere' — 'convertit' comes from 'convertere' (to turn)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'convertit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "perfect subjunctive"],
+      "reveal": "convertit = turned (itself)",
+      "hints": {
+        "present indicative": "'Convertit' can be present or perfect — context of the narrative makes it perfect here",
+        "future indicative": "Future would be 'convertet' — 'convertit' is present or perfect indicative",
+        "perfect subjunctive": "Perfect subjunctive would be 'converterit' — 'convertit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'convertit'?",
+      "target": "converto, convertere, converti, conversum",
+      "choices": ["converto, convertere, converti, conversum", "verto, vertere, verti, versum", "convenio, convenire, conveni, conventum", "confero, conferre, contuli, collatum"],
+      "reveal": null,
+      "hints": {
+        "verto, vertere, verti, versum": "These are the parts of 'vertere' (to turn) — the base verb without the con- prefix",
+        "convenio, convenire, conveni, conventum": "These are the parts of 'convenire' (to come together) — different compound",
+        "confero, conferre, contuli, collatum": "These are the parts of 'conferre' (to bring together) — entirely different verb"
+      }
+    },
+    {
+      "prompt": "What does 'Tanta' indicate about the degree of force?",
+      "target": "correlative/exclamatory: 'so great'",
+      "choices": ["correlative/exclamatory: 'so great'", "interrogative: 'how great?'", "relative: 'as great as'", "indefinite: 'some kind of'"],
+      "reveal": null,
+      "hints": {
+        "interrogative: 'how great?'": "'Quanta' is interrogative — 'tanta' is the demonstrative/correlative 'so great'",
+        "relative: 'as great as'": "'Quanta' serves as relative — 'tanta' is the correlative demonstrative",
+        "indefinite: 'some kind of'": "'Aliquanta' would be indefinite — 'tanta' means 'so great'"
+      }
+    }
+  ],
+  "translation": "So great a force of crime turned itself against me alone"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "luke-3-03",
+  "source": "Vulgate",
+  "reference": "Lucas 3:4",
+  "latin": ["Parate", "viam", "Domini"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Parate",
+      "choices": ["Parate", "viam", "Domini", "parare"],
+      "reveal": null,
+      "hints": {
+        "viam": "'viam' is a noun meaning 'way/road' in the accusative",
+        "Domini": "'Domini' is a noun meaning 'of the Lord' in the genitive",
+        "parare": "'parare' is the infinitive form — 'Parate' is the imperative used here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Parate' translates to?",
+      "target": "to prepare",
+      "choices": ["to prepare", "to spare", "to obey", "to appear"],
+      "reveal": null,
+      "hints": {
+        "to spare": "'to spare' is 'parcere' — 'Parate' comes from 'parare' (to prepare)",
+        "to obey": "'to obey' is 'parere' — 'Parate' comes from 'parare'",
+        "to appear": "'to appear' is 'apparere' — 'Parate' comes from 'parare' (to prepare/make ready)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Parate'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Parate", "gloss": "prepare! (plural)" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'Parate' is a command (prepare!)",
+        "Subjunctive": "Subjunctive would express possibility — 'Parate' is a direct command",
+        "Infinitive": "Infinitive would be 'parare' — 'Parate' is the 2nd person plural imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Parate'?",
+      "target": "paro, parare, paravi, paratum",
+      "choices": ["paro, parare, paravi, paratum", "pareo, parere, parui, paritum", "pario, parere, peperi, partum", "parco, parcere, peperci, parsum"],
+      "reveal": null,
+      "hints": {
+        "pareo, parere, parui, paritum": "These are the parts of 'parere' (to obey)",
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth)",
+        "parco, parcere, peperci, parsum": "These are the parts of 'parcere' (to spare)"
+      }
+    },
+    {
+      "prompt": "What case is 'viam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "viam", "gloss": "the way / the road" },
+      "hints": {
+        "Nominative": "Nominative would be 'via' — 'viam' with -am ending is accusative",
+        "Ablative": "Ablative would be 'via' — 'viam' is the accusative direct object",
+        "Genitive": "Genitive would be 'viae' — 'viam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'via, viae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'viae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'viae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'viae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Domini", "gloss": "of the Lord" },
+      "hints": {
+        "Nominative": "Nominative would be 'Dominus' — 'Domini' with -i ending is genitive",
+        "Dative": "Dative would be 'Domino' — 'Domini' is genitive (the way of the Lord)",
+        "Vocative": "Vocative would be 'Domine' — 'Domini' is genitive singular"
+      }
+    }
+  ],
+  "translation": "Prepare the way of the Lord"
+}

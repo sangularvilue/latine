@@ -1,0 +1,130 @@
+{
+  "id": "luke-21-03",
+  "source": "Vulgate",
+  "reference": "Lucas 21:28",
+  "latin": ["Levate", "capita", "vestra", "quoniam", "adpropinquat", "redemptio", "vestra"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "Levate",
+      "choices": ["Levate", "adpropinquat", "capita", "redemptio"],
+      "reveal": null,
+      "hints": {
+        "adpropinquat": "'Adpropinquat' is a finite verb but belongs to the subordinate clause after 'quoniam'",
+        "capita": "'Capita' is a noun meaning 'heads' in the accusative plural",
+        "redemptio": "'Redemptio' is a noun meaning 'redemption' — subject of the subordinate clause"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Levate' translates to?",
+      "target": "to lift up / to raise",
+      "choices": ["to lift up / to raise", "to lighten", "to relieve", "to leave"],
+      "reveal": null,
+      "hints": {
+        "to lighten": "'To lighten' is 'levare' in a different sense — here 'Levate' means 'to lift/raise'",
+        "to relieve": "'To relieve' is 'sublevare' — 'Levate' from 'levare' means 'to raise up'",
+        "to leave": "'To leave' is 'relinquere' — 'Levate' comes from 'levare' (to lift)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Levate'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "Levate = Lift up! Raise! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'levatis' — 'Levate' is imperative",
+        "present subjunctive": "Present subjunctive 2nd plural would be 'levetis' — 'Levate' is imperative",
+        "perfect indicative": "Perfect would be 'levavistis' — 'Levate' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Levate'?",
+      "target": "levo, levare, levavi, levatum",
+      "choices": ["levo, levare, levavi, levatum", "lego, legere, legi, lectum", "liber, liberare, liberavi, liberatum", "linquo, linquere, liqui, —"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the parts of 'lego' (to read/choose)",
+        "liber, liberare, liberavi, liberatum": "'Libero' (to free) has similar meaning but different parts — note 'libero' not 'liber'",
+        "linquo, linquere, liqui, —": "These are the parts of 'linquo' (to leave behind)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'adpropinquat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "future indicative", "imperfect indicative"],
+      "reveal": "adpropinquat = draws near / is approaching (3rd sing. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'adpropinquet' — 'adpropinquat' is indicative",
+        "future indicative": "Future would be 'adpropinquabit' — 'adpropinquat' is present",
+        "imperfect indicative": "Imperfect would be 'adpropinquabat' — 'adpropinquat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'adpropinquat'?",
+      "target": "adpropinquo, adpropinquare, adpropinquavi, adpropinquatum",
+      "choices": ["adpropinquo, adpropinquare, adpropinquavi, adpropinquatum", "propono, proponere, proposui, propositum", "approbo, approbare, approbavi, approbatum", "propinquo, propinquare, propinquavi, propinquatum"],
+      "reveal": null,
+      "hints": {
+        "propono, proponere, proposui, propositum": "These are the parts of 'propono' (to set forth/propose)",
+        "approbo, approbare, approbavi, approbatum": "These are the parts of 'approbo' (to approve)",
+        "propinquo, propinquare, propinquavi, propinquatum": "These are the parts of 'propinquo' (to approach) — 'adpropinquare' adds the prefix ad-"
+      }
+    },
+    {
+      "prompt": "What case is 'capita'?",
+      "target": "accusative plural",
+      "choices": ["accusative plural", "nominative plural", "ablative singular", "genitive singular"],
+      "reveal": "capita = heads (acc. pl., direct object)",
+      "hints": {
+        "nominative plural": "'Capita' looks the same in nominative plural, but here it is the direct object of 'levate'",
+        "ablative singular": "Ablative singular would be 'capite' — 'capita' is plural",
+        "genitive singular": "Genitive singular would be 'capitis' — 'capita' ends in -a (neut. pl.)"
+      }
+    },
+    {
+      "prompt": "What declension is 'caput, capitis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'capitis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'capitis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'capitis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'redemptio'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "accusative", "dative"],
+      "reveal": "redemptio = redemption (nom., subject of 'adpropinquat')",
+      "hints": {
+        "ablative": "Ablative would be 'redemptione' — 'redemptio' is nominative",
+        "accusative": "Accusative would be 'redemptionem' — 'redemptio' is nominative",
+        "dative": "Dative would be 'redemptioni' — 'redemptio' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'redemptio, redemptionis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'redemptionis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'redemptionis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'redemptionis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What type of clause does 'quoniam' introduce?",
+      "target": "causal clause (because/since)",
+      "choices": ["causal clause (because/since)", "temporal clause (when)", "result clause (so that)", "concessive clause (although)"],
+      "reveal": "quoniam adpropinquat = because [your redemption] draws near",
+      "hints": {
+        "temporal clause (when)": "'Quoniam' means 'because/since', not 'when' — 'cum' introduces temporal clauses",
+        "result clause (so that)": "Result clauses use 'ut' — 'quoniam' introduces a causal clause",
+        "concessive clause (although)": "Concessive clauses use 'quamquam/quamvis' — 'quoniam' is causal"
+      }
+    }
+  ],
+  "translation": "Lift up your heads, because your redemption draws near"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-8-02",
+  "source": "Vulgate",
+  "reference": "Lucas 8:11",
+  "latin": ["Semen", "est", "verbum", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "est",
+      "choices": ["Semen", "est", "verbum", "Dei"],
+      "reveal": null,
+      "hints": {
+        "Semen": "'Semen' is a noun meaning 'seed'",
+        "verbum": "'Verbum' is a noun meaning 'word'",
+        "Dei": "'Dei' is a noun meaning 'of God'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere/esse' (different verb) — 'est' here is from 'esse' (to be)",
+        "to go": "That would be 'ire' — 'est' is from 'esse' (to be)",
+        "to stand": "That would be 'stare' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "present subjunctive": "Present subjunctive of 'esse' would be 'sit' — 'est' is present indicative",
+        "perfect indicative": "Perfect of 'esse' would be 'fuit' — 'est' is present indicative",
+        "imperfect indicative": "Imperfect of 'esse' would be 'erat' — 'est' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat), which also has infinitive 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become/be made)"
+      }
+    },
+    {
+      "prompt": "What case is 'Semen'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Semen = the seed (nom.)",
+      "hints": {
+        "accusative": "While 'semen' looks identical in accusative, here it is the subject — nominative",
+        "ablative": "Ablative would be 'semine' — 'Semen' is nominative subject",
+        "vocative": "Vocative would be used for direct address — 'Semen' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'semen, seminis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'seminis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'seminis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'seminis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'verbum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "verbum = word (nom., predicate nominative)",
+      "hints": {
+        "accusative": "While 'verbum' is identical in accusative, with 'est' it serves as predicate nominative",
+        "ablative": "Ablative would be 'verbo' — 'verbum' is predicate nominative with 'est'",
+        "vocative": "Vocative is used for direct address — 'verbum' is predicate nominative here"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Dei = of God (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Dei' is genitive singular",
+        "dative": "Dative would be 'Deo' — 'Dei' is genitive, showing possession",
+        "vocative": "Vocative would be 'Deus' or 'Dee' — 'Dei' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus, Dei'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Dei' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Dei' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Dei' ends in -i"
+      }
+    }
+  ],
+  "translation": "The seed is the word of God"
+}

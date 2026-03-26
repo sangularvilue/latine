@@ -1,0 +1,130 @@
+{
+  "id": "luke-19-01",
+  "source": "Vulgate",
+  "reference": "Lucas 19:9",
+  "latin": ["Hodie", "salus", "domui", "huic", "facta", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["est", "salus", "facta", "Hodie"],
+      "reveal": null,
+      "hints": {
+        "salus": "'Salus' is a noun meaning 'salvation' — it is the subject",
+        "facta": "'Facta' is a perfect passive participle, forming a compound verb with 'est'",
+        "Hodie": "'Hodie' is an adverb meaning 'today'"
+      }
+    },
+    {
+      "prompt": "What kind of verb form is 'facta est' together?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive subjunctive", "future perfect passive"],
+      "reveal": "facta est = has been made / has happened",
+      "hints": {
+        "present passive indicative": "Present passive would use the present stem, not a participle + 'est'",
+        "pluperfect passive subjunctive": "Pluperfect passive subjunctive would be 'facta esset'",
+        "future perfect passive": "Future perfect passive would be 'facta erit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'facta' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to save", "to come"],
+      "reveal": null,
+      "hints": {
+        "to say": "'To say' is 'dicere' — 'facta' comes from 'facere'",
+        "to save": "'To save' is 'salvare' — 'facta' comes from 'facere' (to make/do)",
+        "to come": "'To come' is 'venire' — 'facta' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facta'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fallo, fallere, fefelli, falsum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the principal parts of 'fero' (to carry/bear)",
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugio' (to flee)",
+        "fallo, fallere, fefelli, falsum": "These are the principal parts of 'fallo' (to deceive)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the principal parts of 'edo' (to eat) — the infinitive 'esse' is identical but the verb is different",
+        "eo, ire, ii, itum": "These are the principal parts of 'eo' (to go)",
+        "do, dare, dedi, datum": "These are the principal parts of 'do' (to give)"
+      }
+    },
+    {
+      "prompt": "What case is 'salus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "salus = salvation (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'salutem' — 'salus' is the nominative subject",
+        "genitive": "Genitive would be 'salutis' — 'salus' is nominative here",
+        "ablative": "Ablative would be 'salute' — 'salus' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'salus, salutis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'salutis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'salutis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'salutis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'domui'?",
+      "target": "dative",
+      "choices": ["dative", "genitive", "ablative", "nominative"],
+      "reveal": "domui = to this house (dat.)",
+      "hints": {
+        "genitive": "Genitive of 'domus' can be 'domus' or 'domi' — 'domui' is the dative singular",
+        "ablative": "Ablative of 'domus' is 'domo' or 'domu' — 'domui' is dative",
+        "nominative": "Nominative would be 'domus' — 'domui' is the dative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'domus, domus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'domus' has genitive in -us",
+        "2nd declension": "'Domus' is irregular but primarily 4th declension with some 2nd declension forms",
+        "3rd declension": "3rd declension has genitive in -is — 'domus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'huic'?",
+      "target": "dative",
+      "choices": ["dative", "nominative", "accusative", "ablative"],
+      "reveal": "huic = to this (dat.)",
+      "hints": {
+        "nominative": "Nominative of 'hic' would be 'hic/haec/hoc' — 'huic' is dative",
+        "accusative": "Accusative would be 'hunc/hanc/hoc' — 'huic' is dative singular",
+        "ablative": "Ablative would be 'hoc/hac/hoc' — 'huic' is dative"
+      }
+    },
+    {
+      "prompt": "What is 'Hodie' grammatically?",
+      "target": "adverb",
+      "choices": ["adverb", "noun in ablative", "conjunction", "preposition"],
+      "reveal": "Hodie = today",
+      "hints": {
+        "noun in ablative": "'Hodie' is indeclinable — it is an adverb, not a declined noun",
+        "conjunction": "A conjunction joins clauses — 'Hodie' modifies the time of the action",
+        "preposition": "A preposition governs a noun — 'Hodie' stands alone as an adverb"
+      }
+    }
+  ],
+  "translation": "Today salvation has come to this house"
+}

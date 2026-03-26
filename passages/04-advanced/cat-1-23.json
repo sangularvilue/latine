@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-23",
+  "source": "Cicero",
+  "reference": "In Cat. I.10",
+  "latin": ["Huius", "tu", "iudicium", "ac", "voluntatem", "neglegis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "neglegis",
+      "choices": ["Huius", "iudicium", "voluntatem", "neglegis"],
+      "reveal": null,
+      "hints": {
+        "Huius": "'Huius' is a demonstrative pronoun in the genitive — 'of this (country)'",
+        "iudicium": "'iudicium' is a noun meaning 'judgment'",
+        "voluntatem": "'voluntatem' is a noun meaning 'will / wish'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'neglegis' translates to?",
+      "target": "to neglect / disregard",
+      "choices": ["to deny", "to neglect / disregard", "to negotiate", "to bind"],
+      "reveal": null,
+      "hints": {
+        "to deny": "'to deny' is 'negare' — 'neglegere' means 'to neglect/disregard'",
+        "to negotiate": "There is no direct Latin verb 'negotiare' in this sense — 'neglegere' means 'to disregard'",
+        "to bind": "'to bind' is 'nectere' or 'ligare' — 'neglegere' means 'to neglect'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'neglegis'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "neglegis", "gloss": "you disregard / neglect" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'neglexisti' — 'neglegis' is present",
+        "Present subjunctive": "Present subjunctive would be 'neglegas' — 'neglegis' is indicative",
+        "Future indicative": "Future would be 'negleges' — 'neglegis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'neglegis'?",
+      "target": "neglego, neglegere, neglexi, neglectum",
+      "choices": ["neglego, neglegere, neglexi, neglectum", "nego, negare, negavi, negatum", "lego, legere, legi, lectum", "intellego, intellegere, intellexi, intellectum"],
+      "reveal": null,
+      "hints": {
+        "nego, negare, negavi, negatum": "These are the parts of 'negare' (to deny) — a 1st conjugation verb",
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read/choose) — the base verb",
+        "intellego, intellegere, intellexi, intellectum": "These are the parts of 'intellegere' (to understand) — a different compound"
+      }
+    },
+    {
+      "prompt": "What case is 'Huius'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "Huius", "gloss": "of this (country)" },
+      "hints": {
+        "Nominative": "Nominative would be 'hic/haec/hoc' — 'Huius' is genitive singular",
+        "Dative": "Dative would be 'huic' — 'Huius' is genitive",
+        "Accusative": "Accusative would be 'hunc/hanc/hoc' — 'Huius' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'iudicium'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "iudicium", "gloss": "judgment" },
+      "hints": {
+        "Nominative": "Neuter nom. and acc. are identical, but 'iudicium' is the object of 'neglegis'",
+        "Genitive": "Genitive would be 'iudicii' — 'iudicium' is accusative",
+        "Ablative": "Ablative would be 'iudicio' — 'iudicium' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'voluntatem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "voluntatem", "gloss": "will / wish" },
+      "hints": {
+        "Nominative": "Nominative would be 'voluntas' — 'voluntatem' with -em ending is accusative",
+        "Dative": "Dative would be 'voluntati' — 'voluntatem' is accusative",
+        "Ablative": "Ablative would be 'voluntate' — 'voluntatem' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'voluntatem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'voluntas, voluntatis' is 3rd declension",
+        "2nd": "2nd declension accusative ends in -um — 'voluntas, voluntatis' is 3rd declension",
+        "5th": "5th declension accusative ends in -em too, but 'voluntas, -atis' with gen. -atis is 3rd"
+      }
+    },
+    {
+      "prompt": "What does 'Huius' refer to in context (continuing the personification of Rome)?",
+      "target": "The fatherland (patria), personified as a mother",
+      "choices": ["The senate", "The fatherland (patria), personified as a mother", "A specific senator", "The consul"],
+      "reveal": null,
+      "hints": {
+        "The senate": "The preceding passage personifies 'patria' as a mother — 'Huius' refers back to that",
+        "A specific senator": "'Huius' is feminine/neuter genitive — it refers to the feminine 'patria'",
+        "The consul": "Cicero is the consul — 'Huius' refers to 'patria' from the previous sentence"
+      }
+    }
+  ],
+  "translation": "You disregard the judgment and will of this country."
+}

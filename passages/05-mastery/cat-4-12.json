@@ -1,0 +1,119 @@
+{
+  "id": "cat-4-12",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.24",
+  "latin": ["Quare", "de", "summa", "salute", "vestra", "decernite", "diligenter"],
+  "steps": [
+    {
+      "prompt": "What does 'Quare' mean?",
+      "target": "therefore / for which reason",
+      "choices": ["therefore / for which reason", "where", "how", "because"],
+      "reveal": "Quare = therefore (qua + re = by which thing)",
+      "hints": {
+        "where": "'Where' is 'ubi' — 'quare' is an inferential conjunction meaning 'therefore'",
+        "how": "'How' is 'quomodo' — 'quare' means 'for which reason / therefore'",
+        "because": "'Because' is 'quia' or 'quod' — 'quare' draws a conclusion, not states a cause"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'de' govern?",
+      "target": "ablative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": "de + ablative = concerning / about",
+      "hints": {
+        "accusative": "'De' always takes the ablative, never the accusative",
+        "genitive": "'De' governs the ablative — genitive is not used with 'de'",
+        "dative": "'De' governs the ablative — dative is not used with 'de'"
+      }
+    },
+    {
+      "prompt": "What case is 'summa salute'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "summa salute = the supreme safety (abl., governed by 'de')",
+      "hints": {
+        "nominative": "Nominative would be 'summa salus' — 'summa salute' is ablative",
+        "accusative": "Accusative would be 'summam salutem' — 'summa salute' is ablative",
+        "genitive": "Genitive would be 'summae salutis' — 'summa salute' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'salus, salutis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'salutis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'salutis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'salutis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'vestra'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "vestra = your (abl. f. sg., modifying 'salute')",
+      "hints": {
+        "nominative": "Nominative feminine would also be 'vestra,' but here it agrees with ablative 'salute'",
+        "accusative": "Accusative feminine would be 'vestram' — 'vestra' agrees with ablative 'salute'",
+        "genitive": "Genitive would be 'vestrae' — 'vestra' is ablative agreeing with 'salute'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'decernite' translates to?",
+      "target": "to decide / to decree",
+      "choices": ["to decide / to decree", "to fight", "to perceive", "to run"],
+      "reveal": null,
+      "hints": {
+        "to fight": "'To fight' is 'decertare' — 'decernite' comes from 'decernere' (to decide)",
+        "to perceive": "'To perceive' is 'cernere' — 'decernere' adds de- meaning to decide definitively",
+        "to run": "'To run' is 'currere' — 'decernere' means to decide or decree"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'decernite'?",
+      "target": "present imperative",
+      "choices": ["present indicative", "present imperative", "present subjunctive", "future indicative"],
+      "reveal": "decernite = decide! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative would be 'decernitis' — 'decernite' without the -is ending is imperative",
+        "present subjunctive": "Present subjunctive would be 'decernatis' — 'decernite' is imperative",
+        "future indicative": "Future would be 'decernetis' — 'decernite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'decernite'?",
+      "target": "decerno, decernere, decrevi, decretum",
+      "choices": ["decerno, decernere, decrevi, decretum", "cerno, cernere, crevi, cretum", "decerto, decertare, decertavi, decertatum", "discerno, discernere, discrevi, discretum"],
+      "reveal": null,
+      "hints": {
+        "cerno, cernere, crevi, cretum": "These are the parts of 'cernere' (to perceive) — the base verb without de-",
+        "decerto, decertare, decertavi, decertatum": "These are the parts of 'decertare' (to fight it out) — different verb",
+        "discerno, discernere, discrevi, discretum": "These are the parts of 'discernere' (to distinguish) — different prefix"
+      }
+    },
+    {
+      "prompt": "What does 'diligenter' mean?",
+      "target": "carefully / diligently",
+      "choices": ["carefully / diligently", "quickly", "lovingly", "fearfully"],
+      "reveal": "diligenter = carefully",
+      "hints": {
+        "quickly": "'Quickly' is 'celeriter' — 'diligenter' means carefully",
+        "lovingly": "'Lovingly' confuses 'diligere' (to value) — the adverb means 'carefully'",
+        "fearfully": "'Fearfully' is 'timide' — 'diligenter' means carefully"
+      }
+    },
+    {
+      "prompt": "How does 'de summa salute vestra' differ from a simple objective genitive?",
+      "target": "'de' + ablative expresses the topic of deliberation: 'concerning your supreme safety'",
+      "choices": ["'de' + ablative expresses the topic of deliberation: 'concerning your supreme safety'", "it expresses cause: 'because of your safety'", "it expresses separation: 'away from your safety'", "it expresses time: 'during your safety'"],
+      "reveal": null,
+      "hints": {
+        "it expresses cause: 'because of your safety'": "'De' can indicate cause, but with 'decernere' it means 'concerning' — the topic of the decree",
+        "it expresses separation: 'away from your safety'": "'De' can mean 'from,' but with verbs of deciding it means 'concerning'",
+        "it expresses time: 'during your safety'": "'De' does not express time here — it indicates the subject matter of the decision"
+      }
+    }
+  ],
+  "translation": "Therefore decide carefully concerning your supreme safety"
+}

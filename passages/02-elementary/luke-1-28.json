@@ -1,0 +1,86 @@
+{
+  "id": "luke-1-28",
+  "source": "Vulgate",
+  "reference": "Lucas 1:32",
+  "latin": ["Filius", "Altissimi", "vocabitur"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "vocabitur",
+      "choices": ["Filius", "Altissimi", "vocabitur", "erit"],
+      "reveal": null,
+      "hints": {
+        "Filius": "'Filius' is a noun meaning 'Son'",
+        "Altissimi": "'Altissimi' is a substantive adjective meaning 'of the Most High'",
+        "erit": "'Erit' means 'will be' but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vocabitur' translates to?",
+      "target": "to call",
+      "choices": ["to call", "to come", "to live", "to name"],
+      "reveal": null,
+      "hints": {
+        "to come": "That would be 'venire'",
+        "to live": "That would be 'vivere'",
+        "to name": "That would be 'nominare'; 'vocare' means 'to call'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'vocabitur'?",
+      "target": "future passive indicative",
+      "choices": ["present passive", "future passive indicative", "perfect passive", "imperfect passive"],
+      "reveal": "vocabitur = he will be called",
+      "hints": {
+        "present passive": "Present passive 3rd person would be 'vocatur'",
+        "perfect passive": "Perfect passive would be 'vocatus est'",
+        "imperfect passive": "Imperfect passive would be 'vocabatur'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vocabitur'?",
+      "target": "voco, vocare, vocavi, vocatum",
+      "choices": ["voco, vocare, vocavi, vocatum", "video, videre, vidi, visum", "venio, venire, veni, ventum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venio' (to come)",
+        "vivo, vivere, vixi, victum": "These are the principal parts of 'vivo' (to live)"
+      }
+    },
+    {
+      "prompt": "What case is 'Filius'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "genitive", "accusative"],
+      "reveal": "Filius = Son (nom., predicate nominative)",
+      "hints": {
+        "vocative": "Vocative would be 'Fili'; 'Filius' with -us is nominative",
+        "genitive": "Genitive would be 'Filii'",
+        "accusative": "Accusative would be 'Filium'"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'filius' ends in -us with genitive 'filii'",
+        "3rd declension": "3rd declension has -is genitive; 'filius' has genitive 'filii'",
+        "4th declension": "4th declension -us nouns have -us genitive; 'filius' has genitive 'filii'"
+      }
+    },
+    {
+      "prompt": "What case is 'Altissimi'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Altissimi = of the Most High (gen.)",
+      "hints": {
+        "nominative": "Nominative singular is 'Altissimus'; 'Altissimi' is genitive singular or nom. plural",
+        "dative": "Dative would be 'Altissimo'",
+        "ablative": "Ablative would be 'Altissimo'"
+      }
+    }
+  ],
+  "translation": "He will be called the Son of the Most High"
+}

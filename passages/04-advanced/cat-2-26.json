@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-26",
+  "source": "Cicero",
+  "reference": "In Cat. I.13",
+  "latin": ["Nunc", "illa", "tela", "quae", "in", "nos", "intenderas", "retundentur"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "retundentur",
+      "choices": ["tela", "intenderas", "retundentur", "illa"],
+      "reveal": null,
+      "hints": {
+        "tela": "'tela' is a noun meaning 'weapons / missiles'",
+        "intenderas": "'intenderas' is a verb in the relative clause",
+        "illa": "'illa' is a demonstrative pronoun meaning 'those'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'retundentur' translates to?",
+      "target": "to be blunted / turned back",
+      "choices": ["to be returned", "to be blunted / turned back", "to be thundered", "to be rotated"],
+      "reveal": null,
+      "hints": {
+        "to be returned": "'to be returned' is 'reddi' — 'retundi' means 'to be blunted/beaten back'",
+        "to be thundered": "'to thunder' is 'tonare' — 'retundere' means 'to blunt/beat back'",
+        "to be rotated": "'to rotate' is not standard Latin — 'retundere' means 'to blunt/turn back'"
+      }
+    },
+    {
+      "prompt": "What tense, mood, and voice is 'retundentur'?",
+      "target": "Future passive indicative",
+      "choices": ["Present passive indicative", "Future passive indicative", "Present passive subjunctive", "Future active indicative"],
+      "reveal": { "word": "retundentur", "gloss": "will be blunted / turned back" },
+      "hints": {
+        "Present passive indicative": "Present passive would be 'retunduntur' — 'retundentur' with -entur is future",
+        "Present passive subjunctive": "Present passive subjunctive would be 'retundantur' — 'retundentur' is future indicative",
+        "Future active indicative": "Future active would be 'retundent' — 'retundentur' with passive -entur ending is passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'retundentur'?",
+      "target": "retundo, retundere, rettudi, retusum",
+      "choices": ["retundo, retundere, rettudi, retusum", "tundo, tundere, tutudi, tusum", "reddo, reddere, reddidi, redditum", "refundo, refundere, refudi, refusum"],
+      "reveal": null,
+      "hints": {
+        "tundo, tundere, tutudi, tusum": "These are the parts of 'tundere' (to beat/pound) — the base verb",
+        "reddo, reddere, reddidi, redditum": "These are the parts of 'reddere' (to give back/return)",
+        "refundo, refundere, refudi, refusum": "These are the parts of 'refundere' (to pour back)"
+      }
+    },
+    {
+      "prompt": "What case is 'tela'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "tela", "gloss": "weapons / missiles" },
+      "hints": {
+        "Accusative": "Neuter plural nom. and acc. are the same, but 'tela' is the subject of 'retundentur'",
+        "Ablative": "Ablative plural would be 'telis' — 'tela' is nominative plural neuter",
+        "Vocative": "One does not address weapons — 'tela' is nominative subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'tela'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nominative plural ends in -ae — 'telum, -i' is 2nd declension neuter",
+        "3rd": "3rd declension neuter plurals also end in -a, but 'telum, teli' with gen. -i is 2nd",
+        "4th": "4th declension nouns have gen. in -us — 'telum, teli' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What tense was 'intenderas'?",
+      "target": "Pluperfect indicative",
+      "choices": ["Perfect indicative", "Pluperfect indicative", "Imperfect indicative", "Future perfect indicative"],
+      "reveal": { "word": "intenderas", "gloss": "you had aimed / directed" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'intendisti' — 'intenderas' with -eras ending is pluperfect",
+        "Imperfect indicative": "Imperfect would be 'intendebas' — 'intenderas' is pluperfect",
+        "Future perfect indicative": "Future perfect would be 'intenderis' — 'intenderas' is pluperfect"
+      }
+    },
+    {
+      "prompt": "What is the metaphor of 'tela retundentur'?",
+      "target": "Catiline's plots (weapons) will now be rendered harmless",
+      "choices": ["Actual weapons will be collected", "Catiline's plots (weapons) will now be rendered harmless", "Rome's defenses are strong", "A blacksmith will rework the swords"],
+      "reveal": null,
+      "hints": {
+        "Actual weapons will be collected": "'tela' is metaphorical — Cicero means Catiline's schemes and threats, not physical weapons",
+        "Rome's defenses are strong": "The focus is on Catiline's offensive weapons being neutralized, not Rome's defenses",
+        "A blacksmith will rework the swords": "'retundere' means 'to blunt/turn back' — this is a metaphor for rendering conspiracies harmless"
+      }
+    }
+  ],
+  "translation": "Now those weapons which you had aimed at us will be blunted."
+}

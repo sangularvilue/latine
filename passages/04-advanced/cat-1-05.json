@@ -1,0 +1,119 @@
+{
+  "id": "cat-1-05",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Senatus", "haec", "intellegit", "consul", "videt"],
+  "steps": [
+    {
+      "prompt": "Which words are the main verbs?",
+      "target": "intellegit, videt",
+      "choices": ["Senatus, consul", "haec, intellegit", "intellegit, videt", "Senatus, videt"],
+      "reveal": null,
+      "hints": {
+        "Senatus, consul": "'Senatus' and 'consul' are nouns — the subjects of the two clauses",
+        "haec, intellegit": "'haec' is a pronoun meaning 'these things' — only 'intellegit' is a verb",
+        "Senatus, videt": "'Senatus' is a noun (the senate) — only 'videt' is a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'intellegit' translates to?",
+      "target": "to understand",
+      "choices": ["to read", "to understand", "to choose", "to speak"],
+      "reveal": null,
+      "hints": {
+        "to read": "'to read' is 'legere' — 'intellegere' adds the prefix inter- meaning 'to understand'",
+        "to choose": "'to choose' is 'eligere' — a different compound of 'legere'",
+        "to speak": "'to speak' is 'loqui' — entirely different verb"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'intellegit'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Future indicative", "Present subjunctive"],
+      "reveal": { "word": "intellegit", "gloss": "understands" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'intellexit' — 'intellegit' with the -it present ending is present tense",
+        "Future indicative": "Future would be 'intelleget' — 'intellegit' is present",
+        "Present subjunctive": "Present subjunctive would be 'intellegat' — 'intellegit' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'intellegit'?",
+      "target": "intellego, intellegere, intellexi, intellectum",
+      "choices": ["intellego, intellegere, intellexi, intellectum", "lego, legere, legi, lectum", "eligo, eligere, elegi, electum", "neglego, neglegere, neglexi, neglectum"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read/gather) — the base verb without the prefix",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose) — a different compound of 'legere'",
+        "neglego, neglegere, neglexi, neglectum": "These are the parts of 'neglegere' (to neglect) — similar pattern but different prefix"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'videt' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to conquer", "to live", "to seem"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'to conquer' is 'vincere' — 'videre' means 'to see'",
+        "to live": "'to live' is 'vivere' — similar start but different verb",
+        "to seem": "'to seem' is the passive 'videri' — the active 'videre' means 'to see'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videt'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What case is 'senatus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "senatus", "gloss": "the senate" },
+      "hints": {
+        "Genitive": "Genitive singular of 4th declension would also be 'senatus', but here it is the subject of 'intellegit'",
+        "Dative": "Dative would be 'senatui' — 'senatus' is nominative, the subject",
+        "Accusative": "Accusative would be 'senatum' — 'senatus' is nominative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'senatus'?",
+      "target": "4th",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension -us nouns have gen. -i — 'senatus' has gen. 'senatus' (4th declension)",
+        "3rd": "3rd declension nouns have varied endings — 'senatus' with gen. -us is 4th declension",
+        "5th": "5th declension nouns end in -es — 'senatus' is 4th declension"
+      }
+    },
+    {
+      "prompt": "What case is 'consul'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "consul", "gloss": "the consul" },
+      "hints": {
+        "Genitive": "Genitive would be 'consulis' — 'consul' is nominative, subject of 'videt'",
+        "Accusative": "Accusative would be 'consulem' — 'consul' is the nominative subject",
+        "Vocative": "Vocative would look the same, but Cicero is referring to himself in the 3rd person as consul, not addressing a consul"
+      }
+    },
+    {
+      "prompt": "Why does Cicero refer to himself as 'consul' in the third person?",
+      "target": "To emphasize the authority of his office",
+      "choices": ["He is quoting someone else", "To emphasize the authority of his office", "He is being modest", "He is speaking about a different consul"],
+      "reveal": null,
+      "hints": {
+        "He is quoting someone else": "Cicero is speaking in his own voice — the third person is a deliberate rhetorical choice",
+        "He is being modest": "Using his title 'consul' is the opposite of modesty — it invokes official power",
+        "He is speaking about a different consul": "Cicero was the consul addressing the senate — he refers to himself by title for rhetorical weight"
+      }
+    }
+  ],
+  "translation": "The senate understands these things; the consul sees them."
+}

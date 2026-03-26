@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-02",
+  "source": "Vulgate",
+  "reference": "Lucas 3:3",
+  "latin": ["Venit", "in", "omnem", "regionem", "Iordanis"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Venit",
+      "choices": ["Venit", "in", "omnem", "regionem"],
+      "reveal": null,
+      "hints": {
+        "in": "'in' is a preposition meaning 'into' (with accusative)",
+        "omnem": "'omnem' is an adjective meaning 'all/every' in the accusative",
+        "regionem": "'regionem' is a noun meaning 'region' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Venit' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to hunt", "to sell", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to hunt": "'to hunt' is 'venari' — 'Venit' comes from 'venire' (to come)",
+        "to sell": "'to sell' is 'vendere' — 'Venit' comes from 'venire'",
+        "to conquer": "'to conquer' is 'vincere' — 'Venit' comes from 'venire'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Venit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Venit", "gloss": "he came" },
+      "hints": {
+        "Present": "Present 'venit' looks identical — but the narrative context marks this as perfect",
+        "Imperfect": "Imperfect would be 'veniebat' — 'Venit' is 3rd singular perfect",
+        "Future": "Future would be 'veniet' — 'Venit' is 3rd singular perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Venit'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "video, videre, vidi, visum", "vinco, vincere, vici, victum", "vendo, vendere, vendidi, venditum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vendo, vendere, vendidi, venditum": "These are the parts of 'vendere' (to sell)"
+      }
+    },
+    {
+      "prompt": "What case is 'regionem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "regionem", "gloss": "region" },
+      "hints": {
+        "Nominative": "Nominative would be 'regio' — 'regionem' with -em ending is accusative",
+        "Ablative": "Ablative would be 'regione' — 'regionem' is accusative after 'in' (motion into)",
+        "Genitive": "Genitive would be 'regionis' — 'regionem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'regio, regionis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regionis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'regionis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'regionis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Iordanis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Iordanis", "gloss": "of the Jordan" },
+      "hints": {
+        "Nominative": "Nominative could be 'Iordanis' (same form), but here it modifies 'regionem' — genitive",
+        "Dative": "Dative would be 'Iordani' — 'Iordanis' is genitive (the region of the Jordan)",
+        "Ablative": "Ablative would be 'Iordane' — 'Iordanis' is genitive singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'Iordanis, Iordanis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Iordanis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Iordanis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'Iordanis' ends in -is"
+      }
+    }
+  ],
+  "translation": "He came into all the region of the Jordan"
+}

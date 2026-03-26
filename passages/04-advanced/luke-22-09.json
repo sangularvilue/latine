@@ -1,0 +1,141 @@
+{
+  "id": "luke-22-09",
+  "source": "Vulgate",
+  "reference": "Lucas 22:69",
+  "latin": ["Ex", "hoc", "autem", "erit", "Filius", "hominis", "sedens", "a", "dextris", "virtutis", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "erit",
+      "choices": ["erit", "sedens", "Filius", "virtutis"],
+      "reveal": null,
+      "hints": {
+        "sedens": "'Sedens' is a present active participle meaning 'sitting'",
+        "Filius": "'Filius' is a noun meaning 'the Son' — the subject",
+        "virtutis": "'Virtutis' is a noun in the genitive meaning 'of power'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to go out", "to eat"],
+      "reveal": null,
+      "hints": {
+        "to go": "'To go' is 'ire' — 'erit' is from 'sum, esse' (to be)",
+        "to go out": "'To go out' is 'exire' — 'erit' is from 'sum, esse'",
+        "to eat": "'To eat' is 'edere' — 'erit' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erit'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "erit = will be (3rd sing. future)",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erit' with -ri- is future",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'erit' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fio' (to become)"
+      }
+    },
+    {
+      "prompt": "What is 'sedens' grammatically?",
+      "target": "present active participle (sitting)",
+      "choices": ["present active participle (sitting)", "perfect passive participle", "gerundive", "finite verb"],
+      "reveal": "sedens = sitting (pres. act. part., periphrastic with 'erit')",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'sessus' — 'sedens' has -ens (present participle)",
+        "gerundive": "Gerundive would be 'sedendus' — 'sedens' is present active participle",
+        "finite verb": "'Sedens' is a participle, not a finite verb"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sedens' (from 'sedeo')?",
+      "target": "sedeo, sedere, sedi, sessum",
+      "choices": ["sedeo, sedere, sedi, sessum", "sido, sidere, sidi, —", "cedo, cedere, cessi, cessum", "seduco, seducere, seduxi, seductum"],
+      "reveal": null,
+      "hints": {
+        "sido, sidere, sidi, —": "These are the parts of 'sido' (to sit down/settle) — related but different from 'sedeo'",
+        "cedo, cedere, cessi, cessum": "These are the parts of 'cedo' (to go/yield)",
+        "seduco, seducere, seduxi, seductum": "These are the parts of 'seduco' (to lead astray)"
+      }
+    },
+    {
+      "prompt": "What case is 'Filius'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "accusative"],
+      "reveal": "Filius hominis = the Son of Man (nom., subject)",
+      "hints": {
+        "genitive": "Genitive would be 'Filii' — 'Filius' is nominative",
+        "vocative": "Vocative would be 'Fili' — 'Filius' is nominative (subject)",
+        "accusative": "Accusative would be 'Filium' — 'Filius' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'dextris'?",
+      "target": "ablative plural",
+      "choices": ["ablative plural", "dative plural", "genitive plural", "nominative plural"],
+      "reveal": "a dextris = at the right hand (abl. pl.)",
+      "hints": {
+        "dative plural": "'Dextris' in dative looks the same, but 'a' + ablative = 'at/from'",
+        "genitive plural": "Genitive plural would be 'dextrarum' — 'dextris' is ablative",
+        "nominative plural": "Nominative plural would be 'dextrae' — 'dextris' is ablative after 'a'"
+      }
+    },
+    {
+      "prompt": "What declension is 'dextra, dextrae' (right hand)?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'dextrae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'dextrae' ends in -ae",
+        "4th declension": "4th declension has genitive in -us — 'dextrae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'virtutis'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "virtutis Dei = of the power of God (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'virtus' — 'virtutis' ends in -is (genitive)",
+        "dative": "Dative would be 'virtuti' — 'virtutis' ends in -is (genitive)",
+        "ablative": "Ablative would be 'virtute' — 'virtutis' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'virtus, virtutis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'virtutis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'virtutis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'virtutis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What construction is 'erit sedens'?",
+      "target": "periphrastic (future of esse + present participle = will be sitting)",
+      "choices": ["periphrastic (future of esse + present participle = will be sitting)", "ablative absolute", "passive periphrastic", "indirect statement"],
+      "reveal": "erit sedens = will be sitting (progressive/continuous aspect in the future)",
+      "hints": {
+        "ablative absolute": "Ablative absolute requires ablative — 'sedens' is nominative",
+        "passive periphrastic": "Passive periphrastic uses gerundive (-ndus) + esse — 'sedens' is a present participle",
+        "indirect statement": "Indirect statement uses accusative + infinitive — this is a direct statement"
+      }
+    }
+  ],
+  "translation": "But from now on the Son of Man will be seated at the right hand of the power of God"
+}

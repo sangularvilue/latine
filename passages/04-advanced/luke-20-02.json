@@ -1,0 +1,130 @@
+{
+  "id": "luke-20-02",
+  "source": "Vulgate",
+  "reference": "Lucas 20:38",
+  "latin": ["Deus", "autem", "non", "est", "mortuorum", "sed", "vivorum"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "est",
+      "choices": ["est", "Deus", "mortuorum", "vivorum"],
+      "reveal": null,
+      "hints": {
+        "Deus": "'Deus' is a noun meaning 'God' — it is the subject",
+        "mortuorum": "'Mortuorum' is a substantive adjective/participle in the genitive plural",
+        "vivorum": "'Vivorum' is a substantive adjective/participle in the genitive plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go out"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere' (infinitive also 'esse') — here 'est' is from 'sum' (to be)",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'sum, esse'",
+        "to go out": "'To go out' is 'exire' — 'est' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "est = is (3rd sing.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "future indicative": "Future would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "exsisto, exsistere, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat) — same infinitive but different verb",
+        "sto, stare, steti, statum": "These are the parts of 'sto' (to stand)",
+        "exsisto, exsistere, exstiti, —": "These are the parts of 'exsisto' (to exist/arise)"
+      }
+    },
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Deus = God (nom., subject)",
+      "hints": {
+        "vocative": "Vocative of 'Deus' is 'Deus' (or 'Dee'), but here it is the subject of 'est'",
+        "accusative": "Accusative would be 'Deum' — 'Deus' is the nominative subject",
+        "genitive": "Genitive would be 'Dei' — 'Deus' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus, Dei'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Dei' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Dei' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'Dei' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'mortuorum'?",
+      "target": "genitive plural",
+      "choices": ["genitive plural", "accusative plural", "dative plural", "ablative plural"],
+      "reveal": "mortuorum = of the dead (gen. pl.)",
+      "hints": {
+        "accusative plural": "Accusative plural would be 'mortuos' — 'mortuorum' with -orum is genitive",
+        "dative plural": "Dative plural would be 'mortuis' — 'mortuorum' with -orum is genitive",
+        "ablative plural": "Ablative plural would be 'mortuis' — 'mortuorum' with -orum is genitive"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'mortuus, -a, -um' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e — 'mortuus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Mortuus' clearly declines: mortuus, mortua, mortuum"
+      }
+    },
+    {
+      "prompt": "What case is 'vivorum'?",
+      "target": "genitive plural",
+      "choices": ["genitive plural", "nominative plural", "accusative plural", "dative plural"],
+      "reveal": "vivorum = of the living (gen. pl.)",
+      "hints": {
+        "nominative plural": "Nominative plural would be 'vivi' — 'vivorum' with -orum is genitive",
+        "accusative plural": "Accusative plural would be 'vivos' — 'vivorum' with -orum is genitive",
+        "dative plural": "Dative plural would be 'vivis' — 'vivorum' with -orum is genitive"
+      }
+    },
+    {
+      "prompt": "What is the grammatical use of 'mortuorum' and 'vivorum' here?",
+      "target": "substantive adjectives (adjectives used as nouns)",
+      "choices": ["substantive adjectives (adjectives used as nouns)", "attributive adjectives modifying 'Deus'", "predicate adjectives", "ablative absolutes"],
+      "reveal": null,
+      "hints": {
+        "attributive adjectives modifying 'Deus'": "They are in the genitive, not nominative — they don't modify 'Deus' directly",
+        "predicate adjectives": "Predicate adjectives agree with the subject — these are genitive, not nominative",
+        "ablative absolutes": "Ablative absolutes require the ablative case — these are genitive"
+      }
+    },
+    {
+      "prompt": "What type of genitive is 'mortuorum' / 'vivorum' here?",
+      "target": "genitive of possession / relationship",
+      "choices": ["genitive of possession / relationship", "partitive genitive", "objective genitive", "genitive of description"],
+      "reveal": "He is [the God] of the living = He belongs to / is in relationship with the living",
+      "hints": {
+        "partitive genitive": "Partitive genitive means 'part of' — this describes God's relationship to the living",
+        "objective genitive": "Objective genitive shows the object of an implied action — this is about relationship/possession",
+        "genitive of description": "Genitive of description qualifies a noun's character — this is about relationship"
+      }
+    }
+  ],
+  "translation": "God is not the God of the dead but of the living"
+}

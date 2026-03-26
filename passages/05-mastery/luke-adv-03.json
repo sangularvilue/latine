@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-03",
+  "source": "Vulgate",
+  "reference": "Lucas 4:24",
+  "latin": ["Amen", "dico", "vobis", "quia", "nemo", "propheta", "acceptus", "est", "in", "patria", "sua"],
+  "steps": [
+    {
+      "prompt": "What is 'Amen' in this context?",
+      "target": "a Hebrew adverb meaning 'truly / verily'",
+      "choices": ["a Hebrew adverb meaning 'truly / verily'", "a Latin conjunction meaning 'but'", "a Greek particle meaning 'therefore'", "a closing formula meaning 'so be it'"],
+      "reveal": "Amen = truly (used to introduce a solemn declaration)",
+      "hints": {
+        "a Latin conjunction meaning 'but'": "'Amen' is not Latin — it is a Hebrew loanword meaning 'truly'",
+        "a Greek particle meaning 'therefore'": "'Amen' is Hebrew, not Greek — it means 'truly' or 'verily'",
+        "a closing formula meaning 'so be it'": "'Amen' can close prayers, but when opening a statement (as Jesus uses it) it means 'truly'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dico' translates to?",
+      "target": "to say / to tell",
+      "choices": ["to say / to tell", "to lead", "to dedicate", "to judge"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'To lead' is 'ducere' — 'dico' comes from 'dicere' (to say)",
+        "to dedicate": "'To dedicate' is 'dicare' (1st conj.) — 'dicere' (3rd conj.) means to say",
+        "to judge": "'To judge' is 'iudicare' — 'dicere' means to say"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'dico'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "dico = I say / I tell",
+      "hints": {
+        "perfect indicative": "Perfect would be 'dixi' — 'dico' is present indicative",
+        "future indicative": "Future would be 'dicam' — 'dico' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'dicam' — 'dico' with short -o is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dico'?",
+      "target": "dico, dicere, dixi, dictum",
+      "choices": ["dico, dicere, dixi, dictum", "duco, ducere, duxi, ductum", "disco, discere, didici, —", "dico, dicare, dicavi, dicatum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "disco, discere, didici, —": "These are the parts of 'discere' (to learn)",
+        "dico, dicare, dicavi, dicatum": "These are the parts of 'dicare' (to dedicate) — a different 1st conjugation verb"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "vobis = to you (dat., indirect object of 'dico')",
+      "hints": {
+        "nominative": "Nominative of 'vos' is 'vos' — 'vobis' is dative or ablative",
+        "accusative": "Accusative would be 'vos' — 'vobis' is dative",
+        "ablative": "'Vobis' can be ablative, but with 'dico' it is dative indirect object"
+      }
+    },
+    {
+      "prompt": "What does 'quia' introduce here?",
+      "target": "noun clause after verb of saying ('that')",
+      "choices": ["noun clause after verb of saying ('that')", "causal clause ('because')", "relative clause", "purpose clause"],
+      "reveal": "quia = that (introducing indirect discourse in Vulgate Latin)",
+      "hints": {
+        "causal clause ('because')": "'Quia' classically means 'because,' but in Vulgate Latin it often means 'that' after verbs of saying",
+        "relative clause": "Relative clauses use 'qui/quae/quod' — 'quia' is a conjunction",
+        "purpose clause": "Purpose clauses use 'ut' — 'quia' here introduces reported speech"
+      }
+    },
+    {
+      "prompt": "What case is 'nemo propheta'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "nemo propheta = no prophet (nom., subject of 'acceptus est')",
+      "hints": {
+        "accusative": "Accusative would be 'neminem prophetam' — 'nemo propheta' is nominative",
+        "ablative": "Ablative would be 'nemine propheta' — 'nemo propheta' is nominative",
+        "vocative": "A prophet is not being addressed — 'nemo propheta' is the subject"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'acceptus est' translates to?",
+      "target": "to receive / to accept",
+      "choices": ["to receive / to accept", "to approach", "to take away", "to accuse"],
+      "reveal": null,
+      "hints": {
+        "to approach": "'To approach' is 'accedere' — 'acceptus est' comes from 'accipere' (to receive)",
+        "to take away": "'To take away' is 'auferre' — 'accipere' means to receive or accept",
+        "to accuse": "'To accuse' is 'accusare' — 'accipere' means to receive"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'acceptus est'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect active indicative"],
+      "reveal": "acceptus est = is accepted / has been received",
+      "hints": {
+        "present passive indicative": "Present passive would be 'accipitur' — participle + 'est' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'acceptus erat' — 'est' makes it perfect",
+        "perfect active indicative": "Perfect active would be 'accepit' — participle + 'est' is passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'acceptus est'?",
+      "target": "accipio, accipere, accepi, acceptum",
+      "choices": ["accipio, accipere, accepi, acceptum", "capio, capere, cepi, captum", "recipio, recipere, recepi, receptum", "incipio, incipere, incepi, inceptum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the parts of 'capere' (to take) — the base verb without the ac- prefix",
+        "recipio, recipere, recepi, receptum": "These are the parts of 'recipere' (to take back) — different prefix",
+        "incipio, incipere, incepi, inceptum": "These are the parts of 'incipere' (to begin) — different compound"
+      }
+    },
+    {
+      "prompt": "What case is 'patria sua'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "in patria sua = in his own homeland (abl. of place where)",
+      "hints": {
+        "nominative": "Nominative would be 'patria sua' too, but 'in' + ablative marks location",
+        "accusative": "Accusative with 'in' would mean 'into' — ablative with 'in' means 'in'",
+        "genitive": "Genitive would be 'patriae suae' — 'patria sua' is ablative with 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'patria, patriae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'patriae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'patriae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'patriae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Truly I say to you that no prophet is accepted in his own homeland"
+}

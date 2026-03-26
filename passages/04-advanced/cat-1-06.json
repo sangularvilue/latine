@@ -1,0 +1,86 @@
+{
+  "id": "cat-1-06",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Hic", "tamen", "vivit"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "vivit",
+      "choices": ["Hic", "tamen", "vivit", "Hic tamen"],
+      "reveal": null,
+      "hints": {
+        "Hic": "'Hic' is a demonstrative pronoun meaning 'this man'",
+        "tamen": "'tamen' is a conjunction/adverb meaning 'nevertheless / yet'",
+        "Hic tamen": "This is two words — only 'vivit' is the verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivit' translates to?",
+      "target": "to live",
+      "choices": ["to see", "to live", "to conquer", "to come"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is 'videre' — 'vivit' comes from 'vivere' (to live)",
+        "to conquer": "'to conquer' is 'vincere' — similar consonants but different verb",
+        "to come": "'to come' is 'venire' — 'vivit' comes from 'vivere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'vivit'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "vivit", "gloss": "lives / is alive" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'vixit' — 'vivit' with present stem is present tense",
+        "Present subjunctive": "Present subjunctive would be 'vivat' — 'vivit' is indicative",
+        "Future indicative": "Future would be 'vivet' — 'vivit' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivit'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "video, videre, vidi, visum", "vinco, vincere, vici, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What does 'Hic' refer to in context?",
+      "target": "Catiline",
+      "choices": ["The senate", "Catiline", "The consul", "The Roman people"],
+      "reveal": { "word": "Hic", "gloss": "this man (Catiline)" },
+      "hints": {
+        "The senate": "The senate was just mentioned as understanding — 'Hic' points to the person being accused",
+        "The consul": "Cicero is the consul — 'Hic' refers to the person he's denouncing: Catiline",
+        "The Roman people": "'Hic' is singular — it refers to one man, Catiline"
+      }
+    },
+    {
+      "prompt": "What does 'tamen' convey about the situation?",
+      "target": "Despite the senate knowing, Catiline still lives",
+      "choices": ["Catiline lives because of the senate", "Despite the senate knowing, Catiline still lives", "Catiline barely survives", "The senate has pardoned Catiline"],
+      "reveal": { "word": "tamen", "gloss": "nevertheless / yet" },
+      "hints": {
+        "Catiline lives because of the senate": "'tamen' means 'nevertheless' — it marks a contrast, not a cause",
+        "Catiline barely survives": "'tamen' does not mean 'barely' — it means 'yet/nevertheless', expressing Cicero's outrage that Catiline is still alive and free",
+        "The senate has pardoned Catiline": "There is no pardon — 'tamen' expresses Cicero's frustration that despite knowledge of the conspiracy, Catiline remains alive"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical effect of this extremely short sentence?",
+      "target": "Blunt shock — emphasizing the outrage with brevity",
+      "choices": ["It signals a transition to a new topic", "Blunt shock — emphasizing the outrage with brevity", "It shows Cicero running out of arguments", "It is a standard legal formula"],
+      "reveal": null,
+      "hints": {
+        "It signals a transition to a new topic": "Cicero continues on the same topic — the brevity intensifies the emotional impact",
+        "It shows Cicero running out of arguments": "The opposite — short sentences in oratory are deliberate and powerful",
+        "It is a standard legal formula": "This is not a legal formula — it's a rhetorically charged exclamation of disbelief"
+      }
+    }
+  ],
+  "translation": "This man nevertheless lives."
+}

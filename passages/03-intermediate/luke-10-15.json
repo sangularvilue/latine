@@ -1,0 +1,97 @@
+{
+  "id": "luke-10-15",
+  "source": "Vulgate",
+  "reference": "Lucas 10:3",
+  "latin": ["Ecce", "mitto", "vos", "sicut", "agnos"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "mitto",
+      "choices": ["Ecce", "mitto", "vos", "agnos"],
+      "reveal": null,
+      "hints": {
+        "Ecce": "'Ecce' is an interjection meaning 'behold!'",
+        "vos": "'Vos' is a pronoun meaning 'you (pl.)'",
+        "agnos": "'Agnos' is a noun meaning 'lambs'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'mitto' translates to?",
+      "target": "to send",
+      "choices": ["to send", "to put", "to throw", "to mix"],
+      "reveal": null,
+      "hints": {
+        "to put": "That would be 'ponere' — 'mitto' comes from 'mittere' (to send)",
+        "to throw": "While 'mittere' can mean 'to hurl', its primary meaning is 'to send'",
+        "to mix": "That would be 'miscere' — 'mitto' comes from 'mittere' (to send)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'mitto'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "mitto = I send",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'mittam' — 'mitto' is present indicative",
+        "perfect indicative": "Perfect would be 'misi' — 'mitto' is present indicative",
+        "future indicative": "Future would be 'mittam' — 'mitto' is present indicative 1st person"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mitto'?",
+      "target": "mitto, mittere, misi, missum",
+      "choices": ["mitto, mittere, misi, missum", "pono, ponere, posui, positum", "duco, ducere, duxi, ductum", "scribo, scribere, scripsi, scriptum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place/put)",
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "scribo, scribere, scripsi, scriptum": "These are the parts of 'scribere' (to write)"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "vos = you (acc. pl., direct object)",
+      "hints": {
+        "nominative": "While 'vos' is identical in nominative, here it is the direct object of 'mitto'",
+        "ablative": "Ablative would be 'vobis' — 'vos' is accusative, direct object",
+        "dative": "Dative would be 'vobis' — 'vos' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'agnos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "agnos = lambs (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'agni' — 'agnos' with -os is accusative plural",
+        "ablative": "Ablative plural would be 'agnis' — 'agnos' is accusative",
+        "genitive": "Genitive plural would be 'agnorum' — 'agnos' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'agnus, agni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'agni' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'agni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'agni' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is the function of 'sicut'?",
+      "target": "comparative particle (as / just as)",
+      "choices": ["comparative particle (as / just as)", "temporal conjunction (when)", "causal conjunction (because)", "conditional conjunction (if)"],
+      "reveal": null,
+      "hints": {
+        "temporal conjunction (when)": "'When' would be 'cum' — 'sicut' means 'just as / like'",
+        "causal conjunction (because)": "'Because' would be 'quia' — 'sicut' means 'just as'",
+        "conditional conjunction (if)": "'If' would be 'si' — 'sicut' means 'just as / like'"
+      }
+    }
+  ],
+  "translation": "Behold, I send you as lambs"
+}

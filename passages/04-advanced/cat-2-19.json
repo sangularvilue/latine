@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-19",
+  "source": "Cicero",
+  "reference": "In Cat. I.11",
+  "latin": ["Iam", "intelleges", "multo", "me", "vehementius", "vigilare"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "intelleges",
+      "choices": ["Iam", "intelleges", "vehementius", "vigilare"],
+      "reveal": null,
+      "hints": {
+        "Iam": "'Iam' is an adverb meaning 'now / soon / already'",
+        "vehementius": "'vehementius' is a comparative adverb meaning 'more vigorously'",
+        "vigilare": "'vigilare' is an infinitive in indirect statement"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'intelleges' translates to?",
+      "target": "to understand",
+      "choices": ["to read", "to understand", "to choose", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to read": "'to read' is 'legere' — 'intellegere' means 'to understand'",
+        "to choose": "'to choose' is 'eligere' — 'intellegere' means 'to understand'",
+        "to gather": "'to gather' is 'colligere' — 'intellegere' means 'to understand'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'intelleges'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "intelleges", "gloss": "you will understand" },
+      "hints": {
+        "Present indicative": "Present would be 'intellegis' — 'intelleges' with -es ending is future",
+        "Present subjunctive": "Present subjunctive would be 'intellegas' — 'intelleges' is future indicative",
+        "Perfect indicative": "Perfect would be 'intellexisti' — 'intelleges' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'intelleges'?",
+      "target": "intellego, intellegere, intellexi, intellectum",
+      "choices": ["intellego, intellegere, intellexi, intellectum", "lego, legere, legi, lectum", "eligo, eligere, elegi, electum", "colligo, colligere, collegi, collectum"],
+      "reveal": null,
+      "hints": {
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read/gather) — the base verb",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose)",
+        "colligo, colligere, collegi, collectum": "These are the parts of 'colligere' (to gather)"
+      }
+    },
+    {
+      "prompt": "What construction follows 'intelleges'?",
+      "target": "Accusative + infinitive (indirect statement)",
+      "choices": ["Ut + subjunctive", "Accusative + infinitive (indirect statement)", "Quod + indicative", "Ne + subjunctive"],
+      "reveal": null,
+      "hints": {
+        "Ut + subjunctive": "'intellegere' as a verb of mental perception takes acc. + inf., not 'ut'",
+        "Quod + indicative": "'quod' clauses are less common after 'intellegere' — acc. + inf. is standard",
+        "Ne + subjunctive": "'ne' would introduce a negative purpose — 'intellegere' takes indirect statement"
+      }
+    },
+    {
+      "prompt": "What form is 'vehementius'?",
+      "target": "Comparative adverb",
+      "choices": ["Positive adverb", "Comparative adverb", "Superlative adverb", "Comparative adjective"],
+      "reveal": { "word": "vehementius", "gloss": "more vigorously" },
+      "hints": {
+        "Positive adverb": "Positive would be 'vehementer' — 'vehementius' with -ius ending is comparative",
+        "Superlative adverb": "Superlative would be 'vehementissime' — 'vehementius' is comparative",
+        "Comparative adjective": "Adjective would need to agree with a noun — 'vehementius' modifies 'vigilare' and is an adverb"
+      }
+    },
+    {
+      "prompt": "What does 'multo' do in this sentence?",
+      "target": "Ablative of degree of difference — 'by much / far more'",
+      "choices": ["It means 'many'", "Ablative of degree of difference — 'by much / far more'", "It modifies 'me'", "It is an adverb of time"],
+      "reveal": null,
+      "hints": {
+        "It means 'many'": "'multo' is ablative neuter, not nominative — it modifies the comparative 'vehementius'",
+        "It modifies 'me'": "'multo' modifies the comparative adverb, not 'me' — it means 'by much'",
+        "It is an adverb of time": "'multo' here is ablative of degree of difference used with comparatives"
+      }
+    },
+    {
+      "prompt": "The infinitive 'vigilare' translates to?",
+      "target": "to watch / keep vigil",
+      "choices": ["to fight", "to watch / keep vigil", "to live", "to rule"],
+      "reveal": { "word": "vigilare", "gloss": "to be watchful / keep guard" },
+      "hints": {
+        "to fight": "'to fight' is 'pugnare' — 'vigilare' means 'to be watchful/keep vigil'",
+        "to live": "'to live' is 'vivere' — 'vigilare' means 'to watch/be awake'",
+        "to rule": "'to rule' is 'regnare' — 'vigilare' means 'to keep watch'"
+      }
+    }
+  ],
+  "translation": "Soon you will understand that I keep watch far more vigorously."
+}

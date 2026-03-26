@@ -1,0 +1,75 @@
+{
+  "id": "luke-1-25",
+  "source": "Vulgate",
+  "reference": "Lucas 1:33",
+  "latin": ["Regnabit", "in", "domo", "Iacob"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Regnabit",
+      "choices": ["Regnabit", "in", "domo", "Iacob"],
+      "reveal": null,
+      "hints": {
+        "in": "'In' is a preposition meaning 'in/over'",
+        "domo": "'Domo' is a noun meaning 'house'",
+        "Iacob": "'Iacob' is a proper noun, the name Jacob"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'regnabit' translates to?",
+      "target": "to reign / to rule",
+      "choices": ["to reign / to rule", "to govern", "to command", "to lead"],
+      "reveal": null,
+      "hints": {
+        "to govern": "That would be 'gubernare'",
+        "to command": "That would be 'imperare' or 'iubere'",
+        "to lead": "That would be 'ducere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'regnabit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "imperfect"],
+      "reveal": "regnabit = he will reign",
+      "hints": {
+        "present indicative": "Present would be 'regnat'; 'regnabit' with -abit is future",
+        "perfect": "Perfect would be 'regnavit'",
+        "imperfect": "Imperfect would be 'regnabat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'regnabit'?",
+      "target": "regno, regnare, regnavi, regnatum",
+      "choices": ["regno, regnare, regnavi, regnatum", "rego, regere, rexi, rectum", "rex, regis, —, —", "impero, imperare, imperavi, imperatum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are the principal parts of 'rego' (to direct/guide)",
+        "rex, regis, —, —": "'Rex' is a noun meaning 'king', not a verb",
+        "impero, imperare, imperavi, imperatum": "These are the principal parts of 'impero' (to command)"
+      }
+    },
+    {
+      "prompt": "What case is 'domo'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "domo = house (abl.)",
+      "hints": {
+        "nominative": "Nominative is 'domus'; 'domo' is ablative after 'in'",
+        "dative": "Dative would also be 'domo' in some uses, but after 'in' it is ablative",
+        "accusative": "Accusative would be 'domum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'domus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'domus' has mixed 2nd/4th declension forms",
+        "2nd declension": "'Domus' has some 2nd declension forms but is primarily classified as 4th declension",
+        "3rd declension": "3rd declension has -is genitive; 'domus' has genitive 'domus' (4th decl.)"
+      }
+    }
+  ],
+  "translation": "He will reign over the house of Jacob"
+}

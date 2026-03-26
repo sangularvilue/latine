@@ -1,0 +1,86 @@
+{
+  "id": "luke-1-03",
+  "source": "Vulgate",
+  "reference": "Lucas 1:32",
+  "latin": ["Hic", "erit", "magnus"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "erit",
+      "choices": ["Hic", "erit", "magnus", "est"],
+      "reveal": null,
+      "hints": {
+        "Hic": "'Hic' is a demonstrative pronoun meaning 'this one / he'",
+        "magnus": "'Magnus' is an adjective meaning 'great'",
+        "est": "'Est' is a verb but does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to carry", "to make"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire'",
+        "to carry": "That would be 'ferre'",
+        "to make": "That would be 'facere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "imperfect"],
+      "reveal": "erit = he will be",
+      "hints": {
+        "present indicative": "Present indicative of 'esse' is 'est'; 'erit' has the future marker",
+        "perfect": "Perfect of 'esse' is 'fuit'; 'erit' is future",
+        "imperfect": "Imperfect of 'esse' is 'erat'; 'erit' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ivi, itum", "fero, ferre, tuli, latum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "fero, ferre, tuli, latum": "These are the principal parts of 'fero' (to carry)",
+        "do, dare, dedi, datum": "These are the principal parts of 'do' (to give)"
+      }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "Hic",
+      "choices": ["Hic", "erit", "magnus", "ille"],
+      "reveal": null,
+      "hints": {
+        "erit": "'Erit' is the verb 'will be', not the subject",
+        "magnus": "'Magnus' is a predicate adjective describing the subject",
+        "ille": "'Ille' does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "What case is 'magnus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "magnus = great (nom. masc.)",
+      "hints": {
+        "accusative": "Accusative masculine singular would be 'magnum'; 'magnus' is nominative",
+        "genitive": "Genitive would be 'magni'; 'magnus' is nominative as a predicate adjective",
+        "ablative": "Ablative would be 'magno'; 'magnus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'magnus' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have -is/-e endings; 'magnus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Magnus' clearly declines: magnus, magna, magnum, etc."
+      }
+    }
+  ],
+  "translation": "He will be great"
+}

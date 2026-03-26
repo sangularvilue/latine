@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-08",
+  "source": "Cicero",
+  "reference": "In Cat. II.2",
+  "latin": ["Nulla", "iam", "pernicies", "a", "monstro", "illo", "comparabitur"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "comparabitur",
+      "choices": ["Nulla", "pernicies", "monstro", "comparabitur"],
+      "reveal": null,
+      "hints": {
+        "Nulla": "'Nulla' is an adjective meaning 'no / not any'",
+        "pernicies": "'pernicies' is a noun meaning 'destruction / ruin'",
+        "monstro": "'monstro' is a noun in the ablative — 'from that monster'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'comparabitur' translates to?",
+      "target": "to be prepared / contrived",
+      "choices": ["to be compared", "to be prepared / contrived", "to be bought", "to be gathered"],
+      "reveal": null,
+      "hints": {
+        "to be compared": "'comparare' can mean 'to compare' in some contexts, but here it means 'to prepare/contrive'",
+        "to be bought": "'to be bought' is 'emi' — 'comparari' here means 'to be prepared/contrived'",
+        "to be gathered": "'to be gathered' is 'colligi' — 'comparari' means 'to be prepared against'"
+      }
+    },
+    {
+      "prompt": "What tense, mood, and voice is 'comparabitur'?",
+      "target": "Future passive indicative",
+      "choices": ["Present passive indicative", "Future passive indicative", "Future active indicative", "Present passive subjunctive"],
+      "reveal": { "word": "comparabitur", "gloss": "will be contrived / prepared" },
+      "hints": {
+        "Present passive indicative": "Present passive would be 'comparatur' — 'comparabitur' with -bitur is future",
+        "Future active indicative": "Future active would be 'comparabit' — 'comparabitur' with passive -bitur ending is passive",
+        "Present passive subjunctive": "Present passive subjunctive would be 'comparetur' — 'comparabitur' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'comparabitur'?",
+      "target": "comparo, comparare, comparavi, comparatum",
+      "choices": ["comparo, comparare, comparavi, comparatum", "paro, parare, paravi, paratum", "compello, compellere, compuli, compulsum", "compono, componere, composui, compositum"],
+      "reveal": null,
+      "hints": {
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare) — the base verb without com- prefix",
+        "compello, compellere, compuli, compulsum": "These are the parts of 'compellere' (to compel)",
+        "compono, componere, composui, compositum": "These are the parts of 'componere' (to arrange/compose)"
+      }
+    },
+    {
+      "prompt": "What case is 'pernicies'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "pernicies", "gloss": "destruction / ruin" },
+      "hints": {
+        "Genitive": "Genitive would be 'perniciei' — 'pernicies' is nominative, subject of 'comparabitur'",
+        "Accusative": "Accusative would be 'perniciem' — 'pernicies' is nominative",
+        "Ablative": "Ablative would be 'pernicie' — 'pernicies' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'pernicies'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'pernicies, perniciei' is 5th declension",
+        "3rd": "3rd declension nominatives vary, but 'pernicies, perniciei' with gen. -ei is 5th declension",
+        "4th": "4th declension nouns have gen. -us — 'pernicies, perniciei' has gen. -ei (5th)"
+      }
+    },
+    {
+      "prompt": "What case is 'monstro'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "monstro", "gloss": "monster (Catiline)" },
+      "hints": {
+        "Nominative": "Nominative would be 'monstrum' — 'monstro' with 'a' is ablative of agent",
+        "Dative": "Dative would be 'monstro' (same form), but 'a monstro' with the preposition signals ablative of agent",
+        "Accusative": "Accusative would be 'monstrum' — 'a' + ablative = agent"
+      }
+    },
+    {
+      "prompt": "What does calling Catiline 'monstro illo' achieve rhetorically?",
+      "target": "Dehumanization — Catiline is no longer a man but a monster",
+      "choices": ["A compliment to Catiline's power", "Dehumanization — Catiline is no longer a man but a monster", "A reference to a religious omen", "A neutral description"],
+      "reveal": null,
+      "hints": {
+        "A compliment to Catiline's power": "'monstrum' means a monstrous creature — it is an insult, not a compliment",
+        "A reference to a religious omen": "While 'monstrum' can mean 'portent,' here it dehumanizes Catiline as a moral monster",
+        "A neutral description": "'monstrum' is strongly pejorative — Cicero strips Catiline of his humanity"
+      }
+    }
+  ],
+  "translation": "No destruction will any longer be contrived by that monster."
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-1-07",
+  "source": "Vulgate",
+  "reference": "Lucas 1:46",
+  "latin": ["Magnificat", "anima", "mea", "Dominum"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Magnificat",
+      "choices": ["Magnificat", "anima", "mea", "Dominum"],
+      "reveal": null,
+      "hints": {
+        "anima": "'Anima' is a noun meaning 'soul'",
+        "mea": "'Mea' is a possessive adjective meaning 'my'",
+        "Dominum": "'Dominum' is a noun in the accusative meaning 'the Lord'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'magnificat' translates to?",
+      "target": "to magnify / to glorify",
+      "choices": ["to magnify / to glorify", "to make great", "to rejoice", "to praise"],
+      "reveal": null,
+      "hints": {
+        "to make great": "Close, but the standard gloss of 'magnificare' is 'to magnify/glorify'",
+        "to rejoice": "That would be 'gaudere' or 'exsultare'",
+        "to praise": "That would be 'laudare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'magnificat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "future", "imperfect"],
+      "reveal": "magnificat = magnifies / glorifies",
+      "hints": {
+        "perfect": "Perfect would be 'magnificavit'; 'magnificat' with -at ending is present",
+        "future": "Future would be 'magnificabit'",
+        "imperfect": "Imperfect would be 'magnificabat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'magnificat'?",
+      "target": "magnifico, magnificare, magnificavi, magnificatum",
+      "choices": ["magnifico, magnificare, magnificavi, magnificatum", "facio, facere, feci, factum", "laudo, laudare, laudavi, laudatum", "amo, amare, amavi, amatum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the principal parts of 'facio' (to make/do)",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudo' (to praise)",
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amo' (to love)"
+      }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "anima",
+      "choices": ["Magnificat", "anima", "mea", "Dominum"],
+      "reveal": null,
+      "hints": {
+        "Magnificat": "'Magnificat' is the verb, not the subject",
+        "mea": "'Mea' is a possessive adjective modifying 'anima'",
+        "Dominum": "'Dominum' is the direct object in the accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'anima'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "anima = soul (nom.)",
+      "hints": {
+        "ablative": "Ablative would also look like 'anima' for 1st declension, but here it is the subject performing the action",
+        "vocative": "Vocative would be for direct address; 'anima' is the subject here",
+        "accusative": "Accusative would be 'animam'"
+      }
+    },
+    {
+      "prompt": "What declension is 'anima'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um; 'anima' ends in -a",
+        "3rd declension": "3rd declension has varied nominative endings; 'anima' follows 1st declension -a pattern",
+        "4th declension": "4th declension nouns end in -us (gen. -us); 'anima' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "Dominum = the Lord (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'Dominus'; 'Dominum' with -um is accusative",
+        "dative": "Dative would be 'Domino'",
+        "ablative": "Ablative would be 'Domino'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'Dominus' ends in -us with -i genitive",
+        "3rd declension": "3rd declension has -is in the genitive; 'Dominus' has genitive 'Domini'",
+        "4th declension": "4th declension -us nouns have genitive -us; 'Dominus' has genitive 'Domini'"
+      }
+    }
+  ],
+  "translation": "My soul magnifies the Lord"
+}

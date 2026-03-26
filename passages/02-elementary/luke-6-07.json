@@ -1,0 +1,97 @@
+{
+  "id": "luke-6-07",
+  "source": "Vulgate",
+  "reference": "Lucas 6:44",
+  "latin": ["Omnis", "arbor", "ex", "fructu", "suo", "cognoscitur"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "cognoscitur",
+      "choices": ["Omnis", "arbor", "fructu", "cognoscitur"],
+      "reveal": null,
+      "hints": {
+        "Omnis": "'Omnis' is an adjective meaning 'every/each'",
+        "arbor": "'arbor' is a noun meaning 'tree'",
+        "fructu": "'fructu' is a noun meaning 'fruit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cognoscitur' translates to?",
+      "target": "to be known / to be recognized",
+      "choices": ["to be known / to be recognized", "to think", "to grow", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to think": "'to think' is 'cogitare' — 'cognoscitur' comes from 'cognoscere' (to know/recognize)",
+        "to grow": "'to grow' is 'crescere' — 'cognoscitur' comes from 'cognoscere'",
+        "to gather": "'to gather' is 'colligere' — 'cognoscitur' comes from 'cognoscere'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'cognoscitur'?",
+      "target": "present passive indicative",
+      "choices": ["present active indicative", "present passive indicative", "perfect passive", "imperfect passive"],
+      "reveal": { "word": "cognoscitur", "gloss": "is known / is recognized" },
+      "hints": {
+        "present active indicative": "Active would be 'cognoscit' — the -tur ending marks passive voice",
+        "perfect passive": "Perfect passive would be 'cognitus est' — 'cognoscitur' is present passive",
+        "imperfect passive": "Imperfect passive would be 'cognoscebatur' — 'cognoscitur' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cognoscitur'?",
+      "target": "cognosco, cognoscere, cognovi, cognitum",
+      "choices": ["cognosco, cognoscere, cognovi, cognitum", "cogito, cogitare, cogitavi, cogitatum", "cogo, cogere, coegi, coactum", "colligo, colligere, collegi, collectum"],
+      "reveal": null,
+      "hints": {
+        "cogito, cogitare, cogitavi, cogitatum": "These are principal parts of 'cogito' (to think)",
+        "cogo, cogere, coegi, coactum": "These are principal parts of 'cogo' (to compel)",
+        "colligo, colligere, collegi, collectum": "These are principal parts of 'colligo' (to gather)"
+      }
+    },
+    {
+      "prompt": "What case is 'arbor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "arbor", "gloss": "tree" },
+      "hints": {
+        "accusative": "Accusative would be 'arborem' — 'arbor' is the nominative subject",
+        "ablative": "Ablative would be 'arbore' — 'arbor' is nominative",
+        "vocative": "Vocative would also be 'arbor' but this is a statement, not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'arbor, arboris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'arboris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'arboris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'arboris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'fructu'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "fructu", "gloss": "fruit" },
+      "hints": {
+        "nominative": "Nominative is 'fructus' — 'fructu' is the ablative singular (by its fruit)",
+        "accusative": "Accusative is 'fructum' — 'fructu' is ablative, governed by 'ex'",
+        "genitive": "Genitive is 'fructus' (-us) — 'fructu' is ablative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'fructus, fructus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'fructus' has genitive in -us",
+        "2nd declension": "2nd declension nouns in -us have genitive in -i — 'fructus' has genitive 'fructus'",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'fructus' has genitive 'fructus' (-us)"
+      }
+    }
+  ],
+  "translation": "Every tree is known by its own fruit"
+}

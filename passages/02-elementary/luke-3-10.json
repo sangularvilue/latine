@@ -1,0 +1,75 @@
+{
+  "id": "luke-3-10",
+  "source": "Vulgate",
+  "reference": "Lucas 3:22",
+  "latin": ["Iesus", "plenus", "Spiritu", "Sancto"],
+  "steps": [
+    {
+      "prompt": "What case is 'Iesus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Vocative"],
+      "reveal": { "word": "Iesus", "gloss": "Jesus" },
+      "hints": {
+        "Accusative": "Accusative would be 'Iesum' — 'Iesus' is nominative, the subject",
+        "Genitive": "Genitive would be 'Iesu' — 'Iesus' is nominative",
+        "Vocative": "Vocative would be 'Iesu' — 'Iesus' is nominative here"
+      }
+    },
+    {
+      "prompt": "What does 'plenus' mean and what case does it govern?",
+      "target": "'full' — governs the ablative",
+      "choices": ["'full' — governs the ablative", "'full' — governs the genitive", "'flat' — governs the dative", "'full' — governs the accusative"],
+      "reveal": { "word": "plenus", "gloss": "full" },
+      "hints": {
+        "'full' — governs the genitive": "Classical 'plenus' can take genitive, but in the Vulgate it takes ablative 'Spiritu'",
+        "'flat' — governs the dative": "'plenus' means 'full', not 'flat' — and it governs the ablative",
+        "'full' — governs the accusative": "'plenus' does not take the accusative — it governs the ablative here"
+      }
+    },
+    {
+      "prompt": "What case is 'Spiritu'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Genitive"],
+      "reveal": { "word": "Spiritu", "gloss": "with/of the Spirit" },
+      "hints": {
+        "Nominative": "Nominative would be 'Spiritus' — 'Spiritu' with -u ending is ablative",
+        "Dative": "Dative would be 'Spiritui' — 'Spiritu' is ablative governed by 'plenus'",
+        "Genitive": "Genitive would be 'Spiritus' — 'Spiritu' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'spiritus' genitive ends in -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'spiritus' genitive ends in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'spiritus' genitive ends in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'Sancto'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "Sancto", "gloss": "Holy" },
+      "hints": {
+        "Nominative": "Nominative would be 'Sanctus' — 'Sancto' agrees with 'Spiritu' in the ablative",
+        "Dative": "'Sancto' could be dative, but here it modifies 'Spiritu' which is ablative",
+        "Accusative": "Accusative would be 'Sanctum' — 'Sancto' is ablative"
+      }
+    },
+    {
+      "prompt": "What is the implied verb in this phrase?",
+      "target": "erat (was)",
+      "choices": ["erat (was)", "est (is)", "fuit (was, completed)", "habuit (had)"],
+      "reveal": null,
+      "hints": {
+        "est (is)": "'est' is present — the narrative context implies the imperfect 'erat'",
+        "fuit (was, completed)": "'fuit' is perfect — the ongoing state 'full of the Spirit' suggests imperfect 'erat'",
+        "habuit (had)": "'habuit' means 'had' — the implied verb is 'erat' (to be), not 'to have'"
+      }
+    }
+  ],
+  "translation": "Jesus, full of the Holy Spirit"
+}

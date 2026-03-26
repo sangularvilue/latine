@@ -1,0 +1,86 @@
+{
+  "id": "luke-5-08",
+  "source": "Vulgate",
+  "reference": "Lucas 5:31",
+  "latin": ["Medicus", "sanis", "non", "est", "necessarius"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "est",
+      "choices": ["Medicus", "sanis", "est", "necessarius"],
+      "reveal": null,
+      "hints": {
+        "Medicus": "'Medicus' is a noun meaning 'physician/doctor'",
+        "sanis": "'sanis' is an adjective meaning 'the healthy' (dative plural)",
+        "necessarius": "'necessarius' is a predicate adjective meaning 'necessary'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'est' is from 'esse' (to be)",
+        "to stand": "'to stand' is 'stare' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "perfect": "Perfect of 'esse' would be 'fuit' — 'est' is present",
+        "imperfect": "Imperfect would be 'erat' — 'est' is present",
+        "future": "Future would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are principal parts of 'edo' (to eat)",
+        "sto, stare, steti, statum": "These are principal parts of 'sto' (to stand)",
+        "fero, ferre, tuli, latum": "These are principal parts of 'fero' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'Medicus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": { "word": "Medicus", "gloss": "a physician / doctor" },
+      "hints": {
+        "accusative": "Accusative would be 'medicum' — 'Medicus' is the nominative subject",
+        "genitive": "Genitive would be 'medici' — 'Medicus' is nominative",
+        "vocative": "Vocative would be 'medice' — 'Medicus' is nominative subject here"
+      }
+    },
+    {
+      "prompt": "What declension is 'medicus, medici'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'medici' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'medici' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'medici' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'sanis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": { "word": "sanis", "gloss": "for the healthy" },
+      "hints": {
+        "nominative": "Nominative plural would be 'sani' — 'sanis' is dative/ablative plural",
+        "ablative": "'sanis' could be ablative plural, but here it is dative (necessary FOR the healthy)",
+        "genitive": "Genitive plural would be 'sanorum' — 'sanis' is dative plural"
+      }
+    }
+  ],
+  "translation": "A physician is not necessary for the healthy"
+}

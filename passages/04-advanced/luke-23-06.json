@@ -1,0 +1,119 @@
+{
+  "id": "luke-23-06",
+  "source": "Vulgate",
+  "reference": "Lucas 23:46",
+  "latin": ["Et", "clamans", "voce", "magna", "Iesus", "ait"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "ait",
+      "choices": ["ait", "clamans", "voce", "Iesus"],
+      "reveal": null,
+      "hints": {
+        "clamans": "'Clamans' is a present active participle meaning 'crying out'",
+        "voce": "'Voce' is a noun in the ablative meaning 'with a voice'",
+        "Iesus": "'Iesus' is a proper noun — the subject"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'ait' translates to?",
+      "target": "to say / to speak",
+      "choices": ["to say / to speak", "to go", "to hear", "to think"],
+      "reveal": null,
+      "hints": {
+        "to go": "'To go' is 'ire' — 'ait' is a defective verb meaning 'he says/said'",
+        "to hear": "'To hear' is 'audire' — 'ait' comes from the defective verb 'aio'",
+        "to think": "'To think' is 'cogitare' — 'ait' is from the defective 'aio' (to say)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'ait'?",
+      "target": "perfect indicative (or present — defective verb, context determines)",
+      "choices": ["perfect indicative (or present — defective verb, context determines)", "imperfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "ait = he said (defective verb — same form for present and perfect)",
+      "hints": {
+        "imperfect indicative": "Imperfect of 'aio' would be 'aiebat' — 'ait' is present/perfect",
+        "present subjunctive": "'Aio' lacks a full subjunctive paradigm — 'ait' is indicative",
+        "future indicative": "'Aio' lacks a future tense — 'ait' is present/perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ait'?",
+      "target": "aio, —, —, — (defective verb)",
+      "choices": ["aio, —, —, — (defective verb)", "ago, agere, egi, actum", "audio, audire, audivi, auditum", "dico, dicere, dixi, dictum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the parts of 'ago' (to do/drive)",
+        "audio, audire, audivi, auditum": "These are the parts of 'audio' (to hear)",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dico' (to say) — 'aio' is a separate defective verb"
+      }
+    },
+    {
+      "prompt": "What is 'clamans' grammatically?",
+      "target": "present active participle (crying out)",
+      "choices": ["present active participle (crying out)", "perfect passive participle", "gerundive", "finite verb"],
+      "reveal": "clamans = crying out (pres. act. part., circumstantial)",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'clamatus' — 'clamans' has -ans (present)",
+        "gerundive": "Gerundive would be 'clamandus' — 'clamans' is a present participle",
+        "finite verb": "'Clamans' is a participle, not a finite verb"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'clamans' (from 'clamo')?",
+      "target": "clamo, clamare, clamavi, clamatum",
+      "choices": ["clamo, clamare, clamavi, clamatum", "claudo, claudere, clausi, clausum", "clango, clangere, —, —", "celo, celare, celavi, celatum"],
+      "reveal": null,
+      "hints": {
+        "claudo, claudere, clausi, clausum": "These are the parts of 'claudo' (to close/shut)",
+        "clango, clangere, —, —": "These are the parts of 'clango' (to clang/resound)",
+        "celo, celare, celavi, celatum": "These are the parts of 'celo' (to hide)"
+      }
+    },
+    {
+      "prompt": "What case is 'voce'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "dative", "accusative"],
+      "reveal": "voce magna = with a loud voice (abl. of manner)",
+      "hints": {
+        "nominative": "Nominative would be 'vox' — 'voce' with -e is ablative",
+        "dative": "Dative would be 'voci' — 'voce' is ablative",
+        "accusative": "Accusative would be 'vocem' — 'voce' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'vox, vocis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'vocis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'vocis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'vocis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What type of ablative is 'voce magna'?",
+      "target": "ablative of manner",
+      "choices": ["ablative of manner", "ablative of means", "ablative absolute", "ablative of accompaniment"],
+      "reveal": "voce magna = with a great voice / in a loud voice (manner without 'cum' because of the adjective)",
+      "hints": {
+        "ablative of means": "Ablative of means names an instrument — 'voce' describes the manner of speaking",
+        "ablative absolute": "Ablative absolute needs a noun + participle forming an independent clause — this modifies the main verb",
+        "ablative of accompaniment": "Ablative of accompaniment uses 'cum' for persons — this describes the manner of the cry"
+      }
+    },
+    {
+      "prompt": "What case is 'Iesus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "vocative"],
+      "reveal": "Iesus = Jesus (nom., subject of 'ait')",
+      "hints": {
+        "genitive": "Genitive would be 'Iesu' — 'Iesus' is nominative",
+        "accusative": "Accusative would be 'Iesum' — 'Iesus' is nominative",
+        "vocative": "Vocative would be 'Iesu' — 'Iesus' is nominative (subject)"
+      }
+    }
+  ],
+  "translation": "And crying out with a loud voice, Jesus said"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "cat-3-05",
+  "source": "Cicero",
+  "reference": "In Catilinam III.5",
+  "latin": ["L", "Flaccus", "et", "C", "Pomptinus", "praetores", "fortissimi"],
+  "steps": [
+    {
+      "prompt": "What case is 'Flaccus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Flaccus = Flaccus (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'Flaccum' — 'Flaccus' with -us is nominative",
+        "vocative": "Vocative of 2nd declension -us nouns is 'Flacce' — this is nominative",
+        "genitive": "Genitive would be 'Flacci' — 'Flaccus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Flaccus, Flacci'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Flacci' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Flacci' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Flacci' ends in -i"
+      }
+    },
+    {
+      "prompt": "What do the abbreviations 'L' and 'C' stand for?",
+      "target": "Lucius and Gaius",
+      "choices": ["Lucius and Gaius", "Lucius and Gnaeus", "Largus and Gaius", "Laevus and Cornelius"],
+      "reveal": "L. = Lucius; C. = Gaius (praenomina)",
+      "hints": {
+        "Lucius and Gnaeus": "'Gn.' or 'Cn.' abbreviates Gnaeus — 'C.' stands for Gaius",
+        "Largus and Gaius": "'Largus' is not a standard Roman praenomen abbreviation",
+        "Laevus and Cornelius": "Neither 'Laevus' nor 'Cornelius' matches the standard praenomen abbreviations L. and C."
+      }
+    },
+    {
+      "prompt": "What case is 'Pomptinus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Pomptinus = Pomptinus (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'Pomptinum' — 'Pomptinus' with -us is nominative",
+        "vocative": "Vocative would be 'Pomptine' — this is nominative",
+        "genitive": "Genitive would be 'Pomptini' — 'Pomptinus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Pomptinus, Pomptini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Pomptini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Pomptini' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Pomptini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'praetores'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "praetores = praetors (nom. pl., in apposition)",
+      "hints": {
+        "accusative": "'Praetores' can be accusative plural, but here it is in apposition with the nominative subjects",
+        "vocative": "Vocative is identical in form, but these are not being addressed — they are the subject",
+        "ablative": "Ablative plural would be 'praetoribus' — 'praetores' is nominative or accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'praetor, praetoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'praetoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'praetoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'praetoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What grammatical relationship does 'praetores' have to 'Flaccus et Pomptinus'?",
+      "target": "apposition",
+      "choices": ["apposition", "predicate nominative", "vocative address", "subject complement with linking verb"],
+      "reveal": null,
+      "hints": {
+        "predicate nominative": "A predicate nominative requires a linking verb — there is none here; 'praetores' is in apposition",
+        "vocative address": "Vocative would be direct address — 'praetores' describes the subjects in apposition",
+        "subject complement with linking verb": "No linking verb is present — 'praetores' is simply in apposition to the proper names"
+      }
+    },
+    {
+      "prompt": "'Fortissimi' is what form of the adjective 'fortis'?",
+      "target": "superlative (nominative masculine plural)",
+      "choices": ["superlative (nominative masculine plural)", "comparative (genitive singular)", "positive (nominative masculine plural)", "superlative (genitive masculine singular)"],
+      "reveal": "fortissimi = very brave / bravest (nom. masc. pl.)",
+      "hints": {
+        "comparative (genitive singular)": "Comparative of 'fortis' is 'fortior' — 'fortissimi' has the superlative -issim- suffix",
+        "positive (nominative masculine plural)": "Positive nom. masc. pl. would be 'fortes' — 'fortissimi' has the -issim- superlative marker",
+        "superlative (genitive masculine singular)": "Genitive singular superlative would also be 'fortissimi,' but here it agrees with plural 'praetores'"
+      }
+    },
+    {
+      "prompt": "What is the function of 'et' in this phrase?",
+      "target": "coordinating conjunction joining two subjects",
+      "choices": ["coordinating conjunction joining two subjects", "adverb meaning 'also'", "correlative with 'et...et'", "introducing a result clause"],
+      "reveal": null,
+      "hints": {
+        "adverb meaning 'also'": "'Et' can mean 'also,' but here it clearly joins 'Flaccus' and 'Pomptinus'",
+        "correlative with 'et...et'": "'Et...et' means 'both...and' — here only one 'et' appears, simply coordinating",
+        "introducing a result clause": "'Et' does not introduce result clauses — 'ut' does"
+      }
+    }
+  ],
+  "translation": "Lucius Flaccus and Gaius Pomptinus, most brave praetors"
+}

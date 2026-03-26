@@ -1,0 +1,75 @@
+{
+  "id": "luke-2-04",
+  "source": "Vulgate",
+  "reference": "Lucas 2:7",
+  "latin": ["Et", "pannis", "eum", "involvit"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "involvit",
+      "choices": ["Et", "pannis", "eum", "involvit"],
+      "reveal": null,
+      "hints": {
+        "Et": "'Et' is a conjunction meaning 'and'",
+        "pannis": "'pannis' is a noun meaning 'swaddling clothes' in the ablative",
+        "eum": "'eum' is a pronoun meaning 'him'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'involvit' translates to?",
+      "target": "to wrap up",
+      "choices": ["to wrap up", "to involve", "to fly into", "to wish"],
+      "reveal": null,
+      "hints": {
+        "to involve": "English 'involve' evolved in meaning — Latin 'involvere' literally means 'to wrap/roll in'",
+        "to fly into": "'to fly into' is 'involare' — 'involvit' comes from 'involvere'",
+        "to wish": "'to wish' is 'velle' — 'involvit' comes from 'involvere' (in + volvere)"
+      }
+    },
+    {
+      "prompt": "What tense is 'involvit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Perfect", "Imperfect", "Future"],
+      "reveal": { "word": "involvit", "gloss": "she wrapped" },
+      "hints": {
+        "Present": "Present 'involvit' looks identical but the narrative context confirms perfect tense",
+        "Imperfect": "Imperfect would be 'involvebat' — 'involvit' is 3rd singular perfect",
+        "Future": "Future would be 'involvet' — 'involvit' is 3rd singular perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'involvit'?",
+      "target": "involvo, involvere, involvi, involutum",
+      "choices": ["involvo, involvere, involvi, involutum", "volvo, volvere, volvi, volutum", "solvo, solvere, solvi, solutum", "evolvo, evolvere, evolvi, evolutum"],
+      "reveal": null,
+      "hints": {
+        "volvo, volvere, volvi, volutum": "These are the parts of 'volvere' (to roll) — 'involvere' adds the prefix in-",
+        "solvo, solvere, solvi, solutum": "These are the parts of 'solvere' (to loosen/release)",
+        "evolvo, evolvere, evolvi, evolutum": "These are the parts of 'evolvere' (to unroll) — different prefix"
+      }
+    },
+    {
+      "prompt": "What case is 'pannis'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "pannis", "gloss": "in swaddling clothes" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'panni' — 'pannis' is dative/ablative plural",
+        "Dative": "'pannis' could be dative plural, but here it is ablative of means (wrapped with cloths)",
+        "Accusative": "Accusative plural would be 'pannos' — 'pannis' is ablative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'pannus, panni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'panni' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'panni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'panni' ends in -i"
+      }
+    }
+  ],
+  "translation": "And she wrapped him in swaddling clothes"
+}

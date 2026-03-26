@@ -1,0 +1,119 @@
+{
+  "id": "cat-4-03",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.3",
+  "latin": ["Ego", "hoc", "animo", "semper", "fui"],
+  "steps": [
+    {
+      "prompt": "What case is 'Ego'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Ego = I (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'me' — 'Ego' is nominative, the subject",
+        "ablative": "Ablative would be 'me' — 'Ego' is nominative",
+        "dative": "Dative would be 'mihi' — 'Ego' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'hoc animo'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "hoc animo = with this spirit/resolve (abl. of quality/description)",
+      "hints": {
+        "nominative": "Nominative neuter would be 'hoc' but 'animo' is ablative — the phrase is ablative of description",
+        "accusative": "Accusative would be 'hunc animum' — 'hoc animo' with -o endings is ablative",
+        "dative": "Dative would be 'huic animo' — 'hoc animo' is ablative of quality"
+      }
+    },
+    {
+      "prompt": "What type of ablative is 'hoc animo'?",
+      "target": "ablative of quality / description",
+      "choices": ["ablative of quality / description", "ablative of means", "ablative absolute", "ablative of manner"],
+      "reveal": null,
+      "hints": {
+        "ablative of means": "Ablative of means answers 'by what instrument' — 'hoc animo' describes Cicero's character",
+        "ablative absolute": "Ablative absolute requires a participle — 'hoc animo' is a descriptive ablative with 'fui'",
+        "ablative of manner": "Ablative of manner often uses 'cum' — 'hoc animo' describes an enduring quality, not manner of action"
+      }
+    },
+    {
+      "prompt": "What declension is 'animus, animi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'animi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'animi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'animi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What does 'semper' mean?",
+      "target": "always",
+      "choices": ["always", "once", "sometimes", "never"],
+      "reveal": "semper = always",
+      "hints": {
+        "once": "'Once' is 'olim' or 'semel' — 'semper' means always",
+        "sometimes": "'Sometimes' is 'interdum' or 'nonnumquam' — 'semper' means always",
+        "never": "'Never' is 'numquam' — 'semper' means always"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fui' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to become", "to make", "to flee"],
+      "reveal": null,
+      "hints": {
+        "to become": "'To become' is 'fieri' — 'fui' is the perfect of 'esse' (to be)",
+        "to make": "'To make' is 'facere' — 'fui' comes from 'esse'",
+        "to flee": "'To flee' is 'fugere' — 'fui' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fui'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "fui = I have been / I was",
+      "hints": {
+        "present indicative": "Present would be 'sum' — 'fui' is the perfect of 'esse'",
+        "imperfect indicative": "Imperfect would be 'eram' — 'fui' is perfect indicative",
+        "pluperfect indicative": "Pluperfect would be 'fueram' — 'fui' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fui'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "fio, fieri, factus sum", "fundo, fundere, fudi, fusum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become/be made) — 'fui' is from 'esse'",
+        "fundo, fundere, fudi, fusum": "These are the parts of 'fundere' (to pour) — 'fui' is from 'esse'",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee) — 'fui' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "Why does Cicero use the emphatic 'Ego' when it is already implicit in the verb?",
+      "target": "to contrast himself emphatically with others in the debate",
+      "choices": ["to contrast himself emphatically with others in the debate", "because Latin always requires a subject pronoun", "to indicate a change of topic", "it is a scribal addition"],
+      "reveal": null,
+      "hints": {
+        "because Latin always requires a subject pronoun": "Latin is a pro-drop language — subject pronouns are used for emphasis, not requirement",
+        "to indicate a change of topic": "Topic shifts don't require pronouns — 'Ego' here contrasts Cicero's resolve with Silanus's wavering",
+        "it is a scribal addition": "This is well-attested in the manuscript tradition — 'Ego' is Cicero's deliberate emphasis"
+      }
+    },
+    {
+      "prompt": "What does 'hoc' agree with in this sentence?",
+      "target": "'animo' (ablative neuter/masculine singular)",
+      "choices": ["'animo' (ablative neuter/masculine singular)", "'Ego' (nominative)", "'semper' (adverb)", "'fui' (verb)"],
+      "reveal": null,
+      "hints": {
+        "'Ego' (nominative)": "'Hoc' is ablative here matching 'animo' — if it modified 'Ego' it would be 'hic' (nom. masc.)",
+        "'semper' (adverb)": "Adverbs cannot be modified by demonstrative pronouns — 'hoc' agrees with the noun 'animo'",
+        "'fui' (verb)": "Demonstrative pronouns modify nouns, not verbs — 'hoc' agrees with 'animo'"
+      }
+    }
+  ],
+  "translation": "I have always been of this resolve"
+}

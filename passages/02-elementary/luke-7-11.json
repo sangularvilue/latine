@@ -1,0 +1,86 @@
+{
+  "id": "luke-7-11",
+  "source": "Vulgate",
+  "reference": "Lucas 7:13",
+  "latin": ["Noli", "flere"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Noli",
+      "choices": ["Noli", "flere", "nole", "fle"],
+      "reveal": null,
+      "hints": {
+        "flere": "'flere' is an infinitive (to weep), not a finite verb",
+        "nole": "'nole' is not a real Latin form — 'Noli' is the imperative of 'nolle'",
+        "fle": "'fle' is not a standard form — 'Noli' is the finite verb here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Noli' translates to?",
+      "target": "to be unwilling / to not want",
+      "choices": ["to be unwilling / to not want", "to know", "to harm", "to swim"],
+      "reveal": null,
+      "hints": {
+        "to know": "'to know' is 'noscere' — 'Noli' comes from 'nolle' (to be unwilling)",
+        "to harm": "'to harm' is 'nocere' — 'Noli' comes from 'nolle' (to be unwilling)",
+        "to swim": "'to swim' is 'natare' — 'Noli' comes from 'nolle' (to be unwilling)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Noli'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "Noli", "gloss": "do not! (+ infinitive)" },
+      "hints": {
+        "present indicative": "Present indicative 1st person is 'nolo' — 'Noli' is the imperative singular",
+        "subjunctive": "Subjunctive would be 'nolim' — 'Noli' is the imperative for prohibition",
+        "infinitive": "Infinitive is 'nolle' — 'Noli' is the imperative form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Noli'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "nosco, noscere, novi, notum", "noceo, nocere, nocui, nocitum", "volo, velle, volui, —"],
+      "reveal": null,
+      "hints": {
+        "nosco, noscere, novi, notum": "These are principal parts of 'nosco' (to get to know)",
+        "noceo, nocere, nocui, nocitum": "These are principal parts of 'noceo' (to harm)",
+        "volo, velle, volui, —": "These are principal parts of 'volo' (to wish) — 'nolo' is its negative"
+      }
+    },
+    {
+      "prompt": "'Flere' is what form?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "participle", "gerund"],
+      "reveal": null,
+      "hints": {
+        "imperative": "Imperative would be 'fle' — 'flere' is the present active infinitive",
+        "participle": "Participle would be 'flens' — 'flere' is the infinitive",
+        "gerund": "Gerund would be 'flendi' — 'flere' is the infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive 'flere' translates to?",
+      "target": "to weep",
+      "choices": ["to weep", "to flee", "to flourish", "to bend"],
+      "reveal": { "word": "flere", "gloss": "to weep / to cry" },
+      "hints": {
+        "to flee": "'to flee' is 'fugere' — 'flere' means 'to weep'",
+        "to flourish": "'to flourish' is 'florere' — 'flere' means 'to weep'",
+        "to bend": "'to bend' is 'flectere' — 'flere' means 'to weep'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'flere'?",
+      "target": "fleo, flere, flevi, fletum",
+      "choices": ["fleo, flere, flevi, fletum", "fugio, fugere, fugi, fugitum", "floreo, florere, florui, —", "flecto, flectere, flexi, flexum"],
+      "reveal": null,
+      "hints": {
+        "fugio, fugere, fugi, fugitum": "These are principal parts of 'fugio' (to flee)",
+        "floreo, florere, florui, —": "These are principal parts of 'floreo' (to flourish)",
+        "flecto, flectere, flexi, flexum": "These are principal parts of 'flecto' (to bend)"
+      }
+    }
+  ],
+  "translation": "Do not weep"
+}

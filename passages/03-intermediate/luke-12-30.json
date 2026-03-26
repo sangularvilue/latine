@@ -1,0 +1,130 @@
+{
+  "id": "luke-12-30",
+  "source": "Vulgate",
+  "reference": "Lucas 12:43",
+  "latin": ["Beatus", "ille", "servus", "quem", "cum", "venerit", "dominus", "invenerit", "ita", "facientem"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "quem",
+      "choices": ["ille", "quem", "cum", "ita"],
+      "reveal": null,
+      "hints": {
+        "ille": "'Ille' is a demonstrative pronoun meaning 'that'",
+        "cum": "'Cum' is a conjunction meaning 'when'",
+        "ita": "'Ita' is an adverb meaning 'so/thus'"
+      }
+    },
+    {
+      "prompt": "What case is 'quem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "quem = whom (acc. masc. sg., object of 'invenerit')",
+      "hints": {
+        "nominative": "Nominative would be 'qui' — 'quem' with -em is accusative",
+        "dative": "Dative would be 'cui' — 'quem' is accusative",
+        "ablative": "Ablative would be 'quo' — 'quem' is accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'venerit' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to hunt", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to sell": "That would be 'vendere' — 'venerit' comes from 'venire' (to come)",
+        "to hunt": "That would be 'venari' — 'venerit' comes from 'venire' (to come)",
+        "to conquer": "That would be 'vincere' — 'venerit' comes from 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'venerit'?",
+      "target": "perfect subjunctive",
+      "choices": ["perfect indicative", "perfect subjunctive", "future perfect indicative", "present subjunctive"],
+      "reveal": "venerit = he shall have come (perf. subj., in temporal clause with 'cum')",
+      "hints": {
+        "perfect indicative": "Perfect indicative would be 'venit' — 'venerit' with -eri- after 'cum' is perfect subjunctive",
+        "future perfect indicative": "Future perfect is identical in form but 'cum' requires subjunctive",
+        "present subjunctive": "Present subjunctive would be 'veniat' — 'venerit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venerit'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "video, videre, vidi, visum", "vendo, vendere, vendidi, venditum", "venor, venari, venatus sum, —"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vendo, vendere, vendidi, venditum": "These are the parts of 'vendere' (to sell)",
+        "venor, venari, venatus sum, —": "These are the parts of 'venari' (to hunt)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'invenerit'?",
+      "target": "perfect subjunctive",
+      "choices": ["perfect indicative", "perfect subjunctive", "future perfect indicative", "present subjunctive"],
+      "reveal": "invenerit = he shall have found (perf. subj.)",
+      "hints": {
+        "perfect indicative": "In the relative/temporal clause context, 'invenerit' is subjunctive",
+        "future perfect indicative": "Future perfect looks identical but the subordinate clause calls for subjunctive",
+        "present subjunctive": "Present subjunctive would be 'inveniat' — 'invenerit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'invenerit'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "reperio, reperire, repperi, repertum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — 'invenire' is a compound in + venire",
+        "reperio, reperire, repperi, repertum": "These are the parts of 'reperire' (to find) — a synonym",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'facientem'?",
+      "target": "present active participle (accusative)",
+      "choices": ["perfect passive participle", "present active participle (accusative)", "future active participle", "gerundive"],
+      "reveal": "facientem = doing (pres. act. part., acc. masc. sg., agreeing with 'quem')",
+      "hints": {
+        "perfect passive participle": "Perfect passive would be 'factum' — 'facientem' with -nt- is present active",
+        "future active participle": "Future active would be 'facturum' — 'facientem' is present active",
+        "gerundive": "Gerundive would be 'faciendum' — 'facientem' is present active participle"
+      }
+    },
+    {
+      "prompt": "What case is 'servus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "servus = servant (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'servum' — 'servus' is nominative",
+        "genitive": "Genitive would be 'servi' — 'servus' is nominative",
+        "vocative": "Vocative would be 'serve' — 'servus' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What case is 'dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "dominus = the master (nom., subject of 'venerit/invenerit')",
+      "hints": {
+        "accusative": "Accusative would be 'dominum' — 'dominus' is nominative",
+        "genitive": "Genitive would be 'domini' — 'dominus' is nominative",
+        "vocative": "Vocative would be 'domine' — 'dominus' is nominative, subject"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used after 'cum'?",
+      "target": "'cum' + subjunctive expresses a temporal/circumstantial clause",
+      "choices": ["'cum' + subjunctive expresses a temporal/circumstantial clause", "'cum' always requires subjunctive", "it expresses a wish", "it expresses an indirect question"],
+      "reveal": null,
+      "hints": {
+        "'cum' always requires subjunctive": "'Cum' can take indicative (cum temporale) or subjunctive — here it is circumstantial",
+        "it expresses a wish": "A wish would use 'utinam' + subjunctive — 'cum' + subj. is temporal/circumstantial",
+        "it expresses an indirect question": "An indirect question uses interrogative words — 'cum' is temporal here"
+      }
+    }
+  ],
+  "translation": "Blessed is that servant whom the master, when he comes, finds so doing"
+}

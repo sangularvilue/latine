@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-04",
+  "source": "Cicero",
+  "reference": "In Cat. II.5",
+  "latin": ["Quam", "ob", "rem", "secedant", "improbi"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "secedant",
+      "choices": ["Quam", "rem", "secedant", "improbi"],
+      "reveal": null,
+      "hints": {
+        "Quam": "'Quam' here is part of the phrase 'quam ob rem' meaning 'for which reason / therefore'",
+        "rem": "'rem' is a noun (accusative) — part of the phrase 'quam ob rem'",
+        "improbi": "'improbi' is an adjective used as a noun meaning 'the wicked / disloyal'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'secedant' translates to?",
+      "target": "to withdraw / separate",
+      "choices": ["to sit", "to withdraw / separate", "to follow", "to cut"],
+      "reveal": null,
+      "hints": {
+        "to sit": "'to sit' is 'sedere' — 'secedere' means 'to withdraw' (se- = apart + cedere = to go)",
+        "to follow": "'to follow' is 'sequi' — 'secedere' means 'to withdraw/separate'",
+        "to cut": "'to cut' is 'secare' — 'secedere' means 'to go apart'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'secedant'?",
+      "target": "Present subjunctive (jussive)",
+      "choices": ["Present indicative", "Present subjunctive (jussive)", "Imperfect subjunctive", "Future indicative"],
+      "reveal": { "word": "secedant", "gloss": "let them withdraw" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'secedunt' — 'secedant' with -ant ending is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'secederent' — 'secedant' is present subjunctive",
+        "Future indicative": "Future would be 'secedent' — 'secedant' is present subjunctive used as a command"
+      }
+    },
+    {
+      "prompt": "What use of the subjunctive is 'secedant'?",
+      "target": "Jussive — a third-person command",
+      "choices": ["Purpose clause", "Jussive — a third-person command", "Indirect question", "Result clause"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose clauses are introduced by 'ut/ne' — 'secedant' is a standalone command (let them withdraw)",
+        "Indirect question": "Indirect questions require an interrogative word — 'secedant' is an independent jussive",
+        "Result clause": "Result clauses follow expressions of degree — 'secedant' is a direct command in 3rd person"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'secedant'?",
+      "target": "secedo, secedere, secessi, secessum",
+      "choices": ["secedo, secedere, secessi, secessum", "cedo, cedere, cessi, cessum", "accedo, accedere, accessi, accessum", "seco, secare, secui, sectum"],
+      "reveal": null,
+      "hints": {
+        "cedo, cedere, cessi, cessum": "These are the parts of 'cedere' (to go/yield) — the base verb without se- prefix",
+        "accedo, accedere, accessi, accessum": "These are the parts of 'accedere' (to approach) — a different compound",
+        "seco, secare, secui, sectum": "These are the parts of 'secare' (to cut) — a different verb entirely"
+      }
+    },
+    {
+      "prompt": "What case is 'improbi'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "improbi", "gloss": "the wicked / disloyal ones" },
+      "hints": {
+        "Genitive": "Genitive singular would be 'improbi' too, but here as subject of 'secedant' it's nominative plural",
+        "Dative": "Dative would be 'improbis' — 'improbi' is nominative plural, subject of 'secedant'",
+        "Vocative": "Vocative plural would be 'improbi' too, but Cicero is commanding them in 3rd person (jussive), not addressing them directly"
+      }
+    },
+    {
+      "prompt": "What does 'quam ob rem' mean?",
+      "target": "For which reason / therefore",
+      "choices": ["In what manner", "For which reason / therefore", "How much", "As far as"],
+      "reveal": null,
+      "hints": {
+        "In what manner": "'In what manner' would be 'quomodo' — 'quam ob rem' means 'on account of which thing'",
+        "How much": "'How much' is 'quantum' — 'quam ob rem' is a causal connective meaning 'therefore'",
+        "As far as": "'As far as' is 'quatenus' — 'quam ob rem' means 'for which reason'"
+      }
+    },
+    {
+      "prompt": "What political action is Cicero calling for?",
+      "target": "The remaining conspirators should leave Rome voluntarily",
+      "choices": ["The senate should dissolve", "The remaining conspirators should leave Rome voluntarily", "The army should attack", "Citizens should arm themselves"],
+      "reveal": null,
+      "hints": {
+        "The senate should dissolve": "'improbi' refers to the wicked conspirators, not the senate",
+        "The army should attack": "Cicero calls for withdrawal ('secedant'), not military attack",
+        "Citizens should arm themselves": "Cicero is telling the wicked to leave, not citizens to arm themselves"
+      }
+    }
+  ],
+  "translation": "For which reason, let the wicked withdraw."
+}

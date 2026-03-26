@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-09",
+  "source": "Vulgate",
+  "reference": "Lucas 1:5",
+  "latin": ["Fuit", "in", "diebus", "Herodis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Fuit",
+      "choices": ["Fuit", "in", "diebus", "Herodis"],
+      "reveal": null,
+      "hints": {
+        "in": "'In' is a preposition meaning 'in'",
+        "diebus": "'Diebus' is a noun meaning 'days'",
+        "Herodis": "'Herodis' is a proper noun meaning 'of Herod'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fuit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to become", "to flee", "to do"],
+      "reveal": null,
+      "hints": {
+        "to become": "That would be 'fieri'",
+        "to flee": "That would be 'fugere'; 'fuit' is from 'esse'",
+        "to do": "That would be 'facere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'fuit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": "fuit = there was / he was",
+      "hints": {
+        "present indicative": "Present of 'esse' is 'est'; 'fuit' is the perfect stem",
+        "imperfect": "Imperfect of 'esse' is 'erat'",
+        "future": "Future of 'esse' is 'erit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fuit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "fio, fieri, factus sum, —", "fugio, fugere, fugi, fugitum", "fundo, fundere, fudi, fusum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)",
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugio' (to flee)",
+        "fundo, fundere, fudi, fusum": "These are the principal parts of 'fundo' (to pour)"
+      }
+    },
+    {
+      "prompt": "What case is 'diebus'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "diebus = days (abl. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'dies'; 'diebus' with -bus is ablative/dative",
+        "dative": "The -bus ending can be dative, but after 'in' it is ablative of time",
+        "accusative": "Accusative plural would be 'dies'"
+      }
+    },
+    {
+      "prompt": "What declension is 'dies'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'dies' has genitive 'diei'",
+        "3rd declension": "3rd declension has -is in the genitive; 'dies' has genitive 'diei'",
+        "4th declension": "4th declension has -us in the genitive; 'dies' has genitive 'diei' (5th declension)"
+      }
+    },
+    {
+      "prompt": "What case is 'Herodis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Herodis = of Herod (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Herodes'; 'Herodis' with -is is genitive",
+        "dative": "Dative would be 'Herodi'",
+        "ablative": "Ablative would be 'Herode'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Herodes'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'Herodes' has genitive 'Herodis'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'Herodes' follows Greek 3rd declension",
+        "indeclinable": "'Herodes' does decline: Herodes, Herodis, Herodi, Herodem, Herode"
+      }
+    }
+  ],
+  "translation": "There was in the days of Herod"
+}

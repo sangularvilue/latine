@@ -1,0 +1,119 @@
+{
+  "id": "cat-3-08",
+  "source": "Cicero",
+  "reference": "In Catilinam III.22",
+  "latin": ["Res", "publica", "conservata", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'Res publica'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Res publica = the republic (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'Rem publicam' — 'Res publica' is nominative",
+        "ablative": "Ablative would be 'Re publica' — 'Res publica' is nominative",
+        "vocative": "Vocative would also be 'Res publica,' but a state is not being addressed here"
+      }
+    },
+    {
+      "prompt": "What declension is 'res, rei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'rei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'rei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'rei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'conservata est' translates to?",
+      "target": "to preserve / to save",
+      "choices": ["to preserve / to save", "to observe", "to conserve energy", "to serve"],
+      "reveal": null,
+      "hints": {
+        "to observe": "'To observe' is 'observare' — 'conservare' means to preserve or keep safe",
+        "to conserve energy": "While English 'conserve' has this sense, Latin 'conservare' means to keep safe, preserve the state",
+        "to serve": "'To serve' is 'servire' — 'conservare' (con + servare) means to keep safe"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'conservata est'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect active indicative"],
+      "reveal": "conservata est = has been preserved",
+      "hints": {
+        "present passive indicative": "Present passive would be 'conservatur' — participle + 'est' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'conservata erat' — 'est' makes this perfect",
+        "perfect active indicative": "Perfect active would be 'conservavit' — participle + 'est' is perfect passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'conservata est'?",
+      "target": "conservo, conservare, conservavi, conservatum",
+      "choices": ["conservo, conservare, conservavi, conservatum", "servo, servare, servavi, servatum", "servio, servire, servivi, servitum", "observo, observare, observavi, observatum"],
+      "reveal": null,
+      "hints": {
+        "servo, servare, servavi, servatum": "These are the parts of 'servare' (to save) — the base verb without the con- prefix",
+        "servio, servire, servivi, servitum": "These are the parts of 'servire' (to serve) — different verb entirely",
+        "observo, observare, observavi, observatum": "These are the parts of 'observare' (to observe) — different prefix"
+      }
+    },
+    {
+      "prompt": "Why does the participle 'conservata' end in -a?",
+      "target": "it agrees with feminine singular 'Res'",
+      "choices": ["it agrees with feminine singular 'Res'", "it is a neuter plural", "it is an ablative singular", "it is a first declension noun"],
+      "reveal": null,
+      "hints": {
+        "it is a neuter plural": "Neuter plural nominative/accusative also ends in -a, but here it agrees with feminine 'Res'",
+        "it is an ablative singular": "Ablative of a 1st/2nd declension adjective ends in -a for feminine, but here it is nominative",
+        "it is a first declension noun": "'Conservata' is a participle (verbal adjective), not a noun — it agrees with 'Res'"
+      }
+    },
+    {
+      "prompt": "What does 'publica' modify, and what case is it?",
+      "target": "nominative feminine singular, modifying 'Res'",
+      "choices": ["nominative feminine singular, modifying 'Res'", "ablative feminine singular", "nominative neuter plural", "vocative feminine singular"],
+      "reveal": "publica = public (nom. f. sg.)",
+      "hints": {
+        "ablative feminine singular": "Ablative would be 'publica' too (1st/2nd decl. adj.), but here it matches nominative 'Res'",
+        "nominative neuter plural": "Neuter plural nominative would be 'publica,' but here it agrees with feminine 'Res'",
+        "vocative feminine singular": "Vocative would be the same form, but 'Res publica' is the subject, not being addressed"
+      }
+    },
+    {
+      "prompt": "This famous phrase closes Cicero's Third Catilinarian. What rhetorical effect does the passive voice achieve?",
+      "target": "emphasizes the republic as the beneficiary, not Cicero as agent",
+      "choices": ["emphasizes the republic as the beneficiary, not Cicero as agent", "makes the sentence shorter", "avoids naming the conspirators", "follows grammatical convention for state documents"],
+      "reveal": null,
+      "hints": {
+        "makes the sentence shorter": "Brevity is a side effect — the passive foregrounds the republic's salvation, not the agent",
+        "avoids naming the conspirators": "The conspirators are not relevant here — the passive emphasizes what was saved",
+        "follows grammatical convention for state documents": "There is no such convention — Cicero's choice is rhetorical, centering 'Res publica'"
+      }
+    },
+    {
+      "prompt": "What declension is 'publicus, publica, publicum'?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e — 'publicus, -a, -um' is 1st/2nd declension",
+        "4th declension": "4th declension is for nouns — 'publicus' is a 1st/2nd declension adjective",
+        "5th declension": "5th declension is for nouns — 'publicus' is a 1st/2nd declension adjective"
+      }
+    },
+    {
+      "prompt": "In 'conservata est,' which word is the perfect passive participle and which is the auxiliary?",
+      "target": "'conservata' is the participle, 'est' is the auxiliary",
+      "choices": ["'conservata' is the participle, 'est' is the auxiliary", "'est' is the participle, 'conservata' is the auxiliary", "both are participles", "neither is a participle — it is one compound form"],
+      "reveal": null,
+      "hints": {
+        "'est' is the participle, 'conservata' is the auxiliary": "'Est' is a form of 'sum' (to be) used as auxiliary — 'conservata' is the participle",
+        "both are participles": "'Est' is not a participle — it is a finite form of 'esse' serving as auxiliary",
+        "neither is a participle — it is one compound form": "Latin perfect passive is analytically formed: participle (conservata) + auxiliary (est)"
+      }
+    }
+  ],
+  "translation": "The republic has been preserved"
+}

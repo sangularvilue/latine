@@ -1,0 +1,119 @@
+{
+  "id": "luke-24-01",
+  "source": "Vulgate",
+  "reference": "Lucas 24:5",
+  "latin": ["Quid", "quaeritis", "viventem", "cum", "mortuis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "quaeritis",
+      "choices": ["quaeritis", "Quid", "viventem", "mortuis"],
+      "reveal": null,
+      "hints": {
+        "Quid": "'Quid' is an interrogative pronoun meaning 'why/what'",
+        "viventem": "'Viventem' is a present active participle meaning 'the living one'",
+        "mortuis": "'Mortuis' is an adjective/participle in the ablative plural meaning 'the dead'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'quaeritis' translates to?",
+      "target": "to seek / to look for",
+      "choices": ["to seek / to look for", "to ask", "to complain", "to shake"],
+      "reveal": null,
+      "hints": {
+        "to ask": "'To ask' is 'rogare/quaerere' — 'quaerere' can mean 'to ask' but here it means 'to seek'",
+        "to complain": "'To complain' is 'queri' (deponent) — 'quaeritis' comes from 'quaerere' (to seek)",
+        "to shake": "'To shake' is 'quatere' — 'quaeritis' comes from 'quaerere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'quaeritis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "future indicative", "perfect indicative"],
+      "reveal": "quaeritis = you seek / you are looking for (2nd pl. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'quaeratis' — 'quaeritis' is indicative",
+        "future indicative": "Future would be 'quaeretis' — 'quaeritis' is present",
+        "perfect indicative": "Perfect would be 'quaesivistis' — 'quaeritis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'quaeritis'?",
+      "target": "quaero, quaerere, quaesivi, quaesitum",
+      "choices": ["quaero, quaerere, quaesivi, quaesitum", "queror, queri, questus sum, —", "quatio, quatere, quassi, quassum", "capio, capere, cepi, captum"],
+      "reveal": null,
+      "hints": {
+        "queror, queri, questus sum, —": "These are the parts of 'queror' (to complain) — a deponent verb",
+        "quatio, quatere, quassi, quassum": "These are the parts of 'quatio' (to shake)",
+        "capio, capere, cepi, captum": "These are the parts of 'capio' (to seize/take)"
+      }
+    },
+    {
+      "prompt": "What case is 'viventem'?",
+      "target": "accusative singular",
+      "choices": ["accusative singular", "nominative singular", "ablative singular", "genitive plural"],
+      "reveal": "viventem = the living one (acc. sing., substantive participle)",
+      "hints": {
+        "nominative singular": "Nominative would be 'vivens' — 'viventem' with -em is accusative",
+        "ablative singular": "Ablative would be 'vivente/viventi' — 'viventem' is accusative",
+        "genitive plural": "Genitive plural would be 'viventium' — 'viventem' is acc. sing."
+      }
+    },
+    {
+      "prompt": "What type of word is 'viventem'?",
+      "target": "present active participle used as a substantive noun",
+      "choices": ["present active participle used as a substantive noun", "perfect passive participle", "gerundive", "adjective"],
+      "reveal": "viventem = the living one (participle of 'vivo' used as a noun)",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would end in -tum/-tus — 'viventem' has the -ent- of present participle",
+        "gerundive": "Gerundive would be 'vivendum' — 'viventem' is a present active participle",
+        "adjective": "While participles can function as adjectives, 'viventem' here is a substantive (used as a noun)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'viventem' (from 'vivo')?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "video, videre, vidi, visum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vinco' (to conquer) — note the 4th part is identical to 'vivo'",
+        "video, videre, vidi, visum": "These are the parts of 'video' (to see)",
+        "venio, venire, veni, ventum": "These are the parts of 'venio' (to come)"
+      }
+    },
+    {
+      "prompt": "What case is 'mortuis'?",
+      "target": "ablative plural",
+      "choices": ["ablative plural", "dative plural", "nominative plural", "genitive plural"],
+      "reveal": "cum mortuis = among the dead (abl. pl.)",
+      "hints": {
+        "dative plural": "'Mortuis' looks the same in dative plural, but 'cum' governs the ablative",
+        "nominative plural": "Nominative plural would be 'mortui' — 'mortuis' is ablative after 'cum'",
+        "genitive plural": "Genitive plural would be 'mortuorum' — 'mortuis' is ablative"
+      }
+    },
+    {
+      "prompt": "What function does 'Quid' serve here?",
+      "target": "interrogative adverb (why)",
+      "choices": ["interrogative adverb (why)", "relative pronoun (which)", "indefinite pronoun (something)", "interrogative pronoun (what thing)"],
+      "reveal": "Quid quaeritis = Why do you seek...?",
+      "hints": {
+        "relative pronoun (which)": "'Quid' can be relative, but here it opens a direct question — meaning 'why'",
+        "indefinite pronoun (something)": "'Quid' as indefinite follows 'si/ne' — here it is a direct interrogative",
+        "interrogative pronoun (what thing)": "'Quid' can mean 'what thing?' but here with 'quaeritis' + acc. object, it means 'why?'"
+      }
+    },
+    {
+      "prompt": "What literary contrast does this sentence employ?",
+      "target": "antithesis between 'viventem' (the living) and 'mortuis' (the dead)",
+      "choices": ["antithesis between 'viventem' (the living) and 'mortuis' (the dead)", "chiasmus", "tricolon", "litotes"],
+      "reveal": null,
+      "hints": {
+        "chiasmus": "Chiasmus reverses word order (ABBA) — this is a direct contrast of living vs. dead",
+        "tricolon": "Tricolon has three parallel elements — this has two contrasting terms",
+        "litotes": "Litotes affirms by negating the opposite — this is a direct contrast, not a double negative"
+      }
+    }
+  ],
+  "translation": "Why do you seek the living among the dead?"
+}

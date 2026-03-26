@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-30",
+  "source": "Cicero",
+  "reference": "In Cat. II.19",
+  "latin": ["Etenim", "omnes", "boni", "rei", "publicae", "salutem", "defendent"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "defendent",
+      "choices": ["omnes", "boni", "salutem", "defendent"],
+      "reveal": null,
+      "hints": {
+        "omnes": "'omnes' is an adjective meaning 'all' (nominative plural)",
+        "boni": "'boni' is an adjective used as a noun meaning 'the good (citizens)'",
+        "salutem": "'salutem' is a noun in the accusative meaning 'safety / welfare'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'defendent' translates to?",
+      "target": "to defend / protect",
+      "choices": ["to offend", "to defend / protect", "to delay", "to forbid"],
+      "reveal": null,
+      "hints": {
+        "to offend": "'to offend' is 'offendere' — 'defendere' means 'to defend/protect'",
+        "to delay": "'to delay' is 'differre' — 'defendere' means 'to defend'",
+        "to forbid": "'to forbid' is 'vetare' — 'defendere' means 'to protect/defend'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'defendent'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "defendent", "gloss": "will defend" },
+      "hints": {
+        "Present indicative": "Present would be 'defendunt' — 'defendent' with -ent ending is future",
+        "Present subjunctive": "Present subjunctive would be 'defendant' — 'defendent' is future indicative",
+        "Perfect indicative": "Perfect would be 'defenderunt' — 'defendent' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'defendent'?",
+      "target": "defendo, defendere, defendi, defensum",
+      "choices": ["defendo, defendere, defendi, defensum", "offendo, offendere, offendi, offensum", "fendo, fendere, —, —", "contendo, contendere, contendi, contentum"],
+      "reveal": null,
+      "hints": {
+        "offendo, offendere, offendi, offensum": "These are the parts of 'offendere' (to offend/strike against)",
+        "fendo, fendere, —, —": "'fendere' only exists in compounds like 'defendere' — it is not a standalone verb",
+        "contendo, contendere, contendi, contentum": "These are the parts of 'contendere' (to strive/contend)"
+      }
+    },
+    {
+      "prompt": "What case is 'salutem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "salutem", "gloss": "safety / welfare" },
+      "hints": {
+        "Nominative": "Nominative would be 'salus' — 'salutem' with -em ending is accusative, object of 'defendent'",
+        "Dative": "Dative would be 'saluti' — 'salutem' is accusative",
+        "Ablative": "Ablative would be 'salute' — 'salutem' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'rei publicae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "rei publicae", "gloss": "of the republic" },
+      "hints": {
+        "Nominative": "Nominative would be 'res publica' — 'rei publicae' is genitive, modifying 'salutem'",
+        "Dative": "Dative is also 'rei publicae', but here it modifies 'salutem' as genitive (the safety of the republic)",
+        "Ablative": "Ablative would be 're publica' — 'rei publicae' is genitive here"
+      }
+    },
+    {
+      "prompt": "What does 'omnes boni' mean in Ciceronian political vocabulary?",
+      "target": "All loyal citizens / the conservative establishment (optimates)",
+      "choices": ["All morally perfect people", "All loyal citizens / the conservative establishment (optimates)", "All wealthy Romans", "All senators"],
+      "reveal": { "word": "boni", "gloss": "the good / loyal citizens" },
+      "hints": {
+        "All morally perfect people": "'boni' in Cicero's political usage means 'loyal, patriotic citizens' — a political, not purely moral, category",
+        "All wealthy Romans": "'boni' is not about wealth but about political loyalty to the republican order",
+        "All senators": "'boni' includes senators but also loyal equestrians and citizens — it's broader than just the senate"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical function of this promise?",
+      "target": "To reassure the audience that the loyal majority will prevail",
+      "choices": ["To threaten the conspirators with violence", "To reassure the audience that the loyal majority will prevail", "To announce an election", "To declare martial law"],
+      "reveal": null,
+      "hints": {
+        "To threaten the conspirators with violence": "While implicit, the primary function is reassurance of the loyal citizens",
+        "To announce an election": "There is no election — this is a promise about defending the state",
+        "To declare martial law": "Cicero is not declaring martial law — he is rallying citizen support"
+      }
+    }
+  ],
+  "translation": "For all good citizens will defend the welfare of the republic."
+}

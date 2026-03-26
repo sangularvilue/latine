@@ -1,0 +1,108 @@
+{
+  "id": "luke-1-29",
+  "source": "Vulgate",
+  "reference": "Lucas 1:41",
+  "latin": ["Exsultavit", "infans", "in", "utero", "eius"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Exsultavit",
+      "choices": ["Exsultavit", "infans", "utero", "eius"],
+      "reveal": null,
+      "hints": {
+        "infans": "'Infans' is a noun meaning 'infant/baby'",
+        "utero": "'Utero' is a noun meaning 'womb'",
+        "eius": "'Eius' is a pronoun meaning 'her'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'exsultavit' translates to?",
+      "target": "to leap / to exult",
+      "choices": ["to leap / to exult", "to go out", "to praise", "to cry out"],
+      "reveal": null,
+      "hints": {
+        "to go out": "That would be 'exire'",
+        "to praise": "That would be 'laudare'",
+        "to cry out": "That would be 'exclamare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'exsultavit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": "exsultavit = leaped / exulted",
+      "hints": {
+        "present indicative": "Present would be 'exsultat'; 'exsultavit' with -avit is perfect",
+        "imperfect": "Imperfect would be 'exsultabat'",
+        "future": "Future would be 'exsultabit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'exsultavit'?",
+      "target": "exsulto, exsultare, exsultavi, exsultatum",
+      "choices": ["exsulto, exsultare, exsultavi, exsultatum", "salto, saltare, saltavi, saltatum", "exeo, exire, exivi, exitum", "exclamo, exclamare, exclamavi, exclamatum"],
+      "reveal": null,
+      "hints": {
+        "salto, saltare, saltavi, saltatum": "These are the principal parts of 'salto' (to dance/leap)",
+        "exeo, exire, exivi, exitum": "These are the principal parts of 'exeo' (to go out)",
+        "exclamo, exclamare, exclamavi, exclamatum": "These are the principal parts of 'exclamo' (to cry out)"
+      }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "infans",
+      "choices": ["Exsultavit", "infans", "utero", "eius"],
+      "reveal": null,
+      "hints": {
+        "Exsultavit": "'Exsultavit' is the verb, not the subject",
+        "utero": "'Utero' is in the ablative, indicating location",
+        "eius": "'Eius' is a genitive pronoun meaning 'her'"
+      }
+    },
+    {
+      "prompt": "What case is 'infans'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "infans = infant (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'infantem'",
+        "genitive": "Genitive would be 'infantis'",
+        "ablative": "Ablative would be 'infante'"
+      }
+    },
+    {
+      "prompt": "What declension is 'infans'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'infans' has genitive 'infantis'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'infans' has genitive 'infantis'",
+        "4th declension": "4th declension nouns have -us genitive; 'infans' has genitive 'infantis'"
+      }
+    },
+    {
+      "prompt": "What case is 'utero'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "utero = womb (abl., after 'in')",
+      "hints": {
+        "nominative": "Nominative is 'uterus'",
+        "dative": "Dative would also be 'utero', but after 'in' it is ablative of place",
+        "accusative": "Accusative would be 'uterum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'uterus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'uterus' ends in -us with genitive 'uteri'",
+        "3rd declension": "3rd declension has -is genitive; 'uterus' has genitive 'uteri'",
+        "4th declension": "4th declension -us nouns have -us genitive; 'uterus' has genitive 'uteri'"
+      }
+    }
+  ],
+  "translation": "The infant leaped in her womb"
+}

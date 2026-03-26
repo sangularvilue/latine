@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-12",
+  "source": "Vulgate",
+  "reference": "Lucas 1:47",
+  "latin": ["Exsultavit", "spiritus", "meus", "in", "Deo"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Exsultavit",
+      "choices": ["Exsultavit", "spiritus", "meus", "Deo"],
+      "reveal": null,
+      "hints": {
+        "spiritus": "'Spiritus' is a noun meaning 'spirit'",
+        "meus": "'Meus' is a possessive adjective meaning 'my'",
+        "Deo": "'Deo' is a noun meaning 'God' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'exsultavit' translates to?",
+      "target": "to rejoice / to exult",
+      "choices": ["to rejoice / to exult", "to leap out", "to praise", "to magnify"],
+      "reveal": null,
+      "hints": {
+        "to leap out": "While 'exsultare' is related to leaping, the standard gloss is 'to rejoice/exult'",
+        "to praise": "That would be 'laudare'",
+        "to magnify": "That would be 'magnificare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'exsultavit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "pluperfect"],
+      "reveal": "exsultavit = rejoiced / has rejoiced",
+      "hints": {
+        "present indicative": "Present would be 'exsultat'; 'exsultavit' with -avit is perfect",
+        "imperfect": "Imperfect would be 'exsultabat'",
+        "pluperfect": "Pluperfect would be 'exsultaverat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'exsultavit'?",
+      "target": "exsulto, exsultare, exsultavi, exsultatum",
+      "choices": ["exsulto, exsultare, exsultavi, exsultatum", "salto, saltare, saltavi, saltatum", "exeo, exire, exivi, exitum", "sulto, sultare, sultavi, sultatum"],
+      "reveal": null,
+      "hints": {
+        "salto, saltare, saltavi, saltatum": "These are the principal parts of 'salto' (to dance/leap)",
+        "exeo, exire, exivi, exitum": "These are the principal parts of 'exeo' (to go out)",
+        "sulto, sultare, sultavi, sultatum": "'Sulto' is not a standard Latin verb"
+      }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "spiritus",
+      "choices": ["Exsultavit", "spiritus", "meus", "Deo"],
+      "reveal": null,
+      "hints": {
+        "Exsultavit": "'Exsultavit' is the verb, not the subject",
+        "meus": "'Meus' is a possessive adjective modifying 'spiritus'",
+        "Deo": "'Deo' is in the ablative after 'in', meaning 'in God'"
+      }
+    },
+    {
+      "prompt": "What case is 'spiritus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "spiritus = spirit (nom.)",
+      "hints": {
+        "genitive": "Genitive singular of 'spiritus' is also 'spiritus' (4th decl.), but here it is the subject",
+        "accusative": "Accusative singular would be 'spiritum'",
+        "ablative": "Ablative singular would be 'spiritu'"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension -us nouns have genitive -i; 'spiritus' has genitive 'spiritus' (-us)",
+        "3rd declension": "3rd declension has -is in the genitive; 'spiritus' has genitive 'spiritus'",
+        "5th declension": "5th declension nouns end in -es; 'spiritus' ends in -us with genitive -us (4th)"
+      }
+    },
+    {
+      "prompt": "What case is 'Deo'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "Deo = God (abl., after 'in')",
+      "hints": {
+        "nominative": "Nominative is 'Deus'",
+        "dative": "Dative would also be 'Deo', but after 'in' it is ablative of place/sphere",
+        "accusative": "Accusative would be 'Deum'"
+      }
+    }
+  ],
+  "translation": "My spirit has rejoiced in God"
+}

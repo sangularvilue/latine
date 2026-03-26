@@ -1,0 +1,130 @@
+{
+  "id": "cat-3-07",
+  "source": "Cicero",
+  "reference": "In Catilinam III.10",
+  "latin": ["Litterae", "signatae", "erant", "signo", "Lentuli"],
+  "steps": [
+    {
+      "prompt": "What case is 'Litterae'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "Litterae = the letters (nom. pl.)",
+      "hints": {
+        "accusative": "Accusative plural would be 'Litteras' — 'Litterae' with -ae is nominative plural",
+        "genitive": "Genitive singular would also be 'Litterae,' but here it is nominative plural as the subject",
+        "vocative": "Vocative plural would also be 'Litterae,' but letters are not being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'littera, litterae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'litterae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'litterae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'litterae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'signatae erant' translates to?",
+      "target": "to seal / to mark with a seal",
+      "choices": ["to seal / to mark with a seal", "to write", "to sign", "to designate"],
+      "reveal": null,
+      "hints": {
+        "to write": "'To write' is 'scribere' — 'signatae erant' comes from 'signare' (to seal/stamp)",
+        "to sign": "While related in English, 'signare' in Latin primarily means to seal or stamp with a signet",
+        "to designate": "'To designate' is 'designare' — 'signare' means to seal or stamp"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'signatae erant'?",
+      "target": "pluperfect passive indicative",
+      "choices": ["pluperfect passive indicative", "perfect passive indicative", "imperfect passive indicative", "pluperfect active indicative"],
+      "reveal": "signatae erant = had been sealed",
+      "hints": {
+        "perfect passive indicative": "Perfect passive would be 'signatae sunt' — 'erant' (not 'sunt') makes this pluperfect",
+        "imperfect passive indicative": "Imperfect passive would be 'signabantur' — participle + 'erant' is pluperfect passive",
+        "pluperfect active indicative": "Pluperfect active would be 'signaverant' — participle + 'erant' is pluperfect passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'signatae erant'?",
+      "target": "signo, signare, signavi, signatum",
+      "choices": ["signo, signare, signavi, signatum", "significo, significare, significavi, significatum", "designo, designare, designavi, designatum", "consigno, consignare, consignavi, consignatum"],
+      "reveal": null,
+      "hints": {
+        "significo, significare, significavi, significatum": "These are the parts of 'significare' (to signify) — a different compound",
+        "designo, designare, designavi, designatum": "These are the parts of 'designare' (to designate) — different prefix",
+        "consigno, consignare, consignavi, consignatum": "These are the parts of 'consignare' (to seal/record) — different prefix"
+      }
+    },
+    {
+      "prompt": "Why does the participle 'signatae' end in -ae?",
+      "target": "it agrees with feminine plural 'Litterae'",
+      "choices": ["it agrees with feminine plural 'Litterae'", "it is genitive singular", "it is dative singular", "it is an adverb"],
+      "reveal": null,
+      "hints": {
+        "it is genitive singular": "Genitive singular feminine would also be '-ae,' but here it matches nominative plural 'Litterae'",
+        "it is dative singular": "Dative singular would also be '-ae,' but the participle must agree with the subject 'Litterae'",
+        "it is an adverb": "Participles are not adverbs — 'signatae' is a perfect passive participle agreeing with 'Litterae'"
+      }
+    },
+    {
+      "prompt": "What case is 'signo'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "signo = with the seal (abl. of means)",
+      "hints": {
+        "nominative": "Nominative would be 'signum' — 'signo' with -o is ablative or dative",
+        "accusative": "Accusative would be 'signum' — 'signo' is ablative of means here",
+        "dative": "While 'signo' could be dative, here it is ablative of means (sealed with the seal)"
+      }
+    },
+    {
+      "prompt": "What declension is 'signum, signi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'signi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'signi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'signi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Lentuli'?",
+      "target": "genitive",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "Lentuli = of Lentulus (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Lentulus' — 'Lentuli' with -i is genitive singular",
+        "accusative": "Accusative would be 'Lentulum' — 'Lentuli' is genitive",
+        "vocative": "Vocative would be 'Lentule' — 'Lentuli' is genitive of possession"
+      }
+    },
+    {
+      "prompt": "What type of ablative is 'signo Lentuli'?",
+      "target": "ablative of means / instrument",
+      "choices": ["ablative of means / instrument", "ablative absolute", "ablative of manner", "ablative of agent"],
+      "reveal": null,
+      "hints": {
+        "ablative absolute": "Ablative absolute requires a participle — 'signo Lentuli' is just a noun phrase in the ablative",
+        "ablative of manner": "Ablative of manner typically uses 'cum' or a qualifying adjective — this expresses the instrument",
+        "ablative of agent": "Ablative of agent uses 'a/ab' + person — 'signo' is the thing (seal) used, not the agent"
+      }
+    },
+    {
+      "prompt": "Who was Lentulus in the Catilinarian conspiracy?",
+      "target": "P. Cornelius Lentulus Sura, a conspirator and sitting praetor",
+      "choices": ["P. Cornelius Lentulus Sura, a conspirator and sitting praetor", "a senator who opposed Catiline", "a military commander sent to fight Catiline", "a witness for the prosecution"],
+      "reveal": null,
+      "hints": {
+        "a senator who opposed Catiline": "Lentulus was one of the chief conspirators, not an opponent of Catiline",
+        "a military commander sent to fight Catiline": "Lentulus was a conspirator who stayed in Rome — he was not sent to fight",
+        "a witness for the prosecution": "Lentulus was a defendant, not a witness — he was one of the key conspirators arrested"
+      }
+    }
+  ],
+  "translation": "The letters had been sealed with the seal of Lentulus"
+}

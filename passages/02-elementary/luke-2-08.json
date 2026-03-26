@@ -1,0 +1,75 @@
+{
+  "id": "luke-2-08",
+  "source": "Vulgate",
+  "reference": "Lucas 2:14",
+  "latin": ["Gloria", "in", "altissimis", "Deo"],
+  "steps": [
+    {
+      "prompt": "What case is 'Gloria'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Genitive"],
+      "reveal": { "word": "Gloria", "gloss": "glory" },
+      "hints": {
+        "Ablative": "Ablative would be 'gloria' (same form in 1st declension), but here it is the subject — nominative",
+        "Vocative": "Vocative would be 'gloria' (same form), but 'Gloria' is the subject of this exclamation",
+        "Genitive": "Genitive would be 'gloriae' — 'Gloria' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'gloria, gloriae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'gloriae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'gloriae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'gloriae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'altissimis'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "altissimis", "gloss": "in the highest (places)" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'altissimi/altissima' — 'altissimis' is dative/ablative plural",
+        "Dative": "'altissimis' could be dative, but after 'in' it is ablative of place",
+        "Accusative": "Accusative plural would be 'altissimos/altissima' — 'altissimis' is ablative after 'in'"
+      }
+    },
+    {
+      "prompt": "What degree is 'altissimis'?",
+      "target": "Superlative",
+      "choices": ["Positive", "Comparative", "Superlative", "Diminutive"],
+      "reveal": null,
+      "hints": {
+        "Positive": "Positive degree would be 'altis' — the -issim- infix marks the superlative",
+        "Comparative": "Comparative would be 'altioribus' — the -issim- infix marks the superlative",
+        "Diminutive": "Diminutive is a noun category, not an adjective degree — 'altissimis' is superlative"
+      }
+    },
+    {
+      "prompt": "What case is 'Deo'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Genitive"],
+      "reveal": { "word": "Deo", "gloss": "to God" },
+      "hints": {
+        "Nominative": "Nominative would be 'Deus' — 'Deo' is dative (glory to God)",
+        "Ablative": "'Deo' could be ablative, but here it means 'to God' — dative of reference",
+        "Genitive": "Genitive would be 'Dei' — 'Deo' is dative meaning 'to God'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus, Dei'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Dei' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Dei' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Dei' ends in -i"
+      }
+    }
+  ],
+  "translation": "Glory to God in the highest"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "luke-24-09",
+  "source": "Vulgate",
+  "reference": "Lucas 24:49",
+  "latin": ["Et", "ego", "mitto", "promissum", "Patris", "mei", "in", "vos"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "mitto",
+      "choices": ["mitto", "promissum", "ego", "Patris"],
+      "reveal": null,
+      "hints": {
+        "promissum": "'Promissum' is a noun/participle meaning 'the promise' — the direct object",
+        "ego": "'Ego' is a personal pronoun meaning 'I' — the subject",
+        "Patris": "'Patris' is a noun in the genitive meaning 'of the Father'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'mitto' translates to?",
+      "target": "to send",
+      "choices": ["to send", "to put", "to mix", "to soften"],
+      "reveal": null,
+      "hints": {
+        "to put": "'To put' is 'ponere' — 'mitto' means 'to send'",
+        "to mix": "'To mix' is 'miscere' — 'mitto' means 'to send'",
+        "to soften": "'To soften' is 'mitigare' — 'mitto' means 'to send'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'mitto'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "future indicative", "perfect indicative"],
+      "reveal": "mitto = I send / I am sending (1st sing. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'mittam' — 'mitto' is indicative",
+        "future indicative": "Future would be 'mittam' — in 3rd conjugation, future and present subjunctive look similar, but 'mitto' is present indicative",
+        "perfect indicative": "Perfect would be 'misi' — 'mitto' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mitto'?",
+      "target": "mitto, mittere, misi, missum",
+      "choices": ["mitto, mittere, misi, missum", "misceo, miscere, miscui, mixtum", "moneo, monere, monui, monitum", "moveo, movere, movi, motum"],
+      "reveal": null,
+      "hints": {
+        "misceo, miscere, miscui, mixtum": "These are the parts of 'misceo' (to mix)",
+        "moneo, monere, monui, monitum": "These are the parts of 'moneo' (to warn)",
+        "moveo, movere, movi, motum": "These are the parts of 'moveo' (to move)"
+      }
+    },
+    {
+      "prompt": "What case is 'promissum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "promissum = the promise (acc., direct object of 'mitto')",
+      "hints": {
+        "nominative": "'Promissum' looks the same in nominative neuter, but here it is the object of 'mitto'",
+        "ablative": "Ablative would be 'promisso' — 'promissum' is accusative",
+        "genitive": "Genitive would be 'promissi' — 'promissum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'promissum, promissi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'promissi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'promissi' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'promissi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Patris'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "Patris mei = of my Father (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Pater' — 'Patris' ends in -is (genitive)",
+        "dative": "Dative would be 'Patri' — 'Patris' ends in -is (genitive)",
+        "ablative": "Ablative would be 'Patre' — 'Patris' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'pater, patris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'patris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'patris' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'patris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "in vos = upon you (acc., 'in' + acc. = motion toward)",
+      "hints": {
+        "nominative": "Nominative 'vos' looks the same, but 'in' + acc. = upon/toward",
+        "ablative": "Ablative of 'vos' is 'vobis' — 'vos' after 'in' (motion) is accusative",
+        "dative": "Dative of 'vos' is 'vobis' — 'vos' is accusative after 'in'"
+      }
+    },
+    {
+      "prompt": "What type of genitive is 'Patris' in 'promissum Patris'?",
+      "target": "subjective genitive (the Father made the promise)",
+      "choices": ["subjective genitive (the Father made the promise)", "objective genitive", "partitive genitive", "genitive of description"],
+      "reveal": "promissum Patris = the promise [made by] the Father",
+      "hints": {
+        "objective genitive": "Objective genitive would mean the promise is about the Father — here the Father is the one promising",
+        "partitive genitive": "Partitive genitive means 'part of' — 'Patris' identifies the promiser",
+        "genitive of description": "Genitive of description qualifies a characteristic — 'Patris' identifies the source"
+      }
+    }
+  ],
+  "translation": "And I send the promise of my Father upon you"
+}

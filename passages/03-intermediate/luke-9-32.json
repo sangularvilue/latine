@@ -1,0 +1,119 @@
+{
+  "id": "luke-9-32",
+  "source": "Vulgate",
+  "reference": "Lucas 9:24",
+  "latin": ["Qui", "voluerit", "animam", "suam", "salvam", "facere", "perdet", "eam"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "Qui",
+      "choices": ["Qui", "suam", "salvam", "eam"],
+      "reveal": null,
+      "hints": {
+        "suam": "'Suam' is a possessive adjective meaning 'his own'",
+        "salvam": "'Salvam' is an adjective meaning 'safe'",
+        "eam": "'Eam' is a demonstrative pronoun meaning 'it/her'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'voluerit' translates to?",
+      "target": "to wish / to want",
+      "choices": ["to wish / to want", "to fly", "to roll", "to be strong"],
+      "reveal": null,
+      "hints": {
+        "to fly": "That would be 'volare' — 'voluerit' comes from 'velle' (to wish)",
+        "to roll": "That would be 'volvere' — 'voluerit' comes from 'velle' (to wish)",
+        "to be strong": "That would be 'valere' — 'voluerit' comes from 'velle' (to wish)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'voluerit'?",
+      "target": "perfect subjunctive",
+      "choices": ["perfect indicative", "perfect subjunctive", "future perfect indicative", "present subjunctive"],
+      "reveal": "voluerit = shall have wished (perf. subj., in a relative clause of characteristic)",
+      "hints": {
+        "perfect indicative": "Perfect indicative would be 'voluit' — 'voluerit' in a generalizing relative clause is subjunctive",
+        "future perfect indicative": "Future perfect looks identical, but the generalizing 'Qui' calls for subjunctive",
+        "present subjunctive": "Present subjunctive would be 'velit' — 'voluerit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'voluerit'?",
+      "target": "volo, velle, volui, —",
+      "choices": ["volo, velle, volui, —", "nolo, nolle, nolui, —", "malo, malle, malui, —", "valeo, valere, valui, valitum"],
+      "reveal": null,
+      "hints": {
+        "nolo, nolle, nolui, —": "These are the parts of 'nolle' (to not wish)",
+        "malo, malle, malui, —": "These are the parts of 'malle' (to prefer)",
+        "valeo, valere, valui, valitum": "These are the parts of 'valere' (to be strong/well)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perdet' translates to?",
+      "target": "to lose / to destroy",
+      "choices": ["to lose / to destroy", "to seek", "to pursue", "to sell"],
+      "reveal": null,
+      "hints": {
+        "to seek": "That would be 'petere/quaerere' — 'perdet' comes from 'perdere' (to lose)",
+        "to pursue": "That would be 'persequi' — 'perdet' comes from 'perdere' (to lose)",
+        "to sell": "That would be 'vendere' — 'perdet' comes from 'perdere' (to lose)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'perdet'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "perdet = he will lose",
+      "hints": {
+        "present indicative": "Present would be 'perdit' — 'perdet' with -e- is future (3rd conjugation)",
+        "present subjunctive": "Present subjunctive would be 'perdat' — 'perdet' is future indicative",
+        "perfect indicative": "Perfect would be 'perdidit' — 'perdet' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perdet'?",
+      "target": "perdo, perdere, perdidi, perditum",
+      "choices": ["perdo, perdere, perdidi, perditum", "peto, petere, petivi, petitum", "pendo, pendere, pependi, pensum", "credo, credere, credidi, creditum"],
+      "reveal": null,
+      "hints": {
+        "peto, petere, petivi, petitum": "These are the parts of 'petere' (to seek)",
+        "pendo, pendere, pependi, pensum": "These are the parts of 'pendere' (to weigh/pay)",
+        "credo, credere, credidi, creditum": "These are the parts of 'credere' (to believe)"
+      }
+    },
+    {
+      "prompt": "What case is 'animam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "animam = soul/life (acc., object of 'salvam facere')",
+      "hints": {
+        "nominative": "Nominative would be 'anima' — 'animam' with -am is accusative",
+        "ablative": "Ablative would be 'anima' — 'animam' is accusative",
+        "dative": "Dative would be 'animae' — 'animam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'anima, animae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'animae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'animae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'animae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What does 'salvam facere' mean as a phrase?",
+      "target": "to save / to make safe",
+      "choices": ["to save / to make safe", "to sacrifice", "to set free", "to make holy"],
+      "reveal": null,
+      "hints": {
+        "to sacrifice": "That would be 'sacrificare' — 'salvam facere' means 'to make safe/save'",
+        "to set free": "That would be 'liberare' — 'salvam facere' literally means 'to make safe'",
+        "to make holy": "That would be 'sanctificare' — 'salvam facere' means 'to save'"
+      }
+    }
+  ],
+  "translation": "Whoever wishes to save his life will lose it"
+}

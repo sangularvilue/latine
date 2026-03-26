@@ -1,0 +1,119 @@
+{
+  "id": "luke-12-35",
+  "source": "Vulgate",
+  "reference": "Lucas 12:8",
+  "latin": ["Omnis", "quicumque", "confessus", "fuerit", "me", "coram", "hominibus"],
+  "steps": [
+    {
+      "prompt": "Which word is a compound relative pronoun?",
+      "target": "quicumque",
+      "choices": ["Omnis", "quicumque", "confessus", "coram"],
+      "reveal": null,
+      "hints": {
+        "Omnis": "'Omnis' is an adjective meaning 'every/all'",
+        "confessus": "'Confessus' is a participle meaning 'having confessed'",
+        "coram": "'Coram' is a preposition meaning 'before/in the presence of'"
+      }
+    },
+    {
+      "prompt": "What does 'quicumque' mean?",
+      "target": "whoever / whosoever",
+      "choices": ["whoever / whosoever", "someone", "no one", "which (relative)"],
+      "reveal": "quicumque = whoever (indefinite relative pronoun)",
+      "hints": {
+        "someone": "'Someone' would be 'aliquis' — 'quicumque' means 'whoever'",
+        "no one": "'No one' would be 'nemo' — 'quicumque' means 'whoever'",
+        "which (relative)": "Simple relative would be 'qui' — 'quicumque' adds the universal '-cumque'"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'confessus'?",
+      "target": "perfect participle of a deponent verb",
+      "choices": ["perfect passive participle", "perfect participle of a deponent verb", "present active participle", "future active participle"],
+      "reveal": "confessus = having confessed/acknowledged (perf. part., active meaning)",
+      "hints": {
+        "perfect passive participle": "While it looks passive in form, 'confiteri' is deponent — the participle has active meaning",
+        "present active participle": "Present active would be 'confitens' — 'confessus' is the perfect participle",
+        "future active participle": "Future active would be 'confessurus' — 'confessus' is perfect"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'confessus fuerit' translates to?",
+      "target": "to confess / to acknowledge",
+      "choices": ["to confess / to acknowledge", "to trust", "to be confident", "to profess faith"],
+      "reveal": null,
+      "hints": {
+        "to trust": "That would be 'confidere' — 'confiteri' means 'to confess/acknowledge'",
+        "to be confident": "That would be 'confidere' — 'confiteri' means 'to confess'",
+        "to profess faith": "While related, the precise meaning of 'confiteri' is 'to confess/acknowledge'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'confessus fuerit'?",
+      "target": "perfect subjunctive (of a deponent verb)",
+      "choices": ["perfect indicative", "perfect subjunctive (of a deponent verb)", "pluperfect subjunctive", "future perfect indicative"],
+      "reveal": "confessus fuerit = shall have acknowledged (perf. subj., generalizing relative)",
+      "hints": {
+        "perfect indicative": "Perfect indicative would be 'confessus est' — 'fuerit' is subjunctive",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'confessus fuisset' — 'fuerit' is perfect subj.",
+        "future perfect indicative": "Future perfect looks similar but the indefinite relative clause calls for subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'confessus fuerit'?",
+      "target": "confiteor, confiteri, confessus sum, —",
+      "choices": ["confiteor, confiteri, confessus sum, —", "confido, confidere, confisus sum, —", "fateor, fateri, fassus sum, —", "profiteor, profiteri, professus sum, —"],
+      "reveal": null,
+      "hints": {
+        "confido, confidere, confisus sum, —": "These are the parts of 'confidere' (to trust) — a semi-deponent",
+        "fateor, fateri, fassus sum, —": "These are the parts of 'fateri' (to admit) — 'confiteri' is its compound",
+        "profiteor, profiteri, professus sum, —": "These are the parts of 'profiteri' (to declare publicly)"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "me = me (acc., direct object of 'confessus fuerit')",
+      "hints": {
+        "nominative": "Nominative would be 'ego' — 'me' is accusative, object of acknowledgment",
+        "dative": "Dative would be 'mihi' — 'me' is accusative",
+        "ablative": "While 'me' looks identical in ablative, here it is accusative, the thing confessed"
+      }
+    },
+    {
+      "prompt": "What case does the preposition 'coram' take?",
+      "target": "ablative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": "coram hominibus = before/in the presence of men",
+      "hints": {
+        "accusative": "Some prepositions take accusative, but 'coram' governs the ablative",
+        "genitive": "Very few Latin prepositions take genitive — 'coram' takes ablative",
+        "dative": "Prepositions do not take dative — 'coram' takes ablative"
+      }
+    },
+    {
+      "prompt": "What case is 'hominibus'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "hominibus = men/people (abl. pl., after 'coram')",
+      "hints": {
+        "nominative": "Nominative plural would be 'homines' — 'hominibus' is dative/ablative plural",
+        "dative": "While 'hominibus' could be dative, after 'coram' it is ablative",
+        "genitive": "Genitive plural would be 'hominum' — 'hominibus' is ablative"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive 'fuerit' used in this clause?",
+      "target": "generalizing relative clause (whoever = any person who)",
+      "choices": ["generalizing relative clause (whoever = any person who)", "purpose clause", "result clause", "indirect question"],
+      "reveal": null,
+      "hints": {
+        "purpose clause": "Purpose uses 'ut' + subj. — 'quicumque' + subj. generalizes about anyone who does this",
+        "result clause": "Result uses 'ut' + subj. — 'quicumque' introduces a generalizing relative",
+        "indirect question": "Indirect questions use interrogative words — 'quicumque' is an indefinite relative"
+      }
+    }
+  ],
+  "translation": "Everyone, whoever shall have acknowledged me before men"
+}

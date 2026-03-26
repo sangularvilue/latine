@@ -1,0 +1,119 @@
+{
+  "id": "cat-4-09",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.2",
+  "latin": ["Omnia", "provisa", "sunt", "Quirites", "a", "me"],
+  "steps": [
+    {
+      "prompt": "What case is 'Omnia'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Omnia = all things (nom. neut. pl.)",
+      "hints": {
+        "accusative": "'Omnia' can be accusative neuter plural, but here it is the subject of 'provisa sunt'",
+        "ablative": "Ablative neuter plural would be 'omnibus' — 'Omnia' is nominative",
+        "genitive": "Genitive would be 'omnium' — 'Omnia' is nominative neuter plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'provisa sunt' translates to?",
+      "target": "to foresee / to provide for",
+      "choices": ["to foresee / to provide for", "to see", "to supervise", "to revise"],
+      "reveal": null,
+      "hints": {
+        "to see": "'To see' is 'videre' — 'providere' adds pro- meaning to look ahead or provide for",
+        "to supervise": "'To supervise' is 'supervidere' — 'providere' means to foresee",
+        "to revise": "'To revise' is 'revidere' — 'providere' means to foresee or provide for"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'provisa sunt'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect active indicative"],
+      "reveal": "provisa sunt = have been provided for / foreseen",
+      "hints": {
+        "present passive indicative": "Present passive would be 'providentur' — participle + 'sunt' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'provisa erant' — 'sunt' makes it perfect",
+        "perfect active indicative": "Perfect active would be 'providerunt' — participle + 'sunt' is passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'provisa sunt'?",
+      "target": "provideo, providere, providi, provisum",
+      "choices": ["provideo, providere, providi, provisum", "video, videre, vidi, visum", "prevideo, previdere, previdi, previsum", "invideo, invidere, invidi, invisum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see) — the base verb without the pro- prefix",
+        "prevideo, previdere, previdi, previsum": "'Prevideo' is not a standard Latin form — the correct prefix is 'pro-': 'provideo'",
+        "invideo, invidere, invidi, invisum": "These are the parts of 'invidere' (to envy) — different compound"
+      }
+    },
+    {
+      "prompt": "Why does 'provisa' end in -a?",
+      "target": "it agrees with neuter plural 'Omnia'",
+      "choices": ["it agrees with neuter plural 'Omnia'", "it is feminine singular", "it is ablative singular", "it is 1st declension nominative"],
+      "reveal": null,
+      "hints": {
+        "it is feminine singular": "While -a can be feminine singular, here it matches neuter plural 'Omnia'",
+        "it is ablative singular": "Ablative singular would also be -a, but the participle must match the subject 'Omnia'",
+        "it is 1st declension nominative": "'Provisa' is not a 1st declension noun — it is a participle in neuter plural"
+      }
+    },
+    {
+      "prompt": "What case is 'Quirites'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": "Quirites = citizens! (voc.)",
+      "hints": {
+        "nominative": "While identical in form, 'Quirites' is a direct address interjected into the sentence",
+        "accusative": "Accusative plural would also be 'Quirites,' but this is vocative address",
+        "ablative": "Ablative would be 'Quiritibus' — 'Quirites' is vocative"
+      }
+    },
+    {
+      "prompt": "What does 'a me' express in this passive sentence?",
+      "target": "ablative of personal agent",
+      "choices": ["ablative of personal agent", "ablative of means", "ablative of separation", "ablative of cause"],
+      "reveal": "a me = by me (abl. of agent)",
+      "hints": {
+        "ablative of means": "Ablative of means does not use 'a/ab' — 'a me' with a person expresses the agent",
+        "ablative of separation": "Ablative of separation can use 'a/ab,' but with a passive verb + person, this is agent",
+        "ablative of cause": "Ablative of cause does not typically use 'a/ab' with a person — this is agent"
+      }
+    },
+    {
+      "prompt": "Why does the ablative of agent use 'a/ab' while ablative of means does not?",
+      "target": "Latin distinguishes personal agents (a/ab) from impersonal instruments (bare ablative)",
+      "choices": ["Latin distinguishes personal agents (a/ab) from impersonal instruments (bare ablative)", "it is arbitrary", "a/ab is always required with the ablative", "only deponent verbs omit a/ab"],
+      "reveal": null,
+      "hints": {
+        "it is arbitrary": "The distinction is systematic: persons acting require 'a/ab,' instruments (tools, means) do not",
+        "a/ab is always required with the ablative": "Many ablative uses (time, manner, means) do not require 'a/ab'",
+        "only deponent verbs omit a/ab": "Deponent verbs can also take 'a/ab' + agent — the distinction is person vs. thing, not verb type"
+      }
+    },
+    {
+      "prompt": "What declension is 'Quirites, Quiritium'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive plural in -arum — 'Quiritium' ends in -ium",
+        "2nd declension": "2nd declension has genitive plural in -orum — 'Quiritium' ends in -ium",
+        "4th declension": "4th declension has genitive plural in -uum — 'Quiritium' ends in -ium"
+      }
+    },
+    {
+      "prompt": "What rhetorical effect does placing 'Omnia' first and 'a me' last achieve?",
+      "target": "frames totality of preparation, then reveals Cicero as sole agent",
+      "choices": ["frames totality of preparation, then reveals Cicero as sole agent", "creates suspense about who acted", "follows standard Latin word order", "minimizes Cicero's role"],
+      "reveal": null,
+      "hints": {
+        "creates suspense about who acted": "While there is a delay, the main effect is emphasizing both completeness and personal credit",
+        "follows standard Latin word order": "Latin word order is flexible — Cicero's placement is deliberate rhetorical emphasis",
+        "minimizes Cicero's role": "Quite the opposite — placing 'a me' at the end gives it emphatic final position"
+      }
+    }
+  ],
+  "translation": "All things have been provided for by me, citizens"
+}

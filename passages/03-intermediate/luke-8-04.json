@@ -1,0 +1,97 @@
+{
+  "id": "luke-8-04",
+  "source": "Vulgate",
+  "reference": "Lucas 8:49",
+  "latin": ["Filia", "tua", "mortua", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["Filia", "mortua", "est", "tua"],
+      "reveal": null,
+      "hints": {
+        "Filia": "'Filia' is a noun meaning 'daughter'",
+        "mortua": "'Mortua' is a participle here, forming part of a compound verb with 'est'",
+        "tua": "'Tua' is a possessive adjective meaning 'your'"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'mortua'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "adjective", "future participle"],
+      "reveal": "mortua = having died (perf. part., nom. fem. sg.)",
+      "hints": {
+        "present active participle": "A present active participle would end in -ns/-ntis; 'mortua' is a perfect participle",
+        "adjective": "While it can function as an adjective, 'mortua' is grammatically a perfect participle of 'morior'",
+        "future participle": "A future participle would be 'moritura' — 'mortua' is the perfect participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'mortua est' translates to?",
+      "target": "to die",
+      "choices": ["to die", "to kill", "to remain", "to be dead"],
+      "reveal": null,
+      "hints": {
+        "to kill": "That would be 'occidere/necare' — 'morior' is deponent and means 'to die'",
+        "to remain": "That would be 'manere' — 'morior' means 'to die'",
+        "to be dead": "Close, but the infinitive 'mori' means 'to die' (the action), not the state"
+      }
+    },
+    {
+      "prompt": "What tense is 'mortua est' together?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "pluperfect indicative", "imperfect indicative"],
+      "reveal": "mortua est = she has died / she died",
+      "hints": {
+        "present indicative": "'Mortua est' with the participle + 'est' forms the perfect of the deponent verb",
+        "pluperfect indicative": "Pluperfect would be 'mortua erat' — 'mortua est' is perfect",
+        "imperfect indicative": "Imperfect of a deponent doesn't use the participle form this way"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mortua est'?",
+      "target": "morior, mori, mortuus sum, —",
+      "choices": ["morior, mori, mortuus sum, —", "mors, mortis, f.", "moror, morari, moratus sum, —", "moveo, movere, movi, motum"],
+      "reveal": null,
+      "hints": {
+        "mors, mortis, f.": "These are noun forms of 'mors' (death), not the verb 'morior'",
+        "moror, morari, moratus sum, —": "These are the parts of 'morari' (to delay), not 'morior'",
+        "moveo, movere, movi, motum": "These are the parts of 'movere' (to move)"
+      }
+    },
+    {
+      "prompt": "'Morior' is what type of verb?",
+      "target": "deponent",
+      "choices": ["active", "passive", "deponent", "semi-deponent"],
+      "reveal": null,
+      "hints": {
+        "active": "'Morior' has passive forms but active meaning — that makes it deponent",
+        "passive": "'Morior' looks passive but means 'to die' actively — it is deponent",
+        "semi-deponent": "Semi-deponent verbs are active in present system and deponent in perfect; 'morior' is fully deponent"
+      }
+    },
+    {
+      "prompt": "What case is 'Filia'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "ablative", "accusative"],
+      "reveal": "Filia = daughter (nom.)",
+      "hints": {
+        "vocative": "Vocative of 'filia' would also be 'filia', but here she is the subject, not being addressed",
+        "ablative": "Ablative would be 'filia' in form but context shows it is the subject — nominative",
+        "accusative": "Accusative would be 'filiam' — 'Filia' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'filia, filiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'filiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'filiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'filiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Your daughter has died"
+}

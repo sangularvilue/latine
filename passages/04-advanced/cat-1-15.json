@@ -1,0 +1,119 @@
+{
+  "id": "cat-1-15",
+  "source": "Cicero",
+  "reference": "In Cat. I.10",
+  "latin": ["Egredere", "ex", "urbe", "Catilina", "libera", "rem", "publicam", "metu"],
+  "steps": [
+    {
+      "prompt": "Which word is the first imperative verb?",
+      "target": "Egredere",
+      "choices": ["Egredere", "urbe", "Catilina", "libera"],
+      "reveal": null,
+      "hints": {
+        "urbe": "'urbe' is a noun in the ablative case meaning 'the city'",
+        "Catilina": "'Catilina' is a proper noun in the vocative case",
+        "libera": "'libera' is also a verb (imperative), but 'Egredere' is the first imperative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Egredere' translates to?",
+      "target": "to go out / depart",
+      "choices": ["to go out / depart", "to attack", "to enter", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to attack": "'to attack' is 'aggredi' — 'egredi' means 'to go out/depart'",
+        "to enter": "'to enter' is 'ingredi' — the opposite direction; 'egredi' means 'to exit'",
+        "to stand": "'to stand' is 'stare' — 'egredi' is a deponent meaning 'to go out'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Egredere'?",
+      "target": "Present imperative (deponent)",
+      "choices": ["Present indicative", "Present imperative (deponent)", "Present infinitive", "Future indicative"],
+      "reveal": { "word": "Egredere", "gloss": "go out! / depart!" },
+      "hints": {
+        "Present indicative": "Present indicative passive/deponent 2nd person would be 'egrederis' — 'Egredere' is imperative",
+        "Present infinitive": "Infinitive would be 'egredi' — 'Egredere' is the singular imperative of this deponent verb",
+        "Future indicative": "Future would be 'egrederis' — 'Egredere' is an imperative command"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Egredere'?",
+      "target": "egredior, egredi, egressus sum",
+      "choices": ["egredior, egredi, egressus sum", "gradior, gradi, gressus sum", "ingredior, ingredi, ingressus sum", "aggredior, aggredi, aggressus sum"],
+      "reveal": null,
+      "hints": {
+        "gradior, gradi, gressus sum": "These are the parts of 'gradi' (to step/walk) — the base verb without the e- prefix",
+        "ingredior, ingredi, ingressus sum": "These are the parts of 'ingredi' (to enter) — a different compound of 'gradi'",
+        "aggredior, aggredi, aggressus sum": "These are the parts of 'aggredi' (to attack) — a different compound of 'gradi'"
+      }
+    },
+    {
+      "prompt": "What mood is 'libera'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Imperative", "Subjunctive", "Infinitive"],
+      "reveal": { "word": "libera", "gloss": "free! / deliver!" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'libera' is a command (imperative singular of 'liberare')",
+        "Subjunctive": "Subjunctive would be 'liberes' — 'libera' is the direct imperative form",
+        "Infinitive": "Infinitive would be 'liberare' — 'libera' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'libera'?",
+      "target": "libero, liberare, liberavi, liberatum",
+      "choices": ["libero, liberare, liberavi, liberatum", "liber, libera, liberum", "delibero, deliberare, deliberavi, deliberatum", "labor, labi, lapsus sum"],
+      "reveal": null,
+      "hints": {
+        "liber, libera, liberum": "These are adjective forms meaning 'free' — not verb principal parts",
+        "delibero, deliberare, deliberavi, deliberatum": "These are the parts of 'deliberare' (to deliberate) — a different verb",
+        "labor, labi, lapsus sum": "These are the parts of 'labi' (to slip/fall) — entirely different"
+      }
+    },
+    {
+      "prompt": "What case is 'urbe'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "urbe", "gloss": "the city (Rome)" },
+      "hints": {
+        "Nominative": "Nominative would be 'urbs' — 'urbe' with 'ex' is ablative of separation",
+        "Accusative": "Accusative would be 'urbem' — 'ex' governs the ablative",
+        "Dative": "Dative would be 'urbi' — 'urbe' after 'ex' is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'urbe'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'urbs, urbis' is 3rd declension",
+        "2nd": "2nd declension ablative ends in -o — 'urbs, urbis' is 3rd declension",
+        "5th": "5th declension ablative ends in -e too, but 'urbs, urbis' with gen. -is is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'metu'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "metu", "gloss": "from fear" },
+      "hints": {
+        "Nominative": "Nominative would be 'metus' — 'metu' is ablative of separation (free from fear)",
+        "Accusative": "Accusative would be 'metum' — 'metu' is ablative (4th declension abl. sing. = -u)",
+        "Dative": "Dative would be 'metui' — 'metu' is ablative"
+      }
+    },
+    {
+      "prompt": "What case is 'rem publicam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "rem publicam", "gloss": "the republic" },
+      "hints": {
+        "Nominative": "Nominative would be 'res publica' — 'rem publicam' is the accusative object of 'libera'",
+        "Dative": "Dative would be 'rei publicae' — 'rem publicam' is accusative",
+        "Ablative": "Ablative would be 're publica' — 'rem publicam' is the accusative direct object"
+      }
+    }
+  ],
+  "translation": "Go forth from the city, Catiline; free the republic from fear."
+}

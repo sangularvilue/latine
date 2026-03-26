@@ -1,0 +1,141 @@
+{
+  "id": "cat-4-06",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.9",
+  "latin": ["Provideo", "quanta", "tempestas", "invidiae", "nobis", "impendeat"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Provideo' translates to?",
+      "target": "to foresee",
+      "choices": ["to foresee", "to provide", "to see", "to prevent"],
+      "reveal": null,
+      "hints": {
+        "to provide": "English 'provide' derives from it, but Latin 'providere' means to foresee or look ahead",
+        "to see": "'To see' is 'videre' — 'providere' adds the prefix pro- meaning 'beforehand'",
+        "to prevent": "'To prevent' is 'prohibere' — 'providere' means to foresee"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Provideo'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "Provideo = I foresee",
+      "hints": {
+        "perfect indicative": "Perfect would be 'providi' — 'Provideo' is present indicative",
+        "future indicative": "Future would be 'providebo' — 'Provideo' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'provideam' — 'Provideo' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Provideo'?",
+      "target": "provideo, providere, providi, provisum",
+      "choices": ["provideo, providere, providi, provisum", "video, videre, vidi, visum", "praebeo, praebere, praebui, praebitum", "prohibeo, prohibere, prohibui, prohibitum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see) — the base verb without the pro- prefix",
+        "praebeo, praebere, praebui, praebitum": "These are the parts of 'praebere' (to offer)",
+        "prohibeo, prohibere, prohibui, prohibitum": "These are the parts of 'prohibere' (to prevent)"
+      }
+    },
+    {
+      "prompt": "What case is 'quanta tempestas'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "quanta tempestas = how great a storm (nom., subject of 'impendeat')",
+      "hints": {
+        "accusative": "Accusative would be 'quantam tempestatem' — 'quanta tempestas' is nominative",
+        "ablative": "Ablative would be 'quanta tempestate' — this is nominative",
+        "vocative": "A storm is not being addressed — 'quanta tempestas' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'tempestas, tempestatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'tempestatis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'tempestatis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'tempestatis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'invidiae'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "invidiae = of hatred / of ill-will (gen.)",
+      "hints": {
+        "nominative": "Nominative singular would be 'invidia' — 'invidiae' is genitive singular or dative",
+        "dative": "'Invidiae' could be dative, but here it defines the type of storm — genitive of quality",
+        "vocative": "Vocative would be 'invidia' — 'invidiae' is genitive describing 'tempestas'"
+      }
+    },
+    {
+      "prompt": "What declension is 'invidia, invidiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'invidiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'invidiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'invidiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'nobis' and what function does it serve?",
+      "target": "dative of disadvantage",
+      "choices": ["dative of disadvantage", "ablative of agent", "dative of indirect object", "ablative of accompaniment"],
+      "reveal": "nobis = upon/over us (dat. of disadvantage)",
+      "hints": {
+        "ablative of agent": "Ablative of agent uses 'a/ab' — 'nobis' here is dative showing who the storm threatens",
+        "dative of indirect object": "Indirect object would imply giving — 'nobis' shows over whom the storm hangs",
+        "ablative of accompaniment": "'Cum' + ablative expresses accompaniment — 'nobis' is dative with 'impendeat'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'impendeat' translates to?",
+      "target": "to hang over / to threaten",
+      "choices": ["to hang over / to threaten", "to spend", "to weigh", "to impede"],
+      "reveal": null,
+      "hints": {
+        "to spend": "'To spend' is 'impendere' (same verb can mean 'spend'), but here the meaning is 'to hang over'",
+        "to weigh": "'To weigh' is 'pendere' — 'impendere' with in- prefix means to hang over",
+        "to impede": "'To impede' is 'impedire' — 'impendere' means to hang over or threaten"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'impendeat'?",
+      "target": "present subjunctive",
+      "choices": ["present indicative", "present subjunctive", "imperfect subjunctive", "future indicative"],
+      "reveal": "impendeat = may hang over / hangs over (subjunctive in indirect question)",
+      "hints": {
+        "present indicative": "Present indicative would be 'impendet' — 'impendeat' with -ea- is subjunctive",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'impenderet' — 'impendeat' is present subjunctive",
+        "future indicative": "Future would be 'impendebit' — 'impendeat' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used in the 'quanta...impendeat' clause?",
+      "target": "indirect question after 'Provideo'",
+      "choices": ["indirect question after 'Provideo'", "purpose clause", "result clause", "conditional protasis"],
+      "reveal": null,
+      "hints": {
+        "purpose clause": "Purpose clauses use 'ut/ne' — 'quanta' introduces an indirect question requiring subjunctive",
+        "result clause": "Result clauses use 'ut' — 'quanta' is an interrogative adjective introducing an indirect question",
+        "conditional protasis": "Conditional clauses use 'si/nisi' — 'quanta' introduces an indirect question"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'impendeat'?",
+      "target": "impendeo, impendere, —, —",
+      "choices": ["impendeo, impendere, —, —", "pendo, pendere, pependi, pensum", "pendeo, pendere, pependi, —", "impedio, impedire, impedivi, impeditum"],
+      "reveal": null,
+      "hints": {
+        "pendo, pendere, pependi, pensum": "These are the parts of 'pendere' (to weigh/pay) — active transitive, different verb",
+        "pendeo, pendere, pependi, —": "These are the parts of 'pendere' (to hang, intransitive) — the base, but 'impendere' is the compound",
+        "impedio, impedire, impedivi, impeditum": "These are the parts of 'impedire' (to hinder) — different verb entirely"
+      }
+    }
+  ],
+  "translation": "I foresee how great a storm of hatred hangs over us"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "luke-24-04",
+  "source": "Vulgate",
+  "reference": "Lucas 24:26",
+  "latin": ["Nonne", "haec", "oportuit", "pati", "Christum", "et", "intrare", "in", "gloriam", "suam"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "oportuit",
+      "choices": ["oportuit", "pati", "intrare", "haec"],
+      "reveal": null,
+      "hints": {
+        "pati": "'Pati' is an infinitive meaning 'to suffer' — complementary to 'oportuit'",
+        "intrare": "'Intrare' is an infinitive meaning 'to enter' — parallel to 'pati'",
+        "haec": "'Haec' is a demonstrative pronoun meaning 'these things'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'oportuit' translates to?",
+      "target": "to be necessary / to be fitting",
+      "choices": ["to be necessary / to be fitting", "to hope", "to help", "to work"],
+      "reveal": null,
+      "hints": {
+        "to hope": "'To hope' is 'sperare' — 'oportuit' comes from 'oportere' (to be necessary)",
+        "to help": "'To help' is 'opitulari' — 'oportuit' comes from 'oportere'",
+        "to work": "'To work' is 'operari' — 'oportuit' comes from 'oportere' (impersonal verb)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'oportuit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "oportuit = it was necessary (3rd sing. perf., impersonal)",
+      "hints": {
+        "present indicative": "Present would be 'oportet' — 'oportuit' with -uit is perfect",
+        "imperfect indicative": "Imperfect would be 'oportebat' — 'oportuit' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'oportuerat' — 'oportuit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'oportuit'?",
+      "target": "oportet, oportere, oportuit, —",
+      "choices": ["oportet, oportere, oportuit, —", "operor, operari, operatus sum, —", "opitulor, opitulari, opitulatus sum, —", "opto, optare, optavi, optatum"],
+      "reveal": null,
+      "hints": {
+        "operor, operari, operatus sum, —": "These are the parts of 'operor' (to work) — a deponent verb",
+        "opitulor, opitulari, opitulatus sum, —": "These are the parts of 'opitulor' (to help) — a deponent verb",
+        "opto, optare, optavi, optatum": "These are the parts of 'opto' (to wish/choose)"
+      }
+    },
+    {
+      "prompt": "'Oportuit' is an impersonal verb. What is its grammatical subject?",
+      "target": "the infinitive phrase 'Christum pati et intrare'",
+      "choices": ["the infinitive phrase 'Christum pati et intrare'", "'Christum'", "'haec'", "there is no subject"],
+      "reveal": "oportuit Christum pati = it was necessary for Christ to suffer",
+      "hints": {
+        "'Christum'": "'Christum' is accusative — it is the subject of the infinitives, not of 'oportuit'",
+        "'haec'": "'Haec' is the direct object (these things) of 'pati', not the subject of 'oportuit'",
+        "there is no subject": "Impersonal verbs have an implied 'it' as subject — the infinitive phrase fills this role"
+      }
+    },
+    {
+      "prompt": "What case is 'Christum' and why?",
+      "target": "accusative — subject of the infinitives 'pati' and 'intrare'",
+      "choices": ["accusative — subject of the infinitives 'pati' and 'intrare'", "accusative — direct object of 'oportuit'", "nominative — subject of 'oportuit'", "ablative — agent"],
+      "reveal": "Christum is the accusative subject of the infinitive (accusative + infinitive construction)",
+      "hints": {
+        "accusative — direct object of 'oportuit'": "'Oportuit' is impersonal — 'Christum' is the subject of the infinitive, not the object of 'oportuit'",
+        "nominative — subject of 'oportuit'": "'Christum' with -um ending is accusative, not nominative",
+        "ablative — agent": "Ablative of agent would be 'a Christo' — 'Christum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Christus, Christi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Christi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Christi' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'Christi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is special about the verb 'pati'?",
+      "target": "it is a deponent verb (passive form, active meaning)",
+      "choices": ["it is a deponent verb (passive form, active meaning)", "it is a regular active infinitive", "it is a gerund", "it is a supine"],
+      "reveal": "pati = to suffer (deponent: patior, pati, passus sum)",
+      "hints": {
+        "it is a regular active infinitive": "Active infinitive of 3rd conjugation would end in -ere — 'pati' has passive form but active meaning",
+        "it is a gerund": "A gerund would be 'patiendum' — 'pati' is a deponent infinitive",
+        "it is a supine": "Supine would be 'passum' — 'pati' is the present infinitive of the deponent 'patior'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'pati'?",
+      "target": "patior, pati, passus sum, —",
+      "choices": ["patior, pati, passus sum, —", "pando, pandere, pandi, passum", "pasco, pascere, pavi, pastum", "pareo, parere, parui, paritum"],
+      "reveal": null,
+      "hints": {
+        "pando, pandere, pandi, passum": "These are the parts of 'pando' (to spread/open) — note 'passum' looks similar",
+        "pasco, pascere, pavi, pastum": "These are the parts of 'pasco' (to feed/pasture)",
+        "pareo, parere, parui, paritum": "These are the parts of 'pareo' (to obey)"
+      }
+    },
+    {
+      "prompt": "What case is 'gloriam'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "genitive", "ablative"],
+      "reveal": "in gloriam suam = into his glory (acc., motion toward)",
+      "hints": {
+        "nominative": "Nominative would be 'gloria' — 'gloriam' with -am is accusative",
+        "genitive": "Genitive would be 'gloriae' — 'gloriam' is accusative after 'in' (motion)",
+        "ablative": "Ablative would be 'gloria' — 'in' + acc. = motion into"
+      }
+    },
+    {
+      "prompt": "What declension is 'gloria, gloriae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'gloriae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'gloriae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'gloriae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'haec'?",
+      "target": "accusative neuter plural (these things)",
+      "choices": ["accusative neuter plural (these things)", "nominative feminine singular", "nominative neuter plural", "ablative"],
+      "reveal": "haec pati = to suffer these things",
+      "hints": {
+        "nominative feminine singular": "'Haec' as nom. fem. sing. is possible, but here it is the object of 'pati' — acc. neut. pl.",
+        "nominative neuter plural": "Nom. neut. pl. 'haec' looks the same as acc. neut. pl., but as object of 'pati' it must be accusative",
+        "ablative": "Ablative of 'hic' would be 'his' (pl.) or 'hoc' (sing.) — 'haec' is accusative here"
+      }
+    }
+  ],
+  "translation": "Was it not necessary for Christ to suffer these things and enter into his glory?"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "cat-1-04",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["O", "tempora", "o", "mores"],
+  "steps": [
+    {
+      "prompt": "What case is 'tempora'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "tempora", "gloss": "times / age" },
+      "hints": {
+        "Nominative": "Nominative plural neuter is the same form, but 'O' signals an exclamatory accusative",
+        "Vocative": "Vocative is used for direct address of persons — 'tempora' is an abstract noun in exclamatory accusative",
+        "Ablative": "Ablative plural would be 'temporibus' — 'tempora' is accusative plural"
+      }
+    },
+    {
+      "prompt": "Declension of 'tempora'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension plural accusative ends in -as — 'tempora' (nom. sing. 'tempus') is 3rd declension neuter",
+        "2nd": "2nd declension neuter plural would be -a as well, but 'tempus, temporis' is 3rd declension",
+        "4th": "4th declension nouns have gen. -us — 'tempus, temporis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'mores'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "mores", "gloss": "customs / morals" },
+      "hints": {
+        "Nominative": "Nominative plural looks the same, but parallel to 'tempora' this is exclamatory accusative with 'O'",
+        "Dative": "Dative plural would be 'moribus' — 'mores' is accusative",
+        "Ablative": "Ablative plural would be 'moribus' — 'mores' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'mores'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension plural would end in -ae — 'mos, moris' is 3rd declension",
+        "2nd": "2nd declension plural would end in -i/-os — 'mos, moris' is 3rd declension",
+        "5th": "5th declension plural would end in -es as well, but 'mos, moris' with gen. in -is is 3rd"
+      }
+    },
+    {
+      "prompt": "This exclamation contains no verb. What is the grammatical term for this construction?",
+      "target": "Exclamatory accusative (verbless exclamation)",
+      "choices": ["Ablative absolute", "Exclamatory accusative (verbless exclamation)", "Historic infinitive", "Asyndeton"],
+      "reveal": null,
+      "hints": {
+        "Ablative absolute": "Ablative absolute uses a participle + noun in the ablative — this has no verb or participle at all",
+        "Historic infinitive": "Historic infinitive replaces a finite verb in narration — there is no infinitive here",
+        "Asyndeton": "Asyndeton is omission of conjunctions — while 'O … O …' lacks a conjunction, the key feature is the verbless accusative exclamation"
+      }
+    },
+    {
+      "prompt": "What rhetorical figure is 'O tempora, o mores'?",
+      "target": "Anaphora — repetition of 'O'",
+      "choices": ["Chiasmus", "Anaphora — repetition of 'O'", "Litotes", "Hendiadys"],
+      "reveal": null,
+      "hints": {
+        "Chiasmus": "Chiasmus is ABBA word order — this is parallel repetition of 'O' at the start of each phrase",
+        "Litotes": "Litotes is understatement through negation — this is emphatic exclamation, the opposite of understatement",
+        "Hendiadys": "Hendiadys expresses one idea with two nouns joined by 'and' — 'tempora' and 'mores' are distinct concepts"
+      }
+    },
+    {
+      "prompt": "What emotion does Cicero express with this exclamation?",
+      "target": "Moral outrage at the corruption of the times",
+      "choices": ["Joy at Rome's prosperity", "Moral outrage at the corruption of the times", "Nostalgia for his youth", "Fear of military defeat"],
+      "reveal": null,
+      "hints": {
+        "Joy at Rome's prosperity": "The interjection 'O' here is a lament, not celebration — Cicero is denouncing the state of affairs",
+        "Nostalgia for his youth": "Cicero is not reminiscing — he is condemning the present moral decay that tolerates Catiline",
+        "Fear of military defeat": "The concern is not military but moral — 'mores' (customs/morals) points to ethical decline"
+      }
+    }
+  ],
+  "translation": "O the times! O the customs!"
+}

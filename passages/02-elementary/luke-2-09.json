@@ -1,0 +1,86 @@
+{
+  "id": "luke-2-09",
+  "source": "Vulgate",
+  "reference": "Lucas 2:14",
+  "latin": ["Pax", "hominibus", "bonae", "voluntatis"],
+  "steps": [
+    {
+      "prompt": "What case is 'Pax'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Genitive"],
+      "reveal": { "word": "Pax", "gloss": "peace" },
+      "hints": {
+        "Accusative": "Accusative would be 'pacem' — 'Pax' is the nominative form",
+        "Vocative": "Vocative would be 'Pax' (same form), but here it is the subject of the clause",
+        "Genitive": "Genitive would be 'pacis' — 'Pax' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'pax, pacis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pacis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'pacis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'pacis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'hominibus'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "hominibus", "gloss": "to men / to people" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'homines' — 'hominibus' is dative/ablative plural",
+        "Genitive": "Genitive plural would be 'hominum' — 'hominibus' is dative here (peace to people)",
+        "Accusative": "Accusative plural would be 'homines' — 'hominibus' is dative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'bonae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "bonae", "gloss": "of good" },
+      "hints": {
+        "Nominative": "'bonae' could be nominative plural feminine, but here it agrees with 'voluntatis' — genitive singular",
+        "Dative": "'bonae' could be dative singular, but it modifies 'voluntatis' which is genitive",
+        "Vocative": "Vocative plural would be 'bonae' (same form), but here it is genitive modifying 'voluntatis'"
+      }
+    },
+    {
+      "prompt": "What case is 'voluntatis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "voluntatis", "gloss": "of will / of goodwill" },
+      "hints": {
+        "Nominative": "Nominative would be 'voluntas' — 'voluntatis' with -is ending is genitive",
+        "Dative": "Dative would be 'voluntati' — 'voluntatis' is genitive singular",
+        "Ablative": "Ablative would be 'voluntate' — 'voluntatis' is genitive modifying 'hominibus'"
+      }
+    },
+    {
+      "prompt": "What declension is 'voluntas, voluntatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'voluntatis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'voluntatis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'voluntatis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Peace to men of good will"
+}

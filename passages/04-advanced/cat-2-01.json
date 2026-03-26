@@ -1,0 +1,108 @@
+{
+  "id": "cat-2-01",
+  "source": "Cicero",
+  "reference": "In Cat. II.1",
+  "latin": ["Tandem", "aliquando", "Quirites", "Catilinam", "ex", "urbe", "eiecimus"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "eiecimus",
+      "choices": ["Tandem", "Quirites", "Catilinam", "eiecimus"],
+      "reveal": null,
+      "hints": {
+        "Tandem": "'Tandem' is an adverb meaning 'at last / finally'",
+        "Quirites": "'Quirites' is a noun (vocative plural) meaning 'Citizens!'",
+        "Catilinam": "'Catilinam' is a proper noun in the accusative case"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eiecimus' translates to?",
+      "target": "to throw out / expel",
+      "choices": ["to choose", "to throw out / expel", "to reject", "to send"],
+      "reveal": null,
+      "hints": {
+        "to choose": "'to choose' is 'eligere' — 'eicere' means 'to throw out'",
+        "to reject": "'to reject' is 'reicere' — 'eicere' with e- prefix means 'to expel/throw out'",
+        "to send": "'to send' is 'mittere' — 'eicere' means 'to cast out'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eiecimus'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Future indicative"],
+      "reveal": { "word": "eiecimus", "gloss": "we have thrown out / expelled" },
+      "hints": {
+        "Present indicative": "Present would be 'eicimus' — 'eiecimus' with the perfect stem eiec- is perfect tense",
+        "Imperfect indicative": "Imperfect would be 'eiciebamus' — 'eiecimus' is perfect",
+        "Future indicative": "Future would be 'eiciemus' — 'eiecimus' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eiecimus'?",
+      "target": "eicio, eicere, eieci, eiectum",
+      "choices": ["eicio, eicere, eieci, eiectum", "iacio, iacere, ieci, iactum", "reicio, reicere, reieci, reiectum", "eligo, eligere, elegi, electum"],
+      "reveal": null,
+      "hints": {
+        "iacio, iacere, ieci, iactum": "These are the parts of 'iacere' (to throw) — the base verb without the e- prefix",
+        "reicio, reicere, reieci, reiectum": "These are the parts of 'reicere' (to throw back/reject) — a different compound",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose) — a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'Quirites'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "Quirites", "gloss": "Citizens! (Roman citizens)" },
+      "hints": {
+        "Nominative": "Nominative plural would be the same form, but Cicero is addressing the citizens directly",
+        "Accusative": "Accusative plural would be 'Quirites' too, but the context is direct address to the audience",
+        "Ablative": "Ablative plural would be 'Quiritibus' — 'Quirites' is vocative of direct address"
+      }
+    },
+    {
+      "prompt": "What case is 'Catilinam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "Catilinam", "gloss": "Catiline" },
+      "hints": {
+        "Nominative": "Nominative would be 'Catilina' — 'Catilinam' with -am ending is accusative, object of 'eiecimus'",
+        "Dative": "Dative would be 'Catilinae' — 'Catilinam' is accusative",
+        "Ablative": "Ablative would be 'Catilina' — 'Catilinam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'urbe'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "urbe", "gloss": "the city" },
+      "hints": {
+        "Nominative": "Nominative would be 'urbs' — 'urbe' after 'ex' is ablative of separation",
+        "Accusative": "Accusative would be 'urbem' — 'ex' governs the ablative",
+        "Dative": "Dative would be 'urbi' — 'urbe' is ablative after 'ex'"
+      }
+    },
+    {
+      "prompt": "This is the opening of In Catilinam II. Where is Cicero now speaking?",
+      "target": "Before the people in the Forum (a contio)",
+      "choices": ["In the senate house", "Before the people in the Forum (a contio)", "In a private meeting", "In a law court"],
+      "reveal": null,
+      "hints": {
+        "In the senate house": "In Catilinam I was in the senate — II addresses the 'Quirites' (citizens), so it is a public assembly",
+        "In a private meeting": "'Quirites' indicates a public audience of Roman citizens, not a private gathering",
+        "In a law court": "The vocative 'Quirites' is used in political assemblies (contiones), not courts"
+      }
+    },
+    {
+      "prompt": "What is the tone of 'Tandem aliquando'?",
+      "target": "Triumphant relief — 'at long last!'",
+      "choices": ["Casual observation", "Triumphant relief — 'at long last!'", "Sorrowful regret", "Anxious uncertainty"],
+      "reveal": null,
+      "hints": {
+        "Casual observation": "The doubling of 'tandem' and 'aliquando' (both meaning 'at last') conveys intense emotion, not casualness",
+        "Sorrowful regret": "Cicero celebrates Catiline's departure — 'eiecimus' (we expelled) is triumphant",
+        "Anxious uncertainty": "The perfect tense 'eiecimus' treats the expulsion as accomplished fact — Cicero projects confidence"
+      }
+    }
+  ],
+  "translation": "At long last, Citizens, we have expelled Catiline from the city."
+}

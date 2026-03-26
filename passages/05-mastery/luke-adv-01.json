@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-01",
+  "source": "Vulgate",
+  "reference": "Lucas 3:21",
+  "latin": ["Factum", "est", "autem", "cum", "baptizaretur", "omnis", "populus"],
+  "steps": [
+    {
+      "prompt": "What is the construction 'Factum est'?",
+      "target": "impersonal 'it happened' (narrative formula)",
+      "choices": ["impersonal 'it happened' (narrative formula)", "perfect passive 'it was made'", "result clause", "passive periphrastic"],
+      "reveal": "Factum est = it happened (Hebraism in the Vulgate)",
+      "hints": {
+        "perfect passive 'it was made'": "'Factum est' can mean 'was made,' but here it is the narrative formula 'it came to pass'",
+        "result clause": "Result clauses use 'ut' — this is an impersonal construction meaning 'it happened'",
+        "passive periphrastic": "Passive periphrastic uses the gerundive — 'factum' here is a perfect participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Factum est' translates to?",
+      "target": "to make / to do (here: to happen)",
+      "choices": ["to make / to do (here: to happen)", "to be", "to carry", "to say"],
+      "reveal": null,
+      "hints": {
+        "to be": "'To be' is 'esse' — 'factum est' comes from 'facere/fieri' (to make/become)",
+        "to carry": "'To carry' is 'ferre' — 'factum est' comes from 'facere'",
+        "to say": "'To say' is 'dicere' — 'factum est' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Factum est' here?",
+      "target": "perfect indicative (of 'fieri')",
+      "choices": ["perfect indicative (of 'fieri')", "present indicative", "pluperfect indicative", "imperfect indicative"],
+      "reveal": "Factum est = it happened",
+      "hints": {
+        "present indicative": "Present of 'fieri' would be 'fit' — 'factum est' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'factum erat' — 'est' makes this perfect",
+        "imperfect indicative": "Imperfect would be 'fiebat' — 'factum est' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Factum est'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fio, fieri, factus sum", "fallo, fallere, fefelli, falsum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum": "'Fieri' serves as the passive of 'facere' — both share the 4th principal part 'factum'",
+        "fallo, fallere, fefelli, falsum": "These are the parts of 'fallere' (to deceive)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "What does 'autem' mean?",
+      "target": "moreover / now / and",
+      "choices": ["moreover / now / and", "but", "therefore", "although"],
+      "reveal": "autem = moreover / now (mild transition, postpositive)",
+      "hints": {
+        "but": "'Autem' can mean 'but' in some contexts, but here in narrative it is a mild connective 'now'",
+        "therefore": "'Therefore' is 'igitur' or 'ergo' — 'autem' is transitional, not inferential",
+        "although": "'Although' is 'quamquam' or 'etsi' — 'autem' is a mild connective"
+      }
+    },
+    {
+      "prompt": "What does 'cum' introduce here?",
+      "target": "temporal/circumstantial clause (cum + subjunctive)",
+      "choices": ["temporal/circumstantial clause (cum + subjunctive)", "causal clause", "concessive clause", "preposition 'with'"],
+      "reveal": "cum + subjunctive = when (temporal-circumstantial)",
+      "hints": {
+        "causal clause": "'Cum' + subjunctive can be causal, but here it sets the temporal scene: 'when all the people were being baptized'",
+        "concessive clause": "'Cum' + subjunctive can be concessive ('although'), but context is temporal here",
+        "preposition 'with'": "'Cum' as preposition takes ablative — here it introduces a clause with a subjunctive verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'baptizaretur' translates to?",
+      "target": "to baptize",
+      "choices": ["to baptize", "to wash", "to immerse (secular)", "to purify"],
+      "reveal": null,
+      "hints": {
+        "to wash": "'To wash' is 'lavare' — 'baptizare' is a Greek loanword specifically meaning to baptize",
+        "to immerse (secular)": "While Greek 'baptizein' means immerse, in Vulgate Latin 'baptizare' is the sacramental term",
+        "to purify": "'To purify' is 'purificare' — 'baptizare' is specifically baptism"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'baptizaretur'?",
+      "target": "imperfect passive subjunctive",
+      "choices": ["imperfect passive subjunctive", "present passive subjunctive", "pluperfect passive subjunctive", "imperfect passive indicative"],
+      "reveal": "baptizaretur = was being baptized (impf. pass. subjv.)",
+      "hints": {
+        "present passive subjunctive": "Present passive subjunctive would be 'baptizetur' — 'baptizaretur' has the -re- of imperfect",
+        "pluperfect passive subjunctive": "Pluperfect passive subjunctive would be 'baptizatus esset' — 'baptizaretur' is imperfect",
+        "imperfect passive indicative": "Imperfect passive indicative would be 'baptizabatur' — '-retur' marks the subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'baptizaretur'?",
+      "target": "baptizo, baptizare, baptizavi, baptizatum",
+      "choices": ["baptizo, baptizare, baptizavi, baptizatum", "lavo, lavare, lavi, lautum", "mergo, mergere, mersi, mersum", "purgo, purgare, purgavi, purgatum"],
+      "reveal": null,
+      "hints": {
+        "lavo, lavare, lavi, lautum": "These are the parts of 'lavare' (to wash)",
+        "mergo, mergere, mersi, mersum": "These are the parts of 'mergere' (to plunge/immerse)",
+        "purgo, purgare, purgavi, purgatum": "These are the parts of 'purgare' (to cleanse)"
+      }
+    },
+    {
+      "prompt": "What case is 'omnis populus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "omnis populus = all the people (nom., subject of 'baptizaretur')",
+      "hints": {
+        "accusative": "Accusative would be 'omnem populum' — 'omnis populus' is nominative",
+        "genitive": "Genitive would be 'omnis populi' — 'populus' with -us is nominative",
+        "ablative": "Ablative would be 'omni populo' — 'populus' is nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'populus, populi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'populi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'populi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'populi' ends in -i"
+      }
+    },
+    {
+      "prompt": "Why is 'Factum est...cum' a characteristic Vulgate construction?",
+      "target": "it translates the Hebrew narrative formula 'wayhi...ke-' (and it happened when)",
+      "choices": ["it translates the Hebrew narrative formula 'wayhi...ke-' (and it happened when)", "it is standard classical Latin prose style", "it imitates Greek aorist usage", "it is a medieval Latin innovation"],
+      "reveal": null,
+      "hints": {
+        "it is standard classical Latin prose style": "Classical Latin rarely uses 'factum est' as a narrative formula — this reflects Semitic influence",
+        "it imitates Greek aorist usage": "While the Vulgate translates from Greek, 'factum est' reflects the underlying Hebrew 'wayhi'",
+        "it is a medieval Latin innovation": "This construction appears in Jerome's 4th-century translation, predating medieval Latin"
+      }
+    }
+  ],
+  "translation": "Now it happened when all the people were being baptized"
+}

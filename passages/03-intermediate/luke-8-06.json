@@ -1,0 +1,108 @@
+{
+  "id": "luke-8-06",
+  "source": "Vulgate",
+  "reference": "Lucas 8:52",
+  "latin": ["Nolite", "flere", "non", "est", "mortua", "sed", "dormit"],
+  "steps": [
+    {
+      "prompt": "Which word forms an imperative prohibition with 'flere'?",
+      "target": "Nolite",
+      "choices": ["Nolite", "non", "sed", "dormit"],
+      "reveal": null,
+      "hints": {
+        "non": "'Non' is a simple negative — 'Nolite' + infinitive forms the standard Latin prohibition",
+        "sed": "'Sed' is a conjunction meaning 'but'",
+        "dormit": "'Dormit' is a verb meaning 'she sleeps'"
+      }
+    },
+    {
+      "prompt": "The infinitive 'flere' translates to?",
+      "target": "to weep",
+      "choices": ["to weep", "to flee", "to blow", "to flower"],
+      "reveal": null,
+      "hints": {
+        "to flee": "That would be 'fugere' — 'flere' means 'to weep'",
+        "to blow": "That would be 'flare' — 'flere' means 'to weep'",
+        "to flower": "That would be 'florere' — 'flere' means 'to weep'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Nolite'?",
+      "target": "present imperative (plural)",
+      "choices": ["present indicative", "present imperative (plural)", "present subjunctive", "perfect indicative"],
+      "reveal": "Nolite flere = Do not weep!",
+      "hints": {
+        "present indicative": "Present indicative would be a statement — 'Nolite' is a command (imperative plural)",
+        "present subjunctive": "Subjunctive would be 'nolitis' — 'Nolite' is imperative plural of 'nolle'",
+        "perfect indicative": "Perfect would be 'noluistis' — 'Nolite' is present imperative plural"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "volo, velle, volui, —", "malo, malle, malui, —", "tollo, tollere, sustuli, sublatum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the parts of 'velle' (to wish) — 'nolle' is its negative compound",
+        "malo, malle, malui, —": "These are the parts of 'malle' (to prefer) — another compound of 'velle'",
+        "tollo, tollere, sustuli, sublatum": "These are the parts of 'tollere' (to lift/remove)"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'mortua'?",
+      "target": "perfect participle (used as predicate)",
+      "choices": ["present participle", "perfect participle (used as predicate)", "future participle", "gerundive"],
+      "reveal": "mortua = dead / having died",
+      "hints": {
+        "present participle": "Present participle would be 'moriens' — 'mortua' is the perfect participle",
+        "future participle": "Future participle would be 'moritura' — 'mortua' is perfect",
+        "gerundive": "The gerundive would be 'morienda' — 'mortua' is the perfect participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dormit' translates to?",
+      "target": "to sleep",
+      "choices": ["to sleep", "to die", "to rest", "to dream"],
+      "reveal": null,
+      "hints": {
+        "to die": "That would be 'mori' — 'dormit' comes from 'dormire' (to sleep)",
+        "to rest": "That would be 'requiescere' — 'dormit' comes from 'dormire' (to sleep)",
+        "to dream": "That would be 'somniare' — 'dormit' comes from 'dormire' (to sleep)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'dormit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "dormit = she sleeps",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'dormiat' — 'dormit' is present indicative",
+        "perfect indicative": "Perfect would be 'dormivit' — 'dormit' is present indicative",
+        "imperfect indicative": "Imperfect would be 'dormiebat' — 'dormit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dormit'?",
+      "target": "dormio, dormire, dormivi, dormitum",
+      "choices": ["dormio, dormire, dormivi, dormitum", "morior, mori, mortuus sum, —", "audio, audire, audivi, auditum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "morior, mori, mortuus sum, —": "These are the parts of 'morior' (to die)",
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear)",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What is the function of 'sed' in this sentence?",
+      "target": "adversative conjunction (but)",
+      "choices": ["adversative conjunction (but)", "causal conjunction (because)", "temporal conjunction (when)", "conditional conjunction (if)"],
+      "reveal": null,
+      "hints": {
+        "causal conjunction (because)": "'Because' would be 'quia' or 'quod' — 'sed' means 'but'",
+        "temporal conjunction (when)": "'When' would be 'cum' or 'quando' — 'sed' means 'but'",
+        "conditional conjunction (if)": "'If' would be 'si' — 'sed' means 'but'"
+      }
+    }
+  ],
+  "translation": "Do not weep; she is not dead but sleeps"
+}

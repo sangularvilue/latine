@@ -1,0 +1,108 @@
+{
+  "id": "luke-11-25",
+  "source": "Vulgate",
+  "reference": "Lucas 11:28",
+  "latin": ["Beati", "qui", "audiunt", "verbum", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "qui",
+      "choices": ["Beati", "qui", "verbum", "Dei"],
+      "reveal": null,
+      "hints": {
+        "Beati": "'Beati' is an adjective meaning 'blessed'",
+        "verbum": "'Verbum' is a noun meaning 'word'",
+        "Dei": "'Dei' is a noun meaning 'of God'"
+      }
+    },
+    {
+      "prompt": "What case is 'qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "qui = who (nom. masc. pl., subject of 'audiunt')",
+      "hints": {
+        "ablative": "Ablative plural would be 'quibus' — 'qui' is nominative plural",
+        "dative": "Dative plural would be 'quibus' — 'qui' is nominative",
+        "accusative": "Accusative plural would be 'quos' — 'qui' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'audiunt' translates to?",
+      "target": "to hear",
+      "choices": ["to hear", "to dare", "to increase", "to help"],
+      "reveal": null,
+      "hints": {
+        "to dare": "That would be 'audere' — 'audiunt' comes from 'audire' (to hear)",
+        "to increase": "That would be 'augere' — 'audiunt' comes from 'audire' (to hear)",
+        "to help": "That would be 'adiuvare' — 'audiunt' comes from 'audire' (to hear)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'audiunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "audiunt = they hear",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'audiant' — 'audiunt' is present indicative",
+        "perfect indicative": "Perfect would be 'audierunt/audiverunt' — 'audiunt' is present indicative",
+        "imperfect indicative": "Imperfect would be 'audiebant' — 'audiunt' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'audiunt'?",
+      "target": "audio, audire, audivi, auditum",
+      "choices": ["audio, audire, audivi, auditum", "audeo, audere, ausus sum, —", "haurio, haurire, hausi, haustum", "sentio, sentire, sensi, sensum"],
+      "reveal": null,
+      "hints": {
+        "audeo, audere, ausus sum, —": "These are the parts of 'audere' (to dare)",
+        "haurio, haurire, hausi, haustum": "These are the parts of 'haurire' (to draw/drain)",
+        "sentio, sentire, sensi, sensum": "These are the parts of 'sentire' (to feel/perceive)"
+      }
+    },
+    {
+      "prompt": "What case is 'verbum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "verbum = the word (acc., direct object of 'audiunt')",
+      "hints": {
+        "nominative": "While 'verbum' looks identical in nominative, here it is object of 'audiunt'",
+        "ablative": "Ablative would be 'verbo' — 'verbum' is accusative",
+        "genitive": "Genitive would be 'verbi' — 'verbum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'verbum, verbi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'verbi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'verbi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'verbi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Dei = of God (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Dei' is genitive singular",
+        "dative": "Dative would be 'Deo' — 'Dei' is genitive, modifying 'verbum'",
+        "ablative": "Ablative would be 'Deo' — 'Dei' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'Beati'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Beati = blessed (nom. masc. pl.)",
+      "hints": {
+        "genitive": "Genitive singular would be 'beati', but with plural 'qui audiunt' it is nom. pl.",
+        "dative": "Dative would be 'beatis' — 'Beati' is nominative plural",
+        "vocative": "Vocative plural could be 'beati', but this is a declaration, not address"
+      }
+    }
+  ],
+  "translation": "Blessed are those who hear the word of God"
+}

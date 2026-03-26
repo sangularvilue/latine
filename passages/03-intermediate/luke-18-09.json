@@ -1,0 +1,119 @@
+{
+  "id": "luke-18-09",
+  "source": "Vulgate",
+  "reference": "Lucas 18:8",
+  "latin": ["Filius", "hominis", "veniens", "putas", "inveniet", "fidem", "in", "terra"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb of the question?",
+      "target": "inveniet",
+      "choices": ["inveniet", "veniens", "putas", "Filius"],
+      "reveal": null,
+      "hints": {
+        "veniens": "'Veniens' is a present active participle meaning 'coming'",
+        "putas": "'Putas' is a parenthetical verb meaning 'do you think' — the main question verb is 'inveniet'",
+        "Filius": "'Filius' is a noun meaning 'Son' — part of the subject"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'veniens'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": "veniens = coming (pres. act. ptcp.)",
+      "hints": {
+        "perfect passive participle": "A perfect passive participle would end in -tus — 'veniens' ends in -ens",
+        "future active participle": "A future active participle would be 'venturus' — 'veniens' is present",
+        "gerundive": "A gerundive would be 'veniendus' — 'veniens' is a present participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'inveniet' translates to?",
+      "target": "to find",
+      "choices": ["to find", "to come", "to invent", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to come": "'To come' is 'venire' — 'inveniet' comes from 'invenire' (to find)",
+        "to invent": "While English 'invent' derives from this, 'invenire' primarily means 'to find'",
+        "to conquer": "'To conquer' is 'vincere' — 'invenire' means 'to find'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'inveniet'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "inveniet = will he find",
+      "hints": {
+        "present indicative": "Present would be 'invenit' — 'inveniet' has the future -ie- formation",
+        "present subjunctive": "Present subjunctive would be 'inveniat' — 'inveniet' is future indicative",
+        "perfect indicative": "Perfect would be 'invenit' (long e) — 'inveniet' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'inveniet'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "vinco, vincere, vici, victum", "invito, invitare, invitavi, invitatum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — the base verb",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "invito, invitare, invitavi, invitatum": "These are the parts of 'invitare' (to invite)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'putas'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "putas = do you think? (parenthetical)",
+      "hints": {
+        "perfect indicative": "Perfect would be 'putavisti' — 'putas' is present",
+        "present subjunctive": "Present subjunctive would be 'putes' — 'putas' is indicative",
+        "future indicative": "Future would be 'putabis' — 'putas' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'putas'?",
+      "target": "puto, putare, putavi, putatum",
+      "choices": ["puto, putare, putavi, putatum", "pugno, pugnare, pugnavi, pugnatum", "punio, punire, punivi, punitum", "posco, poscere, poposci, —"],
+      "reveal": null,
+      "hints": {
+        "pugno, pugnare, pugnavi, pugnatum": "These are the parts of 'pugnare' (to fight)",
+        "punio, punire, punivi, punitum": "These are the parts of 'punire' (to punish)",
+        "posco, poscere, poposci, —": "These are the parts of 'poscere' (to demand)"
+      }
+    },
+    {
+      "prompt": "What case is 'fidem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "fidem = faith (acc., direct object of 'inveniet')",
+      "hints": {
+        "nominative": "Nominative would be 'fides' — 'fidem' with -em is accusative",
+        "ablative": "Ablative would be 'fide' — 'fidem' is accusative",
+        "genitive": "Genitive would be 'fidei' — 'fidem' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'terra'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "terra = earth (abl., after 'in')",
+      "hints": {
+        "nominative": "'Terra' could be nominative, but after 'in' (place where) it is ablative",
+        "accusative": "Accusative would be 'terram' — 'terra' after 'in' is ablative",
+        "vocative": "'Terra' is not being addressed — it is ablative after 'in'"
+      }
+    },
+    {
+      "prompt": "What case is 'hominis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "hominis = of man (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'homo' — 'hominis' with -is is genitive",
+        "dative": "Dative would be 'homini' — 'hominis' is genitive",
+        "ablative": "Ablative would be 'homine' — 'hominis' is genitive"
+      }
+    }
+  ],
+  "translation": "When the Son of Man comes, do you think he will find faith on earth?"
+}

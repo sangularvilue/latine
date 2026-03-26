@@ -1,0 +1,97 @@
+{
+  "id": "luke-18-02",
+  "source": "Vulgate",
+  "reference": "Lucas 18:14",
+  "latin": ["Omnis", "qui", "se", "exaltat", "humiliabitur"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb of the relative clause?",
+      "target": "exaltat",
+      "choices": ["exaltat", "humiliabitur", "Omnis", "se"],
+      "reveal": null,
+      "hints": {
+        "humiliabitur": "'Humiliabitur' is the main clause verb, not the relative clause verb",
+        "Omnis": "'Omnis' is a pronoun/adjective meaning 'everyone/each'",
+        "se": "'Se' is the reflexive pronoun 'himself'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'exaltat' translates to?",
+      "target": "to exalt / to raise up",
+      "choices": ["to exalt / to raise up", "to examine", "to leap out", "to exact"],
+      "reveal": null,
+      "hints": {
+        "to examine": "'To examine' is 'examinare' — 'exaltat' comes from 'exaltare'",
+        "to leap out": "'To leap out' is 'exsilire' — 'exaltare' means 'to raise up'",
+        "to exact": "'To exact' is 'exigere' — 'exaltare' means 'to exalt'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'exaltat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "exaltat = exalts",
+      "hints": {
+        "perfect indicative": "Perfect would be 'exaltavit' — 'exaltat' is present",
+        "present subjunctive": "Present subjunctive would be 'exaltet' — 'exaltat' ends in -at (1st conj. indicative)",
+        "imperfect indicative": "Imperfect would be 'exaltabat' — 'exaltat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'exaltat'?",
+      "target": "exalto, exaltare, exaltavi, exaltatum",
+      "choices": ["exalto, exaltare, exaltavi, exaltatum", "exeo, exire, exii, exitum", "tollo, tollere, sustuli, sublatum", "alo, alere, alui, altum"],
+      "reveal": null,
+      "hints": {
+        "exeo, exire, exii, exitum": "These are the parts of 'exire' (to go out)",
+        "tollo, tollere, sustuli, sublatum": "These are the parts of 'tollere' (to lift) — a classical synonym",
+        "alo, alere, alui, altum": "These are the parts of 'alere' (to nourish) — 'altum' looks similar but different verb"
+      }
+    },
+    {
+      "prompt": "What tense, mood, and voice is 'humiliabitur'?",
+      "target": "future passive indicative",
+      "choices": ["future passive indicative", "present passive indicative", "future active indicative", "perfect passive indicative"],
+      "reveal": "humiliabitur = will be humbled",
+      "hints": {
+        "present passive indicative": "Present passive would be 'humiliatur' — 'humiliabitur' has the future -bi-",
+        "future active indicative": "Future active would be 'humiliabit' — the -tur ending marks passive",
+        "perfect passive indicative": "Perfect passive would be 'humiliatus est' — 'humiliabitur' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'humiliabitur'?",
+      "target": "humilio, humiliare, humiliavi, humiliatum",
+      "choices": ["humilio, humiliare, humiliavi, humiliatum", "humo, humare, humavi, humatum", "humeo, humere, —, —", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "humo, humare, humavi, humatum": "These are the parts of 'humare' (to bury)",
+        "humeo, humere, —, —": "These are the parts of 'humere' (to be moist)",
+        "habeo, habere, habui, habitum": "These are the parts of 'habere' (to have)"
+      }
+    },
+    {
+      "prompt": "What case is 'se'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "se = himself (acc., reflexive)",
+      "hints": {
+        "nominative": "The reflexive pronoun has no nominative — 'se' is accusative",
+        "ablative": "'Se' can be ablative, but as direct object of 'exaltat' it is accusative",
+        "dative": "Dative reflexive would be 'sibi' — 'se' is accusative"
+      }
+    },
+    {
+      "prompt": "What is the theological structure of this saying?",
+      "target": "divine passive: God is the implied agent who will humble",
+      "choices": ["divine passive: God is the implied agent who will humble", "the subject humbles himself", "other people will humble him", "nature will humble him"],
+      "reveal": null,
+      "hints": {
+        "the subject humbles himself": "The passive 'humiliabitur' indicates someone else acts — the divine passive implies God",
+        "other people will humble him": "While possible, the 'divine passive' (passivum divinum) is a common biblical construction implying God acts",
+        "nature will humble him": "The passive here is theological — it implies divine action, not natural process"
+      }
+    }
+  ],
+  "translation": "Everyone who exalts himself will be humbled"
+}

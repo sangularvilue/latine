@@ -1,0 +1,130 @@
+{
+  "id": "luke-23-03",
+  "source": "Vulgate",
+  "reference": "Lucas 23:46",
+  "latin": ["Pater", "in", "manus", "tuas", "commendo", "spiritum", "meum"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "commendo",
+      "choices": ["commendo", "Pater", "manus", "spiritum"],
+      "reveal": null,
+      "hints": {
+        "Pater": "'Pater' is a noun in the vocative — direct address to the Father",
+        "manus": "'Manus' is a noun meaning 'hands'",
+        "spiritum": "'Spiritum' is a noun meaning 'spirit' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'commendo' translates to?",
+      "target": "to entrust / to commend",
+      "choices": ["to entrust / to commend", "to command", "to begin", "to praise"],
+      "reveal": null,
+      "hints": {
+        "to command": "'To command' is 'imperare/iubere' — 'commendo' comes from 'commendare' (to entrust)",
+        "to begin": "'To begin' is 'incipere' — 'commendo' comes from 'commendare'",
+        "to praise": "'To praise' is 'laudare/commendare' can mean 'to praise', but here the primary sense is 'to entrust'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'commendo'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "future indicative", "perfect indicative"],
+      "reveal": "commendo = I entrust / I commend (1st sing. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'commendem' — 'commendo' is indicative",
+        "future indicative": "Future would be 'commendabo' — 'commendo' is present",
+        "perfect indicative": "Perfect would be 'commendavi' — 'commendo' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'commendo'?",
+      "target": "commendo, commendare, commendavi, commendatum",
+      "choices": ["commendo, commendare, commendavi, commendatum", "committo, committere, commisi, commissum", "comparo, comparare, comparavi, comparatum", "mando, mandare, mandavi, mandatum"],
+      "reveal": null,
+      "hints": {
+        "committo, committere, commisi, commissum": "These are the parts of 'committo' (to join/entrust battle)",
+        "comparo, comparare, comparavi, comparatum": "These are the parts of 'comparo' (to prepare/compare)",
+        "mando, mandare, mandavi, mandatum": "These are the parts of 'mando' (to command/entrust) — 'commendare' is com- + mandare"
+      }
+    },
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "genitive", "accusative"],
+      "reveal": "Pater = Father! (voc., direct address)",
+      "hints": {
+        "nominative": "Nominative 'Pater' looks the same, but context shows direct address",
+        "genitive": "Genitive would be 'Patris' — 'Pater' is vocative here",
+        "accusative": "Accusative would be 'Patrem' — 'Pater' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'manus'?",
+      "target": "accusative plural",
+      "choices": ["accusative plural", "nominative singular", "genitive singular", "nominative plural"],
+      "reveal": "in manus tuas = into your hands (acc. pl.)",
+      "hints": {
+        "nominative singular": "'Manus' nom. sing. looks the same, but 'in' + accusative = motion into",
+        "genitive singular": "Genitive singular 'manus' also looks the same (4th decl.), but 'in' governs acc. here",
+        "nominative plural": "Nominative plural 'manus' looks the same, but this is acc. pl. after 'in' (motion)"
+      }
+    },
+    {
+      "prompt": "What declension is 'manus, manus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'manus' has genitive in -us",
+        "2nd declension": "2nd declension has genitive in -i — 'manus' has genitive in -us",
+        "3rd declension": "3rd declension has genitive in -is — 'manus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "Why is 'manus' accusative after 'in' (not ablative)?",
+      "target": "'in' + accusative expresses motion toward — the spirit is being placed into the hands",
+      "choices": ["'in' + accusative expresses motion toward — the spirit is being placed into the hands", "'in' always takes accusative", "'manus' is actually ablative here", "it is a scribal error"],
+      "reveal": null,
+      "hints": {
+        "'in' always takes accusative": "'In' takes ablative for location, accusative for motion — here motion is intended",
+        "'manus' is actually ablative here": "Ablative plural of 'manus' (4th decl.) would be 'manibus' — 'manus' is acc. pl.",
+        "it is a scribal error": "This is correct Vulgate Latin — 'in manus tuas' with accusative expressing motion"
+      }
+    },
+    {
+      "prompt": "What case is 'spiritum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "genitive", "ablative"],
+      "reveal": "spiritum = spirit (acc., direct object of 'commendo')",
+      "hints": {
+        "nominative": "Nominative would be 'spiritus' — 'spiritum' with -um is accusative",
+        "genitive": "Genitive would be 'spiritus' — 'spiritum' ends in -um (accusative)",
+        "ablative": "Ablative would be 'spiritu' — 'spiritum' ends in -um (accusative)"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'spiritus' has genitive in -us",
+        "2nd declension": "2nd declension has genitive in -i — 'spiritus' has genitive in -us (4th decl.)",
+        "3rd declension": "3rd declension has genitive in -is — 'spiritus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'meum'?",
+      "target": "accusative masculine singular",
+      "choices": ["accusative masculine singular", "nominative neuter singular", "genitive plural", "ablative masculine singular"],
+      "reveal": "meum = my (acc. masc., agreeing with 'spiritum')",
+      "hints": {
+        "nominative neuter singular": "'Meum' as nom. neut. is possible, but here it agrees with 'spiritum' (acc. masc.)",
+        "genitive plural": "Genitive plural would be 'meorum' — 'meum' is acc. masc. sing.",
+        "ablative masculine singular": "Ablative masculine would be 'meo' — 'meum' ends in -um (accusative)"
+      }
+    }
+  ],
+  "translation": "Father, into your hands I commend my spirit"
+}

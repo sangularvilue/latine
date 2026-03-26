@@ -1,0 +1,108 @@
+{
+  "id": "luke-17-05",
+  "source": "Vulgate",
+  "reference": "Lucas 17:10",
+  "latin": ["Servi", "inutiles", "sumus", "quod", "debuimus", "facere", "fecimus"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause finite verb?",
+      "target": "sumus",
+      "choices": ["sumus", "debuimus", "fecimus", "facere"],
+      "reveal": null,
+      "hints": {
+        "debuimus": "'Debuimus' is a finite verb but belongs to the 'quod' clause, not the main clause",
+        "fecimus": "'Fecimus' is a finite verb but belongs to the 'quod' clause",
+        "facere": "'Facere' is an infinitive meaning 'to do'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sumus' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to take", "to follow", "to sow"],
+      "reveal": null,
+      "hints": {
+        "to take": "'To take' is 'sumere' — 'sumus' is from 'esse' (to be)",
+        "to follow": "'To follow' is 'sequi' — 'sumus' is from 'esse'",
+        "to sow": "'To sow' is 'serere' — 'sumus' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sumus'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "sumus = we are",
+      "hints": {
+        "perfect indicative": "Perfect would be 'fuimus' — 'sumus' is present",
+        "present subjunctive": "Present subjunctive would be 'simus' — 'sumus' is indicative",
+        "imperfect indicative": "Imperfect would be 'eramus' — 'sumus' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sumus'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sumo, sumere, sumpsi, sumptum", "sero, serere, sevi, satum", "sequor, sequi, secutus sum, —"],
+      "reveal": null,
+      "hints": {
+        "sumo, sumere, sumpsi, sumptum": "These are the parts of 'sumere' (to take)",
+        "sero, serere, sevi, satum": "These are the parts of 'serere' (to sow)",
+        "sequor, sequi, secutus sum, —": "These are the parts of 'sequi' (to follow)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'debuimus' translates to?",
+      "target": "to owe / to ought",
+      "choices": ["to owe / to ought", "to doubt", "to weaken", "to fight"],
+      "reveal": null,
+      "hints": {
+        "to doubt": "'To doubt' is 'dubitare' — 'debuimus' comes from 'debere' (to owe)",
+        "to weaken": "'To weaken' is 'debilitare' — 'debere' means 'to owe/ought'",
+        "to fight": "'To fight' is 'pugnare' — 'debere' means 'to owe'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'debuimus'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "debuimus = we owed / we were obliged",
+      "hints": {
+        "present indicative": "Present would be 'debemus' — 'debuimus' has the perfect stem 'debu-'",
+        "imperfect indicative": "Imperfect would be 'debebamus' — 'debuimus' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'debueramus' — 'debuimus' is simple perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'debuimus'?",
+      "target": "debeo, debere, debui, debitum",
+      "choices": ["debeo, debere, debui, debitum", "dubito, dubitare, dubitavi, dubitatum", "debilito, debilitare, debilitavi, debilitatum", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "dubito, dubitare, dubitavi, dubitatum": "These are the parts of 'dubitare' (to doubt)",
+        "debilito, debilitare, debilitavi, debilitatum": "These are the parts of 'debilitare' (to weaken)",
+        "habeo, habere, habui, habitum": "These are the parts of 'habere' (to have) — similar conjugation pattern"
+      }
+    },
+    {
+      "prompt": "What case is 'Servi'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "dative"],
+      "reveal": "Servi = servants (nom. pl., predicate nominative)",
+      "hints": {
+        "genitive": "Genitive singular is also 'servi' — but here it is nominative plural (predicate with 'sumus')",
+        "vocative": "Vocative plural would also be 'servi' — but here it is a predicate nominative, not an address",
+        "dative": "Dative would be 'servis' — 'servi' is nominative plural"
+      }
+    },
+    {
+      "prompt": "What case is 'inutiles'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "inutiles = useless/unprofitable (nom. pl., modifying 'servi')",
+      "hints": {
+        "accusative": "'Inutiles' could be accusative plural, but here it modifies 'servi' as predicate — nominative",
+        "ablative": "Ablative plural would be 'inutilibus' — 'inutiles' is nominative/accusative",
+        "vocative": "Vocative could look the same, but 'servi inutiles sumus' is a statement, not an address"
+      }
+    }
+  ],
+  "translation": "We are unprofitable servants; what we were obliged to do, we have done"
+}

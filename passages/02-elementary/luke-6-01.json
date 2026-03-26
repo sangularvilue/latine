@@ -1,0 +1,53 @@
+{
+  "id": "luke-6-01",
+  "source": "Vulgate",
+  "reference": "Lucas 6:20",
+  "latin": ["Beati", "pauperes"],
+  "steps": [
+    {
+      "prompt": "This phrase has no finite verb. What verb is implied?",
+      "target": "sunt (are)",
+      "choices": ["sunt (are)", "est (is)", "erunt (will be)", "erant (were)"],
+      "reveal": null,
+      "hints": {
+        "est (is)": "'est' is singular, but 'beati' and 'pauperes' are plural — 'sunt' is needed",
+        "erunt (will be)": "The implied verb is present tense 'sunt', not future 'erunt'",
+        "erant (were)": "The implied verb is present tense 'sunt', not imperfect 'erant'"
+      }
+    },
+    {
+      "prompt": "What case is 'Beati'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "dative"],
+      "reveal": { "word": "Beati", "gloss": "blessed / happy" },
+      "hints": {
+        "genitive": "Genitive singular would be 'beati' (same form), but here it is nominative plural",
+        "vocative": "Vocative plural would also be 'beati', but this is a declarative statement",
+        "dative": "Dative singular would be 'beato' — 'beati' is nominative plural"
+      }
+    },
+    {
+      "prompt": "What case is 'pauperes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": { "word": "pauperes", "gloss": "the poor" },
+      "hints": {
+        "accusative": "Accusative plural is also 'pauperes' (same form), but here it is the subject",
+        "vocative": "Vocative plural would also be 'pauperes', but this is a declaration, not an address",
+        "ablative": "Ablative plural would be 'pauperibus' — 'pauperes' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'pauper, pauperis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'pauperis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'pauperis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'pauperis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Blessed are the poor"
+}

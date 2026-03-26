@@ -1,0 +1,97 @@
+{
+  "id": "luke-15-01",
+  "source": "Vulgate",
+  "reference": "Lucas 15:8",
+  "latin": ["Quae", "mulier", "habens", "drachmas", "decem"],
+  "steps": [
+    {
+      "prompt": "Which word is the participle?",
+      "target": "habens",
+      "choices": ["habens", "mulier", "Quae", "drachmas"],
+      "reveal": null,
+      "hints": {
+        "mulier": "'Mulier' is a noun meaning 'woman'",
+        "Quae": "'Quae' is an interrogative/relative pronoun meaning 'what/which'",
+        "drachmas": "'Drachmas' is a noun meaning 'drachma coins' in the accusative"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'habens'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": "habens = having (pres. act. ptcp.)",
+      "hints": {
+        "perfect passive participle": "A perfect passive participle would end in -tus/-ta/-tum — 'habens' ends in -ens",
+        "future active participle": "A future active participle would end in -urus/-ura — 'habens' ends in -ens",
+        "gerundive": "A gerundive would end in -endus/-enda — 'habens' is a present participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habens' translates to?",
+      "target": "to have / to hold",
+      "choices": ["to have / to hold", "to dwell", "to wear", "to think"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "'To dwell' is 'habitare' — 'habens' comes from 'habere' (to have)",
+        "to wear": "'To wear' is 'gerere' or 'induere' — 'habere' means 'to have'",
+        "to think": "'To think' is 'cogitare' or 'putare' — 'habere' means 'to have'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habens'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "abeo, abire, abii, abitum", "teneo, tenere, tenui, tentum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell)",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away)",
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold) — a synonym"
+      }
+    },
+    {
+      "prompt": "What case is 'mulier'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "mulier = woman (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'mulierem' — 'mulier' is the nominative form",
+        "ablative": "Ablative would be 'muliere' — 'mulier' is nominative",
+        "vocative": "Vocative would also be 'mulier' but here she is the subject, not being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'mulier, mulieris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'mulieris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'mulieris' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'mulieris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'drachmas'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "drachmas = drachma coins (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'drachmae' — the -as ending is accusative plural (1st decl.)",
+        "ablative": "Ablative plural would be 'drachmis' — 'drachmas' with -as is accusative",
+        "genitive": "Genitive plural would be 'drachmarum' — 'drachmas' is accusative"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'decem'?",
+      "target": "indeclinable numeral",
+      "choices": ["indeclinable numeral", "1st/2nd declension adjective", "3rd declension adjective", "adverb"],
+      "reveal": "decem = ten",
+      "hints": {
+        "1st/2nd declension adjective": "'Decem' does not decline — it is an indeclinable cardinal number",
+        "3rd declension adjective": "3rd declension adjectives decline — 'decem' is invariable",
+        "adverb": "'Decem' modifies the noun 'drachmas' as a number, not as an adverb"
+      }
+    }
+  ],
+  "translation": "What woman having ten drachma coins"
+}

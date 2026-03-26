@@ -1,0 +1,108 @@
+{
+  "id": "luke-13-05",
+  "source": "Vulgate",
+  "reference": "Lucas 13:6",
+  "latin": ["Arborem", "fici", "habebat", "quidam", "plantatam", "in", "vinea", "sua"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "habebat",
+      "choices": ["habebat", "plantatam", "Arborem", "quidam"],
+      "reveal": null,
+      "hints": {
+        "plantatam": "'Plantatam' is a perfect passive participle, not a finite verb",
+        "Arborem": "'Arborem' is a noun meaning 'tree' in the accusative",
+        "quidam": "'Quidam' is an indefinite pronoun meaning 'a certain (man)'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habebat' translates to?",
+      "target": "to have / to hold",
+      "choices": ["to have / to hold", "to dwell", "to plant", "to consider"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "'To dwell' is 'habitare' — 'habebat' comes from 'habere'",
+        "to plant": "'To plant' is 'plantare' — that corresponds to 'plantatam'",
+        "to consider": "'To consider' is 'considerare' — 'habebat' means 'to have'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'habebat'?",
+      "target": "imperfect indicative",
+      "choices": ["imperfect indicative", "present indicative", "perfect indicative", "pluperfect indicative"],
+      "reveal": "habebat = he was having / he had",
+      "hints": {
+        "present indicative": "Present would be 'habet' — 'habebat' has the -ba- imperfect marker",
+        "perfect indicative": "Perfect would be 'habuit' — 'habebat' has the imperfect -ba-",
+        "pluperfect indicative": "Pluperfect would be 'habuerat' — 'habebat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habebat'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "abeo, abire, abii, abitum", "debeo, debere, debui, debitum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell) — a different verb",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away)",
+        "debeo, debere, debui, debitum": "These are the parts of 'debere' (to owe) — similar pattern but different verb"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'plantatam'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "future active participle", "gerundive"],
+      "reveal": "plantatam = (having been) planted (acc. fem. sg.)",
+      "hints": {
+        "present active participle": "A present active participle would end in -ans/-ens — 'plantatam' ends in -atam",
+        "future active participle": "A future active participle would end in -urus/-ura — 'plantatam' is -ata",
+        "gerundive": "A gerundive would end in -andus/-anda — 'plantatam' is a completed action"
+      }
+    },
+    {
+      "prompt": "What case is 'Arborem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Arborem = tree (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'arbor' — the -em ending marks accusative",
+        "ablative": "Ablative would be 'arbore' — 'Arborem' with -em is accusative",
+        "genitive": "Genitive would be 'arboris' — 'Arborem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'arbor, arboris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'arboris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'arboris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'arboris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'fici'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "fici = of a fig (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'ficus' — 'fici' with -i is genitive",
+        "dative": "Dative singular of 'ficus' (4th decl.) would be 'ficui' — 'fici' is genitive",
+        "ablative": "Ablative would be 'ficu' — 'fici' is genitive singular"
+      }
+    },
+    {
+      "prompt": "What case is 'vinea'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "vinea = vineyard (abl., after 'in')",
+      "hints": {
+        "nominative": "While 'vinea' looks nominative, it follows 'in' indicating location — ablative",
+        "accusative": "Accusative would be 'vineam' — 'vinea' after 'in' (place where) is ablative",
+        "vocative": "Vocative would look the same but no one is addressing a vineyard here"
+      }
+    }
+  ],
+  "translation": "A certain man had a fig tree planted in his vineyard"
+}

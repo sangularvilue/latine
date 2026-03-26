@@ -1,0 +1,141 @@
+{
+  "id": "luke-24-07",
+  "source": "Vulgate",
+  "reference": "Lucas 24:29",
+  "latin": ["Mane", "nobiscum", "quoniam", "advesperascit", "et", "inclinata", "est", "iam", "dies"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb of the first clause?",
+      "target": "Mane",
+      "choices": ["Mane", "advesperascit", "inclinata est", "dies"],
+      "reveal": null,
+      "hints": {
+        "advesperascit": "'Advesperascit' is a finite verb but belongs to the causal clause after 'quoniam'",
+        "inclinata est": "'Inclinata est' is a compound verb in the second causal clause",
+        "dies": "'Dies' is a noun meaning 'day'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Mane' translates to?",
+      "target": "to remain / to stay",
+      "choices": ["to remain / to stay", "to flow", "to warn", "to come early"],
+      "reveal": null,
+      "hints": {
+        "to flow": "'To flow' is 'manare' — 'Mane' comes from 'manere' (to remain)",
+        "to warn": "'To warn' is 'monere' — 'Mane' comes from 'manere' (to stay)",
+        "to come early": "'Mane' as a noun means 'morning', but as a verb form it is from 'manere' (to remain)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Mane'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "noun (morning)"],
+      "reveal": "Mane = Stay! Remain! (2nd sing. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd sing. would be 'manes' — 'Mane' is imperative",
+        "present subjunctive": "Present subjunctive 2nd sing. would be 'maneas' — 'Mane' is imperative",
+        "noun (morning)": "'Mane' can be a noun meaning 'morning', but here it is a verb form (imperative of 'manere')"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Mane' (from 'maneo')?",
+      "target": "maneo, manere, mansi, mansum",
+      "choices": ["maneo, manere, mansi, mansum", "mano, manare, manavi, manatum", "moneo, monere, monui, monitum", "mando, mandare, mandavi, mandatum"],
+      "reveal": null,
+      "hints": {
+        "mano, manare, manavi, manatum": "These are the parts of 'mano' (to flow/drip)",
+        "moneo, monere, monui, monitum": "These are the parts of 'moneo' (to warn/advise)",
+        "mando, mandare, mandavi, mandatum": "These are the parts of 'mando' (to command)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'advesperascit'?",
+      "target": "present indicative (impersonal)",
+      "choices": ["present indicative (impersonal)", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "advesperascit = it is growing toward evening (3rd sing. pres., impersonal)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'advesperascat' — 'advesperascit' is indicative",
+        "perfect indicative": "Perfect would be 'advesperascuit' — 'advesperascit' is present",
+        "future indicative": "Future would be 'advesperascet' — 'advesperascit' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'advesperascit'?",
+      "target": "advesperascit, advesperascere, advesperavit, —",
+      "choices": ["advesperascit, advesperascere, advesperavit, —", "vesper, vesperi, —, —", "vespero, vesperare, vesperavi, —", "aspicio, aspicere, aspexi, aspectum"],
+      "reveal": null,
+      "hints": {
+        "vesper, vesperi, —, —": "'Vesper' is a noun meaning 'evening' — 'advesperascit' is a verb (inchoative)",
+        "vespero, vesperare, vesperavi, —": "'Vesperare' is not standard — 'advesperascit' is the impersonal inchoative form",
+        "aspicio, aspicere, aspexi, aspectum": "These are the parts of 'aspicio' (to look at) — unrelated to evening"
+      }
+    },
+    {
+      "prompt": "What kind of verb is 'advesperascit' (note the -sc- infix)?",
+      "target": "inchoative/inceptive verb (denoting the beginning of an action)",
+      "choices": ["inchoative/inceptive verb (denoting the beginning of an action)", "frequentative verb", "desiderative verb", "causative verb"],
+      "reveal": "The -sc- infix marks an inchoative: 'it is beginning to become evening'",
+      "hints": {
+        "frequentative verb": "Frequentative verbs show repeated action (e.g., -itare) — -sc- marks inception",
+        "desiderative verb": "Desiderative verbs show desire (e.g., -urire) — -sc- marks beginning of action",
+        "causative verb": "Causative verbs cause an action — -sc- marks the onset/beginning of a state"
+      }
+    },
+    {
+      "prompt": "What words form the compound verb in the second clause?",
+      "target": "inclinata est (has declined / has waned)",
+      "choices": ["inclinata est (has declined / has waned)", "inclinata only", "est only", "iam dies"],
+      "reveal": "inclinata est dies = the day has declined",
+      "hints": {
+        "inclinata only": "'Inclinata' alone is a participle — with 'est' it forms the perfect passive",
+        "est only": "'Est' alone is the auxiliary — 'inclinata est' together is the perfect passive",
+        "iam dies": "'Iam' is an adverb (already) and 'dies' is the subject — neither is a verb"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'inclinata est' (from 'inclino')?",
+      "target": "inclino, inclinare, inclinavi, inclinatum",
+      "choices": ["inclino, inclinare, inclinavi, inclinatum", "clino, clinare, clinavi, clinatum", "reclino, reclinare, reclinavi, reclinatum", "declino, declinare, declinavi, declinatum"],
+      "reveal": null,
+      "hints": {
+        "clino, clinare, clinavi, clinatum": "'Clino' in simple form is rare — 'inclinare' is the compound in- + clinare",
+        "reclino, reclinare, reclinavi, reclinatum": "These are the parts of 'reclino' (to lean back) — different prefix",
+        "declino, declinare, declinavi, declinatum": "These are the parts of 'declino' (to turn aside/decline) — different prefix"
+      }
+    },
+    {
+      "prompt": "What case is 'dies'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "dies = the day (nom., subject of 'inclinata est')",
+      "hints": {
+        "accusative": "Accusative 'diem' — 'dies' is nominative (subject of 'inclinata est')",
+        "genitive": "Genitive would be 'diei' — 'dies' is nominative here",
+        "ablative": "Ablative would be 'die' — 'dies' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'dies, diei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'diei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'diei' ends in -ei",
+        "4th declension": "4th declension has genitive in -us — 'diei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What is 'nobiscum' grammatically?",
+      "target": "'nobis' (abl.) + enclitic 'cum' (with)",
+      "choices": ["'nobis' (abl.) + enclitic 'cum' (with)", "dative plural of 'nos'", "accusative plural", "genitive plural"],
+      "reveal": "nobiscum = with us (ablative + enclitic -cum)",
+      "hints": {
+        "dative plural of 'nos'": "'Nobis' can be dative, but 'nobiscum' is the enclitic form of cum + ablative",
+        "accusative plural": "Accusative of 'nos' is 'nos' — 'nobiscum' is ablative with enclitic 'cum'",
+        "genitive plural": "Genitive of 'nos' is 'nostrum/nostri' — 'nobiscum' is ablative"
+      }
+    }
+  ],
+  "translation": "Stay with us, because it is growing toward evening and the day has already declined"
+}

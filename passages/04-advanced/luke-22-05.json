@@ -1,0 +1,141 @@
+{
+  "id": "luke-22-05",
+  "source": "Vulgate",
+  "reference": "Lucas 22:44",
+  "latin": ["Factus", "est", "sudor", "eius", "sicut", "guttae", "sanguinis"],
+  "steps": [
+    {
+      "prompt": "Which words form the main verb?",
+      "target": "Factus est",
+      "choices": ["Factus est", "est", "sudor", "sicut"],
+      "reveal": null,
+      "hints": {
+        "est": "'Est' alone is the auxiliary — together with 'Factus' it forms the perfect passive",
+        "sudor": "'Sudor' is a noun meaning 'sweat' — the subject",
+        "sicut": "'Sicut' is a conjunction meaning 'like/as'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Factus est' translates to?",
+      "target": "to become / to be made",
+      "choices": ["to become / to be made", "to make / to do", "to carry", "to trust"],
+      "reveal": null,
+      "hints": {
+        "to make / to do": "'To make' is 'facere' (active) — 'factus est' is from 'fio, fieri' (passive/become)",
+        "to carry": "'To carry' is 'ferre' — 'factus est' is from 'fio, fieri'",
+        "to trust": "'To trust' is 'fidere' — 'factus est' is from 'fio, fieri'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Factus est'?",
+      "target": "perfect indicative (of fio)",
+      "choices": ["perfect indicative (of fio)", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "Factus est = became / was made (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present of 'fio' would be 'fit' — 'factus est' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'factus erat' — 'factus est' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'factus sit' — 'factus est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Factus est'?",
+      "target": "fio, fieri, factus sum, —",
+      "choices": ["fio, fieri, factus sum, —", "facio, facere, feci, factum", "fallo, fallere, fefelli, falsum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the active parts of 'facio' — 'fio' serves as its passive",
+        "fallo, fallere, fefelli, falsum": "These are the parts of 'fallo' (to deceive)",
+        "fero, ferre, tuli, latum": "These are the parts of 'fero' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'sudor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "sudor = sweat (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'sudorem' — 'sudor' is nominative",
+        "genitive": "Genitive would be 'sudoris' — 'sudor' is nominative",
+        "ablative": "Ablative would be 'sudore' — 'sudor' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'sudor, sudoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'sudoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'sudoris' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'sudoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'eius'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "accusative"],
+      "reveal": "eius = his (gen. sing. of is/ea/id)",
+      "hints": {
+        "nominative": "Nominative would be 'is/ea/id' — 'eius' is the genitive singular",
+        "dative": "Dative would be 'ei' — 'eius' is genitive",
+        "accusative": "Accusative would be 'eum/eam/id' — 'eius' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'guttae'?",
+      "target": "nominative plural",
+      "choices": ["nominative plural", "genitive singular", "dative singular", "vocative plural"],
+      "reveal": "guttae = drops (nom. pl., predicate after 'sicut')",
+      "hints": {
+        "genitive singular": "Genitive singular 'guttae' looks the same, but here it is the comparandum after 'sicut' — nominative plural",
+        "dative singular": "Dative singular 'guttae' looks the same, but the sense requires nominative plural (drops)",
+        "vocative plural": "Vocative plural 'guttae' looks the same, but this is not direct address"
+      }
+    },
+    {
+      "prompt": "What declension is 'gutta, guttae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'guttae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'guttae' ends in -ae",
+        "4th declension": "4th declension has genitive in -us — 'guttae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'sanguinis'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "ablative", "dative"],
+      "reveal": "sanguinis = of blood (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'sanguis' — 'sanguinis' ends in -is (genitive)",
+        "ablative": "Ablative would be 'sanguine' — 'sanguinis' ends in -is (genitive)",
+        "dative": "Dative would be 'sanguini' — 'sanguinis' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'sanguis, sanguinis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'sanguinis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'sanguinis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'sanguinis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What literary device does 'sicut guttae sanguinis' employ?",
+      "target": "simile (comparison with 'sicut')",
+      "choices": ["simile (comparison with 'sicut')", "metaphor", "metonymy", "synecdoche"],
+      "reveal": "His sweat became like drops of blood",
+      "hints": {
+        "metaphor": "A metaphor identifies one thing as another without 'like/as' — 'sicut' signals a simile",
+        "metonymy": "Metonymy substitutes a related word — 'sicut' introduces a direct comparison",
+        "synecdoche": "Synecdoche uses a part for the whole — this is a comparison using 'sicut'"
+      }
+    }
+  ],
+  "translation": "His sweat became like drops of blood"
+}

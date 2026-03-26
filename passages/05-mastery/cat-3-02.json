@@ -1,0 +1,130 @@
+{
+  "id": "cat-3-02",
+  "source": "Cicero",
+  "reference": "In Catilinam III.1",
+  "latin": ["Hodierno", "die", "urbem", "ex", "summo", "periculo", "eripui"],
+  "steps": [
+    {
+      "prompt": "What case is 'Hodierno die'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Hodierno die = on this present day (abl. of time)",
+      "hints": {
+        "nominative": "Nominative would be 'hodiernus dies' — 'Hodierno die' is ablative of time when",
+        "accusative": "Accusative of time expresses duration — 'Hodierno die' is ablative expressing a point in time",
+        "dative": "Dative would be 'hodierno diei' — this is ablative of time when"
+      }
+    },
+    {
+      "prompt": "What declension is 'dies, diei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'diei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'diei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'diei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What case is 'urbem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "urbem = the city (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'urbs' — the -em ending marks accusative",
+        "ablative": "Ablative would be 'urbe' — 'urbem' with -em is accusative",
+        "genitive": "Genitive would be 'urbis' — 'urbem' is accusative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'urbs, urbis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'urbis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'urbis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'urbis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'ex' govern here?",
+      "target": "ablative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": "ex + ablative = out of / from",
+      "hints": {
+        "accusative": "'Ex' always takes the ablative, never the accusative",
+        "genitive": "'Ex' governs the ablative — genitive is not used with 'ex'",
+        "dative": "'Ex' governs the ablative — dative is not used with 'ex'"
+      }
+    },
+    {
+      "prompt": "What case is 'summo periculo'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "summo periculo = the greatest danger (abl.)",
+      "hints": {
+        "nominative": "Nominative would be 'summum periculum' — the -o endings mark ablative",
+        "accusative": "Accusative would be 'summum periculum' — 'summo periculo' is ablative",
+        "dative": "Dative singular of 2nd declension also ends in -o, but 'ex' requires the ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'periculum, periculi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'periculi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'periculi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'periculi' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eripui' translates to?",
+      "target": "to snatch away / to rescue",
+      "choices": ["to snatch away / to rescue", "to destroy", "to rule", "to throw"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'To destroy' is 'delere' — 'eripui' comes from 'eripere' (to snatch away)",
+        "to rule": "'To rule' is 'regere' — 'eripui' comes from 'eripere'",
+        "to throw": "'To throw' is 'iacere' — 'eripui' comes from 'eripere' (to rescue)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eripui'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "eripui = I snatched away / I rescued",
+      "hints": {
+        "present indicative": "Present would be 'eripio' — 'eripui' with the -ui perfect stem is perfect",
+        "pluperfect indicative": "Pluperfect would be 'eripueram' — 'eripui' is perfect indicative",
+        "perfect subjunctive": "Perfect subjunctive would be 'eripuerim' — 'eripui' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eripui'?",
+      "target": "eripio, eripere, eripui, ereptum",
+      "choices": ["eripio, eripere, eripui, ereptum", "rapio, rapere, rapui, raptum", "erigo, erigere, erexi, erectum", "eruo, eruere, erui, erutum"],
+      "reveal": null,
+      "hints": {
+        "rapio, rapere, rapui, raptum": "These are the parts of 'rapere' (to seize) — the base verb without the e- prefix",
+        "erigo, erigere, erexi, erectum": "These are the parts of 'erigere' (to raise up) — different verb",
+        "eruo, eruere, erui, erutum": "These are the parts of 'eruere' (to dig out) — different verb"
+      }
+    },
+    {
+      "prompt": "What type of ablative construction is 'ex summo periculo'?",
+      "target": "ablative of separation",
+      "choices": ["ablative of separation", "ablative of means", "ablative absolute", "ablative of manner"],
+      "reveal": null,
+      "hints": {
+        "ablative of means": "Ablative of means answers 'by what instrument?' — 'ex periculo' expresses separation from danger",
+        "ablative absolute": "Ablative absolute requires a participle or noun + participle — this is 'ex' + ablative",
+        "ablative of manner": "Ablative of manner tells how — 'ex periculo' tells from what the city was rescued"
+      }
+    }
+  ],
+  "translation": "On this day I rescued the city from the greatest danger"
+}

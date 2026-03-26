@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-09",
+  "source": "Vulgate",
+  "reference": "Lucas 3:16",
+  "latin": ["Ipse", "vos", "baptizabit", "Spiritu", "Sancto"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "baptizabit",
+      "choices": ["Ipse", "vos", "baptizabit", "Spiritu"],
+      "reveal": null,
+      "hints": {
+        "Ipse": "'Ipse' is an intensive pronoun meaning 'he himself'",
+        "vos": "'vos' is a personal pronoun meaning 'you (plural)' — the direct object",
+        "Spiritu": "'Spiritu' is a noun meaning 'Spirit' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'baptizabit' translates to?",
+      "target": "to baptize",
+      "choices": ["to baptize", "to dip", "to wash", "to sprinkle"],
+      "reveal": null,
+      "hints": {
+        "to dip": "'to dip' is 'tingere/mergere' — 'baptizare' is a Latinized Greek loanword meaning 'to baptize'",
+        "to wash": "'to wash' is 'lavare' — 'baptizabit' comes from 'baptizare'",
+        "to sprinkle": "'to sprinkle' is 'aspergere' — 'baptizabit' comes from 'baptizare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'baptizabit'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "baptizabit", "gloss": "will baptize" },
+      "hints": {
+        "Present": "Present would be 'baptizat' — 'baptizabit' with -bi- is future",
+        "Imperfect": "Imperfect would be 'baptizabat' — 'baptizabit' is future active",
+        "Perfect": "Perfect would be 'baptizavit' — 'baptizabit' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'baptizabit'?",
+      "target": "baptizo, baptizare, baptizavi, baptizatum",
+      "choices": ["baptizo, baptizare, baptizavi, baptizatum", "lavo, lavare, lavi, lautum", "mergo, mergere, mersi, mersum", "tingo, tingere, tinxi, tinctum"],
+      "reveal": null,
+      "hints": {
+        "lavo, lavare, lavi, lautum": "These are the parts of 'lavare' (to wash)",
+        "mergo, mergere, mersi, mersum": "These are the parts of 'mergere' (to plunge/dip)",
+        "tingo, tingere, tinxi, tinctum": "These are the parts of 'tingere' (to dip/dye)"
+      }
+    },
+    {
+      "prompt": "What case is 'Spiritu'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Genitive"],
+      "reveal": { "word": "Spiritu", "gloss": "with the Spirit" },
+      "hints": {
+        "Nominative": "Nominative would be 'Spiritus' — 'Spiritu' with -u ending is ablative (4th declension)",
+        "Dative": "Dative would be 'Spiritui' — 'Spiritu' is ablative of means",
+        "Genitive": "Genitive would be 'Spiritus' — 'Spiritu' is ablative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'spiritus' genitive ends in -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'spiritus' genitive ends in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'spiritus' genitive ends in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'Sancto'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Genitive"],
+      "reveal": { "word": "Sancto", "gloss": "Holy" },
+      "hints": {
+        "Nominative": "Nominative would be 'Sanctus' — 'Sancto' is ablative agreeing with 'Spiritu'",
+        "Dative": "'Sancto' could be dative, but here it agrees with 'Spiritu' in the ablative",
+        "Genitive": "Genitive would be 'Sancti' — 'Sancto' is ablative modifying 'Spiritu'"
+      }
+    },
+    {
+      "prompt": "Who is the subject 'Ipse'?",
+      "target": "He himself (Christ)",
+      "choices": ["He himself (Christ)", "The Spirit", "John the Baptist", "God the Father"],
+      "reveal": { "word": "Ipse", "gloss": "he himself" },
+      "hints": {
+        "The Spirit": "The Spirit is the instrument (ablative) — 'Ipse' refers to the one who is coming after John",
+        "John the Baptist": "John is the speaker — 'Ipse' refers to the one mightier than John, i.e., Christ",
+        "God the Father": "'Ipse' refers to the one coming after John — Christ, not the Father directly"
+      }
+    }
+  ],
+  "translation": "He himself will baptize you with the Holy Spirit"
+}

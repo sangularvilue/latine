@@ -1,0 +1,75 @@
+{
+  "id": "luke-7-05",
+  "source": "Vulgate",
+  "reference": "Lucas 7:9",
+  "latin": ["Non", "inveni", "tantam", "fidem", "in", "Israel"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "inveni",
+      "choices": ["Non", "inveni", "tantam", "fidem"],
+      "reveal": null,
+      "hints": {
+        "Non": "'Non' is an adverb meaning 'not'",
+        "tantam": "'tantam' is an adjective meaning 'so great'",
+        "fidem": "'fidem' is a noun meaning 'faith'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'inveni' translates to?",
+      "target": "to find",
+      "choices": ["to find", "to come", "to invent", "to call"],
+      "reveal": null,
+      "hints": {
+        "to come": "'to come' is 'venire' — 'inveni' comes from 'invenire' (to find)",
+        "to invent": "While English 'invent' derives from it, 'invenire' means 'to find/discover'",
+        "to call": "'to call' is 'vocare' — 'inveni' comes from 'invenire' (to find)"
+      }
+    },
+    {
+      "prompt": "What tense is 'inveni'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": { "word": "inveni", "gloss": "I have found" },
+      "hints": {
+        "present indicative": "Present 1st person would be 'invenio' — 'inveni' is perfect",
+        "imperfect": "Imperfect would be 'inveniebam' — 'inveni' is perfect",
+        "future": "Future would be 'inveniam' — 'inveni' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'inveni'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "video, videre, vidi, visum", "voco, vocare, vocavi, vocatum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are principal parts of 'venio' (to come) — 'invenio' adds the prefix 'in-'",
+        "video, videre, vidi, visum": "These are principal parts of 'video' (to see)",
+        "voco, vocare, vocavi, vocatum": "These are principal parts of 'voco' (to call)"
+      }
+    },
+    {
+      "prompt": "What case is 'fidem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "fidem", "gloss": "faith" },
+      "hints": {
+        "nominative": "Nominative is 'fides' — 'fidem' with -em ending is accusative",
+        "ablative": "Ablative would be 'fide' — 'fidem' is accusative, direct object of 'inveni'",
+        "genitive": "Genitive would be 'fidei' — 'fidem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'fides, fidei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'fidei' ends in -ei",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'fidei' ends in -ei",
+        "4th declension": "4th declension nouns have genitive in -us — 'fidei' ends in -ei"
+      }
+    }
+  ],
+  "translation": "I have not found such great faith in Israel"
+}

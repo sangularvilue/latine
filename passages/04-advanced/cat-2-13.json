@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-13",
+  "source": "Cicero",
+  "reference": "In Cat. II.9",
+  "latin": ["Horum", "nihil", "non", "modo", "effectum", "sed", "ne", "cogitatum", "quidem"],
+  "steps": [
+    {
+      "prompt": "Which words are the participles functioning as predicates?",
+      "target": "effectum, cogitatum",
+      "choices": ["nihil, Horum", "effectum, cogitatum", "modo, quidem", "sed, ne"],
+      "reveal": null,
+      "hints": {
+        "nihil, Horum": "'nihil' is a pronoun (nothing) and 'Horum' is a demonstrative genitive (of these things)",
+        "modo, quidem": "'modo' is an adverb (only) and 'quidem' is a particle (even/indeed)",
+        "sed, ne": "'sed' is a conjunction (but) and 'ne' here is part of 'ne … quidem' (not even)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'effectum' (as a verb) translates to?",
+      "target": "to accomplish / bring about",
+      "choices": ["to affect", "to accomplish / bring about", "to throw out", "to escape"],
+      "reveal": { "word": "effectum", "gloss": "accomplished / carried out" },
+      "hints": {
+        "to affect": "'to affect' is not a standard Latin meaning — 'efficere' means 'to accomplish/bring about'",
+        "to throw out": "'to throw out' is 'eicere' — 'efficere' means 'to accomplish'",
+        "to escape": "'to escape' is 'evadere' — 'efficere' means 'to bring about'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'effectum'?",
+      "target": "efficio, efficere, effeci, effectum",
+      "choices": ["efficio, efficere, effeci, effectum", "facio, facere, feci, factum", "afficio, afficere, affeci, affectum", "conficio, conficere, confeci, confectum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to do/make) — the base verb without the ex- prefix",
+        "afficio, afficere, affeci, affectum": "These are the parts of 'afficere' (to affect/influence) — a different compound",
+        "conficio, conficere, confeci, confectum": "These are the parts of 'conficere' (to complete/finish) — a different compound"
+      }
+    },
+    {
+      "prompt": "What does 'ne … quidem' mean?",
+      "target": "Not even",
+      "choices": ["Not at all", "Not even", "Nor indeed", "Not only"],
+      "reveal": null,
+      "hints": {
+        "Not at all": "'Not at all' is 'minime' or 'nihil omnino' — 'ne … quidem' specifically means 'not even'",
+        "Nor indeed": "'Nor indeed' is 'neque vero' — 'ne … quidem' means 'not even' with emphasis on the word between them",
+        "Not only": "'Not only' is 'non solum/modo' — 'ne … quidem' means 'not even'"
+      }
+    },
+    {
+      "prompt": "What case is 'Horum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "Horum", "gloss": "of these things" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'hi/hae/haec' — 'Horum' with -orum ending is genitive",
+        "Dative": "Dative would be 'his' — 'Horum' is genitive plural",
+        "Accusative": "Accusative plural would be 'hos/has/haec' — 'Horum' is genitive"
+      }
+    },
+    {
+      "prompt": "What is the structure 'non modo … sed ne … quidem'?",
+      "target": "Not only not X, but not even Y (a fortiori argument)",
+      "choices": ["Both X and Y", "Not only not X, but not even Y (a fortiori argument)", "Either X or Y", "Neither X nor Y"],
+      "reveal": null,
+      "hints": {
+        "Both X and Y": "'Both X and Y' is 'et … et …' — this structure escalates denial",
+        "Either X or Y": "'Either X or Y' is 'aut … aut …' — this is a denial structure",
+        "Neither X nor Y": "'Neither … nor' is 'neque … neque …' — 'non modo … sed ne … quidem' specifically escalates: not only not done, but not even thought of"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cogitatum' translates to?",
+      "target": "to think / plan",
+      "choices": ["to compel", "to think / plan", "to gather", "to know"],
+      "reveal": { "word": "cogitatum", "gloss": "thought of / planned" },
+      "hints": {
+        "to compel": "'to compel' is 'cogere' — 'cogitare' means 'to think/plan'",
+        "to gather": "'to gather' is 'colligere' — 'cogitare' means 'to think/ponder'",
+        "to know": "'to know' is 'cognoscere' — 'cogitare' means 'to think/plan'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cogitatum'?",
+      "target": "cogito, cogitare, cogitavi, cogitatum",
+      "choices": ["cogito, cogitare, cogitavi, cogitatum", "cogo, cogere, coegi, coactum", "cognosco, cognoscere, cognovi, cognitum", "colligo, colligere, collegi, collectum"],
+      "reveal": null,
+      "hints": {
+        "cogo, cogere, coegi, coactum": "These are the parts of 'cogere' (to compel/gather)",
+        "cognosco, cognoscere, cognovi, cognitum": "These are the parts of 'cognoscere' (to learn/know)",
+        "colligo, colligere, collegi, collectum": "These are the parts of 'colligere' (to gather)"
+      }
+    }
+  ],
+  "translation": "Of these things, nothing was not only not accomplished, but not even planned."
+}

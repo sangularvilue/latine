@@ -1,0 +1,108 @@
+{
+  "id": "luke-16-02",
+  "source": "Vulgate",
+  "reference": "Lucas 16:15",
+  "latin": ["Quod", "hominibus", "altum", "est", "abominatio", "est"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "two (est...est)",
+      "choices": ["two (est...est)", "one (est)", "three", "none"],
+      "reveal": null,
+      "hints": {
+        "one (est)": "'Est' appears twice — once in the relative clause and once as the main verb",
+        "three": "There are only two verbs — both are 'est'",
+        "none": "Both instances of 'est' are finite verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere/esse' (different verb) — 'est' here is from 'esse' (to be)",
+        "to go out": "'To go out' is 'exire' — 'est' is from 'esse'",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "exeo, exire, exii, exitum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat) — the infinitive 'esse' is identical but it's a different verb",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "exeo, exire, exii, exitum": "These are the parts of 'exire' (to go out)"
+      }
+    },
+    {
+      "prompt": "What case is 'hominibus'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "hominibus = to/for men (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'homines' — 'hominibus' is dative/ablative",
+        "ablative": "'Hominibus' could be ablative, but here it is a dative of reference: 'lofty to men'",
+        "genitive": "Genitive plural would be 'hominum' — 'hominibus' is dative"
+      }
+    },
+    {
+      "prompt": "What case is 'altum'?",
+      "target": "nominative (neuter)",
+      "choices": ["nominative (neuter)", "accusative (neuter)", "ablative", "vocative"],
+      "reveal": "altum = lofty / exalted (nom. neut.)",
+      "hints": {
+        "accusative (neuter)": "'Altum' could be accusative neuter, but here it is predicate nominative with 'est'",
+        "ablative": "Ablative neuter would be 'alto' — 'altum' is nominative/accusative",
+        "vocative": "Vocative would be the same form but one doesn't address an abstract quality here"
+      }
+    },
+    {
+      "prompt": "What case is 'abominatio'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "abominatio = an abomination (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'abominationem' — 'abominatio' is nominative",
+        "ablative": "Ablative would be 'abominatione' — 'abominatio' is nominative",
+        "dative": "Dative would be 'abominationi' — 'abominatio' is nominative predicate"
+      }
+    },
+    {
+      "prompt": "What declension is 'abominatio, abominationis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'abominationis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'abominationis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'abominationis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the function of 'Quod' here?",
+      "target": "relative pronoun (nom./acc. neuter) introducing a relative clause",
+      "choices": ["relative pronoun (nom./acc. neuter) introducing a relative clause", "conjunction meaning 'because'", "conjunction meaning 'that'", "interrogative adjective"],
+      "reveal": "Quod = that which / what",
+      "hints": {
+        "conjunction meaning 'because'": "'Quod' can mean 'because' but here it is the subject of the relative clause — a pronoun",
+        "conjunction meaning 'that'": "'Quod' can introduce noun clauses, but here it is the neuter relative pronoun",
+        "interrogative adjective": "An interrogative 'quod' modifies a noun — here it stands alone as a pronoun"
+      }
+    },
+    {
+      "prompt": "What is the implied subject before 'abominatio est'?",
+      "target": "the whole relative clause 'quod hominibus altum est'",
+      "choices": ["the whole relative clause 'quod hominibus altum est'", "'hominibus' alone", "'altum' alone", "'Quod' alone"],
+      "reveal": null,
+      "hints": {
+        "'hominibus' alone": "'Hominibus' is dative — it cannot be the nominative subject",
+        "'altum' alone": "'Altum' is the predicate of the relative clause — the whole clause serves as subject",
+        "'Quod' alone": "'Quod' begins the relative clause, but the entire clause functions as subject of 'abominatio est'"
+      }
+    }
+  ],
+  "translation": "What is exalted among men is an abomination"
+}

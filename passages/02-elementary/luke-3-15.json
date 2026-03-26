@@ -1,0 +1,86 @@
+{
+  "id": "luke-3-15",
+  "source": "Vulgate",
+  "reference": "Lucas 3:16",
+  "latin": ["Ego", "baptizo", "vos", "aqua"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "baptizo",
+      "choices": ["Ego", "baptizo", "vos", "aqua"],
+      "reveal": null,
+      "hints": {
+        "Ego": "'Ego' is a personal pronoun meaning 'I' — the subject",
+        "vos": "'vos' is a personal pronoun meaning 'you (plural)' — the direct object",
+        "aqua": "'aqua' is a noun meaning 'water' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'baptizo' translates to?",
+      "target": "to baptize",
+      "choices": ["to baptize", "to immerse", "to wash", "to purify"],
+      "reveal": null,
+      "hints": {
+        "to immerse": "'to immerse' is 'immergere' — 'baptizo' comes from 'baptizare' (a Greek loanword)",
+        "to wash": "'to wash' is 'lavare' — 'baptizo' comes from 'baptizare'",
+        "to purify": "'to purify' is 'purificare' — 'baptizo' comes from 'baptizare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'baptizo'?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "baptizo", "gloss": "I baptize" },
+      "hints": {
+        "Imperfect": "Imperfect would be 'baptizabam' — 'baptizo' with -o ending is 1st singular present",
+        "Perfect": "Perfect would be 'baptizavi' — 'baptizo' is present",
+        "Future": "Future would be 'baptizabo' — 'baptizo' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'baptizo'?",
+      "target": "baptizo, baptizare, baptizavi, baptizatum",
+      "choices": ["baptizo, baptizare, baptizavi, baptizatum", "lavo, lavare, lavi, lautum", "purgo, purgare, purgavi, purgatum", "mergo, mergere, mersi, mersum"],
+      "reveal": null,
+      "hints": {
+        "lavo, lavare, lavi, lautum": "These are the parts of 'lavare' (to wash)",
+        "purgo, purgare, purgavi, purgatum": "These are the parts of 'purgare' (to cleanse/purge)",
+        "mergo, mergere, mersi, mersum": "These are the parts of 'mergere' (to plunge/dip)"
+      }
+    },
+    {
+      "prompt": "What case is 'aqua'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "aqua", "gloss": "with water" },
+      "hints": {
+        "Nominative": "'aqua' could be nominative, but here it is ablative of means (baptize with water)",
+        "Vocative": "Vocative would be the same form, but 'aqua' is ablative of means here",
+        "Accusative": "Accusative would be 'aquam' — 'aqua' is ablative (with water)"
+      }
+    },
+    {
+      "prompt": "What declension is 'aqua, aquae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'aquae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'aquae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'aquae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "Why is 'Ego' expressed when 'baptizo' already implies 'I'?",
+      "target": "For emphasis / contrast",
+      "choices": ["For emphasis / contrast", "It is grammatically required", "To indicate 1st person", "It is a scribal addition"],
+      "reveal": { "word": "Ego", "gloss": "I (emphatic)" },
+      "hints": {
+        "It is grammatically required": "Latin verb endings already encode the subject — 'Ego' is not required but emphatic",
+        "To indicate 1st person": "The -o ending of 'baptizo' already shows 1st person — 'Ego' adds emphasis",
+        "It is a scribal addition": "'Ego' is original — it creates contrast (I baptize with water, but HE...)"
+      }
+    }
+  ],
+  "translation": "I baptize you with water"
+}

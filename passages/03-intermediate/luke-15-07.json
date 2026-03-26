@@ -1,0 +1,119 @@
+{
+  "id": "luke-15-07",
+  "source": "Vulgate",
+  "reference": "Lucas 15:10",
+  "latin": ["Gaudium", "erit", "coram", "angelis", "Dei", "super", "uno", "peccatore", "paenitentiam", "agente"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "erit",
+      "choices": ["erit", "agente", "Gaudium", "angelis"],
+      "reveal": null,
+      "hints": {
+        "agente": "'Agente' is a present participle meaning 'doing/performing' in the ablative",
+        "Gaudium": "'Gaudium' is a noun meaning 'joy' — the subject",
+        "angelis": "'Angelis' is a noun meaning 'angels' in the ablative/dative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to err", "to eat"],
+      "reveal": null,
+      "hints": {
+        "to go": "'To go' is 'ire' — 'erit' is from 'esse' (to be)",
+        "to err": "'To err' is 'errare' — 'erit' is future of 'esse'",
+        "to eat": "'To eat' is 'edere' — 'erit' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect indicative", "present subjunctive"],
+      "reveal": "erit = there will be",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erit' is future",
+        "perfect indicative": "Perfect would be 'fuit' — 'erit' is future",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "erro, errare, erravi, erratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "erro, errare, erravi, erratum": "These are the parts of 'errare' (to wander)"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'agente'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": "agente = doing/performing (pres. act. ptcp., abl.)",
+      "hints": {
+        "perfect passive participle": "A perfect passive participle would end in -to/-ta — 'agente' ends in -ente",
+        "future active participle": "A future active participle would end in -uro/-ura — 'agente' is present",
+        "gerundive": "A gerundive would end in -endo/-enda — 'agente' is a present participle"
+      }
+    },
+    {
+      "prompt": "What construction is 'uno peccatore paenitentiam agente'?",
+      "target": "ablative absolute",
+      "choices": ["ablative absolute", "prepositional phrase", "indirect statement", "relative clause"],
+      "reveal": "= with one sinner doing penance / when one sinner repents",
+      "hints": {
+        "prepositional phrase": "There is no preposition governing this phrase — it is an ablative absolute",
+        "indirect statement": "Indirect statement uses accusative + infinitive — this uses ablative + participle",
+        "relative clause": "A relative clause would use 'qui/quae/quod' — this is a participial construction in the ablative"
+      }
+    },
+    {
+      "prompt": "What case is 'angelis'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "angelis = (before the) angels (abl., after 'coram')",
+      "hints": {
+        "nominative": "Nominative plural would be 'angeli' — 'angelis' is dative/ablative",
+        "dative": "'Angelis' could be dative, but after 'coram' (in the presence of) it is ablative",
+        "genitive": "Genitive plural would be 'angelorum' — 'angelis' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'angelus, angeli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'angeli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'angeli' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'angeli' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'paenitentiam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "paenitentiam = repentance (acc., object of 'agente')",
+      "hints": {
+        "nominative": "Nominative would be 'paenitentia' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'paenitentia' — 'paenitentiam' is accusative",
+        "genitive": "Genitive would be 'paenitentiae' — 'paenitentiam' is accusative"
+      }
+    },
+    {
+      "prompt": "The phrase 'paenitentiam agere' is an idiom meaning?",
+      "target": "to do penance / to repent",
+      "choices": ["to do penance / to repent", "to drive out repentance", "to act with regret", "to lead a penitent"],
+      "reveal": null,
+      "hints": {
+        "to drive out repentance": "'Agere' can mean 'to drive' but 'paenitentiam agere' is an idiom for 'to repent'",
+        "to act with regret": "While close in meaning, the standard translation of this idiom is 'to do penance/repent'",
+        "to lead a penitent": "'Agere' does not mean 'to lead a person' — the idiom means 'to repent'"
+      }
+    }
+  ],
+  "translation": "There will be joy before the angels of God over one sinner repenting"
+}

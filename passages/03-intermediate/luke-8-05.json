@@ -1,0 +1,97 @@
+{
+  "id": "luke-8-05",
+  "source": "Vulgate",
+  "reference": "Lucas 8:54",
+  "latin": ["Puella", "surge"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "surge",
+      "choices": ["Puella", "surge", "surgit", "surrexit"],
+      "reveal": null,
+      "hints": {
+        "Puella": "'Puella' is a noun meaning 'girl'",
+        "surgit": "'Surgit' means 'she rises' but does not appear in this sentence — the form here is 'surge'",
+        "surrexit": "'Surrexit' means 'she arose' but does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'surge' translates to?",
+      "target": "to rise / to get up",
+      "choices": ["to rise / to get up", "to run", "to go out", "to heal"],
+      "reveal": null,
+      "hints": {
+        "to run": "That would be 'currere' — 'surge' comes from 'surgere' (to rise)",
+        "to go out": "That would be 'exire' — 'surge' comes from 'surgere' (to rise)",
+        "to heal": "That would be 'sanare' — 'surge' comes from 'surgere' (to rise)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'surge'?",
+      "target": "present imperative",
+      "choices": ["present indicative", "present imperative", "present subjunctive", "perfect indicative"],
+      "reveal": "surge = rise! / get up!",
+      "hints": {
+        "present indicative": "Present indicative would be 'surgit' (3rd pers.) — 'surge' is a command",
+        "present subjunctive": "Present subjunctive would be 'surgat' — 'surge' is imperative singular",
+        "perfect indicative": "Perfect would be 'surrexit' — 'surge' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'surge'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "rego, regere, rexi, rectum", "curro, currere, cucurri, cursum", "erigo, erigere, erexi, erectum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are the parts of 'regere' (to rule/guide)",
+        "curro, currere, cucurri, cursum": "These are the parts of 'currere' (to run)",
+        "erigo, erigere, erexi, erectum": "These are the parts of 'erigere' (to raise up) — related but different from 'surgere'"
+      }
+    },
+    {
+      "prompt": "What case is 'Puella'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "ablative", "accusative"],
+      "reveal": "Puella = Girl! (voc.)",
+      "hints": {
+        "nominative": "While 'puella' is identical in nominative, Jesus is addressing the girl directly — vocative",
+        "ablative": "Ablative would be 'puella' in form, but context shows direct address — vocative",
+        "accusative": "Accusative would be 'puellam' — the girl is being addressed, so vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'puella, puellae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'puellae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'puellae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'puellae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The imperative 'surge' is addressed to how many people?",
+      "target": "one person (singular)",
+      "choices": ["one person (singular)", "two or more (plural)", "it is not imperative", "unspecified"],
+      "reveal": null,
+      "hints": {
+        "two or more (plural)": "Plural imperative would be 'surgite' — 'surge' is singular",
+        "it is not imperative": "'Surge' is indeed imperative — a direct command to the girl",
+        "unspecified": "The imperative form specifies number: 'surge' is specifically singular"
+      }
+    },
+    {
+      "prompt": "What conjugation is 'surgere'?",
+      "target": "3rd conjugation",
+      "choices": ["1st conjugation", "2nd conjugation", "3rd conjugation", "4th conjugation"],
+      "reveal": null,
+      "hints": {
+        "1st conjugation": "1st conjugation has infinitive in -are — 'surgere' ends in -ere (short e)",
+        "2nd conjugation": "2nd conjugation has infinitive in -ēre (long e) — 'surgere' has short -ere",
+        "4th conjugation": "4th conjugation has infinitive in -ire — 'surgere' ends in -ere"
+      }
+    }
+  ],
+  "translation": "Girl, arise!"
+}

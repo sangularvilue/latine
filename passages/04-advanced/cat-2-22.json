@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-22",
+  "source": "Cicero",
+  "reference": "In Cat. I.8",
+  "latin": ["Quid", "enim", "Mali", "aut", "sceleris", "fingi", "potest"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "potest",
+      "choices": ["Mali", "sceleris", "fingi", "potest"],
+      "reveal": null,
+      "hints": {
+        "Mali": "'Mali' is a noun in the genitive meaning 'of evil'",
+        "sceleris": "'sceleris' is a noun in the genitive meaning 'of crime'",
+        "fingi": "'fingi' is a passive infinitive meaning 'to be devised' — it complements 'potest'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'potest' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to drink", "to possess", "to be powerful"],
+      "reveal": null,
+      "hints": {
+        "to drink": "'to drink' is 'potare' — 'posse' means 'to be able'",
+        "to possess": "'to possess' is 'possidere' — 'posse' means 'to be able'",
+        "to be powerful": "'to be powerful' is 'pollere' — 'posse' means 'to be able'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'potest'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Future indicative"],
+      "reveal": { "word": "potest", "gloss": "can / is able to be" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'possit' — 'potest' is indicative",
+        "Perfect indicative": "Perfect would be 'potuit' — 'potest' is present",
+        "Future indicative": "Future would be 'poterit' — 'potest' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'potest'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "potior, potiri, potitus sum", "polliceor, polliceri, pollicitus sum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)",
+        "potior, potiri, potitus sum": "These are the parts of 'potiri' (to gain possession)",
+        "polliceor, polliceri, pollicitus sum": "These are the parts of 'polliceri' (to promise)"
+      }
+    },
+    {
+      "prompt": "What case is 'Mali'?",
+      "target": "Genitive (partitive)",
+      "choices": ["Nominative", "Genitive (partitive)", "Dative", "Ablative"],
+      "reveal": { "word": "Mali", "gloss": "of evil" },
+      "hints": {
+        "Nominative": "Nominative would be 'malum' — 'Mali' with -i ending is genitive, partitive with 'quid'",
+        "Dative": "Dative would be 'malo' — 'Mali' is genitive",
+        "Ablative": "Ablative would be 'malo' — 'Mali' is partitive genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'sceleris'?",
+      "target": "Genitive (partitive)",
+      "choices": ["Nominative", "Genitive (partitive)", "Dative", "Ablative"],
+      "reveal": { "word": "sceleris", "gloss": "of crime / wickedness" },
+      "hints": {
+        "Nominative": "Nominative would be 'scelus' — 'sceleris' with -is ending is genitive",
+        "Dative": "Dative would be 'sceleri' — 'sceleris' is genitive",
+        "Ablative": "Ablative would be 'scelere' — 'sceleris' is partitive genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'sceleris'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive ends in -ae — 'scelus, sceleris' is 3rd declension neuter",
+        "2nd": "2nd declension genitive ends in -i — 'scelus, sceleris' is 3rd declension",
+        "5th": "5th declension genitive ends in -ei — 'scelus, sceleris' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "The passive infinitive 'fingi' comes from which verb?",
+      "target": "fingo, fingere, finxi, fictum — to invent / devise",
+      "choices": ["fingo, fingere, finxi, fictum — to invent / devise", "figo, figere, fixi, fixum — to fix / fasten", "finio, finire, finivi, finitum — to finish", "fundo, fundere, fudi, fusum — to pour"],
+      "reveal": { "word": "fingi", "gloss": "to be devised / imagined" },
+      "hints": {
+        "figo, figere, fixi, fixum — to fix / fasten": "'figere' means 'to fix/fasten' — 'fingi' comes from 'fingere' (to form/devise)",
+        "finio, finire, finivi, finitum — to finish": "'finire' means 'to finish' — 'fingi' comes from 'fingere'",
+        "fundo, fundere, fudi, fusum — to pour": "'fundere' means 'to pour' — 'fingi' comes from 'fingere'"
+      }
+    }
+  ],
+  "translation": "For what evil or crime can be devised?"
+}

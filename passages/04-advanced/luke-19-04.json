@@ -1,0 +1,119 @@
+{
+  "id": "luke-19-04",
+  "source": "Vulgate",
+  "reference": "Lucas 19:46",
+  "latin": ["Domus", "mea", "domus", "orationis", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "est",
+      "choices": ["est", "Domus", "mea", "orationis"],
+      "reveal": null,
+      "hints": {
+        "Domus": "'Domus' is a noun meaning 'house' — it is the subject",
+        "mea": "'Mea' is a possessive adjective meaning 'my'",
+        "orationis": "'Orationis' is a noun in the genitive meaning 'of prayer'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere/esse' — here 'est' is from 'sum, esse' (to be)",
+        "to go": "'To go' is 'ire' — 'est' is from 'sum' (to be)",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'sum' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "perfect indicative": "Perfect of 'sum' would be 'fuit' — 'est' is present",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the principal parts of 'edo' (to eat) — same infinitive but different verb",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become/be made)"
+      }
+    },
+    {
+      "prompt": "What case is the first 'Domus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "vocative"],
+      "reveal": "Domus = house (nom., subject)",
+      "hints": {
+        "genitive": "Genitive of 'domus' is 'domus' (same form), but here it is the subject — nominative",
+        "accusative": "Accusative would be 'domum' — this 'Domus' is the subject",
+        "vocative": "Vocative would be 'domus' but context shows this is a declarative statement, not address"
+      }
+    },
+    {
+      "prompt": "What declension is 'domus, domus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'domus' has genitive in -us",
+        "2nd declension": "'Domus' has some 2nd declension forms but is primarily 4th declension",
+        "3rd declension": "3rd declension has genitive in -is — 'domus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'orationis'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "orationis = of prayer (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'oratio' — 'orationis' with -is ending is genitive",
+        "dative": "Dative would be 'orationi' — 'orationis' ends in -is (genitive)",
+        "ablative": "Ablative would be 'oratione' — 'orationis' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'oratio, orationis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'orationis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'orationis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'orationis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the grammatical function of the second 'domus'?",
+      "target": "predicate nominative",
+      "choices": ["predicate nominative", "genitive of possession", "appositive", "direct object"],
+      "reveal": "domus orationis = a house of prayer (predicate nominative)",
+      "hints": {
+        "genitive of possession": "The second 'domus' is nominative, not genitive — 'orationis' is the genitive",
+        "appositive": "An appositive renames the subject in the same case, but this is a predicate completing 'est'",
+        "direct object": "'Est' is a linking verb and does not take a direct object"
+      }
+    },
+    {
+      "prompt": "What type of genitive is 'orationis'?",
+      "target": "genitive of purpose / characteristic",
+      "choices": ["genitive of purpose / characteristic", "subjective genitive", "objective genitive", "partitive genitive"],
+      "reveal": null,
+      "hints": {
+        "subjective genitive": "A subjective genitive would mean 'prayer's house' with 'prayer' as agent — this is purpose/characteristic",
+        "objective genitive": "An objective genitive would mean the house receives prayer, but the sense is 'a house for prayer'",
+        "partitive genitive": "A partitive genitive indicates the whole — 'orationis' describes the house's purpose, not a part"
+      }
+    }
+  ],
+  "translation": "My house is a house of prayer"
+}

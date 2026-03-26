@@ -1,0 +1,108 @@
+{
+  "id": "luke-9-10",
+  "source": "Vulgate",
+  "reference": "Lucas 9:23",
+  "latin": ["Si", "quis", "vult", "post", "me", "venire"],
+  "steps": [
+    {
+      "prompt": "What kind of clause does 'Si' introduce?",
+      "target": "conditional clause (if)",
+      "choices": ["conditional clause (if)", "relative clause (who)", "temporal clause (when)", "causal clause (because)"],
+      "reveal": null,
+      "hints": {
+        "relative clause (who)": "A relative clause would be introduced by 'qui' — 'si' means 'if'",
+        "temporal clause (when)": "A temporal clause would be introduced by 'cum' or 'quando' — 'si' means 'if'",
+        "causal clause (because)": "A causal clause would be introduced by 'quia' or 'quod' — 'si' means 'if'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vult' translates to?",
+      "target": "to wish / to want",
+      "choices": ["to wish / to want", "to be able", "to be willing", "to prefer"],
+      "reveal": null,
+      "hints": {
+        "to be able": "That would be 'posse' — 'vult' comes from 'velle' (to wish/want)",
+        "to be willing": "Close, but the standard translation of 'velle' is 'to wish/want'",
+        "to prefer": "That would be 'malle' — 'vult' comes from 'velle' (to wish/want)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'vult'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "vult = he/she wishes",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'velit' — 'vult' is present indicative",
+        "perfect indicative": "Perfect would be 'voluit' — 'vult' is present indicative",
+        "future indicative": "Future would be 'volet' — 'vult' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vult'?",
+      "target": "volo, velle, volui, —",
+      "choices": ["volo, velle, volui, —", "nolo, nolle, nolui, —", "malo, malle, malui, —", "valeo, valere, valui, valitum"],
+      "reveal": null,
+      "hints": {
+        "nolo, nolle, nolui, —": "These are the parts of 'nolle' (to not wish) — the negative of 'velle'",
+        "malo, malle, malui, —": "These are the parts of 'malle' (to prefer) — a compound of 'velle'",
+        "valeo, valere, valui, valitum": "These are the parts of 'valere' (to be strong/well)"
+      }
+    },
+    {
+      "prompt": "What is the function of 'venire' in this sentence?",
+      "target": "complementary infinitive (with 'vult')",
+      "choices": ["complementary infinitive (with 'vult')", "purpose infinitive", "subject infinitive", "historical infinitive"],
+      "reveal": "venire = to come (complementary inf.)",
+      "hints": {
+        "purpose infinitive": "Purpose is normally expressed by 'ut' + subjunctive — here 'venire' completes 'vult'",
+        "subject infinitive": "A subject infinitive would be the subject of the sentence — 'venire' completes 'vult'",
+        "historical infinitive": "Historical infinitive replaces a finite verb in narrative — 'venire' here completes 'vult'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venire'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "video, videre, vidi, visum", "vivo, vivere, vixi, victum", "vinco, vincere, vici, victum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "me = me (acc., object of preposition 'post')",
+      "hints": {
+        "nominative": "Nominative would be 'ego' — 'me' is accusative after 'post'",
+        "ablative": "While 'me' looks identical in ablative, 'post' takes accusative",
+        "dative": "Dative would be 'mihi' — 'me' is accusative after 'post'"
+      }
+    },
+    {
+      "prompt": "The preposition 'post' takes which case?",
+      "target": "accusative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": null,
+      "hints": {
+        "ablative": "Some prepositions take ablative, but 'post' always governs the accusative",
+        "genitive": "Very few prepositions take genitive in Latin — 'post' takes accusative",
+        "dative": "Prepositions do not take the dative in Latin — 'post' takes accusative"
+      }
+    },
+    {
+      "prompt": "What is 'quis' in this sentence?",
+      "target": "indefinite pronoun (anyone)",
+      "choices": ["interrogative pronoun (who?)", "indefinite pronoun (anyone)", "relative pronoun (who)", "demonstrative pronoun"],
+      "reveal": "quis = anyone (indef., after 'si')",
+      "hints": {
+        "interrogative pronoun (who?)": "After 'si', 'quis' becomes indefinite ('anyone'), not interrogative",
+        "relative pronoun (who)": "The relative pronoun is 'qui' — 'quis' after 'si' is indefinite",
+        "demonstrative pronoun": "'Quis' is not demonstrative; after 'si' it means 'anyone'"
+      }
+    }
+  ],
+  "translation": "If anyone wishes to come after me"
+}

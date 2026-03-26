@@ -1,0 +1,119 @@
+{
+  "id": "luke-14-07",
+  "source": "Vulgate",
+  "reference": "Lucas 14:10",
+  "latin": ["Amice", "ascende", "superius", "tunc", "erit", "tibi", "gloria"],
+  "steps": [
+    {
+      "prompt": "Which words are the finite verbs?",
+      "target": "ascende and erit",
+      "choices": ["ascende and erit", "ascende only", "erit only", "Amice and gloria"],
+      "reveal": null,
+      "hints": {
+        "ascende only": "'Erit' is also a finite verb — future of 'esse'",
+        "erit only": "'Ascende' is also a finite verb — an imperative",
+        "Amice and gloria": "'Amice' is a vocative noun and 'gloria' is a nominative noun — neither is a verb"
+      }
+    },
+    {
+      "prompt": "What mood is 'ascende'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "infinitive"],
+      "reveal": "ascende = go up! / move up higher! (2nd sg. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 1st sg. would be 'ascendo' — 'ascende' is a command",
+        "present subjunctive": "Present subjunctive would be 'ascendam/ascendas' — 'ascende' is imperative",
+        "infinitive": "Infinitive would be 'ascendere' — 'ascende' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ascende'?",
+      "target": "ascendo, ascendere, ascendi, ascensum",
+      "choices": ["ascendo, ascendere, ascendi, ascensum", "accendo, accendere, accendi, accensum", "scando, scandere, scandi, scansum", "descendo, descendere, descendi, descensum"],
+      "reveal": null,
+      "hints": {
+        "accendo, accendere, accendi, accensum": "These are the parts of 'accendere' (to kindle)",
+        "scando, scandere, scandi, scansum": "These are the parts of 'scandere' (to climb) — the simple verb",
+        "descendo, descendere, descendi, descensum": "These are the parts of 'descendere' (to go down) — the opposite"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect indicative", "present subjunctive"],
+      "reveal": "erit = there will be",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erit' is future",
+        "perfect indicative": "Perfect would be 'fuit' — 'erit' is future",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'Amice'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "ablative", "adverb"],
+      "reveal": "Amice = Friend! (voc. sg. of 'amicus')",
+      "hints": {
+        "nominative": "Nominative would be 'amicus' — 'Amice' with -e is the vocative of 2nd declension",
+        "ablative": "Ablative would be 'amico' — 'Amice' is vocative",
+        "adverb": "'Amice' could be an adverb meaning 'in a friendly way,' but here it addresses a person"
+      }
+    },
+    {
+      "prompt": "What case is 'tibi'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "tibi = for you (dat.)",
+      "hints": {
+        "nominative": "Nominative would be 'tu' — 'tibi' is dative",
+        "accusative": "Accusative would be 'te' — 'tibi' is dative",
+        "ablative": "Ablative would be 'te' — 'tibi' is distinctly dative"
+      }
+    },
+    {
+      "prompt": "What case is 'gloria'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "gloria = glory (nom., subject of 'erit')",
+      "hints": {
+        "accusative": "Accusative would be 'gloriam' — 'gloria' is nominative",
+        "ablative": "Ablative would also be 'gloria' (1st decl.), but here it is the subject — nominative",
+        "vocative": "Vocative would be 'gloria' but one does not address 'glory' here"
+      }
+    },
+    {
+      "prompt": "What declension is 'gloria, gloriae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'gloriae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'gloriae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'gloriae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What is the function of 'superius'?",
+      "target": "comparative adverb meaning 'higher up'",
+      "choices": ["comparative adverb meaning 'higher up'", "superlative adjective", "positive degree adverb", "noun meaning 'upper room'"],
+      "reveal": "superius = higher / further up",
+      "hints": {
+        "superlative adjective": "Superlative would be 'supremum/summum' — 'superius' is comparative",
+        "positive degree adverb": "Positive degree would be 'supra' or 'super' — 'superius' is comparative",
+        "noun meaning 'upper room'": "'Superius' is an adverb here, not a noun"
+      }
+    }
+  ],
+  "translation": "Friend, go up higher; then there will be glory for you"
+}

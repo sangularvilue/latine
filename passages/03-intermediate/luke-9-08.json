@@ -1,0 +1,108 @@
+{
+  "id": "luke-9-08",
+  "source": "Vulgate",
+  "reference": "Lucas 9:16",
+  "latin": ["Accipiens", "quinque", "panes", "et", "duos", "pisces"],
+  "steps": [
+    {
+      "prompt": "Which word is a participle?",
+      "target": "Accipiens",
+      "choices": ["Accipiens", "quinque", "panes", "pisces"],
+      "reveal": null,
+      "hints": {
+        "quinque": "'Quinque' is an indeclinable numeral meaning 'five'",
+        "panes": "'Panes' is a noun meaning 'loaves (of bread)'",
+        "pisces": "'Pisces' is a noun meaning 'fish'"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'Accipiens'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": "Accipiens = taking / receiving (pres. act. part.)",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'acceptus' — 'Accipiens' with -ns is present active",
+        "future active participle": "Future active participle would be 'accepturus' — 'Accipiens' is present",
+        "gerundive": "Gerundive would be 'accipiendus' — 'Accipiens' is the present active participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Accipiens' translates to?",
+      "target": "to receive / to take",
+      "choices": ["to receive / to take", "to accept an invitation", "to seize", "to send"],
+      "reveal": null,
+      "hints": {
+        "to accept an invitation": "While related in English, the Latin 'accipere' broadly means 'to receive/take'",
+        "to seize": "That would be 'rapere' — 'accipere' means 'to receive/take'",
+        "to send": "That would be 'mittere' — 'accipere' means 'to receive/take'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Accipiens'?",
+      "target": "accipio, accipere, accepi, acceptum",
+      "choices": ["accipio, accipere, accepi, acceptum", "capio, capere, cepi, captum", "rapio, rapere, rapui, raptum", "recipio, recipere, recepi, receptum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the parts of 'capere' (to seize/take) — 'accipere' is its compound ad + capere",
+        "rapio, rapere, rapui, raptum": "These are the parts of 'rapere' (to snatch)",
+        "recipio, recipere, recepi, receptum": "These are the parts of 'recipere' (to take back/receive back)"
+      }
+    },
+    {
+      "prompt": "What case is 'panes'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "panes = loaves (acc. pl.)",
+      "hints": {
+        "nominative": "While 'panes' looks identical in nominative plural, here it is the object of 'accipiens'",
+        "ablative": "Ablative plural would be 'panibus' — 'panes' is accusative plural",
+        "vocative": "Vocative would be used for direct address — 'panes' is accusative object"
+      }
+    },
+    {
+      "prompt": "What declension is 'panis, panis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'panis' has gen. -is (3rd decl.)",
+        "2nd declension": "2nd declension has genitive in -i — 'panis' has gen. -is",
+        "4th declension": "4th declension has genitive in -ūs — 'panis' has gen. -is"
+      }
+    },
+    {
+      "prompt": "What case is 'pisces'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "pisces = fish (acc. pl.)",
+      "hints": {
+        "nominative": "While 'pisces' looks identical in nominative, it is parallel to 'panes' as object of 'accipiens'",
+        "ablative": "Ablative plural would be 'piscibus' — 'pisces' is accusative plural",
+        "genitive": "Genitive singular would be 'piscis' — 'pisces' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What case is 'duos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "duos = two (acc. masc. pl.)",
+      "hints": {
+        "nominative": "Nominative masculine plural of 'duo' would be 'duo' — 'duos' is accusative",
+        "ablative": "Ablative would be 'duobus' — 'duos' is accusative, modifying 'pisces'",
+        "genitive": "Genitive would be 'duorum' — 'duos' is accusative"
+      }
+    },
+    {
+      "prompt": "Is 'quinque' declinable?",
+      "target": "no, it is indeclinable",
+      "choices": ["yes, 1st/2nd declension", "yes, 3rd declension", "no, it is indeclinable", "yes, but irregular"],
+      "reveal": null,
+      "hints": {
+        "yes, 1st/2nd declension": "Cardinal numbers from 4 onward are indeclinable in Latin",
+        "yes, 3rd declension": "Cardinal numbers from 4 onward are indeclinable — only unus, duo, tres decline",
+        "yes, but irregular": "Only 'unus', 'duo', and 'tres' decline — 'quinque' is indeclinable"
+      }
+    }
+  ],
+  "translation": "Taking five loaves and two fish"
+}

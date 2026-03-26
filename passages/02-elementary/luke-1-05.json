@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-05",
+  "source": "Vulgate",
+  "reference": "Lucas 1:63",
+  "latin": ["Ioannes", "est", "nomen", "eius"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "est",
+      "choices": ["Ioannes", "est", "nomen", "eius"],
+      "reveal": null,
+      "hints": {
+        "Ioannes": "'Ioannes' is a proper noun, the name John",
+        "nomen": "'Nomen' is a noun meaning 'name'",
+        "eius": "'Eius' is a pronoun meaning 'his/her/its'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' or 'esse' (different verb with different conjugation)",
+        "to go out": "That would be 'exire'",
+        "to stand": "That would be 'stare'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "future", "perfect", "imperfect"],
+      "reveal": "est = is",
+      "hints": {
+        "future": "Future of 'esse' would be 'erit'",
+        "perfect": "Perfect of 'esse' would be 'fuit'",
+        "imperfect": "Imperfect of 'esse' would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "eo, ire, ivi, itum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edo' (to eat)",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)"
+      }
+    },
+    {
+      "prompt": "What case is 'Ioannes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Ioannes = John (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'Ioannem'; 'Ioannes' is the subject here",
+        "vocative": "Vocative is for direct address; here John is being named, not addressed",
+        "genitive": "Genitive would be 'Ioannis'; 'Ioannes' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Ioannes'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'Ioannes' has genitive 'Ioannis'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'Ioannes' has genitive 'Ioannis'",
+        "indeclinable": "'Ioannes' does decline: Ioannes, Ioannis, Ioanni, Ioannem, Ioanne"
+      }
+    },
+    {
+      "prompt": "What case is 'nomen'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "nomen = name (nom.)",
+      "hints": {
+        "accusative": "'Nomen' is a neuter noun, so nominative and accusative are identical; here it is predicate nominative",
+        "ablative": "Ablative would be 'nomine'; 'nomen' is nominative",
+        "genitive": "Genitive would be 'nominis'; 'nomen' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'nomen'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'nomen' is a 3rd declension neuter",
+        "2nd declension": "2nd declension neuters end in -um; 'nomen' has genitive 'nominis'",
+        "4th declension": "4th declension nouns have -us in the genitive; 'nomen' has genitive 'nominis'"
+      }
+    }
+  ],
+  "translation": "John is his name"
+}

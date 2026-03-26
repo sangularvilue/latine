@@ -1,0 +1,141 @@
+{
+  "id": "luke-19-02",
+  "source": "Vulgate",
+  "reference": "Lucas 19:10",
+  "latin": ["Venit", "enim", "Filius", "hominis", "quaerere", "et", "salvum", "facere", "quod", "perierat"],
+  "steps": [
+    {
+      "prompt": "Which is the main finite verb?",
+      "target": "Venit",
+      "choices": ["Venit", "quaerere", "facere", "perierat"],
+      "reveal": null,
+      "hints": {
+        "quaerere": "'Quaerere' is a present active infinitive expressing purpose",
+        "facere": "'Facere' is a present active infinitive parallel to 'quaerere'",
+        "perierat": "'Perierat' is a finite verb but it is subordinate in the relative clause"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Venit' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to conquer", "to hunt"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'To sell' is 'vendere' — 'Venit' comes from 'venire' (to come)",
+        "to conquer": "'To conquer' is 'vincere' — 'Venit' comes from 'venire'",
+        "to hunt": "'To hunt' is 'venari' — 'Venit' comes from 'venire' (4th conjugation)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Venit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "imperfect indicative"],
+      "reveal": "Venit = came / has come",
+      "hints": {
+        "present indicative": "Present 'venit' looks identical, but in narrative context this is perfect (long -i-)",
+        "future indicative": "Future would be 'veniet' — 'Venit' is 3rd singular perfect",
+        "imperfect indicative": "Imperfect would be 'veniebat' — 'Venit' is 3rd singular perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Venit'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vendo, vendere, vendidi, venditum", "vinco, vincere, vici, victum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "vendo, vendere, vendidi, venditum": "These are the principal parts of 'vendo' (to sell)",
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vinco' (to conquer)",
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'Filius'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "accusative"],
+      "reveal": "Filius = the Son (nom.)",
+      "hints": {
+        "genitive": "Genitive would be 'Filii' — 'Filius' is the nominative subject",
+        "vocative": "Vocative of 'filius' is 'fili' — 'Filius' here is nominative",
+        "accusative": "Accusative would be 'Filium' — 'Filius' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -ii",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -ii",
+        "4th declension": "4th declension has genitive in -us — 'filii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'hominis'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "hominis = of man (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'homo' — 'hominis' is the genitive singular",
+        "dative": "Dative would be 'homini' — 'hominis' ends in -is (genitive)",
+        "ablative": "Ablative would be 'homine' — 'hominis' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What tense is 'perierat'?",
+      "target": "pluperfect indicative",
+      "choices": ["perfect indicative", "pluperfect indicative", "imperfect indicative", "imperfect subjunctive"],
+      "reveal": "perierat = had perished / had been lost",
+      "hints": {
+        "perfect indicative": "Perfect would be 'periit' — 'perierat' with -era- is pluperfect",
+        "imperfect indicative": "Imperfect would be 'peribat' — 'perierat' has the pluperfect marker -era-",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'periret' — 'perierat' is indicative with -era-"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perierat'?",
+      "target": "pereo, perire, perii, peritum",
+      "choices": ["pereo, perire, perii, peritum", "pario, parere, peperi, partum", "peto, petere, petivi, petitum", "eo, ire, ii, itum"],
+      "reveal": null,
+      "hints": {
+        "pario, parere, peperi, partum": "These are the principal parts of 'pario' (to give birth/produce)",
+        "peto, petere, petivi, petitum": "These are the principal parts of 'peto' (to seek/attack)",
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go) — 'perire' is the compound per + ire"
+      }
+    },
+    {
+      "prompt": "Why are 'quaerere' and 'facere' in the infinitive?",
+      "target": "purpose infinitive (complementary)",
+      "choices": ["purpose infinitive (complementary)", "indirect statement", "historical infinitive", "ablative of means"],
+      "reveal": null,
+      "hints": {
+        "indirect statement": "Indirect statement requires an accusative subject — here the infinitives express purpose after 'venit'",
+        "historical infinitive": "Historical infinitives replace finite verbs in vivid narrative — that is not the case here",
+        "ablative of means": "Infinitives do not function as ablatives of means in Latin"
+      }
+    },
+    {
+      "prompt": "What function does 'quod' serve here?",
+      "target": "relative pronoun (that which)",
+      "choices": ["relative pronoun (that which)", "causal conjunction (because)", "conjunction (that)", "interrogative adjective"],
+      "reveal": "quod = that which / what",
+      "hints": {
+        "causal conjunction (because)": "'Quod' can mean 'because' but here it introduces a relative clause referring to 'salvum facere quod perierat'",
+        "conjunction (that)": "'Quod' can introduce noun clauses, but here it is a relative pronoun with 'perierat'",
+        "interrogative adjective": "'Quod' as interrogative means 'which?' — here it is a relative pronoun"
+      }
+    }
+  ],
+  "translation": "For the Son of Man came to seek and to save that which was lost"
+}

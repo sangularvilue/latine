@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-18",
+  "source": "Cicero",
+  "reference": "In Cat. I.7",
+  "latin": ["Quae", "cum", "ita", "sint", "Catilina", "perge", "quo", "coepisti"],
+  "steps": [
+    {
+      "prompt": "Which word is the main imperative verb?",
+      "target": "perge",
+      "choices": ["sint", "perge", "coepisti", "Quae"],
+      "reveal": null,
+      "hints": {
+        "sint": "'sint' is subjunctive in the 'cum' clause — not the main verb",
+        "coepisti": "'coepisti' is perfect indicative in the relative clause — not the main verb",
+        "Quae": "'Quae' is a relative pronoun meaning 'which things'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perge' translates to?",
+      "target": "to continue / proceed",
+      "choices": ["to destroy", "to continue / proceed", "to ask", "to drive through"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'to destroy' is 'perdere' — 'pergere' means 'to continue/proceed'",
+        "to ask": "'to ask' is 'rogare' or 'petere' — 'pergere' means 'to proceed'",
+        "to drive through": "'to drive through' is closer to 'peragere' — 'pergere' means 'to continue/go on'"
+      }
+    },
+    {
+      "prompt": "What mood is 'perge'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Imperative", "Subjunctive", "Infinitive"],
+      "reveal": { "word": "perge", "gloss": "proceed! / continue!" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'perge' is a command (imperative singular)",
+        "Subjunctive": "Subjunctive would be 'pergas' — 'perge' is a direct imperative",
+        "Infinitive": "Infinitive would be 'pergere' — 'perge' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perge'?",
+      "target": "pergo, pergere, perrexi, perrectum",
+      "choices": ["pergo, pergere, perrexi, perrectum", "perdo, perdere, perdidi, perditum", "peto, petere, petivi, petitum", "pango, pangere, pepigi, pactum"],
+      "reveal": null,
+      "hints": {
+        "perdo, perdere, perdidi, perditum": "These are the parts of 'perdere' (to destroy)",
+        "peto, petere, petivi, petitum": "These are the parts of 'petere' (to seek/attack)",
+        "pango, pangere, pepigi, pactum": "These are the parts of 'pangere' (to fix/agree)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sint'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "sint", "gloss": "are (since these things are so)" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'sunt' — 'sint' is subjunctive after 'cum'",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'essent' — 'sint' is present subjunctive",
+        "Perfect subjunctive": "Perfect subjunctive would be 'fuerint' — 'sint' is present"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used with 'cum … sint'?",
+      "target": "Cum causal/concessive — 'since these things are so'",
+      "choices": ["Cum temporal — 'when'", "Cum causal/concessive — 'since these things are so'", "Purpose clause", "Indirect question"],
+      "reveal": null,
+      "hints": {
+        "Cum temporal — 'when'": "Temporal 'cum' can take subjunctive, but 'quae cum ita sint' is a standard causal formula meaning 'since'",
+        "Purpose clause": "Purpose clauses use 'ut/ne' — 'cum' here is causal",
+        "Indirect question": "Indirect questions use interrogative words — 'cum' is a conjunction meaning 'since'"
+      }
+    },
+    {
+      "prompt": "What tense is 'coepisti'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Pluperfect indicative"],
+      "reveal": { "word": "coepisti", "gloss": "you began" },
+      "hints": {
+        "Present indicative": "'coepi' is a defective verb with only perfect-system forms — 'coepisti' is perfect",
+        "Imperfect indicative": "There is no imperfect of 'coepi' — it is a defective verb used only in perfect tenses",
+        "Pluperfect indicative": "Pluperfect would be 'coeperas' — 'coepisti' is perfect"
+      }
+    },
+    {
+      "prompt": "'Quae cum ita sint' is a common Ciceronian transition. What does it mean?",
+      "target": "Since these things are so / under these circumstances",
+      "choices": ["Whatever happens", "Since these things are so / under these circumstances", "Although these things exist", "Before these things happen"],
+      "reveal": null,
+      "hints": {
+        "Whatever happens": "'Whatever happens' would be 'quicquid accidat' — 'quae cum ita sint' summarizes preceding arguments",
+        "Although these things exist": "'Although' would use 'quamquam' or 'cum' + concessive — this is causal 'since'",
+        "Before these things happen": "'Before' would be 'antequam' — 'cum' here means 'since'"
+      }
+    }
+  ],
+  "translation": "Since these things are so, Catiline, continue where you began."
+}

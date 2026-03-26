@@ -1,0 +1,108 @@
+{
+  "id": "luke-6-08",
+  "source": "Vulgate",
+  "reference": "Lucas 6:31",
+  "latin": ["Prout", "vultis", "ut", "faciant", "vobis", "facite"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "vultis, faciant, and facite",
+      "choices": ["vultis, faciant, and facite", "vultis and facite", "faciant only", "facite only"],
+      "reveal": null,
+      "hints": {
+        "vultis and facite": "There are three verb forms: 'vultis' (you wish), 'faciant' (they do — subjunctive), and 'facite' (do! — imperative)",
+        "faciant only": "'faciant' is a subjunctive verb, but 'vultis' and 'facite' are also verb forms",
+        "facite only": "'facite' is imperative, but 'vultis' (indicative) and 'faciant' (subjunctive) are also verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vultis' translates to?",
+      "target": "to wish / to want",
+      "choices": ["to wish / to want", "to turn", "to fly", "to be strong"],
+      "reveal": null,
+      "hints": {
+        "to turn": "'to turn' is 'vertere/volvere' — 'vultis' comes from 'velle' (to wish)",
+        "to fly": "'to fly' is 'volare' — 'vultis' comes from 'velle' (to wish)",
+        "to be strong": "'to be strong' is 'valere' — 'vultis' comes from 'velle' (to wish)"
+      }
+    },
+    {
+      "prompt": "What tense is 'vultis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "future", "imperfect"],
+      "reveal": { "word": "vultis", "gloss": "you (pl.) wish" },
+      "hints": {
+        "perfect": "Perfect 2nd plural would be 'voluistis' — 'vultis' is present",
+        "future": "Future of 'velle' is rare; 'vultis' is present indicative",
+        "imperfect": "Imperfect would be 'volebatis' — 'vultis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vultis'?",
+      "target": "volo, velle, volui, —",
+      "choices": ["volo, velle, volui, —", "volo, volare, volavi, volatum", "valeo, valere, valui, valitum", "verto, vertere, verti, versum"],
+      "reveal": null,
+      "hints": {
+        "volo, volare, volavi, volatum": "These are principal parts of 'volo' (to fly) — different verb!",
+        "valeo, valere, valui, valitum": "These are principal parts of 'valeo' (to be strong)",
+        "verto, vertere, verti, versum": "These are principal parts of 'verto' (to turn)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'faciant' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to speak", "to carry", "to sacrifice"],
+      "reveal": null,
+      "hints": {
+        "to speak": "'to speak' is 'loqui/dicere' — 'faciant' comes from 'facere' (to do)",
+        "to carry": "'to carry' is 'ferre' — 'faciant' comes from 'facere' (to do)",
+        "to sacrifice": "'to sacrifice' is 'sacrificare' — 'faciant' comes from 'facere' (to make/do)"
+      }
+    },
+    {
+      "prompt": "What mood is 'faciant'?",
+      "target": "subjunctive",
+      "choices": ["present indicative", "subjunctive", "imperative", "infinitive"],
+      "reveal": { "word": "faciant", "gloss": "they should do / they may do" },
+      "hints": {
+        "present indicative": "Present indicative would be 'faciunt' — 'faciant' with -ant is subjunctive",
+        "imperative": "Imperative would be 'facite' (pl.) — 'faciant' is subjunctive in a purpose clause",
+        "infinitive": "Infinitive would be 'facere' — 'faciant' is the present subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'faciant'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fallo, fallere, fefelli, falsum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are principal parts of 'fero' (to carry/bear)",
+        "fugio, fugere, fugi, fugitum": "These are principal parts of 'fugio' (to flee)",
+        "fallo, fallere, fefelli, falsum": "These are principal parts of 'fallo' (to deceive)"
+      }
+    },
+    {
+      "prompt": "What mood is 'facite'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "facite", "gloss": "do! (pl.)" },
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'facitis' — 'facite' is imperative",
+        "subjunctive": "Subjunctive would be 'faciatis' — 'facite' is the imperative plural",
+        "infinitive": "Infinitive would be 'facere' — 'facite' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facite'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "dico, dicere, dixi, dictum", "ago, agere, egi, actum", "capio, capere, cepi, captum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are principal parts of 'dico' (to say)",
+        "ago, agere, egi, actum": "These are principal parts of 'ago' (to do/drive)",
+        "capio, capere, cepi, captum": "These are principal parts of 'capio' (to seize)"
+      }
+    }
+  ],
+  "translation": "As you wish that men should do to you, do so to them"
+}

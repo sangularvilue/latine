@@ -1,0 +1,119 @@
+{
+  "id": "luke-17-02",
+  "source": "Vulgate",
+  "reference": "Lucas 17:19",
+  "latin": ["Surge", "vade", "fides", "tua", "te", "salvum", "fecit"],
+  "steps": [
+    {
+      "prompt": "Which words are imperative verbs?",
+      "target": "Surge and vade",
+      "choices": ["Surge and vade", "Surge only", "fecit only", "vade and fecit"],
+      "reveal": null,
+      "hints": {
+        "Surge only": "'Vade' is also an imperative — both are commands: 'arise' and 'go'",
+        "fecit only": "'Fecit' is a perfect indicative verb, not an imperative",
+        "vade and fecit": "'Fecit' is not imperative — 'Surge' is also an imperative command"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Surge' translates to?",
+      "target": "to rise / to get up",
+      "choices": ["to rise / to get up", "to surge forward", "to swell", "to push"],
+      "reveal": null,
+      "hints": {
+        "to surge forward": "While English 'surge' derives from this, 'surgere' in Latin means 'to rise/get up'",
+        "to swell": "'To swell' is 'tumere' — 'surgere' means 'to rise'",
+        "to push": "'To push' is 'pellere' or 'urgere' — 'surgere' means 'to get up'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Surge'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "infinitive"],
+      "reveal": "Surge = Arise! / Get up! (2nd sg. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 1st sg. would be 'surgo' — 'Surge' is a command",
+        "present subjunctive": "Present subjunctive would be 'surgam/surgas' — 'Surge' is a direct command",
+        "infinitive": "Infinitive would be 'surgere' — 'Surge' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Surge'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "urgeo, urgere, ursi, —", "rego, regere, rexi, rectum", "sumo, sumere, sumpsi, sumptum"],
+      "reveal": null,
+      "hints": {
+        "urgeo, urgere, ursi, —": "These are the parts of 'urgere' (to press/urge)",
+        "rego, regere, rexi, rectum": "These are the parts of 'regere' (to rule/guide)",
+        "sumo, sumere, sumpsi, sumptum": "These are the parts of 'sumere' (to take)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fecit' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to trust", "to save"],
+      "reveal": null,
+      "hints": {
+        "to say": "'To say' is 'dicere' — 'fecit' comes from 'facere'",
+        "to trust": "'To trust' is 'fidere' or 'credere' — 'facere' means 'to make/do'",
+        "to save": "'To save' is 'salvare' — 'fecit' means 'has made' (he made you safe)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fecit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "fecit = has made / made",
+      "hints": {
+        "present indicative": "Present would be 'facit' — 'fecit' has the perfect stem 'fec-'",
+        "imperfect indicative": "Imperfect would be 'faciebat' — 'fecit' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'fecerit' — 'fecit' lacks the subjunctive marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecit'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fido, fidere, fisus sum, —", "fugio, fugere, fugi, fugitum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "fido, fidere, fisus sum, —": "These are the parts of 'fidere' (to trust) — a semi-deponent",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)"
+      }
+    },
+    {
+      "prompt": "What case is 'fides'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "fides = faith (nom., subject of 'fecit')",
+      "hints": {
+        "accusative": "Accusative would be 'fidem' — 'fides' is the nominative subject",
+        "ablative": "Ablative would be 'fide' — 'fides' is nominative",
+        "genitive": "Genitive would be 'fidei' — 'fides' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'salvum'?",
+      "target": "accusative (predicate adjective)",
+      "choices": ["accusative (predicate adjective)", "nominative", "ablative", "adverb"],
+      "reveal": "salvum = safe/well (acc. masc., predicate complement to 'te')",
+      "hints": {
+        "nominative": "Nominative would describe the subject — 'salvum' agrees with 'te' (accusative)",
+        "ablative": "Ablative would be 'salvo' — 'salvum' agrees with 'te' in the accusative",
+        "adverb": "'Salvum' is an adjective, not an adverb — it modifies 'te' as an object complement"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "te = you (acc., direct object of 'fecit')",
+      "hints": {
+        "nominative": "'Te' has no nominative form — nominative is 'tu'",
+        "ablative": "'Te' can be ablative, but as direct object of 'fecit' it is accusative",
+        "dative": "Dative would be 'tibi' — 'te' is accusative here"
+      }
+    }
+  ],
+  "translation": "Arise, go; your faith has made you well"
+}

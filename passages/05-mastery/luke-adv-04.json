@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-04",
+  "source": "Vulgate",
+  "reference": "Lucas 12:5",
+  "latin": ["Amen", "dico", "vobis", "timete", "eum", "qui", "potest", "in", "gehennam", "mittere"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'timete' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to honor", "to touch", "to believe"],
+      "reveal": null,
+      "hints": {
+        "to honor": "'To honor' is 'honorare' — 'timete' comes from 'timere' (to fear)",
+        "to touch": "'To touch' is 'tangere' — 'timere' means to fear",
+        "to believe": "'To believe' is 'credere' — 'timere' means to fear"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'timete'?",
+      "target": "present imperative",
+      "choices": ["present indicative", "present imperative", "present subjunctive", "future indicative"],
+      "reveal": "timete = fear! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative would be 'timetis' — 'timete' without -is is imperative",
+        "present subjunctive": "Present subjunctive would be 'timeatis' — 'timete' is imperative",
+        "future indicative": "Future would be 'timebitis' — 'timete' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timete'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "tango, tangere, tetigi, tactum", "tollo, tollere, sustuli, sublatum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)",
+        "tango, tangere, tetigi, tactum": "These are the parts of 'tangere' (to touch)",
+        "tollo, tollere, sustuli, sublatum": "These are the parts of 'tollere' (to lift/remove)"
+      }
+    },
+    {
+      "prompt": "What case is 'eum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "genitive"],
+      "reveal": "eum = him (acc., object of 'timete')",
+      "hints": {
+        "nominative": "Nominative would be 'is' — 'eum' is accusative singular masculine",
+        "dative": "Dative would be 'ei' — 'eum' is accusative",
+        "genitive": "Genitive would be 'eius' — 'eum' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'qui' and what does it introduce?",
+      "target": "nominative relative pronoun introducing a relative clause",
+      "choices": ["nominative relative pronoun introducing a relative clause", "interrogative pronoun in a question", "indefinite pronoun", "conjunction meaning 'how'"],
+      "reveal": "qui = who (nom. masc. sg., subject of 'potest')",
+      "hints": {
+        "interrogative pronoun in a question": "'Qui' here refers back to 'eum' — it is relative, not interrogative",
+        "indefinite pronoun": "'Qui' as indefinite usually follows 'si/nisi/ne/num' — here it is a relative pronoun",
+        "conjunction meaning 'how'": "'Qui' as an adverb meaning 'how' is archaic — here it is a relative pronoun"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'potest' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to drink", "to place", "to ask"],
+      "reveal": null,
+      "hints": {
+        "to drink": "'To drink' is 'potare' — 'potest' comes from 'posse' (to be able)",
+        "to place": "'To place' is 'ponere' — 'posse' means to be able",
+        "to ask": "'To ask' is 'postulare' — 'posse' means to be able"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'potest'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "potest = he is able / he can",
+      "hints": {
+        "perfect indicative": "Perfect would be 'potuit' — 'potest' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'possit' — 'potest' is present indicative",
+        "imperfect indicative": "Imperfect would be 'poterat' — 'potest' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'potest'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "potior, potiri, potitus sum", "postulo, postulare, postulavi, postulatum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)",
+        "potior, potiri, potitus sum": "These are the parts of 'potiri' (to gain possession of) — a deponent verb",
+        "postulo, postulare, postulavi, postulatum": "These are the parts of 'postulare' (to demand)"
+      }
+    },
+    {
+      "prompt": "What case is 'gehennam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "in gehennam = into Gehenna (acc. with 'in' expressing motion)",
+      "hints": {
+        "nominative": "Nominative would be 'gehenna' — 'gehennam' with -am is accusative",
+        "ablative": "'In' + ablative would mean 'in' (location) — 'in' + accusative means 'into' (motion)",
+        "genitive": "Genitive would be 'gehennae' — 'gehennam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'gehenna, gehennae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'gehennae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'gehennae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'gehennae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive 'mittere' here is a complementary infinitive with which verb?",
+      "target": "'potest' (is able to send)",
+      "choices": ["'potest' (is able to send)", "'timete' (fear to send)", "'dico' (I say to send)", "'eum' (him to send)"],
+      "reveal": "potest...mittere = is able to send / can send",
+      "hints": {
+        "'timete' (fear to send)": "'Timete' governs 'eum' as object — 'mittere' completes 'potest'",
+        "'dico' (I say to send)": "'Dico' governs the whole statement — 'mittere' completes 'potest'",
+        "'eum' (him to send)": "'Eum' is a pronoun, not a verb — 'mittere' completes 'potest'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mittere'?",
+      "target": "mitto, mittere, misi, missum",
+      "choices": ["mitto, mittere, misi, missum", "moveo, movere, movi, motum", "misceo, miscere, miscui, mixtum", "munio, munire, munivi, munitum"],
+      "reveal": null,
+      "hints": {
+        "moveo, movere, movi, motum": "These are the parts of 'movere' (to move)",
+        "misceo, miscere, miscui, mixtum": "These are the parts of 'miscere' (to mix)",
+        "munio, munire, munivi, munitum": "These are the parts of 'munire' (to fortify)"
+      }
+    }
+  ],
+  "translation": "Truly I say to you: fear him who is able to cast into Gehenna"
+}

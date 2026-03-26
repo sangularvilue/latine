@@ -1,0 +1,97 @@
+{
+  "id": "luke-10-14",
+  "source": "Vulgate",
+  "reference": "Lucas 10:2",
+  "latin": ["Messis", "quidem", "multa", "operarii", "autem", "pauci"],
+  "steps": [
+    {
+      "prompt": "Which words form contrasting clauses?",
+      "target": "quidem ... autem (on the one hand ... but)",
+      "choices": ["quidem ... autem (on the one hand ... but)", "et ... et (both ... and)", "nec ... nec (neither ... nor)", "aut ... aut (either ... or)"],
+      "reveal": null,
+      "hints": {
+        "et ... et (both ... and)": "'Et...et' expresses addition — 'quidem...autem' sets up a contrast",
+        "nec ... nec (neither ... nor)": "'Nec...nec' is negative — 'quidem...autem' contrasts two positive ideas",
+        "aut ... aut (either ... or)": "'Aut...aut' is disjunctive — 'quidem...autem' is adversative (contrast)"
+      }
+    },
+    {
+      "prompt": "What case is 'Messis'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "Messis = the harvest (nom.)",
+      "hints": {
+        "genitive": "Genitive singular of 'messis' is also 'messis', but here it is nominative subject",
+        "accusative": "Accusative would be 'messem' — 'Messis' is nominative subject",
+        "ablative": "Ablative would be 'messe' — 'Messis' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'messis, messis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'messis' has gen. -is",
+        "2nd declension": "2nd declension has genitive in -i — 'messis' has gen. -is",
+        "5th declension": "5th declension has genitive in -ei — 'messis' has gen. -is"
+      }
+    },
+    {
+      "prompt": "What case is 'multa'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "multa = great/abundant (nom. fem. sg.)",
+      "hints": {
+        "accusative": "Accusative neuter plural could be 'multa', but here it agrees with 'messis' (fem. nom.)",
+        "ablative": "Ablative feminine would be 'multa', but here it is predicate nominative with 'messis'",
+        "vocative": "Vocative would be for direct address — 'multa' is predicate adjective"
+      }
+    },
+    {
+      "prompt": "What case is 'operarii'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "operarii = the workers (nom. pl.)",
+      "hints": {
+        "genitive": "Genitive singular would be 'operarii', but context (with 'pauci') shows nom. pl.",
+        "dative": "Dative would be 'operariis' — 'operarii' is nominative plural subject",
+        "vocative": "Vocative plural would also be 'operarii', but these workers are being described, not addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'operarius, operarii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'operarii' ends in -i(i)",
+        "3rd declension": "3rd declension has genitive in -is — 'operarii' ends in -i(i)",
+        "4th declension": "4th declension has genitive in -ūs — 'operarii' ends in -i(i)"
+      }
+    },
+    {
+      "prompt": "What case is 'pauci'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "pauci = few (nom. masc. pl., predicate)",
+      "hints": {
+        "genitive": "Genitive singular could be 'pauci' for some adjective patterns, but this is nom. pl. with 'operarii'",
+        "dative": "Dative plural would be 'paucis' — 'pauci' is nominative plural",
+        "vocative": "Vocative would be for direct address — 'pauci' is predicate adjective"
+      }
+    },
+    {
+      "prompt": "This sentence lacks an explicit verb. What verb is implied?",
+      "target": "est/sunt (to be)",
+      "choices": ["est/sunt (to be)", "habet (to have)", "facit (to make)", "venit (to come)"],
+      "reveal": null,
+      "hints": {
+        "habet (to have)": "The sentence describes what the harvest 'is' and what the workers 'are' — 'esse' is implied",
+        "facit (to make)": "No making is described — the implied verb links subject to predicate adjective",
+        "venit (to come)": "No coming is described — the implied copula 'est/sunt' links subject and predicate"
+      }
+    }
+  ],
+  "translation": "The harvest indeed is great, but the workers are few"
+}

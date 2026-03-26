@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-11",
+  "source": "Cicero",
+  "reference": "In Cat. II.7",
+  "latin": ["Utinam", "ille", "omnes", "secum", "suas", "copias", "eduxisset"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "eduxisset",
+      "choices": ["ille", "secum", "copias", "eduxisset"],
+      "reveal": null,
+      "hints": {
+        "ille": "'ille' is a demonstrative pronoun meaning 'that man (Catiline)'",
+        "secum": "'secum' is 'se + cum' meaning 'with himself'",
+        "copias": "'copias' is a noun in the accusative meaning 'forces / troops'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eduxisset' translates to?",
+      "target": "to lead out",
+      "choices": ["to educate", "to lead out", "to produce", "to seduce"],
+      "reveal": null,
+      "hints": {
+        "to educate": "'to educate' is 'educare' (1st conjugation) — 'educere' (3rd) means 'to lead out'",
+        "to produce": "'to produce' is 'producere' — 'educere' means 'to lead out'",
+        "to seduce": "'to seduce' is 'seducere' — 'educere' means 'to lead out'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eduxisset'?",
+      "target": "Pluperfect subjunctive",
+      "choices": ["Perfect indicative", "Pluperfect indicative", "Pluperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "eduxisset", "gloss": "had led out" },
+      "hints": {
+        "Perfect indicative": "Perfect indicative would be 'eduxit' — 'eduxisset' is pluperfect subjunctive",
+        "Pluperfect indicative": "Pluperfect indicative would be 'eduxerat' — 'eduxisset' with -isset ending is subjunctive",
+        "Perfect subjunctive": "Perfect subjunctive would be 'eduxerit' — 'eduxisset' is pluperfect"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used here?",
+      "target": "Optative (wish) — introduced by 'utinam'",
+      "choices": ["Purpose clause", "Optative (wish) — introduced by 'utinam'", "Result clause", "Indirect question"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose clauses use 'ut/ne' — 'utinam' introduces a wish",
+        "Result clause": "Result clauses follow degree expressions — 'utinam' expresses a wish",
+        "Indirect question": "Indirect questions use interrogative words — 'utinam' introduces an unfulfilled wish"
+      }
+    },
+    {
+      "prompt": "What does 'utinam' + pluperfect subjunctive express?",
+      "target": "An unfulfilled wish about the past — 'if only he had …'",
+      "choices": ["A present wish — 'if only he were …'", "An unfulfilled wish about the past — 'if only he had …'", "A future hope — 'may he …'", "A command — 'he must …'"],
+      "reveal": null,
+      "hints": {
+        "A present wish — 'if only he were …'": "Present wish uses imperfect subjunctive — pluperfect subjunctive refers to the past",
+        "A future hope — 'may he …'": "Future hopes use present subjunctive — pluperfect is past counterfactual",
+        "A command — 'he must …'": "'utinam' never introduces commands — it introduces wishes"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eduxisset'?",
+      "target": "educo, educere, eduxi, eductum",
+      "choices": ["educo, educere, eduxi, eductum", "duco, ducere, duxi, ductum", "educo, educare, educavi, educatum", "seduco, seducere, seduxi, seductum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead) — the base verb without e- prefix",
+        "educo, educare, educavi, educatum": "These are the parts of 'educare' (to educate/raise) — a different 1st conjugation verb!",
+        "seduco, seducere, seduxi, seductum": "These are the parts of 'seducere' (to lead aside/separate)"
+      }
+    },
+    {
+      "prompt": "What case is 'copias'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "copias", "gloss": "forces / troops" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'copiae' — 'copias' with -as ending is accusative plural",
+        "Genitive": "Genitive would be 'copiarum' — 'copias' is accusative, object of 'eduxisset'",
+        "Ablative": "Ablative would be 'copiis' — 'copias' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'copias'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension accusative plural ends in -os — 'copia, copiae' is 1st declension",
+        "3rd": "3rd declension accusative plural ends in -es — 'copia, copiae' is 1st declension",
+        "4th": "4th declension accusative plural ends in -us — 'copia, copiae' is 1st declension"
+      }
+    }
+  ],
+  "translation": "If only he had led out all his forces with him!"
+}

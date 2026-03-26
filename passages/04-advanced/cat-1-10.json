@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-10",
+  "source": "Cicero",
+  "reference": "In Cat. I.3",
+  "latin": ["Habemus", "senatus", "consultum", "in", "te", "Catilina", "vehemens"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Habemus",
+      "choices": ["Habemus", "senatus", "consultum", "vehemens"],
+      "reveal": null,
+      "hints": {
+        "senatus": "'senatus' is a noun (genitive here) meaning 'of the senate'",
+        "consultum": "'consultum' is a noun meaning 'decree / resolution'",
+        "vehemens": "'vehemens' is an adjective meaning 'forceful / severe'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Habemus' translates to?",
+      "target": "to have / hold",
+      "choices": ["to live", "to have / hold", "to dwell", "to consider"],
+      "reveal": null,
+      "hints": {
+        "to live": "'to live' is 'vivere' or 'habitare' — 'habere' means 'to have/hold'",
+        "to dwell": "'to dwell' is 'habitare' — similar but different from 'habere'",
+        "to consider": "'to consider' can be 'habere' in some idioms, but the basic meaning is 'to have/hold'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Habemus'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "Habemus", "gloss": "we have" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'habuimus' — 'Habemus' is present",
+        "Present subjunctive": "Present subjunctive would be 'habeamus' — 'Habemus' is indicative",
+        "Future indicative": "Future would be 'habebimus' — 'Habemus' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Habemus'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "hibeo, hibere, hibui, hibitum", "debeo, debere, debui, debitum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell) — a different verb",
+        "hibeo, hibere, hibui, hibitum": "This is not a real verb — perhaps confused with 'prohibeo'?",
+        "debeo, debere, debui, debitum": "These are the parts of 'debere' (to owe) — a compound of de + habere"
+      }
+    },
+    {
+      "prompt": "What case is 'consultum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "consultum", "gloss": "decree" },
+      "hints": {
+        "Nominative": "Neuter nominative and accusative are identical, but 'consultum' is the direct object of 'Habemus'",
+        "Genitive": "Genitive would be 'consulti' — 'consultum' is accusative, the object of 'habemus'",
+        "Ablative": "Ablative would be 'consulto' — 'consultum' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'senatus' here?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "senatus", "gloss": "of the senate" },
+      "hints": {
+        "Nominative": "Nominative would make 'senatus' the subject, but 'Habemus' already has 'we' as subject — 'senatus' modifies 'consultum'",
+        "Dative": "Dative would be 'senatui' — 'senatus' here is genitive (4th declension gen. = nom.)",
+        "Accusative": "Accusative would be 'senatum' — 'senatus' here is genitive singular (4th declension)"
+      }
+    },
+    {
+      "prompt": "What is a 'senatus consultum'?",
+      "target": "A formal decree of the Roman senate",
+      "choices": ["A speech by a senator", "A formal decree of the Roman senate", "A military command", "An election result"],
+      "reveal": null,
+      "hints": {
+        "A speech by a senator": "A speech is an 'oratio' — a 'senatus consultum' is an official legislative act",
+        "A military command": "A military command is an 'imperium' — the SC is a senatorial decree",
+        "An election result": "Elections produced 'comitia' results — the SC is a decree passed by the senate"
+      }
+    },
+    {
+      "prompt": "What case is 'Catilina'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "Catilina", "gloss": "O Catiline" },
+      "hints": {
+        "Nominative": "If nominative, Catiline would be the subject — but Cicero is addressing him directly",
+        "Accusative": "Accusative would be 'Catilinam' — 'Catilina' is the vocative form of direct address",
+        "Ablative": "Ablative would be 'Catilina' (same form), but the context is direct address (vocative)"
+      }
+    },
+    {
+      "prompt": "What does 'in te ... vehemens' describe?",
+      "target": "A severe decree directed against Catiline",
+      "choices": ["A decree supporting Catiline", "A severe decree directed against Catiline", "A mild recommendation", "A decree about foreign policy"],
+      "reveal": { "word": "vehemens", "gloss": "severe / forceful" },
+      "hints": {
+        "A decree supporting Catiline": "'in te' with 'vehemens' means 'severe against you' — not in his favor",
+        "A mild recommendation": "'vehemens' means 'forceful/severe' — the opposite of mild",
+        "A decree about foreign policy": "The decree is 'in te' (against you, Catiline) — it's about the domestic conspiracy"
+      }
+    }
+  ],
+  "translation": "We have a decree of the senate against you, Catiline — a severe one."
+}

@@ -1,0 +1,119 @@
+{
+  "id": "luke-17-06",
+  "source": "Vulgate",
+  "reference": "Lucas 17:33",
+  "latin": ["Quicumque", "quaesierit", "animam", "suam", "salvam", "facere", "perdet", "illam"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb of the relative clause?",
+      "target": "quaesierit",
+      "choices": ["quaesierit", "perdet", "facere", "Quicumque"],
+      "reveal": null,
+      "hints": {
+        "perdet": "'Perdet' is the main clause verb, not the relative clause verb",
+        "facere": "'Facere' is an infinitive meaning 'to make' — it complements 'quaesierit'",
+        "Quicumque": "'Quicumque' is an indefinite relative pronoun meaning 'whoever'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'quaesierit' translates to?",
+      "target": "to seek",
+      "choices": ["to seek", "to ask", "to complain", "to rest"],
+      "reveal": null,
+      "hints": {
+        "to ask": "'To ask' is 'rogare' or 'petere' — 'quaesierit' comes from 'quaerere' (to seek)",
+        "to complain": "'To complain' is 'queri' — 'quaerere' means 'to seek'",
+        "to rest": "'To rest' is 'quiescere' — 'quaerere' means 'to seek'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'quaesierit'?",
+      "target": "future perfect indicative",
+      "choices": ["future perfect indicative", "perfect subjunctive", "perfect indicative", "pluperfect subjunctive"],
+      "reveal": "quaesierit = will have sought",
+      "hints": {
+        "perfect subjunctive": "The form is identical — but with future 'perdet' in the apodosis, future perfect is appropriate",
+        "perfect indicative": "Perfect indicative would be 'quaesivit' — 'quaesierit' has the -eri- marker",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'quaesivisset' — 'quaesierit' is future perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'quaesierit'?",
+      "target": "quaero, quaerere, quaesivi, quaesitum",
+      "choices": ["quaero, quaerere, quaesivi, quaesitum", "queror, queri, questus sum, —", "quiesco, quiescere, quievi, quietum", "rogo, rogare, rogavi, rogatum"],
+      "reveal": null,
+      "hints": {
+        "queror, queri, questus sum, —": "These are the parts of 'queri' (to complain) — a deponent",
+        "quiesco, quiescere, quievi, quietum": "These are the parts of 'quiescere' (to rest)",
+        "rogo, rogare, rogavi, rogatum": "These are the parts of 'rogare' (to ask)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perdet' translates to?",
+      "target": "to lose / to destroy",
+      "choices": ["to lose / to destroy", "to give", "to endure", "to accomplish"],
+      "reveal": null,
+      "hints": {
+        "to give": "'To give' is 'dare' — 'perdet' comes from 'perdere' (to destroy/lose)",
+        "to endure": "'To endure' is 'perferre' — 'perdere' means 'to lose'",
+        "to accomplish": "'To accomplish' is 'perficere' — 'perdere' means 'to destroy'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'perdet'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect indicative", "present subjunctive"],
+      "reveal": "perdet = he/she will lose",
+      "hints": {
+        "present indicative": "Present would be 'perdit' — 'perdet' has the future -e- vowel (3rd conj.)",
+        "perfect indicative": "Perfect would be 'perdidit' — 'perdet' is future",
+        "present subjunctive": "Present subjunctive would be 'perdat' — 'perdet' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perdet'?",
+      "target": "perdo, perdere, perdidi, perditum",
+      "choices": ["perdo, perdere, perdidi, perditum", "do, dare, dedi, datum", "perficio, perficere, perfeci, perfectum", "perfero, perferre, pertuli, perlatum"],
+      "reveal": null,
+      "hints": {
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give) — the simple verb",
+        "perficio, perficere, perfeci, perfectum": "These are the parts of 'perficere' (to accomplish)",
+        "perfero, perferre, pertuli, perlatum": "These are the parts of 'perferre' (to endure)"
+      }
+    },
+    {
+      "prompt": "What case is 'animam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "animam = soul / life (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'anima' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'anima' — 'animam' is accusative",
+        "genitive": "Genitive would be 'animae' — 'animam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'salvam'?",
+      "target": "accusative (predicate complement to 'animam')",
+      "choices": ["accusative (predicate complement to 'animam')", "nominative", "ablative", "adverb"],
+      "reveal": "salvam = safe (acc. fem., object complement)",
+      "hints": {
+        "nominative": "Nominative fem. would be 'salva' — 'salvam' agrees with 'animam' in the accusative",
+        "ablative": "Ablative fem. would be 'salva' — 'salvam' is accusative",
+        "adverb": "'Salvam' is an adjective, not an adverb — it modifies 'animam'"
+      }
+    },
+    {
+      "prompt": "What type of conditional sentence is this?",
+      "target": "future more vivid (future perfect + future)",
+      "choices": ["future more vivid (future perfect + future)", "present general (present + present)", "contrary to fact (pluperfect subjunctive)", "mixed condition"],
+      "reveal": null,
+      "hints": {
+        "present general (present + present)": "Present general uses present tense — this has future perfect and future",
+        "contrary to fact (pluperfect subjunctive)": "Contrary to fact uses subjunctive — 'perdet' is future indicative",
+        "mixed condition": "Mixed conditions combine different types — this is straightforwardly future more vivid"
+      }
+    }
+  ],
+  "translation": "Whoever will have sought to save his life will lose it"
+}

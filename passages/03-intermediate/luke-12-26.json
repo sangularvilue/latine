@@ -1,0 +1,108 @@
+{
+  "id": "luke-12-26",
+  "source": "Vulgate",
+  "reference": "Lucas 12:2",
+  "latin": ["Nihil", "opertum", "quod", "non", "reveletur"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "quod",
+      "choices": ["Nihil", "opertum", "quod", "reveletur"],
+      "reveal": null,
+      "hints": {
+        "Nihil": "'Nihil' is an indefinite pronoun meaning 'nothing'",
+        "opertum": "'Opertum' is a participle meaning 'covered/hidden'",
+        "reveletur": "'Reveletur' is a verb meaning 'may be revealed'"
+      }
+    },
+    {
+      "prompt": "What case is 'quod'?",
+      "target": "nominative (neuter, referring to 'nihil opertum')",
+      "choices": ["nominative (neuter, referring to 'nihil opertum')", "accusative", "ablative", "conjunction (because)"],
+      "reveal": "quod = which (nom. neut. sg., relative pronoun)",
+      "hints": {
+        "accusative": "While 'quod' is identical in accusative neuter, here it is nominative subject of 'reveletur'",
+        "ablative": "Ablative neuter would be 'quo' — 'quod' is nominative",
+        "conjunction (because)": "'Quod' can be a conjunction, but here it introduces a relative clause"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'opertum'?",
+      "target": "perfect passive participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": "opertum = covered / hidden (perf. pass. part., nom. neut. sg.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'operiens' — 'opertum' is perfect passive",
+        "future active participle": "Future active would be 'operturus' — 'opertum' is perfect passive",
+        "gerundive": "Gerundive would be 'operiendus' — 'opertum' is perfect passive participle"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'opertum'?",
+      "target": "operio, operire, operui, opertum",
+      "choices": ["operio, operire, operui, opertum", "aperio, aperire, aperui, apertum", "opero, operare, operavi, operatum", "reperio, reperire, repperi, repertum"],
+      "reveal": null,
+      "hints": {
+        "aperio, aperire, aperui, apertum": "These are the parts of 'aperire' (to open) — the opposite of 'operire' (to cover)",
+        "opero, operare, operavi, operatum": "These would be from 'operari' (to work) — different verb from 'operire'",
+        "reperio, reperire, repperi, repertum": "These are the parts of 'reperire' (to find/discover)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'reveletur' translates to?",
+      "target": "to reveal / to uncover",
+      "choices": ["to reveal / to uncover", "to rebel", "to return", "to revere"],
+      "reveal": null,
+      "hints": {
+        "to rebel": "That would be 'rebellare' — 'reveletur' comes from 'revelare' (to reveal)",
+        "to return": "That would be 'revertere/redire' — 'revelare' means 'to reveal/uncover'",
+        "to revere": "That would be 'revereri' — 'revelare' means 'to reveal'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'reveletur'?",
+      "target": "present subjunctive passive",
+      "choices": ["present indicative passive", "present subjunctive passive", "future indicative passive", "imperfect subjunctive passive"],
+      "reveal": "reveletur = may be revealed / will be revealed",
+      "hints": {
+        "present indicative passive": "Present indicative passive would be 'revelatur' — 'reveletur' with -e- is subjunctive (1st conj.)",
+        "future indicative passive": "Future passive would be 'revelabitur' — 'reveletur' is present subjunctive",
+        "imperfect subjunctive passive": "Imperfect subjunctive would be 'revelaretur' — 'reveletur' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used in 'reveletur'?",
+      "target": "relative clause of characteristic (describing a type)",
+      "choices": ["relative clause of characteristic (describing a type)", "purpose clause", "result clause", "indirect question"],
+      "reveal": null,
+      "hints": {
+        "purpose clause": "A purpose clause uses 'ut' + subjunctive — here 'quod' introduces a relative clause of characteristic",
+        "result clause": "A result clause uses 'ut' + subjunctive — here the subjunctive is in a characteristic relative clause",
+        "indirect question": "An indirect question would use an interrogative word — 'quod' is relative, not interrogative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'reveletur'?",
+      "target": "revelo, revelare, revelavi, revelatum",
+      "choices": ["revelo, revelare, revelavi, revelatum", "velo, velare, velavi, velatum", "video, videre, vidi, visum", "removeo, removere, removi, remotum"],
+      "reveal": null,
+      "hints": {
+        "velo, velare, velavi, velatum": "These are the parts of 'velare' (to veil) — 'revelare' is its compound re + velare",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "removeo, removere, removi, remotum": "These are the parts of 'removere' (to remove)"
+      }
+    },
+    {
+      "prompt": "What case is 'Nihil'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Nihil = nothing (nom. neut., subject)",
+      "hints": {
+        "accusative": "While 'nihil' is identical in accusative, here it is the subject — nominative",
+        "genitive": "'Nihil' is indeclinable (or sometimes 'nihili' in gen.) — here it is nominative",
+        "ablative": "Ablative would be 'nihilo' — 'nihil' is nominative subject"
+      }
+    }
+  ],
+  "translation": "Nothing is hidden that will not be revealed"
+}

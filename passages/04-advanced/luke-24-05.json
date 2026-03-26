@@ -1,0 +1,119 @@
+{
+  "id": "luke-24-05",
+  "source": "Vulgate",
+  "reference": "Lucas 24:36",
+  "latin": ["Pax", "vobis"],
+  "steps": [
+    {
+      "prompt": "Is there an explicit verb in this sentence?",
+      "target": "no — 'sit' or 'est' is understood",
+      "choices": ["no — 'sit' or 'est' is understood", "yes — 'Pax' is a verb", "yes — 'vobis' is a verb", "yes — both words are verbs"],
+      "reveal": "Pax vobis [sit] = Peace [be] to you",
+      "hints": {
+        "yes — 'Pax' is a verb": "'Pax' is a noun meaning 'peace' — it is not a verb",
+        "yes — 'vobis' is a verb": "'Vobis' is a pronoun in the dative — it is not a verb",
+        "yes — both words are verbs": "Neither word is a verb — both are nominal forms"
+      }
+    },
+    {
+      "prompt": "What verb is understood, and what would its mood be?",
+      "target": "subjunctive 'sit' (jussive: 'may peace be / let peace be')",
+      "choices": ["subjunctive 'sit' (jussive: 'may peace be / let peace be')", "indicative 'est' (peace is)", "imperative 'esto' (be!)", "infinitive 'esse' (to be)"],
+      "reveal": "Pax vobis [sit] — jussive subjunctive expressing a wish/blessing",
+      "hints": {
+        "indicative 'est' (peace is)": "While 'est' is possible, the greeting formula typically implies a wish — subjunctive 'sit'",
+        "imperative 'esto' (be!)": "'Esto' is possible but the jussive subjunctive is more natural for a blessing",
+        "infinitive 'esse' (to be)": "An infinitive cannot be the main verb of an independent clause"
+      }
+    },
+    {
+      "prompt": "Principal parts of the understood verb?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "do, dare, dedi, datum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "do, dare, dedi, datum": "These are the parts of 'do' (to give)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fio' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'Pax'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "Pax = peace (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'pacem' — 'Pax' is nominative",
+        "vocative": "Vocative would be for direct address — 'Pax' is the subject of the implied verb",
+        "ablative": "Ablative would be 'pace' — 'Pax' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'pax, pacis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pacis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'pacis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'pacis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "accusative", "genitive"],
+      "reveal": "vobis = to you (dat. pl.)",
+      "hints": {
+        "ablative": "'Vobis' can be ablative, but without a preposition here, dative of advantage is more natural",
+        "accusative": "Accusative of 'vos' is 'vos' — 'vobis' is dative or ablative",
+        "genitive": "Genitive of 'vos' is 'vestrum/vestri' — 'vobis' is dative here"
+      }
+    },
+    {
+      "prompt": "What type of dative is 'vobis'?",
+      "target": "dative of advantage / dative of possessor",
+      "choices": ["dative of advantage / dative of possessor", "dative of purpose", "dative of reference", "dative of agent"],
+      "reveal": "Peace [be] to you — the peace is for your benefit",
+      "hints": {
+        "dative of purpose": "Dative of purpose names a goal or function — 'vobis' names the recipient of peace",
+        "dative of reference": "Dative of reference is close, but 'advantage' better captures the blessing sense",
+        "dative of agent": "Dative of agent is used with passive periphrastic — this is a simple wish formula"
+      }
+    },
+    {
+      "prompt": "This formula 'Pax vobis' reflects which Hebrew greeting?",
+      "target": "Shalom aleichem (peace upon you)",
+      "choices": ["Shalom aleichem (peace upon you)", "Baruch HaShem (blessed be the Name)", "Hallelujah (praise the Lord)", "Amen (so be it)"],
+      "reveal": null,
+      "hints": {
+        "Baruch HaShem (blessed be the Name)": "'Baruch HaShem' means 'blessed be the Name' — 'Pax vobis' = 'Shalom aleichem'",
+        "Hallelujah (praise the Lord)": "'Hallelujah' means 'praise the Lord' — 'Pax vobis' is the Latin of 'Shalom'",
+        "Amen (so be it)": "'Amen' means 'so be it' — 'Pax vobis' translates the Semitic greeting 'Shalom'"
+      }
+    },
+    {
+      "prompt": "What is the grammatical name for this type of sentence (no explicit verb)?",
+      "target": "nominal sentence (verbless sentence with implied copula)",
+      "choices": ["nominal sentence (verbless sentence with implied copula)", "infinitive phrase", "ablative absolute", "imperative sentence"],
+      "reveal": null,
+      "hints": {
+        "infinitive phrase": "An infinitive phrase would need an infinitive — there is none here",
+        "ablative absolute": "Ablative absolute requires ablative case — 'Pax' is nominative",
+        "imperative sentence": "An imperative sentence has an imperative verb — the implied verb here is subjunctive"
+      }
+    },
+    {
+      "prompt": "In what liturgical context is 'Pax vobis' used?",
+      "target": "greeting of the bishop/priest at Mass",
+      "choices": ["greeting of the bishop/priest at Mass", "the consecration", "the final blessing only", "it is not used in liturgy"],
+      "reveal": null,
+      "hints": {
+        "the consecration": "The consecration uses 'Hoc est corpus meum' — 'Pax vobis' is a greeting",
+        "the final blessing only": "'Pax vobis' can be used at the beginning of Mass by a bishop, not only at the end",
+        "it is not used in liturgy": "'Pax vobis' is used in the Roman Rite as a greeting, especially by bishops"
+      }
+    }
+  ],
+  "translation": "Peace to you"
+}

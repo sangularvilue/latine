@@ -1,0 +1,75 @@
+{
+  "id": "luke-7-06",
+  "source": "Vulgate",
+  "reference": "Lucas 7:16",
+  "latin": ["Propheta", "magnus", "surrexit", "in", "nobis"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "surrexit",
+      "choices": ["Propheta", "magnus", "surrexit", "nobis"],
+      "reveal": null,
+      "hints": {
+        "Propheta": "'Propheta' is a noun meaning 'prophet'",
+        "magnus": "'magnus' is an adjective meaning 'great'",
+        "nobis": "'nobis' is a pronoun meaning 'among us'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'surrexit' translates to?",
+      "target": "to rise / to arise",
+      "choices": ["to rise / to arise", "to correct", "to rule", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to correct": "'to correct' is 'corrigere' — 'surrexit' comes from 'surgere' (to rise)",
+        "to rule": "'to rule' is 'regere' — 'surrexit' comes from 'surgere' (to rise)",
+        "to stand": "'to stand' is 'stare' — 'surrexit' comes from 'surgere' (to rise up)"
+      }
+    },
+    {
+      "prompt": "What tense is 'surrexit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "pluperfect"],
+      "reveal": { "word": "surrexit", "gloss": "has arisen / arose" },
+      "hints": {
+        "present indicative": "Present would be 'surgit' — 'surrexit' is perfect",
+        "imperfect": "Imperfect would be 'surgebat' — 'surrexit' is perfect",
+        "pluperfect": "Pluperfect would be 'surrexerat' — 'surrexit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'surrexit'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "rego, regere, rexi, rectum", "corrigo, corrigere, correxi, correctum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are principal parts of 'rego' (to rule/direct)",
+        "corrigo, corrigere, correxi, correctum": "These are principal parts of 'corrigo' (to correct)",
+        "sto, stare, steti, statum": "These are principal parts of 'sto' (to stand)"
+      }
+    },
+    {
+      "prompt": "What case is 'Propheta'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "Propheta", "gloss": "a prophet" },
+      "hints": {
+        "accusative": "Accusative would be 'prophetam' — 'Propheta' is the nominative subject",
+        "ablative": "Ablative would be 'propheta' (same form), but here it is the subject",
+        "vocative": "Vocative would also be 'propheta' but this is a statement, not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'propheta, prophetae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'prophetae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'prophetae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -us — 'prophetae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "A great prophet has arisen among us"
+}

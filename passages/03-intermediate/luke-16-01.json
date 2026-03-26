@@ -1,0 +1,108 @@
+{
+  "id": "luke-16-01",
+  "source": "Vulgate",
+  "reference": "Lucas 16:13",
+  "latin": ["Nemo", "servus", "potest", "duobus", "dominis", "servire"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "potest",
+      "choices": ["potest", "servire", "servus", "Nemo"],
+      "reveal": null,
+      "hints": {
+        "servire": "'Servire' is an infinitive meaning 'to serve' — it depends on 'potest'",
+        "servus": "'Servus' is a noun meaning 'servant/slave'",
+        "Nemo": "'Nemo' is a pronoun meaning 'no one'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'potest' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to place", "to drink", "to demand"],
+      "reveal": null,
+      "hints": {
+        "to place": "'To place' is 'ponere' — 'potest' comes from 'posse' (to be able)",
+        "to drink": "'To drink' is 'potare' — similar sounding but 'posse' means 'to be able'",
+        "to demand": "'To demand' is 'postulare' — 'posse' means 'to be able'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'potest'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "potest = is able / can",
+      "hints": {
+        "perfect indicative": "Perfect would be 'potuit' — 'potest' is present",
+        "present subjunctive": "Present subjunctive would be 'possit' — 'potest' is indicative",
+        "imperfect indicative": "Imperfect would be 'poterat' — 'potest' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'potest'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "poto, potare, potavi, potatum", "postulo, postulare, postulavi, postulatum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place/put)",
+        "poto, potare, potavi, potatum": "These are the parts of 'potare' (to drink)",
+        "postulo, postulare, postulavi, postulatum": "These are the parts of 'postulare' (to demand)"
+      }
+    },
+    {
+      "prompt": "What case is 'dominis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "dominis = to (two) masters (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'domini' — 'dominis' is dative/ablative plural",
+        "ablative": "'Dominis' could be ablative, but 'servire' takes a dative object",
+        "genitive": "Genitive plural would be 'dominorum' — 'dominis' is dative"
+      }
+    },
+    {
+      "prompt": "What declension is 'dominus, domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'domini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'domini' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'duobus'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "genitive"],
+      "reveal": "duobus = to two (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative would be 'duo' — 'duobus' is dative/ablative",
+        "accusative": "Accusative would be 'duos/duo' — 'duobus' is dative/ablative",
+        "genitive": "Genitive would be 'duorum' — 'duobus' is dative"
+      }
+    },
+    {
+      "prompt": "What grammatical form is 'servire'?",
+      "target": "present active infinitive",
+      "choices": ["present active infinitive", "imperative", "present subjunctive", "perfect infinitive"],
+      "reveal": "servire = to serve",
+      "hints": {
+        "imperative": "Imperative would be 'servi' (sg.) or 'servite' (pl.) — 'servire' ends in -re",
+        "present subjunctive": "Present subjunctive would be 'serviat' — 'servire' is infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'servivisse' — 'servire' is present"
+      }
+    },
+    {
+      "prompt": "What case is 'servus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "servus = servant (nom., in apposition with 'nemo')",
+      "hints": {
+        "accusative": "Accusative would be 'servum' — 'servus' is nominative",
+        "vocative": "Vocative would be 'serve' — 'servus' is nominative here",
+        "genitive": "Genitive would be 'servi' — 'servus' is nominative"
+      }
+    }
+  ],
+  "translation": "No servant can serve two masters"
+}

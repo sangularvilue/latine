@@ -1,0 +1,119 @@
+{
+  "id": "luke-18-08",
+  "source": "Vulgate",
+  "reference": "Lucas 18:27",
+  "latin": ["Quae", "impossibilia", "sunt", "apud", "homines", "possibilia", "sunt", "apud", "Deum"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs does this sentence contain?",
+      "target": "two (sunt...sunt)",
+      "choices": ["two (sunt...sunt)", "one (sunt)", "three", "none"],
+      "reveal": null,
+      "hints": {
+        "one (sunt)": "'Sunt' appears twice — once in the relative clause and once in the main clause",
+        "three": "There are exactly two instances of 'sunt'",
+        "none": "Both instances of 'sunt' are finite verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to feel", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to stand": "'To stand' is 'stare' — 'sunt' is from 'esse' (to be)",
+        "to feel": "'To feel' is 'sentire' — 'sunt' is from 'esse'",
+        "to follow": "'To follow' is 'sequi' — 'sunt' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "sunt = are",
+      "hints": {
+        "perfect indicative": "Perfect would be 'fuerunt' — 'sunt' is present",
+        "present subjunctive": "Present subjunctive would be 'sint' — 'sunt' is indicative",
+        "future indicative": "Future would be 'erunt' — 'sunt' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "sentio, sentire, sensi, sensum", "sequor, sequi, secutus sum, —"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "sentio, sentire, sensi, sensum": "These are the parts of 'sentire' (to feel/perceive)",
+        "sequor, sequi, secutus sum, —": "These are the parts of 'sequi' (to follow)"
+      }
+    },
+    {
+      "prompt": "What case is 'impossibilia'?",
+      "target": "nominative (neuter plural)",
+      "choices": ["nominative (neuter plural)", "accusative (neuter plural)", "ablative", "genitive"],
+      "reveal": "impossibilia = impossible things (nom. neut. pl., predicate)",
+      "hints": {
+        "accusative (neuter plural)": "Neuter nom. and acc. are identical — here it is predicate nominative with 'sunt'",
+        "ablative": "Ablative neuter plural would be 'impossibilibus' — 'impossibilia' is nominative",
+        "genitive": "Genitive would be 'impossibilium' — 'impossibilia' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'homines'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "homines = men (acc. pl., after 'apud')",
+      "hints": {
+        "nominative": "'Homines' could be nominative, but after 'apud' it must be accusative",
+        "ablative": "Ablative plural would be 'hominibus' — 'homines' is acc. after 'apud'",
+        "vocative": "Vocative would be 'homines' in form, but no one is being addressed here"
+      }
+    },
+    {
+      "prompt": "What case is 'Deum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Deum = God (acc., after 'apud')",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Deum' with -um is accusative",
+        "ablative": "Ablative would be 'Deo' — 'Deum' is accusative after 'apud'",
+        "dative": "Dative would be 'Deo' — 'Deum' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'possibilia'?",
+      "target": "nominative (neuter plural)",
+      "choices": ["nominative (neuter plural)", "accusative (neuter plural)", "ablative", "genitive"],
+      "reveal": "possibilia = possible things (nom. neut. pl., predicate)",
+      "hints": {
+        "accusative (neuter plural)": "Neuter nom. and acc. are identical — here it is predicate nominative with 'sunt'",
+        "ablative": "Ablative would be 'possibilibus' — 'possibilia' is nominative",
+        "genitive": "Genitive would be 'possibilium' — 'possibilia' is nominative"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'apud' govern?",
+      "target": "the accusative case",
+      "choices": ["the accusative case", "the ablative case", "the genitive case", "the dative case"],
+      "reveal": "apud = among / with / in the presence of (+ acc.)",
+      "hints": {
+        "the ablative case": "'Apud' always takes the accusative — never the ablative",
+        "the genitive case": "No standard Latin preposition governs genitive alone — 'apud' takes accusative",
+        "the dative case": "Prepositions do not govern dative in Latin — 'apud' takes accusative"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical contrast in this sentence?",
+      "target": "human impossibility vs. divine possibility (apud homines vs. apud Deum)",
+      "choices": ["human impossibility vs. divine possibility (apud homines vs. apud Deum)", "past vs. future", "singular vs. plural", "active vs. passive voice"],
+      "reveal": null,
+      "hints": {
+        "past vs. future": "Both clauses use present tense 'sunt' — the contrast is between human and divine ability",
+        "singular vs. plural": "Both subjects are neuter plural — the contrast is theological",
+        "active vs. passive voice": "Both verbs are active ('sunt') — the contrast is between 'homines' and 'Deum'"
+      }
+    }
+  ],
+  "translation": "What is impossible with men is possible with God"
+}

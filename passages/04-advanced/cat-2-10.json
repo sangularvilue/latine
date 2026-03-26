@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-10",
+  "source": "Cicero",
+  "reference": "In Cat. II.4",
+  "latin": ["Etenim", "quid", "est", "Catilina", "quod", "te", "iam", "delectare", "possit"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "est",
+      "choices": ["quid", "est", "delectare", "possit"],
+      "reveal": null,
+      "hints": {
+        "quid": "'quid' is an interrogative pronoun meaning 'what'",
+        "delectare": "'delectare' is an infinitive meaning 'to delight'",
+        "possit": "'possit' is subjunctive in the relative clause"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'possit'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "possit", "gloss": "could / might be able to" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'potest' — 'possit' is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'posset' — 'possit' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'potuerit' — 'possit' is present"
+      }
+    },
+    {
+      "prompt": "Why is 'possit' in the subjunctive?",
+      "target": "Relative clause of characteristic — 'the sort of thing that could'",
+      "choices": ["Purpose clause", "Relative clause of characteristic — 'the sort of thing that could'", "Result clause", "Indirect command"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose uses 'ut/ne' — 'quod' here is a relative pronoun with characteristic subjunctive",
+        "Result clause": "Result uses 'ut' — this is a relative clause (introduced by 'quod') with subjunctive",
+        "Indirect command": "Indirect commands follow verbs of ordering — this is a rhetorical question with a characteristic relative clause"
+      }
+    },
+    {
+      "prompt": "The infinitive 'delectare' translates to?",
+      "target": "to delight / please",
+      "choices": ["to choose", "to delight / please", "to delete", "to accuse"],
+      "reveal": { "word": "delectare", "gloss": "to delight / charm" },
+      "hints": {
+        "to choose": "'to choose' is 'deligere' — 'delectare' means 'to delight/charm'",
+        "to delete": "'to delete' is 'delere' — 'delectare' means 'to delight'",
+        "to accuse": "'to accuse' is 'accusare' — 'delectare' means 'to please/delight'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'delectare'?",
+      "target": "delecto, delectare, delectavi, delectatum",
+      "choices": ["delecto, delectare, delectavi, delectatum", "deligo, deligere, delegi, delectum", "deleo, delere, delevi, deletum", "declaro, declarare, declaravi, declaratum"],
+      "reveal": null,
+      "hints": {
+        "deligo, deligere, delegi, delectum": "These are the parts of 'deligere' (to choose) — note the different supine stem",
+        "deleo, delere, delevi, deletum": "These are the parts of 'delere' (to destroy)",
+        "declaro, declarare, declaravi, declaratum": "These are the parts of 'declarare' (to declare)"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "te", "gloss": "you" },
+      "hints": {
+        "Nominative": "Nominative would be 'tu' — 'te' is accusative, object of 'delectare'",
+        "Dative": "Dative would be 'tibi' — 'te' is accusative",
+        "Ablative": "'te' can be ablative, but as object of 'delectare' it is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'Catilina'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "Catilina", "gloss": "O Catiline" },
+      "hints": {
+        "Nominative": "If nominative, Catiline would be the subject — but Cicero is addressing him directly",
+        "Accusative": "Accusative would be 'Catilinam' — this is vocative",
+        "Ablative": "Ablative would be 'Catilina' (same form), but context shows direct address"
+      }
+    },
+    {
+      "prompt": "What does 'Etenim' signal?",
+      "target": "An explanatory transition — 'for indeed / and in fact'",
+      "choices": ["A contrast — 'but'", "An explanatory transition — 'for indeed / and in fact'", "A temporal marker — 'then'", "A conditional — 'if indeed'"],
+      "reveal": null,
+      "hints": {
+        "A contrast — 'but'": "'But' would be 'sed' or 'autem' — 'etenim' introduces an explanation",
+        "A temporal marker — 'then'": "'Then' would be 'tum' or 'deinde' — 'etenim' means 'for indeed'",
+        "A conditional — 'if indeed'": "Conditionals use 'si' — 'etenim' connects to previous reasoning as 'for indeed'"
+      }
+    }
+  ],
+  "translation": "For indeed, what is there, Catiline, that could still delight you?"
+}

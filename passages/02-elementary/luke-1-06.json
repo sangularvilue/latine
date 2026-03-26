@@ -1,0 +1,75 @@
+{
+  "id": "luke-1-06",
+  "source": "Vulgate",
+  "reference": "Lucas 1:13",
+  "latin": ["Ne", "timeas", "Zacharia"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "timeas",
+      "choices": ["Ne", "timeas", "Zacharia", "dixit"],
+      "reveal": null,
+      "hints": {
+        "Ne": "'Ne' is a negative particle introducing a prohibition",
+        "Zacharia": "'Zacharia' is a proper noun in the vocative, the name Zechariah",
+        "dixit": "'Dixit' means 'he said' but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'timeas' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to hold", "to warn", "to see"],
+      "reveal": null,
+      "hints": {
+        "to hold": "That would be 'tenere'",
+        "to warn": "That would be 'monere'",
+        "to see": "That would be 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'timeas'?",
+      "target": "present subjunctive",
+      "choices": ["present indicative", "present subjunctive", "perfect", "future"],
+      "reveal": "timeas = you may fear / do not fear",
+      "hints": {
+        "present indicative": "Present indicative 2nd person would be 'times'; 'timeas' has subjunctive -ea-",
+        "perfect": "Perfect 2nd person would be 'timuisti'",
+        "future": "Future 2nd person would be 'timebis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timeas'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "taceo, tacere, tacui, tacitum", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the principal parts of 'teneo' (to hold)",
+        "taceo, tacere, tacui, tacitum": "These are the principal parts of 'taceo' (to be silent)",
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habeo' (to have)"
+      }
+    },
+    {
+      "prompt": "What case is 'Zacharia'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "ablative", "accusative"],
+      "reveal": "Zacharia = Zechariah (voc.)",
+      "hints": {
+        "nominative": "Nominative would be 'Zacharias'; the -a ending here signals vocative of a 1st declension masculine",
+        "ablative": "While -a can be ablative for 1st declension, context shows Zechariah is being addressed",
+        "accusative": "Accusative would be 'Zachariam'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Zacharias'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um; 'Zacharias' follows the Greek -as pattern of 1st declension",
+        "3rd declension": "3rd declension has -is in the genitive; 'Zacharias' follows 1st declension",
+        "indeclinable": "'Zacharias' does decline: Zacharias, Zachariae, Zachariae, Zachariam, Zacharia"
+      }
+    }
+  ],
+  "translation": "Do not fear, Zechariah"
+}

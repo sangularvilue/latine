@@ -1,0 +1,86 @@
+{
+  "id": "luke-1-08",
+  "source": "Vulgate",
+  "reference": "Lucas 1:42",
+  "latin": ["Benedicta", "tu", "inter", "mulieres"],
+  "steps": [
+    {
+      "prompt": "Which word functions as the verb/participle?",
+      "target": "Benedicta",
+      "choices": ["Benedicta", "tu", "inter", "mulieres"],
+      "reveal": null,
+      "hints": {
+        "tu": "'Tu' is a pronoun meaning 'you'",
+        "inter": "'Inter' is a preposition meaning 'among'",
+        "mulieres": "'Mulieres' is a noun meaning 'women'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'benedicta' translates to?",
+      "target": "to bless",
+      "choices": ["to bless", "to speak well", "to praise", "to give"],
+      "reveal": null,
+      "hints": {
+        "to speak well": "While 'benedicere' literally means 'to speak well of', the standard gloss is 'to bless'",
+        "to praise": "That would be 'laudare'",
+        "to give": "That would be 'dare'"
+      }
+    },
+    {
+      "prompt": "What form is 'benedicta'?",
+      "target": "perfect passive participle",
+      "choices": ["present active participle", "perfect passive participle", "present indicative", "future participle"],
+      "reveal": "benedicta = blessed (perf. pass. part.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'benedicens'",
+        "present indicative": "'Benedicta' is not a finite verb form; it is a participle used as predicate adjective",
+        "future participle": "Future active participle would be 'benedictura'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'benedicta'?",
+      "target": "benedico, benedicere, benedixi, benedictum",
+      "choices": ["benedico, benedicere, benedixi, benedictum", "dico, dicere, dixi, dictum", "bene, —, —, —", "laudo, laudare, laudavi, laudatum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are the principal parts of 'dico' (to say); 'benedico' is a compound of this",
+        "bene, —, —, —": "'Bene' is an adverb, not a verb; it does not have principal parts",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudo' (to praise)"
+      }
+    },
+    {
+      "prompt": "What case is 'tu'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "tu = you (nom.)",
+      "hints": {
+        "accusative": "Accusative of 'tu' would be 'te'",
+        "ablative": "Ablative of 'tu' would be 'te'",
+        "vocative": "While 'tu' can be vocative, here it serves as the subject of the predicate 'benedicta'"
+      }
+    },
+    {
+      "prompt": "What case is 'mulieres'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "mulieres = women (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would also be 'mulieres', but after 'inter' (a preposition taking accusative) it is accusative",
+        "ablative": "Ablative plural would be 'mulieribus'; 'inter' takes the accusative",
+        "genitive": "Genitive plural would be 'mulierum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'mulier'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'mulier' has genitive 'mulieris'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'mulier' has genitive 'mulieris'",
+        "5th declension": "5th declension nouns end in -es with genitive -ei; 'mulier' has genitive 'mulieris'"
+      }
+    }
+  ],
+  "translation": "Blessed are you among women"
+}

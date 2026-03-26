@@ -1,0 +1,75 @@
+{
+  "id": "luke-1-23",
+  "source": "Vulgate",
+  "reference": "Lucas 1:50",
+  "latin": ["Misericordia", "eius", "a", "progenie"],
+  "steps": [
+    {
+      "prompt": "Which is the subject?",
+      "target": "Misericordia",
+      "choices": ["Misericordia", "eius", "a", "progenie"],
+      "reveal": null,
+      "hints": {
+        "eius": "'Eius' is a pronoun meaning 'his/of him'",
+        "a": "'A' is a preposition meaning 'from'",
+        "progenie": "'Progenie' is a noun meaning 'generation'"
+      }
+    },
+    {
+      "prompt": "What case is 'misericordia'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "misericordia = mercy (nom.)",
+      "hints": {
+        "ablative": "Ablative singular of 1st declension is also 'misericordia', but here it is the subject",
+        "vocative": "Vocative would be for direct address; 'misericordia' is the subject",
+        "accusative": "Accusative would be 'misericordiam'"
+      }
+    },
+    {
+      "prompt": "What declension is 'misericordia'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um; 'misericordia' ends in -a",
+        "3rd declension": "3rd declension has varied nominative endings; 'misericordia' follows 1st declension -a pattern",
+        "5th declension": "5th declension nouns end in -es; 'misericordia' ends in -a"
+      }
+    },
+    {
+      "prompt": "What case is 'eius'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "eius = his / of him (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'is' (masc.) or 'ea' (fem.); 'eius' is genitive",
+        "dative": "Dative would be 'ei'",
+        "accusative": "Accusative would be 'eum' (masc.) or 'eam' (fem.)"
+      }
+    },
+    {
+      "prompt": "What case is 'progenie'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "progenie = generation (abl., after 'a')",
+      "hints": {
+        "nominative": "Nominative is 'progenies'; 'progenie' with -e is ablative",
+        "dative": "Dative would be 'progeniei'",
+        "accusative": "Accusative would be 'progeniem'"
+      }
+    },
+    {
+      "prompt": "What declension is 'progenies'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'progenies' ends in -es with genitive 'progeniei'",
+        "3rd declension": "3rd declension has -is in the genitive; 'progenies' has genitive 'progeniei'",
+        "4th declension": "4th declension nouns have -us genitive; 'progenies' has genitive 'progeniei'"
+      }
+    }
+  ],
+  "translation": "His mercy is from generation (to generation)"
+}

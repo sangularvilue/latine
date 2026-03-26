@@ -1,0 +1,97 @@
+{
+  "id": "luke-18-07",
+  "source": "Vulgate",
+  "reference": "Lucas 18:1",
+  "latin": ["Oportet", "semper", "orare", "et", "non", "deficere"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "Oportet",
+      "choices": ["Oportet", "orare", "deficere", "semper"],
+      "reveal": null,
+      "hints": {
+        "orare": "'Orare' is an infinitive meaning 'to pray'",
+        "deficere": "'Deficere' is an infinitive meaning 'to fail/lose heart'",
+        "semper": "'Semper' is an adverb meaning 'always'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Oportet' translates to?",
+      "target": "to be necessary / it is fitting",
+      "choices": ["to be necessary / it is fitting", "to open", "to work", "to hope"],
+      "reveal": null,
+      "hints": {
+        "to open": "'To open' is 'aperire' — 'Oportet' comes from 'oportere' (it is necessary)",
+        "to work": "'To work' is 'operari' or 'laborare' — 'oportere' means 'it is necessary'",
+        "to hope": "'To hope' is 'sperare' — 'oportere' means 'it is fitting/necessary'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Oportet'?",
+      "target": "present indicative (impersonal)",
+      "choices": ["present indicative (impersonal)", "perfect indicative", "present subjunctive", "imperative"],
+      "reveal": "Oportet = it is necessary / one ought",
+      "hints": {
+        "perfect indicative": "Perfect would be 'oportuit' — 'Oportet' is present",
+        "present subjunctive": "Present subjunctive would be 'oporteat' — 'Oportet' is indicative",
+        "imperative": "'Oportet' is impersonal — impersonal verbs do not have imperatives in standard usage"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Oportet'?",
+      "target": "oportet, oportere, oportuit, —",
+      "choices": ["oportet, oportere, oportuit, —", "aperio, aperire, aperui, apertum", "operor, operari, operatus sum, —", "opto, optare, optavi, optatum"],
+      "reveal": null,
+      "hints": {
+        "aperio, aperire, aperui, apertum": "These are the parts of 'aperire' (to open)",
+        "operor, operari, operatus sum, —": "These are the parts of 'operari' (to work) — a deponent",
+        "opto, optare, optavi, optatum": "These are the parts of 'optare' (to choose/wish)"
+      }
+    },
+    {
+      "prompt": "Why is 'Oportet' called impersonal?",
+      "target": "it has no personal subject — the infinitive phrase serves as its subject",
+      "choices": ["it has no personal subject — the infinitive phrase serves as its subject", "it is always passive", "it can only be 1st person", "it has no conjugated forms"],
+      "reveal": null,
+      "hints": {
+        "it is always passive": "'Oportet' is active in form — it is impersonal because it lacks a personal subject",
+        "it can only be 1st person": "'Oportet' is 3rd person singular — impersonal means it uses only the 3rd sg. form",
+        "it has no conjugated forms": "'Oportet' does conjugate (oportet, oportebat, oportuit) — it just lacks a personal subject"
+      }
+    },
+    {
+      "prompt": "What grammatical form is 'orare'?",
+      "target": "present active infinitive",
+      "choices": ["present active infinitive", "imperative", "gerund", "present subjunctive"],
+      "reveal": "orare = to pray",
+      "hints": {
+        "imperative": "Imperative would be 'ora' (sg.) — 'orare' ends in -re (infinitive)",
+        "gerund": "The gerund would be 'orandi/orandum' — 'orare' is the infinitive",
+        "present subjunctive": "Present subjunctive would be 'oret' — 'orare' is infinitive"
+      }
+    },
+    {
+      "prompt": "What grammatical form is 'deficere'?",
+      "target": "present active infinitive",
+      "choices": ["present active infinitive", "imperative", "perfect infinitive", "gerundive"],
+      "reveal": "deficere = to fail / to lose heart",
+      "hints": {
+        "imperative": "Imperative would be 'defice' — 'deficere' is the infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'defecisse' — 'deficere' is present",
+        "gerundive": "A gerundive would be 'deficiendum' — 'deficere' is the infinitive"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'semper'?",
+      "target": "adverb",
+      "choices": ["adverb", "conjunction", "adjective", "preposition"],
+      "reveal": "semper = always",
+      "hints": {
+        "conjunction": "A conjunction joins clauses — 'semper' modifies the verb 'orare' as 'always'",
+        "adjective": "An adjective would modify a noun — 'semper' modifies the verb",
+        "preposition": "A preposition would govern a case — 'semper' is an adverb"
+      }
+    }
+  ],
+  "translation": "It is necessary to pray always and not to lose heart"
+}

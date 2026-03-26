@@ -1,0 +1,86 @@
+{
+  "id": "luke-5-09",
+  "source": "Vulgate",
+  "reference": "Lucas 5:13",
+  "latin": ["Volo", "mundare"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Volo",
+      "choices": ["Volo", "mundare", "nolo", "velle"],
+      "reveal": null,
+      "hints": {
+        "mundare": "'mundare' is an infinitive (to cleanse), not a finite verb",
+        "nolo": "'nolo' means 'I do not want' but does not appear in this phrase",
+        "velle": "'velle' is the infinitive of 'volo' — 'Volo' is the finite form"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Volo' translates to?",
+      "target": "to wish / to want",
+      "choices": ["to wish / to want", "to fly", "to roll", "to turn"],
+      "reveal": null,
+      "hints": {
+        "to fly": "'to fly' is 'volare' — 'Volo' here comes from 'velle' (to wish)",
+        "to roll": "'to roll' is 'volvere' — 'Volo' comes from 'velle' (to wish)",
+        "to turn": "'to turn' is 'vertere' — 'Volo' comes from 'velle' (to wish)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Volo'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "future", "subjunctive"],
+      "reveal": { "word": "Volo", "gloss": "I wish / I want" },
+      "hints": {
+        "perfect": "Perfect would be 'volui' — 'Volo' is present indicative 1st person",
+        "future": "Future would be 'volam' — 'Volo' is present",
+        "subjunctive": "Subjunctive would be 'velim' — 'Volo' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Volo'?",
+      "target": "volo, velle, volui, —",
+      "choices": ["volo, velle, volui, —", "volo, volare, volavi, volatum", "volvo, volvere, volvi, volutum", "valeo, valere, valui, valitum"],
+      "reveal": null,
+      "hints": {
+        "volo, volare, volavi, volatum": "These are principal parts of 'volo' (to fly) — different verb!",
+        "volvo, volvere, volvi, volutum": "These are principal parts of 'volvo' (to roll)",
+        "valeo, valere, valui, valitum": "These are principal parts of 'valeo' (to be strong)"
+      }
+    },
+    {
+      "prompt": "'Mundare' is what form?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "participle", "gerund"],
+      "reveal": null,
+      "hints": {
+        "imperative": "Imperative would be 'munda' — 'mundare' ending in -are is the infinitive",
+        "participle": "Participle would be 'mundans' — 'mundare' is the infinitive",
+        "gerund": "Gerund would be 'mundandi' — 'mundare' is the present active infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive 'mundare' translates to?",
+      "target": "to cleanse / to make clean",
+      "choices": ["to cleanse / to make clean", "to fortify", "to adorn", "to build a wall"],
+      "reveal": { "word": "mundare", "gloss": "to cleanse / to purify" },
+      "hints": {
+        "to fortify": "'to fortify' is 'munire' — 'mundare' means 'to cleanse'",
+        "to adorn": "'to adorn' is 'ornare' — 'mundare' means 'to cleanse'",
+        "to build a wall": "'to build a wall' is 'munire/murare' — 'mundare' means 'to cleanse'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'mundare'?",
+      "target": "mundo, mundare, mundavi, mundatum",
+      "choices": ["mundo, mundare, mundavi, mundatum", "munio, munire, munivi, munitum", "moneo, monere, monui, monitum", "muto, mutare, mutavi, mutatum"],
+      "reveal": null,
+      "hints": {
+        "munio, munire, munivi, munitum": "These are principal parts of 'munio' (to fortify)",
+        "moneo, monere, monui, monitum": "These are principal parts of 'moneo' (to warn)",
+        "muto, mutare, mutavi, mutatum": "These are principal parts of 'muto' (to change)"
+      }
+    }
+  ],
+  "translation": "I will; be clean"
+}

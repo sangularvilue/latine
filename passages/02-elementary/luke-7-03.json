@@ -1,0 +1,97 @@
+{
+  "id": "luke-7-03",
+  "source": "Vulgate",
+  "reference": "Lucas 7:23",
+  "latin": ["Beatus", "est", "qui", "non", "fuerit", "scandalizatus"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "est and fuerit",
+      "choices": ["est and fuerit", "est only", "fuerit only", "scandalizatus and est"],
+      "reveal": null,
+      "hints": {
+        "est only": "There are two finite verbs: 'est' (is) and 'fuerit' (shall have been)",
+        "fuerit only": "'fuerit' is a finite verb, but so is 'est' — the main clause verb",
+        "scandalizatus and est": "'scandalizatus' is a participle, not a finite verb — the verbs are 'est' and 'fuerit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to sit"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to stand": "'to stand' is 'stare' — 'est' is from 'esse' (to be)",
+        "to sit": "'to sit' is 'sedere' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "perfect": "Perfect of 'esse' would be 'fuit' — 'est' is present",
+        "imperfect": "Imperfect would be 'erat' — 'est' is present",
+        "future": "Future would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "sedeo, sedere, sedi, sessum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are principal parts of 'edo' (to eat)",
+        "sto, stare, steti, statum": "These are principal parts of 'sto' (to stand)",
+        "sedeo, sedere, sedi, sessum": "These are principal parts of 'sedeo' (to sit)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fuerit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to become", "to flee", "to make"],
+      "reveal": null,
+      "hints": {
+        "to become": "'to become' is 'fieri' — 'fuerit' is from 'esse' (to be), perfect stem 'fu-'",
+        "to flee": "'to flee' is 'fugere' — 'fuerit' is from 'esse' with the stem 'fu-'",
+        "to make": "'to make' is 'facere' — 'fuerit' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'fuerit'?",
+      "target": "perfect subjunctive",
+      "choices": ["future perfect indicative", "perfect subjunctive", "perfect indicative", "pluperfect subjunctive"],
+      "reveal": { "word": "fuerit", "gloss": "shall have been / who has not been" },
+      "hints": {
+        "future perfect indicative": "'fuerit' in a relative clause with 'qui' is best read as perfect subjunctive",
+        "perfect indicative": "Perfect indicative 3rd person is 'fuit' — 'fuerit' is subjunctive",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'fuisset' — 'fuerit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fuerit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "fio, fieri, factus sum, —", "fugio, fugere, fugi, fugitum", "fundo, fundere, fudi, fusum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum, —": "These are principal parts of 'fio' (to become/be made)",
+        "fugio, fugere, fugi, fugitum": "These are principal parts of 'fugio' (to flee)",
+        "fundo, fundere, fudi, fusum": "These are principal parts of 'fundo' (to pour)"
+      }
+    },
+    {
+      "prompt": "What case is 'Beatus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": { "word": "Beatus", "gloss": "blessed / happy" },
+      "hints": {
+        "accusative": "Accusative would be 'beatum' — 'Beatus' is nominative (predicate adjective)",
+        "vocative": "Vocative would be 'beate' — 'Beatus' is nominative, predicate of 'est'",
+        "genitive": "Genitive would be 'beati' — 'Beatus' is nominative"
+      }
+    }
+  ],
+  "translation": "Blessed is he who shall not have been scandalized"
+}

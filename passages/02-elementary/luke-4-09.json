@@ -1,0 +1,97 @@
+{
+  "id": "luke-4-09",
+  "source": "Vulgate",
+  "reference": "Lucas 4:8",
+  "latin": ["Dominum", "Deum", "tuum", "adorabis"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "adorabis",
+      "choices": ["Dominum", "Deum", "tuum", "adorabis"],
+      "reveal": null,
+      "hints": {
+        "Dominum": "'Dominum' is a noun meaning 'the Lord' in the accusative",
+        "Deum": "'Deum' is a noun meaning 'God' in the accusative",
+        "tuum": "'tuum' is a possessive adjective meaning 'your'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'adorabis' translates to?",
+      "target": "to worship / to adore",
+      "choices": ["to worship / to adore", "to decorate", "to speak to", "to approach"],
+      "reveal": null,
+      "hints": {
+        "to decorate": "'to decorate' is 'ornare' — 'adorabis' comes from 'adorare' (to worship)",
+        "to speak to": "'to speak to' is 'alloqui' — 'adorabis' comes from 'adorare' (to worship)",
+        "to approach": "'to approach' is 'accedere' — 'adorabis' comes from 'adorare' (to worship)"
+      }
+    },
+    {
+      "prompt": "What tense is 'adorabis'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "imperfect"],
+      "reveal": { "word": "adorabis", "gloss": "you shall worship" },
+      "hints": {
+        "present indicative": "Present 2nd person would be 'adoras' — 'adorabis' with -bis is future",
+        "perfect": "Perfect would be 'adoravisti' — 'adorabis' is future",
+        "imperfect": "Imperfect would be 'adorabas' — 'adorabis' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'adorabis'?",
+      "target": "adoro, adorare, adoravi, adoratum",
+      "choices": ["adoro, adorare, adoravi, adoratum", "orno, ornare, ornavi, ornatum", "oro, orare, oravi, oratum", "amo, amare, amavi, amatum"],
+      "reveal": null,
+      "hints": {
+        "orno, ornare, ornavi, ornatum": "These are principal parts of 'orno' (to decorate/equip)",
+        "oro, orare, oravi, oratum": "These are principal parts of 'oro' (to pray/speak)",
+        "amo, amare, amavi, amatum": "These are principal parts of 'amo' (to love)"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": { "word": "Dominum", "gloss": "the Lord" },
+      "hints": {
+        "nominative": "Nominative would be 'Dominus' — 'Dominum' with -um is accusative",
+        "ablative": "Ablative would be 'Domino' — 'Dominum' is accusative, direct object",
+        "dative": "Dative would be 'Domino' — 'Dominum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'Domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Deum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Deum", "gloss": "God" },
+      "hints": {
+        "nominative": "Nominative is 'Deus' — 'Deum' with -um is accusative",
+        "ablative": "Ablative would be 'Deo' — 'Deum' is accusative, in apposition with 'Dominum'",
+        "genitive": "Genitive would be 'Dei' — 'Deum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus, Dei'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Dei' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Dei' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'Dei' ends in -i"
+      }
+    }
+  ],
+  "translation": "You shall worship the Lord your God"
+}

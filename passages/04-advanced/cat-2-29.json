@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-29",
+  "source": "Cicero",
+  "reference": "In Cat. I.7",
+  "latin": ["Caedes", "atque", "incendia", "meditaris"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "meditaris",
+      "choices": ["Caedes", "atque", "incendia", "meditaris"],
+      "reveal": null,
+      "hints": {
+        "Caedes": "'Caedes' is a noun meaning 'slaughter / murder'",
+        "atque": "'atque' is a conjunction meaning 'and'",
+        "incendia": "'incendia' is a noun meaning 'fires / arson'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'meditaris' translates to?",
+      "target": "to plan / contemplate",
+      "choices": ["to heal", "to plan / contemplate", "to mediate", "to measure"],
+      "reveal": null,
+      "hints": {
+        "to heal": "'to heal' is 'mederi' — 'meditari' means 'to plan/contemplate'",
+        "to mediate": "There is no exact Latin verb 'mediare' — 'meditari' means 'to ponder/plan'",
+        "to measure": "'to measure' is 'metiri' — 'meditari' means 'to contemplate/rehearse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'meditaris'?",
+      "target": "Present indicative (deponent)",
+      "choices": ["Present passive indicative", "Present indicative (deponent)", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "meditaris", "gloss": "you are plotting" },
+      "hints": {
+        "Present passive indicative": "'meditari' is deponent — passive in form but active in meaning (you are plotting)",
+        "Present subjunctive": "Present subjunctive would be 'mediteris' — 'meditaris' is indicative",
+        "Future indicative": "Future would be 'meditaberis' — 'meditaris' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'meditaris'?",
+      "target": "meditor, meditari, meditatus sum",
+      "choices": ["meditor, meditari, meditatus sum", "medeor, mederi, —", "metior, metiri, mensus sum", "minor, minari, minatus sum"],
+      "reveal": null,
+      "hints": {
+        "medeor, mederi, —": "These are the parts of 'mederi' (to heal) — a different deponent",
+        "metior, metiri, mensus sum": "These are the parts of 'metiri' (to measure) — a different deponent",
+        "minor, minari, minatus sum": "These are the parts of 'minari' (to threaten) — a different deponent"
+      }
+    },
+    {
+      "prompt": "What case is 'Caedes'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "Caedes", "gloss": "slaughter / massacres" },
+      "hints": {
+        "Nominative": "Nominative singular is 'caedes' (same form), but here as object of 'meditaris' it is accusative plural",
+        "Genitive": "Genitive would be 'caedis' (sing.) or 'caedium' (pl.) — 'caedes' is accusative plural",
+        "Ablative": "Ablative would be 'caede' (sing.) or 'caedibus' (pl.) — 'caedes' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'caedes'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative plural ends in -as — 'caedes, caedis' is 3rd declension",
+        "2nd": "2nd declension accusative plural ends in -os — 'caedes, caedis' is 3rd declension",
+        "5th": "5th declension accusative plural ends in -es too, but 'caedes, caedis' with gen. -is is 3rd"
+      }
+    },
+    {
+      "prompt": "What case is 'incendia'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "incendia", "gloss": "fires / acts of arson" },
+      "hints": {
+        "Nominative": "Neuter plural nom./acc. are the same — as object of 'meditaris' it is accusative",
+        "Genitive": "Genitive plural would be 'incendiorum' — 'incendia' is accusative",
+        "Ablative": "Ablative plural would be 'incendiis' — 'incendia' is accusative"
+      }
+    },
+    {
+      "prompt": "What specific crimes does Cicero accuse Catiline of planning?",
+      "target": "Mass murder (caedes) and burning Rome (incendia)",
+      "choices": ["Theft and bribery", "Mass murder (caedes) and burning Rome (incendia)", "Treason and exile", "Forgery and fraud"],
+      "reveal": null,
+      "hints": {
+        "Theft and bribery": "'caedes' means 'slaughter' and 'incendia' means 'fires' — not theft or bribery",
+        "Treason and exile": "While treason is the overall charge, the specific plans named are slaughter and arson",
+        "Forgery and fraud": "'caedes' and 'incendia' are violent crimes — slaughter and fire, not fraud"
+      }
+    }
+  ],
+  "translation": "You are plotting slaughter and arson."
+}

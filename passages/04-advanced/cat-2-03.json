@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-03",
+  "source": "Cicero",
+  "reference": "In Cat. II.1",
+  "latin": ["O", "nos", "beatos", "o", "rem", "publicam", "fortunatam"],
+  "steps": [
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "Nominative": "'nos' can be nominative ('we'), but after 'O' this is an exclamatory accusative",
+        "Dative": "Dative would be 'nobis' — 'nos' here is accusative in an exclamation",
+        "Ablative": "Ablative would be 'nobis' — 'nos' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'beatos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "beatos", "gloss": "happy / blessed" },
+      "hints": {
+        "Nominative": "Nominative plural masculine would be 'beati' — 'beatos' is accusative plural",
+        "Genitive": "Genitive would be 'beatorum' — 'beatos' is accusative, agreeing with 'nos'",
+        "Ablative": "Ablative would be 'beatis' — 'beatos' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'rem publicam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "rem publicam", "gloss": "the republic" },
+      "hints": {
+        "Nominative": "Nominative would be 'res publica' — 'rem publicam' is accusative in exclamation",
+        "Dative": "Dative would be 'rei publicae' — 'rem publicam' is accusative",
+        "Ablative": "Ablative would be 're publica' — 'rem publicam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'fortunatam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "fortunatam", "gloss": "fortunate / blessed" },
+      "hints": {
+        "Nominative": "Nominative feminine would be 'fortunata' — 'fortunatam' with -am ending is accusative",
+        "Genitive": "Genitive would be 'fortunatae' — 'fortunatam' is accusative",
+        "Ablative": "Ablative would be 'fortunata' — 'fortunatam' is accusative, agreeing with 'rem publicam'"
+      }
+    },
+    {
+      "prompt": "Declension of 'rem'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'res, rei' is 5th declension",
+        "3rd": "3rd declension accusative ends in -em — 'res, rei' is 5th declension",
+        "4th": "4th declension accusative ends in -um — 'res, rei' is 5th declension"
+      }
+    },
+    {
+      "prompt": "This sentence contains no verb. What is the grammatical construction?",
+      "target": "Exclamatory accusative with 'O'",
+      "choices": ["Ablative absolute", "Exclamatory accusative with 'O'", "Nominative exclamation", "Historic infinitive"],
+      "reveal": null,
+      "hints": {
+        "Ablative absolute": "Ablative absolute requires a participle + noun in ablative — these are accusatives with 'O'",
+        "Nominative exclamation": "The forms are accusative (beatos, rem, fortunatam), not nominative",
+        "Historic infinitive": "Historic infinitive replaces finite verbs in narration — there is no infinitive here"
+      }
+    },
+    {
+      "prompt": "This echoes 'O tempora, o mores' from In Cat. I. What figure is the repeated 'O'?",
+      "target": "Anaphora",
+      "choices": ["Anaphora", "Chiasmus", "Litotes", "Hyperbole"],
+      "reveal": null,
+      "hints": {
+        "Chiasmus": "Chiasmus is ABBA word order — the parallel 'O ... o ...' is anaphora (repeated opening)",
+        "Litotes": "Litotes is understatement by negation — this is emphatic exclamation",
+        "Hyperbole": "While the sentiment may be exaggerated, the specific figure of repeating 'O' is anaphora"
+      }
+    },
+    {
+      "prompt": "Is Cicero's joy here entirely sincere?",
+      "target": "Debatable — it may carry ironic undertones given the danger remaining",
+      "choices": ["Completely sincere celebration", "Debatable — it may carry ironic undertones given the danger remaining", "Entirely sarcastic", "Expressing fear disguised as joy"],
+      "reveal": null,
+      "hints": {
+        "Completely sincere celebration": "While Cicero celebrates, conspirators remain in Rome — the exclamation may be premature or deliberately overblown for effect",
+        "Entirely sarcastic": "Cicero does feel relief, but the excessive praise suggests awareness that the crisis is not over",
+        "Expressing fear disguised as joy": "There is genuine satisfaction in Catiline's departure, but the rhetorical excess hints at complexity"
+      }
+    }
+  ],
+  "translation": "O how happy we are! O how fortunate the republic!"
+}

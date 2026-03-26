@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-17",
+  "source": "Cicero",
+  "reference": "In Cat. I.5",
+  "latin": ["An", "invidiam", "posteritatis", "times"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "times",
+      "choices": ["An", "invidiam", "posteritatis", "times"],
+      "reveal": null,
+      "hints": {
+        "An": "'An' is a conjunction introducing a question — 'or' / 'is it that'",
+        "invidiam": "'invidiam' is a noun in the accusative case",
+        "posteritatis": "'posteritatis' is a noun in the genitive case"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'times' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to esteem", "to touch", "to time"],
+      "reveal": null,
+      "hints": {
+        "to esteem": "'to esteem' would be 'aestimare' — 'timere' means 'to fear'",
+        "to touch": "'to touch' is 'tangere' — 'timere' means 'to fear'",
+        "to time": "Latin has no verb 'to time' — 'timere' means 'to fear/be afraid of'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'times'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Future indicative"],
+      "reveal": { "word": "times", "gloss": "you fear / are you afraid of" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'timeas' — 'times' is indicative",
+        "Perfect indicative": "Perfect would be 'timuisti' — 'times' is present",
+        "Future indicative": "Future would be 'timebis' — 'times' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'times'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "tango, tangere, tetigi, tactum", "tollo, tollere, sustuli, sublatum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold) — a different 2nd conjugation verb",
+        "tango, tangere, tetigi, tactum": "These are the parts of 'tangere' (to touch)",
+        "tollo, tollere, sustuli, sublatum": "These are the parts of 'tollere' (to lift/remove)"
+      }
+    },
+    {
+      "prompt": "What case is 'invidiam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "invidiam", "gloss": "unpopularity / resentment" },
+      "hints": {
+        "Nominative": "Nominative would be 'invidia' — 'invidiam' with -am ending is accusative, object of 'times'",
+        "Genitive": "Genitive would be 'invidiae' — 'invidiam' is accusative",
+        "Ablative": "Ablative would be 'invidia' — 'invidiam' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'invidiam'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension accusative ends in -um — 'invidia, -ae' is 1st declension",
+        "3rd": "3rd declension accusative ends in -em — 'invidia, -ae' is 1st declension",
+        "5th": "5th declension accusative ends in -em — 'invidia, -ae' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'posteritatis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "posteritatis", "gloss": "of posterity / future generations" },
+      "hints": {
+        "Nominative": "Nominative would be 'posteritas' — 'posteritatis' with -atis ending is genitive",
+        "Dative": "Dative would be 'posteritati' — 'posteritatis' is genitive",
+        "Ablative": "Ablative would be 'posteritate' — 'posteritatis' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'posteritatis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive ends in -ae — 'posteritas, posteritatis' is 3rd declension",
+        "2nd": "2nd declension genitive ends in -i — 'posteritas, posteritatis' is 3rd declension",
+        "5th": "5th declension genitive ends in -ei — 'posteritas, posteritatis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What does 'An' signal at the start of a question?",
+      "target": "The second part of a disjunctive question — 'Or is it that …?'",
+      "choices": ["A simple yes/no question", "The second part of a disjunctive question — 'Or is it that …?'", "A negative question", "A rhetorical statement"],
+      "reveal": null,
+      "hints": {
+        "A simple yes/no question": "Simple yes/no questions use '-ne' or 'num' — 'an' introduces an alternative in a double question",
+        "A negative question": "Negative questions use 'nonne' — 'an' offers an alternative possibility",
+        "A rhetorical statement": "'An' does introduce a rhetorical question, but specifically as the second alternative in a disjunctive question"
+      }
+    }
+  ],
+  "translation": "Or do you fear the resentment of posterity?"
+}

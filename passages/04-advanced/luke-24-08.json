@@ -1,0 +1,130 @@
+{
+  "id": "luke-24-08",
+  "source": "Vulgate",
+  "reference": "Lucas 24:34",
+  "latin": ["Surrexit", "Dominus", "vere", "et", "apparuit", "Simoni"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "two: 'Surrexit' and 'apparuit'",
+      "choices": ["two: 'Surrexit' and 'apparuit'", "one: 'Surrexit'", "one: 'apparuit'", "three"],
+      "reveal": null,
+      "hints": {
+        "one: 'Surrexit'": "'Surrexit' is one finite verb, but 'apparuit' is also finite (perfect indicative)",
+        "one: 'apparuit'": "'Apparuit' is one finite verb, but 'Surrexit' is also finite",
+        "three": "There are exactly two finite verbs in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Surrexit' translates to?",
+      "target": "to rise / to rise up",
+      "choices": ["to rise / to rise up", "to correct", "to rule", "to stretch"],
+      "reveal": null,
+      "hints": {
+        "to correct": "'To correct' is 'corrigere' — 'Surrexit' comes from 'surgere' (to rise)",
+        "to rule": "'To rule' is 'regere' — 'Surrexit' comes from 'surgere' (sub- + regere)",
+        "to stretch": "'To stretch' is 'surgere' is not 'to stretch' — it means 'to rise'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Surrexit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "future perfect"],
+      "reveal": "Surrexit = has risen (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'surgit' — 'Surrexit' with -exit is perfect",
+        "pluperfect indicative": "Pluperfect would be 'surrexerat' — 'Surrexit' is perfect",
+        "future perfect": "Future perfect would be 'surrexerit' — 'Surrexit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Surrexit'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "rego, regere, rexi, rectum", "erigo, erigere, erexi, erectum", "resurgo, resurgere, resurrexi, resurrectum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are the parts of 'rego' (to rule/guide)",
+        "erigo, erigere, erexi, erectum": "These are the parts of 'erigo' (to raise up)",
+        "resurgo, resurgere, resurrexi, resurrectum": "These are the parts of 'resurgo' (to rise again) — related but different compound"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'apparuit' translates to?",
+      "target": "to appear / to become visible",
+      "choices": ["to appear / to become visible", "to prepare", "to arrange", "to seize"],
+      "reveal": null,
+      "hints": {
+        "to prepare": "'To prepare' is 'parare/apparare' — 'apparuit' comes from 'apparere' (ad- + parere, to appear)",
+        "to arrange": "'To arrange' is 'disponere' — 'apparuit' comes from 'apparere'",
+        "to seize": "'To seize' is 'apprehendere' — 'apparuit' comes from 'apparere' (to appear)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'apparuit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "imperfect indicative", "future indicative"],
+      "reveal": "apparuit = appeared (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'apparet' — 'apparuit' with -uit is perfect",
+        "imperfect indicative": "Imperfect would be 'apparebat' — 'apparuit' is perfect",
+        "future indicative": "Future would be 'apparebit' — 'apparuit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'apparuit'?",
+      "target": "appareo, apparere, apparui, apparitum",
+      "choices": ["appareo, apparere, apparui, apparitum", "paro, parare, paravi, paratum", "pareo, parere, parui, paritum", "apparo, apparare, apparavi, apparatum"],
+      "reveal": null,
+      "hints": {
+        "paro, parare, paravi, paratum": "These are the parts of 'paro' (to prepare)",
+        "pareo, parere, parui, paritum": "These are the parts of 'pareo' (to obey) — 'apparere' is ad- + parere (to appear)",
+        "apparo, apparare, apparavi, apparatum": "These are the parts of 'apparo' (to prepare) — different from 'apparere' (to appear)"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "accusative"],
+      "reveal": "Dominus = the Lord (nom., subject)",
+      "hints": {
+        "genitive": "Genitive would be 'Domini' — 'Dominus' is nominative",
+        "vocative": "Vocative would be 'Domine' — 'Dominus' is nominative (subject)",
+        "accusative": "Accusative would be 'Dominum' — 'Dominus' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'Simoni'?",
+      "target": "dative",
+      "choices": ["dative", "genitive", "ablative", "nominative"],
+      "reveal": "Simoni = to Simon (dat., indirect object of 'apparuit')",
+      "hints": {
+        "genitive": "Genitive would be 'Simonis' — 'Simoni' with -i is dative",
+        "ablative": "Ablative would be 'Simone' — 'Simoni' is dative",
+        "nominative": "Nominative would be 'Simon' — 'Simoni' is dative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Simon, Simonis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Simonis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Simonis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'Simonis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the position and effect of 'vere' in this sentence?",
+      "target": "adverb placed emphatically between subject and verb: 'truly/indeed'",
+      "choices": ["adverb placed emphatically between subject and verb: 'truly/indeed'", "adjective modifying 'Dominus'", "conjunction joining the clauses", "noun meaning 'spring'"],
+      "reveal": "Surrexit Dominus vere = The Lord has truly risen",
+      "hints": {
+        "adjective modifying 'Dominus'": "'Vere' is an adverb (truly), not an adjective — the adjective would be 'verus'",
+        "conjunction joining the clauses": "'Et' is the conjunction — 'vere' is an emphatic adverb",
+        "noun meaning 'spring'": "'Ver' (spring) has ablative 'vere', but here 'vere' is the adverb 'truly'"
+      }
+    }
+  ],
+  "translation": "The Lord has truly risen and has appeared to Simon"
+}

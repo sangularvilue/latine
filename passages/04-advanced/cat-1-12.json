@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-12",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Patere", "tua", "consilia", "non", "sentis"],
+  "steps": [
+    {
+      "prompt": "Which words are the verbs?",
+      "target": "Patere, sentis",
+      "choices": ["tua, consilia", "Patere, sentis", "Patere, consilia", "tua, sentis"],
+      "reveal": null,
+      "hints": {
+        "tua, consilia": "'tua' is a possessive adjective ('your') and 'consilia' is a noun ('plans')",
+        "Patere, consilia": "'consilia' is a noun (neuter plural) meaning 'plans', not a verb",
+        "tua, sentis": "'tua' is a possessive adjective, not a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Patere' translates to?",
+      "target": "to lie open / be exposed",
+      "choices": ["to suffer", "to lie open / be exposed", "to obey", "to prepare"],
+      "reveal": null,
+      "hints": {
+        "to suffer": "'to suffer' is 'pati' (deponent) — 'patere' comes from 'pateo' (to lie open)",
+        "to obey": "'to obey' is 'parere' — similar but different verb from 'patere'",
+        "to prepare": "'to prepare' is 'parare' — 'patere' means 'to be open/exposed'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Patere'?",
+      "target": "Present infinitive (in indirect statement)",
+      "choices": ["Present indicative", "Present infinitive (in indirect statement)", "Present imperative", "Imperfect subjunctive"],
+      "reveal": { "word": "Patere", "gloss": "to lie open / are exposed" },
+      "hints": {
+        "Present indicative": "'Patere' could be 2nd person singular present passive, but here with 'sentis' it functions as infinitive in indirect speech",
+        "Present imperative": "Imperative would be a command — but 'non sentis' (you don't perceive) governs 'patere' as an infinitive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'paterent' or similar — 'patere' is an infinitive here"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Patere'?",
+      "target": "pateo, patere, patui, —",
+      "choices": ["pateo, patere, patui, —", "patior, pati, passus sum", "paro, parare, paravi, paratum", "pareo, parere, parui, paritum"],
+      "reveal": null,
+      "hints": {
+        "patior, pati, passus sum": "These are the parts of 'pati' (to suffer) — a deponent verb",
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare)",
+        "pareo, parere, parui, paritum": "These are the parts of 'parere' (to obey)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sentis' translates to?",
+      "target": "to feel / perceive",
+      "choices": ["to feel / perceive", "to think", "to send", "to be"],
+      "reveal": null,
+      "hints": {
+        "to think": "'to think' is 'cogitare' or 'putare' — 'sentire' means 'to feel/perceive'",
+        "to send": "'to send' is 'mittere' — 'sentire' means 'to perceive'",
+        "to be": "'to be' is 'esse' — 'sentire' means 'to feel/perceive'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sentis'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "sentis", "gloss": "you perceive / realize" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'sensisti' — 'sentis' is present",
+        "Present subjunctive": "Present subjunctive would be 'sentias' — 'sentis' is indicative",
+        "Future indicative": "Future would be 'senties' — 'sentis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sentis'?",
+      "target": "sentio, sentire, sensi, sensum",
+      "choices": ["sentio, sentire, sensi, sensum", "mitto, mittere, misi, missum", "audio, audire, audivi, auditum", "facio, facere, feci, factum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are the parts of 'mittere' (to send)",
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear) — same conjugation but different verb",
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to do/make)"
+      }
+    },
+    {
+      "prompt": "What case is 'consilia'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "consilia", "gloss": "plans / conspiracies" },
+      "hints": {
+        "Nominative": "Neuter plural nominative is the same form, but 'consilia' is the subject of the infinitive 'patere' in indirect statement — functioning as accusative",
+        "Ablative": "Ablative plural would be 'consiliis' — 'consilia' is accusative",
+        "Vocative": "One does not address 'plans' — 'consilia' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'consilia'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension plural would be 'consiliae' — 'consilium, -ii' is 2nd declension neuter",
+        "3rd": "3rd declension neuter plurals can end in -a, but 'consilium, -ii' is 2nd declension",
+        "4th": "4th declension nouns have gen. in -us — 'consilium, -ii' is 2nd declension"
+      }
+    }
+  ],
+  "translation": "Do you not realize that your plans lie exposed?"
+}

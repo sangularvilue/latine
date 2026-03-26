@@ -1,0 +1,108 @@
+{
+  "id": "luke-5-06",
+  "source": "Vulgate",
+  "reference": "Lucas 5:24",
+  "latin": ["Surge", "tolle", "lectum", "tuum"],
+  "steps": [
+    {
+      "prompt": "Which words are verbs?",
+      "target": "Surge and tolle",
+      "choices": ["Surge and tolle", "Surge only", "lectum and tuum", "tolle only"],
+      "reveal": null,
+      "hints": {
+        "Surge only": "There are two imperative verbs: 'Surge' (rise) and 'tolle' (take up)",
+        "lectum and tuum": "'lectum' is a noun (bed) and 'tuum' is a possessive adjective (your)",
+        "tolle only": "'tolle' is an imperative, but so is 'Surge' — both are verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Surge' translates to?",
+      "target": "to rise / to get up",
+      "choices": ["to rise / to get up", "to surge forward", "to push", "to search"],
+      "reveal": null,
+      "hints": {
+        "to surge forward": "English 'surge' is related but 'surgere' in Latin means 'to rise/get up'",
+        "to push": "'to push' is 'pellere/trudere' — 'surgere' means 'to rise'",
+        "to search": "'to search' is 'quaerere' — 'surgere' means 'to rise'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Surge'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "perfect"],
+      "reveal": { "word": "Surge", "gloss": "rise! / get up!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'surgit' — 'Surge' is a command",
+        "subjunctive": "Subjunctive would be 'surgat' — 'Surge' is the imperative singular",
+        "perfect": "Perfect would be 'surrexit' — 'Surge' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Surge'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "rego, regere, rexi, rectum", "sumo, sumere, sumpsi, sumptum", "curro, currere, cucurri, cursum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are principal parts of 'rego' (to rule/direct)",
+        "sumo, sumere, sumpsi, sumptum": "These are principal parts of 'sumo' (to take up)",
+        "curro, currere, cucurri, cursum": "These are principal parts of 'curro' (to run)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tolle' translates to?",
+      "target": "to lift / to take up",
+      "choices": ["to lift / to take up", "to endure", "to turn", "to destroy"],
+      "reveal": null,
+      "hints": {
+        "to endure": "'to endure' is 'tolerare' — 'tolle' comes from 'tollere' (to lift/take up)",
+        "to turn": "'to turn' is 'vertere' — 'tolle' comes from 'tollere' (to lift)",
+        "to destroy": "While 'tollere' can mean 'to remove', its primary sense is 'to lift/take up'"
+      }
+    },
+    {
+      "prompt": "What mood is 'tolle'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "infinitive", "subjunctive"],
+      "reveal": { "word": "tolle", "gloss": "take up! / pick up!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'tollit' — 'tolle' is imperative singular",
+        "infinitive": "Infinitive would be 'tollere' — 'tolle' is the imperative",
+        "subjunctive": "Subjunctive would be 'tollat' — 'tolle' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tolle'?",
+      "target": "tollo, tollere, sustuli, sublatum",
+      "choices": ["tollo, tollere, sustuli, sublatum", "tolero, tolerare, toleravi, toleratum", "teneo, tenere, tenui, tentum", "trado, tradere, tradidi, traditum"],
+      "reveal": null,
+      "hints": {
+        "tolero, tolerare, toleravi, toleratum": "These are principal parts of 'tolero' (to endure)",
+        "teneo, tenere, tenui, tentum": "These are principal parts of 'teneo' (to hold)",
+        "trado, tradere, tradidi, traditum": "These are principal parts of 'trado' (to hand over)"
+      }
+    },
+    {
+      "prompt": "What case is 'lectum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "lectum", "gloss": "bed / mat" },
+      "hints": {
+        "nominative": "Nominative would be 'lectus' — 'lectum' with -um ending is accusative singular",
+        "ablative": "Ablative would be 'lecto' — 'lectum' is accusative, direct object of 'tolle'",
+        "genitive": "Genitive would be 'lecti' — 'lectum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'lectus, lecti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'lecti' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'lecti' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'lecti' ends in -i"
+      }
+    }
+  ],
+  "translation": "Rise, take up your bed"
+}

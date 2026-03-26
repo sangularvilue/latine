@@ -1,0 +1,141 @@
+{
+  "id": "luke-19-05",
+  "source": "Vulgate",
+  "reference": "Lucas 19:5",
+  "latin": ["Zacchae", "festinans", "descende", "quia", "hodie", "in", "domo", "tua", "oportet", "me", "manere"],
+  "steps": [
+    {
+      "prompt": "Which are the finite verbs in this sentence?",
+      "target": "descende and oportet",
+      "choices": ["descende and oportet", "festinans and manere", "descende only", "oportet only"],
+      "reveal": null,
+      "hints": {
+        "festinans and manere": "'Festinans' is a participle and 'manere' is an infinitive — neither is finite",
+        "descende only": "'Descende' is one finite verb (imperative), but 'oportet' is also finite (indicative)",
+        "oportet only": "'Oportet' is finite, but 'descende' is also a finite verb (imperative)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'descende' translates to?",
+      "target": "to come down / to descend",
+      "choices": ["to come down / to descend", "to send", "to write", "to cut"],
+      "reveal": null,
+      "hints": {
+        "to send": "'To send' is 'mittere' — 'descende' comes from 'descendere' (de- + scandere)",
+        "to write": "'To write' is 'scribere' — 'descende' comes from 'descendere'",
+        "to cut": "'To cut' is 'scindere' — 'descende' comes from 'descendere' (to climb down)"
+      }
+    },
+    {
+      "prompt": "What mood is 'descende'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "future indicative"],
+      "reveal": "descende = come down! (2nd sing. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd sing. would be 'descendis' — 'descende' is imperative",
+        "present subjunctive": "Present subjunctive 2nd sing. would be 'descendas' — 'descende' is imperative",
+        "future indicative": "Future would be 'descendes' — 'descende' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'descende'?",
+      "target": "descendo, descendere, descendi, descensum",
+      "choices": ["descendo, descendere, descendi, descensum", "ascendo, ascendere, ascendi, ascensum", "scando, scandere, scandi, scansum", "scindo, scindere, scidi, scissum"],
+      "reveal": null,
+      "hints": {
+        "ascendo, ascendere, ascendi, ascensum": "These are the parts of 'ascendo' (to go up) — the opposite direction",
+        "scando, scandere, scandi, scansum": "These are the parts of 'scando' (to climb) — 'descendere' is de- + scandere",
+        "scindo, scindere, scidi, scissum": "These are the parts of 'scindo' (to cut/split)"
+      }
+    },
+    {
+      "prompt": "What is 'festinans' grammatically?",
+      "target": "present active participle (hurrying)",
+      "choices": ["present active participle (hurrying)", "perfect passive participle", "gerundive", "finite verb"],
+      "reveal": "festinans = hurrying / in haste (pres. act. participle modifying the subject 'you')",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would end in -tus — 'festinans' has -ans (present participle)",
+        "gerundive": "Gerundive would be 'festinandus' — 'festinans' is a present participle",
+        "finite verb": "'Festinans' is a participle, not a finite verb — it modifies the subject"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'festinans' (from 'festino')?",
+      "target": "festino, festinare, festinavi, festinatum",
+      "choices": ["festino, festinare, festinavi, festinatum", "fero, ferre, tuli, latum", "finio, finire, finivi, finitum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'fero' (to carry)",
+        "finio, finire, finivi, finitum": "These are the parts of 'finio' (to finish/limit)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugio' (to flee)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'oportet'?",
+      "target": "present indicative (impersonal)",
+      "choices": ["present indicative (impersonal)", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "oportet me manere = it is necessary for me to remain",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'oporteat' — 'oportet' is indicative",
+        "perfect indicative": "Perfect would be 'oportuit' — 'oportet' is present",
+        "future indicative": "Future would be 'oportebit' — 'oportet' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'oportet'?",
+      "target": "oportet, oportere, oportuit, —",
+      "choices": ["oportet, oportere, oportuit, —", "operor, operari, operatus sum, —", "opto, optare, optavi, optatum", "opprimo, opprimere, oppressi, oppressum"],
+      "reveal": null,
+      "hints": {
+        "operor, operari, operatus sum, —": "These are the parts of 'operor' (to work)",
+        "opto, optare, optavi, optatum": "These are the parts of 'opto' (to wish/choose)",
+        "opprimo, opprimere, oppressi, oppressum": "These are the parts of 'opprimo' (to crush/overwhelm)"
+      }
+    },
+    {
+      "prompt": "What case is 'Zacchae'?",
+      "target": "vocative",
+      "choices": ["vocative", "genitive", "nominative", "dative"],
+      "reveal": "Zacchae = Zacchaeus! (voc., direct address)",
+      "hints": {
+        "genitive": "Genitive would be 'Zacchaei' — 'Zacchae' is vocative of 'Zacchaeus' (1st/2nd decl.)",
+        "nominative": "Nominative would be 'Zacchaeus' — 'Zacchae' with -ae ending is vocative",
+        "dative": "Dative would be 'Zacchaeo' — 'Zacchae' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'domo'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "accusative"],
+      "reveal": "in domo tua = in your house (abl., location)",
+      "hints": {
+        "dative": "Dative 'domo' looks the same, but 'in' + ablative = location",
+        "nominative": "Nominative would be 'domus' — 'domo' is ablative after 'in'",
+        "accusative": "Accusative would be 'domum' — 'in' + ablative = location"
+      }
+    },
+    {
+      "prompt": "What case is 'me' and what is its function?",
+      "target": "accusative — subject of the infinitive 'manere'",
+      "choices": ["accusative — subject of the infinitive 'manere'", "ablative — after preposition", "dative — indirect object", "nominative — subject of 'oportet'"],
+      "reveal": "oportet me manere = it is necessary for me to remain (acc. + inf.)",
+      "hints": {
+        "ablative — after preposition": "There is no preposition governing 'me' — it is the accusative subject of 'manere'",
+        "dative — indirect object": "'Me' as dative would be 'mihi' — 'me' is accusative here",
+        "nominative — subject of 'oportet'": "'Oportet' is impersonal — 'me' is accusative, subject of the infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'manere'?",
+      "target": "maneo, manere, mansi, mansum",
+      "choices": ["maneo, manere, mansi, mansum", "mando, mandare, mandavi, mandatum", "manduco, manducare, manducavi, manducatum", "moneo, monere, monui, monitum"],
+      "reveal": null,
+      "hints": {
+        "mando, mandare, mandavi, mandatum": "These are the parts of 'mando' (to command)",
+        "manduco, manducare, manducavi, manducatum": "These are the parts of 'manduco' (to eat)",
+        "moneo, monere, monui, monitum": "These are the parts of 'moneo' (to warn/advise)"
+      }
+    }
+  ],
+  "translation": "Zacchaeus, hurry and come down, for today I must stay at your house"
+}

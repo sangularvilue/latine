@@ -1,0 +1,97 @@
+{
+  "id": "luke-9-09",
+  "source": "Vulgate",
+  "reference": "Lucas 9:20",
+  "latin": ["Tu", "es", "Christus", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "es",
+      "choices": ["Tu", "es", "Christus", "Dei"],
+      "reveal": null,
+      "hints": {
+        "Tu": "'Tu' is a pronoun meaning 'you'",
+        "Christus": "'Christus' is a noun meaning 'the Christ / the Anointed One'",
+        "Dei": "'Dei' is a noun meaning 'of God'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'es' here is from 'esse' (to be)",
+        "to go out": "That would be 'exire' — 'es' is from 'esse' (to be)",
+        "to follow": "That would be 'sequi' — 'es' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'es'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "imperfect indicative", "future indicative"],
+      "reveal": "es = you are",
+      "hints": {
+        "present subjunctive": "Present subjunctive of 'esse' would be 'sis' — 'es' is present indicative",
+        "imperfect indicative": "Imperfect would be 'eras' — 'es' is present indicative",
+        "future indicative": "Future would be 'eris' — 'es' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'es'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat) which also has infinitive 'esse'",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'Tu'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Tu = you (nom.)",
+      "hints": {
+        "accusative": "Accusative would be 'te' — 'Tu' is nominative, the subject",
+        "ablative": "Ablative would be 'te' — 'Tu' is nominative",
+        "vocative": "While 'tu' can be vocative, here it is emphatic nominative subject of 'es'"
+      }
+    },
+    {
+      "prompt": "What case is 'Christus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Christus = the Christ (nom., predicate nominative)",
+      "hints": {
+        "accusative": "Accusative would be 'Christum' — 'Christus' is predicate nominative with 'es'",
+        "vocative": "Vocative would be 'Christe' — 'Christus' is predicate nominative here",
+        "genitive": "Genitive would be 'Christi' — 'Christus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Christus, Christi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Christi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Christi' ends in -i",
+        "indeclinable": "'Christus' clearly declines: Christus, Christi, Christo, Christum, Christo"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Dei = of God (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Dei' is genitive singular",
+        "dative": "Dative would be 'Deo' — 'Dei' is genitive, showing relation",
+        "ablative": "Ablative would be 'Deo' — 'Dei' is genitive"
+      }
+    }
+  ],
+  "translation": "You are the Christ of God"
+}

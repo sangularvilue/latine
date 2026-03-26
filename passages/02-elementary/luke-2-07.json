@@ -1,0 +1,86 @@
+{
+  "id": "luke-2-07",
+  "source": "Vulgate",
+  "reference": "Lucas 2:11",
+  "latin": ["Natus", "est", "vobis", "hodie", "Salvator"],
+  "steps": [
+    {
+      "prompt": "Which words together form the verb?",
+      "target": "Natus est",
+      "choices": ["Natus est", "est vobis", "Natus hodie", "est Salvator"],
+      "reveal": null,
+      "hints": {
+        "est vobis": "'vobis' is a pronoun (for you) — 'Natus est' is the perfect passive of 'nascor'",
+        "Natus hodie": "'hodie' is an adverb (today) — the verb is 'Natus est' (was born)",
+        "est Salvator": "'Salvator' is a noun (Savior) — the compound verb is 'Natus est'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Natus est' translates to?",
+      "target": "to be born",
+      "choices": ["to be born", "to swim", "to find", "to name"],
+      "reveal": null,
+      "hints": {
+        "to swim": "'to swim' is 'natare/nare' — 'Natus est' comes from 'nasci' (to be born)",
+        "to find": "'to find' is 'invenire' — 'Natus est' comes from 'nasci'",
+        "to name": "'to name' is 'nominare' — 'Natus est' comes from 'nasci'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Natus est'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Natus est", "gloss": "has been born / was born" },
+      "hints": {
+        "Present": "Present of 'nasci' would be 'nascitur' — 'Natus est' is the perfect passive",
+        "Imperfect": "Imperfect would be 'nascebatur' — 'Natus est' (participle + est) is perfect",
+        "Future": "Future would be 'nascetur' — 'Natus est' is perfect passive (deponent)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Natus est'?",
+      "target": "nascor, nasci, natus sum",
+      "choices": ["nascor, nasci, natus sum", "nato, natare, natavi, natatum", "nosco, noscere, novi, notum", "narro, narrare, narravi, narratum"],
+      "reveal": null,
+      "hints": {
+        "nato, natare, natavi, natatum": "These are the parts of 'natare' (to swim)",
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to learn/know)",
+        "narro, narrare, narravi, narratum": "These are the parts of 'narrare' (to tell/narrate)"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "vobis", "gloss": "for you (plural)" },
+      "hints": {
+        "Nominative": "Nominative of this pronoun is 'vos' — 'vobis' is dative/ablative",
+        "Ablative": "'vobis' could be ablative, but here it means 'for you' — dative of advantage",
+        "Accusative": "Accusative would be 'vos' — 'vobis' is the dative form"
+      }
+    },
+    {
+      "prompt": "What case is 'Salvator'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Vocative"],
+      "reveal": { "word": "Salvator", "gloss": "a Savior" },
+      "hints": {
+        "Accusative": "Accusative would be 'Salvatorem' — 'Salvator' is nominative, the subject",
+        "Genitive": "Genitive would be 'Salvatoris' — 'Salvator' is the nominative subject",
+        "Vocative": "Vocative would be 'Salvator' (same form), but here it is the subject of 'Natus est'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Salvator, Salvatoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Salvatoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Salvatoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'Salvatoris' ends in -is"
+      }
+    }
+  ],
+  "translation": "A Savior has been born for you today"
+}

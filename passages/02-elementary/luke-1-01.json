@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-01",
+  "source": "Vulgate",
+  "reference": "Lucas 1:28",
+  "latin": ["Ave", "gratia", "plena"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Ave",
+      "choices": ["Ave", "gratia", "plena", "salve"],
+      "reveal": null,
+      "hints": {
+        "gratia": "'Gratia' is a noun meaning 'grace'",
+        "plena": "'Plena' is an adjective meaning 'full'",
+        "salve": "'Salve' is a greeting but does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'ave' translates to?",
+      "target": "to be well / to hail",
+      "choices": ["to be well / to hail", "to be full", "to give thanks", "to come"],
+      "reveal": null,
+      "hints": {
+        "to be full": "That would be the infinitive of 'implere'",
+        "to give thanks": "That would be the infinitive of 'gratias agere'",
+        "to come": "That would be the infinitive of 'venire'"
+      }
+    },
+    {
+      "prompt": "What tense is 'ave'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "perfect", "subjunctive"],
+      "reveal": "ave = hail! / greetings!",
+      "hints": {
+        "present indicative": "A present indicative would state a fact, but this is a command or greeting",
+        "perfect": "A perfect tense would indicate a completed action in the past",
+        "subjunctive": "A subjunctive would express wish or possibility, but this is a direct greeting"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ave'?",
+      "target": "aveo, avere, —, —",
+      "choices": ["aveo, avere, —, —", "amo, amare, amavi, amatum", "habeo, habere, habui, habitum", "ago, agere, egi, actum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amo' (to love)",
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habeo' (to have)",
+        "ago, agere, egi, actum": "These are the principal parts of 'ago' (to do/drive)"
+      }
+    },
+    {
+      "prompt": "What case is 'gratia'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "accusative", "genitive"],
+      "reveal": "gratia = grace (abl.)",
+      "hints": {
+        "nominative": "Nominative 'gratia' would be the subject, but here it describes the means or respect in which she is full",
+        "accusative": "Accusative would be 'gratiam'; 'gratia' here is ablative of respect",
+        "genitive": "Genitive would be 'gratiae'; 'gratia' here is ablative of respect"
+      }
+    },
+    {
+      "prompt": "What declension is 'gratia'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns typically end in -us or -um in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings and -is in the genitive",
+        "4th declension": "4th declension nouns typically end in -us (gen. -us) or -u"
+      }
+    },
+    {
+      "prompt": "What case is 'plena'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "plena = full (nom. fem.)",
+      "hints": {
+        "accusative": "Accusative feminine singular of 'plenus' would also be 'plenam'",
+        "ablative": "Ablative feminine singular would be 'plena' but here it is predicate nominative modifying the person addressed",
+        "vocative": "While the person is being addressed, 'plena' is a predicate adjective in the nominative"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'plena' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e; 'plenus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Plena' clearly declines: plenus, plena, plenum"
+      }
+    }
+  ],
+  "translation": "Hail, full of grace"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-9-11",
+  "source": "Vulgate",
+  "reference": "Lucas 9:33",
+  "latin": ["Magister", "bonum", "est", "nos", "hic", "esse"],
+  "steps": [
+    {
+      "prompt": "Which word is used as a vocative address?",
+      "target": "Magister",
+      "choices": ["Magister", "bonum", "nos", "hic"],
+      "reveal": null,
+      "hints": {
+        "bonum": "'Bonum' is an adjective/noun meaning 'good'",
+        "nos": "'Nos' is a pronoun meaning 'us/we'",
+        "hic": "'Hic' is an adverb here meaning 'here'"
+      }
+    },
+    {
+      "prompt": "What is the subject of 'est' in this sentence?",
+      "target": "nos hic esse (the infinitive phrase)",
+      "choices": ["Magister", "nos hic esse (the infinitive phrase)", "bonum", "hic"],
+      "reveal": "nos hic esse = for us to be here (subject infinitive)",
+      "hints": {
+        "Magister": "'Magister' is vocative — not the grammatical subject",
+        "bonum": "'Bonum' is the predicate adjective — not the subject",
+        "hic": "'Hic' is an adverb modifying 'esse' — not the subject by itself"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'est' here is from 'esse' (to be)",
+        "to stand": "That would be 'stare' — 'est' is from 'esse' (to be)",
+        "to remain": "That would be 'manere' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "est = it is",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is present indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present indicative",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "sisto, sistere, stiti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to cause to stand)"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "nos = us (acc., subject of infinitive 'esse')",
+      "hints": {
+        "nominative": "While 'nos' looks identical in nominative, as subject of an infinitive it is accusative",
+        "ablative": "Ablative would also be 'nobis' — 'nos' here is accusative subject of the infinitive",
+        "dative": "Dative would be 'nobis' — 'nos' is accusative subject of infinitive"
+      }
+    },
+    {
+      "prompt": "What case is 'bonum'?",
+      "target": "nominative (neuter, predicate)",
+      "choices": ["nominative (neuter, predicate)", "accusative", "ablative", "vocative"],
+      "reveal": "bonum = good (nom. neut., predicate adj.)",
+      "hints": {
+        "accusative": "While 'bonum' is identical in accusative neuter, here it is predicate with 'est'",
+        "ablative": "Ablative neuter would be 'bono' — 'bonum' is nominative predicate",
+        "vocative": "Vocative would be for direct address — 'bonum' is predicate adjective"
+      }
+    },
+    {
+      "prompt": "What declension is 'magister, magistri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'magistri' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'magistri' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'magistri' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is the grammatical function of the infinitive 'esse'?",
+      "target": "subject infinitive (with 'nos' as its accusative subject)",
+      "choices": ["subject infinitive (with 'nos' as its accusative subject)", "complementary infinitive", "purpose infinitive", "indirect statement"],
+      "reveal": null,
+      "hints": {
+        "complementary infinitive": "A complementary infinitive completes verbs like 'volo' — here 'esse' is the subject of 'est'",
+        "purpose infinitive": "Purpose is expressed by 'ut' + subjunctive — 'esse' is the subject of 'bonum est'",
+        "indirect statement": "Indirect statement requires a verb of saying/thinking — 'bonum est' is impersonal"
+      }
+    }
+  ],
+  "translation": "Master, it is good for us to be here"
+}

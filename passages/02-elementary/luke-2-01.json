@@ -1,0 +1,97 @@
+{
+  "id": "luke-2-01",
+  "source": "Vulgate",
+  "reference": "Lucas 2:1",
+  "latin": ["Exiit", "edictum", "a", "Caesare", "Augusto"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Exiit",
+      "choices": ["Exiit", "edictum", "Caesare", "Augusto"],
+      "reveal": null,
+      "hints": {
+        "edictum": "'edictum' is a noun meaning 'decree' — it is the subject of the sentence",
+        "Caesare": "'Caesare' is a proper noun — the name Caesar in the ablative",
+        "Augusto": "'Augusto' is a proper adjective/name — it modifies 'Caesare'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Exiit' translates to?",
+      "target": "to go out",
+      "choices": ["to go out", "to demand", "to exit (leave life)", "to eat"],
+      "reveal": null,
+      "hints": {
+        "to demand": "'to demand' is 'exigere' — 'Exiit' comes from 'exire' (to go out)",
+        "to exit (leave life)": "'exire' can mean 'to die' but its primary meaning is simply 'to go out/forth'",
+        "to eat": "'to eat' is 'edere' — 'Exiit' comes from 'exire' (ex + ire)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Exiit'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Exiit", "gloss": "went out" },
+      "hints": {
+        "Present": "Present of 'exire' would be 'exit' — 'Exiit' with the doubled -i- marks the perfect",
+        "Imperfect": "Imperfect would be 'exibat' — 'Exiit' is the 3rd singular perfect",
+        "Future": "Future would be 'exibit' — 'Exiit' is the 3rd singular perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Exiit'?",
+      "target": "exeo, exire, exii, exitum",
+      "choices": ["exeo, exire, exii, exitum", "exigo, exigere, exegi, exactum", "edo, edere, edidi, editum", "eo, ire, ii, itum"],
+      "reveal": null,
+      "hints": {
+        "exigo, exigere, exegi, exactum": "These are the principal parts of 'exigere' (to demand/drive out)",
+        "edo, edere, edidi, editum": "These are the principal parts of 'edere' (to publish/put forth)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — 'exire' is a compound: ex + ire"
+      }
+    },
+    {
+      "prompt": "What case is 'edictum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "edictum", "gloss": "a decree" },
+      "hints": {
+        "Accusative": "While 'edictum' looks the same in accusative, here it is the subject — nominative",
+        "Ablative": "Ablative of 'edictum' would be 'edicto' — 'edictum' is nominative here",
+        "Genitive": "Genitive would be 'edicti' — 'edictum' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'edictum, edicti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'edicti' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'edicti' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'edicti' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Caesare'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Dative"],
+      "reveal": { "word": "Caesare", "gloss": "from Caesar" },
+      "hints": {
+        "Nominative": "Nominative would be 'Caesar' — 'Caesare' with the -e ending is ablative",
+        "Accusative": "Accusative would be 'Caesarem' — 'Caesare' is ablative, governed by 'a'",
+        "Dative": "Dative would be 'Caesari' — 'Caesare' is ablative after the preposition 'a'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Caesar, Caesaris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Caesaris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Caesaris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'Caesaris' ends in -is"
+      }
+    }
+  ],
+  "translation": "A decree went out from Caesar Augustus"
+}

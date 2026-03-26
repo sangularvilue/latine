@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-33",
+  "source": "Cicero",
+  "reference": "In Cat. I.11",
+  "latin": ["Ad", "mortem", "te", "Catilina", "duci", "iam", "pridem", "oportebat"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "oportebat",
+      "choices": ["mortem", "duci", "pridem", "oportebat"],
+      "reveal": null,
+      "hints": {
+        "mortem": "'mortem' is a noun in the accusative meaning 'death'",
+        "duci": "'duci' is a passive infinitive meaning 'to be led'",
+        "pridem": "'pridem' is an adverb meaning 'long ago'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'oportebat' translates to?",
+      "target": "to be fitting / necessary",
+      "choices": ["to hope", "to be fitting / necessary", "to work", "to cover"],
+      "reveal": null,
+      "hints": {
+        "to hope": "'to hope' is 'sperare' — 'oportere' means 'it is fitting/it is necessary'",
+        "to work": "'to work' is 'operari' — 'oportere' means 'to be proper/necessary'",
+        "to cover": "'to cover' is 'operire' — 'oportere' is an impersonal verb meaning 'it is right/necessary'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'oportebat'?",
+      "target": "Imperfect indicative",
+      "choices": ["Present indicative", "Imperfect indicative", "Perfect indicative", "Imperfect subjunctive"],
+      "reveal": { "word": "oportebat", "gloss": "it was fitting / you ought to have been" },
+      "hints": {
+        "Present indicative": "Present would be 'oportet' — 'oportebat' with -ebat ending is imperfect",
+        "Perfect indicative": "Perfect would be 'oportuit' — 'oportebat' is imperfect",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'oporteret' — 'oportebat' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'oportebat'?",
+      "target": "oportet, oportere, oportuit, —",
+      "choices": ["oportet, oportere, oportuit, —", "operio, operire, operui, opertum", "opto, optare, optavi, optatum", "opprimo, opprimere, oppressi, oppressum"],
+      "reveal": null,
+      "hints": {
+        "operio, operire, operui, opertum": "These are the parts of 'operire' (to cover/hide)",
+        "opto, optare, optavi, optatum": "These are the parts of 'optare' (to wish/choose)",
+        "opprimo, opprimere, oppressi, oppressum": "These are the parts of 'opprimere' (to crush/suppress)"
+      }
+    },
+    {
+      "prompt": "What does 'oportebat' + infinitive express?",
+      "target": "An unfulfilled obligation — 'you should have been … (but were not)'",
+      "choices": ["A present obligation", "An unfulfilled obligation — 'you should have been … (but were not)'", "A future possibility", "A past completed action"],
+      "reveal": null,
+      "hints": {
+        "A present obligation": "Present obligation would use 'oportet' — imperfect 'oportebat' implies the obligation was not fulfilled",
+        "A future possibility": "'oportebat' looks to the past, not the future — it means 'you should have been (but weren't)'",
+        "A past completed action": "If completed, there would be no need for the imperfect — 'oportebat' implies the action was never done"
+      }
+    },
+    {
+      "prompt": "What case is 'mortem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "mortem", "gloss": "death" },
+      "hints": {
+        "Nominative": "Nominative would be 'mors' — 'mortem' with -em ending is accusative after 'ad'",
+        "Dative": "Dative would be 'morti' — 'mortem' is accusative after 'ad'",
+        "Ablative": "Ablative would be 'morte' — 'ad' governs the accusative"
+      }
+    },
+    {
+      "prompt": "What voice is the infinitive 'duci'?",
+      "target": "Passive — 'to be led'",
+      "choices": ["Active — 'to lead'", "Passive — 'to be led'", "Deponent — 'to lead'", "Middle — 'to lead oneself'"],
+      "reveal": { "word": "duci", "gloss": "to be led" },
+      "hints": {
+        "Active — 'to lead'": "Active infinitive would be 'ducere' — 'duci' is the passive infinitive",
+        "Deponent — 'to lead'": "'ducere' is not deponent — 'duci' is a true passive infinitive",
+        "Middle — 'to lead oneself'": "Latin does not have a middle voice — 'duci' is simply passive"
+      }
+    },
+    {
+      "prompt": "What is the full meaning of 'Ad mortem te duci oportebat'?",
+      "target": "You should long ago have been led to execution",
+      "choices": ["You are being led to death now", "You should long ago have been led to execution", "Someone will lead you to death", "Death is leading you away"],
+      "reveal": null,
+      "hints": {
+        "You are being led to death now": "'oportebat' (imperfect) + 'iam pridem' (long ago) shows this should have already happened",
+        "Someone will lead you to death": "The imperfect 'oportebat' refers to past obligation, not future action",
+        "Death is leading you away": "'te duci' means 'you to be led' — the subject being led is Catiline, not death"
+      }
+    }
+  ],
+  "translation": "You should long ago have been led to your death, Catiline."
+}

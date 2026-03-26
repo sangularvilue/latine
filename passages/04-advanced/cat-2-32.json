@@ -1,0 +1,108 @@
+{
+  "id": "cat-2-32",
+  "source": "Cicero",
+  "reference": "In Cat. II.21",
+  "latin": ["Vos", "Quirites", "deos", "immortales", "orate", "atque", "obsecrate"],
+  "steps": [
+    {
+      "prompt": "Which words are the imperative verbs?",
+      "target": "orate, obsecrate",
+      "choices": ["Vos, Quirites", "deos, immortales", "orate, obsecrate", "Quirites, orate"],
+      "reveal": null,
+      "hints": {
+        "Vos, Quirites": "'Vos' is a pronoun and 'Quirites' is vocative — neither is a verb",
+        "deos, immortales": "'deos immortales' is 'the immortal gods' in the accusative — not verbs",
+        "Quirites, orate": "'Quirites' is vocative, not a verb — but 'orate' is indeed one of the two imperatives"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'orate' translates to?",
+      "target": "to pray / beseech",
+      "choices": ["to speak", "to pray / beseech", "to decorate", "to work"],
+      "reveal": null,
+      "hints": {
+        "to speak": "'to speak' is 'orare' in some senses, but here with 'deos' it means 'to pray/beseech'",
+        "to decorate": "'to decorate' is 'ornare' — 'orare' means 'to pray/beseech'",
+        "to work": "'to work' is 'laborare' — 'orare' means 'to pray'"
+      }
+    },
+    {
+      "prompt": "What mood is 'orate'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Imperative", "Subjunctive", "Infinitive"],
+      "reveal": { "word": "orate", "gloss": "pray! / beseech!" },
+      "hints": {
+        "Indicative": "Indicative would be 'oratis' — 'orate' is imperative plural",
+        "Subjunctive": "Subjunctive would be 'oretis' — 'orate' is imperative",
+        "Infinitive": "Infinitive would be 'orare' — 'orate' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'orate'?",
+      "target": "oro, orare, oravi, oratum",
+      "choices": ["oro, orare, oravi, oratum", "orno, ornare, ornavi, ornatum", "ordino, ordinare, ordinavi, ordinatum", "orior, oriri, ortus sum"],
+      "reveal": null,
+      "hints": {
+        "orno, ornare, ornavi, ornatum": "These are the parts of 'ornare' (to equip/adorn)",
+        "ordino, ordinare, ordinavi, ordinatum": "These are the parts of 'ordinare' (to arrange/order)",
+        "orior, oriri, ortus sum": "These are the parts of 'oriri' (to rise) — a deponent verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'obsecrate' translates to?",
+      "target": "to implore / entreat",
+      "choices": ["to observe", "to implore / entreat", "to obey", "to consecrate"],
+      "reveal": { "word": "obsecrate", "gloss": "implore! / entreat!" },
+      "hints": {
+        "to observe": "'to observe' is 'observare' — 'obsecrare' means 'to implore'",
+        "to obey": "'to obey' is 'oboedire' or 'parere' — 'obsecrare' means 'to beseech/implore'",
+        "to consecrate": "'to consecrate' is 'consecrare' — 'obsecrare' means 'to entreat earnestly'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'obsecrate'?",
+      "target": "obsecro, obsecrare, obsecravi, obsecratum",
+      "choices": ["obsecro, obsecrare, obsecravi, obsecratum", "observo, observare, observavi, observatum", "consecro, consecrare, consecravi, consecratum", "obtempero, obtemperare, obtemperavi, obtemperatum"],
+      "reveal": null,
+      "hints": {
+        "observo, observare, observavi, observatum": "These are the parts of 'observare' (to observe/watch)",
+        "consecro, consecrare, consecravi, consecratum": "These are the parts of 'consecrare' (to consecrate)",
+        "obtempero, obtemperare, obtemperavi, obtemperatum": "These are the parts of 'obtemperare' (to obey)"
+      }
+    },
+    {
+      "prompt": "What case is 'deos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "deos", "gloss": "the gods" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'dei/di' — 'deos' with -os ending is accusative plural",
+        "Dative": "Dative would be 'deis/dis' — 'deos' is accusative, object of 'orate'",
+        "Ablative": "Ablative would be 'deis/dis' — 'deos' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'deos'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative plural ends in -as — 'deus, dei' is 2nd declension",
+        "3rd": "3rd declension accusative plural ends in -es — 'deus, dei' is 2nd declension",
+        "4th": "4th declension accusative plural ends in -us — 'deus, dei' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What is the effect of the paired synonyms 'orate atque obsecrate'?",
+      "target": "Rhetorical amplification — doubling of similar verbs intensifies the plea",
+      "choices": ["They mean different things", "Rhetorical amplification — doubling of similar verbs intensifies the plea", "It is a legal formula", "Cicero is being redundant by accident"],
+      "reveal": null,
+      "hints": {
+        "They mean different things": "Both mean 'pray/beseech' — the doubling is for emphasis, not distinction",
+        "It is a legal formula": "While paired verbs appear in legal language, here the effect is rhetorical intensification",
+        "Cicero is being redundant by accident": "Nothing in Cicero's polished oratory is accidental — paired synonyms are a deliberate rhetorical strategy"
+      }
+    }
+  ],
+  "translation": "You, Citizens, pray and beseech the immortal gods."
+}

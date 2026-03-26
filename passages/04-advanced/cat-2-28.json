@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-28",
+  "source": "Cicero",
+  "reference": "In Cat. II.18",
+  "latin": ["Quibus", "rebus", "omnibus", "Quirites", "providebo"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "providebo",
+      "choices": ["Quibus", "rebus", "Quirites", "providebo"],
+      "reveal": null,
+      "hints": {
+        "Quibus": "'Quibus' is a relative adjective meaning 'which (all these)'",
+        "rebus": "'rebus' is a noun meaning 'matters / affairs'",
+        "Quirites": "'Quirites' is a noun (vocative) meaning 'Citizens!'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'providebo' translates to?",
+      "target": "to foresee / provide for",
+      "choices": ["to prove", "to foresee / provide for", "to prevent", "to proceed"],
+      "reveal": null,
+      "hints": {
+        "to prove": "'to prove' is 'probare' — 'providere' means 'to foresee/provide for'",
+        "to prevent": "'to prevent' is 'prohibere' — 'providere' means 'to foresee/take precautions'",
+        "to proceed": "'to proceed' is 'procedere' — 'providere' means 'to foresee'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'providebo'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Future perfect indicative"],
+      "reveal": { "word": "providebo", "gloss": "I will provide for / take care of" },
+      "hints": {
+        "Present indicative": "Present would be 'provideo' — 'providebo' with -ebo ending is future",
+        "Present subjunctive": "Present subjunctive would be 'provideam' — 'providebo' is future indicative",
+        "Future perfect indicative": "Future perfect would be 'providero' — 'providebo' is simple future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'providebo'?",
+      "target": "provideo, providere, providi, provisum",
+      "choices": ["provideo, providere, providi, provisum", "video, videre, vidi, visum", "prohibeo, prohibere, prohibui, prohibitum", "procedo, procedere, processi, processum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see) — the base verb",
+        "prohibeo, prohibere, prohibui, prohibitum": "These are the parts of 'prohibere' (to prevent)",
+        "procedo, procedere, processi, processum": "These are the parts of 'procedere' (to proceed)"
+      }
+    },
+    {
+      "prompt": "What case is 'rebus'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "rebus", "gloss": "matters / affairs" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'res' — 'rebus' is dative/ablative; with 'providere' it is dative",
+        "Accusative": "Accusative plural would be 'res' — 'rebus' is dative (providere + dative = provide for)",
+        "Ablative": "'rebus' can be ablative, but 'providere' takes dative for what is provided for"
+      }
+    },
+    {
+      "prompt": "Declension of 'rebus'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension dative plural ends in -is — 'res, rei' is 5th declension",
+        "3rd": "3rd declension dative plural ends in -ibus — 'res, rei' with dat. pl. 'rebus' is 5th",
+        "4th": "4th declension dative plural ends in -ibus — 'res, rei' is 5th declension"
+      }
+    },
+    {
+      "prompt": "What case is 'Quirites'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "Quirites", "gloss": "Citizens!" },
+      "hints": {
+        "Nominative": "Nominative plural looks the same, but Cicero is addressing the citizens directly",
+        "Accusative": "Accusative looks the same for this noun, but the context is direct address",
+        "Ablative": "Ablative would be 'Quiritibus' — 'Quirites' is vocative"
+      }
+    },
+    {
+      "prompt": "What does Cicero promise with this closing statement?",
+      "target": "Personal responsibility for managing all aspects of the crisis",
+      "choices": ["He will resign his office", "Personal responsibility for managing all aspects of the crisis", "He will consult the senate first", "He will flee Rome"],
+      "reveal": null,
+      "hints": {
+        "He will resign his office": "'providebo' is a promise of action, not withdrawal",
+        "He will consult the senate first": "'providebo' (I will provide for) claims personal initiative, not deference",
+        "He will flee Rome": "The opposite — Cicero pledges to stay and manage the crisis"
+      }
+    }
+  ],
+  "translation": "For all these matters, Citizens, I will provide."
+}

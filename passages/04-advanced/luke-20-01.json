@@ -1,0 +1,130 @@
+{
+  "id": "luke-20-01",
+  "source": "Vulgate",
+  "reference": "Lucas 20:25",
+  "latin": ["Reddite", "ergo", "quae", "sunt", "Caesaris", "Caesari"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Reddite",
+      "choices": ["Reddite", "sunt", "Caesaris", "ergo"],
+      "reveal": null,
+      "hints": {
+        "sunt": "'Sunt' is a finite verb but it is in the subordinate relative clause",
+        "Caesaris": "'Caesaris' is a proper noun in the genitive case",
+        "ergo": "'Ergo' is a conjunction/adverb meaning 'therefore'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Reddite' translates to?",
+      "target": "to give back / to render",
+      "choices": ["to give back / to render", "to ask", "to rule", "to read"],
+      "reveal": null,
+      "hints": {
+        "to ask": "'To ask' is 'rogare' — 'Reddite' comes from 'reddere' (re- + dare)",
+        "to rule": "'To rule' is 'regere' — 'Reddite' comes from 'reddere'",
+        "to read": "'To read' is 'legere' — 'Reddite' comes from 'reddere' (to give back)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Reddite'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "Reddite = Give back! Render! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'redditis' — 'Reddite' lacks the -is ending",
+        "present subjunctive": "Present subjunctive 2nd plural would be 'reddatis' — 'Reddite' is imperative",
+        "perfect indicative": "Perfect indicative would be 'reddidistis' — 'Reddite' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Reddite'?",
+      "target": "reddo, reddere, reddidi, redditum",
+      "choices": ["reddo, reddere, reddidi, redditum", "redo, redire, redii, reditum", "rego, regere, rexi, rectum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "redo, redire, redii, reditum": "These are the parts of 'redire' (to go back) — 'reddere' means 'to give back'",
+        "rego, regere, rexi, rectum": "These are the principal parts of 'rego' (to rule/guide)",
+        "do, dare, dedi, datum": "These are the parts of 'do' (to give) — 'reddere' is the compound re- + dare but follows 3rd conjugation"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "sunt = are (3rd pl.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sint' — 'sunt' is indicative",
+        "perfect indicative": "Perfect would be 'fuerunt' — 'sunt' is present",
+        "imperfect indicative": "Imperfect would be 'erant' — 'sunt' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat) — 'sunt' is from 'sum' (to be)",
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "possum, posse, potui, —": "These are the parts of 'possum' (to be able) — a compound of 'sum'"
+      }
+    },
+    {
+      "prompt": "What case is the first 'Caesaris'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "Caesaris = of Caesar / Caesar's (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Caesar' — 'Caesaris' with -is ending is genitive",
+        "dative": "Dative would be 'Caesari' — 'Caesaris' ends in -is (genitive)",
+        "ablative": "Ablative would be 'Caesare' — 'Caesaris' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'Caesar, Caesaris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Caesaris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Caesaris' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'Caesaris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Caesari'?",
+      "target": "dative",
+      "choices": ["dative", "genitive", "nominative", "ablative"],
+      "reveal": "Caesari = to Caesar (dat.)",
+      "hints": {
+        "genitive": "Genitive would be 'Caesaris' — 'Caesari' with -i ending is dative",
+        "nominative": "Nominative is 'Caesar' — 'Caesari' is dative singular",
+        "ablative": "Ablative would be 'Caesare' — 'Caesari' is dative"
+      }
+    },
+    {
+      "prompt": "What function does 'quae' serve here?",
+      "target": "relative pronoun (the things which)",
+      "choices": ["relative pronoun (the things which)", "interrogative pronoun", "indefinite adjective", "exclamatory pronoun"],
+      "reveal": "quae sunt Caesaris = the things that are Caesar's",
+      "hints": {
+        "interrogative pronoun": "'Quae' can be interrogative in a question, but here it introduces a relative clause",
+        "indefinite adjective": "An indefinite 'quae' follows 'si/ne' — here it is a relative pronoun",
+        "exclamatory pronoun": "An exclamatory 'quae!' expresses surprise — here it is a simple relative"
+      }
+    },
+    {
+      "prompt": "What type of genitive is 'Caesaris' in 'quae sunt Caesaris'?",
+      "target": "genitive of possession",
+      "choices": ["genitive of possession", "partitive genitive", "subjective genitive", "genitive of description"],
+      "reveal": null,
+      "hints": {
+        "partitive genitive": "Partitive genitive indicates 'part of' — here 'Caesaris' shows ownership",
+        "subjective genitive": "Subjective genitive shows the agent of an action — here it is simple possession",
+        "genitive of description": "Genitive of description qualifies a noun — 'Caesaris' shows who owns the things"
+      }
+    }
+  ],
+  "translation": "Render therefore to Caesar the things that are Caesar's"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "cat-2-06",
+  "source": "Cicero",
+  "reference": "In Cat. I.8",
+  "latin": ["Cum", "tacent", "clamant"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "clamant",
+      "choices": ["Cum", "tacent", "clamant", "silentium"],
+      "reveal": null,
+      "hints": {
+        "Cum": "'Cum' is a conjunction meaning 'when / although'",
+        "tacent": "'tacent' is a verb but in the subordinate 'cum' clause — not the main verb",
+        "silentium": "'silentium' is a noun meaning 'silence' — not a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tacent' translates to?",
+      "target": "to be silent",
+      "choices": ["to touch", "to be silent", "to conceal", "to permit"],
+      "reveal": null,
+      "hints": {
+        "to touch": "'to touch' is 'tangere' — 'tacere' means 'to be silent'",
+        "to conceal": "'to conceal' is 'celare' — 'tacere' means 'to be silent/say nothing'",
+        "to permit": "'to permit' is 'sinere' or 'permittere' — 'tacere' means 'to be silent'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'tacent'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Imperfect indicative"],
+      "reveal": { "word": "tacent", "gloss": "they are silent" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'taceant' — 'tacent' is indicative",
+        "Perfect indicative": "Perfect would be 'tacuerunt' — 'tacent' is present",
+        "Imperfect indicative": "Imperfect would be 'tacebant' — 'tacent' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tacent'?",
+      "target": "taceo, tacere, tacui, tacitum",
+      "choices": ["taceo, tacere, tacui, tacitum", "tango, tangere, tetigi, tactum", "teneo, tenere, tenui, tentum", "tego, tegere, texi, tectum"],
+      "reveal": null,
+      "hints": {
+        "tango, tangere, tetigi, tactum": "These are the parts of 'tangere' (to touch)",
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)",
+        "tego, tegere, texi, tectum": "These are the parts of 'tegere' (to cover)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'clamant' translates to?",
+      "target": "to shout / cry out",
+      "choices": ["to shout / cry out", "to call", "to claim", "to close"],
+      "reveal": null,
+      "hints": {
+        "to call": "'to call' is 'vocare' — 'clamare' means 'to shout/cry out'",
+        "to claim": "'to claim' is a modern English word; Latin 'clamare' means 'to shout'",
+        "to close": "'to close' is 'claudere' — 'clamare' means 'to shout'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'clamant'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Future indicative"],
+      "reveal": { "word": "clamant", "gloss": "they shout / cry out" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'clament' — 'clamant' is indicative",
+        "Perfect indicative": "Perfect would be 'clamaverunt' — 'clamant' is present",
+        "Future indicative": "Future would be 'clamabunt' — 'clamant' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'clamant'?",
+      "target": "clamo, clamare, clamavi, clamatum",
+      "choices": ["clamo, clamare, clamavi, clamatum", "claudo, claudere, clausi, clausum", "claro, clarare, claravi, claratum", "celo, celare, celavi, celatum"],
+      "reveal": null,
+      "hints": {
+        "claudo, claudere, clausi, clausum": "These are the parts of 'claudere' (to close/shut)",
+        "claro, clarare, claravi, claratum": "This is not a standard Latin verb — 'clamare' (to shout) is the correct one",
+        "celo, celare, celavi, celatum": "These are the parts of 'celare' (to hide/conceal)"
+      }
+    },
+    {
+      "prompt": "What rhetorical figure does 'cum tacent, clamant' exemplify?",
+      "target": "Paradox / oxymoron — silence is itself a shout",
+      "choices": ["Anaphora", "Paradox / oxymoron — silence is itself a shout", "Litotes", "Metonymy"],
+      "reveal": null,
+      "hints": {
+        "Anaphora": "Anaphora is repetition of an opening word — the key figure is the paradoxical contrast of silence and shouting",
+        "Litotes": "Litotes is understatement — this is a bold paradox, the opposite of understatement",
+        "Metonymy": "Metonymy substitutes a related term — the key figure is the paradox of 'being silent = shouting'"
+      }
+    },
+    {
+      "prompt": "Who are 'they' and what does their silence mean?",
+      "target": "The senators — their silence equals consent to act against Catiline",
+      "choices": ["The conspirators — they plot in secret", "The senators — their silence equals consent to act against Catiline", "The Roman people — they are afraid", "The gods — they show divine approval"],
+      "reveal": null,
+      "hints": {
+        "The conspirators — they plot in secret": "Cicero is speaking about the senators present, not the conspirators",
+        "The Roman people — they are afraid": "This passage is in the senate — the silent ones are senators, and silence = approval",
+        "The gods — they show divine approval": "Cicero refers to human senators whose silence he interprets as a shout of agreement"
+      }
+    }
+  ],
+  "translation": "When they are silent, they shout."
+}

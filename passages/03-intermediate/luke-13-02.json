@@ -1,0 +1,119 @@
+{
+  "id": "luke-13-02",
+  "source": "Vulgate",
+  "reference": "Lucas 13:19",
+  "latin": ["Simile", "est", "regnum", "Dei", "grano", "sinapis"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "est",
+      "choices": ["est", "Simile", "regnum", "grano"],
+      "reveal": null,
+      "hints": {
+        "Simile": "'Simile' is an adjective meaning 'similar/like'",
+        "regnum": "'Regnum' is a noun meaning 'kingdom'",
+        "grano": "'Grano' is a noun meaning 'grain' in the dative/ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to seem"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere' or 'esse' (different verb) — 'est' here is from 'esse' (to be)",
+        "to go": "'To go' is 'ire' — 'est' is from 'esse'",
+        "to seem": "'To seem' is 'videri' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "perfect indicative": "Perfect of 'esse' would be 'fuit' — 'est' is present",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the principal parts of 'edere' (to eat) — the infinitive looks identical but the verb is different",
+        "eo, ire, ii, itum": "These are the principal parts of 'ire' (to go)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fieri' (to become/be made)"
+      }
+    },
+    {
+      "prompt": "What case is 'regnum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "regnum = kingdom (nom.)",
+      "hints": {
+        "accusative": "'Regnum' can be accusative, but here it is the subject of 'est' — nominative",
+        "ablative": "Ablative would be 'regno' — 'regnum' is nominative/accusative",
+        "vocative": "Vocative of a neuter noun is the same as nominative, but 'kingdom' is not being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'regnum, regni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regni' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'regni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'regni' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Dei = of God (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Dei' is the genitive singular",
+        "dative": "Dative would be 'Deo' — 'Dei' ends in -i marking genitive",
+        "ablative": "Ablative would be 'Deo' — 'Dei' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'grano'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "grano = to a grain (dat.)",
+      "hints": {
+        "ablative": "'Grano' could be ablative, but with 'simile' the dative of comparison is standard",
+        "nominative": "Nominative would be 'granum' — 'grano' is dative/ablative",
+        "genitive": "Genitive would be 'grani' — 'grano' ends in -o"
+      }
+    },
+    {
+      "prompt": "What declension is 'granum, grani'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'grani' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'grani' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'grani' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'sinapis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "sinapis = of mustard (gen.)",
+      "hints": {
+        "nominative": "Nominative is 'sinapi' (indeclinable/Greek loan) — 'sinapis' is genitive",
+        "dative": "Dative would not fit; 'sinapis' modifies 'grano' as 'grain of mustard'",
+        "accusative": "Accusative would be 'sinapi' — 'sinapis' is the genitive form"
+      }
+    }
+  ],
+  "translation": "The kingdom of God is like a grain of mustard"
+}

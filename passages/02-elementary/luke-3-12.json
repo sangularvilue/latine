@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-12",
+  "source": "Vulgate",
+  "reference": "Lucas 3:4",
+  "latin": ["Rectas", "facite", "semitas", "eius"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "facite",
+      "choices": ["Rectas", "facite", "semitas", "eius"],
+      "reveal": null,
+      "hints": {
+        "Rectas": "'Rectas' is an adjective meaning 'straight' in the accusative plural",
+        "semitas": "'semitas' is a noun meaning 'paths' in the accusative plural",
+        "eius": "'eius' is a pronoun meaning 'his/of him' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'facite' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to carry", "to be"],
+      "reveal": null,
+      "hints": {
+        "to say": "'to say' is 'dicere' — 'facite' comes from 'facere' (to make/do)",
+        "to carry": "'to carry' is 'ferre' — 'facite' comes from 'facere'",
+        "to be": "'to be' is 'esse' — 'facite' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'facite'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "facite", "gloss": "make! (plural)" },
+      "hints": {
+        "Indicative": "Indicative would be 'facitis' — 'facite' is the 2nd plural imperative",
+        "Subjunctive": "Subjunctive would be 'faciatis' — 'facite' is imperative",
+        "Infinitive": "Infinitive would be 'facere' — 'facite' is the imperative plural"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facite'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fio, fieri, factus sum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)",
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — the passive of 'facere'",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "What case is 'semitas'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "semitas", "gloss": "paths" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'semitae' — 'semitas' with -as is accusative plural",
+        "Ablative": "Ablative plural would be 'semitis' — 'semitas' is accusative",
+        "Genitive": "Genitive plural would be 'semitarum' — 'semitas' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'semita, semitae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'semitae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'semitae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'semitae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'Rectas'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "Rectas", "gloss": "straight" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'rectae' — 'Rectas' agrees with 'semitas' in the accusative",
+        "Ablative": "Ablative plural would be 'rectis' — 'Rectas' is accusative plural",
+        "Genitive": "Genitive plural would be 'rectarum' — 'Rectas' is accusative agreeing with 'semitas'"
+      }
+    },
+    {
+      "prompt": "What case is 'eius'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "eius", "gloss": "his / of him" },
+      "hints": {
+        "Nominative": "Nominative would be 'is/ea/id' — 'eius' is genitive singular",
+        "Dative": "Dative would be 'ei' — 'eius' is genitive (his paths)",
+        "Accusative": "Accusative would be 'eum/eam/id' — 'eius' is the genitive form"
+      }
+    }
+  ],
+  "translation": "Make straight his paths"
+}

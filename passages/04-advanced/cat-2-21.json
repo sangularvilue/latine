@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-21",
+  "source": "Cicero",
+  "reference": "In Cat. I.6",
+  "latin": ["Recognosce", "mecum", "tandem", "noctem", "illam", "superiorem"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Recognosce",
+      "choices": ["Recognosce", "mecum", "noctem", "superiorem"],
+      "reveal": null,
+      "hints": {
+        "mecum": "'mecum' = 'cum me' — 'with me'",
+        "noctem": "'noctem' is a noun in the accusative meaning 'night'",
+        "superiorem": "'superiorem' is an adjective meaning 'previous / earlier'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Recognosce'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Imperative", "Subjunctive", "Infinitive"],
+      "reveal": { "word": "Recognosce", "gloss": "recall! / review!" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'Recognosce' is a command",
+        "Subjunctive": "Subjunctive would be 'recognoscas' — 'Recognosce' is imperative",
+        "Infinitive": "Infinitive would be 'recognoscere' — 'Recognosce' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Recognosce'?",
+      "target": "recognosco, recognoscere, recognovi, recognitum",
+      "choices": ["recognosco, recognoscere, recognovi, recognitum", "nosco, noscere, novi, notum", "cognosco, cognoscere, cognovi, cognitum", "agnosco, agnoscere, agnovi, agnitum"],
+      "reveal": null,
+      "hints": {
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to come to know) — the base verb",
+        "cognosco, cognoscere, cognovi, cognitum": "These are the parts of 'cognoscere' (to learn/know) — a different compound",
+        "agnosco, agnoscere, agnovi, agnitum": "These are the parts of 'agnoscere' (to recognize) — a different compound"
+      }
+    },
+    {
+      "prompt": "What case is 'noctem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "noctem", "gloss": "night" },
+      "hints": {
+        "Nominative": "Nominative would be 'nox' — 'noctem' with -em ending is accusative, object of 'Recognosce'",
+        "Dative": "Dative would be 'nocti' — 'noctem' is accusative",
+        "Ablative": "Ablative would be 'nocte' — 'noctem' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'noctem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'nox, noctis' is 3rd declension",
+        "2nd": "2nd declension accusative ends in -um — 'nox, noctis' is 3rd declension",
+        "5th": "5th declension accusative ends in -em too, but 'nox, noctis' with gen. -is is 3rd"
+      }
+    },
+    {
+      "prompt": "What case is 'illam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "illam", "gloss": "that (famous)" },
+      "hints": {
+        "Nominative": "Nominative would be 'illa' — 'illam' with -am ending is accusative, agreeing with 'noctem'",
+        "Genitive": "Genitive would be 'illius' — 'illam' is accusative feminine singular",
+        "Ablative": "Ablative would be 'illa' — 'illam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'superiorem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "superiorem", "gloss": "previous / the one before" },
+      "hints": {
+        "Nominative": "Nominative would be 'superior' — 'superiorem' with -em ending is accusative",
+        "Genitive": "Genitive would be 'superioris' — 'superiorem' is accusative, modifying 'noctem'",
+        "Ablative": "Ablative would be 'superiore' — 'superiorem' is accusative"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical effect of 'Recognosce mecum'?",
+      "target": "Cicero forces Catiline to relive his guilty actions in front of the senate",
+      "choices": ["A friendly invitation to reminisce", "Cicero forces Catiline to relive his guilty actions in front of the senate", "A legal procedure for presenting evidence", "Cicero is unsure and asking for help"],
+      "reveal": null,
+      "hints": {
+        "A friendly invitation to reminisce": "The context is an accusation — 'recall with me' is menacing, not friendly",
+        "A legal procedure for presenting evidence": "While there is a forensic element, the primary effect is psychological pressure on Catiline",
+        "Cicero is unsure and asking for help": "Cicero already knows the facts — he forces Catiline to confront them publicly"
+      }
+    }
+  ],
+  "translation": "Recall with me, finally, that previous night."
+}

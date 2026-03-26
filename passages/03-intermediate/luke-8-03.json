@@ -1,0 +1,108 @@
+{
+  "id": "luke-8-03",
+  "source": "Vulgate",
+  "reference": "Lucas 8:25",
+  "latin": ["Quis", "est", "hic", "qui", "ventis", "imperat"],
+  "steps": [
+    {
+      "prompt": "Which word is an interrogative pronoun?",
+      "target": "Quis",
+      "choices": ["Quis", "qui", "hic", "ventis"],
+      "reveal": null,
+      "hints": {
+        "qui": "'Qui' is a relative pronoun here, introducing the relative clause",
+        "hic": "'Hic' is a demonstrative pronoun meaning 'this (man)'",
+        "ventis": "'Ventis' is a noun meaning 'winds' in the dative/ablative"
+      }
+    },
+    {
+      "prompt": "What case is the relative pronoun 'qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "qui = who (nom. masc. sg., subject of 'imperat')",
+      "hints": {
+        "ablative": "Ablative masculine would be 'quo' — 'qui' here is nominative, subject of 'imperat'",
+        "dative": "Dative would be 'cui' — 'qui' is nominative subject of the relative clause",
+        "accusative": "Accusative would be 'quem' — 'qui' is nominative here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'imperat' translates to?",
+      "target": "to command",
+      "choices": ["to command", "to hinder", "to prepare", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to hinder": "That would be 'impedire' — 'imperat' comes from 'imperare' (to command)",
+        "to prepare": "That would be 'parare' — 'imperat' comes from 'imperare' (to command)",
+        "to conquer": "That would be 'vincere' — 'imperat' comes from 'imperare' (to command)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'imperat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "imperat = he commands",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'imperet' — 'imperat' with -a- is indicative (1st conj.)",
+        "perfect indicative": "Perfect would be 'imperavit' — 'imperat' is present indicative",
+        "imperfect indicative": "Imperfect would be 'imperabat' — 'imperat' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'imperat'?",
+      "target": "impero, imperare, imperavi, imperatum",
+      "choices": ["impero, imperare, imperavi, imperatum", "impedio, impedire, impedivi, impeditum", "paro, parare, paravi, paratum", "aperio, aperire, aperui, apertum"],
+      "reveal": null,
+      "hints": {
+        "impedio, impedire, impedivi, impeditum": "These are the parts of 'impedire' (to hinder)",
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare)",
+        "aperio, aperire, aperui, apertum": "These are the parts of 'aperire' (to open)"
+      }
+    },
+    {
+      "prompt": "What case is 'ventis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "ventis = to the winds (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'venti' — 'ventis' is dative/ablative plural",
+        "ablative": "While 'ventis' could be ablative, 'imperare' takes a dative object",
+        "genitive": "Genitive plural would be 'ventorum' — 'ventis' is dative with 'imperare'"
+      }
+    },
+    {
+      "prompt": "What declension is 'ventus, venti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'venti' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'venti' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'venti' ends in -i"
+      }
+    },
+    {
+      "prompt": "The verb 'imperare' takes what kind of object?",
+      "target": "dative",
+      "choices": ["accusative", "dative", "genitive", "ablative"],
+      "reveal": null,
+      "hints": {
+        "accusative": "Most verbs take accusative objects, but 'imperare' governs the dative case",
+        "genitive": "Some verbs take genitive objects, but 'imperare' governs the dative",
+        "ablative": "Some verbs take ablative objects, but 'imperare' governs the dative"
+      }
+    },
+    {
+      "prompt": "What case is 'hic'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "hic = this man (nom. masc. sg.)",
+      "hints": {
+        "accusative": "Accusative masculine of 'hic' would be 'hunc' — 'hic' is nominative",
+        "dative": "Dative of 'hic' would be 'huic' — 'hic' is nominative",
+        "ablative": "Ablative masculine of 'hic' would be 'hoc' — 'hic' is nominative"
+      }
+    }
+  ],
+  "translation": "Who is this who commands the winds?"
+}

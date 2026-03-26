@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-16",
+  "source": "Vulgate",
+  "reference": "Lucas 1:52",
+  "latin": ["Deposuit", "potentes", "de", "sede"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Deposuit",
+      "choices": ["Deposuit", "potentes", "de", "sede"],
+      "reveal": null,
+      "hints": {
+        "potentes": "'Potentes' is a substantive adjective meaning 'the mighty'",
+        "de": "'De' is a preposition meaning 'from/down from'",
+        "sede": "'Sede' is a noun meaning 'seat/throne'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'deposuit' translates to?",
+      "target": "to put down / to depose",
+      "choices": ["to put down / to depose", "to place", "to destroy", "to carry away"],
+      "reveal": null,
+      "hints": {
+        "to place": "That would be 'ponere'",
+        "to destroy": "That would be 'destruere'",
+        "to carry away": "That would be 'auferre'"
+      }
+    },
+    {
+      "prompt": "What tense is 'deposuit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future", "imperfect"],
+      "reveal": "deposuit = he has put down / he deposed",
+      "hints": {
+        "present indicative": "Present would be 'deponit'; 'deposuit' uses the perfect stem",
+        "future": "Future would be 'deponet'",
+        "imperfect": "Imperfect would be 'deponebat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'deposuit'?",
+      "target": "depono, deponere, deposui, depositum",
+      "choices": ["depono, deponere, deposui, depositum", "pono, ponere, posui, positum", "dispono, disponere, disposui, dispositum", "compono, componere, composui, compositum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the principal parts of 'pono' (to place); 'depono' is a compound",
+        "dispono, disponere, disposui, dispositum": "These are the principal parts of 'dispono' (to arrange)",
+        "compono, componere, composui, compositum": "These are the principal parts of 'compono' (to compose)"
+      }
+    },
+    {
+      "prompt": "What case is 'potentes'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "potentes = the mighty/powerful ones (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural is also 'potentes', but here it is the direct object of 'deposuit'",
+        "ablative": "Ablative plural would be 'potentibus'",
+        "genitive": "Genitive plural would be 'potentium'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'potens' follow?",
+      "target": "3rd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st/2nd declension adjective": "1st/2nd declension adjectives end in -us/-a/-um; 'potens, potentis' is 3rd declension",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Potens' clearly declines: potens, potentis, potenti, potentem, potenti"
+      }
+    },
+    {
+      "prompt": "What case is 'sede'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "accusative", "vocative"],
+      "reveal": "sede = seat/throne (abl.)",
+      "hints": {
+        "nominative": "Nominative is 'sedes'; 'sede' with -e is ablative singular",
+        "accusative": "Accusative would be 'sedem'",
+        "vocative": "Vocative would be 'sedes'; 'sede' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'sedes'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'sedes' has genitive 'sedis'",
+        "4th declension": "4th declension nouns have genitive -us; 'sedes' has genitive 'sedis'",
+        "5th declension": "5th declension nouns have genitive -ei; 'sedes' has genitive 'sedis'"
+      }
+    }
+  ],
+  "translation": "He has put down the mighty from their thrones"
+}

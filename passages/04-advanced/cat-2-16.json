@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-16",
+  "source": "Cicero",
+  "reference": "In Cat. II.12",
+  "latin": ["Quos", "ferro", "ac", "morte", "terrere", "non", "potuimus"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "potuimus",
+      "choices": ["ferro", "terrere", "non", "potuimus"],
+      "reveal": null,
+      "hints": {
+        "ferro": "'ferro' is a noun in the ablative meaning 'with the sword / by steel'",
+        "terrere": "'terrere' is an infinitive meaning 'to terrify' — it complements 'potuimus'",
+        "non": "'non' is an adverb of negation"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'potuimus' translates to?",
+      "target": "to be able",
+      "choices": ["to drink", "to be able", "to possess", "to demand"],
+      "reveal": null,
+      "hints": {
+        "to drink": "'to drink' is 'potare' — 'posse' means 'to be able'",
+        "to possess": "'to possess' is 'possidere' — 'posse' means 'to be able'",
+        "to demand": "'to demand' is 'postulare' — 'posse' means 'to be able'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'potuimus'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Pluperfect indicative"],
+      "reveal": { "word": "potuimus", "gloss": "we were (not) able" },
+      "hints": {
+        "Present indicative": "Present would be 'possumus' — 'potuimus' is perfect",
+        "Imperfect indicative": "Imperfect would be 'poteramus' — 'potuimus' is perfect",
+        "Pluperfect indicative": "Pluperfect would be 'potueramus' — 'potuimus' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'potuimus'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "potior, potiri, potitus sum", "poto, potare, potavi, potatum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place) — don't confuse 'posui' with 'potui'",
+        "potior, potiri, potitus sum": "These are the parts of 'potiri' (to gain possession of)",
+        "poto, potare, potavi, potatum": "These are the parts of 'potare' (to drink)"
+      }
+    },
+    {
+      "prompt": "What case is 'ferro'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "ferro", "gloss": "by the sword / steel" },
+      "hints": {
+        "Nominative": "Nominative would be 'ferrum' — 'ferro' is ablative of means/instrument",
+        "Dative": "Dative would be 'ferro' (same form), but context shows ablative of means (by the sword)",
+        "Accusative": "Accusative would be 'ferrum' — 'ferro' is ablative"
+      }
+    },
+    {
+      "prompt": "What case is 'morte'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "morte", "gloss": "by death / with death" },
+      "hints": {
+        "Nominative": "Nominative would be 'mors' — 'morte' with -e ending is ablative of means",
+        "Accusative": "Accusative would be 'mortem' — 'morte' is ablative",
+        "Dative": "Dative would be 'morti' — 'morte' is ablative of means"
+      }
+    },
+    {
+      "prompt": "What case is 'Quos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "Quos", "gloss": "whom" },
+      "hints": {
+        "Nominative": "Nominative would be 'qui' — 'Quos' is accusative masculine plural, object of 'terrere'",
+        "Dative": "Dative would be 'quibus' — 'Quos' is accusative",
+        "Ablative": "Ablative would be 'quibus' — 'Quos' is accusative"
+      }
+    },
+    {
+      "prompt": "What type of ablative is 'ferro ac morte'?",
+      "target": "Ablative of means / instrument",
+      "choices": ["Ablative of time", "Ablative of means / instrument", "Ablative absolute", "Ablative of manner"],
+      "reveal": null,
+      "hints": {
+        "Ablative of time": "Ablative of time answers 'when' — 'ferro ac morte' answers 'by what means'",
+        "Ablative absolute": "Ablative absolute requires a participle + noun — 'ferro ac morte' is just ablative of means",
+        "Ablative of manner": "Ablative of manner describes how (usually with 'cum') — 'ferro' is the instrument used to terrify"
+      }
+    }
+  ],
+  "translation": "Whom we were not able to terrify with the sword and death."
+}

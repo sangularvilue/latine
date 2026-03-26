@@ -1,0 +1,130 @@
+{
+  "id": "luke-11-33",
+  "source": "Vulgate",
+  "reference": "Lucas 11:9",
+  "latin": ["Quaerite", "et", "invenietis", "pulsate", "et", "aperietur", "vobis"],
+  "steps": [
+    {
+      "prompt": "Which words are imperative verbs?",
+      "target": "Quaerite and pulsate",
+      "choices": ["Quaerite and pulsate", "invenietis and aperietur", "Quaerite and invenietis", "pulsate and aperietur"],
+      "reveal": null,
+      "hints": {
+        "invenietis and aperietur": "'Invenietis' is future indicative and 'aperietur' is future passive — not imperatives",
+        "Quaerite and invenietis": "'Invenietis' is future indicative, not imperative — 'Quaerite' and 'pulsate' are imperative",
+        "pulsate and aperietur": "'Aperietur' is future passive, not imperative — 'Quaerite' and 'pulsate' are imperative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Quaerite' translates to?",
+      "target": "to seek",
+      "choices": ["to seek", "to ask", "to complain", "to rest"],
+      "reveal": null,
+      "hints": {
+        "to ask": "That would be 'rogare/petere' — 'Quaerite' comes from 'quaerere' (to seek)",
+        "to complain": "That would be 'queri' — 'Quaerite' comes from 'quaerere' (to seek)",
+        "to rest": "That would be 'quiescere' — 'Quaerite' comes from 'quaerere' (to seek)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Quaerite'?",
+      "target": "present imperative (plural)",
+      "choices": ["present indicative", "present imperative (plural)", "present subjunctive", "future indicative"],
+      "reveal": "Quaerite = Seek!",
+      "hints": {
+        "present indicative": "Present indicative 2nd pl. would be 'quaeritis' — 'Quaerite' is imperative",
+        "present subjunctive": "Present subjunctive would be 'quaeratis' — 'Quaerite' is imperative",
+        "future indicative": "Future would be 'quaeretis' — 'Quaerite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Quaerite'?",
+      "target": "quaero, quaerere, quaesivi, quaesitum",
+      "choices": ["quaero, quaerere, quaesivi, quaesitum", "queror, queri, questus sum, —", "quiesco, quiescere, quievi, quietum", "rogo, rogare, rogavi, rogatum"],
+      "reveal": null,
+      "hints": {
+        "queror, queri, questus sum, —": "These are the parts of 'queri' (to complain) — a deponent verb",
+        "quiesco, quiescere, quievi, quietum": "These are the parts of 'quiescere' (to rest)",
+        "rogo, rogare, rogavi, rogatum": "These are the parts of 'rogare' (to ask)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'invenietis'?",
+      "target": "future indicative active",
+      "choices": ["present indicative", "future indicative active", "present subjunctive", "perfect indicative"],
+      "reveal": "invenietis = you will find",
+      "hints": {
+        "present indicative": "Present would be 'invenitis' — 'invenietis' with -ie- is future (4th conj.)",
+        "present subjunctive": "Present subjunctive would be 'inveniatis' — 'invenietis' is future indicative",
+        "perfect indicative": "Perfect would be 'invenistis' — 'invenietis' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'invenietis'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "reperio, reperire, repperi, repertum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — 'invenire' is in + venire",
+        "reperio, reperire, repperi, repertum": "These are the parts of 'reperire' (to find) — a synonym",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'pulsate' translates to?",
+      "target": "to knock",
+      "choices": ["to knock", "to push", "to pulse", "to strike"],
+      "reveal": null,
+      "hints": {
+        "to push": "That would be 'pellere/trudere' — 'pulsate' comes from 'pulsare' (to knock/beat)",
+        "to pulse": "English 'pulse' derives from Latin, but 'pulsare' primarily means 'to knock/beat'",
+        "to strike": "While related, 'pulsare' in this context means 'to knock (at a door)'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'pulsate'?",
+      "target": "pulso, pulsare, pulsavi, pulsatum",
+      "choices": ["pulso, pulsare, pulsavi, pulsatum", "pello, pellere, pepuli, pulsum", "pungo, pungere, pupugi, punctum", "premo, premere, pressi, pressum"],
+      "reveal": null,
+      "hints": {
+        "pello, pellere, pepuli, pulsum": "These are the parts of 'pellere' (to drive/push) — 'pulsare' is its frequentative",
+        "pungo, pungere, pupugi, punctum": "These are the parts of 'pungere' (to prick/sting)",
+        "premo, premere, pressi, pressum": "These are the parts of 'premere' (to press)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'aperietur'?",
+      "target": "future indicative passive",
+      "choices": ["present indicative passive", "future indicative passive", "present subjunctive passive", "perfect indicative passive"],
+      "reveal": "aperietur = it will be opened",
+      "hints": {
+        "present indicative passive": "Present passive would be 'aperitur' — 'aperietur' with -ie- is future passive",
+        "present subjunctive passive": "Subjunctive passive would be 'aperiatur' — 'aperietur' is future indicative",
+        "perfect indicative passive": "Perfect passive would be 'apertum est' — 'aperietur' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'aperietur'?",
+      "target": "aperio, aperire, aperui, apertum",
+      "choices": ["aperio, aperire, aperui, apertum", "operio, operire, operui, opertum", "pario, parere, peperi, partum", "reperio, reperire, repperi, repertum"],
+      "reveal": null,
+      "hints": {
+        "operio, operire, operui, opertum": "These are the parts of 'operire' (to cover) — the opposite of 'aperire'",
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth)",
+        "reperio, reperire, repperi, repertum": "These are the parts of 'reperire' (to find)"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "vobis = to/for you (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative would be 'vos' — 'vobis' is dative/ablative",
+        "ablative": "While 'vobis' could be ablative, with 'aperietur' it is dative (for whom it opens)",
+        "accusative": "Accusative would be 'vos' — 'vobis' is dative"
+      }
+    }
+  ],
+  "translation": "Seek, and you will find; knock, and it will be opened to you"
+}

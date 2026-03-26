@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-15",
+  "source": "Cicero",
+  "reference": "In Cat. II.11",
+  "latin": ["Sed", "cur", "tam", "diu", "de", "uno", "hoste", "loquimur"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "loquimur",
+      "choices": ["cur", "uno", "hoste", "loquimur"],
+      "reveal": null,
+      "hints": {
+        "cur": "'cur' is an interrogative adverb meaning 'why'",
+        "uno": "'uno' is an adjective meaning 'one (single)'",
+        "hoste": "'hoste' is a noun in the ablative meaning 'enemy'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'loquimur' translates to?",
+      "target": "to speak / talk",
+      "choices": ["to place", "to speak / talk", "to wash", "to play"],
+      "reveal": null,
+      "hints": {
+        "to place": "'to place' is 'locare' — 'loqui' is a deponent meaning 'to speak'",
+        "to wash": "'to wash' is 'lavare' — 'loqui' means 'to speak/talk'",
+        "to play": "'to play' is 'ludere' — 'loqui' means 'to speak'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'loquimur'?",
+      "target": "Present indicative (deponent)",
+      "choices": ["Present passive indicative", "Present indicative (deponent)", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "loquimur", "gloss": "do we speak / are we talking" },
+      "hints": {
+        "Present passive indicative": "Though it has passive form -mur, 'loqui' is deponent — active in meaning",
+        "Present subjunctive": "Present subjunctive would be 'loquamur' — 'loquimur' is indicative",
+        "Perfect indicative": "Perfect would be 'locuti sumus' — 'loquimur' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'loquimur'?",
+      "target": "loquor, loqui, locutus sum",
+      "choices": ["loquor, loqui, locutus sum", "loco, locare, locavi, locatum", "sequor, sequi, secutus sum", "morior, mori, mortuus sum"],
+      "reveal": null,
+      "hints": {
+        "loco, locare, locavi, locatum": "These are the parts of 'locare' (to place) — a different verb",
+        "sequor, sequi, secutus sum": "These are the parts of 'sequi' (to follow) — another deponent",
+        "morior, mori, mortuus sum": "These are the parts of 'mori' (to die) — another deponent"
+      }
+    },
+    {
+      "prompt": "What case is 'hoste'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "hoste", "gloss": "enemy" },
+      "hints": {
+        "Nominative": "Nominative would be 'hostis' — 'hoste' with -e ending is ablative after 'de'",
+        "Accusative": "Accusative would be 'hostem' — 'de' governs the ablative",
+        "Dative": "Dative would be 'hosti' — 'de' + ablative = 'about'"
+      }
+    },
+    {
+      "prompt": "Declension of 'hoste'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'hostis, hostis' is 3rd declension",
+        "2nd": "2nd declension ablative ends in -o — 'hostis, hostis' is 3rd declension",
+        "5th": "5th declension ablative ends in -e too, but 'hostis, hostis' with gen. -is is 3rd"
+      }
+    },
+    {
+      "prompt": "What does 'de uno hoste' reveal about Cicero's argument?",
+      "target": "He is transitioning from Catiline himself to the remaining conspirators in Rome",
+      "choices": ["He thinks Catiline is the only threat", "He is transitioning from Catiline himself to the remaining conspirators in Rome", "He is minimizing the danger", "He is praising the senate's victory"],
+      "reveal": null,
+      "hints": {
+        "He thinks Catiline is the only threat": "'uno hoste' (one enemy) implies there are others — Cicero is about to discuss the remaining conspirators",
+        "He is minimizing the danger": "By calling Catiline 'one enemy' Cicero implies there are more — increasing, not minimizing, the danger",
+        "He is praising the senate's victory": "The question 'why are we still talking about one enemy?' signals a pivot to address the wider conspiracy"
+      }
+    },
+    {
+      "prompt": "What type of question is this?",
+      "target": "A rhetorical transitional question (transitio)",
+      "choices": ["A genuine request for information", "A rhetorical transitional question (transitio)", "An indirect question", "A deliberative subjunctive"],
+      "reveal": null,
+      "hints": {
+        "A genuine request for information": "Cicero is not seeking an answer — he uses the question to redirect his speech",
+        "An indirect question": "Indirect questions are subordinate — this is a direct question serving as a transition",
+        "A deliberative subjunctive": "Deliberative subjunctive would require subjunctive mood — 'loquimur' is indicative"
+      }
+    }
+  ],
+  "translation": "But why do we speak so long about one enemy?"
+}

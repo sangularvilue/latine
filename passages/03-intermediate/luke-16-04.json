@@ -1,0 +1,108 @@
+{
+  "id": "luke-16-04",
+  "source": "Vulgate",
+  "reference": "Lucas 16:10",
+  "latin": ["Qui", "fidelis", "est", "in", "minimo", "et", "in", "maiori", "fidelis", "est"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs does this sentence have?",
+      "target": "two (est...est)",
+      "choices": ["two (est...est)", "one (est)", "three", "none"],
+      "reveal": null,
+      "hints": {
+        "one (est)": "'Est' appears twice — once in the relative clause and once in the main clause",
+        "three": "There are exactly two instances of 'est' and no other verbs",
+        "none": "Both instances of 'est' are finite verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'esse'",
+        "to go": "'To go' is 'ire' — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "eo, ire, ii, itum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)"
+      }
+    },
+    {
+      "prompt": "What case is 'minimo'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "minimo = in the least / a very small thing (abl., after 'in')",
+      "hints": {
+        "nominative": "Nominative neuter would be 'minimum' — 'minimo' follows 'in' (ablative)",
+        "dative": "'Minimo' could be dative, but after 'in' it is ablative of sphere/respect",
+        "genitive": "Genitive would be 'minimi' — 'minimo' is ablative"
+      }
+    },
+    {
+      "prompt": "What degree is 'minimo'?",
+      "target": "superlative (of 'parvus')",
+      "choices": ["superlative (of 'parvus')", "positive degree", "comparative degree", "regular form"],
+      "reveal": "minimus, -a, -um = smallest/least (superlative of parvus)",
+      "hints": {
+        "positive degree": "Positive of 'small' is 'parvus' — 'minimus' is the superlative",
+        "comparative degree": "Comparative would be 'minor' — 'minimus' is superlative",
+        "regular form": "'Minimus' is an irregular superlative of 'parvus' — not a regular form"
+      }
+    },
+    {
+      "prompt": "What degree is 'maiori'?",
+      "target": "comparative (of 'magnus')",
+      "choices": ["comparative (of 'magnus')", "positive degree", "superlative", "regular form"],
+      "reveal": "maior = greater (comparative of magnus)",
+      "hints": {
+        "positive degree": "Positive would be 'magnus' — 'maior' is the comparative",
+        "superlative": "Superlative would be 'maximus' — 'maior' is comparative",
+        "regular form": "'Maior' is an irregular comparative of 'magnus' — not formed with -ior from the positive stem"
+      }
+    },
+    {
+      "prompt": "What case is 'fidelis' (both instances)?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "fidelis = faithful (nom., predicate adjective)",
+      "hints": {
+        "accusative": "Accusative would be 'fidelem' — 'fidelis' is nominative, predicate with 'est'",
+        "ablative": "Ablative would be 'fideli' — 'fidelis' is nominative",
+        "genitive": "Genitive would also be 'fidelis' but here it is predicate nominative with 'est'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'fidelis' follow?",
+      "target": "3rd declension adjective (two-termination)",
+      "choices": ["3rd declension adjective (two-termination)", "1st/2nd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st/2nd declension adjective": "1st/2nd decl. adjectives end in -us/-a/-um — 'fidelis/-e' is 3rd declension",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Fidelis' clearly declines: fidelis, fidelem, fideli, etc."
+      }
+    },
+    {
+      "prompt": "What is the logical structure of this sentence?",
+      "target": "a general truth: faithfulness in small matters implies faithfulness in great ones",
+      "choices": ["a general truth: faithfulness in small matters implies faithfulness in great ones", "a conditional contrary to fact", "a temporal sequence", "a purpose clause"],
+      "reveal": null,
+      "hints": {
+        "a conditional contrary to fact": "Contrary-to-fact conditions use subjunctive — both verbs here are indicative",
+        "a temporal sequence": "There is no temporal conjunction — the structure is 'who is X, also is Y'",
+        "a purpose clause": "Purpose clauses use 'ut/ne' + subjunctive — this is a relative clause + main clause"
+      }
+    }
+  ],
+  "translation": "He who is faithful in the least is also faithful in the greater"
+}

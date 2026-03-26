@@ -1,0 +1,108 @@
+{
+  "id": "luke-16-05",
+  "source": "Vulgate",
+  "reference": "Lucas 16:9",
+  "latin": ["Facite", "vobis", "amicos", "de", "mammona", "iniquitatis"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Facite",
+      "choices": ["Facite", "amicos", "mammona", "iniquitatis"],
+      "reveal": null,
+      "hints": {
+        "amicos": "'Amicos' is a noun meaning 'friends' in the accusative",
+        "mammona": "'Mammona' is a noun meaning 'wealth/mammon' (Aramaic loanword)",
+        "iniquitatis": "'Iniquitatis' is a noun meaning 'of wickedness' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Facite' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to seem", "to deceive"],
+      "reveal": null,
+      "hints": {
+        "to say": "'To say' is 'dicere' — 'Facite' comes from 'facere' (to make)",
+        "to seem": "'To seem' is 'videri' — 'facere' means 'to make/do'",
+        "to deceive": "'To deceive' is 'fallere' — 'facere' means 'to make'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Facite'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "infinitive"],
+      "reveal": "Facite = Make! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd pl. would be 'facitis' — 'Facite' is a command",
+        "present subjunctive": "Present subjunctive would be 'faciatis' — 'Facite' is imperative",
+        "infinitive": "Infinitive would be 'facere' — 'Facite' is the plural imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Facite'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fallo, fallere, fefelli, falsum", "fateor, fateri, fassus sum, —", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "fallo, fallere, fefelli, falsum": "These are the parts of 'fallere' (to deceive)",
+        "fateor, fateri, fassus sum, —": "These are the parts of 'fateri' (to confess) — a deponent",
+        "fio, fieri, factus sum, —": "These are the parts of 'fieri' (to become) — the passive of 'facere'"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "vobis = for yourselves (dat., dative of advantage)",
+      "hints": {
+        "nominative": "Nominative would be 'vos' — 'vobis' is dative/ablative",
+        "accusative": "Accusative would be 'vos' — 'vobis' is dative here (for yourselves)",
+        "ablative": "'Vobis' could be ablative, but here it expresses benefit — dative of advantage"
+      }
+    },
+    {
+      "prompt": "What case is 'amicos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "amicos = friends (acc. pl., direct object)",
+      "hints": {
+        "nominative": "Nominative plural would be 'amici' — 'amicos' with -os is accusative",
+        "ablative": "Ablative plural would be 'amicis' — 'amicos' is accusative",
+        "dative": "Dative plural would be 'amicis' — 'amicos' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'amicus, amici'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'amici' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'amici' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'amici' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'iniquitatis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "iniquitatis = of wickedness (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'iniquitas' — 'iniquitatis' with -is is genitive",
+        "dative": "Dative would be 'iniquitati' — 'iniquitatis' is genitive",
+        "ablative": "Ablative would be 'iniquitate' — 'iniquitatis' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'iniquitas, iniquitatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'iniquitatis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'iniquitatis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'iniquitatis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Make friends for yourselves from the mammon of wickedness"
+}

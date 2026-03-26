@@ -1,0 +1,97 @@
+{
+  "id": "luke-14-05",
+  "source": "Vulgate",
+  "reference": "Lucas 14:11",
+  "latin": ["Omnis", "qui", "se", "exaltat", "humiliabitur"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb in the relative clause?",
+      "target": "exaltat",
+      "choices": ["exaltat", "humiliabitur", "Omnis", "se"],
+      "reveal": null,
+      "hints": {
+        "humiliabitur": "'Humiliabitur' is the main clause verb, not the relative clause verb",
+        "Omnis": "'Omnis' is an adjective/pronoun meaning 'every/each'",
+        "se": "'Se' is a reflexive pronoun meaning 'himself'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'exaltat' translates to?",
+      "target": "to exalt / to raise up",
+      "choices": ["to exalt / to raise up", "to examine", "to go out", "to demand"],
+      "reveal": null,
+      "hints": {
+        "to examine": "'To examine' is 'examinare' — 'exaltat' comes from 'exaltare'",
+        "to go out": "'To go out' is 'exire' — 'exaltare' means 'to raise up'",
+        "to demand": "'To demand' is 'exigere' — 'exaltare' means 'to exalt'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'exaltat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "exaltat = exalts / raises up",
+      "hints": {
+        "perfect indicative": "Perfect would be 'exaltavit' — 'exaltat' is present",
+        "present subjunctive": "Present subjunctive would be 'exaltet' — 'exaltat' ends in -at (indicative)",
+        "future indicative": "Future would be 'exaltabit' — 'exaltat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'exaltat'?",
+      "target": "exalto, exaltare, exaltavi, exaltatum",
+      "choices": ["exalto, exaltare, exaltavi, exaltatum", "exeo, exire, exii, exitum", "exigo, exigere, exegi, exactum", "tollo, tollere, sustuli, sublatum"],
+      "reveal": null,
+      "hints": {
+        "exeo, exire, exii, exitum": "These are the parts of 'exire' (to go out)",
+        "exigo, exigere, exegi, exactum": "These are the parts of 'exigere' (to demand/drive out)",
+        "tollo, tollere, sustuli, sublatum": "These are the parts of 'tollere' (to lift up) — a classical synonym"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'humiliabitur' translates to?",
+      "target": "to be humbled",
+      "choices": ["to be humbled", "to humble (active)", "to be human", "to be buried"],
+      "reveal": null,
+      "hints": {
+        "to humble (active)": "Active would be 'humiliare' — 'humiliabitur' is passive: 'humiliari'",
+        "to be human": "'To be human' is not a standard Latin verb — 'humiliari' means 'to be humbled'",
+        "to be buried": "'To be buried' is 'sepeliri' or 'humari' — 'humiliari' means 'to be humbled'"
+      }
+    },
+    {
+      "prompt": "What tense, mood, and voice is 'humiliabitur'?",
+      "target": "future passive indicative",
+      "choices": ["future passive indicative", "present passive indicative", "future active indicative", "perfect passive indicative"],
+      "reveal": "humiliabitur = will be humbled",
+      "hints": {
+        "present passive indicative": "Present passive would be 'humiliatur' — 'humiliabitur' has future -bi-",
+        "future active indicative": "Future active would be 'humiliabit' — the -tur ending marks passive",
+        "perfect passive indicative": "Perfect passive would be 'humiliatus est' — 'humiliabitur' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'humiliabitur'?",
+      "target": "humilio, humiliare, humiliavi, humiliatum",
+      "choices": ["humilio, humiliare, humiliavi, humiliatum", "humo, humare, humavi, humatum", "humeo, humere, —, —", "inicio, inicere, inieci, iniectum"],
+      "reveal": null,
+      "hints": {
+        "humo, humare, humavi, humatum": "These are the parts of 'humare' (to bury) — a different verb",
+        "humeo, humere, —, —": "These are the parts of 'humere' (to be moist) — unrelated",
+        "inicio, inicere, inieci, iniectum": "These are the parts of 'inicere' (to throw in) — unrelated"
+      }
+    },
+    {
+      "prompt": "What case is 'se'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "se = himself (acc., reflexive)",
+      "hints": {
+        "nominative": "Reflexive 'se' has no nominative form — it is accusative here as direct object",
+        "ablative": "'Se' can be ablative, but as direct object of 'exaltat' it is accusative",
+        "dative": "Dative reflexive would be 'sibi' — 'se' is accusative"
+      }
+    }
+  ],
+  "translation": "Everyone who exalts himself will be humbled"
+}

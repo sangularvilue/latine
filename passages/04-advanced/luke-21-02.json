@@ -1,0 +1,130 @@
+{
+  "id": "luke-21-02",
+  "source": "Vulgate",
+  "reference": "Lucas 21:33",
+  "latin": ["Caelum", "et", "terra", "transibunt", "verba", "autem", "mea", "non", "transibunt"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb of the first clause?",
+      "target": "transibunt",
+      "choices": ["transibunt", "Caelum", "terra", "autem"],
+      "reveal": null,
+      "hints": {
+        "Caelum": "'Caelum' is a noun meaning 'heaven/sky' — it is the subject",
+        "terra": "'Terra' is a noun meaning 'earth' — it is the second subject",
+        "autem": "'Autem' is a conjunction meaning 'but/however'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'transibunt' translates to?",
+      "target": "to pass away / to pass over",
+      "choices": ["to pass away / to pass over", "to cross", "to translate", "to go"],
+      "reveal": null,
+      "hints": {
+        "to cross": "'To cross' is 'transire' as well, but the primary meaning here is 'to pass away'",
+        "to translate": "'To translate' is 'transferre' — 'transibunt' comes from 'transire'",
+        "to go": "'To go' is 'ire' — 'transire' is the compound trans- + ire"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'transibunt'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "future perfect", "present subjunctive"],
+      "reveal": "transibunt = will pass away (3rd pl. future)",
+      "hints": {
+        "present indicative": "Present would be 'transeunt' — 'transibunt' with -ibu- is future",
+        "future perfect": "Future perfect would be 'transierint' — 'transibunt' is simple future",
+        "present subjunctive": "Present subjunctive would be 'transeant' — 'transibunt' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'transibunt'?",
+      "target": "transeo, transire, transii, transitum",
+      "choices": ["transeo, transire, transii, transitum", "eo, ire, ii, itum", "transfero, transferre, transtuli, translatum", "trado, tradere, tradidi, traditum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go) — 'transire' is the compound trans- + ire",
+        "transfero, transferre, transtuli, translatum": "These are the parts of 'transfero' (to transfer/carry across)",
+        "trado, tradere, tradidi, traditum": "These are the parts of 'trado' (to hand over/betray)"
+      }
+    },
+    {
+      "prompt": "What case is 'Caelum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "Caelum = heaven (nom., subject)",
+      "hints": {
+        "accusative": "'Caelum' looks the same in accusative, but here it is the subject — nominative",
+        "vocative": "Vocative would be used for direct address — this is a declarative statement",
+        "ablative": "Ablative would be 'caelo' — 'Caelum' is nominative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'caelum, caeli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'caeli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'caeli' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'caeli' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'terra'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "terra = earth (nom., subject)",
+      "hints": {
+        "ablative": "Ablative 'terra' looks the same, but here it is joined by 'et' as a co-subject — nominative",
+        "vocative": "Vocative would be used for address — 'terra' is the subject here",
+        "accusative": "Accusative would be 'terram' — 'terra' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'terra, terrae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'terrae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'terrae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'terrae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'verba'?",
+      "target": "nominative plural",
+      "choices": ["nominative plural", "accusative plural", "ablative singular", "genitive singular"],
+      "reveal": "verba = words (nom. pl., subject of second clause)",
+      "hints": {
+        "accusative plural": "'Verba' is the same form in acc. pl., but it is the subject of 'non transibunt'",
+        "ablative singular": "Ablative singular would be 'verbo' — 'verba' is nominative/accusative plural",
+        "genitive singular": "Genitive singular would be 'verbi' — 'verba' ends in -a (neut. pl.)"
+      }
+    },
+    {
+      "prompt": "What declension is 'verbum, verbi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'verbi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'verbi' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'verbi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What rhetorical structure does this sentence use?",
+      "target": "antithesis (contrasting heaven/earth passing vs. words enduring)",
+      "choices": ["antithesis (contrasting heaven/earth passing vs. words enduring)", "chiasmus", "tricolon", "anaphora"],
+      "reveal": null,
+      "hints": {
+        "chiasmus": "Chiasmus reverses word order (ABBA) — this is a contrast between two parallel clauses",
+        "tricolon": "Tricolon has three parallel elements — this has two contrasting clauses",
+        "anaphora": "Anaphora repeats an opening word — the repeated 'transibunt' is at the end, not the beginning"
+      }
+    }
+  ],
+  "translation": "Heaven and earth will pass away, but my words will not pass away"
+}

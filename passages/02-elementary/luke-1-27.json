@@ -1,0 +1,75 @@
+{
+  "id": "luke-1-27",
+  "source": "Vulgate",
+  "reference": "Lucas 1:49",
+  "latin": ["Sanctum", "nomen", "eius"],
+  "steps": [
+    {
+      "prompt": "Which is the subject?",
+      "target": "nomen",
+      "choices": ["Sanctum", "nomen", "eius", "est"],
+      "reveal": null,
+      "hints": {
+        "Sanctum": "'Sanctum' is an adjective meaning 'holy', modifying the subject",
+        "eius": "'Eius' is a pronoun meaning 'his'",
+        "est": "'Est' is implied but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "What case is 'sanctum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "sanctum = holy (nom. neut.)",
+      "hints": {
+        "accusative": "Neuter nominative and accusative are identical; here it is predicate nominative",
+        "ablative": "Ablative would be 'sancto'",
+        "genitive": "Genitive would be 'sancti'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'sanctus' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have -is/-e forms; 'sanctus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Sanctus' clearly declines: sanctus, sancta, sanctum, etc."
+      }
+    },
+    {
+      "prompt": "What case is 'nomen'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "nomen = name (nom.)",
+      "hints": {
+        "accusative": "Neuter nom. and acc. are identical; here 'nomen' is the subject",
+        "ablative": "Ablative would be 'nomine'",
+        "vocative": "Vocative would be 'nomen' but this is a declarative statement, not address"
+      }
+    },
+    {
+      "prompt": "What declension is 'nomen'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'nomen' is a 3rd declension neuter",
+        "2nd declension": "2nd declension neuters end in -um; 'nomen' has genitive 'nominis'",
+        "4th declension": "4th declension neuters end in -u; 'nomen' has genitive 'nominis'"
+      }
+    },
+    {
+      "prompt": "What case is 'eius'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "eius = his (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'is' (masc.) or 'id' (neut.)",
+        "dative": "Dative would be 'ei'",
+        "accusative": "Accusative would be 'eum' or 'id'"
+      }
+    }
+  ],
+  "translation": "Holy is his name"
+}

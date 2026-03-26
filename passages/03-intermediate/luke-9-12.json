@@ -1,0 +1,97 @@
+{
+  "id": "luke-9-12",
+  "source": "Vulgate",
+  "reference": "Lucas 9:35",
+  "latin": ["Hic", "est", "Filius", "meus", "dilectus"],
+  "steps": [
+    {
+      "prompt": "Which word is a demonstrative pronoun?",
+      "target": "Hic",
+      "choices": ["Hic", "Filius", "meus", "dilectus"],
+      "reveal": null,
+      "hints": {
+        "Filius": "'Filius' is a noun meaning 'son'",
+        "meus": "'Meus' is a possessive adjective meaning 'my'",
+        "dilectus": "'Dilectus' is a participle/adjective meaning 'beloved'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'est' here is from 'esse' (to be)",
+        "to go": "That would be 'ire' — 'est' is from 'esse'",
+        "to stand": "That would be 'stare' — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "exsto, exstare, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "exsto, exstare, exstiti, —": "These are the parts of 'exstare' (to stand out/exist)"
+      }
+    },
+    {
+      "prompt": "What kind of word is 'dilectus'?",
+      "target": "perfect passive participle (used as adjective)",
+      "choices": ["present active participle", "perfect passive participle (used as adjective)", "future active participle", "gerundive"],
+      "reveal": "dilectus = beloved / having been loved",
+      "hints": {
+        "present active participle": "Present active participle would be 'diligens' — 'dilectus' is perfect passive",
+        "future active participle": "Future active would be 'dilecturus' — 'dilectus' is perfect passive",
+        "gerundive": "Gerundive would be 'diligendus' — 'dilectus' is perfect passive participle"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dilectus'?",
+      "target": "diligo, diligere, dilexi, dilectum",
+      "choices": ["diligo, diligere, dilexi, dilectum", "deligo, deligere, delegi, delectum", "delecto, delectare, delectavi, delectatum", "lego, legere, legi, lectum"],
+      "reveal": null,
+      "hints": {
+        "deligo, deligere, delegi, delectum": "These are the parts of 'deligere' (to choose/select)",
+        "delecto, delectare, delectavi, delectatum": "These are the parts of 'delectare' (to delight)",
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read/gather)"
+      }
+    },
+    {
+      "prompt": "What case is 'Filius'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "vocative", "accusative"],
+      "reveal": "Filius = Son (nom., predicate nominative)",
+      "hints": {
+        "genitive": "Genitive would be 'Filii' — 'Filius' is nominative predicate",
+        "vocative": "Vocative would be 'Fili' — 'Filius' is predicate nominative with 'est'",
+        "accusative": "Accusative would be 'Filium' — 'Filius' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -i(i)",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -i(i)",
+        "4th declension": "4th declension has genitive in -ūs — 'filii' ends in -i(i)"
+      }
+    }
+  ],
+  "translation": "This is my beloved Son"
+}

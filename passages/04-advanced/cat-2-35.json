@@ -1,0 +1,108 @@
+{
+  "id": "cat-2-35",
+  "source": "Cicero",
+  "reference": "In Cat. II.23",
+  "latin": ["Hic", "nos", "hic", "nostri", "consules", "deique", "immortales", "adiuvabunt"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "adiuvabunt",
+      "choices": ["nos", "consules", "immortales", "adiuvabunt"],
+      "reveal": null,
+      "hints": {
+        "nos": "'nos' is a pronoun meaning 'us' (accusative here)",
+        "consules": "'consules' is a noun meaning 'the consuls'",
+        "immortales": "'immortales' is an adjective meaning 'immortal'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'adiuvabunt' translates to?",
+      "target": "to help / assist",
+      "choices": ["to judge", "to help / assist", "to swear", "to command"],
+      "reveal": null,
+      "hints": {
+        "to judge": "'to judge' is 'iudicare' — 'adiuvare' means 'to help'",
+        "to swear": "'to swear' is 'iurare' — 'adiuvare' means 'to help/assist'",
+        "to command": "'to command' is 'iubere' — 'adiuvare' means 'to help'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'adiuvabunt'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "adiuvabunt", "gloss": "will help" },
+      "hints": {
+        "Present indicative": "Present would be 'adiuvant' — 'adiuvabunt' with -abunt ending is future",
+        "Present subjunctive": "Present subjunctive would be 'adiuvent' — 'adiuvabunt' is future indicative",
+        "Perfect indicative": "Perfect would be 'adiuverunt' — 'adiuvabunt' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'adiuvabunt'?",
+      "target": "adiuvo, adiuvare, adiuvi, adiutum",
+      "choices": ["adiuvo, adiuvare, adiuvi, adiutum", "iuvo, iuvare, iuvi, iutum", "iubeo, iubere, iussi, iussum", "iudico, iudicare, iudicavi, iudicatum"],
+      "reveal": null,
+      "hints": {
+        "iuvo, iuvare, iuvi, iutum": "These are the parts of 'iuvare' (to help) — the base verb without ad- prefix",
+        "iubeo, iubere, iussi, iussum": "These are the parts of 'iubere' (to order)",
+        "iudico, iudicare, iudicavi, iudicatum": "These are the parts of 'iudicare' (to judge)"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "Nominative": "'nos' can be nominative ('we'), but here it is the object of 'adiuvabunt'",
+        "Dative": "Dative would be 'nobis' — 'nos' is accusative, direct object",
+        "Ablative": "Ablative would be 'nobis' — 'nos' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'consules'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "consules", "gloss": "the consuls" },
+      "hints": {
+        "Accusative": "Accusative plural is also 'consules' (3rd decl.), but here they are the subject of 'adiuvabunt'",
+        "Vocative": "Vocative would look the same, but Cicero lists them as agents who will help, not addressees",
+        "Ablative": "Ablative would be 'consulibus' — 'consules' is nominative"
+      }
+    },
+    {
+      "prompt": "What does 'deique' break down to?",
+      "target": "dei + -que = 'and the gods'",
+      "choices": ["A single word meaning 'divine'", "dei + -que = 'and the gods'", "A form of 'dico' (to say)", "dei + que (because)"],
+      "reveal": { "word": "deique", "gloss": "and the gods" },
+      "hints": {
+        "A single word meaning 'divine'": "'deique' is 'dei' (gods, nom. pl.) + '-que' (enclitic 'and')",
+        "A form of 'dico' (to say)": "'deique' comes from 'deus' + '-que' — nothing to do with 'dico'",
+        "dei + que (because)": "'-que' is the enclitic conjunction meaning 'and', not the causal 'because'"
+      }
+    },
+    {
+      "prompt": "What does the repeated 'Hic … hic' at the start emphasize?",
+      "target": "Anaphora — 'here … here' — emphasizing that help is right here in Rome",
+      "choices": ["It refers to two different places", "Anaphora — 'here … here' — emphasizing that help is right here in Rome", "It is a grammatical error", "It creates a question"],
+      "reveal": null,
+      "hints": {
+        "It refers to two different places": "'Hic' is repeated for emphasis — both refer to 'here (in Rome)'",
+        "It is a grammatical error": "Repetition is a deliberate rhetorical device (anaphora), not an error",
+        "It creates a question": "'Hic' is a demonstrative adverb meaning 'here' — it is not interrogative"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical purpose of this closing sentence?",
+      "target": "A confident peroration — human and divine forces will protect Rome",
+      "choices": ["An admission of defeat", "A confident peroration — human and divine forces will protect Rome", "A request for foreign aid", "A declaration of war"],
+      "reveal": null,
+      "hints": {
+        "An admission of defeat": "The future tense 'adiuvabunt' expresses confidence, not defeat",
+        "A request for foreign aid": "Cicero invokes consuls and Roman gods — this is domestic, not foreign",
+        "A declaration of war": "This is a promise of divine and human protection, not a formal war declaration"
+      }
+    }
+  ],
+  "translation": "Here we, here our consuls and the immortal gods will help."
+}

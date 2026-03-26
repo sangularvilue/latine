@@ -1,0 +1,130 @@
+{
+  "id": "luke-24-03",
+  "source": "Vulgate",
+  "reference": "Lucas 24:32",
+  "latin": ["Nonne", "cor", "nostrum", "ardens", "erat", "in", "nobis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "erat",
+      "choices": ["erat", "ardens", "cor", "Nonne"],
+      "reveal": null,
+      "hints": {
+        "ardens": "'Ardens' is a present active participle meaning 'burning' — used predicatively",
+        "cor": "'Cor' is a noun meaning 'heart'",
+        "Nonne": "'Nonne' is an interrogative particle expecting a 'yes' answer"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erat' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to wander", "to plow", "to burn"],
+      "reveal": null,
+      "hints": {
+        "to wander": "'To wander' is 'errare' — 'erat' is from 'sum, esse'",
+        "to plow": "'To plow' is 'arare' — 'erat' is from 'sum, esse'",
+        "to burn": "'To burn' is 'ardere' — that would give 'ardens', not 'erat'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erat'?",
+      "target": "imperfect indicative",
+      "choices": ["imperfect indicative", "present indicative", "perfect indicative", "pluperfect indicative"],
+      "reveal": "erat = was (3rd sing. imperfect)",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erat' is imperfect",
+        "perfect indicative": "Perfect would be 'fuit' — 'erat' is imperfect",
+        "pluperfect indicative": "Pluperfect would be 'fuerat' — 'erat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erat'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "erro, errare, erravi, erratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "erro, errare, erravi, erratum": "These are the parts of 'erro' (to wander)"
+      }
+    },
+    {
+      "prompt": "What is 'ardens' grammatically?",
+      "target": "present active participle of 'ardeo'",
+      "choices": ["present active participle of 'ardeo'", "perfect passive participle", "gerundive", "3rd declension adjective"],
+      "reveal": "ardens = burning (present participle, used predicatively with 'erat')",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would end in -tus/-sus — 'ardens' has the -ens of a present participle",
+        "gerundive": "Gerundive would be 'ardendum' — 'ardens' is a present active participle",
+        "3rd declension adjective": "While 'ardens' can function as an adjective, here it is a participle (verbal + 'erat' = periphrastic)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ardens' (from 'ardeo')?",
+      "target": "ardeo, ardere, arsi, arsum",
+      "choices": ["ardeo, ardere, arsi, arsum", "aro, arare, aravi, aratum", "audio, audire, audivi, auditum", "augeo, augere, auxi, auctum"],
+      "reveal": null,
+      "hints": {
+        "aro, arare, aravi, aratum": "These are the parts of 'aro' (to plow)",
+        "audio, audire, audivi, auditum": "These are the parts of 'audio' (to hear)",
+        "augeo, augere, auxi, auctum": "These are the parts of 'augeo' (to increase)"
+      }
+    },
+    {
+      "prompt": "What case is 'cor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "cor = heart (nom., subject)",
+      "hints": {
+        "accusative": "'Cor' looks the same in accusative, but here it is the subject of 'erat'",
+        "ablative": "Ablative would be 'corde' — 'cor' is nominative here",
+        "genitive": "Genitive would be 'cordis' — 'cor' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'cor, cordis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'cordis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'cordis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'cordis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'nobis'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "accusative", "genitive"],
+      "reveal": "in nobis = within us (abl.)",
+      "hints": {
+        "dative": "'Nobis' can be dative, but 'in' + ablative = location (within us)",
+        "accusative": "Accusative of 'nos' is 'nos' — 'nobis' after 'in' is ablative",
+        "genitive": "Genitive of 'nos' is 'nostrum/nostri' — 'nobis' is ablative here"
+      }
+    },
+    {
+      "prompt": "What does 'Nonne' signal about the expected answer?",
+      "target": "expects a 'yes' answer (Was not our heart burning? — Yes, it was!)",
+      "choices": ["expects a 'yes' answer (Was not our heart burning? — Yes, it was!)", "expects a 'no' answer", "it is a neutral question particle", "it introduces indirect speech"],
+      "reveal": "'Nonne' = 'is it not the case that...?' — always expects affirmation",
+      "hints": {
+        "expects a 'no' answer": "'Num' expects a 'no' answer — 'Nonne' expects 'yes'",
+        "it is a neutral question particle": "A neutral question uses '-ne' — 'Nonne' specifically expects 'yes'",
+        "it introduces indirect speech": "'Nonne' introduces a direct question, not indirect speech"
+      }
+    },
+    {
+      "prompt": "What construction is 'cor ardens erat'?",
+      "target": "periphrastic construction (participle + 'esse' = was burning)",
+      "choices": ["periphrastic construction (participle + 'esse' = was burning)", "ablative absolute", "passive periphrastic (gerundive + esse)", "predicate nominative"],
+      "reveal": "ardens erat = was burning (progressive/durative aspect)",
+      "hints": {
+        "ablative absolute": "Ablative absolute requires ablative case — 'cor ardens' is nominative",
+        "passive periphrastic (gerundive + esse)": "Passive periphrastic uses a gerundive (-ndus), not a present participle (-ens)",
+        "predicate nominative": "While 'ardens' is nominative, the construction is specifically a periphrastic (participle + esse)"
+      }
+    }
+  ],
+  "translation": "Was not our heart burning within us?"
+}

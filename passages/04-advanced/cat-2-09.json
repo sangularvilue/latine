@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-09",
+  "source": "Cicero",
+  "reference": "In Cat. II.3",
+  "latin": ["Quem", "ego", "hostem", "quantum", "in", "me", "fuit", "eieceram"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "eieceram",
+      "choices": ["hostem", "fuit", "eieceram", "Quem"],
+      "reveal": null,
+      "hints": {
+        "hostem": "'hostem' is a noun in the accusative meaning 'enemy'",
+        "fuit": "'fuit' is a verb in the parenthetical clause 'quantum in me fuit' (as far as it was in me)",
+        "Quem": "'Quem' is a relative pronoun in the accusative meaning 'whom'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eieceram' translates to?",
+      "target": "to throw out / expel",
+      "choices": ["to throw out / expel", "to choose", "to reject", "to lift"],
+      "reveal": null,
+      "hints": {
+        "to choose": "'to choose' is 'eligere' — 'eicere' means 'to throw out'",
+        "to reject": "'to reject' is 'reicere' — 'eicere' means 'to expel/cast out'",
+        "to lift": "'to lift' is 'tollere' — 'eicere' means 'to throw out'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eieceram'?",
+      "target": "Pluperfect indicative",
+      "choices": ["Perfect indicative", "Pluperfect indicative", "Imperfect indicative", "Imperfect subjunctive"],
+      "reveal": { "word": "eieceram", "gloss": "I had expelled" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'eieci' — 'eieceram' with -eram ending is pluperfect",
+        "Imperfect indicative": "Imperfect would be 'eiciebam' — 'eieceram' is pluperfect",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'eicerem' — 'eieceram' is pluperfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eieceram'?",
+      "target": "eicio, eicere, eieci, eiectum",
+      "choices": ["eicio, eicere, eieci, eiectum", "iacio, iacere, ieci, iactum", "eligo, eligere, elegi, electum", "reicio, reicere, reieci, reiectum"],
+      "reveal": null,
+      "hints": {
+        "iacio, iacere, ieci, iactum": "These are the parts of 'iacere' (to throw) — the base verb",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose)",
+        "reicio, reicere, reieci, reiectum": "These are the parts of 'reicere' (to reject)"
+      }
+    },
+    {
+      "prompt": "What case is 'hostem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "hostem", "gloss": "enemy (public enemy)" },
+      "hints": {
+        "Nominative": "Nominative would be 'hostis' — 'hostem' with -em ending is accusative",
+        "Dative": "Dative would be 'hosti' — 'hostem' is accusative",
+        "Ablative": "Ablative would be 'hoste' — 'hostem' is accusative (predicate accusative with 'quem')"
+      }
+    },
+    {
+      "prompt": "Declension of 'hostem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'hostis, hostis' is 3rd declension",
+        "2nd": "2nd declension accusative ends in -um — 'hostis, hostis' is 3rd declension",
+        "4th": "4th declension accusative ends in -um — 'hostis, hostis' with gen. -is is 3rd"
+      }
+    },
+    {
+      "prompt": "What does the parenthetical 'quantum in me fuit' mean?",
+      "target": "As far as it was in my power / as much as I could",
+      "choices": ["How much was in me", "As far as it was in my power / as much as I could", "Because of my strength", "With great effort"],
+      "reveal": null,
+      "hints": {
+        "How much was in me": "While a literal translation, this idiom means 'to the extent of my ability'",
+        "Because of my strength": "'quantum in me fuit' is a standard idiom of qualification, not a causal expression",
+        "With great effort": "The phrase qualifies Cicero's claim — he expelled Catiline as much as he could, acknowledging limitations"
+      }
+    },
+    {
+      "prompt": "What does 'hostem' imply about Catiline's legal status?",
+      "target": "Cicero labels him a public enemy (hostis), not merely a citizen (civis)",
+      "choices": ["Catiline is a foreign invader", "Cicero labels him a public enemy (hostis), not merely a citizen (civis)", "Catiline was formally declared hostis by the senate", "It is a term of endearment"],
+      "reveal": null,
+      "hints": {
+        "Catiline is a foreign invader": "'hostis' often means foreign enemy, but Cicero applies it to a Roman citizen to delegitimize him",
+        "Catiline was formally declared hostis by the senate": "The senate had not yet formally declared Catiline 'hostis' — Cicero uses the word rhetorically to push that framing",
+        "It is a term of endearment": "'hostis' means 'enemy' — it is the opposite of endearment"
+      }
+    }
+  ],
+  "translation": "This man, whom I, as far as was in my power, had expelled as an enemy."
+}

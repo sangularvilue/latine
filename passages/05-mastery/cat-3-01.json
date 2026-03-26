@@ -1,0 +1,130 @@
+{
+  "id": "cat-3-01",
+  "source": "Cicero",
+  "reference": "In Catilinam III.1",
+  "latin": ["Rem", "publicam", "Quirites", "vitamque", "omnium", "vestrum"],
+  "steps": [
+    {
+      "prompt": "What case is 'Rem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Rem = thing / affair (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'res' — the -em ending marks accusative singular",
+        "ablative": "Ablative would be 're' — 'Rem' with -em is accusative",
+        "dative": "Dative would be 'rei' — 'Rem' is accusative singular of 'res'"
+      }
+    },
+    {
+      "prompt": "What declension is 'res, rei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'rei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'rei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'rei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "'Rem publicam' is a common political phrase. What does it mean?",
+      "target": "the republic / the state",
+      "choices": ["the republic / the state", "the public road", "the common people", "public property"],
+      "reveal": "rem publicam = the republic (acc.)",
+      "hints": {
+        "the public road": "'Via publica' means public road — 'rem publicam' refers to the state itself",
+        "the common people": "'Plebs' or 'vulgus' means the common people — 'res publica' is the state",
+        "public property": "'Res publica' doesn't mean mere property but the entire commonwealth"
+      }
+    },
+    {
+      "prompt": "What case is 'Quirites'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": "Quirites = Roman citizens (voc.)",
+      "hints": {
+        "nominative": "While the form is identical, 'Quirites' here is a direct address — vocative",
+        "accusative": "Accusative plural would also be 'Quirites,' but context shows direct address",
+        "ablative": "Ablative would be 'Quiritibus' — 'Quirites' is vocative of address"
+      }
+    },
+    {
+      "prompt": "What declension is 'Quirites, Quiritium'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive plural in -arum — 'Quiritium' ends in -ium",
+        "2nd declension": "2nd declension has genitive plural in -orum — 'Quiritium' ends in -ium",
+        "4th declension": "4th declension has genitive plural in -uum — 'Quiritium' ends in -ium"
+      }
+    },
+    {
+      "prompt": "What does the enclitic '-que' on 'vitamque' mean?",
+      "target": "and",
+      "choices": ["and", "or", "but", "also"],
+      "reveal": "vitamque = and the life",
+      "hints": {
+        "or": "'-ve' means 'or' — '-que' means 'and'",
+        "but": "'Sed' or 'autem' means 'but' — '-que' is the enclitic for 'and'",
+        "also": "'Quoque' means 'also' — '-que' simply means 'and'"
+      }
+    },
+    {
+      "prompt": "What case is 'vitam' (in 'vitamque')?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "vitam = life (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'vita' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'vita' — 'vitam' with -am is accusative",
+        "genitive": "Genitive would be 'vitae' — 'vitam' is accusative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'vita, vitae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'vitae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'vitae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'vitae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'omnium'?",
+      "target": "genitive",
+      "choices": ["nominative", "accusative", "genitive", "dative"],
+      "reveal": "omnium = of all (gen. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'omnes' — 'omnium' with -ium is genitive plural",
+        "accusative": "Accusative plural would be 'omnes' — 'omnium' is genitive plural",
+        "dative": "Dative plural would be 'omnibus' — 'omnium' is genitive plural"
+      }
+    },
+    {
+      "prompt": "What case is 'vestrum'?",
+      "target": "genitive",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "vestrum = of you (partitive gen.)",
+      "hints": {
+        "nominative": "'Vestrum' is not nominative — it is the partitive genitive of 'vos'",
+        "accusative": "Accusative of 'vos' is 'vos' — 'vestrum' is partitive genitive",
+        "ablative": "Ablative of 'vos' is 'vobis' — 'vestrum' is partitive genitive"
+      }
+    },
+    {
+      "prompt": "Why is 'vestrum' (not 'vestri') used here?",
+      "target": "partitive genitive with 'omnium'",
+      "choices": ["partitive genitive with 'omnium'", "objective genitive with 'vitam'", "genitive of possession", "subjective genitive"],
+      "reveal": null,
+      "hints": {
+        "objective genitive with 'vitam'": "'Vestri' would be the objective genitive — 'vestrum' is partitive, used with 'omnium'",
+        "genitive of possession": "Possessive genitive uses 'vester/vestra/vestrum' as adjective, not 'vestrum' pronoun form",
+        "subjective genitive": "'Vestri' is used for subjective genitive — 'vestrum' is specifically partitive"
+      }
+    }
+  ],
+  "translation": "The republic, citizens, and the life of all of you"
+}

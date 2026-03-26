@@ -1,0 +1,86 @@
+{
+  "id": "luke-6-06",
+  "source": "Vulgate",
+  "reference": "Lucas 6:37",
+  "latin": ["Nolite", "iudicare"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Nolite",
+      "choices": ["Nolite", "iudicare", "noli", "iudicate"],
+      "reveal": null,
+      "hints": {
+        "iudicare": "'iudicare' is an infinitive (to judge), not a finite verb",
+        "noli": "'noli' is the singular imperative — 'Nolite' is the plural imperative used here",
+        "iudicate": "'iudicate' means 'judge!' but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Nolite' translates to?",
+      "target": "to be unwilling / to not want",
+      "choices": ["to be unwilling / to not want", "to know", "to harm", "to refuse"],
+      "reveal": null,
+      "hints": {
+        "to know": "'to know' is 'noscere' — 'Nolite' comes from 'nolle' (to be unwilling)",
+        "to harm": "'to harm' is 'nocere' — 'Nolite' comes from 'nolle' (to be unwilling)",
+        "to refuse": "'to refuse' is 'recusare' — 'nolle' means 'to be unwilling' (noli + inf. = prohibition)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Nolite'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "Nolite", "gloss": "do not! (pl.)" },
+      "hints": {
+        "present indicative": "Present indicative 2nd plural is 'non vultis' — 'Nolite' is imperative",
+        "subjunctive": "Subjunctive would be 'nolitis' — 'Nolite' is the imperative plural",
+        "infinitive": "Infinitive is 'nolle' — 'Nolite' is the imperative plural form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "nosco, noscere, novi, notum", "noceo, nocere, nocui, nocitum", "volo, velle, volui, —"],
+      "reveal": null,
+      "hints": {
+        "nosco, noscere, novi, notum": "These are principal parts of 'nosco' (to get to know)",
+        "noceo, nocere, nocui, nocitum": "These are principal parts of 'noceo' (to harm)",
+        "volo, velle, volui, —": "These are principal parts of 'volo' (to wish) — 'nolo' is its negative compound"
+      }
+    },
+    {
+      "prompt": "'Iudicare' is what form?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "gerund", "participle"],
+      "reveal": null,
+      "hints": {
+        "imperative": "Imperative would be 'iudica/iudicate' — 'iudicare' ending in -are is the infinitive",
+        "gerund": "Gerund would be 'iudicandi' — 'iudicare' is the present active infinitive",
+        "participle": "Participle would be 'iudicans' — 'iudicare' is the infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive 'iudicare' translates to?",
+      "target": "to judge",
+      "choices": ["to judge", "to swear", "to help", "to indicate"],
+      "reveal": { "word": "iudicare", "gloss": "to judge" },
+      "hints": {
+        "to swear": "'to swear' is 'iurare' — 'iudicare' means 'to judge'",
+        "to help": "'to help' is 'iuvare/adiuvare' — 'iudicare' means 'to judge'",
+        "to indicate": "'to indicate' is 'indicare' — 'iudicare' means 'to judge'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iudicare'?",
+      "target": "iudico, iudicare, iudicavi, iudicatum",
+      "choices": ["iudico, iudicare, iudicavi, iudicatum", "iuro, iurare, iuravi, iuratum", "indico, indicare, indicavi, indicatum", "iuvo, iuvare, iuvi, iutum"],
+      "reveal": null,
+      "hints": {
+        "iuro, iurare, iuravi, iuratum": "These are principal parts of 'iuro' (to swear an oath)",
+        "indico, indicare, indicavi, indicatum": "These are principal parts of 'indico' (to indicate/point out)",
+        "iuvo, iuvare, iuvi, iutum": "These are principal parts of 'iuvo' (to help)"
+      }
+    }
+  ],
+  "translation": "Do not judge"
+}

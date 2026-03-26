@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-08",
+  "source": "Vulgate",
+  "reference": "Lucas 15:13",
+  "latin": ["Et", "non", "post", "multos", "dies", "congregatis", "omnibus", "filius", "iunior", "peregre", "profectus", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'multos dies'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "post multos dies = after many days (acc. with 'post')",
+      "hints": {
+        "nominative": "Nominative would be 'multi dies' — 'multos dies' with -os is accusative",
+        "ablative": "Ablative would be 'multis diebus' — 'post' takes the accusative",
+        "dative": "Dative would be 'multis diebus' — 'post' governs the accusative"
+      }
+    },
+    {
+      "prompt": "What is the construction 'congregatis omnibus'?",
+      "target": "ablative absolute (perfect passive participle + ablative)",
+      "choices": ["ablative absolute (perfect passive participle + ablative)", "ablative of means", "dative of reference", "ablative of manner"],
+      "reveal": "congregatis omnibus = all things having been gathered together",
+      "hints": {
+        "ablative of means": "Ablative of means would answer 'by what' — this is a complete ablative absolute clause",
+        "dative of reference": "'Congregatis omnibus' could look dative, but as a participle + noun in ablative it is an ablative absolute",
+        "ablative of manner": "Ablative of manner describes how — this ablative absolute describes a circumstance"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'congregatis' translates to?",
+      "target": "to gather together",
+      "choices": ["to gather together", "to separate", "to dedicate", "to greet"],
+      "reveal": null,
+      "hints": {
+        "to separate": "'To separate' is 'segregare' — 'congregare' means to gather together",
+        "to dedicate": "'To dedicate' is 'dedicare' — 'congregare' means to assemble",
+        "to greet": "'To greet' is 'salutare' — 'congregare' means to gather together"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'congregatis'?",
+      "target": "congrego, congregare, congregavi, congregatum",
+      "choices": ["congrego, congregare, congregavi, congregatum", "grego, gregare, gregavi, gregatum", "segrego, segregare, segregavi, segregatum", "aggrego, aggregare, aggregavi, aggregatum"],
+      "reveal": null,
+      "hints": {
+        "grego, gregare, gregavi, gregatum": "'Gregare' is extremely rare — 'congregare' is the standard compound",
+        "segrego, segregare, segregavi, segregatum": "These are the parts of 'segregare' (to separate) — opposite meaning",
+        "aggrego, aggregare, aggregavi, aggregatum": "These are the parts of 'aggregare' (to add to a flock) — different prefix"
+      }
+    },
+    {
+      "prompt": "What case is 'filius iunior'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "filius iunior = the younger son (nom., subject of 'profectus est')",
+      "hints": {
+        "accusative": "Accusative would be 'filium iuniorem' — 'filius iunior' is nominative",
+        "ablative": "Ablative would be 'filio iuniore' — 'filius iunior' is nominative",
+        "genitive": "Genitive would be 'filii iunioris' — 'filius iunior' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'filii' ends in -ii/-i",
+        "3rd declension": "3rd declension has genitive in -is — 'filii' ends in -ii",
+        "4th declension": "4th declension has genitive in -ūs — 'filii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "'Iunior' is what form of the adjective?",
+      "target": "comparative (younger)",
+      "choices": ["comparative (younger)", "positive (young)", "superlative (youngest)", "irregular positive"],
+      "reveal": "iunior = younger (comparative of 'iuvenis')",
+      "hints": {
+        "positive (young)": "Positive would be 'iuvenis' — 'iunior' with -ior is comparative",
+        "superlative (youngest)": "Superlative would be 'iunissimus' or 'minimus natu' — 'iunior' is comparative",
+        "irregular positive": "'Iunior' is not a positive form — the -ior ending marks it as comparative"
+      }
+    },
+    {
+      "prompt": "What does 'peregre' mean?",
+      "target": "abroad / to a foreign land",
+      "choices": ["abroad / to a foreign land", "on foot", "quickly", "secretly"],
+      "reveal": "peregre = abroad (adverb of motion to a foreign place)",
+      "hints": {
+        "on foot": "'On foot' would be 'pedibus' — 'peregre' means to/in a foreign land",
+        "quickly": "'Quickly' is 'celeriter' — 'peregre' means abroad",
+        "secretly": "'Secretly' is 'clam' — 'peregre' means abroad"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'profectus est' translates to?",
+      "target": "to set out / to depart",
+      "choices": ["to set out / to depart", "to make progress", "to confess", "to carry forward"],
+      "reveal": null,
+      "hints": {
+        "to make progress": "'To make progress' is 'proficere' — 'proficisci' is a deponent meaning to set out",
+        "to confess": "'To confess' is 'confiteri' — 'proficisci' means to depart",
+        "to carry forward": "'To carry forward' is 'proferre' — 'proficisci' means to set out on a journey"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'profectus est'?",
+      "target": "perfect indicative (deponent verb)",
+      "choices": ["perfect indicative (deponent verb)", "perfect passive indicative", "present passive indicative", "pluperfect indicative"],
+      "reveal": "profectus est = he departed / he set out",
+      "hints": {
+        "perfect passive indicative": "'Proficisci' is deponent — passive in form but active in meaning, so this is perfect active",
+        "present passive indicative": "Present would be 'proficiscitur' — 'profectus est' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'profectus erat' — 'est' makes this perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'profectus est'?",
+      "target": "proficiscor, proficisci, profectus sum",
+      "choices": ["proficiscor, proficisci, profectus sum", "proficio, proficere, profeci, profectum", "confiteor, confiteri, confessus sum", "patior, pati, passus sum"],
+      "reveal": null,
+      "hints": {
+        "proficio, proficere, profeci, profectum": "These are the parts of 'proficere' (to make progress) — different verb",
+        "confiteor, confiteri, confessus sum": "These are the parts of 'confiteri' (to confess) — different deponent",
+        "patior, pati, passus sum": "These are the parts of 'pati' (to suffer) — different deponent"
+      }
+    },
+    {
+      "prompt": "This verse begins which famous parable?",
+      "target": "the Parable of the Prodigal Son",
+      "choices": ["the Parable of the Prodigal Son", "the Parable of the Lost Sheep", "the Parable of the Talents", "the Parable of the Good Samaritan"],
+      "reveal": null,
+      "hints": {
+        "the Parable of the Lost Sheep": "The Lost Sheep is earlier in Luke 15 — this is about the younger son departing",
+        "the Parable of the Talents": "The Talents is in Matthew 25 — this is Luke 15's Prodigal Son",
+        "the Parable of the Good Samaritan": "The Good Samaritan is Luke 10 — this is about the younger son going abroad"
+      }
+    }
+  ],
+  "translation": "And not many days later, having gathered all his things, the younger son departed to a foreign land"
+}

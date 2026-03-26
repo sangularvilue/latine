@@ -1,0 +1,108 @@
+{
+  "id": "luke-13-03",
+  "source": "Vulgate",
+  "reference": "Lucas 13:24",
+  "latin": ["Contendite", "intrare", "per", "angustam", "portam"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "Contendite",
+      "choices": ["Contendite", "intrare", "angustam", "portam"],
+      "reveal": null,
+      "hints": {
+        "intrare": "'Intrare' is an infinitive, not a finite verb — it depends on 'Contendite'",
+        "angustam": "'Angustam' is an adjective meaning 'narrow' in the accusative",
+        "portam": "'Portam' is a noun meaning 'gate' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Contendite' translates to?",
+      "target": "to strive / to struggle",
+      "choices": ["to strive / to struggle", "to be content", "to contain", "to hold together"],
+      "reveal": null,
+      "hints": {
+        "to be content": "'To be content' is 'contentum esse' — 'contendere' means 'to strive'",
+        "to contain": "'To contain' is 'continere' — 'contendere' means 'to strive/struggle'",
+        "to hold together": "'To hold together' is 'cohaerere' — 'contendere' means 'to strive'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Contendite'?",
+      "target": "imperative",
+      "choices": ["imperative", "indicative", "subjunctive", "infinitive"],
+      "reveal": "Contendite = Strive! (2nd pl. imperative)",
+      "hints": {
+        "indicative": "Present indicative 2nd plural would be 'contenditis' — 'Contendite' lacks the -s",
+        "subjunctive": "Present subjunctive would be 'contendatis' — 'Contendite' is a direct command",
+        "infinitive": "The infinitive would be 'contendere' — 'Contendite' is the plural imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Contendite'?",
+      "target": "contendo, contendere, contendi, contentum",
+      "choices": ["contendo, contendere, contendi, contentum", "contineo, continere, continui, contentum", "contemno, contemnere, contempsi, contemptum", "confero, conferre, contuli, collatum"],
+      "reveal": null,
+      "hints": {
+        "contineo, continere, continui, contentum": "These are the principal parts of 'continere' (to contain/hold)",
+        "contemno, contemnere, contempsi, contemptum": "These are the principal parts of 'contemnere' (to despise)",
+        "confero, conferre, contuli, collatum": "These are the principal parts of 'conferre' (to bring together)"
+      }
+    },
+    {
+      "prompt": "What grammatical form is 'intrare'?",
+      "target": "present active infinitive",
+      "choices": ["present active infinitive", "imperative", "present subjunctive", "perfect infinitive"],
+      "reveal": "intrare = to enter",
+      "hints": {
+        "imperative": "The imperative would be 'intra' (sg.) or 'intrate' (pl.) — 'intrare' ends in -re",
+        "present subjunctive": "Present subjunctive would be 'intret' or 'intrem' — 'intrare' is infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'intravisse' — 'intrare' is present"
+      }
+    },
+    {
+      "prompt": "What case is 'angustam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "angustam = narrow (acc. fem. sg.)",
+      "hints": {
+        "nominative": "Nominative feminine would be 'angusta' — the -am ending marks accusative",
+        "ablative": "Ablative feminine would be 'angusta' — 'angustam' is accusative",
+        "genitive": "Genitive feminine would be 'angustae' — 'angustam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'portam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "portam = gate (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'porta' — the -am ending marks accusative",
+        "ablative": "Ablative would be 'porta' — 'portam' with -am is accusative",
+        "dative": "Dative would be 'portae' — 'portam' is accusative after 'per'"
+      }
+    },
+    {
+      "prompt": "What declension is 'porta, portae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'portae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'portae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'portae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What kind of construction is 'per angustam portam'?",
+      "target": "prepositional phrase with accusative",
+      "choices": ["prepositional phrase with accusative", "prepositional phrase with ablative", "ablative absolute", "accusative of extent"],
+      "reveal": null,
+      "hints": {
+        "prepositional phrase with ablative": "'Per' always governs the accusative, never the ablative",
+        "ablative absolute": "An ablative absolute requires a noun and participle in the ablative — this has 'per' + accusative",
+        "accusative of extent": "Accusative of extent has no preposition — 'per' governs the accusative here"
+      }
+    }
+  ],
+  "translation": "Strive to enter through the narrow gate"
+}

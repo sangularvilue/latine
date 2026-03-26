@@ -1,0 +1,130 @@
+{
+  "id": "luke-1-30",
+  "source": "Vulgate",
+  "reference": "Lucas 1:79",
+  "latin": ["Illuminare", "his", "qui", "in", "tenebris", "sedent"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "Illuminare",
+      "choices": ["Illuminare", "his", "tenebris", "sedent"],
+      "reveal": null,
+      "hints": {
+        "his": "'His' is a pronoun meaning 'those/these'",
+        "tenebris": "'Tenebris' is a noun meaning 'darkness'",
+        "sedent": "'Sedent' is a verb in the relative clause, not the main verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'illuminare' translates to?",
+      "target": "to give light / to illuminate",
+      "choices": ["to give light / to illuminate", "to shine", "to burn", "to see"],
+      "reveal": null,
+      "hints": {
+        "to shine": "That would be 'lucere'",
+        "to burn": "That would be 'ardere' or 'urere'",
+        "to see": "That would be 'videre'"
+      }
+    },
+    {
+      "prompt": "What form is 'illuminare' here?",
+      "target": "infinitive (used as imperative)",
+      "choices": ["present indicative", "infinitive (used as imperative)", "perfect", "subjunctive"],
+      "reveal": "illuminare = to give light / enlighten!",
+      "hints": {
+        "present indicative": "Present indicative 3rd person would be 'illuminat'",
+        "perfect": "Perfect would be 'illuminavit'",
+        "subjunctive": "Subjunctive would be 'illuminet'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'illuminare'?",
+      "target": "illumino, illuminare, illuminavi, illuminatum",
+      "choices": ["illumino, illuminare, illuminavi, illuminatum", "luceo, lucere, luxi, —", "illustro, illustrare, illustravi, illustratum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "luceo, lucere, luxi, —": "These are the principal parts of 'luceo' (to shine)",
+        "illustro, illustrare, illustravi, illustratum": "These are the principal parts of 'illustro' (to make bright)",
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'his'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "his = to those (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'hi' (masc.) or 'hae' (fem.)",
+        "ablative": "Ablative plural would also be 'his', but here it is dative (indirect object of 'illuminare')",
+        "accusative": "Accusative plural would be 'hos' (masc.) or 'has' (fem.)"
+      }
+    },
+    {
+      "prompt": "What is the verb in the relative clause?",
+      "target": "sedent",
+      "choices": ["Illuminare", "his", "tenebris", "sedent"],
+      "reveal": null,
+      "hints": {
+        "Illuminare": "'Illuminare' is the main verb/infinitive, not the relative clause verb",
+        "his": "'His' is a pronoun, not a verb",
+        "tenebris": "'Tenebris' is a noun meaning 'darkness'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sedent' translates to?",
+      "target": "to sit",
+      "choices": ["to sit", "to stand", "to remain", "to lie down"],
+      "reveal": null,
+      "hints": {
+        "to stand": "That would be 'stare'",
+        "to remain": "That would be 'manere'",
+        "to lie down": "That would be 'iacere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'sedent'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": "sedent = they sit / are sitting",
+      "hints": {
+        "perfect": "Perfect would be 'sederunt'",
+        "imperfect": "Imperfect would be 'sedebant'",
+        "future": "Future would be 'sedebunt'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sedent'?",
+      "target": "sedeo, sedere, sedi, sessum",
+      "choices": ["sedeo, sedere, sedi, sessum", "sido, sidere, sidi, —", "sto, stare, steti, statum", "maneo, manere, mansi, mansum"],
+      "reveal": null,
+      "hints": {
+        "sido, sidere, sidi, —": "These are the principal parts of 'sido' (to settle/sink)",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "maneo, manere, mansi, mansum": "These are the principal parts of 'maneo' (to remain)"
+      }
+    },
+    {
+      "prompt": "What case is 'tenebris'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "tenebris = darkness (abl. pl., after 'in')",
+      "hints": {
+        "nominative": "Nominative plural would be 'tenebrae'",
+        "dative": "Dative plural would also be 'tenebris', but after 'in' it is ablative of place",
+        "accusative": "Accusative plural would be 'tenebras'"
+      }
+    },
+    {
+      "prompt": "What declension is 'tenebrae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um; 'tenebrae' ends in -ae (1st declension plural)",
+        "3rd declension": "3rd declension has -is genitive; 'tenebrae' has genitive 'tenebrarum'",
+        "5th declension": "5th declension nouns end in -es; 'tenebrae' follows the 1st declension -ae pattern"
+      }
+    }
+  ],
+  "translation": "To give light to those who sit in darkness"
+}

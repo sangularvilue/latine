@@ -1,0 +1,130 @@
+{
+  "id": "luke-5-04",
+  "source": "Vulgate",
+  "reference": "Lucas 5:8",
+  "latin": ["Exi", "a", "me", "quia", "homo", "peccator", "sum"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "Exi and sum",
+      "choices": ["Exi and sum", "Exi only", "sum only", "peccator and sum"],
+      "reveal": null,
+      "hints": {
+        "Exi only": "There are two finite verbs: 'Exi' (go out!) and 'sum' (I am)",
+        "sum only": "'sum' is a finite verb, but so is 'Exi' (imperative of 'exire')",
+        "peccator and sum": "'peccator' is a noun (sinner), not a verb — the verbs are 'Exi' and 'sum'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Exi' translates to?",
+      "target": "to go out",
+      "choices": ["to go out", "to exist", "to examine", "to be"],
+      "reveal": null,
+      "hints": {
+        "to exist": "'to exist' is 'existere' — 'Exi' comes from 'exire' (to go out)",
+        "to examine": "'to examine' is 'examinare' — 'Exi' comes from 'exire' (to go out)",
+        "to be": "'to be' is 'esse' — 'Exi' comes from 'exire' (to go out)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Exi'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "perfect indicative", "subjunctive"],
+      "reveal": { "word": "Exi", "gloss": "go out! / depart!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'exit' — 'Exi' is a command",
+        "perfect indicative": "Perfect indicative would be 'exiit' — 'Exi' is the imperative",
+        "subjunctive": "Subjunctive would be 'exeat' — 'Exi' is a direct command (imperative)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Exi'?",
+      "target": "exeo, exire, exii, exitum",
+      "choices": ["exeo, exire, exii, exitum", "eo, ire, ivi, itum", "exigo, exigere, exegi, exactum", "exerceo, exercere, exercui, exercitum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are principal parts of 'eo' (to go) — 'exeo' is the compound with 'ex-'",
+        "exigo, exigere, exegi, exactum": "These are principal parts of 'exigo' (to drive out/demand)",
+        "exerceo, exercere, exercui, exercitum": "These are principal parts of 'exerceo' (to train/exercise)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sum' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to take", "to know", "to have"],
+      "reveal": null,
+      "hints": {
+        "to take": "'to take' is 'sumere' — 'sum' is from 'esse' (to be)",
+        "to know": "'to know' is 'scire' — 'sum' is from 'esse' (to be)",
+        "to have": "'to have' is 'habere' — 'sum' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'sum'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "sum", "gloss": "I am" },
+      "hints": {
+        "perfect": "Perfect of 'esse' 1st person is 'fui' — 'sum' is present",
+        "imperfect": "Imperfect 1st person would be 'eram' — 'sum' is present",
+        "future": "Future 1st person would be 'ero' — 'sum' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sum'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sumo, sumere, sumpsi, sumptum", "eo, ire, ivi, itum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "sumo, sumere, sumpsi, sumptum": "These are principal parts of 'sumo' (to take up)",
+        "eo, ire, ivi, itum": "These are principal parts of 'eo' (to go)",
+        "do, dare, dedi, datum": "These are principal parts of 'do' (to give)"
+      }
+    },
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": { "word": "homo", "gloss": "a man" },
+      "hints": {
+        "accusative": "Accusative would be 'hominem' — 'homo' is nominative (predicate: I am a sinful man)",
+        "vocative": "Vocative 'homo' is the same form but this is not an address — it's a predicate nominative",
+        "ablative": "Ablative would be 'homine' — 'homo' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'peccator'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": { "word": "peccator", "gloss": "sinner / sinful" },
+      "hints": {
+        "accusative": "Accusative would be 'peccatorem' — 'peccator' is nominative, modifying 'homo'",
+        "genitive": "Genitive would be 'peccatoris' — 'peccator' is nominative here",
+        "vocative": "Vocative would also be 'peccator' but this is a predicate, not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccator, peccatoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'peccatoris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'peccatoris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'peccatoris' ends in -is"
+      }
+    }
+  ],
+  "translation": "Depart from me, for I am a sinful man"
+}

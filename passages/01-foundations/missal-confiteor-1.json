@@ -1,0 +1,152 @@
+{
+  "id": "missal-confiteor-1",
+  "source": "Missal",
+  "reference": "Confiteor (I)",
+  "latin": ["Confiteor", "Deo", "omnipotenti", "et", "vobis", "fratres", "quia", "peccavi", "nimis", "cogitatione", "verbo", "et", "opere"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "Confiteor",
+      "choices": ["Confiteor", "Deo", "peccavi", "cogitatione"],
+      "reveal": null,
+      "hints": {
+        "Deo": "'Deo' is a noun in the dative — the one confessed to",
+        "peccavi": "'peccavi' is a verb, but it's in the subordinate 'quia' clause — 'Confiteor' is the main verb",
+        "cogitatione": "'cogitatione' is a noun in the ablative case"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Confiteor' translates to?",
+      "target": "to confess",
+      "choices": ["to believe", "to confess", "to trust", "to pray"],
+      "reveal": null,
+      "hints": {
+        "to believe": "'to believe' is 'credere' — 'confiteor' comes from 'confiteri'",
+        "to trust": "'to trust' is 'confidere' — similar prefix but different verb",
+        "to pray": "'to pray' is 'orare' — 'confiteri' means to confess or acknowledge"
+      }
+    },
+    {
+      "prompt": "'Confiteor' is deponent. What does that mean?",
+      "target": "Passive form, active meaning",
+      "choices": ["Active form, passive meaning", "Passive form, active meaning", "It lacks a passive", "It is irregular only"],
+      "reveal": { "word": "Confiteor", "gloss": "I confess" },
+      "hints": {
+        "Active form, passive meaning": "That's backwards — deponents look passive (-or ending) but mean active",
+        "It lacks a passive": "Deponents do use passive forms — that IS their form, but with active meaning",
+        "It is irregular only": "Deponents are a specific category, not just irregular — they systematically use passive forms for active meaning"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Confiteor'?",
+      "target": "confiteor, confiteri, confessus sum",
+      "choices": ["confiteor, confiteri, confessus sum", "confido, confidere, confisus sum", "credo, credere, credidi, creditum", "fateor, fateri, fassus sum"],
+      "reveal": null,
+      "hints": {
+        "confido, confidere, confisus sum": "These are for 'confidere' (to trust) — a semi-deponent, not 'confiteri'",
+        "credo, credere, credidi, creditum": "These are for 'credere' (to believe) — a regular 3rd conjugation verb",
+        "fateor, fateri, fassus sum": "These are for 'fateri' (to admit) — the simple verb; 'confiteri' is its compound"
+      }
+    },
+    {
+      "prompt": "Case of 'Deo'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "Deo", "gloss": "to God" },
+      "hints": {
+        "Nominative": "Nominative of 'Deus' is 'Deus' — 'Deo' is dative or ablative",
+        "Ablative": "'Deo' could be ablative in form, but 'confiteor' takes a dative — 'I confess to God'",
+        "Accusative": "Accusative of 'Deus' is 'Deum' — the -o ending is not accusative"
+      }
+    },
+    {
+      "prompt": "What does 'omnipotenti' modify?",
+      "target": "Deo",
+      "choices": ["Confiteor", "Deo", "vobis", "fratres"],
+      "reveal": { "word": "omnipotenti", "gloss": "almighty" },
+      "hints": {
+        "Confiteor": "'Confiteor' is a verb — adjectives modify nouns, not verbs",
+        "vobis": "'vobis' is a pronoun — 'omnipotenti' is dative singular matching 'Deo'",
+        "fratres": "'fratres' is vocative plural — 'omnipotenti' is dative singular, so it can't agree"
+      }
+    },
+    {
+      "prompt": "Case of 'fratres'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "fratres", "gloss": "brothers" },
+      "hints": {
+        "Nominative": "Nominative and vocative are the same form here, but 'fratres' is direct address — vocative",
+        "Accusative": "Accusative plural would also be 'fratres', but the context is direct address, not a direct object",
+        "Ablative": "Ablative plural would be 'fratribus'"
+      }
+    },
+    {
+      "prompt": "What role does 'quia' play?",
+      "target": "Introduces subordinate clause",
+      "choices": ["Relative pronoun", "Introduces subordinate clause", "Interrogative particle", "Coordinating conjunction"],
+      "reveal": { "word": "quia", "gloss": "that / because" },
+      "hints": {
+        "Relative pronoun": "Relative pronouns are 'qui, quae, quod' — 'quia' is a conjunction",
+        "Interrogative particle": "Interrogative particles introduce questions — 'quia' introduces a statement of cause",
+        "Coordinating conjunction": "Coordinating conjunctions (et, sed) join equals — 'quia' subordinates"
+      }
+    },
+    {
+      "prompt": "What tense is 'peccavi'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "peccavi", "gloss": "I have sinned" },
+      "hints": {
+        "Present": "Present of 'peccare' would be 'pecco' — the -avi ending is perfect",
+        "Imperfect": "Imperfect would be 'peccabam' — the -avi ending signals perfect",
+        "Pluperfect": "Pluperfect would be 'peccaveram' — 'peccavi' is simple perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'peccavi'?",
+      "target": "pecco, peccare, peccavi, peccatum",
+      "choices": ["pecco, peccare, peccavi, peccatum", "peto, petere, petivi, petitum", "pono, ponere, posui, positum", "parco, parcere, peperci, parsum"],
+      "reveal": null,
+      "hints": {
+        "peto, petere, petivi, petitum": "These are for 'petere' (to seek) — a 3rd conjugation verb",
+        "pono, ponere, posui, positum": "These are for 'ponere' (to place) — a 3rd conjugation verb",
+        "parco, parcere, peperci, parsum": "These are for 'parcere' (to spare) — a 3rd conjugation verb"
+      }
+    },
+    {
+      "prompt": "Why are 'cogitatione, verbo, opere' ablative?",
+      "target": "Ablative of means",
+      "choices": ["Ablative of place", "Ablative of means", "Ablative absolute", "Ablative of time"],
+      "reveal": null,
+      "hints": {
+        "Ablative of place": "Ablative of place answers 'where' — these answer 'by what means' one sinned",
+        "Ablative absolute": "Ablative absolute uses a noun+participle pair — these are simple ablatives",
+        "Ablative of time": "Ablative of time answers 'when' — these describe HOW one sinned"
+      }
+    },
+    {
+      "prompt": "Case of 'cogitatione'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "cogitatione", "gloss": "thought" },
+      "hints": {
+        "Nominative": "Nominative of 'cogitatio' is 'cogitatio' — the -e ending is ablative",
+        "Accusative": "Accusative would be 'cogitationem' — the -e ending is ablative singular",
+        "Dative": "Dative would be 'cogitationi' — the -e ending is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'cogitatio'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'cogitatio' with gen. 'cogitationis' is 3rd",
+        "2nd": "2nd declension nouns end in -us/-um — 'cogitatio' is 3rd declension",
+        "5th": "5th declension nouns end in -es (gen. -ei) — 'cogitatio' has gen. '-ionis', so 3rd"
+      }
+    }
+  ],
+  "translation": "I confess to almighty God, and to you, brothers, that I have sinned exceedingly in thought, word, and deed"
+}

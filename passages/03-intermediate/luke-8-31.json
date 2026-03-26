@@ -1,0 +1,119 @@
+{
+  "id": "luke-8-31",
+  "source": "Vulgate",
+  "reference": "Lucas 8:46",
+  "latin": ["Tetigit", "me", "aliquis", "nam", "ego", "sensi", "virtutem", "de", "me", "exisse"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "Tetigit and sensi",
+      "choices": ["Tetigit and sensi", "Tetigit and exisse", "sensi and virtutem", "ego and aliquis"],
+      "reveal": null,
+      "hints": {
+        "Tetigit and exisse": "'Exisse' is an infinitive, not a finite verb — the finite verbs are 'Tetigit' and 'sensi'",
+        "sensi and virtutem": "'Virtutem' is a noun — 'Tetigit' and 'sensi' are the finite verbs",
+        "ego and aliquis": "'Ego' and 'aliquis' are pronouns — 'Tetigit' and 'sensi' are the verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Tetigit' translates to?",
+      "target": "to touch",
+      "choices": ["to touch", "to cover", "to weave", "to protect"],
+      "reveal": null,
+      "hints": {
+        "to cover": "That would be 'tegere' — 'Tetigit' comes from 'tangere' (to touch)",
+        "to weave": "That would be 'texere' — 'Tetigit' comes from 'tangere' (to touch)",
+        "to protect": "That would be 'tueri' — 'Tetigit' comes from 'tangere' (to touch)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Tetigit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "Tetigit = he/she touched (with reduplication te-tigit)",
+      "hints": {
+        "present indicative": "Present would be 'tangit' — 'Tetigit' with reduplicated te- is perfect",
+        "imperfect indicative": "Imperfect would be 'tangebat' — 'Tetigit' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'tetigerit' — 'Tetigit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Tetigit'?",
+      "target": "tango, tangere, tetigi, tactum",
+      "choices": ["tango, tangere, tetigi, tactum", "tego, tegere, texi, tectum", "texo, texere, texui, textum", "tueor, tueri, tuitus sum, —"],
+      "reveal": null,
+      "hints": {
+        "tego, tegere, texi, tectum": "These are the parts of 'tegere' (to cover/protect)",
+        "texo, texere, texui, textum": "These are the parts of 'texere' (to weave)",
+        "tueor, tueri, tuitus sum, —": "These are the parts of 'tueri' (to watch/protect)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sensi' translates to?",
+      "target": "to feel / to perceive",
+      "choices": ["to feel / to perceive", "to think", "to know", "to hear"],
+      "reveal": null,
+      "hints": {
+        "to think": "That would be 'cogitare/putare' — 'sensi' comes from 'sentire' (to feel/perceive)",
+        "to know": "That would be 'scire' — 'sensi' comes from 'sentire' (to feel)",
+        "to hear": "That would be 'audire' — 'sensi' comes from 'sentire' (to feel)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'sensi'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "sensi = I perceived / I felt",
+      "hints": {
+        "present indicative": "Present would be 'sentio' — 'sensi' is the perfect 1st person singular",
+        "imperfect indicative": "Imperfect would be 'sentiebam' — 'sensi' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'senserim' — 'sensi' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sensi'?",
+      "target": "sentio, sentire, sensi, sensum",
+      "choices": ["sentio, sentire, sensi, sensum", "scio, scire, scivi, scitum", "audio, audire, audivi, auditum", "censeo, censere, censui, censum"],
+      "reveal": null,
+      "hints": {
+        "scio, scire, scivi, scitum": "These are the parts of 'scire' (to know)",
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear)",
+        "censeo, censere, censui, censum": "These are the parts of 'censere' (to judge/assess)"
+      }
+    },
+    {
+      "prompt": "What is the grammatical function of 'exisse'?",
+      "target": "perfect infinitive in indirect statement (after 'sensi')",
+      "choices": ["present infinitive", "perfect infinitive in indirect statement (after 'sensi')", "complementary infinitive", "purpose infinitive"],
+      "reveal": "exisse = to have gone out (perf. inf. of 'exire')",
+      "hints": {
+        "present infinitive": "Present infinitive would be 'exire' — 'exisse' with -isse is the perfect infinitive",
+        "complementary infinitive": "A complementary infinitive completes verbs like 'volo' — 'exisse' is in indirect statement",
+        "purpose infinitive": "Purpose is expressed by 'ut' + subjunctive — 'exisse' is in indirect statement after 'sensi'"
+      }
+    },
+    {
+      "prompt": "What case is 'virtutem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "virtutem = power (acc., subject of infinitive 'exisse')",
+      "hints": {
+        "nominative": "Nominative would be 'virtus' — 'virtutem' with -em is accusative",
+        "ablative": "Ablative would be 'virtute' — 'virtutem' is accusative",
+        "genitive": "Genitive would be 'virtutis' — 'virtutem' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'aliquis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "aliquis = someone (nom., subject of 'Tetigit')",
+      "hints": {
+        "accusative": "Accusative would be 'aliquem' — 'aliquis' is nominative",
+        "dative": "Dative would be 'alicui' — 'aliquis' is nominative subject",
+        "ablative": "Ablative would be 'aliquo' — 'aliquis' is nominative"
+      }
+    }
+  ],
+  "translation": "Someone touched me, for I perceived power going out from me"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-15-02",
+  "source": "Vulgate",
+  "reference": "Lucas 15:7",
+  "latin": ["Gaudium", "erit", "in", "caelo", "super", "uno", "peccatore"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "erit",
+      "choices": ["erit", "Gaudium", "caelo", "peccatore"],
+      "reveal": null,
+      "hints": {
+        "Gaudium": "'Gaudium' is a noun meaning 'joy' — the subject",
+        "caelo": "'Caelo' is a noun meaning 'heaven' in the ablative",
+        "peccatore": "'Peccatore' is a noun meaning 'sinner' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to err"],
+      "reveal": null,
+      "hints": {
+        "to go": "'To go' is 'ire' — 'erit' is from 'esse' (to be)",
+        "to eat": "'To eat' is 'edere' — 'erit' is from 'esse'",
+        "to err": "'To err' is 'errare' — 'erit' is future of 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect indicative", "present subjunctive"],
+      "reveal": "erit = there will be",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erit' has the future -ri- formation",
+        "perfect indicative": "Perfect would be 'fuit' — 'erit' is future",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "erro, errare, erravi, erratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat) — the infinitive looks similar",
+        "erro, errare, erravi, erratum": "These are the parts of 'errare' (to wander/err)"
+      }
+    },
+    {
+      "prompt": "What case is 'Gaudium'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Gaudium = joy (nom.)",
+      "hints": {
+        "accusative": "'Gaudium' can be accusative, but here it is the subject of 'erit' — nominative",
+        "ablative": "Ablative would be 'gaudio' — 'Gaudium' is nominative/accusative",
+        "vocative": "One does not address 'joy' — this is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'gaudium, gaudii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'gaudii' ends in -i(i)",
+        "3rd declension": "3rd declension has genitive in -is — 'gaudii' ends in -i(i)",
+        "4th declension": "4th declension has genitive in -ūs — 'gaudii' ends in -i(i)"
+      }
+    },
+    {
+      "prompt": "What case is 'caelo'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "caelo = heaven (abl., after 'in')",
+      "hints": {
+        "nominative": "Nominative would be 'caelum' — 'caelo' follows 'in' indicating place",
+        "dative": "'Caelo' could be dative, but after 'in' (place where) it is ablative",
+        "genitive": "Genitive would be 'caeli' — 'caelo' ends in -o"
+      }
+    },
+    {
+      "prompt": "What case is 'peccatore'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "peccatore = sinner (abl., after 'super')",
+      "hints": {
+        "nominative": "Nominative would be 'peccator' — 'peccatore' with -e is ablative",
+        "accusative": "Accusative would be 'peccatorem' — 'peccatore' is ablative",
+        "dative": "Dative would be 'peccatori' — 'peccatore' is ablative after 'super'"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccator, peccatoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'peccatoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'peccatoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'peccatoris' ends in -is"
+      }
+    }
+  ],
+  "translation": "There will be joy in heaven over one sinner"
+}

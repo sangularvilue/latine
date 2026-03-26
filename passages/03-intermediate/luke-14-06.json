@@ -1,0 +1,108 @@
+{
+  "id": "luke-14-06",
+  "source": "Vulgate",
+  "reference": "Lucas 14:33",
+  "latin": ["Qui", "non", "renuntiat", "omnibus", "quae", "possidet"],
+  "steps": [
+    {
+      "prompt": "Which words are the finite verbs?",
+      "target": "renuntiat and possidet",
+      "choices": ["renuntiat and possidet", "renuntiat only", "possidet only", "omnibus and quae"],
+      "reveal": null,
+      "hints": {
+        "renuntiat only": "'Possidet' is also a finite verb in the relative clause introduced by 'quae'",
+        "possidet only": "'Renuntiat' is also a finite verb — the main clause verb",
+        "omnibus and quae": "'Omnibus' is a pronoun/adjective and 'quae' is a relative pronoun — neither is a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'renuntiat' translates to?",
+      "target": "to renounce / to give up",
+      "choices": ["to renounce / to give up", "to announce", "to count again", "to return"],
+      "reveal": null,
+      "hints": {
+        "to announce": "'To announce' is 'nuntiare' — 'renuntiare' means 'to renounce/give up'",
+        "to count again": "'To count again' is 'renumerare' — 'renuntiare' means 'to renounce'",
+        "to return": "'To return' is 'redire' or 'revenire' — 'renuntiare' means 'to give up'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'renuntiat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "renuntiat = renounces / gives up",
+      "hints": {
+        "perfect indicative": "Perfect would be 'renuntiavit' — 'renuntiat' is present",
+        "present subjunctive": "Present subjunctive would be 'renuntiet' — 'renuntiat' ends in -at (1st conj. indic.)",
+        "imperfect indicative": "Imperfect would be 'renuntiabat' — 'renuntiat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'renuntiat'?",
+      "target": "renuntio, renuntiare, renuntiavi, renuntiatum",
+      "choices": ["renuntio, renuntiare, renuntiavi, renuntiatum", "nuntio, nuntiare, nuntiavi, nuntiatum", "numero, numerare, numeravi, numeratum", "removeo, removere, removi, remotum"],
+      "reveal": null,
+      "hints": {
+        "nuntio, nuntiare, nuntiavi, nuntiatum": "These are the parts of 'nuntiare' (to announce) — the simple verb",
+        "numero, numerare, numeravi, numeratum": "These are the parts of 'numerare' (to count)",
+        "removeo, removere, removi, remotum": "These are the parts of 'removere' (to remove)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'possidet' translates to?",
+      "target": "to possess / to own",
+      "choices": ["to possess / to own", "to be able", "to place", "to sit"],
+      "reveal": null,
+      "hints": {
+        "to be able": "'To be able' is 'posse' — 'possidet' comes from 'possidere' (to possess)",
+        "to place": "'To place' is 'ponere' — 'possidere' means 'to own'",
+        "to sit": "'To sit' is 'sedere' — 'possidere' means 'to possess'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'possidet'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "possidet = he/she possesses",
+      "hints": {
+        "perfect indicative": "Perfect would be 'possedit' — 'possidet' is present",
+        "present subjunctive": "Present subjunctive would be 'possideat' — 'possidet' is indicative",
+        "future indicative": "Future would be 'possidebit' — 'possidet' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'possidet'?",
+      "target": "possideo, possidere, possedi, possessum",
+      "choices": ["possideo, possidere, possedi, possessum", "possum, posse, potui, —", "sedeo, sedere, sedi, sessum", "pono, ponere, posui, positum"],
+      "reveal": null,
+      "hints": {
+        "possum, posse, potui, —": "These are the parts of 'posse' (to be able)",
+        "sedeo, sedere, sedi, sessum": "These are the parts of 'sedere' (to sit) — the root verb in 'possidere'",
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)"
+      }
+    },
+    {
+      "prompt": "What case is 'omnibus'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "omnibus = to all things (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'omnia' (neut.) — 'omnibus' is dative/ablative",
+        "ablative": "'Omnibus' could be ablative, but 'renuntiare' takes a dative: 'to renounce (to) all things'",
+        "genitive": "Genitive plural would be 'omnium' — 'omnibus' is dative"
+      }
+    },
+    {
+      "prompt": "What is the function of 'quae'?",
+      "target": "relative pronoun (acc. neut. pl.) introducing a relative clause",
+      "choices": ["relative pronoun (acc. neut. pl.) introducing a relative clause", "interrogative pronoun", "conjunction meaning 'and'", "indefinite pronoun meaning 'some things'"],
+      "reveal": "quae = which things / what (referring to 'omnibus')",
+      "hints": {
+        "interrogative pronoun": "An interrogative 'quae' would introduce a question — this is a relative clause",
+        "conjunction meaning 'and'": "'And' is 'et' or 'atque' — 'quae' is a relative pronoun",
+        "indefinite pronoun meaning 'some things'": "Indefinite 'quae' would follow 'si/nisi/num/ne' — here it is clearly relative"
+      }
+    }
+  ],
+  "translation": "Who does not renounce all that he possesses"
+}

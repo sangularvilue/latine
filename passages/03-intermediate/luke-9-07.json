@@ -1,0 +1,119 @@
+{
+  "id": "luke-9-07",
+  "source": "Vulgate",
+  "reference": "Lucas 9:1",
+  "latin": ["Dedit", "illis", "virtutem", "et", "potestatem"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Dedit",
+      "choices": ["Dedit", "illis", "virtutem", "potestatem"],
+      "reveal": null,
+      "hints": {
+        "illis": "'Illis' is a pronoun meaning 'to them'",
+        "virtutem": "'Virtutem' is a noun meaning 'power/virtue'",
+        "potestatem": "'Potestatem' is a noun meaning 'authority'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Dedit' translates to?",
+      "target": "to give",
+      "choices": ["to give", "to lead", "to say", "to put"],
+      "reveal": null,
+      "hints": {
+        "to lead": "That would be 'ducere' — 'Dedit' comes from 'dare' (to give)",
+        "to say": "That would be 'dicere' — 'Dedit' comes from 'dare' (to give)",
+        "to put": "That would be 'ponere' — 'Dedit' comes from 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Dedit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "Dedit = he gave",
+      "hints": {
+        "present indicative": "Present of 'dare' would be 'dat' — 'Dedit' with the reduplicated stem is perfect",
+        "imperfect indicative": "Imperfect would be 'dabat' — 'Dedit' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'dederit' — 'Dedit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Dedit'?",
+      "target": "do, dare, dedi, datum",
+      "choices": ["do, dare, dedi, datum", "duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "doceo, docere, docui, doctum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead)",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dicere' (to say)",
+        "doceo, docere, docui, doctum": "These are the parts of 'docere' (to teach)"
+      }
+    },
+    {
+      "prompt": "What case is 'illis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "illis = to them (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'illi' — 'illis' is dative/ablative plural",
+        "ablative": "While 'illis' could be ablative, with 'dare' (to give to) it is dative (indirect object)",
+        "accusative": "Accusative plural would be 'illos' — 'illis' is dative here"
+      }
+    },
+    {
+      "prompt": "What case is 'virtutem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "virtutem = power/virtue (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'virtus' — 'virtutem' with -em is accusative",
+        "ablative": "Ablative would be 'virtute' — 'virtutem' is accusative, direct object",
+        "genitive": "Genitive would be 'virtutis' — 'virtutem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'virtus, virtutis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'virtutis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'virtutis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'virtutis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'potestatem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "potestatem = authority (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'potestas' — 'potestatem' with -em is accusative",
+        "ablative": "Ablative would be 'potestate' — 'potestatem' is accusative",
+        "dative": "Dative would be 'potestati' — 'potestatem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'potestas, potestatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'potestatis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'potestatis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'potestatis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What conjunction joins 'virtutem' and 'potestatem'?",
+      "target": "et (and)",
+      "choices": ["et (and)", "sed (but)", "aut (or)", "nec (nor)"],
+      "reveal": null,
+      "hints": {
+        "sed (but)": "'Sed' means 'but' — 'et' here connects two coordinate accusative objects",
+        "aut (or)": "'Aut' means 'or' — 'et' connects the two nouns as a pair",
+        "nec (nor)": "'Nec' means 'nor/and not' — 'et' simply means 'and'"
+      }
+    }
+  ],
+  "translation": "He gave them power and authority"
+}

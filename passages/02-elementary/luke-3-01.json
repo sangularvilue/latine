@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-01",
+  "source": "Vulgate",
+  "reference": "Lucas 3:2",
+  "latin": ["Factum", "est", "verbum", "Domini"],
+  "steps": [
+    {
+      "prompt": "Which words together form the verb?",
+      "target": "Factum est",
+      "choices": ["Factum est", "est verbum", "verbum Domini", "Factum verbum"],
+      "reveal": null,
+      "hints": {
+        "est verbum": "'verbum' is a noun (word) — the verb phrase is 'Factum est' (it happened/came)",
+        "verbum Domini": "'verbum Domini' is a noun phrase (the word of the Lord)",
+        "Factum verbum": "'Factum' is part of the verb, but it pairs with 'est', not 'verbum'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Factum est' translates to?",
+      "target": "to become / to be made",
+      "choices": ["to become / to be made", "to do actively", "to speak", "to know"],
+      "reveal": null,
+      "hints": {
+        "to do actively": "'to do' is 'facere' active — 'Factum est' is passive/intransitive meaning 'came to be'",
+        "to speak": "'to speak' is 'loqui/dicere' — 'Factum est' comes from 'fieri' (to become)",
+        "to know": "'to know' is 'scire' — 'Factum est' comes from 'fieri'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Factum est'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Pluperfect"],
+      "reveal": { "word": "Factum est", "gloss": "it came to pass / it happened" },
+      "hints": {
+        "Present": "Present would be 'fit' — 'Factum est' (participle + est) is perfect",
+        "Imperfect": "Imperfect would be 'fiebat' — 'Factum est' is perfect passive",
+        "Pluperfect": "Pluperfect would be 'factum erat' — 'Factum est' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Factum est'?",
+      "target": "fio, fieri, factus sum",
+      "choices": ["fio, fieri, factus sum", "facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to make/do) — 'fieri' serves as its passive",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "What case is 'verbum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "verbum", "gloss": "the word" },
+      "hints": {
+        "Accusative": "'verbum' looks the same in accusative, but here it is the subject — nominative",
+        "Ablative": "Ablative would be 'verbo' — 'verbum' is nominative subject",
+        "Genitive": "Genitive would be 'verbi' — 'verbum' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'verbum, verbi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'verbi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'verbi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'verbi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Domini", "gloss": "of the Lord" },
+      "hints": {
+        "Nominative": "Nominative would be 'Dominus' — 'Domini' with -i ending is genitive",
+        "Dative": "Dative would be 'Domino' — 'Domini' is genitive singular",
+        "Vocative": "Vocative would be 'Domine' — 'Domini' is genitive (of the Lord)"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Domini' ends in -i"
+      }
+    }
+  ],
+  "translation": "The word of the Lord came to pass"
+}

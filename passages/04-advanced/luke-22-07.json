@@ -1,0 +1,119 @@
+{
+  "id": "luke-22-07",
+  "source": "Vulgate",
+  "reference": "Lucas 22:38",
+  "latin": ["Domine", "ecce", "gladii", "duo", "hic"],
+  "steps": [
+    {
+      "prompt": "Is there a finite verb in this sentence?",
+      "target": "no — the verb 'sunt' is understood (ellipsis)",
+      "choices": ["no — the verb 'sunt' is understood (ellipsis)", "yes — 'ecce' is a verb", "yes — 'hic' is a verb", "yes — 'Domine' is a verb"],
+      "reveal": "Domine, ecce gladii duo hic [sunt] = Lord, behold, two swords are here",
+      "hints": {
+        "yes — 'ecce' is a verb": "'Ecce' is an interjection meaning 'behold/look!' — it is not a conjugated verb",
+        "yes — 'hic' is a verb": "'Hic' is an adverb meaning 'here' — it is not a verb",
+        "yes — 'Domine' is a verb": "'Domine' is a noun in the vocative — it means 'Lord!' (direct address)"
+      }
+    },
+    {
+      "prompt": "What verb is understood (implied) in this sentence?",
+      "target": "sunt (are)",
+      "choices": ["sunt (are)", "est (is)", "habent (they have)", "veniunt (they come)"],
+      "reveal": null,
+      "hints": {
+        "est (is)": "'Est' is 3rd singular — 'gladii duo' is plural, requiring 'sunt'",
+        "habent (they have)": "'Habent' would require a subject — the context implies 'gladii sunt hic' (swords are here)",
+        "veniunt (they come)": "The swords are not coming — they are present here; 'sunt' is understood"
+      }
+    },
+    {
+      "prompt": "Principal parts of the understood 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "habeo, habere, habui, habitum": "These are the parts of 'habeo' (to have)"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "ablative", "dative"],
+      "reveal": "Domine = O Lord! (voc. sing.)",
+      "hints": {
+        "nominative": "Nominative would be 'Dominus' — 'Domine' with -e ending is vocative",
+        "ablative": "Ablative would be 'Domino' — 'Domine' is vocative (direct address)",
+        "dative": "Dative would be 'Domino' — 'Domine' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'dominus, domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'domini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'domini' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'domini' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'gladii'?",
+      "target": "nominative plural",
+      "choices": ["nominative plural", "genitive singular", "vocative plural", "dative singular"],
+      "reveal": "gladii = swords (nom. pl.)",
+      "hints": {
+        "genitive singular": "Genitive singular 'gladii' looks the same, but context (with 'duo') shows nominative plural",
+        "vocative plural": "Vocative plural 'gladii' looks the same, but they are not being addressed",
+        "dative singular": "Dative singular would be 'gladio' — 'gladii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What declension is 'gladius, gladii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'gladii' ends in -ii",
+        "3rd declension": "3rd declension has genitive in -is — 'gladii' ends in -ii",
+        "4th declension": "4th declension has genitive in -us — 'gladii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'duo'?",
+      "target": "nominative (agreeing with 'gladii')",
+      "choices": ["nominative (agreeing with 'gladii')", "ablative", "accusative", "genitive"],
+      "reveal": "duo = two (nom. masc. pl.)",
+      "hints": {
+        "ablative": "Ablative of 'duo' would be 'duobus' — 'duo' is nominative",
+        "accusative": "Accusative masculine would be 'duos' — 'duo' is nominative here",
+        "genitive": "Genitive would be 'duorum' — 'duo' is nominative"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'ecce'?",
+      "target": "interjection",
+      "choices": ["interjection", "adverb", "conjunction", "imperative verb"],
+      "reveal": "ecce = behold! look!",
+      "hints": {
+        "adverb": "An adverb modifies a verb — 'ecce' is an interjection calling attention",
+        "conjunction": "A conjunction joins clauses — 'ecce' is an exclamatory interjection",
+        "imperative verb": "'Ecce' resembles a command but is classified as an interjection, not a verb form"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'hic' in this sentence?",
+      "target": "adverb (meaning 'here')",
+      "choices": ["adverb (meaning 'here')", "demonstrative pronoun (this)", "adjective (this)", "conjunction"],
+      "reveal": "hic = here (adverb of place)",
+      "hints": {
+        "demonstrative pronoun (this)": "'Hic' as a pronoun means 'this one', but here it means 'here' (adverb of place)",
+        "adjective (this)": "'Hic' as an adjective modifies a noun, but here it stands alone as an adverb",
+        "conjunction": "'Hic' is never a conjunction — it is either a pronoun/adjective or an adverb"
+      }
+    }
+  ],
+  "translation": "Lord, behold, here are two swords"
+}

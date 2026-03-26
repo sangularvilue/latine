@@ -1,0 +1,130 @@
+{
+  "id": "cat-4-07",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.10",
+  "latin": ["Quod", "si", "eam", "Catilinae", "audaciam", "scelus", "patefactum", "est"],
+  "steps": [
+    {
+      "prompt": "What does 'Quod si' mean as a phrase?",
+      "target": "but if / and if",
+      "choices": ["but if / and if", "because if", "which if", "that if"],
+      "reveal": "Quod si = but if (transitional conjunction)",
+      "hints": {
+        "because if": "'Quod' can mean 'because,' but 'quod si' is a fixed phrase meaning 'but if'",
+        "which if": "'Quod' here is not a relative pronoun — 'quod si' is a transitional formula",
+        "that if": "'Quod' is not introducing a noun clause — 'quod si' is a standard Ciceronian transition"
+      }
+    },
+    {
+      "prompt": "What case is 'eam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "eam = that (acc. f. sg., modifying 'audaciam')",
+      "hints": {
+        "nominative": "Nominative feminine would be 'ea' — 'eam' with -am is accusative",
+        "ablative": "Ablative feminine would be 'ea' — 'eam' is accusative",
+        "genitive": "Genitive feminine would be 'eius' — 'eam' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'Catilinae'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Catilinae = of Catiline (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Catilina' — 'Catilinae' with -ae is genitive or dative",
+        "dative": "'Catilinae' could be dative, but here it possesses 'audaciam' — genitive of possession",
+        "ablative": "Ablative would be 'Catilina' — 'Catilinae' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'Catilina, Catilinae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Catilinae' ends in -ae, marking 1st declension",
+        "3rd declension": "3rd declension has genitive in -is — 'Catilinae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'Catilinae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'audaciam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "audaciam = boldness / audacity (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'audacia' — 'audaciam' with -am is accusative",
+        "ablative": "Ablative would be 'audacia' — 'audaciam' is accusative",
+        "genitive": "Genitive would be 'audaciae' — 'audaciam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'audacia, audaciae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'audaciae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'audaciae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'audaciae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'scelus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "scelus = the crime (nom., subject of 'patefactum est')",
+      "hints": {
+        "accusative": "'Scelus' as a neuter noun has identical nom. and acc. — here it is subject, so nominative",
+        "genitive": "Genitive would be 'sceleris' — 'scelus' is nominative",
+        "ablative": "Ablative would be 'scelere' — 'scelus' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'patefactum est' translates to?",
+      "target": "to lay open / to reveal",
+      "choices": ["to lay open / to reveal", "to make / to do", "to satisfy", "to be evident"],
+      "reveal": null,
+      "hints": {
+        "to make / to do": "'To make' is 'facere' — 'patefacere' is a compound meaning to lay open or reveal",
+        "to satisfy": "'To satisfy' is 'satisfacere' — 'patefacere' means to lay open",
+        "to be evident": "'To be evident' is 'patere' — 'patefacere' (pate- + facere) means to make open/reveal"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'patefactum est'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect active indicative"],
+      "reveal": "patefactum est = has been revealed / was laid open",
+      "hints": {
+        "present passive indicative": "Present passive would be 'patefit' — participle + 'est' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'patefactum erat' — 'est' makes it perfect",
+        "perfect active indicative": "Perfect active would be 'patefecit' — participle + 'est' is passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'patefactum est'?",
+      "target": "patefacio, patefacere, patefeci, patefactum",
+      "choices": ["patefacio, patefacere, patefeci, patefactum", "facio, facere, feci, factum", "pateo, patere, patui, —", "satisfacio, satisfacere, satisfeci, satisfactum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to make) — the base verb, but 'patefacere' is the compound",
+        "pateo, patere, patui, —": "These are the parts of 'patere' (to lie open) — intransitive, different from 'patefacere'",
+        "satisfacio, satisfacere, satisfeci, satisfactum": "These are the parts of 'satisfacere' (to satisfy) — different compound"
+      }
+    },
+    {
+      "prompt": "Why does 'patefactum' end in -um?",
+      "target": "it agrees with neuter singular 'scelus'",
+      "choices": ["it agrees with neuter singular 'scelus'", "it is a supine", "it is an accusative singular", "it is an adverb"],
+      "reveal": null,
+      "hints": {
+        "it is a supine": "The supine looks identical, but in this periphrastic construction it is a nominative neuter participle",
+        "it is an accusative singular": "While -um can mark accusative, here the participle is nominative neuter agreeing with subject 'scelus'",
+        "it is an adverb": "Participles are verbal adjectives, not adverbs — it agrees with 'scelus'"
+      }
+    }
+  ],
+  "translation": "But if that audacity of Catiline — the crime has been revealed"
+}

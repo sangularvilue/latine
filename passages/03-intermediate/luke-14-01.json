@@ -1,0 +1,108 @@
+{
+  "id": "luke-14-01",
+  "source": "Vulgate",
+  "reference": "Lucas 14:15",
+  "latin": ["Beatus", "qui", "manducabit", "panem", "in", "regno", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "manducabit",
+      "choices": ["manducabit", "Beatus", "panem", "regno"],
+      "reveal": null,
+      "hints": {
+        "Beatus": "'Beatus' is an adjective meaning 'blessed/happy'",
+        "panem": "'Panem' is a noun meaning 'bread' in the accusative",
+        "regno": "'Regno' is a noun meaning 'kingdom' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'manducabit' translates to?",
+      "target": "to eat / to chew",
+      "choices": ["to eat / to chew", "to send", "to command", "to bless"],
+      "reveal": null,
+      "hints": {
+        "to send": "'To send' is 'mandare' or 'mittere' — 'manducabit' comes from 'manducare'",
+        "to command": "'To command' is 'mandare' or 'iubere' — 'manducare' means 'to eat'",
+        "to bless": "'To bless' is 'benedicere' — 'manducare' means 'to eat/chew'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'manducabit'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "perfect indicative", "future perfect indicative"],
+      "reveal": "manducabit = he/she will eat",
+      "hints": {
+        "present indicative": "Present would be 'manducat' — 'manducabit' has the future -bi- marker",
+        "perfect indicative": "Perfect would be 'manducavit' — 'manducabit' is future",
+        "future perfect indicative": "Future perfect would be 'manducaverit' — 'manducabit' is simple future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'manducabit'?",
+      "target": "manduco, manducare, manducavi, manducatum",
+      "choices": ["manduco, manducare, manducavi, manducatum", "mando, mandare, mandavi, mandatum", "edo, edere, edi, esum", "mando, mandere, mandi, mansum"],
+      "reveal": null,
+      "hints": {
+        "mando, mandare, mandavi, mandatum": "These are the parts of 'mandare' (to entrust/command)",
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — classical synonym but different verb",
+        "mando, mandere, mandi, mansum": "These are the parts of 'mandere' (to chew) — related but distinct from 'manducare'"
+      }
+    },
+    {
+      "prompt": "What case is 'panem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "panem = bread (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'panis' — the -em ending marks accusative",
+        "ablative": "Ablative would be 'pane' — 'panem' with -em is accusative",
+        "dative": "Dative would be 'pani' — 'panem' is accusative, direct object of 'manducabit'"
+      }
+    },
+    {
+      "prompt": "What declension is 'panis, panis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'panis' has gen. in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'panis' has gen. in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'panis' has gen. in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'regno'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "regno = kingdom (abl., after 'in')",
+      "hints": {
+        "nominative": "Nominative would be 'regnum' — 'regno' follows 'in' indicating place",
+        "dative": "'Regno' could be dative, but after 'in' (place where) it is ablative",
+        "genitive": "Genitive would be 'regni' — 'regno' ends in -o"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Dei = of God (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Dei' is genitive singular",
+        "dative": "Dative would be 'Deo' — 'Dei' ends in -i marking genitive",
+        "vocative": "Vocative would be 'Deus' or 'Dee' — 'Dei' is genitive"
+      }
+    },
+    {
+      "prompt": "What is the function of the 'qui' clause?",
+      "target": "relative clause modifying an implied subject",
+      "choices": ["relative clause modifying an implied subject", "indirect question", "purpose clause", "result clause"],
+      "reveal": null,
+      "hints": {
+        "indirect question": "An indirect question would use subjunctive — 'manducabit' is indicative",
+        "purpose clause": "A purpose clause uses 'ut/ne' + subjunctive, not 'qui' + indicative",
+        "result clause": "A result clause uses 'ut' + subjunctive — this is a simple relative clause"
+      }
+    }
+  ],
+  "translation": "Blessed is he who will eat bread in the kingdom of God"
+}

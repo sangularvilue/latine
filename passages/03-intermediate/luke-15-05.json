@@ -1,0 +1,97 @@
+{
+  "id": "luke-15-05",
+  "source": "Vulgate",
+  "reference": "Lucas 15:32",
+  "latin": ["Perierat", "et", "inventus", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb of the first clause?",
+      "target": "Perierat",
+      "choices": ["Perierat", "inventus", "est", "et"],
+      "reveal": null,
+      "hints": {
+        "inventus": "'Inventus' is a perfect passive participle — it needs 'est' to form a verb phrase",
+        "est": "'Est' is the auxiliary for 'inventus' in the second clause",
+        "et": "'Et' is a conjunction meaning 'and'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Perierat' translates to?",
+      "target": "to perish / to be lost",
+      "choices": ["to perish / to be lost", "to carry through", "to experience", "to endure"],
+      "reveal": null,
+      "hints": {
+        "to carry through": "'To carry through' is 'perferre' — 'Perierat' comes from 'perire'",
+        "to experience": "'To experience' is 'experiri' — 'perire' means 'to perish'",
+        "to endure": "'To endure' is 'perdurare' — 'perire' means 'to be lost/perish'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Perierat'?",
+      "target": "pluperfect indicative",
+      "choices": ["perfect indicative", "pluperfect indicative", "imperfect indicative", "future perfect indicative"],
+      "reveal": "Perierat = he had perished / he had been lost",
+      "hints": {
+        "perfect indicative": "Perfect would be 'periit' — 'Perierat' has the -erat pluperfect ending",
+        "imperfect indicative": "Imperfect would be 'peribat' — 'Perierat' is built on the perfect stem + erat",
+        "future perfect indicative": "Future perfect would be 'perierit' — 'Perierat' has -erat (pluperfect)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Perierat'?",
+      "target": "pereo, perire, perii, peritum",
+      "choices": ["pereo, perire, perii, peritum", "pario, parere, peperi, partum", "perfero, perferre, pertuli, perlatum", "perago, peragere, peregi, peractum"],
+      "reveal": null,
+      "hints": {
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth)",
+        "perfero, perferre, pertuli, perlatum": "These are the parts of 'perferre' (to carry through/endure)",
+        "perago, peragere, peregi, peractum": "These are the parts of 'peragere' (to accomplish)"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'inventus'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "future active participle", "gerundive"],
+      "reveal": "inventus = having been found (perf. pass. ptcp.)",
+      "hints": {
+        "present active participle": "A present active participle would be 'inveniens' — 'inventus' ends in -tus",
+        "future active participle": "A future active participle would be 'inventurus' — 'inventus' is perfect passive",
+        "gerundive": "A gerundive would be 'inveniendus' — 'inventus' is a completed passive action"
+      }
+    },
+    {
+      "prompt": "What tense is 'inventus est' together?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "pluperfect passive indicative", "present passive indicative", "future passive indicative"],
+      "reveal": "inventus est = he has been found",
+      "hints": {
+        "pluperfect passive indicative": "Pluperfect passive would be 'inventus erat' — 'est' makes this perfect",
+        "present passive indicative": "Present passive would be 'invenitur' — 'inventus est' is perfect passive",
+        "future passive indicative": "Future passive would be 'invenietur' — 'inventus est' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'inventus'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "video, videre, vidi, visum", "invito, invitare, invitavi, invitatum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — 'invenire' is a compound: in + venire",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "invito, invitare, invitavi, invitatum": "These are the parts of 'invitare' (to invite)"
+      }
+    },
+    {
+      "prompt": "What is the parallel structure between the two clauses?",
+      "target": "both contrast being lost with being found (past loss → present recovery)",
+      "choices": ["both contrast being lost with being found (past loss → present recovery)", "both clauses are in the same tense", "both verbs are passive", "both clauses use the subjunctive"],
+      "reveal": null,
+      "hints": {
+        "both clauses are in the same tense": "'Perierat' is pluperfect and 'inventus est' is perfect — different tenses showing sequence",
+        "both verbs are passive": "'Perierat' is active (intransitive) and 'inventus est' is passive — they differ in voice",
+        "both clauses use the subjunctive": "Both verbs are indicative — 'perierat' and 'inventus est' state facts"
+      }
+    }
+  ],
+  "translation": "He had been lost and has been found"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "luke-adv-14",
+  "source": "Vulgate",
+  "reference": "Lucas 22:42",
+  "latin": ["Pater", "si", "vis", "transfer", "calicem", "istum", "a", "me"],
+  "steps": [
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Pater = Father! (voc., direct address in prayer)",
+      "hints": {
+        "nominative": "Nominative would also be 'Pater,' but here it is direct address — vocative",
+        "accusative": "Accusative would be 'Patrem' — 'Pater' is vocative",
+        "genitive": "Genitive would be 'Patris' — 'Pater' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'pater, patris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'patris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'patris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'patris' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vis' translates to?",
+      "target": "to wish / to want",
+      "choices": ["to wish / to want", "to be strong", "to see", "to live"],
+      "reveal": null,
+      "hints": {
+        "to be strong": "'Vis' as a noun means force — but here 'vis' is the verb 'velle' (to wish): 2nd sg. pres. indic.",
+        "to see": "'To see' is 'videre' — 'vis' is from 'velle' (to wish)",
+        "to live": "'To live' is 'vivere' — 'vis' is from 'velle' (to wish)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'vis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "vis = you wish / you want",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'velis' — 'vis' is the irregular present indicative 2nd sg.",
+        "perfect indicative": "Perfect would be 'voluisti' — 'vis' is present indicative",
+        "future indicative": "Future would be 'voles' — 'vis' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vis' (the verb)?",
+      "target": "volo, velle, volui, —",
+      "choices": ["volo, velle, volui, —", "valeo, valere, valui, valitum", "video, videre, vidi, visum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "valeo, valere, valui, valitum": "These are the parts of 'valere' (to be strong/well)",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'transfer' translates to?",
+      "target": "to carry across / to remove",
+      "choices": ["to carry across / to remove", "to transform", "to translate", "to transfer ownership"],
+      "reveal": null,
+      "hints": {
+        "to transform": "'To transform' is 'transformare' — 'transferre' means to carry across or remove",
+        "to translate": "While 'translatum' gives us 'translate,' the base meaning is to carry across / remove",
+        "to transfer ownership": "That is an extended legal meaning — the core meaning is to carry across or remove"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'transfer'?",
+      "target": "present imperative (2nd sg.)",
+      "choices": ["present indicative", "present imperative (2nd sg.)", "present subjunctive", "infinitive"],
+      "reveal": "transfer = remove! / take away! (imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd sg. would be 'transfers' — 'transfer' is imperative",
+        "present subjunctive": "Present subjunctive would be 'transferas' — 'transfer' is imperative",
+        "infinitive": "The infinitive is 'transferre' — 'transfer' is imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'transfer'?",
+      "target": "transfero, transferre, transtuli, translatum",
+      "choices": ["transfero, transferre, transtuli, translatum", "fero, ferre, tuli, latum", "affero, afferre, attuli, allatum", "refero, referre, rettuli, relatum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry) — the base verb without trans-",
+        "affero, afferre, attuli, allatum": "These are the parts of 'afferre' (to bring to) — different prefix",
+        "refero, referre, rettuli, relatum": "These are the parts of 'referre' (to carry back) — different prefix"
+      }
+    },
+    {
+      "prompt": "What case is 'calicem istum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "calicem istum = this cup (acc., object of 'transfer')",
+      "hints": {
+        "nominative": "Nominative would be 'calix iste' — 'calicem istum' with -em/-um is accusative",
+        "ablative": "Ablative would be 'calice isto' — 'calicem istum' is accusative",
+        "genitive": "Genitive would be 'calicis istius' — 'calicem istum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'calix, calicis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'calicis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'calicis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'calicis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does 'calicem' metaphorically represent in this context?",
+      "target": "the suffering and death Jesus is about to undergo",
+      "choices": ["the suffering and death Jesus is about to undergo", "the Eucharistic cup at the Last Supper", "a literal cup of wine", "the cup of God's wrath against Israel"],
+      "reveal": null,
+      "hints": {
+        "the Eucharistic cup at the Last Supper": "The Eucharistic cup was already shared — this 'calix' in Gethsemane represents the coming Passion",
+        "a literal cup of wine": "The cup is metaphorical — it represents suffering, not a physical vessel",
+        "the cup of God's wrath against Israel": "While OT prophetic imagery informs it, here the 'cup' is specifically Jesus's suffering"
+      }
+    },
+    {
+      "prompt": "What type of conditional clause is 'si vis'?",
+      "target": "simple present conditional (open/real condition)",
+      "choices": ["simple present conditional (open/real condition)", "contrary-to-fact (present unreal)", "future less vivid", "mixed conditional"],
+      "reveal": null,
+      "hints": {
+        "contrary-to-fact (present unreal)": "Contrary-to-fact would use imperfect subjunctive ('si velles') — 'vis' is present indicative",
+        "future less vivid": "Future less vivid would use present subjunctive ('si velis') — 'vis' is indicative",
+        "mixed conditional": "A mixed conditional has different tenses in protasis and apodosis — this is straightforward present real"
+      }
+    }
+  ],
+  "translation": "Father, if you wish, remove this cup from me"
+}

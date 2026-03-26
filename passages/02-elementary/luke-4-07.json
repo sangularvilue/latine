@@ -1,0 +1,108 @@
+{
+  "id": "luke-4-07",
+  "source": "Vulgate",
+  "reference": "Lucas 4:39",
+  "latin": ["Imperavit", "febri", "et", "dimisit", "illam"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "imperavit and dimisit",
+      "choices": ["imperavit and dimisit", "febri and illam", "imperavit only", "dimisit only"],
+      "reveal": null,
+      "hints": {
+        "febri and illam": "'febri' is a noun (fever) and 'illam' is a pronoun (her/it)",
+        "imperavit only": "There are two finite verbs joined by 'et' — both 'imperavit' and 'dimisit'",
+        "dimisit only": "There are two finite verbs joined by 'et' — both 'imperavit' and 'dimisit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'imperavit' translates to?",
+      "target": "to command",
+      "choices": ["to command", "to rule", "to prepare", "to prevent"],
+      "reveal": null,
+      "hints": {
+        "to rule": "'to rule' is 'regnare/imperare' can mean this, but the primary meaning is 'to command'",
+        "to prepare": "'to prepare' is 'parare' — 'imperavit' comes from 'imperare' (to command)",
+        "to prevent": "'to prevent' is 'impedire' — 'imperavit' comes from 'imperare' (to command)"
+      }
+    },
+    {
+      "prompt": "What tense is 'imperavit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "pluperfect"],
+      "reveal": { "word": "imperavit", "gloss": "he commanded" },
+      "hints": {
+        "present indicative": "Present would be 'imperat' — 'imperavit' with -avit is perfect",
+        "imperfect": "Imperfect would be 'imperabat' — 'imperavit' is perfect",
+        "pluperfect": "Pluperfect would be 'imperaverat' — 'imperavit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'imperavit'?",
+      "target": "impero, imperare, imperavi, imperatum",
+      "choices": ["impero, imperare, imperavi, imperatum", "impedio, impedire, impedivi, impeditum", "paro, parare, paravi, paratum", "rego, regere, rexi, rectum"],
+      "reveal": null,
+      "hints": {
+        "impedio, impedire, impedivi, impeditum": "These are principal parts of 'impedio' (to hinder)",
+        "paro, parare, paravi, paratum": "These are principal parts of 'paro' (to prepare)",
+        "rego, regere, rexi, rectum": "These are principal parts of 'rego' (to rule/direct)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dimisit' translates to?",
+      "target": "to send away / to release",
+      "choices": ["to send away / to release", "to destroy", "to diminish", "to dismiss a case"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'to destroy' is 'delere' — 'dimisit' comes from 'dimittere' (to send away)",
+        "to diminish": "'to diminish' is 'diminuere' — 'dimisit' comes from 'dimittere'",
+        "to dismiss a case": "'dimittere' means 'to send away/release', not a legal term specifically"
+      }
+    },
+    {
+      "prompt": "What tense is 'dimisit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": { "word": "dimisit", "gloss": "it (the fever) left her" },
+      "hints": {
+        "present indicative": "Present would be 'dimittit' — 'dimisit' is perfect",
+        "imperfect": "Imperfect would be 'dimittebat' — 'dimisit' is perfect",
+        "future": "Future would be 'dimittet' — 'dimisit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dimisit'?",
+      "target": "dimitto, dimittere, dimisi, dimissum",
+      "choices": ["dimitto, dimittere, dimisi, dimissum", "mitto, mittere, misi, missum", "dico, dicere, dixi, dictum", "divido, dividere, divisi, divisum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are principal parts of 'mitto' (to send) — close, but 'dimitto' is the compound",
+        "dico, dicere, dixi, dictum": "These are principal parts of 'dico' (to say)",
+        "divido, dividere, divisi, divisum": "These are principal parts of 'divido' (to divide)"
+      }
+    },
+    {
+      "prompt": "What case is 'febri'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "ablative"],
+      "reveal": { "word": "febri", "gloss": "the fever" },
+      "hints": {
+        "nominative": "Nominative of 'febris' is 'febris' — 'febri' is dative (he commanded the fever)",
+        "accusative": "Accusative would be 'febrim' — 'febri' is dative, governed by 'imperavit'",
+        "ablative": "Ablative would be 'febri' (same form), but 'imperare' takes the dative"
+      }
+    },
+    {
+      "prompt": "What declension is 'febris, febris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'febris' has genitive in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'febris' has genitive in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'febris' has genitive in -is"
+      }
+    }
+  ],
+  "translation": "He commanded the fever and it left her"
+}

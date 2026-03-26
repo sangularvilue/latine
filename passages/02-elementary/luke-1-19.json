@@ -1,0 +1,108 @@
+{
+  "id": "luke-1-19",
+  "source": "Vulgate",
+  "reference": "Lucas 1:69",
+  "latin": ["Erexit", "cornu", "salutis", "nobis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Erexit",
+      "choices": ["Erexit", "cornu", "salutis", "nobis"],
+      "reveal": null,
+      "hints": {
+        "cornu": "'Cornu' is a noun meaning 'horn'",
+        "salutis": "'Salutis' is a noun meaning 'of salvation'",
+        "nobis": "'Nobis' is a pronoun meaning 'for us'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erexit' translates to?",
+      "target": "to raise up / to erect",
+      "choices": ["to raise up / to erect", "to rule", "to direct", "to lead"],
+      "reveal": null,
+      "hints": {
+        "to rule": "That would be 'regere'",
+        "to direct": "That would be 'dirigere'",
+        "to lead": "That would be 'ducere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'erexit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future", "imperfect"],
+      "reveal": "erexit = he has raised up",
+      "hints": {
+        "present indicative": "Present would be 'erigit'; 'erexit' uses the perfect stem",
+        "future": "Future would be 'eriget'",
+        "imperfect": "Imperfect would be 'erigebat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erexit'?",
+      "target": "erigo, erigere, erexi, erectum",
+      "choices": ["erigo, erigere, erexi, erectum", "rego, regere, rexi, rectum", "dirigo, dirigere, direxi, directum", "surgo, surgere, surrexi, surrectum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are the principal parts of 'rego' (to rule)",
+        "dirigo, dirigere, direxi, directum": "These are the principal parts of 'dirigo' (to direct)",
+        "surgo, surgere, surrexi, surrectum": "These are the principal parts of 'surgo' (to rise)"
+      }
+    },
+    {
+      "prompt": "What case is 'cornu'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "cornu = horn (acc.)",
+      "hints": {
+        "nominative": "Nominative would also be 'cornu' (neuter 4th decl.), but here it is the direct object",
+        "ablative": "Ablative would be 'cornu' as well for 4th declension neuter, but context shows direct object",
+        "genitive": "Genitive would be 'cornus'"
+      }
+    },
+    {
+      "prompt": "What declension is 'cornu'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension neuters end in -um; 'cornu' is a 4th declension neuter",
+        "3rd declension": "3rd declension neuters have varied endings; 'cornu' has genitive 'cornus' (4th)",
+        "indeclinable": "'Cornu' does decline: cornu, cornus, cornu, cornu, cornu (sg.), cornua, cornuum, etc."
+      }
+    },
+    {
+      "prompt": "What case is 'salutis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "salutis = of salvation (gen.)",
+      "hints": {
+        "nominative": "Nominative is 'salus'; 'salutis' with -is is genitive",
+        "dative": "Dative would be 'saluti'",
+        "ablative": "Ablative would be 'salute'"
+      }
+    },
+    {
+      "prompt": "What declension is 'salus'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'salus' has genitive 'salutis'",
+        "2nd declension": "2nd declension nouns end in -us/-um with -i genitive; 'salus' has genitive 'salutis'",
+        "4th declension": "4th declension -us nouns have -us genitive; 'salus' has genitive 'salutis'"
+      }
+    },
+    {
+      "prompt": "What case is 'nobis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "nobis = for us (dat.)",
+      "hints": {
+        "nominative": "Nominative would be 'nos'",
+        "ablative": "Ablative would also be 'nobis', but here it expresses advantage: 'for us'",
+        "accusative": "Accusative would be 'nos'"
+      }
+    }
+  ],
+  "translation": "He has raised up a horn of salvation for us"
+}

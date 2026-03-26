@@ -1,0 +1,75 @@
+{
+  "id": "luke-4-06",
+  "source": "Vulgate",
+  "reference": "Lucas 4:24",
+  "latin": ["Nemo", "propheta", "acceptus", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "est",
+      "choices": ["Nemo", "propheta", "acceptus", "est"],
+      "reveal": null,
+      "hints": {
+        "Nemo": "'Nemo' is a pronoun meaning 'no one'",
+        "propheta": "'propheta' is a noun meaning 'prophet'",
+        "acceptus": "'acceptus' is a participle/adjective meaning 'accepted'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to accept"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to stand": "'to stand' is 'stare' — 'est' is from 'esse' (to be)",
+        "to accept": "'to accept' is 'accipere' — 'est' is the copula verb 'to be'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "perfect": "Perfect of 'esse' would be 'fuit' — 'est' is present tense",
+        "imperfect": "Imperfect of 'esse' would be 'erat' — 'est' is present",
+        "future": "Future of 'esse' would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "edo, edere, edi, esum", "sino, sinere, sivi, situm"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are principal parts of 'sto' (to stand)",
+        "edo, edere, edi, esum": "These are principal parts of 'edo' (to eat)",
+        "sino, sinere, sivi, situm": "These are principal parts of 'sino' (to allow)"
+      }
+    },
+    {
+      "prompt": "What case is 'propheta'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "propheta", "gloss": "prophet" },
+      "hints": {
+        "accusative": "Accusative would be 'prophetam' — 'propheta' is nominative (predicate noun)",
+        "ablative": "Ablative would be 'propheta' in form, but here it is a predicate nominative",
+        "vocative": "Vocative would also be 'propheta' but this is a statement, not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'propheta, prophetae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'prophetae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'prophetae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -us — 'prophetae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "No prophet is accepted"
+}

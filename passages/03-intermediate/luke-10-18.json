@@ -1,0 +1,97 @@
+{
+  "id": "luke-10-18",
+  "source": "Vulgate",
+  "reference": "Lucas 10:27",
+  "latin": ["Diliges", "Dominum", "Deum", "tuum"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Diliges",
+      "choices": ["Diliges", "Dominum", "Deum", "tuum"],
+      "reveal": null,
+      "hints": {
+        "Dominum": "'Dominum' is a noun meaning 'the Lord'",
+        "Deum": "'Deum' is a noun meaning 'God'",
+        "tuum": "'Tuum' is a possessive adjective meaning 'your'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Diliges' translates to?",
+      "target": "to love",
+      "choices": ["to love", "to choose", "to read", "to destroy"],
+      "reveal": null,
+      "hints": {
+        "to choose": "That would be 'deligere' — 'Diliges' comes from 'diligere' (to love/esteem)",
+        "to read": "That would be 'legere' — 'Diliges' comes from 'diligere' (to love)",
+        "to destroy": "That would be 'delere' — 'Diliges' comes from 'diligere' (to love)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Diliges'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "present subjunctive", "future indicative", "perfect indicative"],
+      "reveal": "Diliges = you shall love (fut. ind., used as a command)",
+      "hints": {
+        "present indicative": "Present would be 'diligis' — 'Diliges' with -es is future of 3rd conjugation",
+        "present subjunctive": "Present subjunctive would be 'diligas' — 'Diliges' is future indicative",
+        "perfect indicative": "Perfect would be 'dilexisti' — 'Diliges' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Diliges'?",
+      "target": "diligo, diligere, dilexi, dilectum",
+      "choices": ["diligo, diligere, dilexi, dilectum", "deligo, deligere, delegi, delectum", "lego, legere, legi, lectum", "amo, amare, amavi, amatum"],
+      "reveal": null,
+      "hints": {
+        "deligo, deligere, delegi, delectum": "These are the parts of 'deligere' (to choose/select)",
+        "lego, legere, legi, lectum": "These are the parts of 'legere' (to read/gather)",
+        "amo, amare, amavi, amatum": "These are the parts of 'amare' (to love) — a synonym but different verb"
+      }
+    },
+    {
+      "prompt": "The future indicative is used here to express what?",
+      "target": "a command (jussive future)",
+      "choices": ["a simple prediction", "a command (jussive future)", "a wish", "a condition"],
+      "reveal": null,
+      "hints": {
+        "a simple prediction": "While future tense can predict, in legal/religious contexts it functions as a command",
+        "a wish": "A wish would typically use the subjunctive — the future here commands",
+        "a condition": "A condition would use 'si' + subjunctive — this is a direct command in future tense"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Dominum = the Lord (acc., direct object)",
+      "hints": {
+        "nominative": "Nominative would be 'Dominus' — 'Dominum' with -um is accusative",
+        "ablative": "Ablative would be 'Domino' — 'Dominum' is accusative",
+        "vocative": "Vocative would be 'Domine' — 'Dominum' is accusative, direct object"
+      }
+    },
+    {
+      "prompt": "What case is 'Deum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Deum = God (acc., in apposition to 'Dominum')",
+      "hints": {
+        "nominative": "Nominative would be 'Deus' — 'Deum' is accusative, in apposition",
+        "ablative": "Ablative would be 'Deo' — 'Deum' is accusative",
+        "dative": "Dative would be 'Deo' — 'Deum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Domini' ends in -i"
+      }
+    }
+  ],
+  "translation": "You shall love the Lord your God"
+}

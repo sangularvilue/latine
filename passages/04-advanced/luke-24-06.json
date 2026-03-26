@@ -1,0 +1,141 @@
+{
+  "id": "luke-24-06",
+  "source": "Vulgate",
+  "reference": "Lucas 24:39",
+  "latin": ["Videte", "manus", "meas", "et", "pedes", "meos", "quia", "ipse", "ego", "sum"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb of the first clause?",
+      "target": "Videte",
+      "choices": ["Videte", "sum", "manus", "ipse"],
+      "reveal": null,
+      "hints": {
+        "sum": "'Sum' is a finite verb but belongs to the subordinate clause after 'quia'",
+        "manus": "'Manus' is a noun meaning 'hands'",
+        "ipse": "'Ipse' is an intensive pronoun meaning 'myself/himself'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Videte' translates to?",
+      "target": "to see / to look at",
+      "choices": ["to see / to look at", "to conquer", "to live", "to come"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'To conquer' is 'vincere' — 'Videte' comes from 'videre' (to see)",
+        "to live": "'To live' is 'vivere' — 'Videte' comes from 'videre'",
+        "to come": "'To come' is 'venire' — 'Videte' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Videte'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "future indicative"],
+      "reveal": "Videte = See! Look! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'videtis' — 'Videte' is imperative",
+        "present subjunctive": "Present subjunctive 2nd plural would be 'videatis' — 'Videte' is imperative",
+        "future indicative": "Future 2nd plural would be 'videbitis' — 'Videte' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Videte'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vinco' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivo' (to live)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vito' (to avoid)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sum'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "ipse ego sum = it is I myself (1st sing. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sim' — 'sum' is indicative",
+        "perfect indicative": "Perfect would be 'fui' — 'sum' is present",
+        "future indicative": "Future would be 'ero' — 'sum' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sum'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "do, dare, dedi, datum": "These are the parts of 'do' (to give)"
+      }
+    },
+    {
+      "prompt": "What case is 'manus'?",
+      "target": "accusative plural",
+      "choices": ["accusative plural", "nominative singular", "nominative plural", "genitive singular"],
+      "reveal": "manus meas = my hands (acc. pl., direct object)",
+      "hints": {
+        "nominative singular": "Nominative singular 'manus' looks the same — but it is the object of 'videte'",
+        "nominative plural": "Nominative plural 'manus' also looks the same — but context requires accusative",
+        "genitive singular": "Genitive singular 'manus' also looks the same (4th decl.) — but 'meas' confirms accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'manus, manus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'manus' has genitive in -us",
+        "2nd declension": "2nd declension has genitive in -i — 'manus' has genitive in -us",
+        "3rd declension": "3rd declension has genitive in -is — 'manus' has genitive in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'pedes'?",
+      "target": "accusative plural",
+      "choices": ["accusative plural", "nominative plural", "genitive singular", "ablative plural"],
+      "reveal": "pedes meos = my feet (acc. pl., direct object)",
+      "hints": {
+        "nominative plural": "'Pedes' looks the same in nominative plural, but it is the object of 'videte'",
+        "genitive singular": "Genitive singular would be 'pedis' — 'pedes' is accusative/nominative plural",
+        "ablative plural": "Ablative plural would be 'pedibus' — 'pedes' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'pes, pedis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pedis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'pedis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'pedis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the function of 'ipse' alongside 'ego'?",
+      "target": "intensive pronoun adding emphasis: 'I myself'",
+      "choices": ["intensive pronoun adding emphasis: 'I myself'", "reflexive pronoun", "relative pronoun", "demonstrative pronoun (that one)"],
+      "reveal": "ipse ego = I myself (double emphasis on identity)",
+      "hints": {
+        "reflexive pronoun": "Reflexive would be 'se/sui' — 'ipse' is intensive, not reflexive",
+        "relative pronoun": "Relative would be 'qui/quae/quod' — 'ipse' is an intensive pronoun",
+        "demonstrative pronoun (that one)": "'Ipse' can mean 'that very one' but with 'ego' it means 'I myself'"
+      }
+    },
+    {
+      "prompt": "What type of clause does 'quia' introduce?",
+      "target": "causal clause (because/that)",
+      "choices": ["causal clause (because/that)", "relative clause", "purpose clause", "result clause"],
+      "reveal": "quia ipse ego sum = because it is I myself / that it is I myself",
+      "hints": {
+        "relative clause": "Relative clauses use 'qui/quae/quod' — 'quia' is a causal conjunction",
+        "purpose clause": "Purpose clauses use 'ut' + subjunctive — 'quia' introduces a causal/declarative clause",
+        "result clause": "Result clauses use 'ut' + subjunctive — 'quia' here means 'because/that'"
+      }
+    }
+  ],
+  "translation": "See my hands and my feet, that it is I myself"
+}

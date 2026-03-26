@@ -1,0 +1,130 @@
+{
+  "id": "cat-4-05",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.7",
+  "latin": ["Decernite", "diligenter", "Quirites", "quod", "vobis", "faciendum", "est"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Decernite' translates to?",
+      "target": "to decide / to decree",
+      "choices": ["to decide / to decree", "to fight", "to distinguish", "to run"],
+      "reveal": null,
+      "hints": {
+        "to fight": "'To fight' is 'decertare' (note the -t-) — 'decernite' comes from 'decernere' (to decide)",
+        "to distinguish": "'To distinguish' is 'discernere' — 'decernere' means to decide or decree",
+        "to run": "'To run' is 'currere' — 'decernere' means to decide"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Decernite'?",
+      "target": "present imperative",
+      "choices": ["present indicative", "present imperative", "present subjunctive", "future imperative"],
+      "reveal": "Decernite = Decide! / Decree! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative would be 'decernitis' — 'Decernite' without -is is imperative",
+        "present subjunctive": "Present subjunctive would be 'decernatis' — 'Decernite' is imperative",
+        "future imperative": "Future imperative would be 'decernitote' — 'Decernite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Decernite'?",
+      "target": "decerno, decernere, decrevi, decretum",
+      "choices": ["decerno, decernere, decrevi, decretum", "cerno, cernere, crevi, cretum", "discerno, discernere, discrevi, discretum", "decerto, decertare, decertavi, decertatum"],
+      "reveal": null,
+      "hints": {
+        "cerno, cernere, crevi, cretum": "These are the parts of 'cernere' (to perceive) — the base verb without the de- prefix",
+        "discerno, discernere, discrevi, discretum": "These are the parts of 'discernere' (to distinguish) — different prefix",
+        "decerto, decertare, decertavi, decertatum": "These are the parts of 'decertare' (to fight it out) — different verb"
+      }
+    },
+    {
+      "prompt": "What does 'diligenter' mean?",
+      "target": "carefully / diligently",
+      "choices": ["carefully / diligently", "lovingly", "quickly", "boldly"],
+      "reveal": "diligenter = carefully",
+      "hints": {
+        "lovingly": "'Lovingly' confuses 'diligere' (to value/love) — the adverb 'diligenter' means carefully",
+        "quickly": "'Quickly' is 'celeriter' — 'diligenter' means carefully or diligently",
+        "boldly": "'Boldly' is 'audacter' — 'diligenter' means carefully"
+      }
+    },
+    {
+      "prompt": "What case is 'Quirites'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Quirites = citizens! (voc. pl.)",
+      "hints": {
+        "nominative": "While the form is identical, context (imperative address) marks this as vocative",
+        "accusative": "Accusative plural would also be 'Quirites,' but this is a direct address with the imperative",
+        "genitive": "Genitive plural would be 'Quiritium' — 'Quirites' is vocative of address"
+      }
+    },
+    {
+      "prompt": "What is the grammatical function of 'quod'?",
+      "target": "relative pronoun (neuter nom./acc. sg.)",
+      "choices": ["relative pronoun (neuter nom./acc. sg.)", "conjunction meaning 'because'", "conjunction meaning 'that'", "interrogative pronoun"],
+      "reveal": "quod = that which / what (rel. pron.)",
+      "hints": {
+        "conjunction meaning 'because'": "'Quod' can mean 'because,' but here it introduces a relative clause with 'faciendum est'",
+        "conjunction meaning 'that'": "'Quod' as 'that' introduces noun clauses, but here it is a relative pronoun",
+        "interrogative pronoun": "Interrogative 'quid' would be used in questions — 'quod' here is relative"
+      }
+    },
+    {
+      "prompt": "What case is 'vobis' and what function does it serve?",
+      "target": "dative of agent (with passive periphrastic)",
+      "choices": ["dative of agent (with passive periphrastic)", "dative of indirect object", "ablative of agent", "dative of reference"],
+      "reveal": "vobis = by you (dat. of agent with gerundive)",
+      "hints": {
+        "dative of indirect object": "While 'vobis' is dative, with the gerundive it expresses the agent who must act",
+        "ablative of agent": "Ablative of agent uses 'a/ab' — the passive periphrastic takes dative of agent",
+        "dative of reference": "Dative of reference is a different usage — with gerundive + 'est,' the dative expresses the agent"
+      }
+    },
+    {
+      "prompt": "What is 'faciendum est'?",
+      "target": "passive periphrastic (gerundive of obligation)",
+      "choices": ["passive periphrastic (gerundive of obligation)", "future passive indicative", "present passive indicative", "perfect passive indicative"],
+      "reveal": "faciendum est = must be done / is to be done",
+      "hints": {
+        "future passive indicative": "Future passive would be 'fiet' — 'faciendum est' is gerundive + sum expressing obligation",
+        "present passive indicative": "Present passive would be 'fit' or 'facitur' — 'faciendum' is a gerundive",
+        "perfect passive indicative": "Perfect passive would be 'factum est' — 'faciendum est' expresses obligation"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'faciendum est'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fio, fieri, factus sum", "fallo, fallere, fefelli, falsum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — the passive of 'facere,' but 'faciendum' is from active 'facere'",
+        "fallo, fallere, fefelli, falsum": "These are the parts of 'fallere' (to deceive)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "The gerundive 'faciendum' expresses what kind of necessity?",
+      "target": "moral or practical obligation: 'must be done'",
+      "choices": ["moral or practical obligation: 'must be done'", "physical possibility: 'can be done'", "past completed action: 'was done'", "future intention: 'will be done'"],
+      "reveal": null,
+      "hints": {
+        "physical possibility: 'can be done'": "Possibility is expressed by 'posse' — the gerundive expresses obligation or necessity",
+        "past completed action: 'was done'": "Past action would use perfect passive 'factum est' — the gerundive is forward-looking obligation",
+        "future intention: 'will be done'": "Simple future uses 'fiet' — the gerundive adds the nuance of duty or necessity"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical force of pairing an imperative ('Decernite') with a gerundive obligation ('faciendum est')?",
+      "target": "Cicero commands action while reminding senators of their duty",
+      "choices": ["Cicero commands action while reminding senators of their duty", "it softens the imperative into a polite request", "it creates a conditional sentence", "it expresses doubt about the outcome"],
+      "reveal": null,
+      "hints": {
+        "it softens the imperative into a polite request": "The gerundive reinforces urgency, not politeness — both imperative and gerundive press for action",
+        "it creates a conditional sentence": "There is no conditional ('si') here — the imperative and gerundive both urge immediate decision",
+        "it expresses doubt about the outcome": "Both constructions express certainty of duty — there is no doubt expressed here"
+      }
+    }
+  ],
+  "translation": "Decide carefully, citizens, what must be done by you"
+}

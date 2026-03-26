@@ -1,0 +1,108 @@
+{
+  "id": "luke-17-01",
+  "source": "Vulgate",
+  "reference": "Lucas 17:6",
+  "latin": ["Si", "habueritis", "fidem", "sicut", "granum", "sinapis"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "habueritis",
+      "choices": ["habueritis", "fidem", "granum", "sinapis"],
+      "reveal": null,
+      "hints": {
+        "fidem": "'Fidem' is a noun meaning 'faith' in the accusative",
+        "granum": "'Granum' is a noun meaning 'grain' in the accusative",
+        "sinapis": "'Sinapis' is a noun meaning 'mustard' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habueritis' translates to?",
+      "target": "to have / to hold",
+      "choices": ["to have / to hold", "to dwell", "to consider", "to wear"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "'To dwell' is 'habitare' — 'habueritis' comes from 'habere'",
+        "to consider": "'To consider' is 'considerare' — 'habere' means 'to have'",
+        "to wear": "'To wear' is 'gerere' — 'habere' means 'to have/hold'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'habueritis'?",
+      "target": "future perfect indicative",
+      "choices": ["future perfect indicative", "perfect subjunctive", "pluperfect subjunctive", "present subjunctive"],
+      "reveal": "habueritis = you will have had (in conditional protasis)",
+      "hints": {
+        "perfect subjunctive": "The forms are identical — in a future conditional with 'si' this functions as future perfect",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'habuissetis' — 'habueritis' lacks the -isse- marker",
+        "present subjunctive": "Present subjunctive would be 'habeatis' — 'habueritis' has the perfect stem"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habueritis'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "abeo, abire, abii, abitum", "debeo, debere, debui, debitum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell)",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away)",
+        "debeo, debere, debui, debitum": "These are the parts of 'debere' (to owe)"
+      }
+    },
+    {
+      "prompt": "What case is 'fidem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "fidem = faith (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'fides' — the -em ending marks accusative",
+        "ablative": "Ablative would be 'fide' — 'fidem' is accusative",
+        "dative": "Dative would be 'fidei' — 'fidem' is accusative, direct object"
+      }
+    },
+    {
+      "prompt": "What declension is 'fides, fidei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'fidei' ends in -ei",
+        "3rd declension": "3rd declension has genitive in -is — 'fidei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'fidei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What case is 'granum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "granum = grain (acc., object of comparison with 'sicut')",
+      "hints": {
+        "nominative": "'Granum' could be nominative, but 'sicut granum' is a comparative phrase — accusative",
+        "ablative": "Ablative would be 'grano' — 'granum' is accusative in the comparison",
+        "vocative": "One does not address a grain — 'granum' is accusative"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'sicut'?",
+      "target": "conjunction/adverb meaning 'as / just as'",
+      "choices": ["conjunction/adverb meaning 'as / just as'", "preposition meaning 'with'", "relative pronoun", "noun meaning 'manner'"],
+      "reveal": null,
+      "hints": {
+        "preposition meaning 'with'": "'With' is 'cum' — 'sicut' means 'as/just as'",
+        "relative pronoun": "Relative pronouns are 'qui, quae, quod' — 'sicut' is a comparative conjunction",
+        "noun meaning 'manner'": "'Sicut' is not a noun — it is an adverb/conjunction of comparison"
+      }
+    },
+    {
+      "prompt": "What case is 'sinapis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "sinapis = of mustard (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'sinapi' or 'sinapis' — here it modifies 'granum' as genitive",
+        "dative": "Dative does not fit — 'sinapis' tells what kind of grain: 'grain of mustard'",
+        "accusative": "Accusative would be 'sinapi' — 'sinapis' is genitive here"
+      }
+    }
+  ],
+  "translation": "If you have faith like a grain of mustard"
+}

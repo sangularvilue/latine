@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-05",
+  "source": "Vulgate",
+  "reference": "Lucas 3:8",
+  "latin": ["Facite", "fructus", "dignos", "paenitentiae"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Facite",
+      "choices": ["Facite", "fructus", "dignos", "paenitentiae"],
+      "reveal": null,
+      "hints": {
+        "fructus": "'fructus' is a noun meaning 'fruits' in the accusative plural",
+        "dignos": "'dignos' is an adjective meaning 'worthy' in the accusative plural",
+        "paenitentiae": "'paenitentiae' is a noun meaning 'of repentance' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Facite' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to carry", "to throw"],
+      "reveal": null,
+      "hints": {
+        "to say": "'to say' is 'dicere' — 'Facite' comes from 'facere' (to make/do)",
+        "to carry": "'to carry' is 'ferre' — 'Facite' comes from 'facere'",
+        "to throw": "'to throw' is 'iacere' — 'Facite' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Facite'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Facite", "gloss": "make! / produce! (plural)" },
+      "hints": {
+        "Indicative": "Indicative would state a fact — 'Facite' is a command",
+        "Subjunctive": "Subjunctive would express wish/possibility — 'Facite' is a direct imperative",
+        "Infinitive": "Infinitive would be 'facere' — 'Facite' is the 2nd person plural imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Facite'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fio, fieri, factus sum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — the passive of 'facere'"
+      }
+    },
+    {
+      "prompt": "What case is 'fructus'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "fructus", "gloss": "fruits" },
+      "hints": {
+        "Nominative": "'fructus' could be nominative, but here it is the direct object of 'Facite' — accusative plural",
+        "Genitive": "Genitive singular is also 'fructus' (4th declension), but here it is accusative plural",
+        "Ablative": "Ablative would be 'fructu' — 'fructus' here is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'fructus, fructus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'fructus' genitive ends in -ūs",
+        "2nd declension": "2nd declension has genitive in -i — 'fructus' genitive ends in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'fructus' genitive ends in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'paenitentiae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "paenitentiae", "gloss": "of repentance" },
+      "hints": {
+        "Nominative": "Nominative singular is 'paenitentia' — 'paenitentiae' is genitive singular",
+        "Dative": "'paenitentiae' could be dative, but here it means 'of repentance' — genitive modifying 'fructus'",
+        "Ablative": "Ablative would be 'paenitentia' — 'paenitentiae' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'paenitentia, paenitentiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'paenitentiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'paenitentiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'paenitentiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Produce fruits worthy of repentance"
+}

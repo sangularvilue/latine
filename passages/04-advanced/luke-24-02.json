@@ -1,0 +1,119 @@
+{
+  "id": "luke-24-02",
+  "source": "Vulgate",
+  "reference": "Lucas 24:6",
+  "latin": ["Non", "est", "hic", "sed", "surrexit"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "two: 'est' and 'surrexit'",
+      "choices": ["two: 'est' and 'surrexit'", "one: 'est'", "one: 'surrexit'", "three"],
+      "reveal": null,
+      "hints": {
+        "one: 'est'": "'Est' is one finite verb, but 'surrexit' is also a finite verb in the second clause",
+        "one: 'surrexit'": "'Surrexit' is one finite verb, but 'est' is also a finite verb in the first clause",
+        "three": "There are exactly two finite verbs: 'est' and 'surrexit'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere/esse' — here 'est' is from 'sum' (to be)",
+        "to go": "'To go' is 'ire' — 'est' is from 'sum, esse'",
+        "to stand": "'To stand' is 'stare' — 'est' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "Non est hic = He is not here",
+      "hints": {
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "sto, stare, steti, statum", "exsto, exstare, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'sto' (to stand)",
+        "exsto, exstare, exstiti, —": "These are the parts of 'exsto' (to stand out)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'surrexit' translates to?",
+      "target": "to rise / to rise again",
+      "choices": ["to rise / to rise again", "to correct", "to reign", "to stretch out"],
+      "reveal": null,
+      "hints": {
+        "to correct": "'To correct' is 'corrigere' — 'surrexit' comes from 'surgere' (to rise)",
+        "to reign": "'To reign' is 'regnare' — 'surrexit' comes from 'surgere'",
+        "to stretch out": "'To stretch out' is 'surrigere' is close but different — 'surrexit' is from 'surgere' (sub- + regere)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'surrexit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "future perfect"],
+      "reveal": "surrexit = he has risen / he rose (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'surgit' — 'surrexit' with -exit is perfect",
+        "pluperfect indicative": "Pluperfect would be 'surrexerat' — 'surrexit' is perfect",
+        "future perfect": "Future perfect would be 'surrexerit' — 'surrexit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'surrexit'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "rego, regere, rexi, rectum", "resurgo, resurgere, resurrexi, resurrectum", "erigo, erigere, erexi, erectum"],
+      "reveal": null,
+      "hints": {
+        "rego, regere, rexi, rectum": "These are the parts of 'rego' (to rule) — 'surgere' is sub- + regere",
+        "resurgo, resurgere, resurrexi, resurrectum": "These are the parts of 'resurgo' (to rise again) — closely related but 'surrexit' is from 'surgo'",
+        "erigo, erigere, erexi, erectum": "These are the parts of 'erigo' (to raise up)"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'hic' in 'Non est hic'?",
+      "target": "adverb (meaning 'here')",
+      "choices": ["adverb (meaning 'here')", "demonstrative pronoun (this one)", "adjective (this)", "conjunction"],
+      "reveal": "hic = here (adverb of place)",
+      "hints": {
+        "demonstrative pronoun (this one)": "'Hic' as pronoun would need a noun to refer to — here it means 'in this place'",
+        "adjective (this)": "'Hic' as adjective modifies a noun — here it stands alone as an adverb",
+        "conjunction": "'Hic' is never a conjunction"
+      }
+    },
+    {
+      "prompt": "What does 'sed' express here?",
+      "target": "strong adversative conjunction (but rather)",
+      "choices": ["strong adversative conjunction (but rather)", "mild adversative (however)", "causal conjunction (for)", "temporal conjunction (when)"],
+      "reveal": "Non est hic sed surrexit = He is not here but has risen",
+      "hints": {
+        "mild adversative (however)": "'Autem' is the mild adversative — 'sed' is the strong adversative 'but (on the contrary)'",
+        "causal conjunction (for)": "'Enim/nam' are causal — 'sed' is adversative",
+        "temporal conjunction (when)": "'Cum/dum' are temporal — 'sed' is adversative"
+      }
+    },
+    {
+      "prompt": "Why does this passage pair present 'est' with perfect 'surrexit'?",
+      "target": "present states current absence; perfect marks the completed act of rising",
+      "choices": ["present states current absence; perfect marks the completed act of rising", "both are present tense", "it is a grammatical error", "both are perfect tense"],
+      "reveal": "The tense shift emphasizes: he is not here NOW because he rose (completed action)",
+      "hints": {
+        "both are present tense": "'Surrexit' is perfect, not present — 'surgit' would be present",
+        "it is a grammatical error": "The tense shift is deliberate and meaningful — a present state contrasted with a completed act",
+        "both are perfect tense": "'Est' is present, not perfect — 'fuit' would be perfect"
+      }
+    }
+  ],
+  "translation": "He is not here, but has risen"
+}

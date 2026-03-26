@@ -1,0 +1,108 @@
+{
+  "id": "luke-1-10",
+  "source": "Vulgate",
+  "reference": "Lucas 1:68",
+  "latin": ["Benedictus", "Dominus", "Deus", "Israel"],
+  "steps": [
+    {
+      "prompt": "Which word functions as the verb/participle?",
+      "target": "Benedictus",
+      "choices": ["Benedictus", "Dominus", "Deus", "Israel"],
+      "reveal": null,
+      "hints": {
+        "Dominus": "'Dominus' is a noun meaning 'Lord'",
+        "Deus": "'Deus' is a noun meaning 'God'",
+        "Israel": "'Israel' is a proper noun, the name Israel"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'benedictus' translates to?",
+      "target": "to bless",
+      "choices": ["to bless", "to speak", "to praise", "to thank"],
+      "reveal": null,
+      "hints": {
+        "to speak": "That would be 'dicere'; 'benedicere' means 'to bless'",
+        "to praise": "That would be 'laudare'",
+        "to thank": "That would be 'gratias agere'"
+      }
+    },
+    {
+      "prompt": "What form is 'benedictus'?",
+      "target": "perfect passive participle",
+      "choices": ["present active participle", "perfect passive participle", "present indicative", "gerundive"],
+      "reveal": "benedictus = blessed (perf. pass. part.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'benedicens'",
+        "present indicative": "'Benedictus' is a participle form, not a finite verb",
+        "gerundive": "The gerundive would be 'benedicendus'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'benedictus'?",
+      "target": "benedico, benedicere, benedixi, benedictum",
+      "choices": ["benedico, benedicere, benedixi, benedictum", "dico, dicere, dixi, dictum", "bonus, bona, bonum, —", "laudo, laudare, laudavi, laudatum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are the principal parts of 'dico' (to say); 'benedico' is a compound",
+        "bonus, bona, bonum, —": "'Bonus' is an adjective, not a verb",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudo' (to praise)"
+      }
+    },
+    {
+      "prompt": "Which is the subject?",
+      "target": "Dominus",
+      "choices": ["Benedictus", "Dominus", "Deus", "Israel"],
+      "reveal": null,
+      "hints": {
+        "Benedictus": "'Benedictus' is the predicate participle describing the subject",
+        "Deus": "'Deus' is in apposition to 'Dominus', but 'Dominus' is the primary subject",
+        "Israel": "'Israel' is a genitive of possession modifying 'Deus'"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Dominus = the Lord (nom.)",
+      "hints": {
+        "vocative": "Vocative would be 'Domine'; 'Dominus' with -us is nominative",
+        "accusative": "Accusative would be 'Dominum'",
+        "genitive": "Genitive would be 'Domini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'Dominus' ends in -us",
+        "3rd declension": "3rd declension has -is in the genitive; 'Dominus' has genitive 'Domini'",
+        "4th declension": "4th declension has genitive -us; 'Dominus' has genitive 'Domini'"
+      }
+    },
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Deus = God (nom., in apposition to Dominus)",
+      "hints": {
+        "vocative": "Vocative of 'Deus' would be 'Deus' or 'Dee', but here it is nominative in apposition",
+        "accusative": "Accusative would be 'Deum'",
+        "genitive": "Genitive would be 'Dei'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'Deus' ends in -us",
+        "3rd declension": "3rd declension has -is in the genitive; 'Deus' has genitive 'Dei'",
+        "indeclinable": "'Deus' does decline: Deus, Dei, Deo, Deum, Deo"
+      }
+    }
+  ],
+  "translation": "Blessed be the Lord God of Israel"
+}

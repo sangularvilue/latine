@@ -1,0 +1,119 @@
+{
+  "id": "luke-adv-12",
+  "source": "Vulgate",
+  "reference": "Lucas 10:37",
+  "latin": ["Vade", "et", "tu", "fac", "similiter"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Vade' translates to?",
+      "target": "to go",
+      "choices": ["to go", "to wade", "to see", "to come"],
+      "reveal": null,
+      "hints": {
+        "to wade": "'To wade' is not Latin 'vadere' — 'vadere' means to go or walk",
+        "to see": "'To see' is 'videre' — 'vadere' means to go",
+        "to come": "'To come' is 'venire' — 'vadere' means to go (away)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Vade'?",
+      "target": "present imperative (2nd sg.)",
+      "choices": ["present indicative", "present imperative (2nd sg.)", "present subjunctive", "future imperative"],
+      "reveal": "Vade = Go! (2nd sg. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd sg. would be 'vadis' — 'Vade' is imperative",
+        "present subjunctive": "Present subjunctive would be 'vadas' — 'Vade' is imperative",
+        "future imperative": "Future imperative would be 'vadito' — 'Vade' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Vade'?",
+      "target": "vado, vadere, vasi, —",
+      "choices": ["vado, vadere, vasi, —", "venio, venire, veni, ventum", "video, videre, vidi, visum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)"
+      }
+    },
+    {
+      "prompt": "What case is 'tu'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "tu = you (nom., emphatic)",
+      "hints": {
+        "accusative": "Accusative would be 'te' — 'tu' is nominative",
+        "ablative": "Ablative would be 'te' — 'tu' is nominative",
+        "dative": "Dative would be 'tibi' — 'tu' is nominative"
+      }
+    },
+    {
+      "prompt": "Why is the pronoun 'tu' used with the imperative when it's already implied?",
+      "target": "emphatic: 'you too' / 'you yourself go and do likewise'",
+      "choices": ["emphatic: 'you too' / 'you yourself go and do likewise'", "Latin always requires subject pronouns", "it clarifies number (singular vs. plural)", "it is a scribal error"],
+      "reveal": null,
+      "hints": {
+        "Latin always requires subject pronouns": "Latin is a pro-drop language — 'tu' is used for emphasis, not requirement",
+        "it clarifies number (singular vs. plural)": "The imperative 'vade/fac' already show singular — 'tu' adds emphasis, not clarity",
+        "it is a scribal error": "'Tu' is consistently attested — it is deliberate emphasis in Jesus's command"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fac' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to say", "to be", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to say": "'To say' is 'dicere' — 'fac' comes from 'facere' (to do/make)",
+        "to be": "'To be' is 'esse' — 'facere' means to do or make",
+        "to carry": "'To carry' is 'ferre' — 'facere' means to do"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fac'?",
+      "target": "present imperative (2nd sg., irregular short form)",
+      "choices": ["present imperative (2nd sg., irregular short form)", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "fac = Do! / Make! (irregular imperative of 'facere')",
+      "hints": {
+        "present indicative": "Present indicative would be 'facis' — 'fac' is the shortened imperative",
+        "present subjunctive": "Present subjunctive would be 'facias' — 'fac' is imperative",
+        "perfect indicative": "Perfect would be 'feci' — 'fac' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fac'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fugio, fugere, fugi, fugitum", "fio, fieri, factus sum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — passive of 'facere'"
+      }
+    },
+    {
+      "prompt": "'Fac' is an irregular short imperative. Which other common verbs have this pattern?",
+      "target": "dic (say), duc (lead), fer (carry)",
+      "choices": ["dic (say), duc (lead), fer (carry)", "ama (love), mone (warn), audi (hear)", "i (go), es (be), da (give)", "scribe (write), lege (read), curre (run)"],
+      "reveal": null,
+      "hints": {
+        "ama (love), mone (warn), audi (hear)": "These are regular imperatives — the irregular short forms are dic, duc, fac, fer",
+        "i (go), es (be), da (give)": "'I' and 'es' are irregular but for different reasons — the classic group is dic, duc, fac, fer",
+        "scribe (write), lege (read), curre (run)": "These have regular imperative forms — the shortened group is dic, duc, fac, fer"
+      }
+    },
+    {
+      "prompt": "What does 'similiter' mean?",
+      "target": "likewise / in the same way",
+      "choices": ["likewise / in the same way", "similarly enough", "simply", "at the same time"],
+      "reveal": "similiter = likewise",
+      "hints": {
+        "similarly enough": "'Similiter' does not imply 'enough' — it simply means 'likewise' or 'in the same way'",
+        "simply": "'Simply' is 'simpliciter' — 'similiter' means 'likewise'",
+        "at the same time": "'At the same time' is 'simul' — 'similiter' means 'in the same way'"
+      }
+    }
+  ],
+  "translation": "Go and you do likewise"
+}

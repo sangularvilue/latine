@@ -1,0 +1,86 @@
+{
+  "id": "luke-7-10",
+  "source": "Vulgate",
+  "reference": "Lucas 7:19",
+  "latin": ["Tu", "es", "qui", "venturus", "es"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "es (both occurrences)",
+      "choices": ["es (both occurrences)", "es (first only)", "venturus only", "Tu and es"],
+      "reveal": null,
+      "hints": {
+        "es (first only)": "Both 'es' forms are finite verbs — the first in the main clause, the second in the relative clause",
+        "venturus only": "'venturus' is a future active participle, not a finite verb",
+        "Tu and es": "'Tu' is a pronoun (you), not a verb — the finite verbs are both 'es'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'es' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'es' is from 'esse' (to be)",
+        "to stand": "'to stand' is 'stare' — 'es' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'es'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "es", "gloss": "you are" },
+      "hints": {
+        "perfect": "Perfect 2nd person would be 'fuisti' — 'es' is present",
+        "imperfect": "Imperfect 2nd person would be 'eras' — 'es' is present",
+        "future": "Future 2nd person would be 'eris' — 'es' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'es'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are principal parts of 'edo' (to eat)",
+        "eo, ire, ivi, itum": "These are principal parts of 'eo' (to go)",
+        "sto, stare, steti, statum": "These are principal parts of 'sto' (to stand)"
+      }
+    },
+    {
+      "prompt": "'Venturus' is what kind of participle?",
+      "target": "future active participle",
+      "choices": ["present active participle", "perfect passive participle", "future active participle", "gerundive"],
+      "reveal": { "word": "venturus", "gloss": "about to come / the one who is to come" },
+      "hints": {
+        "present active participle": "Present active participle would be 'veniens' — 'venturus' with -urus is future",
+        "perfect passive participle": "Perfect passive participle would be 'ventus' — 'venturus' is future active",
+        "gerundive": "Gerundive would be 'veniendus' — 'venturus' is the future active participle"
+      }
+    },
+    {
+      "prompt": "The verb 'venturus' comes from has the infinitive meaning?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to turn", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'to sell' is 'vendere' — 'venturus' comes from 'venire' (to come)",
+        "to turn": "'to turn' is 'vertere' — 'venturus' comes from 'venire' (to come)",
+        "to conquer": "'to conquer' is 'vincere' — 'venturus' comes from 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venturus' (from venire)?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vendo, vendere, vendidi, venditum", "verto, vertere, verti, versum", "vinco, vincere, vici, victum"],
+      "reveal": null,
+      "hints": {
+        "vendo, vendere, vendidi, venditum": "These are principal parts of 'vendo' (to sell)",
+        "verto, vertere, verti, versum": "These are principal parts of 'verto' (to turn)",
+        "vinco, vincere, vici, victum": "These are principal parts of 'vinco' (to conquer)"
+      }
+    }
+  ],
+  "translation": "Are you the one who is to come?"
+}

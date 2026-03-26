@@ -1,0 +1,119 @@
+{
+  "id": "cat-2-02",
+  "source": "Cicero",
+  "reference": "In Cat. II.1",
+  "latin": ["Abiit", "excessit", "evasit", "erupit"],
+  "steps": [
+    {
+      "prompt": "How many verbs does this sentence contain?",
+      "target": "Four",
+      "choices": ["One", "Two", "Three", "Four"],
+      "reveal": null,
+      "hints": {
+        "One": "Each of the four words is a separate verb — 'abiit, excessit, evasit, erupit'",
+        "Two": "All four words are distinct perfect-tense verbs describing Catiline's departure",
+        "Three": "Count again — 'abiit, excessit, evasit, erupit' are four verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Abiit' translates to?",
+      "target": "to go away / depart",
+      "choices": ["to go away / depart", "to approach", "to throw", "to perish"],
+      "reveal": null,
+      "hints": {
+        "to approach": "'to approach' is 'adire' — 'abire' means 'to go away' (ab- = away)",
+        "to throw": "'to throw' is 'iacere' — 'abire' means 'to depart'",
+        "to perish": "'to perish' is 'perire' — 'abire' means 'to go away'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Abiit'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Future indicative"],
+      "reveal": { "word": "Abiit", "gloss": "he departed" },
+      "hints": {
+        "Present indicative": "Present would be 'abit' — 'abiit' with the doubled -ii- is perfect",
+        "Imperfect indicative": "Imperfect would be 'abibat' — 'abiit' is perfect",
+        "Future indicative": "Future would be 'abibit' — 'abiit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Abiit'?",
+      "target": "abeo, abire, abii, abitum",
+      "choices": ["abeo, abire, abii, abitum", "eo, ire, ii, itum", "adeo, adire, adii, aditum", "exeo, exire, exii, exitum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — the base verb without the ab- prefix",
+        "adeo, adire, adii, aditum": "These are the parts of 'adire' (to approach) — opposite prefix",
+        "exeo, exire, exii, exitum": "These are the parts of 'exire' (to go out) — a different compound"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'evasit' translates to?",
+      "target": "to escape / get away",
+      "choices": ["to invade", "to escape / get away", "to evaluate", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to invade": "'to invade' is 'invadere' — 'evadere' means 'to escape/get out'",
+        "to evaluate": "There is no Latin verb 'evaluare' — 'evadere' means 'to escape'",
+        "to avoid": "'to avoid' is 'vitare' — 'evadere' specifically means 'to escape from'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'evasit'?",
+      "target": "evado, evadere, evasi, evasum",
+      "choices": ["evado, evadere, evasi, evasum", "vado, vadere, —, —", "invado, invadere, invasi, invasum", "everto, evertere, everti, eversum"],
+      "reveal": null,
+      "hints": {
+        "vado, vadere, —, —": "These are the (defective) parts of 'vadere' (to go) — the base verb",
+        "invado, invadere, invasi, invasum": "These are the parts of 'invadere' (to invade) — a different prefix compound",
+        "everto, evertere, everti, eversum": "These are the parts of 'evertere' (to overturn) — a different e- compound"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erupit' translates to?",
+      "target": "to burst forth / break out",
+      "choices": ["to erupt / burst forth", "to burst forth / break out", "to corrupt", "to interrupt"],
+      "reveal": null,
+      "hints": {
+        "to erupt / burst forth": "This is essentially correct — both answers describe 'erumpere', but 'burst forth/break out' is more precise for the Latin",
+        "to corrupt": "'to corrupt' is 'corrumpere' — 'erumpere' means 'to burst forth'",
+        "to interrupt": "'to interrupt' is 'interrumpere' — 'erumpere' means 'to burst/break out'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erupit'?",
+      "target": "erumpo, erumpere, erupi, eruptum",
+      "choices": ["erumpo, erumpere, erupi, eruptum", "rumpo, rumpere, rupi, ruptum", "corrumpo, corrumpere, corrupi, corruptum", "interrumpo, interrumpere, interrupi, interruptum"],
+      "reveal": null,
+      "hints": {
+        "rumpo, rumpere, rupi, ruptum": "These are the parts of 'rumpere' (to break) — the base verb without the e- prefix",
+        "corrumpo, corrumpere, corrupi, corruptum": "These are the parts of 'corrumpere' (to corrupt/ruin)",
+        "interrumpo, interrumpere, interrupi, interruptum": "These are the parts of 'interrumpere' (to interrupt)"
+      }
+    },
+    {
+      "prompt": "What rhetorical figure is the piling up of four synonymous verbs?",
+      "target": "Asyndeton with climax (ascending tricolon + one)",
+      "choices": ["Litotes", "Asyndeton with climax (ascending tricolon + one)", "Chiasmus", "Hyperbaton"],
+      "reveal": null,
+      "hints": {
+        "Litotes": "Litotes is understatement — this is the opposite: emphatic accumulation of verbs without conjunctions",
+        "Chiasmus": "Chiasmus reverses word order (ABBA) — this is a forward-driving list building to a climax",
+        "Hyperbaton": "Hyperbaton is unusual word displacement — the key figure here is the conjunction-less accumulation (asyndeton)"
+      }
+    },
+    {
+      "prompt": "What effect does the asyndeton (no conjunctions between verbs) create?",
+      "target": "Breathless urgency and triumphant energy",
+      "choices": ["Calm, measured narration", "Breathless urgency and triumphant energy", "Sorrow and regret", "Confusion and disorder"],
+      "reveal": null,
+      "hints": {
+        "Calm, measured narration": "Omitting 'et' between four verbs creates rapid-fire delivery, not calm prose",
+        "Sorrow and regret": "Cicero is celebrating — the accumulation conveys triumph, not sorrow",
+        "Confusion and disorder": "The four verbs are carefully chosen in ascending intensity — it is controlled rhetoric, not confusion"
+      }
+    }
+  ],
+  "translation": "He departed, he withdrew, he escaped, he burst forth."
+}

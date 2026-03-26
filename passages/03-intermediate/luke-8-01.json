@@ -1,0 +1,130 @@
+{
+  "id": "luke-8-01",
+  "source": "Vulgate",
+  "reference": "Lucas 8:5",
+  "latin": ["Exiit", "qui", "seminat", "seminare", "semen", "suum"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "qui",
+      "choices": ["qui", "suum", "semen", "Exiit"],
+      "reveal": null,
+      "hints": {
+        "suum": "'Suum' is a possessive adjective meaning 'his own'",
+        "semen": "'Semen' is a noun meaning 'seed'",
+        "Exiit": "'Exiit' is a verb meaning 'went out'"
+      }
+    },
+    {
+      "prompt": "What case is the relative pronoun 'qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "genitive"],
+      "reveal": "qui = who (nom. masc. sg.)",
+      "hints": {
+        "ablative": "Ablative of 'qui' would also be 'quo' (masc.) — here 'qui' is nominative, subject of 'seminat'",
+        "dative": "Dative would be 'cui' — 'qui' here is the nominative subject of the relative clause",
+        "genitive": "Genitive would be 'cuius' — 'qui' here is the nominative subject"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Exiit' translates to?",
+      "target": "to go out",
+      "choices": ["to go out", "to sow", "to send", "to demand"],
+      "reveal": null,
+      "hints": {
+        "to sow": "That would be 'seminare' — 'Exiit' comes from 'exire'",
+        "to send": "That would be 'mittere' — 'Exiit' comes from 'exire'",
+        "to demand": "That would be 'exigere' — 'Exiit' comes from 'exire'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Exiit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "Exiit = he went out",
+      "hints": {
+        "present indicative": "Present would be 'exit' — the doubled -i- in 'Exiit' marks the perfect",
+        "imperfect indicative": "Imperfect would be 'exibat' — 'Exiit' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'exierit' — 'Exiit' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Exiit'?",
+      "target": "exeo, exire, exii, exitum",
+      "choices": ["exeo, exire, exii, exitum", "eo, ire, ii, itum", "exigo, exigere, exegi, exactum", "exerceo, exercere, exercui, exercitum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go) — 'exire' is its compound ex + ire",
+        "exigo, exigere, exegi, exactum": "These are the parts of 'exigere' (to demand/drive out)",
+        "exerceo, exercere, exercui, exercitum": "These are the parts of 'exercere' (to train/exercise)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'seminat' translates to?",
+      "target": "to sow",
+      "choices": ["to sow", "to plant", "to scatter", "to harvest"],
+      "reveal": null,
+      "hints": {
+        "to plant": "That would be 'plantare' — 'seminat' comes from 'seminare' (to sow)",
+        "to scatter": "That would be 'spargere' — 'seminat' comes from 'seminare' (to sow)",
+        "to harvest": "That would be 'metere' — 'seminat' comes from 'seminare' (to sow)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'seminat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "seminat = he sows",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'seminet' — 'seminat' with -a- is present indicative (1st conj.)",
+        "perfect indicative": "Perfect would be 'seminavit' — 'seminat' is present indicative",
+        "future indicative": "Future would be 'seminabit' — 'seminat' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'seminat'?",
+      "target": "semino, seminare, seminavi, seminatum",
+      "choices": ["semino, seminare, seminavi, seminatum", "sero, serere, sevi, satum", "sino, sinere, sivi, situm", "sentio, sentire, sensi, sensum"],
+      "reveal": null,
+      "hints": {
+        "sero, serere, sevi, satum": "These are the parts of 'serere' (to sow/plant), a different verb",
+        "sino, sinere, sivi, situm": "These are the parts of 'sinere' (to allow)",
+        "sentio, sentire, sensi, sensum": "These are the parts of 'sentire' (to feel/perceive)"
+      }
+    },
+    {
+      "prompt": "What case is 'semen'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "semen = seed (acc.)",
+      "hints": {
+        "nominative": "While 'semen' looks the same in nominative, here it is the object of 'seminare'",
+        "ablative": "Ablative of 'semen' would be 'semine' — here it is accusative, object of 'seminare'",
+        "genitive": "Genitive would be 'seminis' — 'semen' is accusative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'semen, seminis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'seminis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'seminis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'seminis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'suum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "suum = his own (acc. neut. sg.)",
+      "hints": {
+        "nominative": "While 'suum' could be nominative neuter, here it agrees with 'semen' as accusative",
+        "ablative": "Ablative neuter would be 'suo' — 'suum' is accusative",
+        "genitive": "Genitive would be 'sui' — 'suum' is accusative modifying 'semen'"
+      }
+    }
+  ],
+  "translation": "He who sows went out to sow his seed"
+}

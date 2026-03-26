@@ -1,0 +1,119 @@
+{
+  "id": "cat-1-21",
+  "source": "Cicero",
+  "reference": "In Cat. I.9",
+  "latin": ["Non", "feram", "non", "patiar", "non", "sinam"],
+  "steps": [
+    {
+      "prompt": "How many verbs does this sentence contain?",
+      "target": "Three",
+      "choices": ["One", "Two", "Three", "Four"],
+      "reveal": null,
+      "hints": {
+        "One": "Each 'non' negates a separate verb — there are three: 'feram, patiar, sinam'",
+        "Two": "Count again — 'feram, patiar, sinam' are three distinct verbs",
+        "Four": "There are three verbs, each preceded by 'non' — 'feram, patiar, sinam'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'feram' translates to?",
+      "target": "to bear / endure",
+      "choices": ["to carry", "to bear / endure", "to strike", "to make"],
+      "reveal": null,
+      "hints": {
+        "to carry": "'to carry' is close — 'ferre' means both 'to carry' and 'to bear/endure'; in this context, 'endure' fits",
+        "to strike": "'to strike' is 'ferire' — similar but different from 'ferre'",
+        "to make": "'to make' is 'facere' — 'ferre' means 'to bear/endure'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'feram'?",
+      "target": "Future indicative",
+      "choices": ["Present subjunctive", "Future indicative", "Present indicative", "Imperfect subjunctive"],
+      "reveal": { "word": "feram", "gloss": "I will (not) bear" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive of 'fero' is also 'feram' — but the emphatic context suggests future indicative (a firm promise)",
+        "Present indicative": "Present indicative would be 'fero' — 'feram' is future",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'ferrem' — 'feram' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'feram'?",
+      "target": "fero, ferre, tuli, latum",
+      "choices": ["fero, ferre, tuli, latum", "ferio, ferire, —, —", "facio, facere, feci, factum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "ferio, ferire, —, —": "These are the (defective) parts of 'ferire' (to strike) — different from 'ferre'",
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to do/make)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'patiar' translates to?",
+      "target": "to suffer / allow",
+      "choices": ["to open", "to suffer / allow", "to prepare", "to obey"],
+      "reveal": null,
+      "hints": {
+        "to open": "'to open' is 'patere' (to lie open) — 'pati' is a deponent meaning 'to suffer/endure/allow'",
+        "to prepare": "'to prepare' is 'parare' — 'pati' means 'to suffer/tolerate'",
+        "to obey": "'to obey' is 'parere' — 'pati' means 'to suffer/allow'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'patiar'?",
+      "target": "patior, pati, passus sum",
+      "choices": ["patior, pati, passus sum", "pateo, patere, patui, —", "paro, parare, paravi, paratum", "pareo, parere, parui, paritum"],
+      "reveal": null,
+      "hints": {
+        "pateo, patere, patui, —": "These are the parts of 'patere' (to lie open/be exposed) — a different verb",
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare)",
+        "pareo, parere, parui, paritum": "These are the parts of 'parere' (to obey)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sinam' translates to?",
+      "target": "to allow / permit",
+      "choices": ["to know", "to allow / permit", "to be", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to know": "'to know' is 'scire' — 'sinere' means 'to allow/permit'",
+        "to be": "'to be' is 'esse' — 'sinere' means 'to allow'",
+        "to follow": "'to follow' is 'sequi' — 'sinere' means 'to permit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sinam'?",
+      "target": "sino, sinere, sivi, situm",
+      "choices": ["sino, sinere, sivi, situm", "scio, scire, scivi, scitum", "sero, serere, sevi, satum", "sisto, sistere, stiti, statum"],
+      "reveal": null,
+      "hints": {
+        "scio, scire, scivi, scitum": "These are the parts of 'scire' (to know)",
+        "sero, serere, sevi, satum": "These are the parts of 'serere' (to sow/plant)",
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to halt/stop)"
+      }
+    },
+    {
+      "prompt": "What rhetorical figure is 'non … non … non …'?",
+      "target": "Anaphora with tricolon — triple repetition for emphasis",
+      "choices": ["Litotes", "Anaphora with tricolon — triple repetition for emphasis", "Chiasmus", "Asyndeton"],
+      "reveal": null,
+      "hints": {
+        "Litotes": "Litotes is understatement — this is emphatic repetition of negation",
+        "Chiasmus": "Chiasmus reverses parallel elements — this is straightforward anaphoric repetition",
+        "Asyndeton": "While there are no conjunctions (asyndeton is present), the dominant figure is the triple 'non' (anaphora)"
+      }
+    },
+    {
+      "prompt": "What do the three verbs build toward semantically?",
+      "target": "A climax — 'bear' → 'tolerate' → 'permit' (increasing force)",
+      "choices": ["They all mean the same thing", "A climax — 'bear' → 'tolerate' → 'permit' (increasing force)", "A descent from strong to weak", "Random variation for style"],
+      "reveal": null,
+      "hints": {
+        "They all mean the same thing": "While similar, each verb escalates: 'fero' (bear), 'patior' (endure), 'sino' (allow) — from passive endurance to active permission",
+        "A descent from strong to weak": "The movement is from passive tolerance to active refusal of permission — an escalation",
+        "Random variation for style": "Cicero carefully selects synonyms in ascending order of rhetorical force"
+      }
+    }
+  ],
+  "translation": "I will not bear it, I will not tolerate it, I will not allow it."
+}

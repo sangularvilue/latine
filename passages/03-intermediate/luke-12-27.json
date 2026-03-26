@@ -1,0 +1,97 @@
+{
+  "id": "luke-12-27",
+  "source": "Vulgate",
+  "reference": "Lucas 12:32",
+  "latin": ["Nolite", "timere", "pusillus", "grex"],
+  "steps": [
+    {
+      "prompt": "Which words form an imperative prohibition?",
+      "target": "Nolite timere",
+      "choices": ["Nolite timere", "pusillus grex", "timere pusillus", "Nolite grex"],
+      "reveal": null,
+      "hints": {
+        "pusillus grex": "'Pusillus grex' means 'little flock' — the prohibition is 'Nolite timere'",
+        "timere pusillus": "'Timere' is the infinitive and 'pusillus' is an adjective — they don't form a prohibition together",
+        "Nolite grex": "'Nolite' needs an infinitive to form the prohibition — 'timere' is that infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive 'timere' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to esteem", "to hold", "to honor"],
+      "reveal": null,
+      "hints": {
+        "to esteem": "That would be 'aestimare' — 'timere' means 'to fear'",
+        "to hold": "That would be 'tenere' — 'timere' means 'to fear'",
+        "to honor": "That would be 'honorare' — 'timere' means 'to fear'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Nolite'?",
+      "target": "present imperative (plural)",
+      "choices": ["present indicative", "present imperative (plural)", "present subjunctive", "perfect indicative"],
+      "reveal": "Nolite timere = Do not fear!",
+      "hints": {
+        "present indicative": "Present indicative would be a statement — 'Nolite' is a command",
+        "present subjunctive": "Subjunctive would be 'nolitis' — 'Nolite' is imperative plural",
+        "perfect indicative": "Perfect would be 'noluistis' — 'Nolite' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "volo, velle, volui, —", "malo, malle, malui, —", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the parts of 'velle' (to wish) — 'nolle' is its negative compound",
+        "malo, malle, malui, —": "These are the parts of 'malle' (to prefer)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timere'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "video, videre, vidi, visum", "moneo, monere, monui, monitum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)",
+        "moneo, monere, monui, monitum": "These are the parts of 'monere' (to warn)"
+      }
+    },
+    {
+      "prompt": "What case is 'pusillus'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "pusillus = little (voc. masc. sg., addressing the flock)",
+      "hints": {
+        "nominative": "While 'pusillus' looks identical in nominative, the flock is being addressed — vocative",
+        "accusative": "Accusative would be 'pusillum' — 'pusillus' is vocative",
+        "genitive": "Genitive would be 'pusilli' — 'pusillus' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'grex'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "grex = flock (voc., direct address)",
+      "hints": {
+        "nominative": "While 'grex' looks identical in nominative, Jesus is addressing the flock — vocative",
+        "accusative": "Accusative would be 'gregem' — 'grex' is vocative",
+        "genitive": "Genitive would be 'gregis' — 'grex' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'grex, gregis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'gregis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'gregis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'gregis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Do not fear, little flock"
+}

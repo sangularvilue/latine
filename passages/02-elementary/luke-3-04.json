@@ -1,0 +1,75 @@
+{
+  "id": "luke-3-04",
+  "source": "Vulgate",
+  "reference": "Lucas 3:5",
+  "latin": ["Omnis", "vallis", "implebitur"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "implebitur",
+      "choices": ["Omnis", "vallis", "implebitur", "impleo"],
+      "reveal": null,
+      "hints": {
+        "Omnis": "'Omnis' is an adjective meaning 'every' modifying 'vallis'",
+        "vallis": "'vallis' is a noun meaning 'valley' — the subject",
+        "impleo": "'impleo' is the 1st person singular present — 'implebitur' is the form used here"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'implebitur' translates to?",
+      "target": "to fill",
+      "choices": ["to fill", "to implore", "to fold", "to employ"],
+      "reveal": null,
+      "hints": {
+        "to implore": "'to implore' is 'implorare' — 'implebitur' comes from 'implere' (to fill up)",
+        "to fold": "'to fold' is 'plicare' — 'implebitur' comes from 'implere' (in + plere)",
+        "to employ": "'to employ' is a modern derivation — Latin 'implere' means 'to fill'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'implebitur'?",
+      "target": "Future passive",
+      "choices": ["Present passive", "Future passive", "Perfect passive", "Imperfect passive"],
+      "reveal": { "word": "implebitur", "gloss": "shall be filled" },
+      "hints": {
+        "Present passive": "Present passive would be 'impletur' — the -bi- infix marks future",
+        "Perfect passive": "Perfect passive would be 'impletus est' — 'implebitur' is future passive",
+        "Imperfect passive": "Imperfect passive would be 'implebatur' — 'implebitur' has -bi- (future), not -ba- (imperfect)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'implebitur'?",
+      "target": "impleo, implere, implevi, impletum",
+      "choices": ["impleo, implere, implevi, impletum", "placo, placare, placavi, placatum", "imploro, implorare, imploravi, imploratum", "compleo, complere, complevi, completum"],
+      "reveal": null,
+      "hints": {
+        "placo, placare, placavi, placatum": "These are the parts of 'placare' (to appease)",
+        "imploro, implorare, imploravi, imploratum": "These are the parts of 'implorare' (to implore)",
+        "compleo, complere, complevi, completum": "These are the parts of 'complere' (to fill up) — similar but different prefix"
+      }
+    },
+    {
+      "prompt": "What case is 'vallis'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "vallis", "gloss": "valley" },
+      "hints": {
+        "Genitive": "Genitive singular is also 'vallis' (same form), but here it is the subject — nominative",
+        "Accusative": "Accusative would be 'vallem' — 'vallis' is nominative, subject of 'implebitur'",
+        "Ablative": "Ablative would be 'valle' — 'vallis' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'vallis, vallis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'vallis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'vallis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'vallis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Every valley shall be filled"
+}

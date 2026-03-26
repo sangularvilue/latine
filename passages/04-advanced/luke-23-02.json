@@ -1,0 +1,119 @@
+{
+  "id": "luke-23-02",
+  "source": "Vulgate",
+  "reference": "Lucas 23:43",
+  "latin": ["Hodie", "mecum", "eris", "in", "paradiso"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "eris",
+      "choices": ["eris", "Hodie", "mecum", "paradiso"],
+      "reveal": null,
+      "hints": {
+        "Hodie": "'Hodie' is an adverb meaning 'today'",
+        "mecum": "'Mecum' is 'me' (abl.) + enclitic 'cum' — meaning 'with me'",
+        "paradiso": "'Paradiso' is a noun meaning 'paradise' in the ablative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eris' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to choose"],
+      "reveal": null,
+      "hints": {
+        "to go": "'To go' is 'ire' — 'eris' comes from 'sum, esse' (to be)",
+        "to eat": "'To eat' is 'edere/esse' — 'eris' is from 'sum' (to be)",
+        "to choose": "'To choose' is 'eligere' — 'eris' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eris'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "eris = you will be (2nd sing. future)",
+      "hints": {
+        "present indicative": "Present would be 'es' — 'eris' with -ri- is future",
+        "present subjunctive": "Present subjunctive would be 'sis' — 'eris' is future indicative",
+        "perfect indicative": "Perfect would be 'fuisti' — 'eris' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eris'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, esse, edi, esum", "erro, errare, erravi, erratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "erro, errare, erravi, erratum": "These are the parts of 'erro' (to wander/err)"
+      }
+    },
+    {
+      "prompt": "What is 'mecum' grammatically?",
+      "target": "'me' (abl.) + enclitic 'cum' (with)",
+      "choices": ["'me' (abl.) + enclitic 'cum' (with)", "accusative of 'ego'", "dative of 'ego'", "genitive of 'ego'"],
+      "reveal": "mecum = with me (abl. + enclitic -cum)",
+      "hints": {
+        "accusative of 'ego'": "Accusative of 'ego' is 'me', but 'mecum' includes the enclitic preposition 'cum'",
+        "dative of 'ego'": "Dative of 'ego' is 'mihi' — 'mecum' is ablative with enclitic 'cum'",
+        "genitive of 'ego'": "Genitive of 'ego' is 'mei' — 'mecum' is ablative with enclitic 'cum'"
+      }
+    },
+    {
+      "prompt": "What case is 'paradiso'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "accusative"],
+      "reveal": "in paradiso = in paradise (abl.)",
+      "hints": {
+        "dative": "Dative 'paradiso' looks the same, but 'in' + ablative = 'in' (location)",
+        "nominative": "Nominative would be 'paradisus' — 'paradiso' is ablative after 'in'",
+        "accusative": "Accusative would be 'paradisum' — 'in' + accusative means 'into', but here it is location (ablative)"
+      }
+    },
+    {
+      "prompt": "What declension is 'paradisus, paradisi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'paradisi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'paradisi' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'paradisi' ends in -i"
+      }
+    },
+    {
+      "prompt": "Does 'in' + ablative or 'in' + accusative indicate location?",
+      "target": "'in' + ablative = location (where); 'in' + accusative = motion (into)",
+      "choices": ["'in' + ablative = location (where); 'in' + accusative = motion (into)", "'in' + accusative = location; 'in' + ablative = motion", "'in' always takes ablative", "'in' always takes accusative"],
+      "reveal": "in paradiso (abl.) = in paradise (location, not motion)",
+      "hints": {
+        "'in' + accusative = location; 'in' + ablative = motion": "This is backwards — 'in' + ablative = location, 'in' + accusative = motion toward",
+        "'in' always takes ablative": "'In' can take either case — ablative for location, accusative for motion toward",
+        "'in' always takes accusative": "'In' can take either case — the case determines the meaning"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'Hodie'?",
+      "target": "adverb",
+      "choices": ["adverb", "noun", "adjective", "conjunction"],
+      "reveal": "Hodie = today (adverb of time)",
+      "hints": {
+        "noun": "'Hodie' is indeclinable — it is an adverb, not a noun",
+        "adjective": "An adjective modifies a noun — 'Hodie' modifies the verb 'eris' as a time adverb",
+        "conjunction": "A conjunction joins clauses — 'Hodie' indicates when, modifying 'eris'"
+      }
+    },
+    {
+      "prompt": "What is the theological significance of 'Hodie' placed first?",
+      "target": "emphatic position stresses the immediacy: 'today' (not in the distant future)",
+      "choices": ["emphatic position stresses the immediacy: 'today' (not in the distant future)", "it is merely conventional word order", "it introduces a temporal clause", "it is a vocative address"],
+      "reveal": null,
+      "hints": {
+        "it is merely conventional word order": "Latin word order is flexible — placing 'Hodie' first gives it rhetorical emphasis",
+        "it introduces a temporal clause": "'Hodie' is an adverb modifying 'eris', not introducing a subordinate clause",
+        "it is a vocative address": "'Hodie' is an adverb meaning 'today', not a form of address"
+      }
+    }
+  ],
+  "translation": "Today you will be with me in paradise"
+}

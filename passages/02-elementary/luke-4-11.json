@@ -1,0 +1,108 @@
+{
+  "id": "luke-4-11",
+  "source": "Vulgate",
+  "reference": "Lucas 4:43",
+  "latin": ["Oportet", "me", "evangelizare", "regnum", "Dei"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Oportet",
+      "choices": ["Oportet", "evangelizare", "regnum", "Dei"],
+      "reveal": null,
+      "hints": {
+        "evangelizare": "'evangelizare' is an infinitive (to preach), not a finite verb",
+        "regnum": "'regnum' is a noun meaning 'kingdom'",
+        "Dei": "'Dei' is a noun meaning 'of God'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Oportet' translates to?",
+      "target": "to be necessary / it is fitting",
+      "choices": ["to be necessary / it is fitting", "to open", "to work", "to hope"],
+      "reveal": null,
+      "hints": {
+        "to open": "'to open' is 'aperire' — 'Oportet' comes from 'oportere' (to be necessary)",
+        "to work": "'to work' is 'operari' — 'Oportet' comes from 'oportere' (it behooves)",
+        "to hope": "'to hope' is 'sperare' — 'Oportet' comes from 'oportere' (it is necessary)"
+      }
+    },
+    {
+      "prompt": "What tense is 'Oportet'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "future", "imperfect"],
+      "reveal": { "word": "Oportet", "gloss": "it is necessary / I must" },
+      "hints": {
+        "perfect": "Perfect would be 'oportuit' — 'Oportet' is present",
+        "future": "Future would be 'oportebit' — 'Oportet' is present",
+        "imperfect": "Imperfect would be 'oportebat' — 'Oportet' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Oportet'?",
+      "target": "oportet, oportere, oportuit, —",
+      "choices": ["oportet, oportere, oportuit, —", "aperio, aperire, aperui, apertum", "operor, operari, operatus sum, —", "oppono, opponere, opposui, oppositum"],
+      "reveal": null,
+      "hints": {
+        "aperio, aperire, aperui, apertum": "These are principal parts of 'aperio' (to open)",
+        "operor, operari, operatus sum, —": "These are principal parts of 'operor' (to work)",
+        "oppono, opponere, opposui, oppositum": "These are principal parts of 'oppono' (to oppose)"
+      }
+    },
+    {
+      "prompt": "'Evangelizare' is what form?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "participle", "gerund"],
+      "reveal": { "word": "evangelizare", "gloss": "to preach the good news" },
+      "hints": {
+        "imperative": "Imperative would be 'evangeliza' — 'evangelizare' is the infinitive",
+        "participle": "Participle would be 'evangelizans' — 'evangelizare' is the infinitive",
+        "gerund": "Gerund would be 'evangelizandi' — 'evangelizare' is the present active infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'evangelizare'?",
+      "target": "evangelizo, evangelizare, evangelizavi, evangelizatum",
+      "choices": ["evangelizo, evangelizare, evangelizavi, evangelizatum", "nuntio, nuntiare, nuntiavi, nuntiatum", "praedico, praedicare, praedicavi, praedicatum", "baptizo, baptizare, baptizavi, baptizatum"],
+      "reveal": null,
+      "hints": {
+        "nuntio, nuntiare, nuntiavi, nuntiatum": "These are principal parts of 'nuntio' (to announce)",
+        "praedico, praedicare, praedicavi, praedicatum": "These are principal parts of 'praedico' (to proclaim)",
+        "baptizo, baptizare, baptizavi, baptizatum": "These are principal parts of 'baptizo' (to baptize)"
+      }
+    },
+    {
+      "prompt": "What case is 'regnum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "regnum", "gloss": "kingdom" },
+      "hints": {
+        "nominative": "Nominative neuter 'regnum' has the same form, but here it is the object of 'evangelizare'",
+        "ablative": "Ablative would be 'regno' — 'regnum' is accusative, direct object",
+        "genitive": "Genitive would be 'regni' — 'regnum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'regnum, regni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'regni' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'regni' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'regni' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": { "word": "Dei", "gloss": "of God" },
+      "hints": {
+        "nominative": "Nominative is 'Deus' — 'Dei' is genitive (the kingdom OF God)",
+        "dative": "Dative would be 'Deo' — 'Dei' is genitive singular",
+        "vocative": "Vocative would be 'Deus/Dee' — 'Dei' is genitive"
+      }
+    }
+  ],
+  "translation": "I must preach the kingdom of God"
+}

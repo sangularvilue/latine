@@ -1,0 +1,86 @@
+{
+  "id": "luke-7-04",
+  "source": "Vulgate",
+  "reference": "Lucas 7:47",
+  "latin": ["Remittuntur", "ei", "peccata", "multa"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Remittuntur",
+      "choices": ["Remittuntur", "ei", "peccata", "multa"],
+      "reveal": null,
+      "hints": {
+        "ei": "'ei' is a pronoun meaning 'to him/her'",
+        "peccata": "'peccata' is a noun meaning 'sins'",
+        "multa": "'multa' is an adjective meaning 'many'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Remittuntur' translates to?",
+      "target": "to forgive / to send back",
+      "choices": ["to forgive / to send back", "to remember", "to return", "to resist"],
+      "reveal": null,
+      "hints": {
+        "to remember": "'to remember' is 'meminisse/recordari' — 'Remittuntur' comes from 'remittere'",
+        "to return": "'to return' is 'redire/reverti' — 'remittere' means 'to forgive/send back'",
+        "to resist": "'to resist' is 'resistere' — 'Remittuntur' comes from 'remittere' (to forgive)"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'Remittuntur'?",
+      "target": "present passive indicative",
+      "choices": ["present active indicative", "present passive indicative", "perfect passive", "imperfect passive"],
+      "reveal": { "word": "Remittuntur", "gloss": "are forgiven" },
+      "hints": {
+        "present active indicative": "Active would be 'remittunt' — the -untur ending marks passive voice",
+        "perfect passive": "Perfect passive would be 'remissa sunt' — 'Remittuntur' is present passive",
+        "imperfect passive": "Imperfect passive would be 'remittebantur' — 'Remittuntur' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Remittuntur'?",
+      "target": "remitto, remittere, remisi, remissum",
+      "choices": ["remitto, remittere, remisi, remissum", "mitto, mittere, misi, missum", "resisto, resistere, restiti, —", "reddo, reddere, reddidi, redditum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are principal parts of 'mitto' (to send) — 'remitto' is the compound",
+        "resisto, resistere, restiti, —": "These are principal parts of 'resisto' (to resist)",
+        "reddo, reddere, reddidi, redditum": "These are principal parts of 'reddo' (to give back)"
+      }
+    },
+    {
+      "prompt": "What case is 'ei'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "genitive"],
+      "reveal": { "word": "ei", "gloss": "to her / to him" },
+      "hints": {
+        "nominative": "Nominative would be 'is/ea' — 'ei' is the dative singular",
+        "accusative": "Accusative would be 'eum/eam' — 'ei' is dative (sins are forgiven TO her)",
+        "genitive": "Genitive would be 'eius' — 'ei' is dative"
+      }
+    },
+    {
+      "prompt": "What case is 'peccata'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "peccata", "gloss": "sins" },
+      "hints": {
+        "accusative": "Accusative neuter plural is also 'peccata', but here it is the subject of the passive verb",
+        "ablative": "Ablative plural would be 'peccatis' — 'peccata' is nominative plural neuter",
+        "vocative": "You would not address sins — 'peccata' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccatum, peccati'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'peccati' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'peccati' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'peccati' ends in -i"
+      }
+    }
+  ],
+  "translation": "Her many sins are forgiven"
+}

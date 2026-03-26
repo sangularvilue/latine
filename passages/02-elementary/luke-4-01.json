@@ -1,0 +1,97 @@
+{
+  "id": "luke-4-01",
+  "source": "Vulgate",
+  "reference": "Lucas 4:1",
+  "latin": ["Ductus", "est", "in", "desertum"],
+  "steps": [
+    {
+      "prompt": "Which word is a verb form (finite)?",
+      "target": "est",
+      "choices": ["Ductus", "est", "in", "desertum"],
+      "reveal": null,
+      "hints": {
+        "Ductus": "'Ductus' is a participle (verbal adjective), not the finite verb here",
+        "in": "'in' is a preposition meaning 'into'",
+        "desertum": "'desertum' is a noun meaning 'desert'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to lead"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere/esse' — but 'est' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'est' is from 'esse' (to be)",
+        "to lead": "'to lead' is 'ducere' — 'est' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense is 'est' here?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "est", "gloss": "he/it is (used with participle = was led)" },
+      "hints": {
+        "perfect": "Perfect of 'esse' would be 'fuit' — 'est' is present, forming a periphrastic perfect passive",
+        "imperfect": "Imperfect of 'esse' would be 'erat' — 'est' is present tense",
+        "future": "Future of 'esse' would be 'erit' — 'est' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are principal parts of 'edo' (to eat)",
+        "eo, ire, ivi, itum": "These are principal parts of 'eo' (to go)",
+        "do, dare, dedi, datum": "These are principal parts of 'do' (to give)"
+      }
+    },
+    {
+      "prompt": "'Ductus' is a participle. What is the infinitive of the verb it comes from?",
+      "target": "to lead",
+      "choices": ["to lead", "to say", "to give", "to build"],
+      "reveal": null,
+      "hints": {
+        "to say": "'to say' is 'dicere' — 'ductus' comes from 'ducere' (to lead)",
+        "to give": "'to give' is 'dare' — 'ductus' comes from 'ducere' (to lead)",
+        "to build": "'to build' is 'struere' — 'ductus' comes from 'ducere' (to lead)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ductus' (from ducere)?",
+      "target": "duco, ducere, duxi, ductum",
+      "choices": ["duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "doceo, docere, docui, doctum", "disco, discere, didici, —"],
+      "reveal": { "word": "ductus", "gloss": "having been led" },
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are principal parts of 'dico' (to say)",
+        "doceo, docere, docui, doctum": "These are principal parts of 'doceo' (to teach)",
+        "disco, discere, didici, —": "These are principal parts of 'disco' (to learn)"
+      }
+    },
+    {
+      "prompt": "What case is 'desertum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "desertum", "gloss": "desert / wilderness" },
+      "hints": {
+        "nominative": "Nominative would be the subject, but 'desertum' follows 'in' expressing motion",
+        "ablative": "Ablative with 'in' would mean 'in/at'; here 'in' + accusative means 'into'",
+        "genitive": "Genitive of 'desertum' would be 'deserti'"
+      }
+    },
+    {
+      "prompt": "What declension is 'desertum, deserti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'deserti' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'deserti' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'deserti' ends in -i"
+      }
+    }
+  ],
+  "translation": "He was led into the desert"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "luke-13-04",
+  "source": "Vulgate",
+  "reference": "Lucas 13:34",
+  "latin": ["Ierusalem", "Ierusalem", "quae", "occidis", "prophetas"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "occidis",
+      "choices": ["occidis", "Ierusalem", "quae", "prophetas"],
+      "reveal": null,
+      "hints": {
+        "Ierusalem": "'Ierusalem' is a proper noun (indeclinable) — the city being addressed",
+        "quae": "'Quae' is a relative pronoun introducing the relative clause",
+        "prophetas": "'Prophetas' is a noun meaning 'prophets' in the accusative plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'occidis' translates to?",
+      "target": "to kill",
+      "choices": ["to kill", "to fall", "to hide", "to cut"],
+      "reveal": null,
+      "hints": {
+        "to fall": "'To fall' is 'occidere' (with short -i-) from 'ob + cadere' — 'occidis' here is from 'occidere' (to kill)",
+        "to hide": "'To hide' is 'occultare' or 'abscondere' — not related to 'occidere'",
+        "to cut": "'To cut' is 'secare' or 'caedere' — 'occidere' means 'to kill'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'occidis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "occidis = you kill",
+      "hints": {
+        "perfect indicative": "Perfect would be 'occidisti' — 'occidis' has the present stem",
+        "present subjunctive": "Present subjunctive would be 'occidas' — 'occidis' ends in -is (indicative)",
+        "future indicative": "Future would be 'occides' — 'occidis' has the present ending -is"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'occidis'?",
+      "target": "occido, occidere, occidi, occisum",
+      "choices": ["occido, occidere, occidi, occisum", "occido, occidere, occidi, occasum", "cado, cadere, cecidi, casum", "caedo, caedere, cecidi, caesum"],
+      "reveal": null,
+      "hints": {
+        "occido, occidere, occidi, occasum": "These are the parts of the other 'occidere' meaning 'to fall/set' (of the sun)",
+        "cado, cadere, cecidi, casum": "These are the principal parts of 'cadere' (to fall) — the simple verb",
+        "caedo, caedere, cecidi, caesum": "These are the principal parts of 'caedere' (to cut/strike)"
+      }
+    },
+    {
+      "prompt": "What case is 'prophetas'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "prophetas = prophets (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'prophetae' — 'prophetas' with -as is accusative plural",
+        "genitive": "Genitive singular would be 'prophetae' — 'prophetas' is accusative plural",
+        "ablative": "Ablative plural would be 'prophetis' — 'prophetas' ends in -as"
+      }
+    },
+    {
+      "prompt": "What declension is 'propheta, prophetae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'prophetae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'prophetae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'prophetae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What is the grammatical function of 'quae'?",
+      "target": "relative pronoun (nom. fem. sg.)",
+      "choices": ["relative pronoun (nom. fem. sg.)", "interrogative pronoun", "indefinite pronoun", "demonstrative pronoun"],
+      "reveal": "quae = who/which (referring to Ierusalem)",
+      "hints": {
+        "interrogative pronoun": "An interrogative would introduce a question — 'quae' here introduces a relative clause",
+        "indefinite pronoun": "An indefinite 'quae' would mean 'some' — here it is a relative pronoun after 'Ierusalem'",
+        "demonstrative pronoun": "Demonstrative pronouns are 'hic, ille, is' — 'quae' is relative"
+      }
+    },
+    {
+      "prompt": "Why is 'Ierusalem' repeated?",
+      "target": "vocative of lamentation / emphatic address",
+      "choices": ["vocative of lamentation / emphatic address", "scribal copying error", "it names two different cities", "apposition with different cases"],
+      "reveal": null,
+      "hints": {
+        "scribal copying error": "The repetition is deliberate — a rhetorical device of emphatic address",
+        "it names two different cities": "Both refer to the same city — the repetition expresses grief",
+        "apposition with different cases": "'Ierusalem' is indeclinable — both instances are vocative"
+      }
+    }
+  ],
+  "translation": "Jerusalem, Jerusalem, who kills the prophets"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-13",
+  "source": "Cicero",
+  "reference": "In Cat. I.4",
+  "latin": ["Fuisti", "apud", "Laecam", "illa", "nocte"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Fuisti",
+      "choices": ["Fuisti", "apud", "Laecam", "nocte"],
+      "reveal": null,
+      "hints": {
+        "apud": "'apud' is a preposition meaning 'at the house of / in the presence of'",
+        "Laecam": "'Laecam' is a proper noun — the name Laeca in accusative",
+        "nocte": "'nocte' is a noun in the ablative case meaning 'at night'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Fuisti' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to flee", "to become", "to do"],
+      "reveal": null,
+      "hints": {
+        "to flee": "'to flee' is 'fugere' — 'fuisti' comes from 'esse' (to be), perfect tense",
+        "to become": "'to become' is 'fieri' — 'fuisti' is the perfect of 'esse'",
+        "to do": "'to do' is 'facere' — 'fuisti' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Fuisti'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Pluperfect indicative"],
+      "reveal": { "word": "Fuisti", "gloss": "you were / you have been" },
+      "hints": {
+        "Present indicative": "Present would be 'es' — 'fuisti' with the perfect stem fu- is perfect tense",
+        "Imperfect indicative": "Imperfect would be 'eras' — 'fuisti' is perfect",
+        "Pluperfect indicative": "Pluperfect would be 'fueras' — 'fuisti' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Fuisti'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "fio, fieri, factus sum", "fugio, fugere, fugi, fugitum", "fundo, fundere, fudi, fusum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become/be made)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "fundo, fundere, fudi, fusum": "These are the parts of 'fundere' (to pour)"
+      }
+    },
+    {
+      "prompt": "What case is 'Laecam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "Laecam", "gloss": "Laeca (a conspirator)" },
+      "hints": {
+        "Nominative": "Nominative would be 'Laeca' — 'Laecam' with -am ending is accusative after 'apud'",
+        "Dative": "Dative would be 'Laecae' — 'Laecam' is accusative after 'apud'",
+        "Ablative": "Ablative would be 'Laeca' — 'apud' governs the accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'nocte'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nocte", "gloss": "at/on that night" },
+      "hints": {
+        "Nominative": "Nominative would be 'nox' — 'nocte' with -e ending is ablative of time",
+        "Accusative": "Accusative would be 'noctem' — 'nocte' is ablative",
+        "Dative": "Dative would be 'nocti' — 'nocte' is ablative of time when"
+      }
+    },
+    {
+      "prompt": "Declension of 'nocte'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'nox, noctis' is 3rd declension",
+        "2nd": "2nd declension ablative ends in -o — 'nox, noctis' is 3rd declension",
+        "5th": "5th declension ablative ends in -e as well, but 'nox, noctis' with gen. in -is is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What type of ablative is 'illa nocte'?",
+      "target": "Ablative of time when",
+      "choices": ["Ablative of means", "Ablative of time when", "Ablative absolute", "Ablative of manner"],
+      "reveal": null,
+      "hints": {
+        "Ablative of means": "Ablative of means answers 'by what instrument' — 'nocte' answers 'when'",
+        "Ablative absolute": "Ablative absolute requires a participle + noun — 'illa nocte' is simply time when",
+        "Ablative of manner": "Ablative of manner describes how — 'illa nocte' describes when"
+      }
+    },
+    {
+      "prompt": "Why does Cicero name the specific host and night?",
+      "target": "To prove he has detailed intelligence about the conspiracy",
+      "choices": ["He is making a general accusation", "To prove he has detailed intelligence about the conspiracy", "He is guessing at the details", "To praise Laeca's hospitality"],
+      "reveal": null,
+      "hints": {
+        "He is making a general accusation": "The specific details (Laeca, that night) show Cicero knows exactly what happened",
+        "He is guessing at the details": "The precision of 'apud Laecam illa nocte' demonstrates confirmed intelligence, not guesswork",
+        "To praise Laeca's hospitality": "Laeca hosted a secret meeting of conspirators — Cicero names him to implicate him"
+      }
+    }
+  ],
+  "translation": "You were at Laeca's house on that night."
+}

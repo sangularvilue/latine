@@ -1,0 +1,141 @@
+{
+  "id": "luke-23-01",
+  "source": "Vulgate",
+  "reference": "Lucas 23:34",
+  "latin": ["Pater", "dimitte", "illis", "non", "enim", "sciunt", "quid", "faciunt"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb of the first clause?",
+      "target": "dimitte",
+      "choices": ["dimitte", "sciunt", "faciunt", "Pater"],
+      "reveal": null,
+      "hints": {
+        "sciunt": "'Sciunt' is a finite verb but belongs to the causal clause",
+        "faciunt": "'Faciunt' is a finite verb in the indirect question clause",
+        "Pater": "'Pater' is a noun in the vocative — direct address"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dimitte' translates to?",
+      "target": "to forgive / to release",
+      "choices": ["to forgive / to release", "to send", "to diminish", "to dismiss from office"],
+      "reveal": null,
+      "hints": {
+        "to send": "'To send' is 'mittere' — 'dimitte' comes from 'dimittere' (dis- + mittere, to send away/forgive)",
+        "to diminish": "'To diminish' is 'diminuere' — 'dimitte' comes from 'dimittere'",
+        "to dismiss from office": "'Dimittere' can mean 'to dismiss' but the primary sense here is 'to forgive'"
+      }
+    },
+    {
+      "prompt": "What mood is 'dimitte'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "dimitte = forgive! (2nd sing. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd singular would be 'dimittis' — 'dimitte' is imperative",
+        "present subjunctive": "Present subjunctive 2nd singular would be 'dimittas' — 'dimitte' is imperative",
+        "perfect indicative": "Perfect would be 'dimisisti' — 'dimitte' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dimitte'?",
+      "target": "dimitto, dimittere, dimisi, dimissum",
+      "choices": ["dimitto, dimittere, dimisi, dimissum", "mitto, mittere, misi, missum", "deminuo, deminuere, deminui, deminutum", "demo, demere, dempsi, demptum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are the parts of 'mitto' (to send) — 'dimittere' is the compound dis- + mittere",
+        "deminuo, deminuere, deminui, deminutum": "These are the parts of 'deminuo' (to diminish)",
+        "demo, demere, dempsi, demptum": "These are the parts of 'demo' (to take away)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sciunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "sciunt = they know (3rd pl. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sciant' — 'sciunt' is indicative",
+        "perfect indicative": "Perfect would be 'sciverunt' — 'sciunt' is present",
+        "future indicative": "Future would be 'scient' — 'sciunt' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sciunt'?",
+      "target": "scio, scire, scivi, scitum",
+      "choices": ["scio, scire, scivi, scitum", "sequor, sequi, secutus sum, —", "scribo, scribere, scripsi, scriptum", "sentio, sentire, sensi, sensum"],
+      "reveal": null,
+      "hints": {
+        "sequor, sequi, secutus sum, —": "These are the parts of 'sequor' (to follow) — a deponent verb",
+        "scribo, scribere, scripsi, scriptum": "These are the parts of 'scribo' (to write)",
+        "sentio, sentire, sensi, sensum": "These are the parts of 'sentio' (to feel/perceive)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'faciunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "faciunt = they do / they are doing (3rd pl. pres.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'faciant' — 'faciunt' is indicative",
+        "perfect indicative": "Perfect would be 'fecerunt' — 'faciunt' is present",
+        "imperfect indicative": "Imperfect would be 'faciebant' — 'faciunt' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'faciunt'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fio, fieri, factus sum, —", "fugio, fugere, fugi, fugitum", "fallo, fallere, fefelli, falsum"],
+      "reveal": null,
+      "hints": {
+        "fio, fieri, factus sum, —": "These are the parts of 'fio' (to become) — the passive of 'facio'",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugio' (to flee)",
+        "fallo, fallere, fefelli, falsum": "These are the parts of 'fallo' (to deceive)"
+      }
+    },
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "genitive", "accusative"],
+      "reveal": "Pater = Father! (voc., direct address)",
+      "hints": {
+        "nominative": "Nominative 'Pater' looks the same, but here it is direct address (vocative = nominative in 3rd decl.)",
+        "genitive": "Genitive would be 'Patris' — 'Pater' is vocative here",
+        "accusative": "Accusative would be 'Patrem' — 'Pater' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'illis'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "accusative", "genitive"],
+      "reveal": "illis = them (dat. pl., indirect object of 'dimitte')",
+      "hints": {
+        "ablative": "Ablative 'illis' looks the same, but 'dimittere' + dative = forgive someone",
+        "accusative": "Accusative would be 'illos/illas/illa' — 'illis' is dative/ablative",
+        "genitive": "Genitive would be 'illorum/illarum' — 'illis' is dative here"
+      }
+    },
+    {
+      "prompt": "What type of clause is 'quid faciunt'?",
+      "target": "indirect question",
+      "choices": ["indirect question", "relative clause", "result clause", "purpose clause"],
+      "reveal": "non sciunt quid faciunt = they do not know what they are doing",
+      "hints": {
+        "relative clause": "A relative clause uses 'qui/quae/quod' — 'quid' is an interrogative introducing an indirect question",
+        "result clause": "Result clauses use 'ut' + subjunctive — 'quid' introduces an indirect question",
+        "purpose clause": "Purpose clauses use 'ut' + subjunctive — 'quid faciunt' is an indirect question"
+      }
+    },
+    {
+      "prompt": "Why is 'faciunt' indicative in the indirect question (instead of subjunctive)?",
+      "target": "Vulgate Latin often retains indicative in indirect questions (Biblical Latin usage)",
+      "choices": ["Vulgate Latin often retains indicative in indirect questions (Biblical Latin usage)", "it is actually subjunctive", "indirect questions always take indicative", "it is a result clause"],
+      "reveal": "Classical Latin would require subjunctive 'faciant', but the Vulgate uses indicative",
+      "hints": {
+        "it is actually subjunctive": "'Faciunt' is present indicative — subjunctive would be 'faciant'",
+        "indirect questions always take indicative": "In classical Latin, indirect questions require the subjunctive — the Vulgate is looser",
+        "it is a result clause": "This is an indirect question introduced by 'quid', not a result clause"
+      }
+    }
+  ],
+  "translation": "Father, forgive them, for they know not what they do"
+}

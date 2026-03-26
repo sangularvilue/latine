@@ -1,0 +1,108 @@
+{
+  "id": "luke-15-08",
+  "source": "Vulgate",
+  "reference": "Lucas 15:20",
+  "latin": ["Vidit", "illum", "pater", "et", "misericordia", "motus", "est"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb in the first clause?",
+      "target": "Vidit",
+      "choices": ["Vidit", "pater", "illum", "motus"],
+      "reveal": null,
+      "hints": {
+        "pater": "'Pater' is a noun meaning 'father' — the subject",
+        "illum": "'Illum' is a demonstrative pronoun meaning 'him' in the accusative",
+        "motus": "'Motus' is a perfect passive participle — part of the second verb phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Vidit' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to conquer", "to live", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'To conquer' is 'vincere' — 'Vidit' comes from 'videre' (to see)",
+        "to live": "'To live' is 'vivere' — 'videre' means 'to see'",
+        "to avoid": "'To avoid' is 'vitare' — 'videre' means 'to see'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Vidit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "future indicative"],
+      "reveal": "Vidit = he saw",
+      "hints": {
+        "present indicative": "Present would be 'videt' — 'Vidit' has the perfect stem 'vid-'",
+        "imperfect indicative": "Imperfect would be 'videbat' — 'Vidit' is perfect",
+        "future indicative": "Future would be 'videbit' — 'Vidit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Vidit'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid)"
+      }
+    },
+    {
+      "prompt": "What type of participle is 'motus'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "future active participle", "gerundive"],
+      "reveal": "motus = (having been) moved (perf. pass. ptcp.)",
+      "hints": {
+        "present active participle": "A present active participle would be 'movens' — 'motus' ends in -tus",
+        "future active participle": "A future active participle would be 'moturus' — 'motus' is perfect passive",
+        "gerundive": "A gerundive would be 'movendus' — 'motus' is a completed passive action"
+      }
+    },
+    {
+      "prompt": "What tense is 'motus est' together?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "imperfect passive indicative"],
+      "reveal": "motus est = he was moved",
+      "hints": {
+        "present passive indicative": "Present passive would be 'movetur' — 'motus est' uses the participle",
+        "pluperfect passive indicative": "Pluperfect passive would be 'motus erat' — 'est' makes this perfect",
+        "imperfect passive indicative": "Imperfect passive would be 'movebatur' — 'motus est' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'motus'?",
+      "target": "moveo, movere, movi, motum",
+      "choices": ["moveo, movere, movi, motum", "moneo, monere, monui, monitum", "morior, mori, mortuus sum, —", "mitto, mittere, misi, missum"],
+      "reveal": null,
+      "hints": {
+        "moneo, monere, monui, monitum": "These are the parts of 'monere' (to warn/advise)",
+        "morior, mori, mortuus sum, —": "These are the parts of 'mori' (to die)",
+        "mitto, mittere, misi, missum": "These are the parts of 'mittere' (to send)"
+      }
+    },
+    {
+      "prompt": "What case is 'misericordia'?",
+      "target": "ablative (cause or means)",
+      "choices": ["nominative", "ablative (cause or means)", "accusative", "vocative"],
+      "reveal": "misericordia = by/with compassion (abl. of cause)",
+      "hints": {
+        "nominative": "'Misericordia' could be nominative, but here it expresses the cause of being moved — ablative",
+        "accusative": "Accusative would be 'misericordiam' — 'misericordia' is ablative here",
+        "vocative": "One does not address 'compassion' — 'misericordia' is ablative of cause"
+      }
+    },
+    {
+      "prompt": "What declension is 'misericordia, misericordiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'misericordiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'misericordiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'misericordiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "His father saw him and was moved with compassion"
+}

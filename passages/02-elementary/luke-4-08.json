@@ -1,0 +1,64 @@
+{
+  "id": "luke-4-08",
+  "source": "Vulgate",
+  "reference": "Lucas 4:34",
+  "latin": ["Dimitte", "nos"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Dimitte",
+      "choices": ["Dimitte", "nos", "mitte", "noli"],
+      "reveal": null,
+      "hints": {
+        "nos": "'nos' is a pronoun meaning 'us'",
+        "mitte": "'mitte' is a verb but it does not appear in this phrase — 'Dimitte' does",
+        "noli": "'noli' means 'do not' but does not appear in this phrase"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Dimitte' translates to?",
+      "target": "to release / to let go",
+      "choices": ["to release / to let go", "to send", "to destroy", "to diminish"],
+      "reveal": null,
+      "hints": {
+        "to send": "'to send' is 'mittere' — 'Dimitte' comes from 'dimittere' (to release/let go)",
+        "to destroy": "'to destroy' is 'delere' — 'Dimitte' comes from 'dimittere' (to release)",
+        "to diminish": "'to diminish' is 'diminuere' — 'Dimitte' comes from 'dimittere'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Dimitte'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "Dimitte", "gloss": "release! / let go!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'dimittit' — 'Dimitte' is a command",
+        "subjunctive": "Subjunctive would be 'dimittat' — 'Dimitte' is the imperative (a direct command)",
+        "infinitive": "Infinitive would be 'dimittere' — 'Dimitte' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Dimitte'?",
+      "target": "dimitto, dimittere, dimisi, dimissum",
+      "choices": ["dimitto, dimittere, dimisi, dimissum", "mitto, mittere, misi, missum", "do, dare, dedi, datum", "duco, ducere, duxi, ductum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are principal parts of 'mitto' (to send) — 'dimitto' is the compound form",
+        "do, dare, dedi, datum": "These are principal parts of 'do' (to give)",
+        "duco, ducere, duxi, ductum": "These are principal parts of 'duco' (to lead)"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "nominative": "'nos' can be nominative (we) but here it is the object of 'dimitte' — accusative",
+        "dative": "Dative of 1st person plural is 'nobis' — 'nos' is accusative here",
+        "ablative": "Ablative of 1st person plural is 'nobis' — 'nos' is accusative here"
+      }
+    }
+  ],
+  "translation": "Leave us alone / Release us"
+}

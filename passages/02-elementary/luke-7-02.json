@@ -1,0 +1,119 @@
+{
+  "id": "luke-7-02",
+  "source": "Vulgate",
+  "reference": "Lucas 7:14",
+  "latin": ["Iuvenis", "tibi", "dico", "surge"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "dico and surge",
+      "choices": ["dico and surge", "dico only", "surge only", "Iuvenis and dico"],
+      "reveal": null,
+      "hints": {
+        "dico only": "There are two verbs: 'dico' (I say) and 'surge' (rise!, imperative)",
+        "surge only": "'surge' is an imperative verb, but 'dico' (I say) is also a finite verb",
+        "Iuvenis and dico": "'Iuvenis' is a noun (young man), not a verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dico' translates to?",
+      "target": "to say / to speak",
+      "choices": ["to say / to speak", "to lead", "to dedicate", "to give"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'to lead' is 'ducere' — 'dico' comes from 'dicere' (to say)",
+        "to dedicate": "'to dedicate' is 'dedicare' — 'dico' comes from 'dicere' (to say)",
+        "to give": "'to give' is 'dare' — 'dico' comes from 'dicere' (to say)"
+      }
+    },
+    {
+      "prompt": "What tense is 'dico'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "imperfect", "future"],
+      "reveal": { "word": "dico", "gloss": "I say" },
+      "hints": {
+        "perfect": "Perfect 1st person would be 'dixi' — 'dico' is present",
+        "imperfect": "Imperfect would be 'dicebam' — 'dico' is present",
+        "future": "Future would be 'dicam' — 'dico' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dico'?",
+      "target": "dico, dicere, dixi, dictum",
+      "choices": ["dico, dicere, dixi, dictum", "duco, ducere, duxi, ductum", "do, dare, dedi, datum", "disco, discere, didici, —"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are principal parts of 'duco' (to lead)",
+        "do, dare, dedi, datum": "These are principal parts of 'do' (to give)",
+        "disco, discere, didici, —": "These are principal parts of 'disco' (to learn)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'surge' translates to?",
+      "target": "to rise",
+      "choices": ["to rise", "to push", "to serve", "to cut"],
+      "reveal": null,
+      "hints": {
+        "to push": "'to push' is 'pellere' — 'surge' comes from 'surgere' (to rise)",
+        "to serve": "'to serve' is 'servire' — 'surge' comes from 'surgere' (to rise)",
+        "to cut": "'to cut' is 'secare' — 'surge' comes from 'surgere' (to rise)"
+      }
+    },
+    {
+      "prompt": "What mood is 'surge'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "infinitive"],
+      "reveal": { "word": "surge", "gloss": "rise! / get up!" },
+      "hints": {
+        "present indicative": "Present indicative would be 'surgit' — 'surge' is a command",
+        "subjunctive": "Subjunctive would be 'surgat' — 'surge' is the imperative singular",
+        "infinitive": "Infinitive would be 'surgere' — 'surge' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'surge'?",
+      "target": "surgo, surgere, surrexi, surrectum",
+      "choices": ["surgo, surgere, surrexi, surrectum", "servo, servare, servavi, servatum", "rego, regere, rexi, rectum", "pello, pellere, pepuli, pulsum"],
+      "reveal": null,
+      "hints": {
+        "servo, servare, servavi, servatum": "These are principal parts of 'servo' (to save/guard)",
+        "rego, regere, rexi, rectum": "These are principal parts of 'rego' (to rule)",
+        "pello, pellere, pepuli, pulsum": "These are principal parts of 'pello' (to drive)"
+      }
+    },
+    {
+      "prompt": "What case is 'Iuvenis'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": { "word": "Iuvenis", "gloss": "young man!" },
+      "hints": {
+        "nominative": "'Iuvenis' is nominative in form, but here Jesus addresses the young man directly — it is vocative",
+        "accusative": "Accusative would be 'iuvenem' — 'Iuvenis' here is vocative (direct address)",
+        "genitive": "Genitive would be 'iuvenis' (same form) but context shows this is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'iuvenis, iuvenis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'iuvenis' has genitive in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'iuvenis' has genitive in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'iuvenis' has genitive in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'tibi'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "accusative", "ablative"],
+      "reveal": { "word": "tibi", "gloss": "to you" },
+      "hints": {
+        "nominative": "Nominative 2nd person is 'tu' — 'tibi' is dative",
+        "accusative": "Accusative 2nd person is 'te' — 'tibi' is dative (I say TO you)",
+        "ablative": "Ablative 2nd person is 'te' — 'tibi' is dative"
+      }
+    }
+  ],
+  "translation": "Young man, I say to you, arise"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "luke-2-10",
+  "source": "Vulgate",
+  "reference": "Lucas 2:16",
+  "latin": ["Invenerunt", "Mariam", "et", "Ioseph"],
+  "steps": [
+    {
+      "prompt": "Which word is the verb?",
+      "target": "Invenerunt",
+      "choices": ["Invenerunt", "Mariam", "et", "Ioseph"],
+      "reveal": null,
+      "hints": {
+        "Mariam": "'Mariam' is a proper noun — the name Mary in the accusative",
+        "et": "'et' is a conjunction meaning 'and'",
+        "Ioseph": "'Ioseph' is a proper noun — the name Joseph (indeclinable)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Invenerunt' translates to?",
+      "target": "to find",
+      "choices": ["to find", "to come", "to invent", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to come": "'to come' is 'venire' — 'Invenerunt' comes from 'invenire' (in + venire = to find)",
+        "to invent": "English 'invent' derives from Latin 'invenire' but the primary meaning is 'to find/discover'",
+        "to conquer": "'to conquer' is 'vincere' — 'Invenerunt' comes from 'invenire'"
+      }
+    },
+    {
+      "prompt": "What tense is 'Invenerunt'?",
+      "target": "Perfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "Invenerunt", "gloss": "they found" },
+      "hints": {
+        "Present": "Present would be 'inveniunt' — 'Invenerunt' with -erunt ending is perfect",
+        "Imperfect": "Imperfect would be 'inveniebant' — 'Invenerunt' is 3rd plural perfect",
+        "Future": "Future would be 'invenient' — 'Invenerunt' is 3rd plural perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Invenerunt'?",
+      "target": "invenio, invenire, inveni, inventum",
+      "choices": ["invenio, invenire, inveni, inventum", "venio, venire, veni, ventum", "vinco, vincere, vici, victum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come) — 'invenire' adds the prefix in-",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'Mariam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "Mariam", "gloss": "Mary" },
+      "hints": {
+        "Nominative": "Nominative would be 'Maria' — 'Mariam' with the -am ending is accusative",
+        "Ablative": "Ablative would be 'Maria' — 'Mariam' is accusative, direct object of 'Invenerunt'",
+        "Genitive": "Genitive would be 'Mariae' — 'Mariam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Maria, Mariae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Mariae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'Mariae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'Mariae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "They found Mary and Joseph"
+}

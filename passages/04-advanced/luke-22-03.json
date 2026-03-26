@@ -1,0 +1,130 @@
+{
+  "id": "luke-22-03",
+  "source": "Vulgate",
+  "reference": "Lucas 22:20",
+  "latin": ["Hic", "est", "calix", "novum", "testamentum", "in", "sanguine", "meo"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "est",
+      "choices": ["est", "Hic", "calix", "testamentum"],
+      "reveal": null,
+      "hints": {
+        "Hic": "'Hic' is a demonstrative pronoun meaning 'this'",
+        "calix": "'Calix' is a noun meaning 'cup/chalice'",
+        "testamentum": "'Testamentum' is a noun meaning 'covenant/testament'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere/esse' — here 'est' is from 'sum' (to be)",
+        "to go": "'To go' is 'ire' — 'est' is from 'sum, esse'",
+        "to remain": "'To remain' is 'manere' — 'est' is from 'sum, esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "est = is",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "future indicative": "Future would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edo' (to eat)",
+        "eo, ire, ii, itum": "These are the parts of 'eo' (to go)",
+        "fio, fieri, factus sum, —": "These are the parts of 'fio' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'calix'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "calix = the cup/chalice (nom., predicate nominative)",
+      "hints": {
+        "accusative": "Accusative would be 'calicem' — 'calix' is nominative",
+        "genitive": "Genitive would be 'calicis' — 'calix' is nominative after 'est'",
+        "vocative": "Vocative would be used for address — this is a declarative statement"
+      }
+    },
+    {
+      "prompt": "What declension is 'calix, calicis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'calicis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'calicis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'calicis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'testamentum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "testamentum = covenant/testament (nom., in apposition to 'calix')",
+      "hints": {
+        "accusative": "'Testamentum' looks the same in accusative, but here it is in apposition to 'calix' (nominative)",
+        "ablative": "Ablative would be 'testamento' — 'testamentum' is nominative",
+        "genitive": "Genitive would be 'testamenti' — 'testamentum' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'testamentum, testamenti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'testamenti' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'testamenti' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'testamenti' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'sanguine'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "dative", "accusative"],
+      "reveal": "sanguine = in [my] blood (abl.)",
+      "hints": {
+        "nominative": "Nominative would be 'sanguis' — 'sanguine' with -e ending is ablative",
+        "dative": "Dative would be 'sanguini' — 'sanguine' ends in -e (ablative)",
+        "accusative": "Accusative would be 'sanguinem' — 'sanguine' is ablative after 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'sanguis, sanguinis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'sanguinis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'sanguinis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'sanguinis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does 'novum' modify and what is its case?",
+      "target": "nominative neuter, modifying 'testamentum'",
+      "choices": ["nominative neuter, modifying 'testamentum'", "accusative neuter, modifying 'calicem'", "ablative neuter, modifying 'sanguine'", "genitive, modifying 'calicis'"],
+      "reveal": "novum testamentum = the new covenant",
+      "hints": {
+        "accusative neuter, modifying 'calicem'": "'Calix' is masculine — 'novum' (neuter) cannot modify it; it agrees with 'testamentum'",
+        "ablative neuter, modifying 'sanguine'": "'Sanguis' is masculine — 'novum' (neuter) cannot modify it; 'sanguine' would need 'novo'",
+        "genitive, modifying 'calicis'": "Genitive would be 'novi' — 'novum' is nominative neuter agreeing with 'testamentum'"
+      }
+    }
+  ],
+  "translation": "This cup is the new covenant in my blood"
+}

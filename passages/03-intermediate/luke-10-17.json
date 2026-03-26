@@ -1,0 +1,119 @@
+{
+  "id": "luke-10-17",
+  "source": "Vulgate",
+  "reference": "Lucas 10:23",
+  "latin": ["Beati", "oculi", "qui", "vident", "quae", "videtis"],
+  "steps": [
+    {
+      "prompt": "Which words are relative pronouns?",
+      "target": "qui and quae",
+      "choices": ["qui and quae", "Beati and oculi", "oculi and qui", "quae only"],
+      "reveal": null,
+      "hints": {
+        "Beati and oculi": "'Beati' is an adjective and 'oculi' is a noun — 'qui' and 'quae' are relative pronouns",
+        "oculi and qui": "'Oculi' is a noun meaning 'eyes' — both 'qui' and 'quae' are relative pronouns",
+        "quae only": "'Quae' is one relative pronoun, but 'qui' is also a relative pronoun here"
+      }
+    },
+    {
+      "prompt": "What case is 'qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "genitive"],
+      "reveal": "qui = which (nom. masc. pl., referring to 'oculi')",
+      "hints": {
+        "ablative": "Ablative plural would be 'quibus' — 'qui' is nominative plural, subject of 'vident'",
+        "dative": "Dative plural would be 'quibus' — 'qui' is nominative",
+        "genitive": "Genitive plural would be 'quorum' — 'qui' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'quae'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "quae = the things which (acc. neut. pl., object of 'videtis')",
+      "hints": {
+        "nominative": "While 'quae' can be nominative, here it is the object of 'videtis' — accusative neut. pl.",
+        "ablative": "Ablative feminine singular could be 'qua' — 'quae' here is accusative neut. pl.",
+        "genitive": "Genitive would be 'quarum/quorum' — 'quae' is accusative neut. pl."
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vident' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to come", "to conquer", "to live"],
+      "reveal": null,
+      "hints": {
+        "to come": "That would be 'venire' — 'vident' comes from 'videre' (to see)",
+        "to conquer": "That would be 'vincere' — 'vident' comes from 'videre' (to see)",
+        "to live": "That would be 'vivere' — 'vident' comes from 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'vident'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "vident = they see",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'videant' — 'vident' is present indicative",
+        "perfect indicative": "Perfect would be 'viderunt' — 'vident' is present indicative",
+        "future indicative": "Future would be 'videbunt' — 'vident' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vident'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'videtis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "videtis = you (pl.) see",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'videatis' — 'videtis' is present indicative",
+        "perfect indicative": "Perfect would be 'vidistis' — 'videtis' is present indicative",
+        "imperfect indicative": "Imperfect would be 'videbatis' — 'videtis' is present indicative"
+      }
+    },
+    {
+      "prompt": "What case is 'oculi'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "oculi = eyes (nom. pl.)",
+      "hints": {
+        "genitive": "Genitive singular would be 'oculi', but here with 'Beati' (pl.) it is nominative plural",
+        "dative": "Dative would be 'oculis' — 'oculi' is nominative plural subject",
+        "vocative": "Vocative plural would also be 'oculi', but the eyes are being described, not addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'oculus, oculi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'oculi' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'oculi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'oculi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Beati'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Beati = blessed (nom. masc. pl.)",
+      "hints": {
+        "genitive": "Genitive singular could be 'beati', but here it agrees with 'oculi' (nom. pl.)",
+        "dative": "Dative would be 'beatis' — 'Beati' is nominative, agreeing with 'oculi'",
+        "vocative": "Vocative plural would also be 'beati', but this is a declaration, not a direct address"
+      }
+    }
+  ],
+  "translation": "Blessed are the eyes which see the things that you see"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "luke-19-06",
+  "source": "Vulgate",
+  "reference": "Lucas 19:40",
+  "latin": ["Si", "hi", "tacuerint", "lapides", "clamabunt"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb (apodosis)?",
+      "target": "clamabunt",
+      "choices": ["clamabunt", "tacuerint", "lapides", "hi"],
+      "reveal": null,
+      "hints": {
+        "tacuerint": "'Tacuerint' is the verb of the protasis (the 'if' clause)",
+        "lapides": "'Lapides' is a noun meaning 'stones' — the subject of 'clamabunt'",
+        "hi": "'Hi' is a demonstrative pronoun meaning 'these' — subject of 'tacuerint'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'clamabunt' translates to?",
+      "target": "to cry out / to shout",
+      "choices": ["to cry out / to shout", "to call", "to claim", "to close"],
+      "reveal": null,
+      "hints": {
+        "to call": "'To call' is 'vocare' — 'clamabunt' comes from 'clamare' (to cry out)",
+        "to claim": "'To claim' is English — 'clamare' means 'to shout/cry out'",
+        "to close": "'To close' is 'claudere' — 'clamabunt' comes from 'clamare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'clamabunt'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "future perfect", "present subjunctive"],
+      "reveal": "clamabunt = will cry out (3rd pl. future)",
+      "hints": {
+        "present indicative": "Present would be 'clamant' — 'clamabunt' with -abunt is future",
+        "future perfect": "Future perfect would be 'clamaverint' — 'clamabunt' is simple future",
+        "present subjunctive": "Present subjunctive would be 'clament' — 'clamabunt' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'clamabunt'?",
+      "target": "clamo, clamare, clamavi, clamatum",
+      "choices": ["clamo, clamare, clamavi, clamatum", "claudo, claudere, clausi, clausum", "clango, clangere, —, —", "voco, vocare, vocavi, vocatum"],
+      "reveal": null,
+      "hints": {
+        "claudo, claudere, clausi, clausum": "These are the parts of 'claudo' (to close)",
+        "clango, clangere, —, —": "These are the parts of 'clango' (to clang/resound)",
+        "voco, vocare, vocavi, vocatum": "These are the parts of 'voco' (to call)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'tacuerint'?",
+      "target": "future perfect indicative",
+      "choices": ["future perfect indicative", "perfect subjunctive", "pluperfect subjunctive", "perfect indicative"],
+      "reveal": "Si hi tacuerint = If these will have been silent (fut. perf.)",
+      "hints": {
+        "perfect subjunctive": "Perfect subjunctive 'tacuerint' looks identical, but in a future more vivid condition it is future perfect",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'tacuissent' — 'tacuerint' is future perfect",
+        "perfect indicative": "Perfect indicative would be 'tacuerunt' — 'tacuerint' with -int is future perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tacuerint'?",
+      "target": "taceo, tacere, tacui, tacitum",
+      "choices": ["taceo, tacere, tacui, tacitum", "tango, tangere, tetigi, tactum", "teneo, tenere, tenui, tentum", "tollo, tollere, sustuli, sublatum"],
+      "reveal": null,
+      "hints": {
+        "tango, tangere, tetigi, tactum": "These are the parts of 'tango' (to touch)",
+        "teneo, tenere, tenui, tentum": "These are the parts of 'teneo' (to hold)",
+        "tollo, tollere, sustuli, sublatum": "These are the parts of 'tollo' (to lift/remove)"
+      }
+    },
+    {
+      "prompt": "What type of conditional is 'Si tacuerint... clamabunt'?",
+      "target": "future more vivid (si + fut. perf., future indicative)",
+      "choices": ["future more vivid (si + fut. perf., future indicative)", "present general (si + pres., pres.)", "past contrary-to-fact (si + plpf. subj., plpf. subj.)", "future less vivid (si + pres. subj., pres. subj.)"],
+      "reveal": "Si + future perfect, future indicative = future more vivid condition",
+      "hints": {
+        "present general (si + pres., pres.)": "Present general uses present indicative in both clauses — this uses future tenses",
+        "past contrary-to-fact (si + plpf. subj., plpf. subj.)": "Past contrary-to-fact uses pluperfect subjunctive — this uses future tenses",
+        "future less vivid (si + pres. subj., pres. subj.)": "Future less vivid uses present subjunctive — this uses future indicative/future perfect"
+      }
+    },
+    {
+      "prompt": "What case is 'lapides'?",
+      "target": "nominative plural",
+      "choices": ["nominative plural", "accusative plural", "genitive singular", "vocative plural"],
+      "reveal": "lapides = the stones (nom. pl., subject of 'clamabunt')",
+      "hints": {
+        "accusative plural": "'Lapides' looks the same in accusative plural, but it is the subject of 'clamabunt'",
+        "genitive singular": "Genitive singular would be 'lapidis' — 'lapides' is nominative/accusative plural",
+        "vocative plural": "Vocative 'lapides' looks the same, but stones are not being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'lapis, lapidis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'lapidis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'lapidis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'lapidis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What literary device is at work when stones cry out?",
+      "target": "personification (attributing speech to inanimate objects)",
+      "choices": ["personification (attributing speech to inanimate objects)", "metonymy", "synecdoche", "litotes"],
+      "reveal": null,
+      "hints": {
+        "metonymy": "Metonymy substitutes a related term — here stones are given the human ability to cry out",
+        "synecdoche": "Synecdoche uses part for whole — here stones are personified with speech",
+        "litotes": "Litotes affirms by negating the opposite — this is a vivid personification"
+      }
+    }
+  ],
+  "translation": "If these will have been silent, the stones will cry out"
+}

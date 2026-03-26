@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-11",
+  "source": "Vulgate",
+  "reference": "Lucas 1:37",
+  "latin": ["Non", "erit", "impossibile", "apud", "Deum"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "erit",
+      "choices": ["Non", "erit", "impossibile", "Deum"],
+      "reveal": null,
+      "hints": {
+        "Non": "'Non' is a negative adverb meaning 'not'",
+        "impossibile": "'Impossibile' is an adjective meaning 'impossible'",
+        "Deum": "'Deum' is a noun in the accusative meaning 'God'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to become", "to happen"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire'",
+        "to become": "That would be 'fieri'",
+        "to happen": "That would be 'accidere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "imperfect"],
+      "reveal": "erit = will be",
+      "hints": {
+        "present indicative": "Present of 'esse' is 'est'; 'erit' is future",
+        "perfect": "Perfect of 'esse' is 'fuit'",
+        "imperfect": "Imperfect of 'esse' is 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ivi, itum", "fio, fieri, factus sum, —", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)"
+      }
+    },
+    {
+      "prompt": "What case is 'impossibile'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "impossibile = impossible (nom. neut.)",
+      "hints": {
+        "accusative": "Neuter nominative and accusative are identical; here it is predicate nominative with 'erit'",
+        "ablative": "Ablative would be 'impossibili'",
+        "genitive": "Genitive would be 'impossibilis'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'impossibile' follow?",
+      "target": "3rd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st/2nd declension adjective": "1st/2nd declension adjectives end in -us/-a/-um; 'impossibilis/-e' is 3rd declension",
+        "4th declension": "Adjectives do not follow the 4th declension",
+        "indeclinable": "'Impossibile' does decline: impossibilis, impossibile, impossibili, etc."
+      }
+    },
+    {
+      "prompt": "What case is 'Deum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "Deum = God (acc., after 'apud')",
+      "hints": {
+        "nominative": "Nominative would be 'Deus'; 'Deum' with -um is accusative",
+        "dative": "Dative would be 'Deo'",
+        "ablative": "Ablative would be 'Deo'; 'apud' takes the accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'Deus' ends in -us",
+        "3rd declension": "3rd declension has -is in the genitive; 'Deus' has genitive 'Dei'",
+        "4th declension": "4th declension has genitive -us; 'Deus' has genitive 'Dei'"
+      }
+    }
+  ],
+  "translation": "Nothing will be impossible with God"
+}

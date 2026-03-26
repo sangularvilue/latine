@@ -1,0 +1,108 @@
+{
+  "id": "cat-2-07",
+  "source": "Cicero",
+  "reference": "In Cat. II.5",
+  "latin": ["Nullum", "est", "periculum", "quod", "a", "me", "non", "possit", "depelli"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "est",
+      "choices": ["Nullum", "est", "possit", "depelli"],
+      "reveal": null,
+      "hints": {
+        "Nullum": "'Nullum' is an adjective meaning 'no / not any'",
+        "possit": "'possit' is subjunctive in the relative clause — not the main verb",
+        "depelli": "'depelli' is a passive infinitive complementing 'possit'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "est", "gloss": "there is" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "Future indicative": "Future would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "What case is 'periculum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "periculum", "gloss": "danger" },
+      "hints": {
+        "Accusative": "Neuter nominative and accusative look the same, but 'periculum' is the subject of 'est'",
+        "Genitive": "Genitive would be 'periculi' — 'periculum' is nominative",
+        "Ablative": "Ablative would be 'periculo' — 'periculum' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'periculum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'periculum, -i' is 2nd declension neuter",
+        "3rd": "3rd declension neuters have varied endings — 'periculum, -i' is 2nd declension",
+        "4th": "4th declension nouns have gen. in -us — 'periculum, -i' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'possit'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Perfect subjunctive"],
+      "reveal": { "word": "possit", "gloss": "can / is able to" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'potest' — 'possit' is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'posset' — 'possit' is present",
+        "Perfect subjunctive": "Perfect subjunctive would be 'potuerit' — 'possit' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used with 'possit'?",
+      "target": "Relative clause of characteristic — describing a type of danger",
+      "choices": ["Purpose clause", "Relative clause of characteristic — describing a type of danger", "Result clause", "Indirect statement"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose uses 'ut/ne' — this is a relative clause (introduced by 'quod') with subjunctive",
+        "Result clause": "Result uses 'ut' — 'quod' here is a relative pronoun with characteristic subjunctive",
+        "Indirect statement": "Indirect statement uses accusative + infinitive — this is a relative clause"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'possit'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "potior, potiri, potitus sum", "polliceor, polliceri, pollicitus sum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place) — don't confuse 'posui' with 'potui'",
+        "potior, potiri, potitus sum": "These are the parts of 'potiri' (to gain possession of)",
+        "polliceor, polliceri, pollicitus sum": "These are the parts of 'polliceri' (to promise)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'depelli' translates to?",
+      "target": "to be driven away / repelled",
+      "choices": ["to be driven away / repelled", "to be called", "to be sent", "to be destroyed"],
+      "reveal": { "word": "depelli", "gloss": "to be repelled / driven away" },
+      "hints": {
+        "to be called": "'to be called' is 'appellari' — 'depelli' is the passive of 'depellere' (to drive away)",
+        "to be sent": "'to be sent' is 'mitti' — 'depelli' means 'to be driven off'",
+        "to be destroyed": "'to be destroyed' is 'deleri' — 'depelli' means 'to be repelled'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'depelli'?",
+      "target": "depello, depellere, depuli, depulsum",
+      "choices": ["depello, depellere, depuli, depulsum", "pello, pellere, pepuli, pulsum", "appello, appellare, appellavi, appellatum", "compello, compellere, compuli, compulsum"],
+      "reveal": null,
+      "hints": {
+        "pello, pellere, pepuli, pulsum": "These are the parts of 'pellere' (to drive) — the base verb without the de- prefix",
+        "appello, appellare, appellavi, appellatum": "These are the parts of 'appellare' (to call/name) — a different verb",
+        "compello, compellere, compuli, compulsum": "These are the parts of 'compellere' (to compel) — a different compound"
+      }
+    }
+  ],
+  "translation": "There is no danger which cannot be repelled by me."
+}

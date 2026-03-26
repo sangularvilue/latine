@@ -1,0 +1,141 @@
+{
+  "id": "luke-20-03",
+  "source": "Vulgate",
+  "reference": "Lucas 20:17",
+  "latin": ["Lapidem", "quem", "reprobaverunt", "aedificantes", "hic", "factus", "est", "in", "caput", "anguli"],
+  "steps": [
+    {
+      "prompt": "Which words form the main verb?",
+      "target": "factus est",
+      "choices": ["factus est", "reprobaverunt", "aedificantes", "Lapidem"],
+      "reveal": null,
+      "hints": {
+        "reprobaverunt": "'Reprobaverunt' is a finite verb but it is in the subordinate relative clause",
+        "aedificantes": "'Aedificantes' is a present active participle meaning 'the builders'",
+        "Lapidem": "'Lapidem' is a noun meaning 'stone' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'factus est' translates to?",
+      "target": "to become / to be made",
+      "choices": ["to become / to be made", "to make / to do", "to carry", "to say"],
+      "reveal": null,
+      "hints": {
+        "to make / to do": "'To make' is 'facere' (active) — 'factus est' is from 'fio, fieri' (to become)",
+        "to carry": "'To carry' is 'ferre' — 'factus est' is from 'fio, fieri'",
+        "to say": "'To say' is 'dicere' — 'factus est' is from 'fio, fieri'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'factus est'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "factus est = has become (3rd sing. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'fit' — 'factus est' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'factus erat' — 'factus est' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'factus sit' — 'factus est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'factus est'?",
+      "target": "fio, fieri, factus sum, —",
+      "choices": ["fio, fieri, factus sum, —", "facio, facere, feci, factum", "fingo, fingere, finxi, fictum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the active parts of 'facio' — 'fio' serves as its passive",
+        "fingo, fingere, finxi, fictum": "These are the parts of 'fingo' (to form/fashion)",
+        "fero, ferre, tuli, latum": "These are the parts of 'fero' (to carry)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'reprobaverunt'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "future perfect"],
+      "reveal": "reprobaverunt = they rejected (3rd pl. perf.)",
+      "hints": {
+        "present indicative": "Present would be 'reprobant' — 'reprobaverunt' with -averunt is perfect",
+        "pluperfect indicative": "Pluperfect would be 'reprobaverant' — 'reprobaverunt' is perfect",
+        "future perfect": "Future perfect would be 'reprobaverint' — 'reprobaverunt' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'reprobaverunt'?",
+      "target": "reprobo, reprobare, reprobavi, reprobatum",
+      "choices": ["reprobo, reprobare, reprobavi, reprobatum", "probo, probare, probavi, probatum", "reprehendo, reprehendere, reprehendi, reprehensum", "removeo, removere, removi, remotum"],
+      "reveal": null,
+      "hints": {
+        "probo, probare, probavi, probatum": "These are the parts of 'probo' (to test/approve) — 'reprobare' is re- + probare",
+        "reprehendo, reprehendere, reprehendi, reprehensum": "These are the parts of 'reprehendo' (to blame/criticize)",
+        "removeo, removere, removi, remotum": "These are the parts of 'removeo' (to remove)"
+      }
+    },
+    {
+      "prompt": "What case is 'Lapidem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "Lapidem = the stone (acc., direct object of 'reprobaverunt' and fronted for emphasis)",
+      "hints": {
+        "nominative": "Nominative would be 'lapis' — 'Lapidem' with -em is accusative",
+        "ablative": "Ablative would be 'lapide' — 'Lapidem' is accusative",
+        "dative": "Dative would be 'lapidi' — 'Lapidem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'lapis, lapidis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'lapidis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'lapidis' ends in -is",
+        "4th declension": "4th declension has genitive in -us — 'lapidis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'caput'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "in caput anguli = into the head/chief of the corner (acc., 'in' + acc. = motion/result)",
+      "hints": {
+        "nominative": "'Caput' looks the same in nominative, but 'in' + acc. indicates result/transformation",
+        "ablative": "Ablative would be 'capite' — 'in' + acc. = resulting in / becoming",
+        "genitive": "Genitive would be 'capitis' — 'caput' is accusative after 'in'"
+      }
+    },
+    {
+      "prompt": "What case is 'anguli'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative plural", "dative", "vocative"],
+      "reveal": "anguli = of the corner (gen., modifying 'caput')",
+      "hints": {
+        "nominative plural": "Nominative plural 'anguli' looks the same, but context requires genitive modifying 'caput'",
+        "dative": "Dative would be 'angulo' — 'anguli' is genitive singular",
+        "vocative": "Vocative plural 'anguli' looks the same, but this is not direct address"
+      }
+    },
+    {
+      "prompt": "What declension is 'angulus, anguli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'anguli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'anguli' ends in -i",
+        "4th declension": "4th declension has genitive in -us — 'anguli' ends in -i"
+      }
+    },
+    {
+      "prompt": "What is 'aedificantes' used as here?",
+      "target": "substantive participle (the builders / those building)",
+      "choices": ["substantive participle (the builders / those building)", "attributive adjective", "ablative absolute", "gerundive"],
+      "reveal": "aedificantes = the builders (present participle used as a noun)",
+      "hints": {
+        "attributive adjective": "An attributive adjective would modify a stated noun — 'aedificantes' stands alone as a substantive",
+        "ablative absolute": "Ablative absolute requires ablative case — 'aedificantes' is nominative",
+        "gerundive": "Gerundive would be 'aedificandus' — 'aedificantes' is a present active participle"
+      }
+    }
+  ],
+  "translation": "The stone which the builders rejected has become the cornerstone"
+}

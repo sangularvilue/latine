@@ -1,0 +1,97 @@
+{
+  "id": "cat-2-05",
+  "source": "Cicero",
+  "reference": "In Cat. II.6",
+  "latin": ["Nunc", "vero", "quae", "tua", "est", "ista", "vita"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["Nunc", "quae", "est", "vita"],
+      "reveal": null,
+      "hints": {
+        "Nunc": "'Nunc' is an adverb meaning 'now'",
+        "quae": "'quae' is an interrogative adjective meaning 'what (kind of)'",
+        "vita": "'vita' is a noun meaning 'life'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere/esse' (different 'esse') — 'est' here comes from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'est' comes from 'esse' (to be)",
+        "to stand": "'to stand' is 'stare' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "Imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "edo, edere, edi, esum", "sto, stare, steti, statum", "eo, ire, ii, itum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)"
+      }
+    },
+    {
+      "prompt": "What case is 'vita'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "vita", "gloss": "life" },
+      "hints": {
+        "Accusative": "Accusative would be 'vitam' — 'vita' is nominative, the subject of 'est'",
+        "Ablative": "Ablative would be 'vita' (same form), but here it's the nominative subject",
+        "Vocative": "One does not address 'life' — 'vita' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'vita'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'vita, vitae' is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'vita, vitae' with -a ending is 1st declension",
+        "5th": "5th declension nouns end in -es — 'vita, vitae' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What does the demonstrative 'ista' connote?",
+      "target": "Contempt — 'that … of yours'",
+      "choices": ["Neutral 'that'", "Contempt — 'that … of yours'", "Respectful distance", "Proximity — 'this'"],
+      "reveal": { "word": "ista", "gloss": "that (contemptible) … of yours" },
+      "hints": {
+        "Neutral 'that'": "Neutral 'that' is 'ea/illa' — 'ista' in oratory carries a pejorative tone",
+        "Respectful distance": "'ille/illa' can show respect at distance — 'iste/ista' conveys disdain",
+        "Proximity — 'this'": "'hic/haec/hoc' means 'this' — 'iste/ista' associates with the 2nd person, often disparagingly"
+      }
+    },
+    {
+      "prompt": "What type of sentence is this?",
+      "target": "Rhetorical question expressing contempt",
+      "choices": ["A factual statement", "Rhetorical question expressing contempt", "An indirect question", "A conditional clause"],
+      "reveal": null,
+      "hints": {
+        "A factual statement": "'quae ... est' is interrogative — Cicero asks 'what kind of life is this?'",
+        "An indirect question": "Indirect questions are subordinate — this is a direct rhetorical question",
+        "A conditional clause": "Conditional clauses use 'si/nisi' — this is a direct question with 'quae'"
+      }
+    }
+  ],
+  "translation": "But now, what is that life of yours?"
+}

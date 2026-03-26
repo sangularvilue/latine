@@ -1,0 +1,86 @@
+{
+  "id": "luke-1-18",
+  "source": "Vulgate",
+  "reference": "Lucas 1:54",
+  "latin": ["Suscepit", "Israel", "puerum", "suum"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Suscepit",
+      "choices": ["Suscepit", "Israel", "puerum", "suum"],
+      "reveal": null,
+      "hints": {
+        "Israel": "'Israel' is a proper noun, the name Israel",
+        "puerum": "'Puerum' is a noun meaning 'servant/child'",
+        "suum": "'Suum' is a possessive adjective meaning 'his/its own'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'suscepit' translates to?",
+      "target": "to take up / to support",
+      "choices": ["to take up / to support", "to receive", "to begin", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to receive": "That would be 'accipere'; 'suscipere' means 'to take up/support'",
+        "to begin": "That would be 'incipere'",
+        "to follow": "That would be 'sequi'"
+      }
+    },
+    {
+      "prompt": "What tense is 'suscepit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": "suscepit = he has taken up / he upheld",
+      "hints": {
+        "present indicative": "Present would be 'suscipit'; 'suscepit' with changed vowel is perfect",
+        "imperfect": "Imperfect would be 'suscipiebat'",
+        "future": "Future would be 'suscipiet'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'suscepit'?",
+      "target": "suscipio, suscipere, suscepi, susceptum",
+      "choices": ["suscipio, suscipere, suscepi, susceptum", "capio, capere, cepi, captum", "accipio, accipere, accepi, acceptum", "recipio, recipere, recepi, receptum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the principal parts of 'capio' (to take)",
+        "accipio, accipere, accepi, acceptum": "These are the principal parts of 'accipio' (to receive)",
+        "recipio, recipere, recepi, receptum": "These are the principal parts of 'recipio' (to recover)"
+      }
+    },
+    {
+      "prompt": "What case is 'Israel'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Israel = Israel (acc., direct object)",
+      "hints": {
+        "nominative": "Israel is the object being upheld, not the subject; the subject is God (implied)",
+        "genitive": "'Israel' is indeclinable; context shows it as the direct object",
+        "ablative": "'Israel' is indeclinable; context shows it as the direct object"
+      }
+    },
+    {
+      "prompt": "What case is 'puerum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "puerum = servant/child (acc., in apposition to Israel)",
+      "hints": {
+        "nominative": "Nominative would be 'puer'; 'puerum' with -um is accusative",
+        "dative": "Dative would be 'puero'",
+        "ablative": "Ablative would be 'puero'"
+      }
+    },
+    {
+      "prompt": "What declension is 'puer'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'puer' has genitive 'pueri'",
+        "3rd declension": "3rd declension has -is in the genitive; 'puer' has genitive 'pueri'",
+        "4th declension": "4th declension has genitive -us; 'puer' has genitive 'pueri'"
+      }
+    }
+  ],
+  "translation": "He has helped Israel his servant"
+}

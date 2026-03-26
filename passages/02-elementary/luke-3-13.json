@@ -1,0 +1,97 @@
+{
+  "id": "luke-3-13",
+  "source": "Vulgate",
+  "reference": "Lucas 3:9",
+  "latin": ["Iam", "securis", "ad", "radicem", "posita", "est"],
+  "steps": [
+    {
+      "prompt": "Which words form the verb?",
+      "target": "posita est",
+      "choices": ["posita est", "securis ad", "Iam securis", "radicem posita"],
+      "reveal": null,
+      "hints": {
+        "securis ad": "'securis' is a noun (axe) and 'ad' is a preposition — neither is a verb",
+        "Iam securis": "'Iam' is an adverb (already) and 'securis' is a noun (axe)",
+        "radicem posita": "'radicem' is a noun (root) and 'posita' is part of the verb compound 'posita est'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'posita est' translates to?",
+      "target": "to place / to put",
+      "choices": ["to place / to put", "to be able", "to ask", "to possess"],
+      "reveal": null,
+      "hints": {
+        "to be able": "'to be able' is 'posse' — 'posita est' comes from 'ponere' (to place/put)",
+        "to ask": "'to ask' is 'ponere' means 'to place', not 'to ask' ('rogare'/'poscere' = to ask)",
+        "to possess": "'to possess' is 'possidere' — 'posita est' comes from 'ponere'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'posita est'?",
+      "target": "Perfect passive",
+      "choices": ["Present passive", "Perfect passive", "Future passive", "Pluperfect passive"],
+      "reveal": { "word": "posita est", "gloss": "has been placed / is laid" },
+      "hints": {
+        "Present passive": "Present passive would be 'ponitur' — 'posita est' (participle + est) is perfect passive",
+        "Future passive": "Future passive would be 'ponetur' — 'posita est' is perfect passive",
+        "Pluperfect passive": "Pluperfect passive would be 'posita erat' — 'posita est' uses 'est' (perfect)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'posita est'?",
+      "target": "pono, ponere, posui, positum",
+      "choices": ["pono, ponere, posui, positum", "possum, posse, potui, —", "possideo, possidere, possedi, possessum", "pasco, pascere, pavi, pastum"],
+      "reveal": null,
+      "hints": {
+        "possum, posse, potui, —": "These are the parts of 'posse' (to be able)",
+        "possideo, possidere, possedi, possessum": "These are the parts of 'possidere' (to possess)",
+        "pasco, pascere, pavi, pastum": "These are the parts of 'pascere' (to feed/pasture)"
+      }
+    },
+    {
+      "prompt": "What case is 'securis'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "securis", "gloss": "the axe" },
+      "hints": {
+        "Accusative": "Accusative would be 'securim' — 'securis' is nominative, the subject",
+        "Genitive": "Genitive singular is also 'securis' (same form), but here it is the subject — nominative",
+        "Ablative": "Ablative would be 'securi' — 'securis' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'securis, securis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'securis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'securis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'securis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'radicem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Dative"],
+      "reveal": { "word": "radicem", "gloss": "the root" },
+      "hints": {
+        "Nominative": "Nominative would be 'radix' — 'radicem' with -em is accusative",
+        "Ablative": "Ablative would be 'radice' — 'radicem' is accusative after 'ad'",
+        "Dative": "Dative would be 'radici' — 'radicem' is accusative governed by 'ad'"
+      }
+    },
+    {
+      "prompt": "What declension is 'radix, radicis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'radicis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'radicis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'radicis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Already the axe is laid to the root"
+}

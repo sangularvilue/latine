@@ -1,0 +1,97 @@
+{
+  "id": "luke-4-05",
+  "source": "Vulgate",
+  "reference": "Lucas 4:21",
+  "latin": ["Hodie", "impleta", "est", "scriptura"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "est",
+      "choices": ["Hodie", "impleta", "est", "scriptura"],
+      "reveal": null,
+      "hints": {
+        "Hodie": "'Hodie' is an adverb meaning 'today'",
+        "impleta": "'impleta' is a perfect passive participle, not the finite verb",
+        "scriptura": "'scriptura' is a noun meaning 'scripture'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to fill"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to go out": "'to go out' is 'exire' — 'est' is from 'esse' (to be)",
+        "to fill": "'to fill' is 'implere' — 'est' is the auxiliary verb 'to be'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est' here (with 'impleta')?",
+      "target": "perfect passive (periphrastic)",
+      "choices": ["present indicative", "perfect passive (periphrastic)", "imperfect", "pluperfect"],
+      "reveal": { "word": "est", "gloss": "is (+ participle = has been fulfilled)" },
+      "hints": {
+        "present indicative": "'est' is present, but combined with the participle 'impleta' it forms the perfect passive",
+        "imperfect": "Imperfect would use 'erat' — 'est' + participle = perfect passive",
+        "pluperfect": "Pluperfect would use 'erat' + participle — 'est' + participle = perfect passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ivi, itum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are principal parts of 'edo' (to eat) — note 'esse' can mean 'to eat' too",
+        "eo, ire, ivi, itum": "These are principal parts of 'eo' (to go)",
+        "fio, fieri, factus sum, —": "These are principal parts of 'fio' (to become/be made)"
+      }
+    },
+    {
+      "prompt": "'Impleta' is a participle. The infinitive of its verb translates to?",
+      "target": "to fulfill",
+      "choices": ["to fulfill", "to fill up a cup", "to implore", "to employ"],
+      "reveal": null,
+      "hints": {
+        "to fill up a cup": "'implere' means 'to fulfill/fill' in a broad sense, not just filling a cup — but the meaning here is 'to fulfill'",
+        "to implore": "'to implore' is 'implorare' — 'impleta' comes from 'implere' (to fulfill)",
+        "to employ": "'to employ' is not a Latin verb form here — 'impleta' comes from 'implere'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'impleta' (from implere)?",
+      "target": "impleo, implere, implevi, impletum",
+      "choices": ["impleo, implere, implevi, impletum", "imploro, implorare, imploravi, imploratum", "impono, imponere, imposui, impositum", "implicare, implicavi, implicatum, implico"],
+      "reveal": { "word": "impleta", "gloss": "fulfilled / completed" },
+      "hints": {
+        "imploro, implorare, imploravi, imploratum": "These are principal parts of 'imploro' (to implore)",
+        "impono, imponere, imposui, impositum": "These are principal parts of 'impono' (to place upon)",
+        "implicare, implicavi, implicatum, implico": "These are principal parts of 'implico' (to enfold) — and in wrong order"
+      }
+    },
+    {
+      "prompt": "What case is 'scriptura'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "scriptura", "gloss": "the scripture" },
+      "hints": {
+        "accusative": "Accusative would be 'scripturam' — 'scriptura' is nominative, the subject",
+        "ablative": "Ablative would also be 'scriptura' in form, but here it is the subject (nominative)",
+        "vocative": "Vocative would also look like 'scriptura' but this is a statement, not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'scriptura, scripturae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'scripturae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'scripturae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -us — 'scripturae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Today this scripture has been fulfilled"
+}

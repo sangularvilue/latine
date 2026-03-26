@@ -1,0 +1,97 @@
+{
+  "id": "cat-1-20",
+  "source": "Cicero",
+  "reference": "In Cat. I.9",
+  "latin": ["Quam", "diu", "quisquam", "erit", "qui", "te", "defendere", "audeat"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "erit",
+      "choices": ["quisquam", "erit", "defendere", "audeat"],
+      "reveal": null,
+      "hints": {
+        "quisquam": "'quisquam' is an indefinite pronoun meaning 'anyone'",
+        "defendere": "'defendere' is an infinitive meaning 'to defend' — it complements 'audeat'",
+        "audeat": "'audeat' is subjunctive in the relative clause, not the main verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to err", "to wander"],
+      "reveal": null,
+      "hints": {
+        "to go": "'to go' is 'ire' — 'erit' comes from 'esse' (to be), future tense",
+        "to err": "'to err' is 'errare' — 'erit' comes from 'esse'",
+        "to wander": "'to wander' is 'errare' — 'erit' is the future of 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'erit'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "erit", "gloss": "there will be" },
+      "hints": {
+        "Present indicative": "Present would be 'est' — 'erit' is future",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'erit' is future indicative",
+        "Perfect indicative": "Perfect would be 'fuit' — 'erit' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "eo, ire, ii, itum", "erro, errare, erravi, erratum", "edo, edere, edi, esum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "erro, errare, erravi, erratum": "These are the parts of 'errare' (to wander/err)",
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'audeat'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Future indicative"],
+      "reveal": { "word": "audeat", "gloss": "dares" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'audet' — 'audeat' with -eat ending is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'auderet' — 'audeat' is present subjunctive",
+        "Future indicative": "Future would be 'audebit' — 'audeat' is subjunctive"
+      }
+    },
+    {
+      "prompt": "Why is the subjunctive used with 'audeat'?",
+      "target": "Relative clause of characteristic — 'the sort of person who would dare'",
+      "choices": ["Purpose clause", "Result clause", "Relative clause of characteristic — 'the sort of person who would dare'", "Indirect question"],
+      "reveal": null,
+      "hints": {
+        "Purpose clause": "Purpose uses 'ut/ne' — this is a relative clause (introduced by 'qui') with subjunctive of characteristic",
+        "Result clause": "Result uses 'ut' + subjunctive — the 'qui' here introduces a relative clause of characteristic",
+        "Indirect question": "Indirect questions use interrogative words — 'qui' here is a relative pronoun describing a type of person"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'audeat'?",
+      "target": "audeo, audere, ausus sum",
+      "choices": ["audeo, audere, ausus sum", "audio, audire, audivi, auditum", "augeo, augere, auxi, auctum", "aufero, auferre, abstuli, ablatum"],
+      "reveal": null,
+      "hints": {
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear) — not 'audere' (to dare)",
+        "augeo, augere, auxi, auctum": "These are the parts of 'augere' (to increase)",
+        "aufero, auferre, abstuli, ablatum": "These are the parts of 'auferre' (to carry away)"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "te", "gloss": "you" },
+      "hints": {
+        "Nominative": "Nominative would be 'tu' — 'te' is accusative, object of 'defendere'",
+        "Dative": "Dative would be 'tibi' — 'te' is accusative",
+        "Ablative": "'te' can be ablative, but here it is the direct object of 'defendere'"
+      }
+    }
+  ],
+  "translation": "As long as there will be anyone who dares to defend you."
+}

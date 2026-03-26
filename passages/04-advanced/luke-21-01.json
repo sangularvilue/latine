@@ -1,0 +1,130 @@
+{
+  "id": "luke-21-01",
+  "source": "Vulgate",
+  "reference": "Lucas 21:8",
+  "latin": ["Videte", "ne", "seducamini", "multi", "enim", "venient", "in", "nomine", "meo"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb of the first clause?",
+      "target": "Videte",
+      "choices": ["Videte", "seducamini", "venient", "ne"],
+      "reveal": null,
+      "hints": {
+        "seducamini": "'Seducamini' is a subjunctive verb in the subordinate clause after 'ne'",
+        "venient": "'Venient' is a finite verb but belongs to the second clause",
+        "ne": "'Ne' is a conjunction meaning 'lest/that not'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Videte' translates to?",
+      "target": "to see / to watch",
+      "choices": ["to see / to watch", "to conquer", "to live", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'To conquer' is 'vincere' — 'Videte' comes from 'videre' (to see)",
+        "to live": "'To live' is 'vivere' — 'Videte' comes from 'videre'",
+        "to avoid": "'To avoid' is 'vitare' — 'Videte' comes from 'videre' (to see/watch out)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Videte'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "future indicative"],
+      "reveal": "Videte = Watch out! See to it! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'videtis' — 'Videte' is imperative",
+        "present subjunctive": "Present subjunctive 2nd plural would be 'videatis' — 'Videte' is imperative",
+        "future indicative": "Future 2nd plural would be 'videbitis' — 'Videte' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Videte'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vinco' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the principal parts of 'vivo' (to live)",
+        "vito, vitare, vitavi, vitatum": "These are the principal parts of 'vito' (to avoid)"
+      }
+    },
+    {
+      "prompt": "What mood is 'seducamini'?",
+      "target": "present passive subjunctive",
+      "choices": ["present passive subjunctive", "present passive indicative", "future passive indicative", "imperfect passive subjunctive"],
+      "reveal": "seducamini = you be led astray (pres. pass. subj.)",
+      "hints": {
+        "present passive indicative": "Present passive indicative 2nd pl. would be 'seducimini' — the -a- marks subjunctive",
+        "future passive indicative": "Future passive would be 'seducemini' — 'seducamini' has -a- (subjunctive)",
+        "imperfect passive subjunctive": "Imperfect passive subjunctive would be 'seduceremini' — 'seducamini' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'seducamini'?",
+      "target": "seduco, seducere, seduxi, seductum",
+      "choices": ["seduco, seducere, seduxi, seductum", "duco, ducere, duxi, ductum", "sequor, sequi, secutus sum, —", "sedeo, sedere, sedi, sessum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'duco' (to lead) — 'seducere' is the compound se- + ducere",
+        "sequor, sequi, secutus sum, —": "These are the parts of 'sequor' (to follow) — a deponent verb",
+        "sedeo, sedere, sedi, sessum": "These are the parts of 'sedeo' (to sit) — different root from 'seducere'"
+      }
+    },
+    {
+      "prompt": "Why is 'seducamini' in the subjunctive?",
+      "target": "'ne' + subjunctive expresses a negative purpose/warning clause",
+      "choices": ["'ne' + subjunctive expresses a negative purpose/warning clause", "it is an indirect question", "it is a result clause", "it is a temporal clause"],
+      "reveal": "Videte ne seducamini = See to it that you are not led astray",
+      "hints": {
+        "it is an indirect question": "Indirect questions use interrogative words (quis, quid, etc.), not 'ne' after 'videte'",
+        "it is a result clause": "Result clauses use 'ut/ut non' with subjunctive, not 'ne' after an imperative of warning",
+        "it is a temporal clause": "Temporal clauses use 'cum/dum/postquam' — 'ne' here signals a warning clause"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'venient'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "venient = they will come (3rd pl. fut.)",
+      "hints": {
+        "present indicative": "Present would be 'veniunt' — 'venient' with -ie- is future",
+        "present subjunctive": "Present subjunctive would be 'veniant' — 'venient' is future indicative",
+        "perfect indicative": "Perfect would be 'venerunt' — 'venient' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venient'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vendo, vendere, vendidi, venditum", "vinco, vincere, vici, victum", "verto, vertere, verti, versum"],
+      "reveal": null,
+      "hints": {
+        "vendo, vendere, vendidi, venditum": "These are the parts of 'vendo' (to sell)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vinco' (to conquer)",
+        "verto, vertere, verti, versum": "These are the parts of 'verto' (to turn)"
+      }
+    },
+    {
+      "prompt": "What case is 'nomine'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "vocative", "dative"],
+      "reveal": "nomine = in the name (abl.)",
+      "hints": {
+        "nominative": "Nominative would be 'nomen' — 'nomine' with -e ending is ablative",
+        "vocative": "Vocative would be 'nomen' — 'nomine' is ablative after 'in'",
+        "dative": "Dative would be 'nomini' — 'nomine' is ablative governed by 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'nomen, nominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'nominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'nominis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'nominis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Watch out that you are not led astray, for many will come in my name"
+}

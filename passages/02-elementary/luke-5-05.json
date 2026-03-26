@@ -1,0 +1,86 @@
+{
+  "id": "luke-5-05",
+  "source": "Vulgate",
+  "reference": "Lucas 5:10",
+  "latin": ["Noli", "timere"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "Noli",
+      "choices": ["Noli", "timere", "nolle", "time"],
+      "reveal": null,
+      "hints": {
+        "timere": "'timere' is an infinitive, not a finite verb",
+        "nolle": "'nolle' is the infinitive of 'nolo' — 'Noli' is the imperative form",
+        "time": "'time' does not appear in this phrase — 'Noli' is the finite verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Noli' translates to?",
+      "target": "to be unwilling / to not want",
+      "choices": ["to be unwilling / to not want", "to know", "to harm", "to deny"],
+      "reveal": null,
+      "hints": {
+        "to know": "'to know' is 'nosse/scire' — 'Noli' comes from 'nolle' (to be unwilling)",
+        "to harm": "'to harm' is 'nocere' — 'Noli' comes from 'nolle' (to be unwilling)",
+        "to deny": "'to deny' is 'negare' — 'Noli' comes from 'nolle' (to be unwilling)"
+      }
+    },
+    {
+      "prompt": "What mood is 'Noli'?",
+      "target": "imperative",
+      "choices": ["present indicative", "imperative", "subjunctive", "perfect"],
+      "reveal": { "word": "Noli", "gloss": "do not! (+ infinitive)" },
+      "hints": {
+        "present indicative": "Present indicative 1st person is 'nolo' — 'Noli' is the imperative singular",
+        "subjunctive": "Subjunctive would be 'nolim' — 'Noli' is the imperative used for prohibitions",
+        "perfect": "Perfect would be 'nolui' — 'Noli' is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Noli'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "nosco, noscere, novi, notum", "noceo, nocere, nocui, nocitum", "nego, negare, negavi, negatum"],
+      "reveal": null,
+      "hints": {
+        "nosco, noscere, novi, notum": "These are principal parts of 'nosco' (to get to know)",
+        "noceo, nocere, nocui, nocitum": "These are principal parts of 'noceo' (to harm)",
+        "nego, negare, negavi, negatum": "These are principal parts of 'nego' (to deny)"
+      }
+    },
+    {
+      "prompt": "'Timere' is what form?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "participle", "gerund"],
+      "reveal": null,
+      "hints": {
+        "imperative": "Imperative would be 'time' — 'timere' ending in -ere is the infinitive",
+        "participle": "Participle would be 'timens' or 'timitus' — 'timere' is the infinitive",
+        "gerund": "Gerund would be 'timendi' — 'timere' is the present active infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive 'timere' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to honor", "to be silent", "to tremble"],
+      "reveal": { "word": "timere", "gloss": "to fear / to be afraid" },
+      "hints": {
+        "to honor": "'to honor' is 'honorare' — 'timere' means 'to fear'",
+        "to be silent": "'to be silent' is 'tacere' — 'timere' means 'to fear'",
+        "to tremble": "'to tremble' is 'tremere' — 'timere' means 'to fear' (related but distinct)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timere'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "taceo, tacere, tacui, tacitum", "tremo, tremere, tremui, —"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are principal parts of 'teneo' (to hold)",
+        "taceo, tacere, tacui, tacitum": "These are principal parts of 'taceo' (to be silent)",
+        "tremo, tremere, tremui, —": "These are principal parts of 'tremo' (to tremble)"
+      }
+    }
+  ],
+  "translation": "Do not be afraid"
+}

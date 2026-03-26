@@ -1,0 +1,75 @@
+{
+  "id": "luke-7-09",
+  "source": "Vulgate",
+  "reference": "Lucas 7:50",
+  "latin": ["Fides", "tua", "te", "salvam", "fecit"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "fecit",
+      "choices": ["Fides", "tua", "salvam", "fecit"],
+      "reveal": null,
+      "hints": {
+        "Fides": "'Fides' is a noun meaning 'faith'",
+        "tua": "'tua' is a possessive adjective meaning 'your'",
+        "salvam": "'salvam' is an adjective meaning 'safe/saved'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fecit' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to carry", "to speak", "to strike"],
+      "reveal": null,
+      "hints": {
+        "to carry": "'to carry' is 'ferre' — 'fecit' comes from 'facere' (to make/do)",
+        "to speak": "'to speak' is 'dicere' — 'fecit' comes from 'facere' (to make/do)",
+        "to strike": "'to strike' is 'ferire' — 'fecit' comes from 'facere' (to make/do)"
+      }
+    },
+    {
+      "prompt": "What tense is 'fecit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect", "future"],
+      "reveal": { "word": "fecit", "gloss": "has made / has saved" },
+      "hints": {
+        "present indicative": "Present would be 'facit' — 'fecit' is perfect",
+        "imperfect": "Imperfect would be 'faciebat' — 'fecit' is perfect",
+        "future": "Future would be 'faciet' — 'fecit' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecit'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fallo, fallere, fefelli, falsum", "figo, figere, fixi, fixum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are principal parts of 'fero' (to carry)",
+        "fallo, fallere, fefelli, falsum": "These are principal parts of 'fallo' (to deceive)",
+        "figo, figere, fixi, fixum": "These are principal parts of 'figo' (to fix/fasten)"
+      }
+    },
+    {
+      "prompt": "What case is 'Fides'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Fides", "gloss": "faith" },
+      "hints": {
+        "accusative": "Accusative would be 'fidem' — 'Fides' is nominative, the subject",
+        "ablative": "Ablative would be 'fide' — 'Fides' is nominative",
+        "genitive": "Genitive would be 'fidei' — 'Fides' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'fides, fidei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'fidei' ends in -ei",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'fidei' ends in -ei",
+        "4th declension": "4th declension nouns have genitive in -us — 'fidei' ends in -ei"
+      }
+    }
+  ],
+  "translation": "Your faith has saved you"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-22",
+  "source": "Cicero",
+  "reference": "In Cat. I.10",
+  "latin": ["Nunc", "te", "patria", "quae", "communis", "est", "mater", "odit"],
+  "steps": [
+    {
+      "prompt": "Which word is the main clause verb?",
+      "target": "odit",
+      "choices": ["patria", "est", "mater", "odit"],
+      "reveal": null,
+      "hints": {
+        "patria": "'patria' is a noun meaning 'fatherland / country'",
+        "est": "'est' is a verb but in the relative clause ('quae communis est mater')",
+        "mater": "'mater' is a noun meaning 'mother'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'odit' translates to?",
+      "target": "to hate",
+      "choices": ["to smell", "to hate", "to hear", "to despise"],
+      "reveal": null,
+      "hints": {
+        "to smell": "'to smell' is 'olere' — 'odisse' means 'to hate'",
+        "to hear": "'to hear' is 'audire' — 'odisse' means 'to hate'",
+        "to despise": "'to despise' is close but 'contemnere' — 'odisse' specifically means 'to hate'"
+      }
+    },
+    {
+      "prompt": "'Odit' is a defective verb. What is unusual about its tense?",
+      "target": "It is perfect in form but present in meaning",
+      "choices": ["It has no infinitive", "It is perfect in form but present in meaning", "It can only be passive", "It only exists in the subjunctive"],
+      "reveal": { "word": "odit", "gloss": "hates" },
+      "hints": {
+        "It has no infinitive": "'odi' does have an infinitive: 'odisse' — the key oddity is that perfect forms have present meaning",
+        "It can only be passive": "'odi' is active in meaning — the peculiarity is perfect form = present meaning",
+        "It only exists in the subjunctive": "'odit' is indicative — the verb is defective in that perfect = present in meaning"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'odit'?",
+      "target": "odi, odisse, osurus",
+      "choices": ["odi, odisse, osurus", "odio, odire, odivi, oditum", "audio, audire, audivi, auditum", "oleo, olere, olui, —"],
+      "reveal": null,
+      "hints": {
+        "odio, odire, odivi, oditum": "This is a fabricated paradigm — 'odi' is a defective verb with no present-system forms",
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear)",
+        "oleo, olere, olui, —": "These are the parts of 'olere' (to smell)"
+      }
+    },
+    {
+      "prompt": "What case is 'te'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "te", "gloss": "you" },
+      "hints": {
+        "Nominative": "Nominative would be 'tu' — 'te' is the accusative object of 'odit'",
+        "Dative": "Dative would be 'tibi' — 'te' is accusative",
+        "Ablative": "'te' can be ablative, but here it's the direct object of 'odit' (accusative)"
+      }
+    },
+    {
+      "prompt": "What case is 'patria'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "patria", "gloss": "the fatherland" },
+      "hints": {
+        "Accusative": "Accusative would be 'patriam' — 'patria' is nominative, the subject of 'odit'",
+        "Ablative": "Ablative would be 'patria' (same form), but here it's the nominative subject",
+        "Vocative": "Vocative would look the same, but 'patria' is the subject performing the action of hating"
+      }
+    },
+    {
+      "prompt": "Declension of 'patria'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'patria, -ae' is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'patria, -ae' is 1st declension",
+        "5th": "5th declension nouns end in -es — 'patria, -ae' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'mater'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "mater", "gloss": "mother" },
+      "hints": {
+        "Accusative": "Accusative would be 'matrem' — 'mater' is nominative, predicate in the relative clause",
+        "Genitive": "Genitive would be 'matris' — 'mater' is nominative",
+        "Ablative": "Ablative would be 'matre' — 'mater' is nominative"
+      }
+    },
+    {
+      "prompt": "What is the rhetorical effect of calling the 'patria' a 'communis mater'?",
+      "target": "Personification — Rome is a living mother who hates her treacherous son",
+      "choices": ["A legal metaphor about citizenship", "Personification — Rome is a living mother who hates her treacherous son", "A reference to Catiline's actual mother", "A geographic description"],
+      "reveal": null,
+      "hints": {
+        "A legal metaphor about citizenship": "While citizenship is related, calling Rome 'mother' is personification, giving the state human emotions",
+        "A reference to Catiline's actual mother": "'communis mater' means 'common mother' — it refers to the fatherland shared by all citizens",
+        "A geographic description": "Calling Rome 'mother' is not about geography but about the emotional bond of citizen to state"
+      }
+    }
+  ],
+  "translation": "Now the fatherland, which is the common mother of all, hates you."
+}

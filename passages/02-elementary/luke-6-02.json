@@ -1,0 +1,75 @@
+{
+  "id": "luke-6-02",
+  "source": "Vulgate",
+  "reference": "Lucas 6:21",
+  "latin": ["Beati", "qui", "nunc", "fletis"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "fletis",
+      "choices": ["Beati", "qui", "nunc", "fletis"],
+      "reveal": null,
+      "hints": {
+        "Beati": "'Beati' is an adjective meaning 'blessed'",
+        "qui": "'qui' is a relative pronoun meaning 'who'",
+        "nunc": "'nunc' is an adverb meaning 'now'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fletis' translates to?",
+      "target": "to weep",
+      "choices": ["to weep", "to flee", "to bloom", "to bend"],
+      "reveal": null,
+      "hints": {
+        "to flee": "'to flee' is 'fugere' — 'fletis' comes from 'flere' (to weep)",
+        "to bloom": "'to bloom' is 'florere' — 'fletis' comes from 'flere' (to weep)",
+        "to bend": "'to bend' is 'flectere' — 'fletis' comes from 'flere' (to weep)"
+      }
+    },
+    {
+      "prompt": "What tense is 'fletis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "future", "imperfect"],
+      "reveal": { "word": "fletis", "gloss": "you (pl.) weep" },
+      "hints": {
+        "perfect": "Perfect 2nd plural would be 'flevistis' — 'fletis' is present",
+        "future": "Future 2nd plural would be 'flebitis' — 'fletis' is present",
+        "imperfect": "Imperfect 2nd plural would be 'flebatis' — 'fletis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fletis'?",
+      "target": "fleo, flere, flevi, fletum",
+      "choices": ["fleo, flere, flevi, fletum", "fugio, fugere, fugi, fugitum", "floreo, florere, florui, —", "flecto, flectere, flexi, flexum"],
+      "reveal": null,
+      "hints": {
+        "fugio, fugere, fugi, fugitum": "These are principal parts of 'fugio' (to flee)",
+        "floreo, florere, florui, —": "These are principal parts of 'floreo' (to bloom/flourish)",
+        "flecto, flectere, flexi, flexum": "These are principal parts of 'flecto' (to bend)"
+      }
+    },
+    {
+      "prompt": "What function does 'qui' serve?",
+      "target": "relative pronoun (who)",
+      "choices": ["relative pronoun (who)", "interrogative (who?)", "conjunction (because)", "indefinite (someone)"],
+      "reveal": { "word": "qui", "gloss": "who" },
+      "hints": {
+        "interrogative (who?)": "'qui' can be interrogative, but here it introduces a relative clause modifying 'beati'",
+        "conjunction (because)": "'quia' means 'because' — 'qui' here is a relative pronoun",
+        "indefinite (someone)": "'quis' is indefinite — 'qui' here is the relative pronoun 'who'"
+      }
+    },
+    {
+      "prompt": "What case is 'qui' here?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": null,
+      "hints": {
+        "accusative": "Accusative masculine plural would be 'quos' — 'qui' is nominative plural",
+        "ablative": "Ablative would be 'quibus' — 'qui' is nominative, subject of 'fletis'",
+        "dative": "Dative would be 'quibus' — 'qui' is nominative plural"
+      }
+    }
+  ],
+  "translation": "Blessed are you who weep now"
+}

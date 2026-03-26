@@ -1,0 +1,119 @@
+{
+  "id": "luke-11-24",
+  "source": "Vulgate",
+  "reference": "Lucas 11:10",
+  "latin": ["Omnis", "qui", "petit", "accipit"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "qui",
+      "choices": ["Omnis", "qui", "petit", "accipit"],
+      "reveal": null,
+      "hints": {
+        "Omnis": "'Omnis' is an adjective meaning 'every/all'",
+        "petit": "'Petit' is a verb meaning 'seeks/asks'",
+        "accipit": "'Accipit' is a verb meaning 'receives'"
+      }
+    },
+    {
+      "prompt": "What case is 'qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "qui = who (nom. masc. sg., subject of 'petit')",
+      "hints": {
+        "ablative": "Ablative would be 'quo' — 'qui' is nominative, subject of 'petit'",
+        "dative": "Dative would be 'cui' — 'qui' is nominative",
+        "accusative": "Accusative would be 'quem' — 'qui' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'petit' translates to?",
+      "target": "to seek / to ask",
+      "choices": ["to seek / to ask", "to be small", "to attack", "to repeat"],
+      "reveal": null,
+      "hints": {
+        "to be small": "English 'petit/petite' meaning 'small' is French — Latin 'petere' means 'to seek'",
+        "to attack": "While 'petere' can mean 'to attack', in this context it means 'to ask/seek'",
+        "to repeat": "That would be 'repetere' — 'petere' means 'to seek/ask'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'petit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "petit = asks / seeks",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'petat' — 'petit' is present indicative",
+        "perfect indicative": "Perfect would be 'petivit' — 'petit' is present indicative",
+        "future indicative": "Future would be 'petet' — 'petit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'petit'?",
+      "target": "peto, petere, petivi, petitum",
+      "choices": ["peto, petere, petivi, petitum", "pono, ponere, posui, positum", "posco, poscere, poposci, —", "repeto, repetere, repetivi, repetitum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place)",
+        "posco, poscere, poposci, —": "These are the parts of 'poscere' (to demand)",
+        "repeto, repetere, repetivi, repetitum": "These are the parts of 'repetere' (to seek again)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'accipit' translates to?",
+      "target": "to receive",
+      "choices": ["to receive", "to seize", "to send", "to begin"],
+      "reveal": null,
+      "hints": {
+        "to seize": "That would be 'capere/rapere' — 'accipit' comes from 'accipere' (to receive)",
+        "to send": "That would be 'mittere' — 'accipit' comes from 'accipere' (to receive)",
+        "to begin": "That would be 'incipere' — 'accipit' comes from 'accipere' (to receive)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'accipit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "accipit = receives",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'accipiat' — 'accipit' is present indicative",
+        "perfect indicative": "Perfect would be 'accepit' — 'accipit' is present indicative",
+        "future indicative": "Future would be 'accipiet' — 'accipit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'accipit'?",
+      "target": "accipio, accipere, accepi, acceptum",
+      "choices": ["accipio, accipere, accepi, acceptum", "capio, capere, cepi, captum", "incipio, incipere, incepi, inceptum", "recipio, recipere, recepi, receptum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the parts of 'capere' (to seize) — 'accipere' is its compound",
+        "incipio, incipere, incepi, inceptum": "These are the parts of 'incipere' (to begin)",
+        "recipio, recipere, recepi, receptum": "These are the parts of 'recipere' (to take back)"
+      }
+    },
+    {
+      "prompt": "What case is 'Omnis'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "Omnis = everyone / all (nom. masc. sg.)",
+      "hints": {
+        "genitive": "Genitive would be 'omnis' as well, but context (subject of 'accipit') shows nominative",
+        "accusative": "Accusative would be 'omnem' — 'Omnis' is nominative",
+        "ablative": "Ablative would be 'omni' — 'Omnis' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'omnis'?",
+      "target": "3rd declension (i-stem adjective)",
+      "choices": ["1st/2nd declension adjective", "3rd declension (i-stem adjective)", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st/2nd declension adjective": "1st/2nd decl. adj. would be 'bonus, -a, -um' — 'omnis, -e' is 3rd declension",
+        "4th declension": "Adjectives do not follow 4th declension — 'omnis' is 3rd declension",
+        "indeclinable": "'Omnis' declines: omnis, omnis, omni, omnem, omni — it is 3rd declension"
+      }
+    }
+  ],
+  "translation": "Everyone who asks receives"
+}

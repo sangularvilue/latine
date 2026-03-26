@@ -1,0 +1,97 @@
+{
+  "id": "luke-5-10",
+  "source": "Vulgate",
+  "reference": "Lucas 5:20",
+  "latin": ["Homo", "remittuntur", "tibi", "peccata"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "remittuntur",
+      "choices": ["Homo", "remittuntur", "tibi", "peccata"],
+      "reveal": null,
+      "hints": {
+        "Homo": "'Homo' is a noun meaning 'man' in the vocative",
+        "tibi": "'tibi' is a pronoun meaning 'to you'",
+        "peccata": "'peccata' is a noun meaning 'sins'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'remittuntur' translates to?",
+      "target": "to forgive / to send back",
+      "choices": ["to forgive / to send back", "to send", "to return", "to remind"],
+      "reveal": null,
+      "hints": {
+        "to send": "'to send' is 'mittere' — 'remittuntur' comes from 'remittere' (to forgive)",
+        "to return": "'to return' is 'redire' — 'remittere' means 'to forgive/send back'",
+        "to remind": "'to remind' is 'admonere' — 'remittere' means 'to forgive'"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'remittuntur'?",
+      "target": "present passive indicative",
+      "choices": ["present active indicative", "present passive indicative", "perfect passive", "imperfect passive"],
+      "reveal": { "word": "remittuntur", "gloss": "are forgiven" },
+      "hints": {
+        "present active indicative": "Active would be 'remittunt' — the -untur ending marks passive voice",
+        "perfect passive": "Perfect passive would be 'remissa sunt' — 'remittuntur' is present passive",
+        "imperfect passive": "Imperfect passive would be 'remittebantur' — 'remittuntur' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'remittuntur'?",
+      "target": "remitto, remittere, remisi, remissum",
+      "choices": ["remitto, remittere, remisi, remissum", "mitto, mittere, misi, missum", "redeo, redire, redii, reditum", "reminiscor, reminisci, —, —"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are principal parts of 'mitto' (to send) — 'remitto' is the compound",
+        "redeo, redire, redii, reditum": "These are principal parts of 'redeo' (to return)",
+        "reminiscor, reminisci, —, —": "These are principal parts of 'reminiscor' (to remember)"
+      }
+    },
+    {
+      "prompt": "What case is 'Homo'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": { "word": "Homo", "gloss": "man! (direct address)" },
+      "hints": {
+        "nominative": "'Homo' is nominative in form, but here Jesus addresses the paralytic directly — vocative",
+        "accusative": "Accusative would be 'hominem' — 'Homo' is vocative (direct address)",
+        "ablative": "Ablative would be 'homine' — 'Homo' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'peccata'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "peccata", "gloss": "sins" },
+      "hints": {
+        "accusative": "Accusative neuter plural is also 'peccata', but here it is the subject of the passive verb",
+        "ablative": "Ablative plural would be 'peccatis' — 'peccata' is nominative plural",
+        "genitive": "Genitive plural would be 'peccatorum' — 'peccata' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccatum, peccati'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'peccati' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'peccati' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'peccati' ends in -i"
+      }
+    }
+  ],
+  "translation": "Man, your sins are forgiven you"
+}

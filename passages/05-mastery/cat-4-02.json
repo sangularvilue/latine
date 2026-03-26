@@ -1,0 +1,119 @@
+{
+  "id": "cat-4-02",
+  "source": "Cicero",
+  "reference": "In Catilinam IV.3",
+  "latin": ["Silanum", "vehementer", "moveri", "video"],
+  "steps": [
+    {
+      "prompt": "What case is 'Silanum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Silanum = Silanus (acc., subject of infinitive)",
+      "hints": {
+        "nominative": "Nominative would be 'Silanus' — 'Silanum' with -um is accusative",
+        "ablative": "Ablative would be 'Silano' — 'Silanum' is accusative",
+        "genitive": "Genitive would be 'Silani' — 'Silanum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Silanus, Silani'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Silani' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Silani' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Silani' ends in -i"
+      }
+    },
+    {
+      "prompt": "This is an indirect statement. What role does 'Silanum' play?",
+      "target": "accusative subject of the infinitive 'moveri'",
+      "choices": ["accusative subject of the infinitive 'moveri'", "direct object of 'video'", "object of the infinitive 'moveri'", "ablative of agent"],
+      "reveal": null,
+      "hints": {
+        "direct object of 'video'": "In indirect discourse, the accusative is the subject of the infinitive — 'video' governs the whole clause",
+        "object of the infinitive 'moveri'": "'Moveri' is passive — 'Silanum' is its subject, not object",
+        "ablative of agent": "Ablative of agent would use 'a/ab' + ablative — 'Silanum' is accusative subject"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'moveri' translates to?",
+      "target": "to be moved",
+      "choices": ["to be moved", "to move (active)", "to have been moved", "to remove"],
+      "reveal": null,
+      "hints": {
+        "to move (active)": "'To move' actively is 'movere' — 'moveri' is the present passive infinitive",
+        "to have been moved": "'To have been moved' would be 'motum esse' — 'moveri' is present passive",
+        "to remove": "'To remove' is 'removere' or 'amovere' — 'moveri' is passive of 'movere'"
+      }
+    },
+    {
+      "prompt": "What voice and tense is the infinitive 'moveri'?",
+      "target": "present passive infinitive",
+      "choices": ["present passive infinitive", "present active infinitive", "perfect passive infinitive", "future passive infinitive"],
+      "reveal": "moveri = to be moved (contemporaneous with 'video')",
+      "hints": {
+        "present active infinitive": "Present active would be 'movere' — 'moveri' with -i ending is passive",
+        "perfect passive infinitive": "Perfect passive would be 'motum esse' — 'moveri' is present passive",
+        "future passive infinitive": "Future passive would be 'motum iri' — 'moveri' is present passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'moveri'?",
+      "target": "moveo, movere, movi, motum",
+      "choices": ["moveo, movere, movi, motum", "moneo, monere, monui, monitum", "maneo, manere, mansi, mansum", "mordeo, mordere, momordi, morsum"],
+      "reveal": null,
+      "hints": {
+        "moneo, monere, monui, monitum": "These are the parts of 'monere' (to warn) — similar but different verb",
+        "maneo, manere, mansi, mansum": "These are the parts of 'manere' (to remain)",
+        "mordeo, mordere, momordi, morsum": "These are the parts of 'mordere' (to bite)"
+      }
+    },
+    {
+      "prompt": "What does 'vehementer' mean?",
+      "target": "violently / strongly",
+      "choices": ["violently / strongly", "quickly", "scarcely", "frequently"],
+      "reveal": "vehementer = strongly / deeply",
+      "hints": {
+        "quickly": "'Quickly' is 'celeriter' — 'vehementer' means strongly or violently",
+        "scarcely": "'Scarcely' is 'vix' — 'vehementer' means strongly",
+        "frequently": "'Frequently' is 'saepe' — 'vehementer' means strongly or intensely"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'video' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to seem", "to envy", "to live"],
+      "reveal": null,
+      "hints": {
+        "to seem": "'Videri' (passive) means 'to seem' — active 'video' means 'I see'",
+        "to envy": "'To envy' is 'invidere' — 'video' is from 'videre' (to see)",
+        "to live": "'To live' is 'vivere' — 'video' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'video'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "video = I see",
+      "hints": {
+        "perfect indicative": "Perfect would be 'vidi' — 'video' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'videam' — 'video' is present indicative",
+        "future indicative": "Future would be 'videbo' — 'video' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'video'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vito, vitare, vitavi, vitatum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)"
+      }
+    }
+  ],
+  "translation": "I see that Silanus is being deeply moved"
+}

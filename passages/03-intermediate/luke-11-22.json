@@ -1,0 +1,119 @@
+{
+  "id": "luke-11-22",
+  "source": "Vulgate",
+  "reference": "Lucas 11:2",
+  "latin": ["Pater", "noster", "qui", "es", "in", "caelis"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "qui",
+      "choices": ["Pater", "qui", "noster", "caelis"],
+      "reveal": null,
+      "hints": {
+        "Pater": "'Pater' is a noun meaning 'Father'",
+        "noster": "'Noster' is a possessive adjective meaning 'our'",
+        "caelis": "'Caelis' is a noun meaning 'heavens'"
+      }
+    },
+    {
+      "prompt": "What case is 'qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "qui = who (nom. masc. sg., subject of 'es')",
+      "hints": {
+        "ablative": "Ablative would be 'quo' — 'qui' is nominative, subject of 'es'",
+        "dative": "Dative would be 'cui' — 'qui' is nominative",
+        "accusative": "Accusative would be 'quem' — 'qui' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to have"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'es' here is from 'esse' (to be)",
+        "to go out": "That would be 'exire' — 'es' is from 'esse' (to be)",
+        "to have": "That would be 'habere' — 'es' is from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'es'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "es = you are",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sis' — 'es' is present indicative",
+        "perfect indicative": "Perfect would be 'fuisti' — 'es' is present indicative",
+        "imperfect indicative": "Imperfect would be 'eras' — 'es' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'es'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "habeo, habere, habui, habitum", "exsto, exstare, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "habeo, habere, habui, habitum": "These are the parts of 'habere' (to have)",
+        "exsto, exstare, exstiti, —": "These are the parts of 'exstare' (to stand out)"
+      }
+    },
+    {
+      "prompt": "What case is 'Pater'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Pater = Father (voc., direct address in prayer)",
+      "hints": {
+        "nominative": "While 'Pater' looks identical in nominative, this is a prayer addressing God — vocative",
+        "accusative": "Accusative would be 'Patrem' — 'Pater' is vocative",
+        "genitive": "Genitive would be 'Patris' — 'Pater' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'pater, patris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'patris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'patris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'patris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'caelis'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "caelis = in the heavens (abl. pl., with preposition 'in')",
+      "hints": {
+        "nominative": "Nominative plural would be 'caeli' — 'caelis' is dative/ablative plural",
+        "dative": "While 'caelis' could be dative, after 'in' (location) it is ablative",
+        "genitive": "Genitive plural would be 'caelorum' — 'caelis' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'caelum, caeli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'caeli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'caeli' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'caeli' ends in -i"
+      }
+    },
+    {
+      "prompt": "The preposition 'in' + ablative means?",
+      "target": "in / on (location)",
+      "choices": ["in / on (location)", "into (direction)", "out of", "away from"],
+      "reveal": null,
+      "hints": {
+        "into (direction)": "'In' + accusative means 'into' — 'in' + ablative means 'in/on' (location)",
+        "out of": "'Out of' would be 'ex/e' + ablative",
+        "away from": "'Away from' would be 'ab/a' + ablative"
+      }
+    }
+  ],
+  "translation": "Our Father, who art in heaven"
+}

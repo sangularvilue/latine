@@ -1,0 +1,119 @@
+{
+  "id": "luke-10-34",
+  "source": "Vulgate",
+  "reference": "Lucas 10:21",
+  "latin": ["Abscondisti", "haec", "a", "sapientibus", "et", "revelasti", "ea", "parvulis"],
+  "steps": [
+    {
+      "prompt": "Which words are finite verbs?",
+      "target": "Abscondisti and revelasti",
+      "choices": ["Abscondisti and revelasti", "haec and ea", "sapientibus and parvulis", "Abscondisti only"],
+      "reveal": null,
+      "hints": {
+        "haec and ea": "'Haec' and 'ea' are pronouns meaning 'these things' and 'them'",
+        "sapientibus and parvulis": "'Sapientibus' and 'parvulis' are nouns/adjectives in the dative/ablative",
+        "Abscondisti only": "Both 'Abscondisti' and 'revelasti' are perfect indicative 2nd person verbs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Abscondisti' translates to?",
+      "target": "to hide / to conceal",
+      "choices": ["to hide / to conceal", "to absolve", "to abstain", "to absent oneself"],
+      "reveal": null,
+      "hints": {
+        "to absolve": "That would be 'absolvere' — 'Abscondisti' comes from 'abscondere' (to hide)",
+        "to abstain": "That would be 'abstinere' — 'Abscondisti' comes from 'abscondere' (to hide)",
+        "to absent oneself": "That is not a standard Latin verb — 'abscondere' means 'to hide/conceal'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Abscondisti'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "Abscondisti = you hid / you have hidden",
+      "hints": {
+        "present indicative": "Present would be 'abscondis' — 'Abscondisti' with -isti is perfect 2nd sg.",
+        "imperfect indicative": "Imperfect would be 'abscondebas' — 'Abscondisti' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'absconderis' — 'Abscondisti' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Abscondisti'?",
+      "target": "abscondo, abscondere, abscondi, absconditum",
+      "choices": ["abscondo, abscondere, abscondi, absconditum", "condo, condere, condidi, conditum", "abdo, abdere, abdidi, abditum", "occulo, occulere, occului, occultum"],
+      "reveal": null,
+      "hints": {
+        "condo, condere, condidi, conditum": "These are the parts of 'condere' (to found/store) — 'abscondere' is ab + condere",
+        "abdo, abdere, abdidi, abditum": "These are the parts of 'abdere' (to put away/hide) — a synonym",
+        "occulo, occulere, occului, occultum": "These are the parts of 'occulere' (to conceal) — a synonym"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'revelasti' translates to?",
+      "target": "to reveal",
+      "choices": ["to reveal", "to rebel", "to return", "to revere"],
+      "reveal": null,
+      "hints": {
+        "to rebel": "That would be 'rebellare' — 'revelasti' comes from 'revelare' (to reveal)",
+        "to return": "That would be 'revertere' — 'revelasti' comes from 'revelare' (to reveal)",
+        "to revere": "That would be 'revereri' — 'revelasti' comes from 'revelare' (to reveal)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'revelasti'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "revelasti = you revealed / you have revealed",
+      "hints": {
+        "present indicative": "Present would be 'revelas' — 'revelasti' with -asti is perfect (1st conj.)",
+        "imperfect indicative": "Imperfect would be 'revelabas' — 'revelasti' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'revelaveras' — 'revelasti' is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'revelasti'?",
+      "target": "revelo, revelare, revelavi, revelatum",
+      "choices": ["revelo, revelare, revelavi, revelatum", "velo, velare, velavi, velatum", "refero, referre, rettuli, relatum", "rego, regere, rexi, rectum"],
+      "reveal": null,
+      "hints": {
+        "velo, velare, velavi, velatum": "These are the parts of 'velare' (to veil) — 'revelare' is re + velare (to unveil)",
+        "refero, referre, rettuli, relatum": "These are the parts of 'referre' (to bring back/report)",
+        "rego, regere, rexi, rectum": "These are the parts of 'regere' (to rule)"
+      }
+    },
+    {
+      "prompt": "What case is 'sapientibus'?",
+      "target": "ablative (with preposition 'a')",
+      "choices": ["dative", "ablative (with preposition 'a')", "nominative", "genitive"],
+      "reveal": "sapientibus = from the wise (abl. pl., after 'a')",
+      "hints": {
+        "dative": "While 'sapientibus' could be dative, after 'a' it must be ablative (separation)",
+        "nominative": "Nominative plural would be 'sapientes' — 'sapientibus' is dat./abl. plural",
+        "genitive": "Genitive plural would be 'sapientium' — 'sapientibus' is ablative"
+      }
+    },
+    {
+      "prompt": "What case is 'parvulis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "parvulis = to little ones (dat. pl., indirect object of 'revelasti')",
+      "hints": {
+        "nominative": "Nominative plural would be 'parvuli' — 'parvulis' is dative/ablative",
+        "ablative": "While 'parvulis' could be ablative, with 'revelasti' it is dative (to whom revealed)",
+        "genitive": "Genitive plural would be 'parvulorum' — 'parvulis' is dative"
+      }
+    },
+    {
+      "prompt": "What is the contrast in this sentence?",
+      "target": "hidden from the wise, revealed to the little ones",
+      "choices": ["hidden from the wise, revealed to the little ones", "hidden from the little ones, revealed to the wise", "both hidden and revealed to all", "hidden from everyone"],
+      "reveal": null,
+      "hints": {
+        "hidden from the little ones, revealed to the wise": "The sentence says 'abscondisti a sapientibus' and 'revelasti parvulis' — the opposite",
+        "both hidden and revealed to all": "The sentence contrasts two groups: 'sapientibus' vs. 'parvulis'",
+        "hidden from everyone": "The sentence specifies revelation to 'parvulis' (little ones)"
+      }
+    }
+  ],
+  "translation": "You have hidden these things from the wise and revealed them to the little ones"
+}

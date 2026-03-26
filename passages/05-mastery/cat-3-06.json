@@ -1,0 +1,119 @@
+{
+  "id": "cat-3-06",
+  "source": "Cicero",
+  "reference": "In Catilinam III.8",
+  "latin": ["Introductus", "est", "Volturcius", "sine", "Gallis"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Introductus est' translates to?",
+      "target": "to bring in / to introduce",
+      "choices": ["to bring in / to introduce", "to lead out", "to instruct", "to build"],
+      "reveal": null,
+      "hints": {
+        "to lead out": "'To lead out' is 'educere' — 'introductus est' comes from 'introducere' (to bring in)",
+        "to instruct": "'To instruct' is 'instruere' — 'introducere' means to lead/bring in",
+        "to build": "'To build' is 'construere' — 'introducere' means to bring in"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Introductus est'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect active indicative"],
+      "reveal": "Introductus est = he was brought in",
+      "hints": {
+        "present passive indicative": "Present passive would be 'introducitur' — participle + 'est' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'introductus erat' — 'est' makes it perfect",
+        "perfect active indicative": "'Introductus est' is passive (participle + sum) — active perfect would be 'introduxit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Introductus est'?",
+      "target": "introduco, introducere, introduxi, introductum",
+      "choices": ["introduco, introducere, introduxi, introductum", "duco, ducere, duxi, ductum", "instruo, instruere, instruxi, instructum", "induco, inducere, induxi, inductum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead) — the base verb without the intro- prefix",
+        "instruo, instruere, instruxi, instructum": "These are the parts of 'instruere' (to instruct/build up)",
+        "induco, inducere, induxi, inductum": "These are the parts of 'inducere' (to lead in/induce) — close but different prefix"
+      }
+    },
+    {
+      "prompt": "What case is 'Volturcius'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Volturcius = Volturcius (nom., subject of passive verb)",
+      "hints": {
+        "accusative": "Accusative would be 'Volturchum' — 'Volturcius' is nominative, subject of the passive verb",
+        "vocative": "Vocative would be 'Volturci' — this is nominative",
+        "genitive": "Genitive would be 'Volturci' — 'Volturcius' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Volturcius, Volturci'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Volturci' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Volturci' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Volturci' ends in -i"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'sine' govern?",
+      "target": "ablative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": "sine + ablative = without",
+      "hints": {
+        "accusative": "'Sine' always takes the ablative, never the accusative",
+        "genitive": "'Sine' governs the ablative — genitive is not used with 'sine'",
+        "dative": "'Sine' governs the ablative — dative is not used with 'sine'"
+      }
+    },
+    {
+      "prompt": "What case is 'Gallis'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "Gallis = the Gauls (abl. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'Galli' — 'Gallis' with -is is dative or ablative plural",
+        "accusative": "Accusative plural would be 'Gallos' — 'Gallis' is ablative (governed by 'sine')",
+        "dative": "While 'Gallis' could be dative plural, here 'sine' requires the ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Gallus, Galli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Galli' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'Galli' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Galli' ends in -i"
+      }
+    },
+    {
+      "prompt": "Who are the 'Galli' in the context of the Catilinarian conspiracy?",
+      "target": "Allobrogian ambassadors used as witnesses",
+      "choices": ["Allobrogian ambassadors used as witnesses", "Gallic soldiers fighting for Rome", "priests of Cybele", "Celtic mercenaries hired by Catiline"],
+      "reveal": null,
+      "hints": {
+        "Gallic soldiers fighting for Rome": "The Galli here are Allobrogian ambassadors whom the conspirators tried to recruit",
+        "priests of Cybele": "The 'Galli' priests of Cybele are a different use — here they are Gallic ambassadors",
+        "Celtic mercenaries hired by Catiline": "They were ambassadors of the Allobroges, not mercenaries — Cicero used them to trap the conspirators"
+      }
+    },
+    {
+      "prompt": "What is the significance of 'sine Gallis' for the legal proceeding?",
+      "target": "Volturcius was questioned separately to get independent testimony",
+      "choices": ["Volturcius was questioned separately to get independent testimony", "the Gauls had already been executed", "the Gauls refused to testify", "Volturcius was not a Gaul himself"],
+      "reveal": null,
+      "hints": {
+        "the Gauls had already been executed": "The Gauls were very much alive — they were key witnesses brought in after Volturcius",
+        "the Gauls refused to testify": "The Gauls did testify — they were questioned separately to ensure independent accounts",
+        "Volturcius was not a Gaul himself": "While true, the point is procedural: separate questioning prevents coordinated testimony"
+      }
+    }
+  ],
+  "translation": "Volturcius was brought in without the Gauls"
+}

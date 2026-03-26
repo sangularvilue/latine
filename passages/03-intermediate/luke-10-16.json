@@ -1,0 +1,97 @@
+{
+  "id": "luke-10-16",
+  "source": "Vulgate",
+  "reference": "Lucas 10:16",
+  "latin": ["Qui", "vos", "audit", "me", "audit"],
+  "steps": [
+    {
+      "prompt": "Which word is a relative pronoun?",
+      "target": "Qui",
+      "choices": ["Qui", "vos", "me", "audit"],
+      "reveal": null,
+      "hints": {
+        "vos": "'Vos' is a personal pronoun meaning 'you (pl.)'",
+        "me": "'Me' is a personal pronoun meaning 'me'",
+        "audit": "'Audit' is a verb meaning 'hears'"
+      }
+    },
+    {
+      "prompt": "What case is 'Qui'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "Qui = He who / whoever (nom. masc. sg.)",
+      "hints": {
+        "ablative": "Ablative of 'qui' would be 'quo' — 'Qui' is nominative, subject of 'audit'",
+        "dative": "Dative would be 'cui' — 'Qui' is nominative subject",
+        "accusative": "Accusative would be 'quem' — 'Qui' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'audit' translates to?",
+      "target": "to hear / to listen to",
+      "choices": ["to hear / to listen to", "to dare", "to help", "to increase"],
+      "reveal": null,
+      "hints": {
+        "to dare": "That would be 'audere' — 'audit' comes from 'audire' (to hear)",
+        "to help": "That would be 'adiuvare' — 'audit' comes from 'audire' (to hear)",
+        "to increase": "That would be 'augere' — 'audit' comes from 'audire' (to hear)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'audit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "audit = hears",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'audiat' — 'audit' is present indicative",
+        "perfect indicative": "Perfect would be 'audivit' — 'audit' is present indicative",
+        "future indicative": "Future would be 'audiet' — 'audit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'audit'?",
+      "target": "audio, audire, audivi, auditum",
+      "choices": ["audio, audire, audivi, auditum", "audeo, audere, ausus sum, —", "haurio, haurire, hausi, haustum", "sentio, sentire, sensi, sensum"],
+      "reveal": null,
+      "hints": {
+        "audeo, audere, ausus sum, —": "These are the parts of 'audere' (to dare) — a semi-deponent",
+        "haurio, haurire, hausi, haustum": "These are the parts of 'haurire' (to draw/drain)",
+        "sentio, sentire, sensi, sensum": "These are the parts of 'sentire' (to feel/perceive)"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "vos = you (acc., direct object of first 'audit')",
+      "hints": {
+        "nominative": "While 'vos' looks identical in nominative, here it is direct object of 'audit'",
+        "dative": "Dative would be 'vobis' — 'vos' is accusative, object of 'audit'",
+        "ablative": "Ablative would be 'vobis' — 'vos' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "me = me (acc., direct object of second 'audit')",
+      "hints": {
+        "nominative": "Nominative 1st person would be 'ego' — 'me' is accusative",
+        "dative": "Dative would be 'mihi' — 'me' is accusative, object of 'audit'",
+        "ablative": "While 'me' looks identical in ablative, here it is accusative, object of 'audit'"
+      }
+    },
+    {
+      "prompt": "How many times does 'audit' appear, and what is its subject each time?",
+      "target": "twice: first subject is 'Qui', second subject is 'Qui' (implied)",
+      "choices": ["twice: first subject is 'Qui', second subject is 'Qui' (implied)", "once: subject is 'vos'", "twice: subjects are 'vos' and 'me'", "once: subject is 'me'"],
+      "reveal": null,
+      "hints": {
+        "once: subject is 'vos'": "'Vos' is accusative (object) — 'audit' appears twice with 'Qui' as subject both times",
+        "twice: subjects are 'vos' and 'me'": "'Vos' and 'me' are both accusative objects — the subject is 'Qui' each time",
+        "once: subject is 'me'": "'Me' is accusative (object) — 'audit' appears twice"
+      }
+    }
+  ],
+  "translation": "He who hears you hears me"
+}

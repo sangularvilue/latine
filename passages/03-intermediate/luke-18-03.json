@@ -1,0 +1,97 @@
+{
+  "id": "luke-18-03",
+  "source": "Vulgate",
+  "reference": "Lucas 18:16",
+  "latin": ["Sinite", "pueros", "venire", "ad", "me"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "Sinite",
+      "choices": ["Sinite", "venire", "pueros", "me"],
+      "reveal": null,
+      "hints": {
+        "venire": "'Venire' is an infinitive meaning 'to come' — it depends on 'Sinite'",
+        "pueros": "'Pueros' is a noun meaning 'children' in the accusative",
+        "me": "'Me' is a pronoun meaning 'me' in the accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Sinite' translates to?",
+      "target": "to allow / to permit",
+      "choices": ["to allow / to permit", "to be", "to stop", "to place"],
+      "reveal": null,
+      "hints": {
+        "to be": "'To be' is 'esse' — 'Sinite' comes from 'sinere' (to allow)",
+        "to stop": "'To stop' is 'sistere' or 'desistere' — 'sinere' means 'to allow'",
+        "to place": "'To place' is 'ponere' — 'sinere' means 'to permit'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Sinite'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "infinitive"],
+      "reveal": "Sinite = Allow! / Permit! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd pl. would be 'sinitis' — 'Sinite' lacks the -s",
+        "present subjunctive": "Present subjunctive would be 'sinatis' — 'Sinite' is a direct command",
+        "infinitive": "Infinitive would be 'sinere' — 'Sinite' is the plural imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Sinite'?",
+      "target": "sino, sinere, sivi, situm",
+      "choices": ["sino, sinere, sivi, situm", "sisto, sistere, stiti, statum", "sido, sidere, sidi, —", "signo, signare, signavi, signatum"],
+      "reveal": null,
+      "hints": {
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to halt/place)",
+        "sido, sidere, sidi, —": "These are the parts of 'sidere' (to sit down/settle)",
+        "signo, signare, signavi, signatum": "These are the parts of 'signare' (to mark/sign)"
+      }
+    },
+    {
+      "prompt": "What case is 'pueros'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "pueros = children (acc. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'pueri' — the -os ending marks accusative plural",
+        "ablative": "Ablative plural would be 'pueris' — 'pueros' is accusative",
+        "dative": "Dative plural would be 'pueris' — 'pueros' is the accusative direct object"
+      }
+    },
+    {
+      "prompt": "What declension is 'puer, pueri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pueri' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'pueri' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'pueri' ends in -i"
+      }
+    },
+    {
+      "prompt": "What grammatical form is 'venire'?",
+      "target": "present active infinitive (complementary)",
+      "choices": ["present active infinitive (complementary)", "imperative", "present subjunctive", "gerund"],
+      "reveal": "venire = to come",
+      "hints": {
+        "imperative": "Imperative would be 'veni' (sg.) or 'venite' (pl.) — 'venire' ends in -re",
+        "present subjunctive": "Present subjunctive would be 'veniat' — 'venire' is infinitive",
+        "gerund": "The gerund would be 'veniendi/veniendum' — 'venire' is the infinitive form"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "me = me (acc., after 'ad')",
+      "hints": {
+        "nominative": "Nominative would be 'ego' — 'me' after 'ad' is accusative",
+        "ablative": "'Me' can be ablative, but after 'ad' it is accusative",
+        "dative": "Dative would be 'mihi' — 'me' after the preposition 'ad' is accusative"
+      }
+    }
+  ],
+  "translation": "Allow the children to come to me"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "luke-13-08",
+  "source": "Vulgate",
+  "reference": "Lucas 13:11",
+  "latin": ["Mulier", "quae", "habebat", "spiritum", "infirmitatis", "annis", "decem", "et", "octo"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "habebat",
+      "choices": ["habebat", "Mulier", "spiritum", "infirmitatis"],
+      "reveal": null,
+      "hints": {
+        "Mulier": "'Mulier' is a noun meaning 'woman' — the subject",
+        "spiritum": "'Spiritum' is a noun meaning 'spirit' in the accusative",
+        "infirmitatis": "'Infirmitatis' is a noun meaning 'of infirmity' in the genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habebat' translates to?",
+      "target": "to have / to hold",
+      "choices": ["to have / to hold", "to dwell", "to wear", "to know"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "'To dwell' is 'habitare' — 'habebat' comes from 'habere'",
+        "to wear": "'To wear' is 'gerere' — 'habere' means 'to have'",
+        "to know": "'To know' is 'scire' — 'habere' means 'to have'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'habebat'?",
+      "target": "imperfect indicative",
+      "choices": ["present indicative", "imperfect indicative", "perfect indicative", "pluperfect indicative"],
+      "reveal": "habebat = she was having / she had (ongoing)",
+      "hints": {
+        "present indicative": "Present would be 'habet' — 'habebat' has the -ba- imperfect marker",
+        "perfect indicative": "Perfect would be 'habuit' — 'habebat' is imperfect",
+        "pluperfect indicative": "Pluperfect would be 'habuerat' — 'habebat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habebat'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "abeo, abire, abii, abitum", "debeo, debere, debui, debitum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell)",
+        "abeo, abire, abii, abitum": "These are the parts of 'abire' (to go away)",
+        "debeo, debere, debui, debitum": "These are the parts of 'debere' (to owe)"
+      }
+    },
+    {
+      "prompt": "What case is 'spiritum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "spiritum = spirit (acc., direct object)",
+      "hints": {
+        "nominative": "Nominative would be 'spiritus' — 'spiritum' with -um is accusative",
+        "ablative": "Ablative would be 'spiritu' — 'spiritum' is accusative",
+        "genitive": "Genitive would be 'spiritus' (with long -ūs) — 'spiritum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'spiritus' has gen. in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'spiritus' has gen. in -ūs",
+        "5th declension": "5th declension has genitive in -ei — 'spiritus' has gen. in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'infirmitatis'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "infirmitatis = of infirmity (gen.)",
+      "hints": {
+        "nominative": "Nominative would be 'infirmitas' — 'infirmitatis' with -is is genitive",
+        "dative": "Dative would be 'infirmitati' — 'infirmitatis' is genitive",
+        "ablative": "Ablative would be 'infirmitate' — 'infirmitatis' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'infirmitas, infirmitatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'infirmitatis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'infirmitatis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'infirmitatis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'annis'?",
+      "target": "ablative (duration of time)",
+      "choices": ["nominative", "dative", "ablative (duration of time)", "genitive"],
+      "reveal": "annis decem et octo = for eighteen years (abl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'anni' — 'annis' is dative/ablative",
+        "dative": "'Annis' could be dative, but here it expresses duration — ablative of time",
+        "genitive": "Genitive plural would be 'annorum' — 'annis' is ablative"
+      }
+    }
+  ],
+  "translation": "A woman who had a spirit of infirmity for eighteen years"
+}

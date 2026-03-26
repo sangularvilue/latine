@@ -1,0 +1,97 @@
+{
+  "id": "luke-5-07",
+  "source": "Vulgate",
+  "reference": "Lucas 5:32",
+  "latin": ["Non", "veni", "vocare", "iustos"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "veni",
+      "choices": ["Non", "veni", "vocare", "iustos"],
+      "reveal": null,
+      "hints": {
+        "Non": "'Non' is an adverb meaning 'not'",
+        "vocare": "'vocare' is an infinitive (to call), not a finite verb",
+        "iustos": "'iustos' is an adjective/noun meaning 'the righteous'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'veni' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to sell", "to conquer", "to hunt"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'to sell' is 'vendere' — 'veni' comes from 'venire' (to come)",
+        "to conquer": "'to conquer' is 'vincere' — 'veni' comes from 'venire' (to come)",
+        "to hunt": "'to hunt' is 'venari' — 'veni' comes from 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "What tense is 'veni'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "imperative", "imperfect"],
+      "reveal": { "word": "veni", "gloss": "I came / I have come" },
+      "hints": {
+        "present indicative": "Present 1st person would be 'venio' — 'veni' is perfect",
+        "imperative": "Imperative would be 'veni' (same form!), but context shows 'I came' not 'come!'",
+        "imperfect": "Imperfect would be 'veniebam' — 'veni' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'veni'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vendo, vendere, vendidi, venditum", "vinco, vincere, vici, victum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "vendo, vendere, vendidi, venditum": "These are principal parts of 'vendo' (to sell)",
+        "vinco, vincere, vici, victum": "These are principal parts of 'vinco' (to conquer)",
+        "video, videre, vidi, visum": "These are principal parts of 'video' (to see)"
+      }
+    },
+    {
+      "prompt": "'Vocare' is what form?",
+      "target": "infinitive",
+      "choices": ["infinitive", "imperative", "participle", "gerund"],
+      "reveal": null,
+      "hints": {
+        "imperative": "Imperative would be 'voca' — 'vocare' ending in -are is the infinitive",
+        "participle": "Participle would be 'vocans' or 'vocatus' — 'vocare' is the infinitive",
+        "gerund": "Gerund would be 'vocandi' — 'vocare' is the present active infinitive"
+      }
+    },
+    {
+      "prompt": "The infinitive 'vocare' translates to?",
+      "target": "to call",
+      "choices": ["to call", "to fly", "to devote", "to empty"],
+      "reveal": { "word": "vocare", "gloss": "to call" },
+      "hints": {
+        "to fly": "'to fly' is 'volare' — 'vocare' means 'to call'",
+        "to devote": "'to devote' is 'devovere/vocare' can overlap, but 'vocare' means 'to call'",
+        "to empty": "'to empty' is 'vacuare' — 'vocare' means 'to call'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vocare'?",
+      "target": "voco, vocare, vocavi, vocatum",
+      "choices": ["voco, vocare, vocavi, vocatum", "volo, volare, volavi, volatum", "voveo, vovere, vovi, votum", "volvo, volvere, volvi, volutum"],
+      "reveal": null,
+      "hints": {
+        "volo, volare, volavi, volatum": "These are principal parts of 'volo' (to fly)",
+        "voveo, vovere, vovi, votum": "These are principal parts of 'voveo' (to vow)",
+        "volvo, volvere, volvi, volutum": "These are principal parts of 'volvo' (to roll)"
+      }
+    },
+    {
+      "prompt": "What case is 'iustos'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "iustos", "gloss": "the righteous / the just" },
+      "hints": {
+        "nominative": "Nominative plural would be 'iusti' — 'iustos' with -os ending is accusative plural",
+        "ablative": "Ablative plural would be 'iustis' — 'iustos' is accusative plural",
+        "genitive": "Genitive plural would be 'iustorum' — 'iustos' is accusative plural"
+      }
+    }
+  ],
+  "translation": "I did not come to call the righteous"
+}

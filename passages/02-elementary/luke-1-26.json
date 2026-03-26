@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-26",
+  "source": "Vulgate",
+  "reference": "Lucas 1:33",
+  "latin": ["Regni", "eius", "non", "erit", "finis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "erit",
+      "choices": ["Regni", "eius", "erit", "finis"],
+      "reveal": null,
+      "hints": {
+        "Regni": "'Regni' is a noun meaning 'of the kingdom'",
+        "eius": "'Eius' is a pronoun meaning 'his/of him'",
+        "finis": "'Finis' is a noun meaning 'end'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erit' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to become", "to happen"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire'",
+        "to become": "That would be 'fieri'",
+        "to happen": "That would be 'accidere'"
+      }
+    },
+    {
+      "prompt": "What tense is 'erit'?",
+      "target": "future indicative",
+      "choices": ["present indicative", "future indicative", "perfect", "imperfect"],
+      "reveal": "erit = there will be",
+      "hints": {
+        "present indicative": "Present is 'est'",
+        "perfect": "Perfect is 'fuit'",
+        "imperfect": "Imperfect is 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erit'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ivi, itum", "fio, fieri, factus sum, —", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)"
+      }
+    },
+    {
+      "prompt": "What case is 'regni'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "regni = of the kingdom (gen.)",
+      "hints": {
+        "nominative": "Nominative is 'regnum'; 'regni' with -i is genitive singular",
+        "dative": "Dative would be 'regno'",
+        "ablative": "Ablative would be 'regno'"
+      }
+    },
+    {
+      "prompt": "What declension is 'regnum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'regnum' ends in -um",
+        "3rd declension": "3rd declension has -is genitive; 'regnum' has genitive 'regni'",
+        "4th declension": "4th declension nouns end in -us; 'regnum' ends in -um with genitive 'regni'"
+      }
+    },
+    {
+      "prompt": "What case is 'finis'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "finis = end (nom.)",
+      "hints": {
+        "genitive": "Genitive singular is also 'finis' for 3rd declension, but here it is the subject",
+        "accusative": "Accusative singular would be 'finem'",
+        "ablative": "Ablative singular would be 'fine'"
+      }
+    },
+    {
+      "prompt": "What declension is 'finis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'finis' has genitive 'finis'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'finis' ends in -is",
+        "5th declension": "5th declension nouns end in -es with genitive -ei; 'finis' has genitive 'finis'"
+      }
+    }
+  ],
+  "translation": "And of his kingdom there will be no end"
+}

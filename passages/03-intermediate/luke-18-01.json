@@ -1,0 +1,108 @@
+{
+  "id": "luke-18-01",
+  "source": "Vulgate",
+  "reference": "Lucas 18:13",
+  "latin": ["Deus", "propitius", "esto", "mihi", "peccatori"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "esto",
+      "choices": ["esto", "Deus", "propitius", "peccatori"],
+      "reveal": null,
+      "hints": {
+        "Deus": "'Deus' is a noun meaning 'God' — here in the vocative",
+        "propitius": "'Propitius' is an adjective meaning 'merciful/propitious'",
+        "peccatori": "'Peccatori' is a noun meaning 'sinner' in the dative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'esto' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to place"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'To eat' is 'edere' — 'esto' is the future imperative of 'esse' (to be)",
+        "to stand": "'To stand' is 'stare' — 'esto' is from 'esse'",
+        "to place": "'To place' is 'ponere' — 'esto' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What mood is 'esto'?",
+      "target": "future imperative",
+      "choices": ["future imperative", "present indicative", "present subjunctive", "present imperative"],
+      "reveal": "esto = be! (future imperative of 'esse')",
+      "hints": {
+        "present indicative": "Present indicative would be 'est' or 'es' — 'esto' is imperative",
+        "present subjunctive": "Present subjunctive would be 'sis' — 'esto' is the imperative form",
+        "present imperative": "Present imperative of 'esse' is 'es' — 'esto' is technically the future imperative, used in prayers"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esto'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "edo, esse, edi, esum", "sisto, sistere, stiti, statum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat)",
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to halt/place)"
+      }
+    },
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Deus = O God! (voc.)",
+      "hints": {
+        "nominative": "'Deus' is the same form in nominative, but here God is being addressed directly — vocative",
+        "accusative": "Accusative would be 'Deum' — 'Deus' is vocative of direct address",
+        "genitive": "Genitive would be 'Dei' — 'Deus' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'mihi'?",
+      "target": "dative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "mihi = to me (dat.)",
+      "hints": {
+        "nominative": "Nominative would be 'ego' — 'mihi' is dative",
+        "accusative": "Accusative would be 'me' — 'mihi' is dative",
+        "ablative": "Ablative would be 'me' — 'mihi' is distinctly dative"
+      }
+    },
+    {
+      "prompt": "What case is 'peccatori'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "peccatori = to a sinner (dat., in apposition with 'mihi')",
+      "hints": {
+        "nominative": "Nominative would be 'peccator' — 'peccatori' with -i is dative",
+        "ablative": "Ablative would be 'peccatore' — 'peccatori' is dative",
+        "genitive": "Genitive would be 'peccatoris' — 'peccatori' is dative"
+      }
+    },
+    {
+      "prompt": "What declension is 'peccator, peccatoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'peccatoris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'peccatoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'peccatoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is the relationship between 'mihi' and 'peccatori'?",
+      "target": "apposition — 'peccatori' further describes 'mihi'",
+      "choices": ["apposition — 'peccatori' further describes 'mihi'", "indirect object and direct object", "two separate datives of different function", "predicate nominative"],
+      "reveal": null,
+      "hints": {
+        "indirect object and direct object": "Both are dative — 'peccatori' is in apposition to 'mihi', not a different case",
+        "two separate datives of different function": "Both datives refer to the same person — the speaker who is a sinner",
+        "predicate nominative": "A predicate nominative would be in the nominative case — 'peccatori' is dative"
+      }
+    }
+  ],
+  "translation": "God, be merciful to me, a sinner"
+}

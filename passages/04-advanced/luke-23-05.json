@@ -1,0 +1,130 @@
+{
+  "id": "luke-23-05",
+  "source": "Vulgate",
+  "reference": "Lucas 23:28",
+  "latin": ["Filiae", "Hierusalem", "nolite", "flere", "super", "me", "sed", "super", "vos", "ipsas", "flete"],
+  "steps": [
+    {
+      "prompt": "Which words form the main verb of the first clause?",
+      "target": "nolite flere",
+      "choices": ["nolite flere", "flete", "Filiae", "super"],
+      "reveal": null,
+      "hints": {
+        "flete": "'Flete' is a finite verb (imperative) but belongs to the second clause",
+        "Filiae": "'Filiae' is a noun in the vocative — direct address",
+        "super": "'Super' is a preposition meaning 'over/for'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'nolite' translates to?",
+      "target": "to be unwilling / to not wish",
+      "choices": ["to be unwilling / to not wish", "to know", "to harm", "to deny"],
+      "reveal": null,
+      "hints": {
+        "to know": "'To know' is 'noscere' — 'nolite' comes from 'nolle' (non + velle)",
+        "to harm": "'To harm' is 'nocere' — 'nolite' comes from 'nolle' (to be unwilling)",
+        "to deny": "'To deny' is 'negare' — 'nolite' comes from 'nolle'"
+      }
+    },
+    {
+      "prompt": "What is the construction 'nolite flere'?",
+      "target": "prohibition (nolite + infinitive = do not weep)",
+      "choices": ["prohibition (nolite + infinitive = do not weep)", "indirect statement", "purpose clause", "result clause"],
+      "reveal": "nolite flere = do not weep (negative imperative formed with 'nolo')",
+      "hints": {
+        "indirect statement": "Indirect statement uses accusative + infinitive — this is a direct command",
+        "purpose clause": "Purpose clauses use 'ut' + subjunctive — this is a negative imperative",
+        "result clause": "Result clauses use 'ut' + subjunctive — this is a prohibition using 'nolite'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "volo, velle, volui, —", "noceo, nocere, nocui, nocitum", "nosco, noscere, novi, notum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the parts of 'volo' (to wish) — 'nolo' is the negative compound non + volo",
+        "noceo, nocere, nocui, nocitum": "These are the parts of 'noceo' (to harm)",
+        "nosco, noscere, novi, notum": "These are the parts of 'nosco' (to learn/know)"
+      }
+    },
+    {
+      "prompt": "What mood is 'flete'?",
+      "target": "imperative",
+      "choices": ["imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "flete = weep! (2nd pl. imperative)",
+      "hints": {
+        "present indicative": "Present indicative 2nd plural would be 'fletis' — 'flete' is imperative",
+        "present subjunctive": "Present subjunctive 2nd plural would be 'fleatis' — 'flete' is imperative",
+        "perfect indicative": "Perfect would be 'flevistis' — 'flete' is imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'flete' (from 'fleo')?",
+      "target": "fleo, flere, flevi, fletum",
+      "choices": ["fleo, flere, flevi, fletum", "fluo, fluere, fluxi, fluxum", "flecto, flectere, flexi, flexum", "flagro, flagrare, flagravi, flagratum"],
+      "reveal": null,
+      "hints": {
+        "fluo, fluere, fluxi, fluxum": "These are the parts of 'fluo' (to flow)",
+        "flecto, flectere, flexi, flexum": "These are the parts of 'flecto' (to bend)",
+        "flagro, flagrare, flagravi, flagratum": "These are the parts of 'flagro' (to burn/blaze)"
+      }
+    },
+    {
+      "prompt": "What case is 'Filiae'?",
+      "target": "vocative plural",
+      "choices": ["vocative plural", "genitive singular", "nominative plural", "dative singular"],
+      "reveal": "Filiae Hierusalem = Daughters of Jerusalem! (voc. pl.)",
+      "hints": {
+        "genitive singular": "Genitive singular 'filiae' looks the same, but context shows direct address",
+        "nominative plural": "Nominative plural 'filiae' looks the same, but this is a direct address (vocative)",
+        "dative singular": "Dative singular 'filiae' looks the same, but context is vocative address"
+      }
+    },
+    {
+      "prompt": "What declension is 'filia, filiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'filiae' ends in -ae",
+        "3rd declension": "3rd declension has genitive in -is — 'filiae' ends in -ae",
+        "4th declension": "4th declension has genitive in -us — 'filiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'Hierusalem'?",
+      "target": "genitive (indeclinable — context determines case)",
+      "choices": ["genitive (indeclinable — context determines case)", "nominative", "accusative", "ablative"],
+      "reveal": "Filiae Hierusalem = daughters of Jerusalem (Hierusalem is indeclinable)",
+      "hints": {
+        "nominative": "'Hierusalem' is indeclinable — here it functions as genitive modifying 'Filiae'",
+        "accusative": "'Hierusalem' is indeclinable — context shows it modifies 'Filiae' as a genitive",
+        "ablative": "'Hierusalem' is indeclinable — there is no preposition; it is genitive of 'Filiae'"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "super vos ipsas = over/for yourselves (acc. after 'super')",
+      "hints": {
+        "nominative": "Nominative 'vos' looks the same, but 'super' + acc. = over/for",
+        "ablative": "'Super' can take ablative ('about'), but here with 'vos' it is accusative",
+        "dative": "Dative of 'vos' would be 'vobis' — 'vos' is accusative after 'super'"
+      }
+    },
+    {
+      "prompt": "What is 'ipsas' and what does it add?",
+      "target": "intensive pronoun (yourselves) — adds emphasis to 'vos'",
+      "choices": ["intensive pronoun (yourselves) — adds emphasis to 'vos'", "reflexive pronoun", "relative pronoun", "demonstrative pronoun (those women)"],
+      "reveal": "vos ipsas = you yourselves (feminine, matching 'filiae')",
+      "hints": {
+        "reflexive pronoun": "Reflexive would be 'se' — 'ipsas' is intensive, adding emphasis to 'vos'",
+        "relative pronoun": "Relative would be 'quas' — 'ipsas' is an intensive pronoun",
+        "demonstrative pronoun (those women)": "'Ipsas' can function demonstratively but here it intensifies 'vos'"
+      }
+    }
+  ],
+  "translation": "Daughters of Jerusalem, do not weep for me, but weep for yourselves"
+}

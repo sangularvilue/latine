@@ -1,0 +1,97 @@
+{
+  "id": "luke-1-21",
+  "source": "Vulgate",
+  "reference": "Lucas 1:48",
+  "latin": ["Respexit", "humilitatem", "ancillae", "suae"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "Respexit",
+      "choices": ["Respexit", "humilitatem", "ancillae", "suae"],
+      "reveal": null,
+      "hints": {
+        "humilitatem": "'Humilitatem' is a noun meaning 'lowliness/humility'",
+        "ancillae": "'Ancillae' is a noun meaning 'of his handmaid'",
+        "suae": "'Suae' is a possessive adjective meaning 'his/her own'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'respexit' translates to?",
+      "target": "to look upon / to regard",
+      "choices": ["to look upon / to regard", "to look back", "to expect", "to see"],
+      "reveal": null,
+      "hints": {
+        "to look back": "While 'respicere' can mean 'look back', in this context it means 'to regard/look upon'",
+        "to expect": "That would be 'exspectare'",
+        "to see": "That would be 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense is 'respexit'?",
+      "target": "perfect indicative",
+      "choices": ["present indicative", "perfect indicative", "future", "imperfect"],
+      "reveal": "respexit = he has regarded / he looked upon",
+      "hints": {
+        "present indicative": "Present would be 'respicit'; 'respexit' uses the perfect stem",
+        "future": "Future would be 'respiciet'",
+        "imperfect": "Imperfect would be 'respiciebat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'respexit'?",
+      "target": "respicio, respicere, respexi, respectum",
+      "choices": ["respicio, respicere, respexi, respectum", "aspicio, aspicere, aspexi, aspectum", "specto, spectare, spectavi, spectatum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "aspicio, aspicere, aspexi, aspectum": "These are the principal parts of 'aspicio' (to look at)",
+        "specto, spectare, spectavi, spectatum": "These are the principal parts of 'specto' (to watch)",
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'humilitatem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "humilitatem = lowliness (acc.)",
+      "hints": {
+        "nominative": "Nominative is 'humilitas'; 'humilitatem' with -em is accusative",
+        "ablative": "Ablative would be 'humilitate'",
+        "genitive": "Genitive would be 'humilitatis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'humilitas'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'humilitas' has genitive 'humilitatis'",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'humilitas' ends in -as with genitive -atis",
+        "5th declension": "5th declension nouns end in -es with genitive -ei; 'humilitas' has genitive 'humilitatis'"
+      }
+    },
+    {
+      "prompt": "What case is 'ancillae'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "ancillae = of his handmaid (gen.)",
+      "hints": {
+        "nominative": "Nominative singular is 'ancilla'; 'ancillae' could be nominative plural but context shows possession",
+        "dative": "Dative singular would also be 'ancillae', but here it indicates possession",
+        "vocative": "Vocative would be for direct address; 'ancillae' here is genitive of possession"
+      }
+    },
+    {
+      "prompt": "What declension is 'ancilla'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um; 'ancilla' ends in -a",
+        "3rd declension": "3rd declension has -is in the genitive; 'ancilla' has genitive 'ancillae'",
+        "4th declension": "4th declension nouns have genitive -us; 'ancilla' has genitive 'ancillae'"
+      }
+    }
+  ],
+  "translation": "He has regarded the lowliness of his handmaid"
+}

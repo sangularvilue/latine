@@ -1,0 +1,108 @@
+{
+  "id": "luke-2-12",
+  "source": "Vulgate",
+  "reference": "Lucas 2:40",
+  "latin": ["Puer", "crescebat", "et", "confortabatur"],
+  "steps": [
+    {
+      "prompt": "Which word is the subject?",
+      "target": "Puer",
+      "choices": ["Puer", "crescebat", "et", "confortabatur"],
+      "reveal": null,
+      "hints": {
+        "crescebat": "'crescebat' is a verb meaning 'was growing'",
+        "et": "'et' is a conjunction meaning 'and'",
+        "confortabatur": "'confortabatur' is a verb meaning 'was being strengthened'"
+      }
+    },
+    {
+      "prompt": "What case is 'Puer'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Genitive"],
+      "reveal": { "word": "Puer", "gloss": "the boy / the child" },
+      "hints": {
+        "Accusative": "Accusative would be 'puerum' — 'Puer' is the nominative subject",
+        "Vocative": "Vocative would be 'puer' (same form), but here it is the subject of the verbs",
+        "Genitive": "Genitive would be 'pueri' — 'Puer' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'puer, pueri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pueri' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'pueri' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'pueri' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'crescebat' translates to?",
+      "target": "to grow",
+      "choices": ["to grow", "to believe", "to create", "to increase (transitive)"],
+      "reveal": null,
+      "hints": {
+        "to believe": "'to believe' is 'credere' — 'crescebat' comes from 'crescere' (to grow)",
+        "to create": "'to create' is 'creare' — 'crescebat' comes from 'crescere'",
+        "to increase (transitive)": "'to increase' transitively is 'augere' — 'crescere' is intransitive (to grow)"
+      }
+    },
+    {
+      "prompt": "What tense is 'crescebat'?",
+      "target": "Imperfect",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "crescebat", "gloss": "was growing" },
+      "hints": {
+        "Present": "Present would be 'crescit' — 'crescebat' with -ba- is imperfect",
+        "Perfect": "Perfect would be 'crevit' — 'crescebat' with -ba- is imperfect",
+        "Future": "Future would be 'crescet' — 'crescebat' is imperfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'crescebat'?",
+      "target": "cresco, crescere, crevi, cretum",
+      "choices": ["cresco, crescere, crevi, cretum", "credo, credere, credidi, creditum", "creo, creare, creavi, creatum", "cerno, cernere, crevi, cretum"],
+      "reveal": null,
+      "hints": {
+        "credo, credere, credidi, creditum": "These are the parts of 'credere' (to believe)",
+        "creo, creare, creavi, creatum": "These are the parts of 'creare' (to create)",
+        "cerno, cernere, crevi, cretum": "These are the parts of 'cernere' (to discern) — same perfect stem but different verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'confortabatur' translates to?",
+      "target": "to strengthen",
+      "choices": ["to strengthen", "to comfort", "to form", "to carry together"],
+      "reveal": null,
+      "hints": {
+        "to comfort": "English 'comfort' derives from this word but Latin 'confortare' means 'to strengthen'",
+        "to form": "'to form' is 'formare' — 'confortabatur' comes from 'confortare'",
+        "to carry together": "'to carry together' is 'conferre' — 'confortare' means 'to make strong' (con + fortis)"
+      }
+    },
+    {
+      "prompt": "What tense and voice is 'confortabatur'?",
+      "target": "Imperfect passive",
+      "choices": ["Present passive", "Imperfect passive", "Perfect passive", "Imperfect active"],
+      "reveal": { "word": "confortabatur", "gloss": "was being strengthened" },
+      "hints": {
+        "Present passive": "Present passive would be 'confortatur' — the -ba- infix marks imperfect",
+        "Perfect passive": "Perfect passive would be 'confortatus est' — 'confortabatur' is imperfect passive",
+        "Imperfect active": "Imperfect active would be 'confortabat' — the -tur ending marks passive voice"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'confortabatur'?",
+      "target": "conforto, confortare, confortavi, confortatum",
+      "choices": ["conforto, confortare, confortavi, confortatum", "confero, conferre, contuli, collatum", "formo, formare, formavi, formatum", "confirmo, confirmare, confirmavi, confirmatum"],
+      "reveal": null,
+      "hints": {
+        "confero, conferre, contuli, collatum": "These are the parts of 'conferre' (to bring together/compare)",
+        "formo, formare, formavi, formatum": "These are the parts of 'formare' (to form/shape)",
+        "confirmo, confirmare, confirmavi, confirmatum": "These are the parts of 'confirmare' (to strengthen/confirm) — similar but different verb"
+      }
+    }
+  ],
+  "translation": "The boy was growing and was being strengthened"
+}

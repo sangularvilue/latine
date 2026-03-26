@@ -1,0 +1,97 @@
+{
+  "id": "luke-5-03",
+  "source": "Vulgate",
+  "reference": "Lucas 5:5",
+  "latin": ["Praeceptor", "per", "totam", "noctem", "laborantes"],
+  "steps": [
+    {
+      "prompt": "Which word is a verbal form?",
+      "target": "laborantes",
+      "choices": ["Praeceptor", "totam", "noctem", "laborantes"],
+      "reveal": null,
+      "hints": {
+        "Praeceptor": "'Praeceptor' is a noun meaning 'Master/Teacher'",
+        "totam": "'totam' is an adjective meaning 'whole/entire'",
+        "noctem": "'noctem' is a noun meaning 'night'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'laborantes' translates to?",
+      "target": "to work / to toil",
+      "choices": ["to work / to toil", "to slip", "to praise", "to read"],
+      "reveal": null,
+      "hints": {
+        "to slip": "'to slip' is 'labi' — 'laborantes' comes from 'laborare' (to work)",
+        "to praise": "'to praise' is 'laudare' — 'laborantes' comes from 'laborare' (to work)",
+        "to read": "'to read' is 'legere' — 'laborantes' comes from 'laborare' (to work)"
+      }
+    },
+    {
+      "prompt": "What form is 'laborantes'?",
+      "target": "present active participle",
+      "choices": ["present active participle", "perfect passive participle", "future participle", "gerundive"],
+      "reveal": { "word": "laborantes", "gloss": "toiling / having toiled" },
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'laborati' — '-antes' marks present active",
+        "future participle": "Future participle would be 'laboraturi' — '-antes' marks present active",
+        "gerundive": "Gerundive would be 'laborandi' — '-antes' marks present active participle"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'laborantes'?",
+      "target": "laboro, laborare, laboravi, laboratum",
+      "choices": ["laboro, laborare, laboravi, laboratum", "labor, labi, lapsus sum, —", "libero, liberare, liberavi, liberatum", "laudo, laudare, laudavi, laudatum"],
+      "reveal": null,
+      "hints": {
+        "labor, labi, lapsus sum, —": "These are principal parts of 'labor' (to slip/slide) — a deponent verb",
+        "libero, liberare, liberavi, liberatum": "These are principal parts of 'libero' (to free)",
+        "laudo, laudare, laudavi, laudatum": "These are principal parts of 'laudo' (to praise)"
+      }
+    },
+    {
+      "prompt": "What case is 'Praeceptor'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": { "word": "Praeceptor", "gloss": "Master! / Teacher!" },
+      "hints": {
+        "nominative": "'Praeceptor' is nominative in form, but here it is used as a direct address (vocative)",
+        "accusative": "Accusative would be 'praeceptorem' — 'Praeceptor' is vocative (address)",
+        "genitive": "Genitive would be 'praeceptoris' — 'Praeceptor' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'praeceptor, praeceptoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'praeceptoris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'praeceptoris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'praeceptoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'noctem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "noctem", "gloss": "night" },
+      "hints": {
+        "nominative": "Nominative is 'nox' — 'noctem' with the -em ending is accusative singular",
+        "ablative": "Ablative would be 'nocte' — 'noctem' ending in -em is accusative",
+        "genitive": "Genitive would be 'noctis' — 'noctem' ending in -em is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'nox, noctis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'noctis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'noctis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -us — 'noctis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Master, toiling through the whole night"
+}

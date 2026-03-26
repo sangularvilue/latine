@@ -1,0 +1,108 @@
+{
+  "id": "cat-1-02",
+  "source": "Cicero",
+  "reference": "In Cat. I.1",
+  "latin": ["Quam", "diu", "etiam", "furor", "iste", "tuus", "nos", "eludet"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "eludet",
+      "choices": ["furor", "iste", "nos", "eludet"],
+      "reveal": null,
+      "hints": {
+        "furor": "'furor' is a noun meaning 'madness / frenzy'",
+        "iste": "'iste' is a demonstrative pronoun meaning 'that (of yours)'",
+        "nos": "'nos' is a pronoun meaning 'us'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eludet' translates to?",
+      "target": "to mock / elude",
+      "choices": ["to play", "to mock / elude", "to wash", "to praise"],
+      "reveal": null,
+      "hints": {
+        "to play": "'to play' is 'ludere' — 'eludere' adds the prefix e- meaning 'to mock/evade'",
+        "to wash": "'to wash' is 'eluere' — similar prefix but different root verb",
+        "to praise": "'to praise' is 'laudare' — a different verb entirely"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eludet'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "eludet", "gloss": "will mock / elude" },
+      "hints": {
+        "Present indicative": "Present would be 'eludit' — 'eludet' has the future -et ending for 3rd conjugation",
+        "Present subjunctive": "Present subjunctive would be 'eludat'",
+        "Perfect indicative": "Perfect would be 'elusit' — 'eludet' is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eludet'?",
+      "target": "eludo, eludere, elusi, elusum",
+      "choices": ["eludo, eludere, elusi, elusum", "ludo, ludere, lusi, lusum", "eluo, eluere, elui, elutum", "laudo, laudare, laudavi, laudatum"],
+      "reveal": null,
+      "hints": {
+        "ludo, ludere, lusi, lusum": "These are the parts of 'ludere' (to play) — the base verb without the e- prefix",
+        "eluo, eluere, elui, elutum": "These are the parts of 'eluere' (to wash out) — a different verb with similar prefix",
+        "laudo, laudare, laudavi, laudatum": "These are the parts of 'laudare' (to praise) — entirely different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'furor'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "furor", "gloss": "madness / frenzy" },
+      "hints": {
+        "Genitive": "Genitive would be 'furoris' — 'furor' is the nominative subject",
+        "Accusative": "Accusative would be 'furorem' — 'furor' is the subject here",
+        "Vocative": "Cicero is not addressing madness — 'furor' is the subject of 'eludet'"
+      }
+    },
+    {
+      "prompt": "Declension of 'furor'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns typically end in -a — 'furor' with gen. 'furoris' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-er — 'furor' is 3rd declension (gen. furoris)",
+        "4th": "4th declension nouns end in -us with gen. -us — 'furor' has gen. 'furoris' (3rd)"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "Nominative": "'nos' can be nominative ('we'), but here it's the direct object of 'eludet'",
+        "Dative": "Dative would be 'nobis' — 'nos' as object of 'eludet' is accusative",
+        "Ablative": "Ablative would be 'nobis' — 'nos' here is accusative, the direct object"
+      }
+    },
+    {
+      "prompt": "What does the demonstrative 'iste' specifically connote?",
+      "target": "Contempt — 'that … of yours'",
+      "choices": ["Neutral reference — 'that'", "Contempt — 'that … of yours'", "Proximity — 'this here'", "Distance — 'that over there'"],
+      "reveal": { "word": "iste", "gloss": "that (contemptible) … of yours" },
+      "hints": {
+        "Neutral reference — 'that'": "'is/ea/id' is the neutral demonstrative — 'iste' carries a pejorative tone in oratory",
+        "Proximity — 'this here'": "'hic/haec/hoc' indicates proximity — 'iste' refers to something belonging to the addressee, often with disdain",
+        "Distance — 'that over there'": "'ille/illa/illud' marks distance — 'iste' specifically associates with the 2nd person, often disparagingly"
+      }
+    },
+    {
+      "prompt": "This question parallels the opening 'Quo usque tandem.' What rhetorical technique is this repetition of similar questions?",
+      "target": "Anaphora / rhetorical accumulation",
+      "choices": ["Litotes", "Anaphora / rhetorical accumulation", "Chiasmus", "Hyperbaton"],
+      "reveal": null,
+      "hints": {
+        "Litotes": "Litotes is understatement by negation — these are emphatic repeated questions",
+        "Chiasmus": "Chiasmus is an ABBA word-order reversal — this is accumulation of parallel questions",
+        "Hyperbaton": "Hyperbaton is unusual word order — the technique here is piling up similar rhetorical questions"
+      }
+    }
+  ],
+  "translation": "How long will that madness of yours still mock us?"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "luke-6-09",
+  "source": "Vulgate",
+  "reference": "Lucas 6:46",
+  "latin": ["Quid", "vocatis", "me", "Domine", "Domine"],
+  "steps": [
+    {
+      "prompt": "Which word is the finite verb?",
+      "target": "vocatis",
+      "choices": ["Quid", "vocatis", "me", "Domine"],
+      "reveal": null,
+      "hints": {
+        "Quid": "'Quid' is an interrogative pronoun meaning 'why/what'",
+        "me": "'me' is a pronoun meaning 'me'",
+        "Domine": "'Domine' is a noun in the vocative meaning 'Lord!'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vocatis' translates to?",
+      "target": "to call",
+      "choices": ["to call", "to fly", "to devote", "to empty"],
+      "reveal": null,
+      "hints": {
+        "to fly": "'to fly' is 'volare' — 'vocatis' comes from 'vocare' (to call)",
+        "to devote": "'to devote' is 'devovere' — 'vocatis' comes from 'vocare' (to call)",
+        "to empty": "'to empty' is 'vacuare' — 'vocatis' comes from 'vocare' (to call)"
+      }
+    },
+    {
+      "prompt": "What tense is 'vocatis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect", "future", "imperfect"],
+      "reveal": { "word": "vocatis", "gloss": "you (pl.) call" },
+      "hints": {
+        "perfect": "Perfect 2nd plural would be 'vocavistis' — 'vocatis' is present",
+        "future": "Future would be 'vocabitis' — 'vocatis' is present indicative",
+        "imperfect": "Imperfect would be 'vocabatis' — 'vocatis' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vocatis'?",
+      "target": "voco, vocare, vocavi, vocatum",
+      "choices": ["voco, vocare, vocavi, vocatum", "volo, volare, volavi, volatum", "voveo, vovere, vovi, votum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "volo, volare, volavi, volatum": "These are principal parts of 'volo' (to fly)",
+        "voveo, vovere, vovi, votum": "These are principal parts of 'voveo' (to vow)",
+        "video, videre, vidi, visum": "These are principal parts of 'video' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "ablative", "genitive"],
+      "reveal": { "word": "Domine", "gloss": "Lord!" },
+      "hints": {
+        "nominative": "Nominative is 'Dominus' — 'Domine' with -e ending is vocative (direct address)",
+        "ablative": "Ablative would be 'Domino' — 'Domine' is the vocative singular",
+        "genitive": "Genitive would be 'Domini' — 'Domine' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -us — 'Domini' ends in -i"
+      }
+    }
+  ],
+  "translation": "Why do you call me Lord, Lord?"
+}

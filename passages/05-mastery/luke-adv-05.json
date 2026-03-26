@@ -1,0 +1,130 @@
+{
+  "id": "luke-adv-05",
+  "source": "Vulgate",
+  "reference": "Lucas 18:29",
+  "latin": ["Amen", "dico", "vobis", "nemo", "est", "qui", "reliquerit", "domum", "propter", "regnum", "Dei"],
+  "steps": [
+    {
+      "prompt": "What case is 'nemo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "dative"],
+      "reveal": "nemo = no one (nom., subject of 'est')",
+      "hints": {
+        "accusative": "Accusative would be 'neminem' — 'nemo' is nominative",
+        "genitive": "Genitive would be 'neminis' or 'nullius' — 'nemo' is nominative",
+        "dative": "Dative would be 'nemini' — 'nemo' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Esse/edere' (from 'edo') means to eat — this 'est' is from 'sum' (to be)",
+        "to go": "'To go' is 'ire' — 'est' comes from 'esse' (to be)",
+        "to stand": "'To stand' is 'stare' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "est = is / there is",
+      "hints": {
+        "perfect indicative": "Perfect would be 'fuit' — 'est' is present indicative",
+        "future indicative": "Future would be 'erit' — 'est' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esum", "eo, ire, ii, itum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere' (to eat) — confusingly shares the infinitive 'esse'",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)"
+      }
+    },
+    {
+      "prompt": "What type of relative clause does 'qui reliquerit' form?",
+      "target": "relative clause of characteristic (subjunctive)",
+      "choices": ["relative clause of characteristic (subjunctive)", "simple relative clause (indicative)", "purpose relative clause", "causal relative clause"],
+      "reveal": "qui reliquerit = who has left (characterizing 'nemo')",
+      "hints": {
+        "simple relative clause (indicative)": "'Reliquerit' is subjunctive, not indicative — after 'nemo' this is a clause of characteristic",
+        "purpose relative clause": "Purpose relatives express intention — this characterizes the type of person who does not exist",
+        "causal relative clause": "Causal relatives explain why — this describes a characteristic kind of person"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'reliquerit' translates to?",
+      "target": "to leave behind / to abandon",
+      "choices": ["to leave behind / to abandon", "to seek", "to release", "to collect"],
+      "reveal": null,
+      "hints": {
+        "to seek": "'To seek' is 'requirere' — 'reliquerit' comes from 'relinquere' (to leave behind)",
+        "to release": "'To release' is 'relaxare' — 'relinquere' means to leave behind",
+        "to collect": "'To collect' is 'colligere' — 'relinquere' means to abandon"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'reliquerit'?",
+      "target": "perfect subjunctive",
+      "choices": ["perfect indicative", "perfect subjunctive", "future perfect indicative", "pluperfect subjunctive"],
+      "reveal": "reliquerit = has left / who may have left",
+      "hints": {
+        "perfect indicative": "Perfect indicative would be 'reliquit' — 'reliquerit' with -erit is subjunctive",
+        "future perfect indicative": "Future perfect and perfect subjunctive look identical — context (relative clause of characteristic) determines subjunctive",
+        "pluperfect subjunctive": "Pluperfect subjunctive would be 'reliquisset' — 'reliquerit' is perfect subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'reliquerit'?",
+      "target": "relinquo, relinquere, reliqui, relictum",
+      "choices": ["relinquo, relinquere, reliqui, relictum", "linquo, linquere, liqui, lictum", "religo, religare, religavi, religatum", "requiro, requirere, requisivi, requisitum"],
+      "reveal": null,
+      "hints": {
+        "linquo, linquere, liqui, lictum": "These are the parts of 'linquere' (to leave) — the base verb without the re- prefix",
+        "religo, religare, religavi, religatum": "These are the parts of 'religare' (to bind back) — different verb",
+        "requiro, requirere, requisivi, requisitum": "These are the parts of 'requirere' (to seek again) — different compound"
+      }
+    },
+    {
+      "prompt": "What case is 'domum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "domum = home / house (acc., object of 'reliquerit')",
+      "hints": {
+        "nominative": "Nominative would be 'domus' — 'domum' with -um is accusative",
+        "ablative": "Ablative would be 'domo' — 'domum' is accusative",
+        "genitive": "Genitive would be 'domus/domi' — 'domum' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'regnum Dei'?",
+      "target": "'regnum' is accusative, 'Dei' is genitive",
+      "choices": ["'regnum' is accusative, 'Dei' is genitive", "both are nominative", "both are genitive", "'regnum' is ablative, 'Dei' is genitive"],
+      "reveal": "propter regnum Dei = for the sake of the kingdom of God",
+      "hints": {
+        "both are nominative": "'Propter' requires the accusative — 'regnum' is accusative; 'Dei' is genitive of possession",
+        "both are genitive": "'Regnum' cannot be genitive (it would be 'regni') — it is accusative with 'propter'",
+        "'regnum' is ablative, 'Dei' is genitive": "'Propter' takes the accusative, not ablative — 'regnum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'regnum, regni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regni' ends in -i",
+        "3rd declension": "3rd declension has genitive in -is — 'regni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'regni' ends in -i"
+      }
+    }
+  ],
+  "translation": "Truly I say to you, there is no one who has left home for the sake of the kingdom of God"
+}

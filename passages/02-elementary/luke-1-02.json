@@ -1,0 +1,75 @@
+{
+  "id": "luke-1-02",
+  "source": "Vulgate",
+  "reference": "Lucas 1:30",
+  "latin": ["Ne", "timeas", "Maria"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "timeas",
+      "choices": ["Ne", "timeas", "Maria", "noli"],
+      "reveal": null,
+      "hints": {
+        "Ne": "'Ne' is a negative particle used with subjunctive prohibitions",
+        "Maria": "'Maria' is a proper noun, the name Mary",
+        "noli": "'Noli' does not appear in this sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'timeas' translates to?",
+      "target": "to fear",
+      "choices": ["to fear", "to believe", "to send", "to see"],
+      "reveal": null,
+      "hints": {
+        "to believe": "That would be 'credere'",
+        "to send": "That would be 'mittere'",
+        "to see": "That would be 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'timeas'?",
+      "target": "present subjunctive",
+      "choices": ["present indicative", "present subjunctive", "imperfect", "future"],
+      "reveal": "timeas = you may fear / do not fear (subjunctive prohibition)",
+      "hints": {
+        "present indicative": "Present indicative would be 'times'; 'timeas' with the -ea- is subjunctive",
+        "imperfect": "Imperfect would be 'timebas'; 'timeas' is present subjunctive",
+        "future": "Future would be 'timebis'; 'timeas' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'timeas'?",
+      "target": "timeo, timere, timui, —",
+      "choices": ["timeo, timere, timui, —", "teneo, tenere, tenui, tentum", "video, videre, vidi, visum", "moneo, monere, monui, monitum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the principal parts of 'teneo' (to hold)",
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)",
+        "moneo, monere, monui, monitum": "These are the principal parts of 'moneo' (to warn)"
+      }
+    },
+    {
+      "prompt": "What case is 'Maria'?",
+      "target": "vocative",
+      "choices": ["nominative", "vocative", "accusative", "ablative"],
+      "reveal": "Maria = Mary (voc.)",
+      "hints": {
+        "nominative": "Mary is being directly addressed, not acting as the subject of the verb",
+        "accusative": "Accusative would indicate Mary as the object, but she is being addressed",
+        "ablative": "Ablative would indicate means or location, but Mary is being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'Maria'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns typically end in -us or -um; 'Maria' ends in -a",
+        "3rd declension": "3rd declension nouns have -is in the genitive; 'Maria' follows the -a pattern",
+        "indeclinable": "'Maria' does decline: Maria, Mariae, Mariae, Mariam, Maria"
+      }
+    }
+  ],
+  "translation": "Do not fear, Mary"
+}
