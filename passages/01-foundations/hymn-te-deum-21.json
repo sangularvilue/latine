@@ -1,0 +1,97 @@
+{
+  "id": "hymn-te-deum-21",
+  "source": "Hymn",
+  "reference": "Te Deum 21",
+  "latin": ["Te", "ergo", "quaesumus", "famulis", "tuis", "subveni"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'quaesumus' translates to?",
+      "target": "to beseech / to ask",
+      "choices": ["to beseech / to ask", "to seek", "to demand", "to pray"],
+      "reveal": null,
+      "hints": {
+        "to seek": "'to seek' is 'quaerere' — 'quaesumus' comes from 'quaesumus' (an archaic form meaning 'we beseech')",
+        "to demand": "'to demand' is 'postulare' — 'quaesumus' means 'we beseech'",
+        "to pray": "'to pray' is 'orare' — 'quaesumus' means 'we beseech'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'quaesumus'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Imperfect indicative"],
+      "reveal": { "word": "quaesumus", "gloss": "we beseech" },
+      "hints": {
+        "Present subjunctive": "'quaesumus' is an archaic present indicative form — the subjunctive is not used here",
+        "Perfect indicative": "Perfect 1st pl. would show a different stem — 'quaesumus' is present tense",
+        "Imperfect indicative": "Imperfect would show a longer form — 'quaesumus' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'quaesumus'?",
+      "target": "quaeso, quaesere, —, —",
+      "choices": ["quaeso, quaesere, —, —", "quaero, quaerere, quaesivi, quaesitum", "rogo, rogare, rogavi, rogatum", "peto, petere, petivi, petitum"],
+      "reveal": null,
+      "hints": {
+        "quaero, quaerere, quaesivi, quaesitum": "These are the principal parts of 'quaerere' (to seek) — 'quaesumus' is from the archaic 'quaeso'",
+        "rogo, rogare, rogavi, rogatum": "These are the principal parts of 'rogare' (to ask)",
+        "peto, petere, petivi, petitum": "These are the principal parts of 'petere' (to seek/aim for)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'subveni' translates to?",
+      "target": "to come to aid / to help",
+      "choices": ["to come to aid / to help", "to come", "to conquer", "to serve"],
+      "reveal": null,
+      "hints": {
+        "to come": "'to come' is 'venire' — 'subveni' is from 'subvenire' (to come to aid)",
+        "to conquer": "'to conquer' is 'vincere' — 'subveni' is from 'subvenire' (to come to aid)",
+        "to serve": "'to serve' is 'servire' — 'subveni' is from 'subvenire' (to come to aid)"
+      }
+    },
+    {
+      "prompt": "What mood is 'subveni'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "subveni", "gloss": "come to the aid of" },
+      "hints": {
+        "Indicative": "Indicative present would be 'subvenis' or 'subvenit' — 'subveni' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'subvenias' — 'subveni' is the imperative singular",
+        "Infinitive": "Infinitive would be 'subvenire' — 'subveni' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'subveni'?",
+      "target": "subvenio, subvenire, subveni, subventum",
+      "choices": ["subvenio, subvenire, subveni, subventum", "venio, venire, veni, ventum", "servo, servare, servavi, servatum", "vinco, vincere, vici, victum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the principal parts of 'venire' (to come) — 'subveni' is from the compound 'subvenire'",
+        "servo, servare, servavi, servatum": "These are the principal parts of 'servare' (to save/keep)",
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)"
+      }
+    },
+    {
+      "prompt": "What case is 'famulis'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "famulis", "gloss": "to your servants" },
+      "hints": {
+        "Nominative": "Nominative plural of 'famulus' would be 'famuli' — 'famulis' has the -is dative/ablative plural ending",
+        "Accusative": "Accusative plural of 'famulus' would be 'famulos' — 'famulis' is dative plural here",
+        "Ablative": "While 'famulis' could be ablative plural, with 'subveni' it takes a dative complement"
+      }
+    },
+    {
+      "prompt": "What declension is 'famulus, famuli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'famuli' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'famuli' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'famuli' ends in -i"
+      }
+    }
+  ],
+  "translation": "We therefore beseech you, come to the aid of your servants"
+}

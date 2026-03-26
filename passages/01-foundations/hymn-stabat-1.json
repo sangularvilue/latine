@@ -1,0 +1,86 @@
+{
+  "id": "hymn-stabat-1",
+  "source": "Hymn",
+  "reference": "Stabat Mater 1",
+  "latin": ["Stabat", "mater", "dolorosa", "iuxta", "crucem", "lacrimosa"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'stabat' translates to?",
+      "target": "to stand",
+      "choices": ["to stand", "to stay", "to sit", "to be"],
+      "reveal": null,
+      "hints": {
+        "to stay": "'to stay' is 'manere' — 'stabat' comes from 'stare'",
+        "to sit": "'to sit' is 'sedere' — 'stabat' comes from 'stare'",
+        "to be": "'to be' is 'esse' — 'stabat' comes from 'stare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'stabat'?",
+      "target": "Imperfect indicative",
+      "choices": ["Present indicative", "Imperfect indicative", "Perfect indicative", "Pluperfect indicative"],
+      "reveal": { "word": "stabat", "gloss": "was standing" },
+      "hints": {
+        "Present indicative": "Present 3rd sg. of 'stare' would be 'stat' — 'stabat' has the -ba- imperfect marker",
+        "Perfect indicative": "Perfect 3rd sg. of 'stare' would be 'stetit' — 'stabat' has the -ba- imperfect marker",
+        "Pluperfect indicative": "Pluperfect 3rd sg. would be 'steterat' — 'stabat' has the -ba- imperfect marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'stabat'?",
+      "target": "sto, stare, steti, statum",
+      "choices": ["sto, stare, steti, statum", "sum, esse, fui, futurus", "sedeo, sedere, sedi, sessum", "maneo, manere, mansi, mansum"],
+      "reveal": null,
+      "hints": {
+        "sum, esse, fui, futurus": "These are the principal parts of 'esse' (to be)",
+        "sedeo, sedere, sedi, sessum": "These are the principal parts of 'sedere' (to sit)",
+        "maneo, manere, mansi, mansum": "These are the principal parts of 'manere' (to remain)"
+      }
+    },
+    {
+      "prompt": "What case is 'mater'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "mater", "gloss": "mother" },
+      "hints": {
+        "Genitive": "Genitive of 'mater' would be 'matris' — 'mater' is the nominative form",
+        "Accusative": "Accusative of 'mater' would be 'matrem' — 'mater' is the nominative form",
+        "Vocative": "Vocative of 'mater' is the same as nominative, but here it is the subject of 'stabat'"
+      }
+    },
+    {
+      "prompt": "What declension is 'mater, matris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'matris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'matris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'matris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'crucem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "crucem", "gloss": "cross" },
+      "hints": {
+        "Nominative": "Nominative is 'crux' — 'crucem' has the -em accusative ending",
+        "Genitive": "Genitive of 'crux' would be 'crucis' — 'crucem' has the -em accusative ending",
+        "Ablative": "Ablative of 'crux' would be 'cruce' — 'crucem' has the -em accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'crux, crucis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'crucis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'crucis' ends in -is",
+        "5th declension": "5th declension nouns have genitive in -ei — 'crucis' ends in -is"
+      }
+    }
+  ],
+  "translation": "The sorrowful mother was standing, tearful, beside the cross"
+}

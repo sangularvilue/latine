@@ -1,0 +1,97 @@
+{
+  "id": "horace-ode-1-11",
+  "source": "Horace",
+  "reference": "Odes I.11",
+  "latin": ["Carpe", "diem", "quam", "minimum", "credula", "postero"],
+  "steps": [
+    {
+      "prompt": "Which word is the imperative verb?",
+      "target": "Carpe",
+      "choices": ["Carpe", "diem", "credula", "postero"],
+      "reveal": null,
+      "hints": {
+        "diem": "'diem' is a noun — the direct object meaning 'day'",
+        "credula": "'credula' is an adjective meaning 'trusting'",
+        "postero": "'postero' is an adjective/noun meaning 'the next (day)'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Carpe' translates to?",
+      "target": "to seize / to pluck",
+      "choices": ["to seize / to pluck", "to sing", "to cut", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to sing": "'to sing' is 'canere' — 'Carpe' comes from 'carpere'",
+        "to cut": "'to cut' is 'caedere' — 'Carpe' comes from 'carpere'",
+        "to carry": "'to carry' is 'ferre' — 'Carpe' comes from 'carpere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'Carpe'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "Carpe", "gloss": "seize! / pluck!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'carpis' (2nd person) — 'Carpe' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'carpas' — 'Carpe' is the imperative form",
+        "Infinitive": "Infinitive would be 'carpere' — 'Carpe' is imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Carpe'?",
+      "target": "carpo, carpere, carpsi, carptum",
+      "choices": ["carpo, carpere, carpsi, carptum", "capio, capere, cepi, captum", "cano, canere, cecini, cantum", "caedo, caedere, cecidi, caesum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the principal parts of 'capere' (to seize/take) — similar meaning but different verb",
+        "cano, canere, cecini, cantum": "These are the principal parts of 'canere' (to sing)",
+        "caedo, caedere, cecidi, caesum": "These are the principal parts of 'caedere' (to cut/kill)"
+      }
+    },
+    {
+      "prompt": "Case of 'diem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "diem", "gloss": "the day" },
+      "hints": {
+        "Nominative": "Nominative of 'dies' is 'dies' — 'diem' with -em ending is accusative",
+        "Genitive": "Genitive of 'dies' would be 'diei'",
+        "Ablative": "Ablative of 'dies' would be 'die'"
+      }
+    },
+    {
+      "prompt": "Declension of 'dies'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'dies' with genitive 'diei' is 5th declension",
+        "3rd": "3rd declension nouns have genitive -is — 'dies' with genitive 'diei' is 5th declension",
+        "4th": "4th declension has genitive -us — 'dies' with genitive 'diei' is 5th declension"
+      }
+    },
+    {
+      "prompt": "What does 'credula' modify?",
+      "target": "The implied subject (you, feminine)",
+      "choices": ["diem", "The implied subject (you, feminine)", "postero", "minimum"],
+      "reveal": { "word": "credula", "gloss": "trusting / credulous" },
+      "hints": {
+        "diem": "'diem' is accusative — 'credula' is nominative feminine, modifying the addressee",
+        "postero": "'postero' is dative/ablative masculine/neuter — 'credula' is nominative feminine",
+        "minimum": "'minimum' is an adverb here — 'credula' is an adjective modifying the implied 'you'"
+      }
+    },
+    {
+      "prompt": "Case of 'postero'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "postero", "gloss": "in the next (day) / tomorrow" },
+      "hints": {
+        "Nominative": "Nominative would be 'posterus' — 'postero' with -o ending is dative or ablative",
+        "Ablative": "Ablative is possible, but 'credula' governs the dative — 'trusting in the next day'",
+        "Accusative": "Accusative would be 'posterum' — 'postero' is dative here"
+      }
+    }
+  ],
+  "translation": "Seize the day, trusting as little as possible in the next"
+}

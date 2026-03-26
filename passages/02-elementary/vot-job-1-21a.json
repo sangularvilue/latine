@@ -1,0 +1,97 @@
+{
+  "id": "vot-job-1-21a",
+  "source": "Vulgate",
+  "reference": "Job 1:21",
+  "latin": ["Dominus", "dedit", "Dominus", "abstulit"],
+  "steps": [
+    {
+      "prompt": "What case is the first 'Dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Dominus = the Lord (nom.)",
+      "hints": {
+        "vocative": "The vocative would be 'Domine'",
+        "accusative": "The accusative would be 'Dominum'",
+        "genitive": "The genitive would be 'Domini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings and -is in the genitive",
+        "4th declension": "4th declension -us nouns have genitive -us, not -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dedit' translates to?",
+      "target": "to give",
+      "choices": ["to give", "to take", "to send", "to place"],
+      "reveal": null,
+      "hints": {
+        "to take": "That would be the infinitive of 'capere'",
+        "to send": "That would be the infinitive of 'mittere'",
+        "to place": "That would be the infinitive of 'ponere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'dedit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "dedit = he gave / has given",
+      "hints": {
+        "present indicative": "The present indicative would be 'dat'",
+        "imperfect indicative": "The imperfect would be 'dabat'",
+        "pluperfect indicative": "The pluperfect would be 'dederat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dedit'?",
+      "target": "do, dare, dedi, datum",
+      "choices": ["do, dare, dedi, datum", "dono, donare, donavi, donatum", "tribuo, tribuere, tribui, tributum", "reddo, reddere, reddidi, redditum"],
+      "reveal": null,
+      "hints": {
+        "dono, donare, donavi, donatum": "These are the principal parts of 'dono' (to present/bestow)",
+        "tribuo, tribuere, tribui, tributum": "These are the principal parts of 'tribuo' (to assign/grant)",
+        "reddo, reddere, reddidi, redditum": "These are the principal parts of 'reddo' (to give back)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'abstulit' translates to?",
+      "target": "to take away",
+      "choices": ["to take away", "to give", "to destroy", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to give": "That would be the infinitive of 'dare'",
+        "to destroy": "That would be the infinitive of 'delere'",
+        "to carry": "That would be the infinitive of 'ferre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'abstulit'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "imperfect indicative", "future indicative"],
+      "reveal": "abstulit = he took away / has taken away",
+      "hints": {
+        "present indicative": "The present indicative would be 'aufert'",
+        "imperfect indicative": "The imperfect would be 'auferebat'",
+        "future indicative": "The future would be 'auferet'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'abstulit'?",
+      "target": "aufero, auferre, abstuli, ablatum",
+      "choices": ["aufero, auferre, abstuli, ablatum", "fero, ferre, tuli, latum", "tollo, tollere, sustuli, sublatum", "rapio, rapere, rapui, raptum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the principal parts of 'fero' (to carry), the simple verb",
+        "tollo, tollere, sustuli, sublatum": "These are the principal parts of 'tollo' (to lift/remove)",
+        "rapio, rapere, rapui, raptum": "These are the principal parts of 'rapio' (to seize)"
+      }
+    }
+  ],
+  "translation": "The Lord gave, the Lord has taken away"
+}

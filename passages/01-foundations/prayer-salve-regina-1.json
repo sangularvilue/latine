@@ -1,0 +1,97 @@
+{
+  "id": "prayer-salve-regina-1",
+  "source": "Prayer",
+  "reference": "Salve Regina 1",
+  "latin": ["Salve", "Regina", "mater", "misericordiae"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'salve' translates to?",
+      "target": "to be well / to hail",
+      "choices": ["to be well / to hail", "to save", "to greet", "to heal"],
+      "reveal": null,
+      "hints": {
+        "to save": "'to save' is 'salvare' — 'salve' comes from 'salvere' (to be well/hail)",
+        "to greet": "'to greet' is 'salutare' — 'salve' comes from 'salvere'",
+        "to heal": "'to heal' is 'sanare' — 'salve' comes from 'salvere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'salve'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "salve", "gloss": "hail!" },
+      "hints": {
+        "Indicative": "Indicative of 'salvere' would be 'salves' — 'salve' is the imperative greeting form",
+        "Subjunctive": "Subjunctive would be 'salveas' — 'salve' is the imperative form meaning 'hail!'",
+        "Infinitive": "Infinitive would be 'salvere' — 'salve' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'salve'?",
+      "target": "salveo, salvere, —, —",
+      "choices": ["salveo, salvere, —, —", "salvo, salvare, salvavi, salvatum", "saluto, salutare, salutavi, salutatum", "sano, sanare, sanavi, sanatum"],
+      "reveal": null,
+      "hints": {
+        "salvo, salvare, salvavi, salvatum": "These are the principal parts of 'salvare' (to save)",
+        "saluto, salutare, salutavi, salutatum": "These are the principal parts of 'salutare' (to greet)",
+        "sano, sanare, sanavi, sanatum": "These are the principal parts of 'sanare' (to heal)"
+      }
+    },
+    {
+      "prompt": "What case is 'Regina'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Regina", "gloss": "O Queen" },
+      "hints": {
+        "Nominative": "While 'Regina' has the same form in nominative and vocative for 1st decl., here it is addressed directly",
+        "Genitive": "Genitive of 'Regina' would be 'Reginae' — 'Regina' is the vocative form of address",
+        "Accusative": "Accusative of 'Regina' would be 'Reginam' — 'Regina' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'regina, reginae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'reginae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'reginae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'reginae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'mater'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "mater", "gloss": "O mother" },
+      "hints": {
+        "Nominative": "While the form is the same, 'mater' is in apposition to 'Regina' as a vocative address",
+        "Genitive": "Genitive of 'mater' would be 'matris' — 'mater' here is vocative",
+        "Accusative": "Accusative of 'mater' would be 'matrem' — 'mater' here is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'misericordiae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "misericordiae", "gloss": "of mercy" },
+      "hints": {
+        "Nominative": "Nominative singular is 'misericordia' — 'misericordiae' with -ae is genitive singular here",
+        "Dative": "While 'misericordiae' could be dative, here it is genitive modifying 'mater'",
+        "Ablative": "Ablative of 'misericordia' would be 'misericordia' — 'misericordiae' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'misericordia, misericordiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'misericordiae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'misericordiae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'misericordiae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Hail, Queen, mother of mercy"
+}

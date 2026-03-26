@@ -1,0 +1,152 @@
+{
+  "id": "cicero-off-1-77",
+  "source": "Cicero",
+  "reference": "De Officiis I.77",
+  "latin": ["Cedant", "arma", "togae", "concedat", "laurea", "laudi"],
+  "steps": [
+    {
+      "prompt": "Which word is the first main verb?",
+      "target": "Cedant",
+      "choices": ["Cedant", "arma", "togae", "laurea"],
+      "reveal": null,
+      "hints": {
+        "arma": "'arma' is a noun meaning 'arms / weapons'",
+        "togae": "'togae' is a noun meaning 'to the toga'",
+        "laurea": "'laurea' is a noun meaning 'laurel wreath'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Cedant' translates to?",
+      "target": "to yield / give way",
+      "choices": ["to yield / give way", "to cut", "to fall", "to sing"],
+      "reveal": null,
+      "hints": {
+        "to cut": "'to cut' is 'caedere' — 'cedere' (to yield) has a different vowel",
+        "to fall": "'to fall' is 'cadere' — similar sounding but different from 'cedere'",
+        "to sing": "'to sing' is 'canere' — not related to 'cedere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Cedant'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Future indicative", "Imperfect subjunctive"],
+      "reveal": { "word": "Cedant", "gloss": "let them yield" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'cedunt' — 'cedant' with -a- is subjunctive (jussive)",
+        "Future indicative": "Future would be 'cedent' — 'cedant' is a present subjunctive expressing a command",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'cederent' — 'cedant' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Cedant'?",
+      "target": "cedo, cedere, cessi, cessum",
+      "choices": ["cedo, cedere, cessi, cessum", "caedo, caedere, cecidi, caesum", "cado, cadere, cecidi, casum", "cano, canere, cecini, cantum"],
+      "reveal": null,
+      "hints": {
+        "caedo, caedere, cecidi, caesum": "These are the parts of 'caedere' (to cut/kill) — not 'cedere' (to yield)",
+        "cado, cadere, cecidi, casum": "These are the parts of 'cadere' (to fall) — different from 'cedere'",
+        "cano, canere, cecini, cantum": "These are the parts of 'canere' (to sing) — unrelated to 'cedere'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'concedat' translates to?",
+      "target": "to concede / yield",
+      "choices": ["to concede / yield", "to conceal", "to condemn", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to conceal": "'to conceal' is 'celare' — 'concedere' means to yield or grant",
+        "to condemn": "'to condemn' is 'condemnare' — different con- compound",
+        "to gather": "'to gather' is 'colligere' — not related to 'concedere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'concedat'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Future indicative", "Perfect subjunctive"],
+      "reveal": { "word": "concedat", "gloss": "let it concede" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'concedit' — 'concedat' with -a- is subjunctive",
+        "Future indicative": "Future would be 'concedet' — 'concedat' is present subjunctive (jussive)",
+        "Perfect subjunctive": "Perfect subjunctive would be 'concesserit' — 'concedat' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'concedat'?",
+      "target": "concedo, concedere, concessi, concessum",
+      "choices": ["concedo, concedere, concessi, concessum", "concido, concidere, concidi, concisum", "condo, condere, condidi, conditum", "confero, conferre, contuli, collatum"],
+      "reveal": null,
+      "hints": {
+        "concido, concidere, concidi, concisum": "These are the parts of 'concidere' (to cut down) — not 'concedere'",
+        "condo, condere, condidi, conditum": "These are the parts of 'condere' (to found/store) — different verb",
+        "confero, conferre, contuli, collatum": "These are the parts of 'conferre' (to bring together) — not 'concedere'"
+      }
+    },
+    {
+      "prompt": "What case is 'arma'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "arma", "gloss": "arms / weapons" },
+      "hints": {
+        "Accusative": "'arma' is neuter plural — nominative and accusative are identical, but as subject of 'cedant' it is nominative",
+        "Ablative": "Ablative plural would be 'armis' — 'arma' is nominative/accusative neuter plural",
+        "Vocative": "Cicero is not addressing weapons — 'arma' is the subject of 'cedant'"
+      }
+    },
+    {
+      "prompt": "What case is 'togae'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "togae", "gloss": "to the toga (i.e., peace / civic life)" },
+      "hints": {
+        "Nominative": "Nominative singular is 'toga' — 'togae' here is dative (yield TO the toga)",
+        "Genitive": "While 'togae' can be genitive, 'cedere' takes a dative complement",
+        "Vocative": "Cicero is not addressing the toga — 'togae' is dative with 'cedant'"
+      }
+    },
+    {
+      "prompt": "Declension of 'togae'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension dative would end in -o — 'toga, togae' is 1st declension",
+        "3rd": "3rd declension dative would end in -i — 'togae' is 1st declension",
+        "5th": "5th declension dative would end in -ei — 'togae' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'laurea'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "laurea", "gloss": "the laurel wreath (i.e., military glory)" },
+      "hints": {
+        "Ablative": "Ablative would look the same for 1st declension, but 'laurea' is the subject of 'concedat'",
+        "Vocative": "Cicero is not addressing the laurel — 'laurea' is the subject",
+        "Accusative": "Accusative singular would be 'lauream' — 'laurea' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'laudi'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "laudi", "gloss": "to praise / glory (i.e., eloquence)" },
+      "hints": {
+        "Nominative": "Nominative would be 'laus' — 'laudi' is the dative singular",
+        "Genitive": "Genitive would be 'laudis' — 'laudi' is the dative form",
+        "Ablative": "Ablative would be 'laude' — 'laudi' is dative, parallel to 'togae'"
+      }
+    },
+    {
+      "prompt": "Declension of 'laudi'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension dative ends in -ae — 'laus, laudis' is 3rd declension",
+        "2nd": "2nd declension dative ends in -o — 'laudi' is 3rd declension",
+        "4th": "4th declension dative ends in -ui — 'laudi' is 3rd declension"
+      }
+    }
+  ],
+  "translation": "Let arms yield to the toga, let the laurel concede to praise."
+}

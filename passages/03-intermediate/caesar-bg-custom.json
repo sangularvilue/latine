@@ -1,0 +1,108 @@
+{
+  "id": "caesar-bg-custom",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum (adapted)",
+  "latin": ["Bellum", "Gallicum", "Caesar", "prosecutus", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'Bellum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "Bellum = war (acc. neut. sg.)",
+      "hints": {
+        "nominative": "While 'Bellum' looks the same in nominative, here it is the object of 'prosecutus est'",
+        "ablative": "Ablative would be 'bello' — 'Bellum' is accusative, direct object",
+        "vocative": "Vocative is not used here — 'Bellum' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'bellum, belli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'belli' with -i is 2nd declension",
+        "3rd declension": "3rd declension has genitive in -is — 'belli' with -i is 2nd declension",
+        "4th declension": "4th declension has genitive in -ūs — 'belli' with -i is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'Gallicum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Gallicum = Gallic (acc. neut. sg., agreeing with 'Bellum')",
+      "hints": {
+        "nominative": "While the neuter form looks the same, 'Gallicum' agrees with 'Bellum' as accusative",
+        "genitive": "Genitive would be 'Gallici' — 'Gallicum' is accusative modifying 'Bellum'",
+        "ablative": "Ablative would be 'Gallico' — 'Gallicum' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'Caesar'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "Caesar = Caesar (nom., subject)",
+      "hints": {
+        "genitive": "Genitive would be 'Caesaris' — 'Caesar' is nominative, the subject",
+        "accusative": "Accusative would be 'Caesarem' — 'Caesar' is nominative here",
+        "ablative": "Ablative would be 'Caesare' — 'Caesar' is nominative, the subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'Caesar, Caesaris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Caesaris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Caesaris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'Caesaris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What form is 'prosecutus'?",
+      "target": "perfect participle (deponent)",
+      "choices": ["perfect participle (deponent)", "present active participle", "gerundive", "future active participle"],
+      "reveal": "prosecutus = having pursued/carried on (nom. masc. sg.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'prosequens' — 'prosecutus' is perfect (deponent)",
+        "gerundive": "Gerundive would be 'prosequendus' — 'prosecutus' is perfect participle",
+        "future active participle": "Future active participle would be 'prosecuturus' — 'prosecutus' is perfect"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'prosecutus est' translates to?",
+      "target": "to pursue/carry on",
+      "choices": ["to pursue/carry on", "to prosecute (legally)", "to proceed", "to protect"],
+      "reveal": null,
+      "hints": {
+        "to prosecute (legally)": "The English 'prosecute' derives from this verb, but in Latin 'prosequi' means 'to pursue/carry on'",
+        "to proceed": "That would be 'procedere' — 'prosequi' means 'to pursue/carry on'",
+        "to protect": "That would be 'protegere' — 'prosequi' means 'to pursue/carry on'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'prosecutus est'?",
+      "target": "perfect indicative (deponent)",
+      "choices": ["perfect indicative (deponent)", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "prosecutus est = he carried on/pursued",
+      "hints": {
+        "present indicative": "Present would be 'prosequitur' — 'prosecutus est' with participle + 'est' is perfect",
+        "pluperfect indicative": "Pluperfect would be 'prosecutus erat' — 'prosecutus est' is perfect",
+        "perfect subjunctive": "Perfect subjunctive would be 'prosecutus sit' — 'prosecutus est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'prosecutus est'?",
+      "target": "prosequor, prosequi, prosecutus sum",
+      "choices": ["prosequor, prosequi, prosecutus sum", "sequor, sequi, secutus sum", "persequor, persequi, persecutus sum", "prosicio, prosicere, prosieci, prosiectum"],
+      "reveal": null,
+      "hints": {
+        "sequor, sequi, secutus sum": "These are the parts of 'sequi' (to follow) — 'prosequi' is its compound pro + sequi",
+        "persequor, persequi, persecutus sum": "These are the parts of 'persequi' (to pursue thoroughly) — different prefix",
+        "prosicio, prosicere, prosieci, prosiectum": "These are not standard Latin parts — 'prosequi' is a deponent verb"
+      }
+    }
+  ],
+  "translation": "Caesar carried on the Gallic War"
+}

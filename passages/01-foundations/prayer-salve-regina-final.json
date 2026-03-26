@@ -1,0 +1,75 @@
+{
+  "id": "prayer-salve-regina-final",
+  "source": "Prayer",
+  "reference": "Salve Regina final",
+  "latin": ["O", "clemens", "o", "pia", "o", "dulcis", "Virgo", "Maria"],
+  "steps": [
+    {
+      "prompt": "What case is 'Virgo'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Virgo", "gloss": "O Virgin" },
+      "hints": {
+        "Nominative": "While 'Virgo' has the same form in nominative and vocative, here it is a direct address",
+        "Genitive": "Genitive of 'Virgo' would be 'Virginis' — 'Virgo' is the vocative form of address",
+        "Accusative": "Accusative of 'Virgo' would be 'Virginem' — 'Virgo' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'virgo, virginis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'virginis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'virginis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'virginis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Maria'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Ablative", "Vocative"],
+      "reveal": { "word": "Maria", "gloss": "O Mary" },
+      "hints": {
+        "Nominative": "While the form is the same, 'Maria' here is vocative — a direct address in the prayer",
+        "Genitive": "Genitive of 'Maria' would be 'Mariae' — 'Maria' here is vocative",
+        "Ablative": "Ablative of 'Maria' would be 'Maria', but context shows direct address (vocative)"
+      }
+    },
+    {
+      "prompt": "What declension is 'Maria, Mariae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'Mariae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Mariae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'Mariae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'clemens'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "clemens", "gloss": "O merciful one" },
+      "hints": {
+        "Nominative": "While 'clemens' has the same form, the 'O' particle marks it as vocative address",
+        "Genitive": "Genitive of 'clemens' would be 'clementis' — 'clemens' is vocative here",
+        "Accusative": "Accusative of 'clemens' would be 'clementem' — 'clemens' is vocative"
+      }
+    },
+    {
+      "prompt": "What case is 'dulcis'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "dulcis", "gloss": "O sweet one" },
+      "hints": {
+        "Nominative": "While the form is the same, 'dulcis' follows 'O' and is a vocative address",
+        "Genitive": "Genitive of 'dulcis' (3rd decl. adj.) would also be 'dulcis', but the 'O' particle marks vocative",
+        "Accusative": "Accusative would be 'dulcem' — 'dulcis' here is vocative"
+      }
+    }
+  ],
+  "translation": "O merciful, O loving, O sweet Virgin Mary"
+}

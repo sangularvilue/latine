@@ -1,0 +1,108 @@
+{
+  "id": "vnt-rom-8-35",
+  "source": "Vulgate",
+  "reference": "Romans 8:35",
+  "latin": ["Quis", "nos", "separabit", "a", "caritate", "Christi"],
+  "steps": [
+    {
+      "prompt": "What case is 'Quis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Quis", "gloss": "Who" },
+      "hints": {
+        "accusative": "The accusative would be 'quem'",
+        "ablative": "The ablative would be 'quo'",
+        "genitive": "The genitive would be 'cuius'"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "nominative": "'Nos' can be nominative, but here it is the object of 'separabit'",
+        "ablative": "The ablative would be 'nobis'",
+        "dative": "The dative would be 'nobis'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'separabit' translates to?",
+      "target": "to separate",
+      "choices": ["to separate", "to prepare", "to hope", "to repair"],
+      "reveal": null,
+      "hints": {
+        "to prepare": "'Parare' means to prepare",
+        "to hope": "'Sperare' means to hope",
+        "to repair": "'Reparare' means to repair"
+      }
+    },
+    {
+      "prompt": "'separabit' is what tense and mood?",
+      "target": "future indicative active",
+      "choices": ["future indicative active", "present indicative active", "perfect indicative active", "imperfect indicative active"],
+      "reveal": { "word": "separabit", "gloss": "will separate" },
+      "hints": {
+        "present indicative active": "The present would be 'separat'",
+        "perfect indicative active": "The perfect would be 'separavit'",
+        "imperfect indicative active": "The imperfect would be 'separabat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'separabit'?",
+      "target": "separo, separare, separavi, separatus",
+      "choices": ["separo, separare, separavi, separatus", "separo, separere, separui, separitus", "separo, separare, separui, separatus", "separo, separire, separivi, separitus"],
+      "reveal": null,
+      "hints": {
+        "separo, separere, separui, separitus": "This is a regular 1st conjugation verb with -are infinitive",
+        "separo, separare, separui, separatus": "The perfect is 'separavi' with regular -avi ending",
+        "separo, separire, separivi, separitus": "The infinitive is 'separare', not 'separire'"
+      }
+    },
+    {
+      "prompt": "What case is 'caritate'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "dative"],
+      "reveal": { "word": "caritate", "gloss": "love" },
+      "hints": {
+        "nominative": "The nominative is 'caritas'; 'a' takes ablative",
+        "accusative": "The accusative would be 'caritatem'",
+        "dative": "The dative would be 'caritati'"
+      }
+    },
+    {
+      "prompt": "What declension is 'caritate'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablatives end in -a",
+        "2nd declension": "2nd declension ablatives end in -o",
+        "5th declension": "5th declension ablatives end in -e but 'caritas' is 3rd decl."
+      }
+    },
+    {
+      "prompt": "What case is 'Christi'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "Christi", "gloss": "of Christ" },
+      "hints": {
+        "nominative": "The nominative is 'Christus'",
+        "dative": "The dative would be 'Christo'",
+        "ablative": "The ablative would be 'Christo'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Christi'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Christus' ends in -us, typical of 2nd declension",
+        "3rd declension": "3rd declension genitives end in -is",
+        "4th declension": "4th declension genitives end in -us"
+      }
+    }
+  ],
+  "translation": "Who will separate us from the love of Christ?"
+}

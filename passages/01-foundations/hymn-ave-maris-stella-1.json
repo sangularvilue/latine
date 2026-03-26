@@ -1,0 +1,86 @@
+{
+  "id": "hymn-ave-maris-stella-1",
+  "source": "Hymn",
+  "reference": "Ave Maris Stella 1",
+  "latin": ["Ave", "maris", "stella", "Dei", "mater", "alma"],
+  "steps": [
+    {
+      "prompt": "What case is 'maris'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "maris", "gloss": "of the sea" },
+      "hints": {
+        "Nominative": "Nominative is 'mare' — 'maris' has the -is genitive ending",
+        "Dative": "Dative of 'mare' would be 'mari' — 'maris' ends in -is (genitive)",
+        "Ablative": "Ablative of 'mare' would be 'mari' — 'maris' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'mare, maris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'maris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'maris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'maris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'stella'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "stella", "gloss": "O star" },
+      "hints": {
+        "Nominative": "While the form is the same, 'stella' is addressed directly with 'Ave' — it is vocative",
+        "Ablative": "Ablative of 'stella' would also be 'stella', but here it is the addressee of 'Ave'",
+        "Accusative": "Accusative of 'stella' would be 'stellam' — 'stella' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'stella, stellae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'stellae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'stellae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'stellae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Dei", "gloss": "of God" },
+      "hints": {
+        "Nominative": "Nominative is 'Deus' — 'Dei' has the -i genitive ending",
+        "Dative": "Dative of 'Deus' would be 'Deo' — 'Dei' ends in -i (genitive singular)",
+        "Ablative": "Ablative of 'Deus' would be 'Deo' — 'Dei' ends in -i (genitive singular)"
+      }
+    },
+    {
+      "prompt": "What case is 'mater'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "mater", "gloss": "O mother" },
+      "hints": {
+        "Nominative": "While the form is the same, 'mater' is in apposition to 'stella' as a vocative address",
+        "Genitive": "Genitive of 'mater' would be 'matris' — 'mater' here is vocative",
+        "Accusative": "Accusative of 'mater' would be 'matrem' — 'mater' here is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'mater, matris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'matris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'matris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'matris' ends in -is"
+      }
+    }
+  ],
+  "translation": "Hail, star of the sea, gracious mother of God"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "vot-dan-3-17",
+  "source": "Vulgate",
+  "reference": "Daniel 3:17",
+  "latin": ["Deus", "noster", "quem", "colimus", "potest", "eripere", "nos"],
+  "steps": [
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Deus = God (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'Deum'",
+        "vocative": "The vocative would be 'Deus' (or 'Dee' rarely); here it is the subject",
+        "genitive": "The genitive would be 'Dei'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings",
+        "4th declension": "4th declension nouns end in -us (gen. -us, not -i)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'colimus' translates to?",
+      "target": "to worship / to cultivate",
+      "choices": ["to worship / to cultivate", "to gather", "to inhabit", "to believe"],
+      "reveal": null,
+      "hints": {
+        "to gather": "That would be the infinitive of 'colligere'",
+        "to inhabit": "That would be the infinitive of 'habitare'",
+        "to believe": "That would be the infinitive of 'credere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'colimus'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "colimus = we worship",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'coluimus'",
+        "present subjunctive": "The present subjunctive would be 'colamus'",
+        "future indicative": "The future would be 'colemus'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'colimus'?",
+      "target": "colo, colere, colui, cultum",
+      "choices": ["colo, colere, colui, cultum", "colligo, colligere, collegi, collectum", "adoro, adorare, adoravi, adoratum", "veneror, venerari, veneratus sum, —"],
+      "reveal": null,
+      "hints": {
+        "colligo, colligere, collegi, collectum": "These are the principal parts of 'colligo' (to collect)",
+        "adoro, adorare, adoravi, adoratum": "These are the principal parts of 'adoro' (to worship/adore)",
+        "veneror, venerari, veneratus sum, —": "These are the principal parts of 'veneror' (to revere)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'potest' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to have power", "to wish", "to dare"],
+      "reveal": null,
+      "hints": {
+        "to have power": "That would be closer to 'valere'; 'posse' means 'to be able'",
+        "to wish": "That would be the infinitive of 'velle'",
+        "to dare": "That would be the infinitive of 'audere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'potest'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "potest = he/it is able / he can",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'potuit'",
+        "present subjunctive": "The present subjunctive would be 'possit'",
+        "imperfect indicative": "The imperfect would be 'poterat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'potest'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "sum, esse, fui, futurus", "valeo, valere, valui, valitum", "queo, quire, quivi, quitum"],
+      "reveal": null,
+      "hints": {
+        "sum, esse, fui, futurus": "These are the principal parts of 'sum' (to be)",
+        "valeo, valere, valui, valitum": "These are the principal parts of 'valeo' (to be strong)",
+        "queo, quire, quivi, quitum": "These are the principal parts of 'queo' (to be able, archaic)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eripere' translates to?",
+      "target": "to rescue / to snatch away",
+      "choices": ["to rescue / to snatch away", "to destroy", "to free", "to lead out"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "That would be the infinitive of 'delere'",
+        "to free": "That would be the infinitive of 'liberare'",
+        "to lead out": "That would be the infinitive of 'educere'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eripere'?",
+      "target": "eripio, eripere, eripui, ereptum",
+      "choices": ["eripio, eripere, eripui, ereptum", "rapio, rapere, rapui, raptum", "capio, capere, cepi, captum", "libero, liberare, liberavi, liberatum"],
+      "reveal": null,
+      "hints": {
+        "rapio, rapere, rapui, raptum": "These are the principal parts of 'rapio' (to seize)",
+        "capio, capere, cepi, captum": "These are the principal parts of 'capio' (to take)",
+        "libero, liberare, liberavi, liberatum": "These are the principal parts of 'libero' (to free)"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "nos = us (acc.)",
+      "hints": {
+        "nominative": "'Nos' can be nominative, but here it is the direct object of 'eripere'",
+        "ablative": "'Nos' can be ablative with a preposition, but here it is accusative",
+        "dative": "The dative would be 'nobis'"
+      }
+    }
+  ],
+  "translation": "Our God whom we worship is able to rescue us"
+}

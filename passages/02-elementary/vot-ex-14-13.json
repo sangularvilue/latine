@@ -1,0 +1,130 @@
+{
+  "id": "vot-ex-14-13",
+  "source": "Vulgate",
+  "reference": "Exodus 14:13",
+  "latin": ["Nolite", "timere", "state", "et", "videte", "magnalia", "Domini"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'nolite' translates to?",
+      "target": "to be unwilling / to not wish",
+      "choices": ["to be unwilling / to not wish", "to deny", "to refuse", "to forbid"],
+      "reveal": null,
+      "hints": {
+        "to deny": "That would be the infinitive of 'negare'",
+        "to refuse": "That would be closer to 'recusare'; 'nolle' means 'to be unwilling'",
+        "to forbid": "That would be the infinitive of 'vetare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'nolite'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "nolite = do not! (pl.)",
+      "hints": {
+        "present indicative": "The present indicative would be 'non vultis'",
+        "present subjunctive": "The present subjunctive would be 'nolitis'",
+        "perfect indicative": "The perfect would be 'noluistis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "volo, velle, volui, —", "malo, malle, malui, —", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui, —": "These are the principal parts of 'volo' (to wish/want)",
+        "malo, malle, malui, —": "These are the principal parts of 'malo' (to prefer)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'state' translates to?",
+      "target": "to stand",
+      "choices": ["to stand", "to be", "to stay", "to place"],
+      "reveal": null,
+      "hints": {
+        "to be": "That would be the infinitive of 'esse'",
+        "to stay": "That would be the infinitive of 'manere'",
+        "to place": "That would be the infinitive of 'ponere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'state'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "state = stand! (pl.)",
+      "hints": {
+        "present indicative": "The present indicative would be 'statis'",
+        "present subjunctive": "The present subjunctive would be 'stetis'",
+        "perfect indicative": "The perfect would be 'stetistis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'state'?",
+      "target": "sto, stare, steti, statum",
+      "choices": ["sto, stare, steti, statum", "sisto, sistere, stiti, statum", "sum, esse, fui, futurus", "maneo, manere, mansi, mansum"],
+      "reveal": null,
+      "hints": {
+        "sisto, sistere, stiti, statum": "These are the principal parts of 'sisto' (to cause to stand)",
+        "sum, esse, fui, futurus": "These are the principal parts of 'sum' (to be)",
+        "maneo, manere, mansi, mansum": "These are the principal parts of 'maneo' (to remain)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'videte' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to know", "to watch", "to perceive"],
+      "reveal": null,
+      "hints": {
+        "to know": "That would be the infinitive of 'scire'",
+        "to watch": "That would be the infinitive of 'spectare'",
+        "to perceive": "That would be the infinitive of 'percipere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'videte'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "future imperative"],
+      "reveal": "videte = see! / behold! (pl.)",
+      "hints": {
+        "present indicative": "The present indicative would be 'videtis'",
+        "present subjunctive": "The present subjunctive would be 'videatis'",
+        "future imperative": "The future imperative would be 'videtote'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videte'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "specto, spectare, spectavi, spectatum", "cerno, cernere, crevi, cretum", "aspicio, aspicere, aspexi, aspectum"],
+      "reveal": null,
+      "hints": {
+        "specto, spectare, spectavi, spectatum": "These are the principal parts of 'specto' (to watch)",
+        "cerno, cernere, crevi, cretum": "These are the principal parts of 'cerno' (to discern)",
+        "aspicio, aspicere, aspexi, aspectum": "These are the principal parts of 'aspicio' (to look at)"
+      }
+    },
+    {
+      "prompt": "What case is 'magnalia'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "magnalia = great deeds / mighty works (acc. pl.)",
+      "hints": {
+        "nominative": "'Magnalia' could be nominative plural neuter, but here it is the object of 'videte'",
+        "ablative": "The ablative plural would be 'magnalibus'",
+        "genitive": "The genitive plural would be 'magnalium'"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "vocative"],
+      "reveal": "Domini = of the Lord (gen.)",
+      "hints": {
+        "nominative": "The nominative would be 'Dominus'",
+        "dative": "The dative would be 'Domino'",
+        "vocative": "The vocative would be 'Domine'"
+      }
+    }
+  ],
+  "translation": "Do not be afraid; stand and see the mighty works of the Lord"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "hymn-stabat-2",
+  "source": "Hymn",
+  "reference": "Stabat Mater 2",
+  "latin": ["Cuius", "animam", "gementem", "contristatam", "et", "dolentem"],
+  "steps": [
+    {
+      "prompt": "What case is 'animam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "animam", "gloss": "soul" },
+      "hints": {
+        "Nominative": "Nominative of 'anima' is 'anima' — 'animam' has the -am accusative ending",
+        "Genitive": "Genitive of 'anima' would be 'animae' — 'animam' has the -am accusative ending",
+        "Ablative": "Ablative of 'anima' would be 'anima' — 'animam' has the -am accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'anima, animae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'animae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'animae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'animae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'gementem' translates to?",
+      "target": "to groan / to sigh",
+      "choices": ["to groan / to sigh", "to weep", "to suffer", "to tremble"],
+      "reveal": null,
+      "hints": {
+        "to weep": "'to weep' is 'flere' — 'gementem' comes from 'gemere'",
+        "to suffer": "'to suffer' is 'pati' — 'gementem' comes from 'gemere'",
+        "to tremble": "'to tremble' is 'tremere' — 'gementem' comes from 'gemere'"
+      }
+    },
+    {
+      "prompt": "What form is 'gementem'?",
+      "target": "Present active participle (accusative)",
+      "choices": ["Present active participle (accusative)", "Perfect passive participle", "Future active participle", "Gerund"],
+      "reveal": { "word": "gementem", "gloss": "groaning" },
+      "hints": {
+        "Perfect passive participle": "Perfect passive participle of 'gemere' would be 'gemitam' — 'gementem' has the -nt- present participle marker",
+        "Future active participle": "Future active participle would be 'gemituram' — 'gementem' has the -nt- present participle marker",
+        "Gerund": "A gerund would be 'gemendum' — 'gementem' has the -nt- present participle marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'gementem'?",
+      "target": "gemo, gemere, gemui, gemitum",
+      "choices": ["gemo, gemere, gemui, gemitum", "fleo, flere, flevi, fletum", "tremo, tremere, tremui, —", "doleo, dolere, dolui, dolitum"],
+      "reveal": null,
+      "hints": {
+        "fleo, flere, flevi, fletum": "These are the principal parts of 'flere' (to weep)",
+        "tremo, tremere, tremui, —": "These are the principal parts of 'tremere' (to tremble)",
+        "doleo, dolere, dolui, dolitum": "These are the principal parts of 'dolere' (to grieve)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'contristatam' translates to?",
+      "target": "to sadden / to grieve",
+      "choices": ["to sadden / to grieve", "to destroy", "to oppose", "to strike"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'to destroy' is 'destruere' — 'contristatam' comes from 'contristare'",
+        "to oppose": "'to oppose' is 'opponere' — 'contristatam' comes from 'contristare'",
+        "to strike": "'to strike' is 'percutere' — 'contristatam' comes from 'contristare'"
+      }
+    },
+    {
+      "prompt": "What form is 'contristatam'?",
+      "target": "Perfect passive participle (accusative)",
+      "choices": ["Present active participle", "Perfect passive participle (accusative)", "Future active participle", "Gerundive"],
+      "reveal": { "word": "contristatam", "gloss": "saddened" },
+      "hints": {
+        "Present active participle": "Present active participle would be 'contristantem' — 'contristatam' has the -at- perfect passive stem",
+        "Future active participle": "Future active participle would be 'contristaturam' — 'contristatam' is perfect passive",
+        "Gerundive": "Gerundive would be 'contristandam' — 'contristatam' is a perfect passive participle"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'contristatam'?",
+      "target": "contristo, contristare, contristavi, contristatum",
+      "choices": ["contristo, contristare, contristavi, contristatum", "tristo, tristare, tristavi, tristatum", "doleo, dolere, dolui, dolitum", "crucio, cruciare, cruciavi, cruciatum"],
+      "reveal": null,
+      "hints": {
+        "tristo, tristare, tristavi, tristatum": "'tristare' is not a standard Latin verb — 'contristare' is the correct compound form",
+        "doleo, dolere, dolui, dolitum": "These are the principal parts of 'dolere' (to grieve)",
+        "crucio, cruciare, cruciavi, cruciatum": "These are the principal parts of 'cruciare' (to torment)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dolentem' translates to?",
+      "target": "to grieve / to suffer",
+      "choices": ["to grieve / to suffer", "to weep", "to fear", "to sigh"],
+      "reveal": null,
+      "hints": {
+        "to weep": "'to weep' is 'flere' — 'dolentem' comes from 'dolere'",
+        "to fear": "'to fear' is 'timere' — 'dolentem' comes from 'dolere'",
+        "to sigh": "'to sigh' is 'gemere' — 'dolentem' comes from 'dolere'"
+      }
+    },
+    {
+      "prompt": "What form is 'dolentem'?",
+      "target": "Present active participle (accusative)",
+      "choices": ["Present active participle (accusative)", "Perfect passive participle", "Future active participle", "Gerundive"],
+      "reveal": { "word": "dolentem", "gloss": "grieving" },
+      "hints": {
+        "Perfect passive participle": "Perfect passive participle would be 'dolitam' — 'dolentem' has the -nt- present participle marker",
+        "Future active participle": "Future active participle would be 'dolituram' — 'dolentem' has the -nt- present participle marker",
+        "Gerundive": "Gerundive would be 'dolendam' — 'dolentem' has the -nt- present participle marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dolentem'?",
+      "target": "doleo, dolere, dolui, dolitum",
+      "choices": ["doleo, dolere, dolui, dolitum", "gemo, gemere, gemui, gemitum", "fleo, flere, flevi, fletum", "patior, pati, passus sum"],
+      "reveal": null,
+      "hints": {
+        "gemo, gemere, gemui, gemitum": "These are the principal parts of 'gemere' (to groan)",
+        "fleo, flere, flevi, fletum": "These are the principal parts of 'flere' (to weep)",
+        "patior, pati, passus sum": "These are the principal parts of 'pati' (to suffer/endure)"
+      }
+    }
+  ],
+  "translation": "Whose soul, groaning, saddened, and grieving"
+}

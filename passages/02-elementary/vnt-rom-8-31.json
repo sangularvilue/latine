@@ -1,0 +1,86 @@
+{
+  "id": "vnt-rom-8-31",
+  "source": "Vulgate",
+  "reference": "Romans 8:31",
+  "latin": ["Si", "Deus", "pro", "nobis", "quis", "contra", "nos"],
+  "steps": [
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": { "word": "Deus", "gloss": "God" },
+      "hints": {
+        "accusative": "The accusative would be 'Deum'",
+        "vocative": "The vocative is 'Deus' or 'Dee', but here God is the subject",
+        "genitive": "The genitive would be 'Dei'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Deus' ends in -us, typical of 2nd declension",
+        "3rd declension": "3rd declension nouns do not typically end in -us",
+        "4th declension": "'Deus' follows the standard 2nd declension -us, -i pattern"
+      }
+    },
+    {
+      "prompt": "What case is 'nobis'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": { "word": "nobis", "gloss": "us" },
+      "hints": {
+        "dative": "'Nobis' can be dative, but after 'pro' it is ablative",
+        "nominative": "The nominative is 'nos'",
+        "genitive": "The genitive is 'nostrum' or 'nostri'"
+      }
+    },
+    {
+      "prompt": "What declension is 'nobis'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "1st declension", "2nd declension", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Personal pronouns are irregular, not standard declensions",
+        "2nd declension": "Personal pronouns have their own paradigm",
+        "3rd declension": "Personal pronouns do not follow numbered declensions"
+      }
+    },
+    {
+      "prompt": "What case is 'quis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": { "word": "quis", "gloss": "who" },
+      "hints": {
+        "accusative": "The accusative would be 'quem'",
+        "ablative": "The ablative would be 'quo'",
+        "dative": "The dative would be 'cui'"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "nominative": "'Nos' can be nominative, but here it is the object implied by 'contra'",
+        "ablative": "The ablative would be 'nobis'",
+        "dative": "The dative would be 'nobis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'nos'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "1st declension", "2nd declension", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Personal pronouns are irregular",
+        "2nd declension": "Personal pronouns have their own paradigm",
+        "3rd declension": "Personal pronouns do not follow numbered declensions"
+      }
+    }
+  ],
+  "translation": "If God is for us, who is against us?"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "vnt-mt-3-11",
+  "source": "Vulgate",
+  "reference": "Matthew 3:11",
+  "latin": ["Ego", "baptizo", "vos", "in", "aqua"],
+  "steps": [
+    {
+      "prompt": "What case is 'Ego'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Ego", "gloss": "I" },
+      "hints": {
+        "accusative": "'Me' would be the accusative form",
+        "ablative": "The ablative would be 'me' as well",
+        "genitive": "'Mei' is the genitive form"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'baptizo' translates to?",
+      "target": "to baptize",
+      "choices": ["to baptize", "to bless", "to wash", "to cleanse"],
+      "reveal": null,
+      "hints": {
+        "to bless": "'Benedicere' means to bless",
+        "to wash": "'Lavare' means to wash",
+        "to cleanse": "'Mundare' means to cleanse"
+      }
+    },
+    {
+      "prompt": "'baptizo' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "imperfect indicative active", "present subjunctive active", "future indicative active"],
+      "reveal": { "word": "baptizo", "gloss": "baptize" },
+      "hints": {
+        "imperfect indicative active": "The imperfect would be 'baptizabam'",
+        "present subjunctive active": "The subjunctive would be 'baptizem'",
+        "future indicative active": "The future would be 'baptizabo'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'baptizo'?",
+      "target": "baptizo, baptizare, baptizavi, baptizatus",
+      "choices": ["baptizo, baptizare, baptizavi, baptizatus", "baptizo, baptizere, baptixi, baptixus", "baptizo, baptizare, baptizi, baptizitus", "baptizo, baptizire, baptizavi, baptizatum"],
+      "reveal": null,
+      "hints": {
+        "baptizo, baptizere, baptixi, baptixus": "This is a 1st conjugation verb with regular -are infinitive",
+        "baptizo, baptizare, baptizi, baptizitus": "The perfect is formed with -avi, not -i",
+        "baptizo, baptizire, baptizavi, baptizatum": "The infinitive ends in -are, not -ire"
+      }
+    },
+    {
+      "prompt": "What case is 'vos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "dative", "ablative"],
+      "reveal": { "word": "vos", "gloss": "you" },
+      "hints": {
+        "nominative": "'Vos' here is the object of the verb, not the subject",
+        "dative": "The dative 'vobis' would be used for indirect object",
+        "ablative": "The ablative would be 'vobis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'vos'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "Personal pronouns do not follow standard declensions",
+        "3rd declension": "Personal pronouns are irregular, not 3rd declension",
+        "4th declension": "Personal pronouns have their own irregular forms"
+      }
+    },
+    {
+      "prompt": "What case is 'aqua'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "genitive"],
+      "reveal": { "word": "aqua", "gloss": "water" },
+      "hints": {
+        "nominative": "After 'in' with ablative sense, this is ablative",
+        "accusative": "'In' + accusative means motion toward; here it means 'in/with'",
+        "genitive": "'Aquae' would be the genitive form"
+      }
+    },
+    {
+      "prompt": "What declension is 'aqua'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "Nouns in -a are typically 1st declension",
+        "3rd declension": "3rd declension nouns do not end in -a in the nominative",
+        "4th declension": "4th declension nouns end in -us or -u"
+      }
+    }
+  ],
+  "translation": "I baptize you in water."
+}

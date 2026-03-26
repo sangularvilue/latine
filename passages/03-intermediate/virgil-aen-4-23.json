@@ -1,0 +1,108 @@
+{
+  "id": "virgil-aen-4-23",
+  "source": "Virgil",
+  "reference": "Aeneid IV.23",
+  "latin": ["Agnosco", "veteris", "vestigia", "flammae"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Agnosco' translates to?",
+      "target": "to recognize",
+      "choices": ["to recognize", "to be ignorant", "to know", "to learn"],
+      "reveal": null,
+      "hints": {
+        "to be ignorant": "That would be 'ignorare' — 'Agnosco' comes from 'agnoscere' (to recognize)",
+        "to know": "That would be 'scire' or 'cognoscere' — 'agnoscere' specifically means 'to recognize'",
+        "to learn": "That would be 'discere' — 'Agnosco' comes from 'agnoscere' (to recognize)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Agnosco'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "Agnosco = I recognize",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'agnoscam' — 'Agnosco' with -o is present indicative",
+        "perfect indicative": "Perfect would be 'agnovi' — 'Agnosco' is present indicative",
+        "future indicative": "Future would be 'agnoscam' — 'Agnosco' with -o is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Agnosco'?",
+      "target": "agnosco, agnoscere, agnovi, agnitum",
+      "choices": ["agnosco, agnoscere, agnovi, agnitum", "nosco, noscere, novi, notum", "cognosco, cognoscere, cognovi, cognitum", "ignosco, ignoscere, ignovi, ignotum"],
+      "reveal": null,
+      "hints": {
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to learn/come to know) — the simple verb, not the compound",
+        "cognosco, cognoscere, cognovi, cognitum": "These are the parts of 'cognoscere' (to learn/know) — different compound prefix",
+        "ignosco, ignoscere, ignovi, ignotum": "These are the parts of 'ignoscere' (to forgive/pardon)"
+      }
+    },
+    {
+      "prompt": "What case is 'veteris'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "accusative", "ablative"],
+      "reveal": "veteris = of the old (gen. sg., modifying 'flammae')",
+      "hints": {
+        "nominative": "Nominative would be 'vetus' — 'veteris' with -is is genitive singular (3rd decl.)",
+        "accusative": "Accusative singular would be 'veterem' — 'veteris' is genitive",
+        "ablative": "Ablative singular would be 'vetere' — 'veteris' with -is is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'vetus, veteris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'veteris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'veteris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'veteris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'vestigia'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "vocative"],
+      "reveal": "vestigia = traces/footprints (acc. pl., object of 'agnosco')",
+      "hints": {
+        "nominative": "While 'vestigia' could be nom. pl. neuter, here it is accusative, object of 'agnosco'",
+        "ablative": "Ablative plural would be 'vestigiis' — 'vestigia' is accusative plural neuter",
+        "vocative": "Vocative plural neuter would look the same, but 'vestigia' is accusative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'vestigium, vestigii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'vestigii' ends in -ii (2nd declension neuter)",
+        "3rd declension": "3rd declension has genitive in -is — 'vestigii' ends in -ii",
+        "4th declension": "4th declension has genitive in -ūs — 'vestigii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'flammae'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "vocative"],
+      "reveal": "flammae = of the flame/passion (gen. sg.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'flammae' too, but here it is genitive singular modifying 'vestigia'",
+        "dative": "Dative singular also looks like 'flammae', but context shows genitive — traces 'of' the flame",
+        "vocative": "Vocative would be 'flamma' — 'flammae' is genitive singular here"
+      }
+    },
+    {
+      "prompt": "What declension is 'flamma, flammae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'flammae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'flammae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'flammae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "I recognize the traces of the old flame"
+}

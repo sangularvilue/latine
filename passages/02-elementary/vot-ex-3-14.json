@@ -1,0 +1,108 @@
+{
+  "id": "vot-ex-3-14",
+  "source": "Vulgate",
+  "reference": "Exodus 3:14",
+  "latin": ["Ego", "sum", "qui", "sum"],
+  "steps": [
+    {
+      "prompt": "What case is 'ego'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": "ego = I (nom.)",
+      "hints": {
+        "accusative": "The accusative of 'ego' would be 'me'",
+        "dative": "The dative of 'ego' would be 'mihi'",
+        "ablative": "The ablative of 'ego' would be 'me'"
+      }
+    },
+    {
+      "prompt": "What declension is 'ego'?",
+      "target": "pronoun (irregular)",
+      "choices": ["1st declension", "2nd declension", "pronoun (irregular)", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'ego' is a personal pronoun with irregular forms",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'ego' is a personal pronoun",
+        "3rd declension": "3rd declension nouns have -is in the genitive; 'ego' is a personal pronoun"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sum' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to have", "to go", "to know"],
+      "reveal": null,
+      "hints": {
+        "to have": "That would be the infinitive of 'habere'",
+        "to go": "That would be the infinitive of 'ire'",
+        "to know": "That would be the infinitive of 'scire'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is the first 'sum'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "imperfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "sum = I am",
+      "hints": {
+        "imperfect indicative": "The imperfect of 'esse' would be 'eram'",
+        "present subjunctive": "The present subjunctive of 'esse' would be 'sim'",
+        "future indicative": "The future of 'esse' would be 'ero'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sum'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "do, dare, dedi, datum", "eo, ire, ivi, itum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "do, dare, dedi, datum": "These are the principal parts of 'do' (to give)",
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "fero, ferre, tuli, latum": "These are the principal parts of 'fero' (to carry)"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'qui'?",
+      "target": "relative pronoun",
+      "choices": ["relative pronoun", "conjunction", "interrogative adverb", "demonstrative pronoun"],
+      "reveal": "qui = who",
+      "hints": {
+        "conjunction": "Conjunctions like 'et' or 'sed' connect clauses differently than 'qui'",
+        "interrogative adverb": "An interrogative adverb would introduce a question; 'qui' here introduces a relative clause",
+        "demonstrative pronoun": "A demonstrative pronoun would be 'ille' or 'hic'; 'qui' refers back to the subject"
+      }
+    },
+    {
+      "prompt": "The infinitive of the second 'sum' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to seem", "to become"],
+      "reveal": null,
+      "hints": {
+        "to stand": "That would be the infinitive of 'stare'",
+        "to seem": "That would be the infinitive of 'videri'",
+        "to become": "That would be the infinitive of 'fieri'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is the second 'sum'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "sum = I am",
+      "hints": {
+        "perfect indicative": "The perfect of 'esse' would be 'fui'",
+        "present subjunctive": "The present subjunctive of 'esse' would be 'sim'",
+        "imperfect indicative": "The imperfect of 'esse' would be 'eram'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sum'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "possum, posse, potui, —", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)"
+      }
+    }
+  ],
+  "translation": "I am who I am"
+}

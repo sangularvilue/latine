@@ -1,0 +1,97 @@
+{
+  "id": "prayer-salve-regina-2",
+  "source": "Prayer",
+  "reference": "Salve Regina 2",
+  "latin": ["Ad", "te", "clamamus", "exsules", "filii", "Evae"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'clamamus' translates to?",
+      "target": "to cry out / to call",
+      "choices": ["to cry out / to call", "to claim", "to shout", "to close"],
+      "reveal": null,
+      "hints": {
+        "to claim": "'to claim' is a later English derivative — 'clamamus' comes from 'clamare' (to cry out)",
+        "to shout": "'to shout' is 'exclamare' — 'clamamus' comes from 'clamare' (to cry out/call)",
+        "to close": "'to close' is 'claudere' — 'clamamus' comes from 'clamare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'clamamus'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Imperfect indicative"],
+      "reveal": { "word": "clamamus", "gloss": "we cry out" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive 1st pl. would be 'clamemus' — 'clamamus' has the indicative -a- stem",
+        "Perfect indicative": "Perfect 1st pl. would be 'clamavimus' — 'clamamus' is present tense",
+        "Imperfect indicative": "Imperfect 1st pl. would be 'clamabamus' — 'clamamus' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'clamamus'?",
+      "target": "clamo, clamare, clamavi, clamatum",
+      "choices": ["clamo, clamare, clamavi, clamatum", "claudo, claudere, clausi, clausum", "exclamo, exclamare, exclamavi, exclamatum", "voco, vocare, vocavi, vocatum"],
+      "reveal": null,
+      "hints": {
+        "claudo, claudere, clausi, clausum": "These are the principal parts of 'claudere' (to close)",
+        "exclamo, exclamare, exclamavi, exclamatum": "These are the principal parts of 'exclamare' (to shout out)",
+        "voco, vocare, vocavi, vocatum": "These are the principal parts of 'vocare' (to call)"
+      }
+    },
+    {
+      "prompt": "What case is 'exsules'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "exsules", "gloss": "exiles" },
+      "hints": {
+        "Genitive": "Genitive singular of 'exsul' would be 'exsulis' — 'exsules' is the nominative plural",
+        "Accusative": "While 'exsules' could be accusative plural, here it is nominative in apposition to the subject 'we'",
+        "Vocative": "Vocative would be the same form, but 'exsules' describes the subject 'we' (clamamus)"
+      }
+    },
+    {
+      "prompt": "What declension is 'exsul, exsulis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'exsulis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'exsulis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'exsulis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'filii'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "filii", "gloss": "sons / children" },
+      "hints": {
+        "Genitive": "While 'filii' could be genitive singular, here it is nominative plural in apposition to 'exsules'",
+        "Dative": "Dative of 'filius' would be 'filio' — 'filii' is nominative plural",
+        "Vocative": "Vocative plural would also be 'filii', but here it is nominative describing the subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'filius, filii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'filii' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'filii' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'filii' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Evae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Evae", "gloss": "of Eve" },
+      "hints": {
+        "Nominative": "Nominative is 'Eva' — 'Evae' with -ae ending is genitive singular",
+        "Dative": "While 'Evae' could be dative, here it is genitive modifying 'filii' (children of Eve)",
+        "Vocative": "Vocative of 'Eva' would be 'Eva' — 'Evae' is genitive"
+      }
+    }
+  ],
+  "translation": "To you we cry out, exiled children of Eve"
+}

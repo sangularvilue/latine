@@ -1,0 +1,119 @@
+{
+  "id": "virgil-aen-2-01",
+  "source": "Virgil",
+  "reference": "Aeneid II.1",
+  "latin": ["Conticuere", "omnes", "intentique", "ora", "tenebant"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Conticuere' translates to?",
+      "target": "to fall silent",
+      "choices": ["to fall silent", "to speak", "to gather", "to tremble"],
+      "reveal": null,
+      "hints": {
+        "to speak": "That would be 'loqui' — 'Conticuere' comes from 'conticescere' (to fall silent)",
+        "to gather": "That would be 'colligere' — 'Conticuere' comes from 'conticescere' (to fall silent)",
+        "to tremble": "That would be 'tremere' — 'Conticuere' comes from 'conticescere' (to fall silent)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Conticuere'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "Conticuere = they fell silent (syncopated form of conticuerunt)",
+      "hints": {
+        "present indicative": "Present would be 'conticescunt' — 'Conticuere' is a syncopated perfect (= conticuerunt)",
+        "imperfect indicative": "Imperfect would be 'conticescebant' — 'Conticuere' is perfect indicative",
+        "pluperfect indicative": "Pluperfect would be 'conticuerant' — 'Conticuere' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Conticuere'?",
+      "target": "conticesco, conticescere, conticui, —",
+      "choices": ["conticesco, conticescere, conticui, —", "taceo, tacere, tacui, tacitum", "contingo, contingere, contigi, contactum", "contineo, continere, continui, contentum"],
+      "reveal": null,
+      "hints": {
+        "taceo, tacere, tacui, tacitum": "These are the parts of 'tacere' (to be silent) — 'conticescere' is the inchoative compound",
+        "contingo, contingere, contigi, contactum": "These are the parts of 'contingere' (to touch/reach)",
+        "contineo, continere, continui, contentum": "These are the parts of 'continere' (to hold together)"
+      }
+    },
+    {
+      "prompt": "What case is 'omnes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "omnes = all (nom. pl.)",
+      "hints": {
+        "accusative": "While 'omnes' could be accusative plural, here it is the nominative subject of 'conticuere'",
+        "ablative": "Ablative plural would be 'omnibus' — 'omnes' is nominative here",
+        "genitive": "Genitive plural would be 'omnium' — 'omnes' is nominative, subject of 'conticuere'"
+      }
+    },
+    {
+      "prompt": "What declension is 'omnes'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nominative plural ends in -ae — 'omnes' ends in -es (3rd declension adj.)",
+        "2nd declension": "2nd declension nominative plural ends in -i — 'omnes' ends in -es",
+        "4th declension": "4th declension nominative plural ends in -us — 'omnes' ends in -es"
+      }
+    },
+    {
+      "prompt": "What case is 'ora'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "ora = faces/mouths (acc. pl.)",
+      "hints": {
+        "nominative": "While 'ora' could be nominative plural neuter, here it is the accusative object of 'tenebant'",
+        "ablative": "Ablative plural would be 'oribus' — 'ora' is accusative plural",
+        "vocative": "Vocative would match nominative — but 'ora' here is accusative, object of 'tenebant'"
+      }
+    },
+    {
+      "prompt": "What declension is 'os, oris' (mouth/face)?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'oris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'oris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'oris' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tenebant' translates to?",
+      "target": "to hold",
+      "choices": ["to hold", "to stretch", "to fear", "to try"],
+      "reveal": null,
+      "hints": {
+        "to stretch": "That would be 'tendere' — 'tenebant' comes from 'tenere' (to hold)",
+        "to fear": "That would be 'timere' — 'tenebant' comes from 'tenere' (to hold)",
+        "to try": "That would be 'temptare' — 'tenebant' comes from 'tenere' (to hold)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'tenebant'?",
+      "target": "imperfect indicative",
+      "choices": ["imperfect indicative", "present indicative", "perfect indicative", "imperfect subjunctive"],
+      "reveal": "tenebant = they were holding (i.e., they held their faces intent)",
+      "hints": {
+        "present indicative": "Present would be 'tenent' — the -ba- infix marks the imperfect",
+        "perfect indicative": "Perfect would be 'tenuerunt' — 'tenebant' with -ba- is imperfect",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'tenerent' — 'tenebant' is imperfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tenebant'?",
+      "target": "teneo, tenere, tenui, tentum",
+      "choices": ["teneo, tenere, tenui, tentum", "tendo, tendere, tetendi, tentum", "tempto, temptare, temptavi, temptatum", "timeo, timere, timui, —"],
+      "reveal": null,
+      "hints": {
+        "tendo, tendere, tetendi, tentum": "These are the parts of 'tendere' (to stretch) — note the different conjugation",
+        "tempto, temptare, temptavi, temptatum": "These are the parts of 'temptare' (to try/test)",
+        "timeo, timere, timui, —": "These are the parts of 'timere' (to fear)"
+      }
+    }
+  ],
+  "translation": "All fell silent and held their faces intent"
+}

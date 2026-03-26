@@ -1,0 +1,75 @@
+{
+  "id": "prayer-anima-christi-2",
+  "source": "Prayer",
+  "reference": "Anima Christi 2",
+  "latin": ["Corpus", "Christi", "salva", "me"],
+  "steps": [
+    {
+      "prompt": "What case is 'Corpus'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Corpus", "gloss": "O Body" },
+      "hints": {
+        "Nominative": "While the form is the same, 'Corpus' is addressed directly — it is vocative",
+        "Genitive": "Genitive of 'corpus' would be 'corporis' — 'Corpus' here is vocative",
+        "Accusative": "While 'corpus' could be accusative neuter, here it is the addressee of 'salva'"
+      }
+    },
+    {
+      "prompt": "What declension is 'corpus, corporis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'corporis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'corporis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'corporis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Christi'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Christi", "gloss": "of Christ" },
+      "hints": {
+        "Nominative": "Nominative is 'Christus' — 'Christi' has the -i genitive ending",
+        "Dative": "Dative of 'Christus' would be 'Christo' — 'Christi' ends in -i (genitive)",
+        "Vocative": "Vocative of 'Christus' would be 'Christe' — 'Christi' is genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'salva' translates to?",
+      "target": "to save",
+      "choices": ["to save", "to greet", "to heal", "to free"],
+      "reveal": null,
+      "hints": {
+        "to greet": "'to greet' is 'salutare' — 'salva' comes from 'salvare'",
+        "to heal": "'to heal' is 'sanare' — 'salva' comes from 'salvare'",
+        "to free": "'to free' is 'liberare' — 'salva' comes from 'salvare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'salva'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "salva", "gloss": "save!" },
+      "hints": {
+        "Indicative": "Indicative present 3rd sg. would be 'salvat' — 'salva' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'salves' — 'salva' is the imperative singular of a 1st conjugation verb",
+        "Infinitive": "Infinitive would be 'salvare' — 'salva' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'salva'?",
+      "target": "salvo, salvare, salvavi, salvatum",
+      "choices": ["salvo, salvare, salvavi, salvatum", "saluto, salutare, salutavi, salutatum", "sano, sanare, sanavi, sanatum", "servo, servare, servavi, servatum"],
+      "reveal": null,
+      "hints": {
+        "saluto, salutare, salutavi, salutatum": "These are the principal parts of 'salutare' (to greet)",
+        "sano, sanare, sanavi, sanatum": "These are the principal parts of 'sanare' (to heal)",
+        "servo, servare, servavi, servatum": "These are the principal parts of 'servare' (to keep/preserve)"
+      }
+    }
+  ],
+  "translation": "Body of Christ, save me"
+}

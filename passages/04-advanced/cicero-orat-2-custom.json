@@ -1,0 +1,119 @@
+{
+  "id": "cicero-orat-2-custom",
+  "source": "Cicero",
+  "reference": "De Oratore (custom)",
+  "latin": ["Ut", "enim", "in", "vita", "sic", "in", "oratione", "nihil", "est", "difficilius"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["est", "vita", "oratione", "difficilius"],
+      "reveal": null,
+      "hints": {
+        "vita": "'vita' is a noun meaning 'life'",
+        "oratione": "'oratione' is a noun meaning 'in speech'",
+        "difficilius": "'difficilius' is a comparative adjective meaning 'more difficult'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to sit"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse'",
+        "to stand": "'to stand' is 'stare' — not 'esse'",
+        "to sit": "'to sit' is 'sedere' — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Future indicative", "Perfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Present subjunctive": "Subjunctive would be 'sit' — 'est' is indicative",
+        "Future indicative": "Future would be 'erit' — 'est' is present",
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "sedeo, sedere, sedi, sessum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — not 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — not 'esse'",
+        "sedeo, sedere, sedi, sessum": "These are the parts of 'sedere' (to sit) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'vita'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "vita", "gloss": "life" },
+      "hints": {
+        "Nominative": "While 'vita' can be nominative, after 'in' it is ablative (in life)",
+        "Vocative": "Cicero is not addressing life — 'vita' follows 'in' (ablative of sphere)",
+        "Accusative": "Accusative after 'in' would mean motion toward — here 'in vita' means 'in life' (static)"
+      }
+    },
+    {
+      "prompt": "Declension of 'vita'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'vita, vitae' is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'vita' with -a is 1st declension",
+        "5th": "5th declension nouns end in -es — 'vita' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'oratione'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Ablative", "Accusative", "Dative"],
+      "reveal": { "word": "oratione", "gloss": "speech / oratory" },
+      "hints": {
+        "Nominative": "Nominative would be 'oratio' — 'oratione' is the ablative singular",
+        "Accusative": "Accusative would be 'orationem' — 'oratione' is ablative after 'in'",
+        "Dative": "Dative would be 'orationi' — 'oratione' is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'oratione'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension ablative ends in -a — 'oratio, orationis' is 3rd declension",
+        "2nd": "2nd declension ablative ends in -o — 'oratione' with -e ending is 3rd declension",
+        "4th": "4th declension ablative ends in -u — 'oratione' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What form is 'difficilius'?",
+      "target": "Comparative neuter nominative singular",
+      "choices": ["Positive neuter nominative", "Comparative neuter nominative singular", "Superlative neuter nominative", "Comparative masculine nominative"],
+      "reveal": { "word": "difficilius", "gloss": "more difficult" },
+      "hints": {
+        "Positive neuter nominative": "The positive would be 'difficile' — the -ius ending signals the comparative",
+        "Superlative neuter nominative": "The superlative would be 'difficillimum' — '-ius' is comparative",
+        "Comparative masculine nominative": "Masculine comparative nominative would be 'difficilior' — '-ius' is the neuter form"
+      }
+    },
+    {
+      "prompt": "What does the 'ut...sic' construction express?",
+      "target": "A comparison: just as...so",
+      "choices": ["A purpose clause: in order that", "A comparison: just as...so", "A result clause: so that", "A concession: although"],
+      "reveal": null,
+      "hints": {
+        "A purpose clause: in order that": "'Ut...sic' here is correlative (just as...so), not a purpose clause",
+        "A result clause: so that": "'Ut...sic' is a comparative correlation, not a result construction",
+        "A concession: although": "'Ut' can mean 'although,' but paired with 'sic' it means 'just as...so'"
+      }
+    }
+  ],
+  "translation": "For just as in life, so in speech nothing is more difficult."
+}

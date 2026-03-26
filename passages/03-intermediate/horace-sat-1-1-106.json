@@ -1,0 +1,152 @@
+{
+  "id": "horace-sat-1-1-106",
+  "source": "Horace",
+  "reference": "Satires I.1.106",
+  "latin": ["Est", "modus", "in", "rebus", "sunt", "certi", "denique", "fines"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "Two",
+      "choices": ["One", "Two", "Three", "Four"],
+      "reveal": null,
+      "hints": {
+        "One": "Look again — both 'Est' and 'sunt' are finite verbs",
+        "Three": "Only 'Est' and 'sunt' are finite verbs — the rest are nouns, adjectives, and a preposition",
+        "Four": "Only two finite verbs: 'Est' and 'sunt'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'Est' here comes from 'esse' (to be)",
+        "to stand": "'to stand' is 'stare' — 'Est' comes from 'esse'",
+        "to go": "'to go' is 'ire' — 'Est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "Est", "gloss": "there is" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'esse' would be 'fuit'",
+        "Present subjunctive": "Present subjunctive would be 'sit'",
+        "Future indicative": "Future of 'esse' would be 'erit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "eo, ire, ivi, itum", "edo, edere, edi, esum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the principal parts of 'stare' (to stand)",
+        "eo, ire, ivi, itum": "These are the principal parts of 'ire' (to go)",
+        "edo, edere, edi, esum": "These are the principal parts of 'edere' (to eat)"
+      }
+    },
+    {
+      "prompt": "Case of 'modus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "modus", "gloss": "a measure / limit" },
+      "hints": {
+        "Accusative": "Accusative of 'modus' would be 'modum'",
+        "Genitive": "Genitive of 'modus' would be 'modi'",
+        "Ablative": "Ablative of 'modus' would be 'modo'"
+      }
+    },
+    {
+      "prompt": "Declension of 'modus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'modus' with -us ending is 2nd declension",
+        "3rd": "3rd declension has varied endings — 'modus' is a regular 2nd declension -us noun",
+        "4th": "4th declension -us nouns have genitive -us — 'modi' genitive indicates 2nd declension"
+      }
+    },
+    {
+      "prompt": "Case of 'rebus'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "rebus", "gloss": "in things / in affairs" },
+      "hints": {
+        "Nominative": "Nominative of 'res' is 'res' — 'rebus' with -bus ending is dative or ablative plural",
+        "Dative": "Dative plural would also be 'rebus', but 'in' + ablative means 'in' — ablative here",
+        "Accusative": "Accusative plural of 'res' would be 'res' — 'rebus' is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'res'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'res' with genitive 'rei' is 5th declension",
+        "3rd": "3rd declension has genitive -is — 'res' with genitive 'rei' is 5th declension",
+        "4th": "4th declension has genitive -us — 'res' with genitive 'rei' is 5th declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to remain", "to seem"],
+      "reveal": null,
+      "hints": {
+        "to stand": "'to stand' is 'stare' — 'sunt' comes from 'esse' (to be)",
+        "to remain": "'to remain' is 'manere' — 'sunt' comes from 'esse'",
+        "to seem": "'to seem' is 'videri' — 'sunt' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sunt'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "sunt", "gloss": "there are" },
+      "hints": {
+        "Perfect indicative": "Perfect 3rd plural of 'esse' would be 'fuerunt'",
+        "Present subjunctive": "Present subjunctive would be 'sint'",
+        "Imperfect indicative": "Imperfect would be 'erant'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "maneo, manere, mansi, mansum", "videor, videri, visus sum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the principal parts of 'stare' (to stand)",
+        "maneo, manere, mansi, mansum": "These are the principal parts of 'manere' (to remain)",
+        "videor, videri, visus sum": "These are the principal parts of 'videri' (to seem)"
+      }
+    },
+    {
+      "prompt": "Case of 'fines'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "fines", "gloss": "limits / boundaries" },
+      "hints": {
+        "Accusative": "'fines' could be accusative plural, but here it is the subject of 'sunt' — nominative",
+        "Genitive": "Genitive singular of 'finis' would be 'finis' — 'fines' is nominative/accusative plural",
+        "Ablative": "Ablative plural of 'finis' would be 'finibus'"
+      }
+    },
+    {
+      "prompt": "Declension of 'finis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'finis' with genitive 'finis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'finis' is a 3rd declension i-stem noun",
+        "5th": "5th declension nouns end in -es with genitive -ei — 'finis' has genitive 'finis'"
+      }
+    }
+  ],
+  "translation": "There is a measure in things; there are, in short, fixed limits"
+}

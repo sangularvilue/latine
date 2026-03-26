@@ -1,0 +1,86 @@
+{
+  "id": "virgil-aen-6-126",
+  "source": "Virgil",
+  "reference": "Aeneid VI.126",
+  "latin": ["Facilis", "descensus", "Averno"],
+  "steps": [
+    {
+      "prompt": "What case is 'Facilis'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "ablative", "accusative"],
+      "reveal": "Facilis = easy (nom. sg., predicate adjective with 'descensus')",
+      "hints": {
+        "genitive": "Genitive singular is also 'facilis', but here it is nominative, modifying the subject 'descensus'",
+        "ablative": "Ablative would be 'facili' — 'facilis' is nominative here",
+        "accusative": "Accusative masc. sg. would be 'facilem' — 'facilis' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'facilis, facilis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'facilis' ends in -is (3rd declension adjective)",
+        "2nd declension": "2nd declension has genitive in -i — 'facilis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'facilis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'descensus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "descensus = the descent (nom. sg., subject)",
+      "hints": {
+        "genitive": "Genitive singular would also be 'descensus' (4th decl.), but here it is nominative subject",
+        "accusative": "Accusative plural would be 'descensus', but here it is nominative singular",
+        "ablative": "Ablative would be 'descensu' — 'descensus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'descensus, descensus'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'descensus' has gen. in -ūs (4th declension)",
+        "2nd declension": "2nd declension -us nouns have genitive in -i — 'descensus' has gen. in -ūs",
+        "3rd declension": "3rd declension has genitive in -is — 'descensus' has gen. in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'Averno'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "Averno = to/toward Avernus (dat. sg., dative of direction)",
+      "hints": {
+        "ablative": "While 'Averno' could be ablative, here it is dative — 'the descent to Avernus is easy'",
+        "nominative": "Nominative would be 'Avernus' — 'Averno' is dative singular",
+        "genitive": "Genitive would be 'Averni' — 'Averno' is dative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Avernus, Averni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Averni' ends in -i (2nd declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'Averni' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'Averni' ends in -i"
+      }
+    },
+    {
+      "prompt": "There is an implied verb in this sentence. What is it?",
+      "target": "est",
+      "choices": ["est", "fit", "stat", "manet"],
+      "reveal": "est (is) is implied: 'The descent to Avernus is easy'",
+      "hints": {
+        "fit": "'Fit' means 'becomes' — the implied copula is 'est' (is)",
+        "stat": "'Stat' means 'stands' — the implied verb is 'est' (is)",
+        "manet": "'Manet' means 'remains' — the implied verb is simply 'est' (is)"
+      }
+    }
+  ],
+  "translation": "Easy is the descent to Avernus"
+}

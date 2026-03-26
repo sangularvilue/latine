@@ -1,0 +1,108 @@
+{
+  "id": "ovid-met-15-234",
+  "source": "Ovid",
+  "reference": "Metamorphoses XV.234",
+  "latin": ["Tempus", "edax", "rerum", "tuque", "invidiosa", "vetustas"],
+  "steps": [
+    {
+      "prompt": "Which word is a noun meaning 'time'?",
+      "target": "Tempus",
+      "choices": ["Tempus", "edax", "rerum", "vetustas"],
+      "reveal": null,
+      "hints": {
+        "edax": "'edax' is an adjective meaning 'devouring/greedy'",
+        "rerum": "'rerum' is a noun but means 'of things', not 'time'",
+        "vetustas": "'vetustas' is a noun meaning 'old age/antiquity', not 'time'"
+      }
+    },
+    {
+      "prompt": "Case of 'Tempus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "Tempus", "gloss": "time" },
+      "hints": {
+        "Accusative": "'Tempus' can be accusative, but here it is the subject of an apostrophe — nominative",
+        "Genitive": "Genitive of 'tempus' would be 'temporis'",
+        "Ablative": "Ablative of 'tempus' would be 'tempore'"
+      }
+    },
+    {
+      "prompt": "Declension of 'tempus'?",
+      "target": "3rd",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension neuter nouns end in -um — 'tempus' with genitive 'temporis' is 3rd declension",
+        "4th": "4th declension nouns have genitive -us — 'tempus' has genitive 'temporis'",
+        "5th": "5th declension nouns end in -es — 'tempus' is a 3rd declension neuter noun"
+      }
+    },
+    {
+      "prompt": "Case of 'rerum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Accusative", "Genitive", "Dative"],
+      "reveal": { "word": "rerum", "gloss": "of things / of all things" },
+      "hints": {
+        "Nominative": "Nominative of 'res' is 'res' (singular) or 'res' (plural) — 'rerum' with -um ending is genitive plural",
+        "Accusative": "Accusative plural of 'res' would be 'res' — 'rerum' is genitive plural",
+        "Dative": "Dative plural of 'res' would be 'rebus'"
+      }
+    },
+    {
+      "prompt": "Declension of 'res'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'res' with genitive 'rei' is 5th declension",
+        "3rd": "3rd declension has varied nominatives — 'res' with genitive 'rei' is distinctly 5th declension",
+        "4th": "4th declension nouns end in -us/-u — 'res' is 5th declension"
+      }
+    },
+    {
+      "prompt": "Case of 'vetustas'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "vetustas", "gloss": "old age / antiquity" },
+      "hints": {
+        "Accusative": "Accusative of 'vetustas' would be 'vetustatem'",
+        "Genitive": "Genitive of 'vetustas' would be 'vetustatis'",
+        "Ablative": "Ablative of 'vetustas' would be 'vetustate'"
+      }
+    },
+    {
+      "prompt": "Declension of 'vetustas'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'vetustas' with genitive 'vetustatis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'vetustas' is a 3rd declension -tas noun",
+        "5th": "5th declension nouns end in -es — 'vetustas' with its -tatis genitive is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What does 'edax' modify?",
+      "target": "Tempus",
+      "choices": ["Tempus", "rerum", "vetustas", "invidiosa"],
+      "reveal": { "word": "edax", "gloss": "devouring / greedy" },
+      "hints": {
+        "rerum": "'rerum' is genitive plural — 'edax' is nominative and agrees with 'Tempus'",
+        "vetustas": "'vetustas' has its own modifier 'invidiosa' — 'edax' agrees with 'Tempus'",
+        "invidiosa": "'invidiosa' is itself an adjective modifying 'vetustas'"
+      }
+    },
+    {
+      "prompt": "What does '-que' in 'tuque' mean?",
+      "target": "and",
+      "choices": ["and", "but", "or", "not"],
+      "reveal": null,
+      "hints": {
+        "but": "'but' would be 'sed' or 'autem' — '-que' is an enclitic conjunction meaning 'and'",
+        "or": "'or' would be 'vel' or '-ve' — '-que' means 'and'",
+        "not": "'not' would be 'non' or 'ne' — '-que' is an enclitic meaning 'and'"
+      }
+    }
+  ],
+  "translation": "O Time, devourer of things, and you, envious old age"
+}

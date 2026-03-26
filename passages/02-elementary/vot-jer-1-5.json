@@ -1,0 +1,119 @@
+{
+  "id": "vot-jer-1-5",
+  "source": "Vulgate",
+  "reference": "Jeremiah 1:5",
+  "latin": ["Priusquam", "te", "formarem", "in", "utero", "novi", "te"],
+  "steps": [
+    {
+      "prompt": "What case is the first 'te'?",
+      "target": "accusative",
+      "choices": ["accusative", "ablative", "nominative", "dative"],
+      "reveal": "te = you (acc.)",
+      "hints": {
+        "ablative": "'Te' can be ablative, but here it is the direct object of 'formarem'",
+        "nominative": "The nominative would be 'tu'",
+        "dative": "The dative would be 'tibi'"
+      }
+    },
+    {
+      "prompt": "What declension is 'te'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "1st declension", "2nd declension", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'tu/te' is a personal pronoun",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'tu/te' is a personal pronoun",
+        "3rd declension": "3rd declension nouns have -is in genitive; 'tu/te' is a personal pronoun"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'formarem' translates to?",
+      "target": "to form / to shape",
+      "choices": ["to form / to shape", "to create", "to build", "to name"],
+      "reveal": null,
+      "hints": {
+        "to create": "That would be the infinitive of 'creare'",
+        "to build": "That would be the infinitive of 'aedificare'",
+        "to name": "That would be the infinitive of 'nominare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'formarem'?",
+      "target": "imperfect subjunctive",
+      "choices": ["imperfect subjunctive", "present subjunctive", "imperfect indicative", "perfect subjunctive"],
+      "reveal": "formarem = I might form / before I formed",
+      "hints": {
+        "present subjunctive": "The present subjunctive would be 'formem'",
+        "imperfect indicative": "The imperfect indicative would be 'formabam'",
+        "perfect subjunctive": "The perfect subjunctive would be 'formaverim'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'formarem'?",
+      "target": "formo, formare, formavi, formatum",
+      "choices": ["formo, formare, formavi, formatum", "fingo, fingere, finxi, fictum", "creo, creare, creavi, creatum", "facio, facere, feci, factum"],
+      "reveal": null,
+      "hints": {
+        "fingo, fingere, finxi, fictum": "These are the principal parts of 'fingo' (to shape/fashion)",
+        "creo, creare, creavi, creatum": "These are the principal parts of 'creo' (to create)",
+        "facio, facere, feci, factum": "These are the principal parts of 'facio' (to make)"
+      }
+    },
+    {
+      "prompt": "What case is 'utero'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "accusative"],
+      "reveal": "in utero = in the womb",
+      "hints": {
+        "dative": "'Utero' could be dative, but after 'in' (location) it is ablative",
+        "nominative": "The nominative would be 'uterus'",
+        "accusative": "The accusative would be 'uterum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'utero'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative ends in -a",
+        "3rd declension": "3rd declension ablative ends in -e",
+        "4th declension": "4th declension ablative ends in -u"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'novi' translates to?",
+      "target": "to know",
+      "choices": ["to know", "to make new", "to find", "to see"],
+      "reveal": null,
+      "hints": {
+        "to make new": "That would be the infinitive of 'novare'; 'novi' is perfect of 'nosco'",
+        "to find": "That would be the infinitive of 'invenire'",
+        "to see": "That would be the infinitive of 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'novi'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "present subjunctive"],
+      "reveal": "novi = I knew / I have known",
+      "hints": {
+        "present indicative": "The present indicative would be 'nosco'",
+        "pluperfect indicative": "The pluperfect would be 'noveram'",
+        "present subjunctive": "The present subjunctive would be 'noscam'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'novi'?",
+      "target": "nosco, noscere, novi, notum",
+      "choices": ["nosco, noscere, novi, notum", "cognosco, cognoscere, cognovi, cognitum", "scio, scire, scivi, scitum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "cognosco, cognoscere, cognovi, cognitum": "These are the principal parts of 'cognosco' (to learn/recognize)",
+        "scio, scire, scivi, scitum": "These are the principal parts of 'scio' (to know)",
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)"
+      }
+    }
+  ],
+  "translation": "Before I formed you in the womb, I knew you"
+}

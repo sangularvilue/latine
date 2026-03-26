@@ -1,0 +1,130 @@
+{
+  "id": "aug-conf-8-7",
+  "source": "Augustine",
+  "reference": "Confessions VIII.7",
+  "latin": ["Da", "mihi", "castitatem", "et", "continentiam", "sed", "noli", "modo"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'da' translates to?",
+      "target": "to give",
+      "choices": ["to give", "to lead", "to say", "to go"],
+      "reveal": null,
+      "hints": {
+        "to lead": "'to lead' is 'ducere' — 'da' comes from 'dare' (to give)",
+        "to say": "'to say' is 'dicere' — do not confuse with 'dare'",
+        "to go": "'to go' is 'ire' — 'da' is the imperative of 'dare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'da'?",
+      "target": "Present imperative",
+      "choices": ["Present indicative", "Present imperative", "Present subjunctive", "Future imperative"],
+      "reveal": { "word": "da", "gloss": "give!" },
+      "hints": {
+        "Present indicative": "Present indicative 1st singular would be 'do' — 'da' is the imperative singular",
+        "Present subjunctive": "Present subjunctive would be 'dem' or 'des' — 'da' is imperative",
+        "Future imperative": "Future imperative would be 'dato' — 'da' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'da'?",
+      "target": "do, dare, dedi, datum",
+      "choices": ["do, dare, dedi, datum", "duco, ducere, duxi, ductum", "dico, dicere, dixi, dictum", "doceo, docere, docui, doctum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead) — 'da' comes from 'dare'",
+        "dico, dicere, dixi, dictum": "These are the parts of 'dicere' (to say) — not related to 'dare'",
+        "doceo, docere, docui, doctum": "These are the parts of 'docere' (to teach) — a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'castitatem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "castitatem", "gloss": "chastity" },
+      "hints": {
+        "Nominative": "Nominative would be 'castitas' — the -atem ending is accusative singular",
+        "Ablative": "Ablative would be 'castitate' — 'castitatem' with -em is accusative",
+        "Genitive": "Genitive would be 'castitatis' — 'castitatem' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'castitatem'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'castitas, castitatis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'castitas' with -tas suffix is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'castitas' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'continentiam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "continentiam", "gloss": "self-control" },
+      "hints": {
+        "Nominative": "Nominative would be 'continentia' — the -am ending is accusative singular",
+        "Dative": "Dative would be 'continentiae' — 'continentiam' with -am is accusative",
+        "Ablative": "Ablative would be 'continentia' — 'continentiam' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'continentiam'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'continentia' with -ia ending is 1st declension",
+        "3rd": "3rd declension accusatives end in -em — 'continentiam' with -am is 1st declension",
+        "5th": "5th declension nouns end in -es — 'continentia' is 1st declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'noli' translates to?",
+      "target": "to be unwilling / to refuse",
+      "choices": ["to be unwilling / to refuse", "to not know", "to harm", "to wish"],
+      "reveal": null,
+      "hints": {
+        "to not know": "'to not know' is 'nescire' or 'ignorare' — 'noli' comes from 'nolle'",
+        "to harm": "'to harm' is 'nocere' — do not confuse with 'nolle'",
+        "to wish": "'to wish' is 'velle' — 'nolle' is its negative counterpart (non + velle)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'noli'?",
+      "target": "Present imperative",
+      "choices": ["Present indicative", "Present imperative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "noli", "gloss": "do not! / not yet!" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'nolo' — 'noli' is the imperative form",
+        "Present subjunctive": "Present subjunctive would be 'nolim' — 'noli' is imperative",
+        "Perfect indicative": "Perfect would be 'nolui' — 'noli' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'noli'?",
+      "target": "nolo, nolle, nolui",
+      "choices": ["nolo, nolle, nolui", "volo, velle, volui", "noceo, nocere, nocui, nocitum", "nosco, noscere, novi, notum"],
+      "reveal": null,
+      "hints": {
+        "volo, velle, volui": "These are the parts of 'velle' (to wish) — 'nolle' is its negative (non + velle)",
+        "noceo, nocere, nocui, nocitum": "These are the parts of 'nocere' (to harm) — a different verb",
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to come to know) — not related to 'nolle'"
+      }
+    },
+    {
+      "prompt": "What is the humorous irony of this prayer?",
+      "target": "Augustine asks God for virtue but begs Him to delay granting it",
+      "choices": ["Augustine rejects chastity entirely", "Augustine asks God for virtue but begs Him to delay granting it", "Augustine is quoting someone else's prayer", "Augustine is testing God's patience"],
+      "reveal": null,
+      "hints": {
+        "Augustine rejects chastity entirely": "He does ask for chastity — the irony is in 'sed noli modo' (but not yet)",
+        "Augustine is quoting someone else's prayer": "Augustine is recounting his own earlier prayer in his Confessions",
+        "Augustine is testing God's patience": "The humor is self-directed — Augustine confesses his own weakness, not defiance"
+      }
+    }
+  ],
+  "translation": "Give me chastity and self-control, but not yet."
+}

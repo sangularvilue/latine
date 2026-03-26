@@ -1,0 +1,97 @@
+{
+  "id": "livy-hannibal",
+  "source": "Livy",
+  "reference": "Ab Urbe Condita (traditional attribution)",
+  "latin": ["Hannibal", "ad", "portas"],
+  "steps": [
+    {
+      "prompt": "What case is 'Hannibal'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Hannibal = Hannibal (nom., subject)",
+      "hints": {
+        "accusative": "Accusative would be 'Hannibalem' — 'Hannibal' is nominative",
+        "genitive": "Genitive would be 'Hannibalis' — 'Hannibal' is nominative, the subject",
+        "ablative": "Ablative would be 'Hannibale' — 'Hannibal' is nominative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'Hannibal, Hannibalis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Hannibalis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Hannibalis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'Hannibalis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does the preposition 'ad' govern?",
+      "target": "accusative",
+      "choices": ["accusative", "ablative", "genitive", "dative"],
+      "reveal": "ad = at/near (+ acc.)",
+      "hints": {
+        "ablative": "'Ad' always takes the accusative — ablative prepositions include 'ab', 'ex', 'cum'",
+        "genitive": "'Ad' takes accusative — no common Latin preposition governs genitive",
+        "dative": "'Ad' takes accusative — the dative is not governed by prepositions in Latin"
+      }
+    },
+    {
+      "prompt": "What case is 'portas'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "portas = the gates (acc. pl., governed by 'ad')",
+      "hints": {
+        "nominative": "Nominative plural would be 'portae' — 'portas' with -as is accusative plural",
+        "ablative": "Ablative plural would be 'portis' — 'portas' is accusative after 'ad'",
+        "genitive": "Genitive plural would be 'portarum' — 'portas' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'porta, portae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'portae' with -ae is 1st declension",
+        "3rd declension": "3rd declension has genitive in -is — 'portae' with -ae is 1st declension",
+        "4th declension": "4th declension has genitive in -ūs — 'portae' with -ae is 1st declension"
+      }
+    },
+    {
+      "prompt": "What verb is understood/implied in this famous phrase?",
+      "target": "est (is)",
+      "choices": ["est (is)", "venit (comes)", "stat (stands)", "pugnat (fights)"],
+      "reveal": null,
+      "hints": {
+        "venit (comes)": "While Hannibal did 'come', the implied verb in this exclamation is 'est' — Hannibal IS at the gates",
+        "stat (stands)": "While vivid, the traditional understood verb is 'est' — a simple statement of presence",
+        "pugnat (fights)": "The phrase expresses alarm at Hannibal's presence, not fighting — 'est' is understood"
+      }
+    },
+    {
+      "prompt": "The infinitive of the implied 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to stand", "to come"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire' — the implied 'est' comes from 'esse' (to be)",
+        "to stand": "That would be 'stare' — the implied 'est' comes from 'esse' (to be)",
+        "to come": "That would be 'venire' — the implied 'est' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "Principal parts of the implied 'est'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "sto, stare, steti, statum", "eo, ire, ii, itum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)"
+      }
+    }
+  ],
+  "translation": "Hannibal is at the gates"
+}

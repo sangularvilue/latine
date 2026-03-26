@@ -1,0 +1,108 @@
+{
+  "id": "virgil-aen-5-231",
+  "source": "Virgil",
+  "reference": "Aeneid V.231",
+  "latin": ["Possunt", "quia", "posse", "videntur"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Possunt' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to put", "to demand", "to possess"],
+      "reveal": null,
+      "hints": {
+        "to put": "That would be 'ponere' — 'Possunt' comes from 'posse' (to be able)",
+        "to demand": "That would be 'poscere' — 'Possunt' comes from 'posse' (to be able)",
+        "to possess": "That would be 'possidere' — 'Possunt' comes from 'posse' (to be able)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Possunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "Possunt = they are able / they can",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'possint' — 'possunt' is present indicative",
+        "perfect indicative": "Perfect would be 'potuerunt' — 'possunt' is present indicative",
+        "future indicative": "Future would be 'poterunt' — 'possunt' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Possunt'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "posco, poscere, poposci, —", "possideo, possidere, possedi, possessum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to put/place)",
+        "posco, poscere, poposci, —": "These are the parts of 'poscere' (to demand)",
+        "possideo, possidere, possedi, possessum": "These are the parts of 'possidere' (to possess)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'posse' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to put", "to demand", "to drink"],
+      "reveal": null,
+      "hints": {
+        "to put": "That would be 'ponere' — 'posse' is the infinitive of 'possum' (to be able)",
+        "to demand": "That would be 'poscere' — 'posse' means 'to be able'",
+        "to drink": "That would be 'potare' — 'posse' is the infinitive of 'possum'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'posse'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "present indicative", "perfect infinitive", "future infinitive"],
+      "reveal": "posse = to be able (infinitive in indirect statement with 'videntur')",
+      "hints": {
+        "present indicative": "'posse' is an infinitive, not a finite verb — it lacks personal endings",
+        "perfect infinitive": "Perfect infinitive would be 'potuisse' — 'posse' is present infinitive",
+        "future infinitive": "Future infinitive is not standard for 'posse' — 'posse' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'posse'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "poto, potare, potavi, potatum", "posco, poscere, poposci, —"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to put/place)",
+        "poto, potare, potavi, potatum": "These are the parts of 'potare' (to drink)",
+        "posco, poscere, poposci, —": "These are the parts of 'poscere' (to demand)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'videntur' translates to?",
+      "target": "to seem",
+      "choices": ["to seem", "to see", "to come", "to conquer"],
+      "reveal": null,
+      "hints": {
+        "to see": "'Videre' active means 'to see', but 'videntur' is passive — 'videri' means 'to seem'",
+        "to come": "That would be 'venire' — 'videntur' comes from 'videri' (to seem)",
+        "to conquer": "That would be 'vincere' — 'videntur' comes from 'videri' (to seem)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'videntur'?",
+      "target": "present indicative passive",
+      "choices": ["present indicative passive", "present subjunctive passive", "perfect indicative passive", "imperfect indicative passive"],
+      "reveal": "videntur = they seem (passive of 'video' = to seem)",
+      "hints": {
+        "present subjunctive passive": "Present subjunctive passive would be 'videantur' — 'videntur' is present indicative",
+        "perfect indicative passive": "Perfect passive would be 'visi sunt' — 'videntur' is present indicative passive",
+        "imperfect indicative passive": "Imperfect passive would be 'videbantur' — 'videntur' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videntur'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "venio, venire, veni, ventum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the parts of 'venire' (to come)",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)"
+      }
+    }
+  ],
+  "translation": "They can because they seem to be able"
+}

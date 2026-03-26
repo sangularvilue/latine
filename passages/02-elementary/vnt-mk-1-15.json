@@ -1,0 +1,130 @@
+{
+  "id": "vnt-mk-1-15",
+  "source": "Vulgate",
+  "reference": "Mark 1:15",
+  "latin": ["Tempus", "impletum", "est", "et", "adpropinquavit", "regnum"],
+  "steps": [
+    {
+      "prompt": "What case is 'Tempus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": { "word": "Tempus", "gloss": "Time" },
+      "hints": {
+        "accusative": "'Tempus' is neuter so nom/acc are identical; here it is the subject",
+        "genitive": "The genitive would be 'temporis'",
+        "ablative": "The ablative would be 'tempore'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Tempus'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "2nd declension", "4th declension", "1st declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension neuters end in -um, not -us",
+        "4th declension": "Though 4th decl. has -us, 'tempus' with gen. 'temporis' is 3rd",
+        "1st declension": "1st declension nouns end in -a"
+      }
+    },
+    {
+      "prompt": "What case is 'impletum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "impletum", "gloss": "fulfilled" },
+      "hints": {
+        "accusative": "'Impletum' is neuter nom/acc; here it agrees with 'tempus' as predicate",
+        "ablative": "The ablative would be 'impleto'",
+        "genitive": "The genitive would be 'impleti'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Edere' means to eat",
+        "to stand": "'Stare' means to stand",
+        "to go": "'Ire' means to go"
+      }
+    },
+    {
+      "prompt": "'est' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "perfect indicative active", "present subjunctive active", "imperfect indicative active"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "perfect indicative active": "The perfect would be 'fuit'",
+        "present subjunctive active": "The subjunctive would be 'sit'",
+        "imperfect indicative active": "The imperfect would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, status", "edo, edere, edi, esus", "eo, ire, ivi, itus"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, status": "'Stare' means to stand",
+        "edo, edere, edi, esus": "'Edere' means to eat",
+        "eo, ire, ivi, itus": "'Ire' means to go"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'adpropinquavit' translates to?",
+      "target": "to draw near",
+      "choices": ["to draw near", "to approve", "to approach slowly", "to flee"],
+      "reveal": null,
+      "hints": {
+        "to approve": "'Approbare' means to approve",
+        "to approach slowly": "'Adpropinquare' means to draw near, not slowly approach",
+        "to flee": "'Fugere' means to flee"
+      }
+    },
+    {
+      "prompt": "'adpropinquavit' is what tense and mood?",
+      "target": "perfect indicative active",
+      "choices": ["perfect indicative active", "present indicative active", "pluperfect indicative active", "imperfect indicative active"],
+      "reveal": { "word": "adpropinquavit", "gloss": "has drawn near" },
+      "hints": {
+        "present indicative active": "The present would be 'adpropinquat'",
+        "pluperfect indicative active": "The pluperfect would be 'adpropinquaverat'",
+        "imperfect indicative active": "The imperfect would be 'adpropinquabat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'adpropinquavit'?",
+      "target": "adpropinquo, adpropinquare, adpropinquavi, adpropinquatus",
+      "choices": ["adpropinquo, adpropinquare, adpropinquavi, adpropinquatus", "adpropinquo, adpropinquere, adpropinqui, adpropinquitus", "adpropinquo, adpropinquare, adpropinqui, adpropinquatus", "adpropinquo, adpropinquire, adpropinquivi, adpropinquitus"],
+      "reveal": null,
+      "hints": {
+        "adpropinquo, adpropinquere, adpropinqui, adpropinquitus": "This is a 1st conjugation verb with -are infinitive",
+        "adpropinquo, adpropinquare, adpropinqui, adpropinquatus": "The perfect is 'adpropinquavi' with regular -avi ending",
+        "adpropinquo, adpropinquire, adpropinquivi, adpropinquitus": "The infinitive ends in -are, not -ire"
+      }
+    },
+    {
+      "prompt": "What case is 'regnum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "regnum", "gloss": "kingdom" },
+      "hints": {
+        "accusative": "'Regnum' is neuter so nom/acc are identical; here it is the subject of 'adpropinquavit'",
+        "ablative": "The ablative would be 'regno'",
+        "genitive": "The genitive would be 'regni'"
+      }
+    },
+    {
+      "prompt": "What declension is 'regnum'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Neuter nouns in -um are 2nd declension",
+        "3rd declension": "3rd declension neuters do not end in -um",
+        "4th declension": "4th declension neuters end in -u"
+      }
+    }
+  ],
+  "translation": "The time is fulfilled and the kingdom has drawn near."
+}

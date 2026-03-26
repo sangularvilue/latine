@@ -1,0 +1,130 @@
+{
+  "id": "hymn-te-deum-1",
+  "source": "Hymn",
+  "reference": "Te Deum 1",
+  "latin": ["Te", "Deum", "laudamus", "te", "Dominum", "confitemur"],
+  "steps": [
+    {
+      "prompt": "Which word is a verb meaning 'we praise'?",
+      "target": "laudamus",
+      "choices": ["Te", "Deum", "laudamus", "Dominum"],
+      "reveal": null,
+      "hints": {
+        "Te": "'Te' is a pronoun in the accusative meaning 'you'",
+        "Deum": "'Deum' is a noun in the accusative meaning 'God'",
+        "Dominum": "'Dominum' is a noun in the accusative meaning 'Lord'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'laudamus' translates to?",
+      "target": "to praise",
+      "choices": ["to praise", "to love", "to sing", "to worship"],
+      "reveal": null,
+      "hints": {
+        "to love": "'to love' is 'amare' — 'laudamus' comes from 'laudare'",
+        "to sing": "'to sing' is 'canere' — 'laudamus' comes from 'laudare'",
+        "to worship": "'to worship' is 'adorare' — 'laudamus' comes from 'laudare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'laudamus'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Imperfect indicative"],
+      "reveal": { "word": "laudamus", "gloss": "we praise" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive 1st pl. of 'laudare' would be 'laudemus' — 'laudamus' has the indicative -a- stem",
+        "Perfect indicative": "Perfect 1st pl. of 'laudare' would be 'laudavimus' — 'laudamus' is present tense",
+        "Imperfect indicative": "Imperfect 1st pl. of 'laudare' would be 'laudabamus' — 'laudamus' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'laudamus'?",
+      "target": "laudo, laudare, laudavi, laudatum",
+      "choices": ["laudo, laudare, laudavi, laudatum", "amo, amare, amavi, amatum", "cano, canere, cecini, cantum", "adoro, adorare, adoravi, adoratum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love)",
+        "cano, canere, cecini, cantum": "These are the principal parts of 'canere' (to sing)",
+        "adoro, adorare, adoravi, adoratum": "These are the principal parts of 'adorare' (to adore/worship)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'confitemur' translates to?",
+      "target": "to confess / to acknowledge",
+      "choices": ["to confess / to acknowledge", "to trust", "to praise", "to confirm"],
+      "reveal": null,
+      "hints": {
+        "to trust": "'to trust' is 'confidere' — 'confitemur' comes from 'confiteri'",
+        "to praise": "'to praise' is 'laudare' — 'confitemur' comes from 'confiteri'",
+        "to confirm": "'to confirm' is 'confirmare' — 'confitemur' comes from 'confiteri'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'confitemur'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Future indicative"],
+      "reveal": { "word": "confitemur", "gloss": "we acknowledge" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive 1st pl. would be 'confiteamur' — 'confitemur' is present indicative",
+        "Perfect indicative": "Perfect 1st pl. would be 'confessi sumus' — 'confitemur' is present tense",
+        "Future indicative": "Future 1st pl. would be 'confitebimur' — 'confitemur' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'confitemur'?",
+      "target": "confiteor, confiteri, confessus sum",
+      "choices": ["confiteor, confiteri, confessus sum", "confido, confidere, confisus sum", "confirmo, confirmare, confirmavi, confirmatum", "fateor, fateri, fassus sum"],
+      "reveal": null,
+      "hints": {
+        "confido, confidere, confisus sum": "These are the principal parts of 'confidere' (to trust)",
+        "confirmo, confirmare, confirmavi, confirmatum": "These are the principal parts of 'confirmare' (to confirm)",
+        "fateor, fateri, fassus sum": "These are the principal parts of 'fateri' (to confess) — 'confitemur' is the compound 'confiteri'"
+      }
+    },
+    {
+      "prompt": "What case is 'Deum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "Deum", "gloss": "God" },
+      "hints": {
+        "Nominative": "Nominative of 'Deus' is 'Deus' — 'Deum' has the -um accusative ending",
+        "Genitive": "Genitive of 'Deus' is 'Dei' — 'Deum' has the -um accusative ending",
+        "Ablative": "Ablative of 'Deus' would be 'Deo' — 'Deum' has the -um accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus, Dei'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Dei' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Dei' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Dei' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Vocative"],
+      "reveal": { "word": "Dominum", "gloss": "Lord" },
+      "hints": {
+        "Nominative": "Nominative is 'Dominus' — 'Dominum' has the -um accusative ending",
+        "Dative": "Dative of 'Dominus' would be 'Domino' — 'Dominum' has the -um accusative ending",
+        "Vocative": "Vocative of 'Dominus' would be 'Domine' — 'Dominum' has the -um accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus, Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Domini' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Domini' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Domini' ends in -i"
+      }
+    }
+  ],
+  "translation": "We praise you, God; we acknowledge you, Lord"
+}

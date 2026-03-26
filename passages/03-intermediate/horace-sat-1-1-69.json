@@ -1,0 +1,108 @@
+{
+  "id": "horace-sat-1-1-69",
+  "source": "Horace",
+  "reference": "Satires I.1.69",
+  "latin": ["Mutato", "nomine", "de", "te", "fabula", "narratur"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "narratur",
+      "choices": ["Mutato", "nomine", "narratur", "fabula"],
+      "reveal": null,
+      "hints": {
+        "Mutato": "'Mutato' is a perfect passive participle in the ablative — part of an ablative absolute",
+        "nomine": "'nomine' is a noun in the ablative meaning 'name'",
+        "fabula": "'fabula' is a noun — the subject of the sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'narratur' translates to?",
+      "target": "to tell / to narrate",
+      "choices": ["to tell / to narrate", "to be born", "to swim", "to know"],
+      "reveal": null,
+      "hints": {
+        "to be born": "'to be born' is 'nasci' — 'narratur' comes from 'narrare'",
+        "to swim": "'to swim' is 'natare' — 'narratur' comes from 'narrare'",
+        "to know": "'to know' is 'narrare' is not 'to know' — 'to know' is 'scire' or 'noscere'"
+      }
+    },
+    {
+      "prompt": "What tense, mood, and voice is 'narratur'?",
+      "target": "Present passive indicative",
+      "choices": ["Present active indicative", "Present passive indicative", "Perfect passive indicative", "Present passive subjunctive"],
+      "reveal": { "word": "narratur", "gloss": "is told / is narrated" },
+      "hints": {
+        "Present active indicative": "Present active would be 'narrat' — 'narratur' with -tur ending is passive",
+        "Perfect passive indicative": "Perfect passive would be 'narrata est' — 'narratur' is present passive",
+        "Present passive subjunctive": "Present passive subjunctive would be 'narretur'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'narratur'?",
+      "target": "narro, narrare, narravi, narratum",
+      "choices": ["narro, narrare, narravi, narratum", "nascor, nasci, natus sum", "nato, natare, natavi, natatum", "nosco, noscere, novi, notum"],
+      "reveal": null,
+      "hints": {
+        "nascor, nasci, natus sum": "These are the principal parts of 'nasci' (to be born)",
+        "nato, natare, natavi, natatum": "These are the principal parts of 'natare' (to swim)",
+        "nosco, noscere, novi, notum": "These are the principal parts of 'noscere' (to know)"
+      }
+    },
+    {
+      "prompt": "Case of 'fabula'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "fabula", "gloss": "the story / tale" },
+      "hints": {
+        "Accusative": "Accusative of 'fabula' would be 'fabulam'",
+        "Ablative": "Ablative of 'fabula' would also be 'fabula', but here it is the subject of the passive verb",
+        "Vocative": "Vocative would be 'fabula', but context shows it is the subject — nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'fabula'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'fabula' with -a ending is 1st declension",
+        "3rd": "3rd declension has varied endings — 'fabula' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'fabula' is 1st declension"
+      }
+    },
+    {
+      "prompt": "Case of 'nomine'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nomine", "gloss": "the name" },
+      "hints": {
+        "Nominative": "Nominative of 'nomen' is 'nomen' — 'nomine' with -e ending is ablative",
+        "Accusative": "Accusative of 'nomen' would be 'nomen'",
+        "Dative": "Dative of 'nomen' would be 'nomini'"
+      }
+    },
+    {
+      "prompt": "Declension of 'nomen'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'nomen' with genitive 'nominis' is 3rd declension",
+        "2nd": "2nd declension neuter nouns end in -um — 'nomen' is 3rd declension neuter",
+        "5th": "5th declension nouns end in -es — 'nomen' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What construction is 'Mutato nomine'?",
+      "target": "Ablative absolute",
+      "choices": ["Ablative absolute", "Ablative of means", "Ablative of manner", "Ablative of agent"],
+      "reveal": { "word": "Mutato", "gloss": "changed / with (the name) having been changed" },
+      "hints": {
+        "Ablative of means": "Ablative of means uses a bare noun — 'Mutato nomine' is participle + noun forming an ablative absolute",
+        "Ablative of manner": "Ablative of manner often uses 'cum' — 'Mutato nomine' with a participle is an ablative absolute",
+        "Ablative of agent": "Ablative of agent uses 'a/ab' + ablative — this is an ablative absolute"
+      }
+    }
+  ],
+  "translation": "With the name changed, the story is told about you"
+}

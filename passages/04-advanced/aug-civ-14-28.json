@@ -1,0 +1,97 @@
+{
+  "id": "aug-civ-14-28",
+  "source": "Augustine",
+  "reference": "City of God XIV.28",
+  "latin": ["Duo", "amores", "fecerunt", "duas", "civitates"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'fecerunt' translates to?",
+      "target": "to make / do",
+      "choices": ["to make / do", "to carry", "to say", "to become"],
+      "reveal": null,
+      "hints": {
+        "to carry": "'to carry' is 'ferre' — 'fecerunt' comes from 'facere' (to make)",
+        "to say": "'to say' is 'dicere' — not related to 'facere'",
+        "to become": "'to become' is 'fieri' — the passive of 'facere', but 'fecerunt' is active"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fecerunt'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Future indicative", "Pluperfect indicative"],
+      "reveal": { "word": "fecerunt", "gloss": "made / built" },
+      "hints": {
+        "Present indicative": "Present would be 'faciunt' — 'fecerunt' with perfect stem 'fec-' is perfect",
+        "Future indicative": "Future would be 'facient' — 'fecerunt' is perfect indicative",
+        "Pluperfect indicative": "Pluperfect would be 'fecerant' — 'fecerunt' with -erunt is perfect"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecerunt'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fio, fieri, factus sum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry) — 'fecerunt' comes from 'facere'",
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — 'fecerunt' is active 'facere'",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee) — a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'amores'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Vocative"],
+      "reveal": { "word": "amores", "gloss": "loves" },
+      "hints": {
+        "Accusative": "Accusative plural of 3rd declension also ends in -es, but 'amores' is the subject of 'fecerunt'",
+        "Genitive": "Genitive singular would be 'amoris' — 'amores' is nominative plural",
+        "Vocative": "This is a statement, not an address — 'amores' is nominative subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'amores'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension plural nominative ends in -ae — 'amor, amoris' is 3rd declension",
+        "2nd": "2nd declension plural nominative ends in -i — 'amor' is 3rd declension",
+        "4th": "4th declension plural nominative ends in -us — 'amor, amoris' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'civitates'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "civitates", "gloss": "cities / states" },
+      "hints": {
+        "Nominative": "Nominative plural of 3rd declension also ends in -es, but 'civitates' is the direct object of 'fecerunt'",
+        "Ablative": "Ablative plural would be 'civitatibus' — 'civitates' is accusative",
+        "Genitive": "Genitive singular would be 'civitatis' — 'civitates' is accusative plural"
+      }
+    },
+    {
+      "prompt": "Declension of 'civitates'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'civitas, civitatis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'civitas' with -tas suffix is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'civitas, civitatis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What two cities does Augustine describe?",
+      "target": "The City of God (amor Dei) and the Earthly City (amor sui)",
+      "choices": ["Rome and Jerusalem", "The City of God (amor Dei) and the Earthly City (amor sui)", "Heaven and Hell", "Athens and Sparta"],
+      "reveal": null,
+      "hints": {
+        "Rome and Jerusalem": "Augustine's 'two cities' are theological allegories, not literal cities",
+        "Heaven and Hell": "The two cities are defined by love (of God vs. of self), not by afterlife destinations",
+        "Athens and Sparta": "Augustine is not discussing Greek city-states — his cities are defined by opposing loves"
+      }
+    }
+  ],
+  "translation": "Two loves made two cities."
+}

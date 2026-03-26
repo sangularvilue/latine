@@ -1,0 +1,97 @@
+{
+  "id": "hymn-dies-irae-7",
+  "source": "Hymn",
+  "reference": "Dies Irae 7",
+  "latin": ["Rex", "tremendae", "maiestatis", "qui", "salvandos", "salvas", "gratis"],
+  "steps": [
+    {
+      "prompt": "What case is 'Rex'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Rex", "gloss": "O King" },
+      "hints": {
+        "Nominative": "While 'Rex' has the same form in nominative and vocative, the context of address makes it vocative",
+        "Genitive": "Genitive of 'rex' would be 'regis' — 'Rex' here is a form of direct address",
+        "Accusative": "Accusative of 'rex' would be 'regem' — 'Rex' here is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'rex, regis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'regis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'regis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'regis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'maiestatis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "maiestatis", "gloss": "of majesty" },
+      "hints": {
+        "Nominative": "Nominative is 'maiestas' — 'maiestatis' has the -is genitive ending",
+        "Dative": "Dative of 'maiestas' would be 'maiestati' — 'maiestatis' ends in -is (genitive)",
+        "Ablative": "Ablative of 'maiestas' would be 'maiestate' — 'maiestatis' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'maiestas, maiestatis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'maiestatis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'maiestatis' ends in -is",
+        "5th declension": "5th declension nouns have genitive in -ei — 'maiestatis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'salvas' translates to?",
+      "target": "to save",
+      "choices": ["to save", "to greet", "to heal", "to free"],
+      "reveal": null,
+      "hints": {
+        "to greet": "'to greet' is 'salutare' — 'salvas' comes from 'salvare'",
+        "to heal": "'to heal' is 'sanare' — 'salvas' comes from 'salvare'",
+        "to free": "'to free' is 'liberare' — 'salvas' comes from 'salvare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'salvas'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Future indicative"],
+      "reveal": { "word": "salvas", "gloss": "you save" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive 2nd sg. of 'salvare' would be 'salves' — 'salvas' has the -a- indicative stem",
+        "Perfect indicative": "Perfect 2nd sg. would be 'salvavisti' — 'salvas' is present tense",
+        "Future indicative": "Future 2nd sg. would be 'salvabis' — 'salvas' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'salvas'?",
+      "target": "salvo, salvare, salvavi, salvatum",
+      "choices": ["salvo, salvare, salvavi, salvatum", "saluto, salutare, salutavi, salutatum", "sano, sanare, sanavi, sanatum", "libero, liberare, liberavi, liberatum"],
+      "reveal": null,
+      "hints": {
+        "saluto, salutare, salutavi, salutatum": "These are the principal parts of 'salutare' (to greet)",
+        "sano, sanare, sanavi, sanatum": "These are the principal parts of 'sanare' (to heal)",
+        "libero, liberare, liberavi, liberatum": "These are the principal parts of 'liberare' (to free)"
+      }
+    },
+    {
+      "prompt": "What form is 'salvandos'?",
+      "target": "Gerundive (accusative plural masculine)",
+      "choices": ["Present participle", "Gerundive (accusative plural masculine)", "Perfect participle", "Future participle"],
+      "reveal": { "word": "salvandos", "gloss": "those who must be saved" },
+      "hints": {
+        "Present participle": "Present participle accusative plural would be 'salvantes' — 'salvandos' has the -nd- gerundive marker",
+        "Perfect participle": "Perfect participle would be 'salvatos' — 'salvandos' has the -nd- gerundive marker",
+        "Future participle": "Future participle would be 'salvaturos' — 'salvandos' has the -nd- gerundive marker"
+      }
+    }
+  ],
+  "translation": "King of fearsome majesty, who saves freely those who must be saved"
+}

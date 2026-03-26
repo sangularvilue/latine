@@ -1,0 +1,205 @@
+{
+  "id": "ovid-met-1-1b",
+  "source": "Ovid",
+  "reference": "Metamorphoses I.1-2",
+  "latin": [
+    "In",
+    "nova",
+    "fert",
+    "animus",
+    "mutatas",
+    "dicere",
+    "formas"
+  ],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "fert",
+      "choices": [
+        "fert",
+        "nova",
+        "dicere",
+        "mutatas"
+      ],
+      "reveal": null,
+      "hints": {
+        "nova": "'nova' is an adjective meaning 'new'",
+        "dicere": "'dicere' is an infinitive, not the main finite verb",
+        "mutatas": "'mutatas' is a participle, not a finite verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'fert' translates to?",
+      "target": "to carry / to bear",
+      "choices": [
+        "to carry / to bear",
+        "to strike",
+        "to make",
+        "to be"
+      ],
+      "reveal": null,
+      "hints": {
+        "to strike": "'to strike' is 'ferire' — 'fert' comes from 'ferre'",
+        "to make": "'to make' is 'facere' — 'fert' comes from 'ferre'",
+        "to be": "'to be' is 'esse' — 'fert' comes from 'ferre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fert'?",
+      "target": "Present indicative",
+      "choices": [
+        "Present indicative",
+        "Perfect indicative",
+        "Present subjunctive",
+        "Imperfect indicative"
+      ],
+      "reveal": {
+        "word": "fert",
+        "gloss": "carries / leads"
+      },
+      "hints": {
+        "Perfect indicative": "Perfect of 'ferre' would be 'tulit'",
+        "Present subjunctive": "Present subjunctive of 'ferre' would be 'ferat'",
+        "Imperfect indicative": "Imperfect of 'ferre' would be 'ferebat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fert'?",
+      "target": "fero, ferre, tuli, latum",
+      "choices": [
+        "fero, ferre, tuli, latum",
+        "ferio, ferire, ferivi, feritum",
+        "facio, facere, feci, factum",
+        "fugio, fugere, fugi, fugitum"
+      ],
+      "reveal": null,
+      "hints": {
+        "ferio, ferire, ferivi, feritum": "These would be parts of 'ferire' (to strike) — 'ferre' is highly irregular",
+        "facio, facere, feci, factum": "These are the principal parts of 'facere' (to make)",
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugere' (to flee)"
+      }
+    },
+    {
+      "prompt": "Case of 'animus'?",
+      "target": "Nominative",
+      "choices": [
+        "Nominative",
+        "Accusative",
+        "Genitive",
+        "Ablative"
+      ],
+      "reveal": {
+        "word": "animus",
+        "gloss": "my spirit / mind"
+      },
+      "hints": {
+        "Accusative": "Accusative of 'animus' would be 'animum'",
+        "Genitive": "Genitive of 'animus' would be 'animi'",
+        "Ablative": "Ablative of 'animus' would be 'animo'"
+      }
+    },
+    {
+      "prompt": "Declension of 'animus'?",
+      "target": "2nd",
+      "choices": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th"
+      ],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'animus' with -us ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied nominatives — 'animus' is a regular 2nd declension -us noun",
+        "4th": "4th declension -us nouns have genitive -us — 'animi' genitive indicates 2nd declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'dicere' translates to?",
+      "target": "to speak / to tell",
+      "choices": [
+        "to speak / to tell",
+        "to lead",
+        "to give",
+        "to write"
+      ],
+      "reveal": null,
+      "hints": {
+        "to lead": "'to lead' is 'ducere' — 'dicere' means 'to speak/tell'",
+        "to give": "'to give' is 'dare' — 'dicere' means 'to speak/tell'",
+        "to write": "'to write' is 'scribere' — 'dicere' means 'to speak/tell'"
+      }
+    },
+    {
+      "prompt": "What mood is 'dicere' here?",
+      "target": "Infinitive (complementary)",
+      "choices": [
+        "Infinitive (complementary)",
+        "Present indicative",
+        "Present subjunctive",
+        "Imperative"
+      ],
+      "reveal": {
+        "word": "dicere",
+        "gloss": "to tell / to speak of"
+      },
+      "hints": {
+        "Present indicative": "'dicere' ends in -ere, the infinitive ending — present indicative 3rd sg. would be 'dicit'",
+        "Present subjunctive": "Present subjunctive would be 'dicat' — 'dicere' is the infinitive form",
+        "Imperative": "Imperative singular of 'dicere' would be 'dic'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dicere'?",
+      "target": "dico, dicere, dixi, dictum",
+      "choices": [
+        "dico, dicere, dixi, dictum",
+        "duco, ducere, duxi, ductum",
+        "do, dare, dedi, datum",
+        "disco, discere, didici, —"
+      ],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the principal parts of 'ducere' (to lead)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)",
+        "disco, discere, didici, —": "These are the principal parts of 'discere' (to learn)"
+      }
+    },
+    {
+      "prompt": "Case of 'formas'?",
+      "target": "Accusative",
+      "choices": [
+        "Nominative",
+        "Accusative",
+        "Genitive",
+        "Ablative"
+      ],
+      "reveal": {
+        "word": "formas",
+        "gloss": "forms / shapes"
+      },
+      "hints": {
+        "Nominative": "Nominative plural of 'forma' would be 'formae'",
+        "Genitive": "Genitive singular of 'forma' would be 'formae'",
+        "Ablative": "Ablative plural of 'forma' would be 'formis'"
+      }
+    },
+    {
+      "prompt": "Declension of 'forma'?",
+      "target": "1st",
+      "choices": [
+        "1st",
+        "2nd",
+        "3rd",
+        "5th"
+      ],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'forma' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'forma' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'forma' is 1st declension"
+      }
+    }
+  ],
+  "translation": "My spirit leads me to tell of forms changed into new"
+}

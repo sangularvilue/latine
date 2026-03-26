@@ -1,0 +1,97 @@
+{
+  "id": "aug-conf-10-27",
+  "source": "Augustine",
+  "reference": "Confessions X.27",
+  "latin": ["Sero", "te", "amavi", "pulchritudo", "tam", "antiqua", "et", "tam", "nova"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'amavi' translates to?",
+      "target": "to love",
+      "choices": ["to love", "to walk", "to lose", "to hear"],
+      "reveal": null,
+      "hints": {
+        "to walk": "'to walk' is 'ambulare' — 'amavi' comes from 'amare' (to love)",
+        "to lose": "'to lose' is 'amittere' — do not confuse with 'amare'",
+        "to hear": "'to hear' is 'audire' — 'amavi' is from 'amare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'amavi'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Imperfect indicative", "Pluperfect indicative"],
+      "reveal": { "word": "amavi", "gloss": "I loved" },
+      "hints": {
+        "Present indicative": "Present would be 'amo' — 'amavi' with -avi ending is perfect",
+        "Imperfect indicative": "Imperfect would be 'amabam' — 'amavi' is perfect indicative",
+        "Pluperfect indicative": "Pluperfect would be 'amaveram' — 'amavi' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'amavi'?",
+      "target": "amo, amare, amavi, amatum",
+      "choices": ["amo, amare, amavi, amatum", "amitto, amittere, amisi, amissum", "audio, audire, audivi, auditum", "ambulo, ambulare, ambulavi, ambulatum"],
+      "reveal": null,
+      "hints": {
+        "amitto, amittere, amisi, amissum": "These are the parts of 'amittere' (to lose) — not related to 'amare'",
+        "audio, audire, audivi, auditum": "These are the parts of 'audire' (to hear) — a 4th conjugation verb",
+        "ambulo, ambulare, ambulavi, ambulatum": "These are the parts of 'ambulare' (to walk) — a different 1st conjugation verb"
+      }
+    },
+    {
+      "prompt": "What case is 'pulchritudo'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Vocative", "Accusative", "Ablative"],
+      "reveal": { "word": "pulchritudo", "gloss": "O beauty" },
+      "hints": {
+        "Nominative": "While the form is identical, Augustine is addressing beauty directly — this is vocative of exclamation",
+        "Accusative": "Accusative would be 'pulchritudinem' — 'pulchritudo' is vocative here",
+        "Ablative": "Ablative would be 'pulchritudine' — Augustine addresses beauty directly in the vocative"
+      }
+    },
+    {
+      "prompt": "Declension of 'pulchritudo'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'pulchritudo, pulchritudinis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'pulchritudo' with -tudo suffix is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'pulchritudo' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What does 'sero' mean in this context?",
+      "target": "Late / too late",
+      "choices": ["Late / too late", "Seriously", "I sow", "In the evening"],
+      "reveal": null,
+      "hints": {
+        "Seriously": "'Seriously' would be 'serio' — 'sero' here is an adverb meaning 'late'",
+        "I sow": "'sero' can mean 'I sow' as a verb, but here it is the adverb meaning 'late'",
+        "In the evening": "'In the evening' is 'vespere' — 'sero' means 'late / belatedly'"
+      }
+    },
+    {
+      "prompt": "What does 'tam ... et tam ...' express?",
+      "target": "A correlative: 'so ... and so ...'",
+      "choices": ["A correlative: 'so ... and so ...'", "A comparison: 'more ... than ...'", "A concession: 'although ... yet ...'", "A condition: 'if ... then ...'"],
+      "reveal": null,
+      "hints": {
+        "A comparison: 'more ... than ...'": "Comparisons use 'magis ... quam ...' — 'tam ... et tam ...' is correlative emphasis",
+        "A concession: 'although ... yet ...'": "Concessions use 'quamvis ... tamen ...' — 'tam' means 'so / so much'",
+        "A condition: 'if ... then ...'": "Conditions use 'si ... tum ...' — 'tam' here intensifies both adjectives equally"
+      }
+    },
+    {
+      "prompt": "What rhetorical effect does Augustine achieve by juxtaposing 'antiqua' and 'nova'?",
+      "target": "Paradox — God's beauty is both ancient and ever-new",
+      "choices": ["Contradiction showing confusion", "Paradox — God's beauty is both ancient and ever-new", "A chronological narrative", "Hyperbole for dramatic effect"],
+      "reveal": null,
+      "hints": {
+        "Contradiction showing confusion": "Augustine is not confused — the juxtaposition is a deliberate theological paradox about God's nature",
+        "A chronological narrative": "This is not a narrative sequence — it is a simultaneous paradoxical description of divine beauty",
+        "Hyperbole for dramatic effect": "This is not exaggeration — Augustine means both literally: God's beauty is truly ancient and truly new"
+      }
+    }
+  ],
+  "translation": "Late have I loved you, beauty so ancient and so new."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "vot-is-40-1",
+  "source": "Vulgate",
+  "reference": "Isaiah 40:1",
+  "latin": ["Consolamini", "consolamini", "popule", "meus"],
+  "steps": [
+    {
+      "prompt": "The infinitive of the first 'consolamini' translates to?",
+      "target": "to be comforted / to take comfort",
+      "choices": ["to be comforted / to take comfort", "to grieve", "to pray", "to rejoice"],
+      "reveal": null,
+      "hints": {
+        "to grieve": "That would be the infinitive of 'dolere'",
+        "to pray": "That would be the infinitive of 'orare'",
+        "to rejoice": "That would be the infinitive of 'gaudere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is the first 'consolamini'?",
+      "target": "present imperative (deponent)",
+      "choices": ["present imperative (deponent)", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "consolamini = be comforted! / take comfort!",
+      "hints": {
+        "present indicative": "While the form is identical, the repetition and context indicate a command",
+        "present subjunctive": "The present subjunctive would be 'consolemini'",
+        "perfect indicative": "The perfect would be 'consolati estis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'consolamini'?",
+      "target": "consolor, consolari, consolatus sum, —",
+      "choices": ["consolor, consolari, consolatus sum, —", "soleo, solere, solitus sum, —", "gaudeo, gaudere, gavisus sum, —", "laetor, laetari, laetatus sum, —"],
+      "reveal": null,
+      "hints": {
+        "soleo, solere, solitus sum, —": "These are the principal parts of 'soleo' (to be accustomed)",
+        "gaudeo, gaudere, gavisus sum, —": "These are the principal parts of 'gaudeo' (to rejoice)",
+        "laetor, laetari, laetatus sum, —": "These are the principal parts of 'laetor' (to be glad)"
+      }
+    },
+    {
+      "prompt": "The infinitive of the second 'consolamini' translates to?",
+      "target": "to be comforted / to take comfort",
+      "choices": ["to be comforted / to take comfort", "to console others", "to weep", "to hope"],
+      "reveal": null,
+      "hints": {
+        "to console others": "The active sense would require a different construction; 'consolor' is deponent",
+        "to weep": "That would be the infinitive of 'flere'",
+        "to hope": "That would be the infinitive of 'sperare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is the second 'consolamini'?",
+      "target": "present imperative (deponent)",
+      "choices": ["present imperative (deponent)", "present indicative", "future indicative", "imperfect indicative"],
+      "reveal": "consolamini = be comforted!",
+      "hints": {
+        "present indicative": "While the form can be indicative, context shows this is a repeated command",
+        "future indicative": "The future would be 'consolabimini'",
+        "imperfect indicative": "The imperfect would be 'consolabamini'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'consolamini'?",
+      "target": "consolor, consolari, consolatus sum, —",
+      "choices": ["consolor, consolari, consolatus sum, —", "hortor, hortari, hortatus sum, —", "moror, morari, moratus sum, —", "precor, precari, precatus sum, —"],
+      "reveal": null,
+      "hints": {
+        "hortor, hortari, hortatus sum, —": "These are the principal parts of 'hortor' (to encourage)",
+        "moror, morari, moratus sum, —": "These are the principal parts of 'moror' (to delay)",
+        "precor, precari, precatus sum, —": "These are the principal parts of 'precor' (to pray/beseech)"
+      }
+    },
+    {
+      "prompt": "What case is 'popule'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "ablative", "dative"],
+      "reveal": "popule = O people (voc.)",
+      "hints": {
+        "nominative": "The nominative would be 'populus'",
+        "ablative": "The ablative would be 'populo'",
+        "dative": "The dative would be 'populo'"
+      }
+    },
+    {
+      "prompt": "What declension is 'popule'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension vocative is usually the same as nominative",
+        "4th declension": "4th declension vocative is the same as nominative"
+      }
+    }
+  ],
+  "translation": "Be comforted, be comforted, my people"
+}

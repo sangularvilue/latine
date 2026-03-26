@@ -1,0 +1,75 @@
+{
+  "id": "prayer-anima-christi-1",
+  "source": "Prayer",
+  "reference": "Anima Christi 1",
+  "latin": ["Anima", "Christi", "sanctifica", "me"],
+  "steps": [
+    {
+      "prompt": "What case is 'anima'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Ablative", "Vocative"],
+      "reveal": { "word": "anima", "gloss": "O soul" },
+      "hints": {
+        "Nominative": "While the form is the same, 'anima' is addressed directly — it is the vocative of address",
+        "Genitive": "Genitive of 'anima' would be 'animae' — 'anima' here is vocative",
+        "Ablative": "Ablative of 'anima' would also be 'anima', but context shows direct address (vocative)"
+      }
+    },
+    {
+      "prompt": "What declension is 'anima, animae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'animae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'animae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'animae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'Christi'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Christi", "gloss": "of Christ" },
+      "hints": {
+        "Nominative": "Nominative is 'Christus' — 'Christi' has the -i genitive ending",
+        "Dative": "Dative of 'Christus' would be 'Christo' — 'Christi' ends in -i (genitive)",
+        "Vocative": "Vocative of 'Christus' would be 'Christe' — 'Christi' is genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sanctifica' translates to?",
+      "target": "to sanctify / to make holy",
+      "choices": ["to sanctify / to make holy", "to sacrifice", "to bless", "to consecrate"],
+      "reveal": null,
+      "hints": {
+        "to sacrifice": "'to sacrifice' is 'sacrificare' — 'sanctifica' comes from 'sanctificare'",
+        "to bless": "'to bless' is 'benedicere' — 'sanctifica' comes from 'sanctificare'",
+        "to consecrate": "'to consecrate' is 'consecrare' — 'sanctifica' comes from 'sanctificare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'sanctifica'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "sanctifica", "gloss": "sanctify!" },
+      "hints": {
+        "Indicative": "Indicative present 3rd sg. would be 'sanctificat' — 'sanctifica' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'sanctifices' — 'sanctifica' is the imperative singular",
+        "Infinitive": "Infinitive would be 'sanctificare' — 'sanctifica' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sanctifica'?",
+      "target": "sanctifico, sanctificare, sanctificavi, sanctificatum",
+      "choices": ["sanctifico, sanctificare, sanctificavi, sanctificatum", "sacrifico, sacrificare, sacrificavi, sacrificatum", "benedico, benedicere, benedixi, benedictum", "consecro, consecrare, consecravi, consecratum"],
+      "reveal": null,
+      "hints": {
+        "sacrifico, sacrificare, sacrificavi, sacrificatum": "These are the principal parts of 'sacrificare' (to sacrifice)",
+        "benedico, benedicere, benedixi, benedictum": "These are the principal parts of 'benedicere' (to bless)",
+        "consecro, consecrare, consecravi, consecratum": "These are the principal parts of 'consecrare' (to consecrate)"
+      }
+    }
+  ],
+  "translation": "Soul of Christ, sanctify me"
+}

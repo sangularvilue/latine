@@ -1,0 +1,108 @@
+{
+  "id": "vot-sir-1-1",
+  "source": "Vulgate",
+  "reference": "Sirach 1:1",
+  "latin": ["Omnis", "sapientia", "a", "Domino", "Deo", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'sapientia'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "sapientia = wisdom (nom.)",
+      "hints": {
+        "ablative": "The ablative would also be 'sapientia' but here it is the subject",
+        "vocative": "'Sapientia' is not being addressed; it is the subject",
+        "accusative": "The accusative would be 'sapientiam'"
+      }
+    },
+    {
+      "prompt": "What declension is 'sapientia'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings",
+        "5th declension": "5th declension nouns end in -es in the nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'Domino'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "accusative"],
+      "reveal": "a Domino = from the Lord",
+      "hints": {
+        "dative": "'Domino' can be dative, but after 'a/ab' it is ablative of source",
+        "nominative": "The nominative would be 'Dominus'",
+        "accusative": "The accusative would be 'Dominum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Domino'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative ends in -a",
+        "3rd declension": "3rd declension ablative ends in -e",
+        "4th declension": "4th declension ablative ends in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'Deo'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "Deo = God (abl., in apposition with Domino)",
+      "hints": {
+        "dative": "'Deo' can be dative, but here it is ablative in apposition with 'Domino'",
+        "nominative": "The nominative would be 'Deus'",
+        "genitive": "The genitive would be 'Dei'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deo'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative ends in -a",
+        "3rd declension": "3rd declension ablative ends in -e",
+        "4th declension": "4th declension ablative ends in -u"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to have", "to go", "to exist separately"],
+      "reveal": null,
+      "hints": {
+        "to have": "That would be the infinitive of 'habere'",
+        "to go": "That would be the infinitive of 'ire'",
+        "to exist separately": "'Esse' can mean 'to exist' but the standard gloss is 'to be'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "est = is (all wisdom IS from the Lord God)",
+      "hints": {
+        "perfect indicative": "The perfect would be 'fuit'",
+        "present subjunctive": "The present subjunctive would be 'sit'",
+        "imperfect indicative": "The imperfect would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "exsto, exstare, exstiti, —"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edo' (to eat)",
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "exsto, exstare, exstiti, —": "These are the principal parts of 'exsto' (to stand out)"
+      }
+    }
+  ],
+  "translation": "All wisdom is from the Lord God"
+}

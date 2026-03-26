@@ -1,0 +1,97 @@
+{
+  "id": "aug-conf-8-12",
+  "source": "Augustine",
+  "reference": "Confessions VIII.12",
+  "latin": ["Tolle", "lege", "tolle", "lege"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'tolle' translates to?",
+      "target": "to take up / pick up",
+      "choices": ["to take up / pick up", "to destroy", "to endure", "to carry away"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "'to destroy' is 'delere' — 'tolle' comes from 'tollere' (to take up / lift)",
+        "to endure": "'to endure' is 'tolerare' — similar sound but different verb from 'tollere'",
+        "to carry away": "'to carry away' is 'auferre' — 'tollere' means to pick up or lift"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'tolle'?",
+      "target": "Present imperative",
+      "choices": ["Present indicative", "Present imperative", "Present subjunctive", "Present infinitive"],
+      "reveal": { "word": "tolle", "gloss": "pick up!" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'tollis' or 'tollo' — 'tolle' is imperative singular",
+        "Present subjunctive": "Present subjunctive would be 'tollam' or 'tollas' — 'tolle' is imperative",
+        "Present infinitive": "The infinitive is 'tollere' — 'tolle' without -re is the imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tolle'?",
+      "target": "tollo, tollere, sustuli, sublatum",
+      "choices": ["tollo, tollere, sustuli, sublatum", "tolero, tolerare, toleravi, toleratum", "deleo, delere, delevi, deletum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "tolero, tolerare, toleravi, toleratum": "These are the parts of 'tolerare' (to endure) — do not confuse with 'tollere'",
+        "deleo, delere, delevi, deletum": "These are the parts of 'delere' (to destroy) — a different verb",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry) — note 'tollere' shares the stem 'tuli/sublatum' but is a distinct verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'lege' translates to?",
+      "target": "to read",
+      "choices": ["to read", "to gather", "to send", "to choose"],
+      "reveal": null,
+      "hints": {
+        "to gather": "'legere' can mean 'to gather' in some contexts, but in this context with a book, it means 'to read'",
+        "to send": "'to send' is 'legare' or 'mittere' — 'lege' is from 'legere' (to read)",
+        "to choose": "'to choose' is 'eligere' — 'legere' here means 'to read'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'lege'?",
+      "target": "Present imperative",
+      "choices": ["Present indicative", "Present imperative", "Present subjunctive", "Ablative singular noun"],
+      "reveal": { "word": "lege", "gloss": "read!" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'legis' or 'lego' — 'lege' is imperative singular",
+        "Present subjunctive": "Present subjunctive would be 'legam' or 'legas' — 'lege' is imperative",
+        "Ablative singular noun": "'lege' can be ablative of 'lex' (law), but in this context with 'tolle' it is an imperative verb"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'lege'?",
+      "target": "lego, legere, legi, lectum",
+      "choices": ["lego, legere, legi, lectum", "lego, legare, legavi, legatum", "eligo, eligere, elegi, electum", "colligo, colligere, collegi, collectum"],
+      "reveal": null,
+      "hints": {
+        "lego, legare, legavi, legatum": "These are the parts of 'legare' (to send as envoy / bequeath) — a 1st conjugation verb, not 'legere'",
+        "eligo, eligere, elegi, electum": "These are the parts of 'eligere' (to choose) — a compound of 'legere' but different",
+        "colligo, colligere, collegi, collectum": "These are the parts of 'colligere' (to collect) — another compound of 'legere'"
+      }
+    },
+    {
+      "prompt": "Why is the phrase repeated ('tolle lege, tolle lege')?",
+      "target": "It mimics a child's chanting voice that Augustine heard",
+      "choices": ["It is a liturgical refrain", "It mimics a child's chanting voice that Augustine heard", "It is a scribal copying error", "It emphasizes a philosophical argument"],
+      "reveal": null,
+      "hints": {
+        "It is a liturgical refrain": "This is not from a liturgy — Augustine heard a child's sing-song voice in the garden",
+        "It is a scribal copying error": "The repetition is deliberate — it represents the chanting Augustine heard before his conversion",
+        "It emphasizes a philosophical argument": "This is not philosophical argument but a mystical moment — a child's voice prompted Augustine's conversion"
+      }
+    },
+    {
+      "prompt": "What is the significance of this moment in the Confessions?",
+      "target": "It triggers Augustine's conversion — he picks up Scripture and reads",
+      "choices": ["It describes a childhood game", "It triggers Augustine's conversion — he picks up Scripture and reads", "It is Augustine's prayer to God", "It describes a classroom exercise"],
+      "reveal": null,
+      "hints": {
+        "It describes a childhood game": "While it sounds like a children's chant, it is the pivotal moment of Augustine's conversion in Book VIII",
+        "It is Augustine's prayer to God": "The voice comes to Augustine — he does not speak these words himself",
+        "It describes a classroom exercise": "This is not academic — it is the dramatic climax of Augustine's spiritual autobiography"
+      }
+    }
+  ],
+  "translation": "Pick up and read, pick up and read."
+}

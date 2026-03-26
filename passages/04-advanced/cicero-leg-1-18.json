@@ -1,0 +1,119 @@
+{
+  "id": "cicero-leg-1-18",
+  "source": "Cicero",
+  "reference": "De Legibus I.18",
+  "latin": ["Lex", "est", "ratio", "summa", "insita", "in", "natura"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["Lex", "est", "insita", "summa"],
+      "reveal": null,
+      "hints": {
+        "Lex": "'Lex' is a noun meaning 'law'",
+        "insita": "'insita' is a participle meaning 'implanted / innate'",
+        "summa": "'summa' is an adjective meaning 'highest / supreme'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to know", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to know": "'to know' is 'scire' — do not confuse with 'esse'",
+        "to stand": "'to stand' is 'stare' — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Future indicative": "Future of 'esse' would be 'erit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "Imperfect indicative": "Imperfect would be 'erat' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "sisto, sistere, stiti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'est' here is from 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — different verb",
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to set / stop) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'Lex'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "Lex", "gloss": "law" },
+      "hints": {
+        "Accusative": "Accusative would be 'legem' — 'Lex' is the nominative subject",
+        "Vocative": "Vocative would also be 'lex' in form, but context shows this is a definition, not direct address",
+        "Ablative": "Ablative would be 'lege' — 'Lex' is nominative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'Lex'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'lex, legis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'lex' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'lex, legis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'ratio'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Dative", "Accusative"],
+      "reveal": { "word": "ratio", "gloss": "reason / reckoning" },
+      "hints": {
+        "Ablative": "Ablative singular would be 'ratione' — 'ratio' is the predicate nominative",
+        "Dative": "Dative singular would be 'rationi' — 'ratio' is nominative",
+        "Accusative": "Accusative would be 'rationem' — 'ratio' is the predicate nominative after 'est'"
+      }
+    },
+    {
+      "prompt": "Declension of 'ratio'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'ratio, rationis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'ratio' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'ratio, rationis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'natura'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "natura", "gloss": "nature" },
+      "hints": {
+        "Nominative": "While 'natura' can be nominative, after 'in' it must be ablative (place where)",
+        "Vocative": "Cicero is not addressing nature — 'natura' follows the preposition 'in'",
+        "Accusative": "Accusative after 'in' would indicate motion toward — here 'in natura' means 'in nature' (location)"
+      }
+    },
+    {
+      "prompt": "Declension of 'natura'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'natura, naturae' is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'natura' with -a ending is 1st declension",
+        "5th": "5th declension nouns end in -es — 'natura' is 1st declension"
+      }
+    }
+  ],
+  "translation": "Law is the highest reason implanted in nature."
+}

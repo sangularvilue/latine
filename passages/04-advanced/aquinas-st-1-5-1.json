@@ -1,0 +1,97 @@
+{
+  "id": "aquinas-st-1-5-1",
+  "source": "Thomas Aquinas",
+  "reference": "Summa Theologiae I.5.1",
+  "latin": ["Bonum", "est", "quod", "omnia", "appetunt"],
+  "steps": [
+    {
+      "prompt": "What case is 'bonum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "bonum", "gloss": "the good" },
+      "hints": {
+        "Accusative": "Accusative neuter is the same form, but 'bonum' is the subject — predicate of 'est'",
+        "Genitive": "Genitive would be 'boni' — 'bonum' is nominative here",
+        "Ablative": "Ablative would be 'bono' — 'bonum' is nominative subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'bonum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'bonum' with -um is 2nd declension neuter (substantivized adjective)",
+        "3rd": "3rd declension neuter nouns have varied endings — 'bonum, boni' is 2nd declension",
+        "4th": "4th declension nouns end in -us/-u — 'bonum' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — not related to 'est'",
+        "to stand": "'to stand' is 'stare' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "Imperfect indicative": "Imperfect would be 'erat' — 'est' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'est' here is from 'esse'",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not related",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — different verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'appetunt' translates to?",
+      "target": "to desire / strive for",
+      "choices": ["to desire / strive for", "to appear", "to call", "to reach"],
+      "reveal": null,
+      "hints": {
+        "to appear": "'to appear' is 'apparere' — 'appetunt' comes from 'appetere' (to desire)",
+        "to call": "'to call' is 'appellare' — do not confuse with 'appetere'",
+        "to reach": "'to reach' is 'attingere' or 'petere' — 'appetere' specifically means 'to strive for / desire'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'appetunt'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "appetunt", "gloss": "desire / strive for" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'appetiverunt' — 'appetunt' is present",
+        "Present subjunctive": "Present subjunctive would be 'appetant' — 'appetunt' with -unt is indicative",
+        "Future indicative": "Future would be 'appetent' — 'appetunt' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'appetunt'?",
+      "target": "appeto, appetere, appetivi, appetitum",
+      "choices": ["appeto, appetere, appetivi, appetitum", "appello, appellare, appellavi, appellatum", "appareo, apparere, apparui, apparitum", "peto, petere, petivi, petitum"],
+      "reveal": null,
+      "hints": {
+        "appello, appellare, appellavi, appellatum": "These are the parts of 'appellare' (to call) — a different verb",
+        "appareo, apparere, apparui, apparitum": "These are the parts of 'apparere' (to appear) — not related",
+        "peto, petere, petivi, petitum": "These are the parts of 'petere' (to seek) — the simple verb; 'appetere' is its compound"
+      }
+    }
+  ],
+  "translation": "The good is that which all things desire."
+}

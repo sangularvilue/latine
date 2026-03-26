@@ -1,0 +1,97 @@
+{
+  "id": "prayer-sub-tuum",
+  "source": "Prayer",
+  "reference": "Sub Tuum",
+  "latin": ["Sub", "tuum", "praesidium", "confugimus", "sancta", "Dei", "Genetrix"],
+  "steps": [
+    {
+      "prompt": "What case is 'praesidium'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "praesidium", "gloss": "protection" },
+      "hints": {
+        "Nominative": "While 'praesidium' could be nominative neuter, here it follows 'sub' + accusative (indicating motion toward)",
+        "Genitive": "Genitive of 'praesidium' would be 'praesidii' — 'praesidium' is accusative after 'sub'",
+        "Ablative": "Ablative of 'praesidium' would be 'praesidio' — here 'sub' takes accusative (motion toward)"
+      }
+    },
+    {
+      "prompt": "What declension is 'praesidium, praesidii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'praesidii' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'praesidii' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'praesidii' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'confugimus' translates to?",
+      "target": "to flee for refuge",
+      "choices": ["to flee for refuge", "to fight", "to confuse", "to flee"],
+      "reveal": null,
+      "hints": {
+        "to fight": "'to fight' is 'pugnare' — 'confugimus' comes from 'confugere'",
+        "to confuse": "'to confuse' is 'confundere' — 'confugimus' comes from 'confugere'",
+        "to flee": "'to flee' is 'fugere' — 'confugimus' is from the compound 'confugere' (to flee for refuge)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'confugimus'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "confugimus", "gloss": "we flee for refuge" },
+      "hints": {
+        "Perfect indicative": "Perfect 1st pl. would also be 'confugimus' (same form), but context favors present tense",
+        "Present subjunctive": "Present subjunctive 1st pl. would be 'confugiamus' — 'confugimus' is present indicative",
+        "Future indicative": "Future 1st pl. would be 'confugiemus' — 'confugimus' is present tense"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'confugimus'?",
+      "target": "confugio, confugere, confugi, —",
+      "choices": ["confugio, confugere, confugi, —", "fugio, fugere, fugi, fugitum", "pugno, pugnare, pugnavi, pugnatum", "confundo, confundere, confudi, confusum"],
+      "reveal": null,
+      "hints": {
+        "fugio, fugere, fugi, fugitum": "These are the principal parts of 'fugere' (to flee) — 'confugimus' is from the compound 'confugere'",
+        "pugno, pugnare, pugnavi, pugnatum": "These are the principal parts of 'pugnare' (to fight)",
+        "confundo, confundere, confudi, confusum": "These are the principal parts of 'confundere' (to confuse/pour together)"
+      }
+    },
+    {
+      "prompt": "What case is 'Genetrix'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Genetrix", "gloss": "O Mother / Bearer" },
+      "hints": {
+        "Nominative": "While the form is the same, 'Genetrix' is addressed directly — 'sancta Dei Genetrix' is vocative",
+        "Genitive": "Genitive of 'Genetrix' would be 'Genetricis' — 'Genetrix' is vocative here",
+        "Accusative": "Accusative of 'Genetrix' would be 'Genetricem' — 'Genetrix' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Genetrix, Genetricis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Genetricis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'Genetricis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Genetricis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "Dei", "gloss": "of God" },
+      "hints": {
+        "Nominative": "Nominative is 'Deus' — 'Dei' has the -i genitive ending",
+        "Dative": "Dative of 'Deus' would be 'Deo' — 'Dei' ends in -i (genitive)",
+        "Ablative": "Ablative of 'Deus' would be 'Deo' — 'Dei' ends in -i (genitive)"
+      }
+    }
+  ],
+  "translation": "Under your protection we take refuge, holy Mother of God"
+}

@@ -1,0 +1,163 @@
+{
+  "id": "cicero-sen-7-24",
+  "source": "Cicero",
+  "reference": "De Senectute VII.24",
+  "latin": ["Nemo", "est", "tam", "senex", "qui", "se", "annum", "non", "putet", "posse", "vivere"],
+  "steps": [
+    {
+      "prompt": "Which word is the first main verb?",
+      "target": "est",
+      "choices": ["est", "senex", "putet", "vivere"],
+      "reveal": null,
+      "hints": {
+        "senex": "'senex' is a noun/adjective meaning 'old man / old'",
+        "putet": "'putet' is a verb in the subordinate clause",
+        "vivere": "'vivere' is an infinitive meaning 'to live'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go out"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' is from 'esse'",
+        "to stand": "'to stand' is 'stare' — not 'esse'",
+        "to go out": "'to go out' is 'exire' — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Future indicative", "Perfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Present subjunctive": "Subjunctive would be 'sit' — 'est' is indicative",
+        "Future indicative": "Future would be 'erit' — 'est' is present",
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "exeo, exire, exii, exitum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — not 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — not 'esse'",
+        "exeo, exire, exii, exitum": "These are the parts of 'exire' (to go out) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'putet' translates to?",
+      "target": "to think / suppose",
+      "choices": ["to think / suppose", "to prune", "to fight", "to be able"],
+      "reveal": null,
+      "hints": {
+        "to prune": "'to prune' is 'putare' in a different sense — here it means 'to think'",
+        "to fight": "'to fight' is 'pugnare' — do not confuse with 'putare'",
+        "to be able": "'to be able' is 'posse' — 'putet' comes from 'putare' (to think)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'putet'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Future indicative"],
+      "reveal": { "word": "putet", "gloss": "thinks / might think" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'putat' — 'putet' with -e- is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'putaret' — 'putet' is present subjunctive",
+        "Future indicative": "Future would be 'putabit' — 'putet' is present subjunctive in a relative clause of characteristic"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'putet'?",
+      "target": "puto, putare, putavi, putatum",
+      "choices": ["puto, putare, putavi, putatum", "pugno, pugnare, pugnavi, pugnatum", "possum, posse, potui, —", "punio, punire, punivi, punitum"],
+      "reveal": null,
+      "hints": {
+        "pugno, pugnare, pugnavi, pugnatum": "These are the parts of 'pugnare' (to fight) — not 'putare'",
+        "possum, posse, potui, —": "These are the parts of 'posse' (to be able) — not 'putare'",
+        "punio, punire, punivi, punitum": "These are the parts of 'punire' (to punish) — not 'putare'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'posse' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to possess", "to place", "to demand"],
+      "reveal": null,
+      "hints": {
+        "to possess": "'to possess' is 'possidere' — 'posse' means to be able",
+        "to place": "'to place' is 'ponere' — not related to 'posse'",
+        "to demand": "'to demand' is 'poscere' — similar sounding but different from 'posse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'posse' in this sentence?",
+      "target": "Present infinitive",
+      "choices": ["Present indicative", "Present infinitive", "Perfect infinitive", "Imperfect subjunctive"],
+      "reveal": { "word": "posse", "gloss": "to be able" },
+      "hints": {
+        "Present indicative": "'posse' is not a finite form — it is an infinitive in indirect statement after 'putet'",
+        "Perfect infinitive": "Perfect infinitive would be 'potuisse' — 'posse' is present",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'posset' — 'posse' is the infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'posse'?",
+      "target": "possum, posse, potui, —",
+      "choices": ["possum, posse, potui, —", "pono, ponere, posui, positum", "possideo, possidere, possedi, possessum", "posco, poscere, poposci, —"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place) — not 'posse'",
+        "possideo, possidere, possedi, possessum": "These are the parts of 'possidere' (to possess) — not 'posse'",
+        "posco, poscere, poposci, —": "These are the parts of 'poscere' (to demand) — not 'posse'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivere' translates to?",
+      "target": "to live",
+      "choices": ["to live", "to see", "to conquer", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is 'videre' — similar sounding but different from 'vivere'",
+        "to conquer": "'to conquer' is 'vincere' — do not confuse with 'vivere'",
+        "to avoid": "'to avoid' is 'vitare' — not 'vivere'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivere'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "video, videre, vidi, visum", "vinco, vincere, vici, victum", "vito, vitare, vitavi, vitatum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see) — not 'vivere'",
+        "vinco, vincere, vici, victum": "These are the parts of 'vincere' (to conquer) — not 'vivere'",
+        "vito, vitare, vitavi, vitatum": "These are the parts of 'vitare' (to avoid) — not 'vivere'"
+      }
+    },
+    {
+      "prompt": "What case is 'annum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "annum", "gloss": "a year" },
+      "hints": {
+        "Nominative": "Nominative would be 'annus' — 'annum' is accusative (duration of time)",
+        "Ablative": "Ablative would be 'anno' — 'annum' is accusative expressing duration",
+        "Genitive": "Genitive would be 'anni' — 'annum' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'annum'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative ends in -am — 'annus, anni' is 2nd declension",
+        "3rd": "3rd declension accusative ends in -em — 'annum' with -um is 2nd declension",
+        "4th": "4th declension accusative ends in -um too, but 'annus, anni' is 2nd declension"
+      }
+    }
+  ],
+  "translation": "No one is so old that he does not think he can live one more year."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "vnt-mk-2-27",
+  "source": "Vulgate",
+  "reference": "Mark 2:27",
+  "latin": ["Sabbatum", "propter", "hominem", "factum", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'Sabbatum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Sabbatum", "gloss": "Sabbath" },
+      "hints": {
+        "accusative": "'Sabbatum' is neuter so nom/acc are identical; here it is the subject",
+        "ablative": "The ablative would be 'sabbato'",
+        "genitive": "The genitive would be 'sabbati'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Sabbatum'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Neuter nouns in -um are 2nd declension",
+        "3rd declension": "3rd declension neuters do not end in -um",
+        "4th declension": "4th declension neuters end in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'hominem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": { "word": "hominem", "gloss": "man" },
+      "hints": {
+        "nominative": "The nominative is 'homo'; -em ending signals accusative",
+        "ablative": "The ablative would be 'homine'",
+        "dative": "The dative would be 'homini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'hominem'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension accusatives end in -am",
+        "2nd declension": "2nd declension accusatives end in -um",
+        "4th declension": "4th declension accusatives end in -um"
+      }
+    },
+    {
+      "prompt": "What case is 'factum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "factum", "gloss": "made" },
+      "hints": {
+        "accusative": "'Factum' is neuter nom/acc; here it agrees with 'Sabbatum' as predicate",
+        "ablative": "The ablative would be 'facto'",
+        "genitive": "The genitive would be 'facti'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Edere' means to eat",
+        "to go": "'Ire' means to go",
+        "to stand": "'Stare' means to stand"
+      }
+    },
+    {
+      "prompt": "'est' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "perfect indicative active", "present subjunctive active", "imperfect indicative active"],
+      "reveal": { "word": "est", "gloss": "was" },
+      "hints": {
+        "perfect indicative active": "The perfect would be 'fuit'",
+        "present subjunctive active": "The subjunctive would be 'sit'",
+        "imperfect indicative active": "The imperfect would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esus", "sto, stare, steti, status", "eo, ire, ivi, itus"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esus": "'Edere' means to eat",
+        "sto, stare, steti, status": "'Stare' means to stand",
+        "eo, ire, ivi, itus": "'Ire' means to go"
+      }
+    }
+  ],
+  "translation": "The Sabbath was made for man."
+}

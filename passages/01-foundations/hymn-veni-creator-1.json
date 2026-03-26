@@ -1,0 +1,119 @@
+{
+  "id": "hymn-veni-creator-1",
+  "source": "Hymn",
+  "reference": "Veni Creator 1",
+  "latin": ["Veni", "Creator", "Spiritus", "mentes", "tuorum", "visita"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'veni' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to conquer", "to see", "to sell"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'to conquer' is 'vincere' — 'veni' comes from 'venire'",
+        "to see": "'to see' is 'videre' — 'veni' comes from 'venire'",
+        "to sell": "'to sell' is 'vendere' — 'veni' comes from 'venire'"
+      }
+    },
+    {
+      "prompt": "What mood is 'veni'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "veni", "gloss": "come!" },
+      "hints": {
+        "Indicative": "Indicative perfect 1st sg. is also 'veni', but here it is an imperative command",
+        "Subjunctive": "Subjunctive would be 'venias' — 'veni' is the imperative singular of 'venire'",
+        "Infinitive": "Infinitive would be 'venire' — 'veni' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'veni'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vinco, vincere, vici, victum", "video, videre, vidi, visum", "vendo, vendere, vendidi, venditum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)",
+        "video, videre, vidi, visum": "These are the principal parts of 'videre' (to see)",
+        "vendo, vendere, vendidi, venditum": "These are the principal parts of 'vendere' (to sell)"
+      }
+    },
+    {
+      "prompt": "What case is 'Spiritus'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Spiritus", "gloss": "O Spirit" },
+      "hints": {
+        "Nominative": "While the form is the same, 'Spiritus' is addressed directly as part of 'Creator Spiritus'",
+        "Genitive": "Genitive of 'spiritus' (4th decl.) would also be 'spiritus' with long -ūs, but here it is vocative",
+        "Accusative": "Accusative of 'spiritus' would be 'spiritum' — 'Spiritus' here is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'spiritus, spiritus'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'spiritus' has genitive in -ūs",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'spiritus' has genitive in -ūs",
+        "5th declension": "5th declension nouns have genitive in -ei — 'spiritus' has genitive in -ūs"
+      }
+    },
+    {
+      "prompt": "What case is 'mentes'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "mentes", "gloss": "minds" },
+      "hints": {
+        "Nominative": "While 'mentes' could be nominative plural, here it is the direct object of 'visita'",
+        "Genitive": "Genitive singular of 'mens' would be 'mentis' — 'mentes' is nom./acc. plural",
+        "Ablative": "Ablative plural of 'mens' would be 'mentibus' — 'mentes' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'mens, mentis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'mentis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'mentis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'mentis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'visita' translates to?",
+      "target": "to visit",
+      "choices": ["to visit", "to see", "to look at", "to watch"],
+      "reveal": null,
+      "hints": {
+        "to see": "'to see' is 'videre' — 'visita' comes from 'visitare'",
+        "to look at": "'to look at' is 'spectare' — 'visita' comes from 'visitare'",
+        "to watch": "'to watch' is 'observare' — 'visita' comes from 'visitare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'visita'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "visita", "gloss": "visit!" },
+      "hints": {
+        "Indicative": "Indicative present 3rd sg. would be 'visitat' — 'visita' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'visites' — 'visita' is the imperative singular of a 1st conjugation verb",
+        "Infinitive": "Infinitive would be 'visitare' — 'visita' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'visita'?",
+      "target": "visito, visitare, visitavi, visitatum",
+      "choices": ["visito, visitare, visitavi, visitatum", "video, videre, vidi, visum", "specto, spectare, spectavi, spectatum", "viso, visere, visi, visum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the principal parts of 'videre' (to see)",
+        "specto, spectare, spectavi, spectatum": "These are the principal parts of 'spectare' (to watch/look at)",
+        "viso, visere, visi, visum": "These are the principal parts of 'visere' (to go to see)"
+      }
+    }
+  ],
+  "translation": "Come, Creator Spirit, visit the minds of your own"
+}

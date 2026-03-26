@@ -1,0 +1,108 @@
+{
+  "id": "vnt-mt-5-13",
+  "source": "Vulgate",
+  "reference": "Matthew 5:13",
+  "latin": ["Vos", "estis", "sal", "terrae"],
+  "steps": [
+    {
+      "prompt": "What case is 'Vos'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": { "word": "Vos", "gloss": "You" },
+      "hints": {
+        "accusative": "'Vos' here is the subject, not the object",
+        "ablative": "The ablative would be 'vobis'",
+        "dative": "The dative would be 'vobis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Vos'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "2nd declension", "3rd declension", "1st declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "Personal pronouns do not follow standard declensions",
+        "3rd declension": "Personal pronouns are irregular",
+        "1st declension": "Personal pronouns have their own forms"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'estis' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Edere' means to eat",
+        "to go": "'Ire' means to go",
+        "to stand": "'Stare' means to stand"
+      }
+    },
+    {
+      "prompt": "'estis' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "imperfect indicative active", "present subjunctive active", "future indicative active"],
+      "reveal": { "word": "estis", "gloss": "are" },
+      "hints": {
+        "imperfect indicative active": "The imperfect would be 'eratis'",
+        "present subjunctive active": "The subjunctive would be 'sitis'",
+        "future indicative active": "The future would be 'eritis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'estis'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "esto, estare, estavi, estatus", "sum, sumere, sumpsi, sumptus", "es, ere, fui, futus"],
+      "reveal": null,
+      "hints": {
+        "esto, estare, estavi, estatus": "'Esse' is highly irregular; it is not a 1st conjugation verb",
+        "sum, sumere, sumpsi, sumptus": "'Sumere' means to take; 'esse' means to be",
+        "es, ere, fui, futus": "The first principal part is 'sum', not 'es'"
+      }
+    },
+    {
+      "prompt": "What case is 'sal'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": { "word": "sal", "gloss": "salt" },
+      "hints": {
+        "accusative": "'Sal' is a predicate nominative after 'estis'",
+        "genitive": "The genitive would be 'salis'",
+        "ablative": "The ablative would be 'sale'"
+      }
+    },
+    {
+      "prompt": "What declension is 'sal'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a",
+        "2nd declension": "2nd declension nouns end in -us or -um",
+        "4th declension": "4th declension nouns end in -us or -u"
+      }
+    },
+    {
+      "prompt": "What case is 'terrae'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "terrae", "gloss": "of the earth" },
+      "hints": {
+        "nominative": "'Terrae' as nominative would be plural; here it modifies 'sal'",
+        "dative": "Context requires possession: salt of the earth",
+        "ablative": "The ablative singular is 'terra'"
+      }
+    },
+    {
+      "prompt": "What declension is 'terrae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "'Terra' ends in -a, characteristic of 1st declension",
+        "3rd declension": "3rd declension genitives end in -is",
+        "5th declension": "5th declension nouns end in -es"
+      }
+    }
+  ],
+  "translation": "You are the salt of the earth."
+}

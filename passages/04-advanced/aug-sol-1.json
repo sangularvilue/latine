@@ -1,0 +1,97 @@
+{
+  "id": "aug-sol-1",
+  "source": "Augustine",
+  "reference": "Soliloquia II.1",
+  "latin": ["Deus", "semper", "idem", "noverim", "me", "noverim", "te"],
+  "steps": [
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Vocative", "Accusative", "Genitive"],
+      "reveal": { "word": "Deus", "gloss": "O God" },
+      "hints": {
+        "Nominative": "While the form is the same, Augustine is addressing God directly — this is vocative",
+        "Accusative": "Accusative would be 'Deum' — 'Deus' here is vocative of direct address",
+        "Genitive": "Genitive would be 'Dei' — 'Deus' is vocative, addressing God"
+      }
+    },
+    {
+      "prompt": "Declension of 'Deus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'Deus' with -us ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied endings — 'Deus, Dei' is standard 2nd declension",
+        "4th": "4th declension nouns also end in -us but have different genitive — 'Deus, Dei' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'noverim' translates to?",
+      "target": "to know",
+      "choices": ["to know", "to be new", "to harm", "to renew"],
+      "reveal": null,
+      "hints": {
+        "to be new": "'to be new' is not a standard Latin verb — 'noverim' comes from 'noscere' (to know)",
+        "to harm": "'to harm' is 'nocere' — do not confuse with 'noscere'",
+        "to renew": "'to renew' is 'renovare' — 'noverim' is from 'noscere' (to come to know)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'noverim'?",
+      "target": "Perfect subjunctive",
+      "choices": ["Present subjunctive", "Perfect subjunctive", "Perfect indicative", "Future perfect indicative"],
+      "reveal": { "word": "noverim", "gloss": "may I know" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'noscam' — 'noverim' with perfect stem 'nov-' + -erim is perfect subjunctive",
+        "Perfect indicative": "Perfect indicative would be 'novi' — 'noverim' with the -erim ending is subjunctive",
+        "Future perfect indicative": "Future perfect would be 'novero' — 'noverim' is perfect subjunctive expressing a wish"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'noverim'?",
+      "target": "nosco, noscere, novi, notum",
+      "choices": ["nosco, noscere, novi, notum", "noceo, nocere, nocui, nocitum", "novus, nova, novum (adj.)", "nolo, nolle, nolui"],
+      "reveal": null,
+      "hints": {
+        "noceo, nocere, nocui, nocitum": "These are the parts of 'nocere' (to harm) — 'noverim' comes from 'noscere'",
+        "novus, nova, novum (adj.)": "This is an adjective meaning 'new' — 'noverim' is a verb form from 'noscere'",
+        "nolo, nolle, nolui": "These are the parts of 'nolle' (to be unwilling) — not related to 'noscere'"
+      }
+    },
+    {
+      "prompt": "What does 'semper idem' mean?",
+      "target": "Always the same",
+      "choices": ["Always the same", "The same forever", "Always himself", "The eternal one"],
+      "reveal": null,
+      "hints": {
+        "The same forever": "Close but imprecise — 'semper' means 'always' and 'idem' means 'the same'",
+        "Always himself": "'himself' would be 'se' or 'ipse' — 'idem' specifically means 'the same'",
+        "The eternal one": "'The eternal one' would be 'aeternus' — 'idem' means 'the same' (unchanging)"
+      }
+    },
+    {
+      "prompt": "The repeated 'noverim ... noverim' structure expresses what kind of wish?",
+      "target": "An optative wish — 'may I know myself, may I know you'",
+      "choices": ["A command to others", "An optative wish — 'may I know myself, may I know you'", "A past contrary-to-fact condition", "A statement of certainty"],
+      "reveal": null,
+      "hints": {
+        "A command to others": "Commands use the imperative — the subjunctive 'noverim' expresses a personal wish",
+        "A past contrary-to-fact condition": "Contrary-to-fact uses pluperfect subjunctive — perfect subjunctive here expresses an attainable wish",
+        "A statement of certainty": "Certainty uses the indicative — the subjunctive signals wish or desire"
+      }
+    },
+    {
+      "prompt": "What is the theological pairing Augustine establishes?",
+      "target": "Self-knowledge and knowledge of God are inseparable",
+      "choices": ["God is unknowable", "Self-knowledge and knowledge of God are inseparable", "Human knowledge is superior to divine", "Knowledge is impossible without faith"],
+      "reveal": null,
+      "hints": {
+        "God is unknowable": "Augustine prays 'noverim te' — he believes knowing God is possible",
+        "Human knowledge is superior to divine": "Augustine places both on equal footing: 'noverim me, noverim te'",
+        "Knowledge is impossible without faith": "While Augustine values faith, this prayer emphasizes the twin pursuit of self-knowledge and knowledge of God"
+      }
+    }
+  ],
+  "translation": "God, ever the same, may I know myself, may I know you."
+}

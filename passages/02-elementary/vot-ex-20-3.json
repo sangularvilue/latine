@@ -1,0 +1,97 @@
+{
+  "id": "vot-ex-20-3",
+  "source": "Vulgate",
+  "reference": "Exodus 20:3",
+  "latin": ["Non", "habebis", "deos", "alienos", "coram", "me"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'habebis' translates to?",
+      "target": "to have",
+      "choices": ["to have", "to hold back", "to live", "to worship"],
+      "reveal": null,
+      "hints": {
+        "to hold back": "That would be the infinitive of 'retinere'",
+        "to live": "That would be the infinitive of 'vivere'",
+        "to worship": "That would be the infinitive of 'adorare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'habebis'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "habebis = you will have",
+      "hints": {
+        "present indicative": "The present indicative would be 'habes'",
+        "present subjunctive": "The present subjunctive would be 'habeas'",
+        "imperfect indicative": "The imperfect indicative would be 'habebas'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habebis'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "video, videre, vidi, visum", "teneo, tenere, tenui, tentum", "debeo, debere, debui, debitum"],
+      "reveal": null,
+      "hints": {
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)",
+        "teneo, tenere, tenui, tentum": "These are the principal parts of 'teneo' (to hold)",
+        "debeo, debere, debui, debitum": "These are the principal parts of 'debeo' (to owe)"
+      }
+    },
+    {
+      "prompt": "What case is 'deos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "vocative"],
+      "reveal": "deos = gods (acc. pl.)",
+      "hints": {
+        "nominative": "The nominative plural would be 'dei' or 'dii'",
+        "ablative": "The ablative plural would be 'deis' or 'diis'",
+        "vocative": "The vocative plural would be 'dei' or 'dii'"
+      }
+    },
+    {
+      "prompt": "What declension is 'deos'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative singular",
+        "3rd declension": "3rd declension accusative plural would end in -es",
+        "4th declension": "4th declension nouns end in -us (gen. -us) in the nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'alienos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "alienos = foreign / strange (acc. pl.)",
+      "hints": {
+        "nominative": "The nominative plural would be 'alieni'",
+        "ablative": "The ablative plural would be 'alienis'",
+        "genitive": "The genitive plural would be 'alienorum'"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "ablative",
+      "choices": ["ablative", "accusative", "nominative", "dative"],
+      "reveal": "coram me = before me / in my presence",
+      "hints": {
+        "accusative": "'Me' can be accusative, but after 'coram' it is ablative",
+        "nominative": "The nominative form would be 'ego'",
+        "dative": "The dative form would be 'mihi'"
+      }
+    },
+    {
+      "prompt": "What declension is 'me'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "1st declension", "2nd declension", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'ego/me' is an irregular personal pronoun",
+        "2nd declension": "2nd declension nouns end in -us/-um; 'ego/me' is an irregular pronoun",
+        "3rd declension": "3rd declension has -is genitive; 'ego/me' is an irregular pronoun"
+      }
+    }
+  ],
+  "translation": "You shall not have strange gods before me"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "vot-jer-17-5",
+  "source": "Vulgate",
+  "reference": "Jeremiah 17:5",
+  "latin": ["Maledictus", "homo", "qui", "confidit", "in", "homine"],
+  "steps": [
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "homo = the man (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'hominem'",
+        "ablative": "The ablative would be 'homine'",
+        "dative": "The dative would be 'homini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "2nd declension": "2nd declension nouns end in -us/-um in the nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'confidit' translates to?",
+      "target": "to trust / to place confidence in",
+      "choices": ["to trust / to place confidence in", "to confess", "to believe", "to hope"],
+      "reveal": null,
+      "hints": {
+        "to confess": "That would be the infinitive of 'confiteri'",
+        "to believe": "That would be the infinitive of 'credere'",
+        "to hope": "That would be the infinitive of 'sperare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'confidit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "confidit = he trusts",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'confisus est' (semi-deponent)",
+        "future indicative": "The future would be 'confidet'",
+        "present subjunctive": "The present subjunctive would be 'confidat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'confidit'?",
+      "target": "confido, confidere, confisus sum, —",
+      "choices": ["confido, confidere, confisus sum, —", "credo, credere, credidi, creditum", "fido, fidere, fisus sum, —", "spero, sperare, speravi, speratum"],
+      "reveal": null,
+      "hints": {
+        "credo, credere, credidi, creditum": "These are the principal parts of 'credo' (to believe)",
+        "fido, fidere, fisus sum, —": "These are the principal parts of 'fido' (to trust), the simple verb",
+        "spero, sperare, speravi, speratum": "These are the principal parts of 'spero' (to hope)"
+      }
+    },
+    {
+      "prompt": "What case is 'homine'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "dative"],
+      "reveal": "in homine = in man / in a human",
+      "hints": {
+        "nominative": "The nominative would be 'homo'",
+        "accusative": "The accusative would be 'hominem'",
+        "dative": "The dative would be 'homini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'homine'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative ends in -a",
+        "2nd declension": "2nd declension ablative ends in -o",
+        "4th declension": "4th declension ablative ends in -u"
+      }
+    }
+  ],
+  "translation": "Cursed is the man who trusts in man"
+}

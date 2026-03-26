@@ -1,0 +1,130 @@
+{
+  "id": "virgil-aen-6-823",
+  "source": "Virgil",
+  "reference": "Aeneid VI.823",
+  "latin": ["Vincet", "amor", "patriae", "laudumque", "immensa", "cupido"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Vincet' translates to?",
+      "target": "to conquer",
+      "choices": ["to conquer", "to bind", "to avenge", "to live"],
+      "reveal": null,
+      "hints": {
+        "to bind": "That would be 'vincire' — 'Vincet' comes from 'vincere' (to conquer)",
+        "to avenge": "That would be 'vindicare' — 'Vincet' comes from 'vincere' (to conquer)",
+        "to live": "That would be 'vivere' — 'Vincet' comes from 'vincere' (to conquer)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Vincet'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "Vincet = will conquer/prevail",
+      "hints": {
+        "present indicative": "Present would be 'vincit' — 'vincet' with -e- is future indicative (3rd conj.)",
+        "present subjunctive": "Present subjunctive would be 'vincat' — 'vincet' is future indicative",
+        "perfect indicative": "Perfect would be 'vicit' — 'vincet' is future indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Vincet'?",
+      "target": "vinco, vincere, vici, victum",
+      "choices": ["vinco, vincere, vici, victum", "vincio, vincire, vinxi, vinctum", "vivo, vivere, vixi, victum", "vindico, vindicare, vindicavi, vindicatum"],
+      "reveal": null,
+      "hints": {
+        "vincio, vincire, vinxi, vinctum": "These are the parts of 'vincire' (to bind/fetter)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "vindico, vindicare, vindicavi, vindicatum": "These are the parts of 'vindicare' (to avenge/claim)"
+      }
+    },
+    {
+      "prompt": "What case is 'amor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "amor = love (nom. sg., subject of 'vincet')",
+      "hints": {
+        "accusative": "Accusative would be 'amorem' — 'amor' is nominative, the subject",
+        "genitive": "Genitive would be 'amoris' — 'amor' is nominative",
+        "vocative": "Vocative is also 'amor' in 3rd decl., but here it is the nominative subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'amor, amoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'amoris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'amoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'amoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'patriae'?",
+      "target": "genitive",
+      "choices": ["genitive", "dative", "nominative", "vocative"],
+      "reveal": "patriae = of the fatherland (gen. sg., with 'amor')",
+      "hints": {
+        "dative": "Dative is also 'patriae', but here it is genitive — love 'of' the fatherland",
+        "nominative": "Nominative plural is also 'patriae', but here it is gen. sg. with 'amor'",
+        "vocative": "Vocative would be 'patria' — 'patriae' is genitive singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'patria, patriae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'patriae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'patriae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'patriae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'laudum'?",
+      "target": "genitive",
+      "choices": ["genitive", "accusative", "ablative", "dative"],
+      "reveal": "laudum = of praises/glory (gen. pl., with 'cupido')",
+      "hints": {
+        "accusative": "Accusative plural would be 'laudes' — 'laudum' with -um is genitive plural",
+        "ablative": "Ablative plural would be 'laudibus' — 'laudum' is genitive plural",
+        "dative": "Dative plural would be 'laudibus' — 'laudum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'laus, laudis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'laudis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'laudis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'laudis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'cupido'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "cupido = desire (nom. sg., second subject with 'amor')",
+      "hints": {
+        "ablative": "Ablative would be 'cupidine' — 'cupido' is nominative singular",
+        "dative": "Dative would be 'cupidini' — 'cupido' is nominative",
+        "accusative": "Accusative would be 'cupidinem' — 'cupido' is nominative, subject of 'vincet'"
+      }
+    },
+    {
+      "prompt": "What declension is 'cupido, cupidinis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'cupidinis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'cupidinis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'cupidinis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Love of country will prevail, and the boundless desire for glory"
+}

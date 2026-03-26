@@ -1,0 +1,86 @@
+{
+  "id": "cicero-off-1-22",
+  "source": "Cicero",
+  "reference": "De Officiis I.22",
+  "latin": ["Non", "nobis", "solum", "nati", "sumus"],
+  "steps": [
+    {
+      "prompt": "Which word is part of the main verb?",
+      "target": "sumus",
+      "choices": ["Non", "nobis", "nati", "sumus"],
+      "reveal": null,
+      "hints": {
+        "Non": "'Non' is an adverb of negation meaning 'not'",
+        "nobis": "'nobis' is a pronoun meaning 'for us'",
+        "nati": "'nati' is a participle meaning 'born' — it combines with 'sumus' to form the verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'nati sumus' translates to?",
+      "target": "to be born",
+      "choices": ["to be born", "to swim", "to know", "to obtain"],
+      "reveal": null,
+      "hints": {
+        "to swim": "'to swim' is 'natare' — 'nasci' (to be born) is a different verb despite the similar stem",
+        "to know": "'to know' is 'noscere/scire' — 'nati sumus' is from 'nasci'",
+        "to obtain": "'to obtain' is 'nancisci' — similar-looking but different from 'nasci'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'nati sumus'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Pluperfect indicative", "Perfect subjunctive"],
+      "reveal": { "word": "nati sumus", "gloss": "we were born / we have been born" },
+      "hints": {
+        "Present indicative": "Present of 'nasci' would be 'nascimur' — 'nati sumus' is the perfect passive/deponent form",
+        "Pluperfect indicative": "Pluperfect would be 'nati eramus' — 'sumus' indicates the perfect",
+        "Perfect subjunctive": "Perfect subjunctive would be 'nati simus' — 'sumus' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'nati sumus'?",
+      "target": "nascor, nasci, natus sum",
+      "choices": ["nascor, nasci, natus sum", "nato, natare, natavi, natatum", "nosco, noscere, novi, notum", "nanciscor, nancisci, nactus sum"],
+      "reveal": null,
+      "hints": {
+        "nato, natare, natavi, natatum": "These are the parts of 'natare' (to swim) — different from 'nasci' (to be born)",
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to know) — a different verb",
+        "nanciscor, nancisci, nactus sum": "These are the parts of 'nancisci' (to obtain) — similar deponent but different meaning"
+      }
+    },
+    {
+      "prompt": "What case is 'nobis'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "nobis", "gloss": "for us" },
+      "hints": {
+        "Nominative": "Nominative 1st person plural is 'nos' — 'nobis' is dative/ablative",
+        "Ablative": "While 'nobis' can be ablative, here with 'nati sumus' it expresses purpose (dative of advantage)",
+        "Accusative": "Accusative would be 'nos' — 'nobis' is the dative form"
+      }
+    },
+    {
+      "prompt": "What does 'solum' mean in this context?",
+      "target": "only / alone",
+      "choices": ["only / alone", "ground / soil", "sun", "throne"],
+      "reveal": { "word": "solum", "gloss": "only" },
+      "hints": {
+        "ground / soil": "'solum' as a noun can mean 'ground,' but here it is an adverb modifying 'nobis'",
+        "sun": "'sun' is 'sol, solis' — 'solum' here is the adverb 'only'",
+        "throne": "'throne' is 'solium' — 'solum' here means 'only'"
+      }
+    },
+    {
+      "prompt": "What philosophical point does Cicero make?",
+      "target": "We are born not just for ourselves but also for others",
+      "choices": ["We are born not just for ourselves but also for others", "We are not truly born until we achieve wisdom", "We should live only for ourselves", "Birth is an unfortunate event"],
+      "reveal": null,
+      "hints": {
+        "We are not truly born until we achieve wisdom": "Cicero is speaking about social obligation, not a precondition for 'true' birth",
+        "We should live only for ourselves": "Cicero says the opposite — 'Non nobis solum' means NOT for ourselves alone",
+        "Birth is an unfortunate event": "Cicero is affirming civic duty, not lamenting existence"
+      }
+    }
+  ],
+  "translation": "We are not born for ourselves alone."
+}

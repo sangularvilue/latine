@@ -1,0 +1,108 @@
+{
+  "id": "vnt-mt-16-18",
+  "source": "Vulgate",
+  "reference": "Matthew 16:18",
+  "latin": ["Tu", "es", "Petrus", "et", "super", "hanc", "petram"],
+  "steps": [
+    {
+      "prompt": "What case is 'Tu'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "Tu", "gloss": "You" },
+      "hints": {
+        "accusative": "The accusative is 'te'; 'Tu' is the subject",
+        "ablative": "The ablative is 'te'",
+        "vocative": "The vocative would also be 'tu' but here it is the subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'Tu'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "1st declension", "2nd declension", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Personal pronouns are irregular, not standard declensions",
+        "2nd declension": "Personal pronouns have their own paradigm",
+        "3rd declension": "Personal pronouns do not follow numbered declensions"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Edere' means to eat",
+        "to go": "'Ire' means to go",
+        "to carry": "'Ferre' means to carry"
+      }
+    },
+    {
+      "prompt": "'es' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "imperfect indicative active", "future indicative active"],
+      "reveal": { "word": "es", "gloss": "are" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'sis'",
+        "imperfect indicative active": "The imperfect would be 'eras'",
+        "future indicative active": "The future would be 'eris'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'es'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esus", "eo, ire, ivi, itus", "es, ere, fui, futus"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esus": "'Edere' means to eat, not to be",
+        "eo, ire, ivi, itus": "'Ire' means to go, not to be",
+        "es, ere, fui, futus": "The first principal part is 'sum', not 'es'"
+      }
+    },
+    {
+      "prompt": "What case is 'Petrus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": { "word": "Petrus", "gloss": "Peter" },
+      "hints": {
+        "accusative": "The accusative would be 'Petrum'",
+        "vocative": "The vocative would be 'Petre'",
+        "genitive": "The genitive would be 'Petri'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Petrus'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Nouns in -us are typically 2nd declension",
+        "3rd declension": "3rd declension nouns do not end in -us typically",
+        "4th declension": "'Petrus' follows the standard -us, -i pattern of 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'petram'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": { "word": "petram", "gloss": "rock" },
+      "hints": {
+        "nominative": "The nominative is 'petra'; -am ending signals accusative",
+        "ablative": "The ablative would be 'petra'",
+        "genitive": "The genitive would be 'petrae'"
+      }
+    },
+    {
+      "prompt": "What declension is 'petram'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "'Petra' ends in -a, characteristic of 1st declension",
+        "3rd declension": "3rd declension accusatives end in -em",
+        "4th declension": "4th declension accusatives end in -um"
+      }
+    }
+  ],
+  "translation": "You are Peter, and upon this rock."
+}

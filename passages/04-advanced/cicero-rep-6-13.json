@@ -1,0 +1,119 @@
+{
+  "id": "cicero-rep-6-13",
+  "source": "Cicero",
+  "reference": "De Re Publica VI.13",
+  "latin": ["Nihil", "est", "enim", "illi", "principi", "Deo", "acceptius"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["est", "illi", "principi", "acceptius"],
+      "reveal": null,
+      "hints": {
+        "illi": "'illi' is a demonstrative pronoun/adjective meaning 'to that'",
+        "principi": "'principi' is a noun meaning 'to the chief / ruler'",
+        "acceptius": "'acceptius' is a comparative adjective meaning 'more acceptable'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here comes from 'esse' (to be)",
+        "to go out": "'to go out' is 'exire' — do not confuse with 'esse'",
+        "to stand": "'to stand' is 'stare' — 'est' is from the verb 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'esse' would be 'fuit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive of 'esse' would be 'sit' — 'est' is indicative",
+        "Future indicative": "Future of 'esse' would be 'erit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "exeo, exire, exii, exitum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'est' here is from 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — different verb",
+        "exeo, exire, exii, exitum": "These are the parts of 'exire' (to go out) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'principi'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Genitive"],
+      "reveal": { "word": "principi", "gloss": "to the chief / ruler" },
+      "hints": {
+        "Nominative": "Nominative would be 'princeps' — 'principi' is the dative singular",
+        "Ablative": "Ablative singular would be 'principe' — 'principi' ends in -i (dative)",
+        "Genitive": "Genitive singular would be 'principis' — 'principi' is dative"
+      }
+    },
+    {
+      "prompt": "Declension of 'principi'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'princeps, principis' is 3rd declension",
+        "2nd": "2nd declension dative would end in -o — 'principi' is 3rd declension",
+        "4th": "4th declension dative would end in -ui — 'principi' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'Deo'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "Deo", "gloss": "to God" },
+      "hints": {
+        "Nominative": "Nominative would be 'Deus' — 'Deo' is dative/ablative form",
+        "Ablative": "While 'Deo' can be ablative, here it is in apposition to 'illi principi' (dative)",
+        "Accusative": "Accusative would be 'Deum' — 'Deo' is dative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'Deo'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension dative would end in -ae — 'Deus, Dei' is 2nd declension",
+        "3rd": "3rd declension dative would end in -i — 'Deo' follows the 2nd declension -o pattern",
+        "4th": "4th declension dative would end in -ui — 'Deo' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What form is 'acceptius'?",
+      "target": "Comparative neuter nominative singular",
+      "choices": ["Positive neuter nominative", "Comparative neuter nominative singular", "Superlative neuter nominative", "Comparative masculine accusative"],
+      "reveal": { "word": "acceptius", "gloss": "more acceptable" },
+      "hints": {
+        "Positive neuter nominative": "The positive form would be 'acceptum' — the -ius ending signals the comparative",
+        "Superlative neuter nominative": "The superlative would be 'acceptissimum' — '-ius' is the comparative ending",
+        "Comparative masculine accusative": "Masculine accusative comparative would be 'acceptiorem' — '-ius' is neuter nominative/accusative"
+      }
+    },
+    {
+      "prompt": "What does Cicero say is most pleasing to God in this passage?",
+      "target": "The assemblies and communities of people united by law",
+      "choices": ["Military conquest and empire", "The assemblies and communities of people united by law", "Sacrifices and temple offerings", "Individual philosophical contemplation"],
+      "reveal": null,
+      "hints": {
+        "Military conquest and empire": "In the Somnium Scipionis, Cicero emphasizes civic virtue, not military conquest, as most pleasing to God",
+        "Sacrifices and temple offerings": "Cicero refers to civic communities (concilia coetusque hominum), not ritual worship",
+        "Individual philosophical contemplation": "The context praises communal civic life, not solitary philosophy"
+      }
+    }
+  ],
+  "translation": "For nothing is more acceptable to that chief God."
+}

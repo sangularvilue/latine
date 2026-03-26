@@ -1,0 +1,141 @@
+{
+  "id": "aug-conf-1-1a",
+  "source": "Augustine",
+  "reference": "Confessions I.1",
+  "latin": ["Fecisti", "nos", "ad", "te", "et", "inquietum", "est", "cor", "nostrum", "donec", "requiescat", "in", "te"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'fecisti' translates to?",
+      "target": "to make / do",
+      "choices": ["to make / do", "to carry", "to say", "to become"],
+      "reveal": null,
+      "hints": {
+        "to carry": "'to carry' is 'ferre' — 'fecisti' comes from 'facere' (to make)",
+        "to say": "'to say' is 'dicere' — do not confuse with 'facere'",
+        "to become": "'to become' is 'fieri' — the passive of 'facere', but 'fecisti' is active"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'fecisti'?",
+      "target": "Perfect indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Future perfect indicative", "Pluperfect indicative"],
+      "reveal": { "word": "fecisti", "gloss": "you made" },
+      "hints": {
+        "Present indicative": "Present would be 'facis' — 'fecisti' with the -isti ending is perfect",
+        "Future perfect indicative": "Future perfect would be 'feceris' — 'fecisti' is perfect indicative",
+        "Pluperfect indicative": "Pluperfect would be 'feceras' — 'fecisti' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fecisti'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "fio, fieri, factus sum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry) — 'fecisti' comes from 'facere'",
+        "fio, fieri, factus sum": "These are the parts of 'fieri' (to become) — the passive of 'facere', but 'fecisti' is active",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee) — a different verb entirely"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "nos", "gloss": "us" },
+      "hints": {
+        "Nominative": "'nos' can be nominative, but here it is the direct object of 'fecisti'",
+        "Dative": "Dative would be 'nobis' — 'nos' is accusative here as the object of 'fecisti'",
+        "Ablative": "Ablative would be 'nobis' — 'nos' is accusative as the direct object"
+      }
+    },
+    {
+      "prompt": "What case is 'cor'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "cor", "gloss": "heart" },
+      "hints": {
+        "Accusative": "Accusative of a 3rd declension neuter looks the same, but 'cor' is the subject of 'est inquietum'",
+        "Genitive": "Genitive would be 'cordis' — 'cor' is nominative here",
+        "Ablative": "Ablative would be 'corde' — 'cor' is the nominative subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'cor'?",
+      "target": "3rd",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension neuters end in -um — 'cor, cordis' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'cor, cordis' is 3rd declension neuter",
+        "5th": "5th declension nouns end in -es — 'cor' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to be able"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere/esse' — 'est' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — not related to 'est'",
+        "to be able": "'to be able' is 'posse' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'esse' would be 'fuit' — 'est' is present indicative",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "Imperfect indicative": "Imperfect would be 'erat' — 'est' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "possum, posse, potui"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'est' here is from 'esse' (to be)",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not related to 'est'",
+        "possum, posse, potui": "These are the parts of 'posse' (to be able) — a compound of 'esse' but different"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'requiescat' translates to?",
+      "target": "to rest",
+      "choices": ["to seek", "to rest", "to ask", "to require"],
+      "reveal": null,
+      "hints": {
+        "to seek": "'to seek' is 'quaerere' — 'requiescat' comes from 'requiescere' (to rest)",
+        "to ask": "'to ask' is 'rogare' or 'requirere' — 'requiescere' means to rest",
+        "to require": "'to require' is 'requirere' — do not confuse with 'requiescere' (to rest)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'requiescat'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Future indicative", "Perfect subjunctive"],
+      "reveal": { "word": "requiescat", "gloss": "it may rest" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'requiescit' — the -at ending signals subjunctive",
+        "Future indicative": "Future would be 'requiescet' — 'requiescat' is present subjunctive",
+        "Perfect subjunctive": "Perfect subjunctive would be 'requieverit' — 'requiescat' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'requiescat'?",
+      "target": "requiesco, requiescere, requievi, requietum",
+      "choices": ["requiesco, requiescere, requievi, requietum", "quaero, quaerere, quaesivi, quaesitum", "requiro, requirere, requisivi, requisitum", "cresco, crescere, crevi, cretum"],
+      "reveal": null,
+      "hints": {
+        "quaero, quaerere, quaesivi, quaesitum": "These are the parts of 'quaerere' (to seek) — not related to 'requiescere'",
+        "requiro, requirere, requisivi, requisitum": "These are the parts of 'requirere' (to require) — do not confuse with 'requiescere'",
+        "cresco, crescere, crevi, cretum": "These are the parts of 'crescere' (to grow) — a different -scere verb"
+      }
+    }
+  ],
+  "translation": "You have made us for yourself, and our heart is restless until it rests in you."
+}

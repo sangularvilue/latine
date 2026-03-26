@@ -1,0 +1,174 @@
+{
+  "id": "caesar-bg-1-07a",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.7",
+  "latin": ["Caesar", "cum", "id", "nuntiatum", "esset", "maturat", "ab", "urbe", "proficisci"],
+  "steps": [
+    {
+      "prompt": "What case is 'Caesar'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "vocative"],
+      "reveal": "Caesar = Caesar (nom.)",
+      "hints": {
+        "genitive": "Genitive would be 'Caesaris' — 'Caesar' is nominative, the subject",
+        "accusative": "Accusative would be 'Caesarem' — 'Caesar' is nominative here",
+        "vocative": "Caesar is not being addressed — he is the subject of 'maturat'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Caesar, Caesaris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Caesaris' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'Caesaris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'Caesaris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What does 'cum' introduce here?",
+      "target": "a temporal/causal clause (with subjunctive)",
+      "choices": ["a temporal/causal clause (with subjunctive)", "a preposition meaning 'with'", "a result clause", "a purpose clause"],
+      "reveal": null,
+      "hints": {
+        "a preposition meaning 'with'": "'Cum' with a noun means 'with', but here it introduces a clause with subjunctive 'esset'",
+        "a result clause": "Result clauses use 'ut' + subjunctive — 'cum' + subjunctive is temporal/causal",
+        "a purpose clause": "Purpose clauses use 'ut' + subjunctive — 'cum' + subjunctive is temporal/causal"
+      }
+    },
+    {
+      "prompt": "What form is 'nuntiatum'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "supine", "present active participle", "gerundive"],
+      "reveal": "nuntiatum = announced/reported (neut. nom./acc. sg.)",
+      "hints": {
+        "supine": "The supine looks the same but appears with verbs of motion — here 'nuntiatum' is part of a passive construction with 'esset'",
+        "present active participle": "Present active participle would be 'nuntians' — 'nuntiatum' with -tum is perfect passive",
+        "gerundive": "Gerundive would be 'nuntiandum' — 'nuntiatum' is the perfect passive participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'esset' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be 'edere' — 'esset' comes from 'esse' (to be)",
+        "to go out": "That would be 'exire' — 'esset' comes from 'esse' (to be)",
+        "to stand": "That would be 'stare' — 'esset' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'esset'?",
+      "target": "imperfect subjunctive",
+      "choices": ["imperfect subjunctive", "present subjunctive", "perfect subjunctive", "imperfect indicative"],
+      "reveal": "esset = it had been (impf. subj.)",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sit' — 'esset' with the -sse- stem is imperfect subjunctive",
+        "perfect subjunctive": "Perfect subjunctive would be 'fuerit' — 'esset' is imperfect subjunctive",
+        "imperfect indicative": "Imperfect indicative would be 'erat' — 'esset' with -et ending is subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esset'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "edo, esse, edi, esum", "eo, ire, ii, itum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esum": "These are the parts of 'edere/esse' (to eat) — 'esset' here is from 'esse' (to be)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'maturat' translates to?",
+      "target": "to hasten",
+      "choices": ["to hasten", "to mature", "to measure", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to mature": "While related to 'maturus', 'maturare' in Caesar means 'to hasten/hurry'",
+        "to measure": "That would be 'metiri' — 'maturat' comes from 'maturare' (to hasten)",
+        "to remain": "That would be 'manere' — 'maturat' comes from 'maturare' (to hasten)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'maturat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "maturat = he hastens",
+      "hints": {
+        "perfect indicative": "Perfect would be 'maturavit' — 'maturat' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'maturet' — 'maturat' with -at is present indicative (1st conj.)",
+        "future indicative": "Future would be 'maturabit' — 'maturat' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'maturat'?",
+      "target": "maturo, maturare, maturavi, maturatum",
+      "choices": ["maturo, maturare, maturavi, maturatum", "moror, morari, moratus sum", "metior, metiri, mensus sum", "maneo, manere, mansi, mansum"],
+      "reveal": null,
+      "hints": {
+        "moror, morari, moratus sum": "These are the parts of 'morari' (to delay)",
+        "metior, metiri, mensus sum": "These are the parts of 'metiri' (to measure)",
+        "maneo, manere, mansi, mansum": "These are the parts of 'manere' (to remain)"
+      }
+    },
+    {
+      "prompt": "What case is 'urbe'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "dative", "accusative"],
+      "reveal": "urbe = from the city (abl. with 'ab')",
+      "hints": {
+        "nominative": "Nominative would be 'urbs' — 'urbe' with -e is ablative after 'ab'",
+        "dative": "Dative would be 'urbi' — 'urbe' is ablative, governed by 'ab'",
+        "accusative": "Accusative would be 'urbem' — 'urbe' is ablative after 'ab'"
+      }
+    },
+    {
+      "prompt": "What declension is 'urbs, urbis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'urbis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'urbis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'urbis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'proficisci' translates to?",
+      "target": "to set out",
+      "choices": ["to set out", "to profit", "to advance", "to flee"],
+      "reveal": null,
+      "hints": {
+        "to profit": "That would be 'prodesse' — 'proficisci' is a deponent meaning 'to set out/depart'",
+        "to advance": "That would be 'progredi' — 'proficisci' means 'to set out/depart'",
+        "to flee": "That would be 'fugere' — 'proficisci' means 'to set out/depart'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'proficisci'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "perfect infinitive", "present indicative", "imperfect subjunctive"],
+      "reveal": "proficisci = to set out (deponent infinitive)",
+      "hints": {
+        "perfect infinitive": "Perfect infinitive would be 'profectum esse' — 'proficisci' is present infinitive",
+        "present indicative": "'Proficisci' ends in -i, the deponent infinitive ending — it complements 'maturat'",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'proficisceretur' — 'proficisci' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'proficisci'?",
+      "target": "proficiscor, proficisci, profectus sum",
+      "choices": ["proficiscor, proficisci, profectus sum", "proficio, proficere, profeci, profectum", "fugio, fugere, fugi, fugitum", "progredior, progredi, progressus sum"],
+      "reveal": null,
+      "hints": {
+        "proficio, proficere, profeci, profectum": "These are the parts of 'proficere' (to accomplish) — 'proficisci' is a deponent verb",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)",
+        "progredior, progredi, progressus sum": "These are the parts of 'progredi' (to advance) — similar but different deponent"
+      }
+    }
+  ],
+  "translation": "When this had been reported to Caesar, he hastens to set out from the city"
+}

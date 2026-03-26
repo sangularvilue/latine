@@ -1,0 +1,108 @@
+{
+  "id": "hymn-pange-lingua-1",
+  "source": "Hymn",
+  "reference": "Pange Lingua 1",
+  "latin": ["Pange", "lingua", "gloriosi", "corporis", "mysterium"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'pange' translates to?",
+      "target": "to sing / to tell",
+      "choices": ["to sing / to tell", "to spread", "to hang", "to praise"],
+      "reveal": null,
+      "hints": {
+        "to spread": "'to spread' is 'pandere' — 'pange' comes from 'pangere'",
+        "to hang": "'to hang' is 'pendere' — 'pange' comes from 'pangere' (to sing/tell)",
+        "to praise": "'to praise' is 'laudare' — 'pange' comes from 'pangere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'pange'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "pange", "gloss": "sing!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'pangis' or 'pangit' — 'pange' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'pangas' — 'pange' is the imperative singular",
+        "Infinitive": "Infinitive would be 'pangere' — 'pange' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'pange'?",
+      "target": "pango, pangere, pepigi, pactum",
+      "choices": ["pango, pangere, pepigi, pactum", "cano, canere, cecini, cantum", "pando, pandere, pandi, passum", "laudo, laudare, laudavi, laudatum"],
+      "reveal": null,
+      "hints": {
+        "cano, canere, cecini, cantum": "These are the principal parts of 'canere' (to sing — a different verb)",
+        "pando, pandere, pandi, passum": "These are the principal parts of 'pandere' (to spread)",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudare' (to praise)"
+      }
+    },
+    {
+      "prompt": "What case is 'lingua'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "lingua", "gloss": "O tongue" },
+      "hints": {
+        "Nominative": "While 'lingua' looks nominative, here it is addressed directly — 'Pange, lingua' = 'Sing, O tongue'",
+        "Ablative": "Ablative of 'lingua' would also be 'lingua', but here it is the addressee of the imperative",
+        "Accusative": "Accusative of 'lingua' would be 'linguam' — 'lingua' here is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'lingua, linguae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'linguae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'linguae' ends in -ae",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'linguae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'corporis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "corporis", "gloss": "of the body" },
+      "hints": {
+        "Nominative": "Nominative is 'corpus' — 'corporis' has the -is genitive ending",
+        "Dative": "Dative of 'corpus' would be 'corpori' — 'corporis' ends in -is (genitive)",
+        "Ablative": "Ablative of 'corpus' would be 'corpore' — 'corporis' ends in -is (genitive)"
+      }
+    },
+    {
+      "prompt": "What declension is 'corpus, corporis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'corporis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'corporis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'corporis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'mysterium'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "mysterium", "gloss": "mystery" },
+      "hints": {
+        "Nominative": "While 'mysterium' could be nominative neuter, here it is the direct object of 'pange'",
+        "Genitive": "Genitive of 'mysterium' would be 'mysterii' — 'mysterium' is nom./acc. form",
+        "Ablative": "Ablative of 'mysterium' would be 'mysterio' — 'mysterium' is the accusative object"
+      }
+    },
+    {
+      "prompt": "What declension is 'mysterium, mysterii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'mysterii' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'mysterii' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'mysterii' ends in -i"
+      }
+    }
+  ],
+  "translation": "Sing, O tongue, the mystery of the glorious body"
+}

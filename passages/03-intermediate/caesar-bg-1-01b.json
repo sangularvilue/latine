@@ -1,0 +1,108 @@
+{
+  "id": "caesar-bg-1-01b",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.1",
+  "latin": ["Horum", "omnium", "fortissimi", "sunt", "Belgae"],
+  "steps": [
+    {
+      "prompt": "What case is 'Horum'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "Horum = of these (gen. masc. pl.)",
+      "hints": {
+        "nominative": "Nominative masculine plural would be 'hi' — 'Horum' with -orum is genitive plural",
+        "dative": "Dative plural would be 'his' — 'Horum' is genitive plural",
+        "accusative": "Accusative masculine plural would be 'hos' — 'Horum' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'omnium'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "omnium = of all (gen. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'omnes' — 'omnium' with -ium is genitive plural",
+        "accusative": "Accusative plural would be 'omnes/omnia' — 'omnium' is genitive",
+        "ablative": "Ablative plural would be 'omnibus' — 'omnium' is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'omnis, omnis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'omnis' has genitive in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'omnis' has genitive in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'omnis' has genitive in -is"
+      }
+    },
+    {
+      "prompt": "What form is 'fortissimi'?",
+      "target": "superlative nominative plural",
+      "choices": ["superlative nominative plural", "positive genitive singular", "comparative nominative plural", "superlative genitive singular"],
+      "reveal": "fortissimi = bravest/strongest (nom. masc. pl.)",
+      "hints": {
+        "positive genitive singular": "Positive genitive singular would be 'fortis' — 'fortissimi' with -issim- is superlative",
+        "comparative nominative plural": "Comparative nominative plural would be 'fortiores' — 'fortissimi' with -issim- is superlative",
+        "superlative genitive singular": "While -i could be genitive singular, here 'fortissimi' agrees with 'Belgae' as nominative plural"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to go", "to know"],
+      "reveal": null,
+      "hints": {
+        "to stand": "That would be 'stare' — 'sunt' comes from 'esse' (to be)",
+        "to go": "That would be 'ire' — 'sunt' comes from 'esse' (to be)",
+        "to know": "That would be 'scire' — 'sunt' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'sunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "imperfect indicative"],
+      "reveal": "sunt = they are",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sint' — 'sunt' is present indicative",
+        "perfect indicative": "Perfect would be 'fuerunt' — 'sunt' is present indicative",
+        "imperfect indicative": "Imperfect would be 'erant' — 'sunt' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "sto, stare, steti, statum", "eo, ire, ii, itum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "What case is 'Belgae'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Belgae = the Belgae (nom. pl.)",
+      "hints": {
+        "genitive": "While 'Belgae' could be genitive singular, here it is the nominative plural subject of 'sunt'",
+        "dative": "Dative singular would also be 'Belgae', but here it is nominative plural — the subject",
+        "vocative": "Caesar is describing the Belgae, not addressing them — 'Belgae' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Belgae, Belgarum'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive plural in -orum — 'Belgarum' with -arum is 1st declension",
+        "3rd declension": "3rd declension has genitive plural in -um/-ium — 'Belgarum' is 1st declension",
+        "5th declension": "5th declension has genitive plural in -erum — 'Belgarum' is 1st declension"
+      }
+    }
+  ],
+  "translation": "Of all these, the Belgae are the bravest"
+}

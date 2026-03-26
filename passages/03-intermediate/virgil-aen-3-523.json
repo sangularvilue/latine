@@ -1,0 +1,97 @@
+{
+  "id": "virgil-aen-3-523",
+  "source": "Virgil",
+  "reference": "Aeneid III.523",
+  "latin": ["Italiam", "Italiam", "primus", "conclamat", "Achates"],
+  "steps": [
+    {
+      "prompt": "What case is 'Italiam'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "Italiam = Italy! (acc. sg., exclamatory accusative)",
+      "hints": {
+        "nominative": "Nominative would be 'Italia' — the -am ending marks the accusative",
+        "ablative": "Ablative would be 'Italia' — 'Italiam' with -am is accusative",
+        "genitive": "Genitive would be 'Italiae' — 'Italiam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Italia, Italiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Italiae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'Italiae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'Italiae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'primus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "primus = first (nom. masc. sg., modifying Achates)",
+      "hints": {
+        "accusative": "Accusative masc. sg. would be 'primum' — 'primus' with -us is nominative",
+        "genitive": "Genitive would be 'primi' — 'primus' is nominative, agreeing with 'Achates'",
+        "vocative": "Vocative of 2nd declension -us words is -e ('prime') — 'primus' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'conclamat' translates to?",
+      "target": "to shout out",
+      "choices": ["to shout out", "to close", "to call together", "to conceal"],
+      "reveal": null,
+      "hints": {
+        "to close": "That would be 'claudere' — 'conclamat' comes from 'conclamare' (to shout out)",
+        "to call together": "That would be 'convocare' — 'conclamare' means to shout out/cry aloud",
+        "to conceal": "That would be 'celare' — 'conclamat' comes from 'conclamare' (to shout out)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'conclamat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "imperfect indicative", "present subjunctive"],
+      "reveal": "conclamat = shouts out (historic present for vividness)",
+      "hints": {
+        "perfect indicative": "Perfect would be 'conclamavit' — 'conclamat' is present indicative",
+        "imperfect indicative": "Imperfect would be 'conclamabat' — 'conclamat' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'conclamet' — 'conclamat' with -a- is present indicative (1st conj.)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'conclamat'?",
+      "target": "conclamo, conclamare, conclamavi, conclamatum",
+      "choices": ["conclamo, conclamare, conclamavi, conclamatum", "claudo, claudere, clausi, clausum", "clamo, clamare, clamavi, clamatum", "convoco, convocare, convocavi, convocatum"],
+      "reveal": null,
+      "hints": {
+        "claudo, claudere, clausi, clausum": "These are the parts of 'claudere' (to close/shut)",
+        "clamo, clamare, clamavi, clamatum": "These are the parts of 'clamare' (to shout) — close, but 'conclamare' is the compound",
+        "convoco, convocare, convocavi, convocatum": "These are the parts of 'convocare' (to call together)"
+      }
+    },
+    {
+      "prompt": "What case is 'Achates'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "accusative", "genitive"],
+      "reveal": "Achates = Achates (nom. sg., subject of 'conclamat')",
+      "hints": {
+        "vocative": "Vocative would be 'Achate' or 'Achata' — 'Achates' is nominative, the subject",
+        "accusative": "Accusative of Greek names in -es is often -en — 'Achates' is nominative here",
+        "genitive": "Genitive would be 'Achatae' — 'Achates' is nominative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'Achates, Achatae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Achatae' ends in -ae (1st decl. Greek masculine)",
+        "3rd declension": "3rd declension has genitive in -is — 'Achatae' ends in -ae",
+        "4th declension": "4th declension has genitive in -ūs — 'Achatae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "Italy! Italy! Achates first shouts out"
+}

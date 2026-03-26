@@ -1,0 +1,97 @@
+{
+  "id": "vot-prv-9-10",
+  "source": "Vulgate",
+  "reference": "Proverbs 9:10",
+  "latin": ["Initium", "sapientiae", "timor", "Domini"],
+  "steps": [
+    {
+      "prompt": "What case is 'initium'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "initium = the beginning (nom.)",
+      "hints": {
+        "accusative": "While 'initium' can be accusative, here it is the subject of this verbless sentence",
+        "ablative": "The ablative would be 'initio'",
+        "genitive": "The genitive would be 'initii'"
+      }
+    },
+    {
+      "prompt": "What declension is 'initium'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension neuter nouns have varied nominative endings",
+        "4th declension": "4th declension neuter nouns end in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'sapientiae'?",
+      "target": "genitive",
+      "choices": ["genitive", "dative", "nominative", "ablative"],
+      "reveal": "sapientiae = of wisdom (gen.)",
+      "hints": {
+        "dative": "'Sapientiae' could be dative, but here it describes what 'initium' belongs to",
+        "nominative": "The nominative singular would be 'sapientia'",
+        "ablative": "The ablative would be 'sapientia'"
+      }
+    },
+    {
+      "prompt": "What declension is 'sapientiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension genitive singular ends in -i",
+        "3rd declension": "3rd declension genitive singular ends in -is",
+        "5th declension": "5th declension genitive singular ends in -ei"
+      }
+    },
+    {
+      "prompt": "What case is 'timor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "timor = fear (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'timorem'",
+        "vocative": "The vocative of 'timor' would be the same form, but it is the predicate here",
+        "ablative": "The ablative would be 'timore'"
+      }
+    },
+    {
+      "prompt": "What declension is 'timor'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "2nd declension": "2nd declension nouns end in -us or -um in the nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "vocative"],
+      "reveal": "Domini = of the Lord (gen.)",
+      "hints": {
+        "nominative": "The nominative would be 'Dominus'",
+        "dative": "The dative would be 'Domino'",
+        "vocative": "The vocative would be 'Domine'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitive singular ends in -ae",
+        "3rd declension": "3rd declension genitive singular ends in -is",
+        "4th declension": "4th declension genitive singular ends in -us"
+      }
+    }
+  ],
+  "translation": "The beginning of wisdom is the fear of the Lord"
+}

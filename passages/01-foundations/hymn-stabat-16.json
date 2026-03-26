@@ -1,0 +1,75 @@
+{
+  "id": "hymn-stabat-16",
+  "source": "Hymn",
+  "reference": "Stabat Mater 16",
+  "latin": ["Fac", "me", "tecum", "pie", "flere"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'fac' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to say", "to give", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to say": "'to say' is 'dicere' — 'fac' comes from 'facere'",
+        "to give": "'to give' is 'dare' — 'fac' comes from 'facere'",
+        "to carry": "'to carry' is 'ferre' — 'fac' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'fac'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "fac", "gloss": "make!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'facis' — 'fac' is the irregular imperative singular of 'facere'",
+        "Subjunctive": "Subjunctive would be 'facias' — 'fac' is the imperative singular",
+        "Infinitive": "Infinitive would be 'facere' — 'fac' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fac'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "ago, agere, egi, actum", "do, dare, dedi, datum", "dico, dicere, dixi, dictum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the principal parts of 'agere' (to do/drive)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)",
+        "dico, dicere, dixi, dictum": "These are the principal parts of 'dicere' (to say)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'flere' translates to?",
+      "target": "to weep",
+      "choices": ["to weep", "to flow", "to pray", "to groan"],
+      "reveal": null,
+      "hints": {
+        "to flow": "'to flow' is 'fluere' — 'flere' means 'to weep'",
+        "to pray": "'to pray' is 'orare' — 'flere' means 'to weep'",
+        "to groan": "'to groan' is 'gemere' — 'flere' means 'to weep'"
+      }
+    },
+    {
+      "prompt": "What form is 'flere' in this sentence?",
+      "target": "Complementary infinitive",
+      "choices": ["Present indicative", "Complementary infinitive", "Imperative", "Gerund"],
+      "reveal": { "word": "flere", "gloss": "to weep" },
+      "hints": {
+        "Present indicative": "Present indicative 3rd sg. would be 'flet' — 'flere' is the infinitive form used with 'fac'",
+        "Imperative": "Imperative singular would be 'fle' — 'flere' is the infinitive complement of 'fac'",
+        "Gerund": "A gerund would be 'flendum' — 'flere' is the infinitive complement of 'fac'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'flere'?",
+      "target": "fleo, flere, flevi, fletum",
+      "choices": ["fleo, flere, flevi, fletum", "fluo, fluere, fluxi, fluxum", "gemo, gemere, gemui, gemitum", "doleo, dolere, dolui, dolitum"],
+      "reveal": null,
+      "hints": {
+        "fluo, fluere, fluxi, fluxum": "These are the principal parts of 'fluere' (to flow)",
+        "gemo, gemere, gemui, gemitum": "These are the principal parts of 'gemere' (to groan)",
+        "doleo, dolere, dolui, dolitum": "These are the principal parts of 'dolere' (to grieve)"
+      }
+    }
+  ],
+  "translation": "Make me weep devoutly with you"
+}

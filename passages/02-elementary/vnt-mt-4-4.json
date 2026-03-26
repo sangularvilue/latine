@@ -1,0 +1,97 @@
+{
+  "id": "vnt-mt-4-4",
+  "source": "Vulgate",
+  "reference": "Matthew 4:4",
+  "latin": ["Non", "in", "pane", "solo", "vivet", "homo"],
+  "steps": [
+    {
+      "prompt": "What case is 'pane'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "dative"],
+      "reveal": { "word": "pane", "gloss": "bread" },
+      "hints": {
+        "nominative": "The nominative is 'panis'; 'pane' is ablative after 'in'",
+        "accusative": "The accusative would be 'panem'",
+        "dative": "The dative would be 'pani'"
+      }
+    },
+    {
+      "prompt": "What declension is 'pane'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Panis' is a 3rd declension masculine noun",
+        "2nd declension": "2nd declension nouns typically end in -us or -um",
+        "4th declension": "4th declension nouns end in -us or -u"
+      }
+    },
+    {
+      "prompt": "What case is 'solo'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "dative", "genitive"],
+      "reveal": { "word": "solo", "gloss": "alone" },
+      "hints": {
+        "nominative": "'Solus' is the nominative; 'solo' agrees with 'pane' in ablative",
+        "dative": "The dative would also be 'solo' but context requires ablative agreement",
+        "genitive": "The genitive would be 'solius'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivet' translates to?",
+      "target": "to live",
+      "choices": ["to live", "to see", "to conquer", "to come"],
+      "reveal": null,
+      "hints": {
+        "to see": "'Videre' means to see",
+        "to conquer": "'Vincere' means to conquer",
+        "to come": "'Venire' means to come"
+      }
+    },
+    {
+      "prompt": "'vivet' is what tense and mood?",
+      "target": "future indicative active",
+      "choices": ["future indicative active", "present indicative active", "present subjunctive active", "perfect indicative active"],
+      "reveal": { "word": "vivet", "gloss": "will live" },
+      "hints": {
+        "present indicative active": "The present would be 'vivit'",
+        "present subjunctive active": "The subjunctive would be 'vivat'",
+        "perfect indicative active": "The perfect would be 'vixit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivet'?",
+      "target": "vivo, vivere, vixi, victus",
+      "choices": ["vivo, vivere, vixi, victus", "vivo, vivare, vivavi, vivatus", "vivo, vivere, vivi, vivitus", "vivo, vivire, vixi, vixus"],
+      "reveal": null,
+      "hints": {
+        "vivo, vivare, vivavi, vivatus": "'Vivere' is a 3rd conjugation verb, not 1st",
+        "vivo, vivere, vivi, vivitus": "The perfect is 'vixi', not 'vivi'",
+        "vivo, vivire, vixi, vixus": "The infinitive is 'vivere', not 'vivire'"
+      }
+    },
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": { "word": "homo", "gloss": "man" },
+      "hints": {
+        "accusative": "The accusative is 'hominem'",
+        "ablative": "The ablative is 'homine'",
+        "vocative": "'Homo' is the subject here, nominative case"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a",
+        "2nd declension": "2nd declension nouns typically end in -us or -um",
+        "4th declension": "4th declension nouns end in -us or -u"
+      }
+    }
+  ],
+  "translation": "Man will not live by bread alone."
+}

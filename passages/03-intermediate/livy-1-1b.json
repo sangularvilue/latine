@@ -1,0 +1,130 @@
+{
+  "id": "livy-1-1b",
+  "source": "Livy",
+  "reference": "Ab Urbe Condita I.1",
+  "latin": ["Urbem", "Romam", "a", "principio", "reges", "habuere"],
+  "steps": [
+    {
+      "prompt": "What case is 'Urbem'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Urbem = the city (acc. fem. sg.)",
+      "hints": {
+        "nominative": "Nominative would be 'urbs' — 'Urbem' with -em is accusative",
+        "ablative": "Ablative would be 'urbe' — 'Urbem' is accusative, direct object",
+        "genitive": "Genitive would be 'urbis' — 'Urbem' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'urbs, urbis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'urbis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'urbis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'urbis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Romam'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "Romam = Rome (acc., in apposition with 'Urbem')",
+      "hints": {
+        "nominative": "Nominative would be 'Roma' — 'Romam' with -am is accusative",
+        "ablative": "Ablative would be 'Roma' — 'Romam' is accusative in apposition with 'Urbem'",
+        "genitive": "Genitive would be 'Romae' — 'Romam' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Roma, Romae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Romae' with -ae is 1st declension",
+        "3rd declension": "3rd declension has genitive in -is — 'Romae' with -ae is 1st declension",
+        "5th declension": "5th declension has genitive in -ei — 'Romae' with -ae is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'principio'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "principio = from the beginning (abl., with 'a')",
+      "hints": {
+        "nominative": "Nominative would be 'principium' — 'principio' with -o is ablative after 'a'",
+        "dative": "While 'principio' could be dative, here it is ablative governed by the preposition 'a'",
+        "accusative": "Accusative would be 'principium' — 'principio' is ablative after 'a'"
+      }
+    },
+    {
+      "prompt": "What declension is 'principium, principii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'principii' with -i is 2nd declension",
+        "3rd declension": "3rd declension has genitive in -is — 'principii' with -i is 2nd declension",
+        "4th declension": "4th declension has genitive in -ūs — 'principii' with -i is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'reges'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "reges = kings (nom. pl., subject)",
+      "hints": {
+        "accusative": "While 'reges' can be accusative plural, here it is the subject of 'habuere'",
+        "genitive": "Genitive singular would be 'regis' — 'reges' is nominative plural",
+        "vocative": "Livy is narrating, not addressing kings"
+      }
+    },
+    {
+      "prompt": "What declension is 'rex, regis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'regis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'regis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habuere' translates to?",
+      "target": "to have/hold",
+      "choices": ["to have/hold", "to dwell", "to consider", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to dwell": "That would be 'habitare' — 'habuere' comes from 'habere' (to have/hold)",
+        "to consider": "While 'habere' can mean 'to consider', its primary meaning is 'to have/hold'",
+        "to carry": "That would be 'ferre' — 'habuere' comes from 'habere' (to have/hold)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'habuere'?",
+      "target": "perfect indicative",
+      "choices": ["present infinitive", "perfect indicative", "imperfect indicative", "pluperfect indicative"],
+      "reveal": "habuere = they held (= habuerunt, archaic 3rd pl. perfect)",
+      "hints": {
+        "present infinitive": "Present infinitive is 'habere' — 'habuere' with -uere is perfect (archaic -ere for -erunt)",
+        "imperfect indicative": "Imperfect would be 'habebant' — 'habuere' is perfect indicative",
+        "pluperfect indicative": "Pluperfect would be 'habuerant' — 'habuere' is perfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habuere'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "haurio, haurire, hausi, haustum", "fero, ferre, tuli, latum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell)",
+        "haurio, haurire, hausi, haustum": "These are the parts of 'haurire' (to draw/drain)",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry)"
+      }
+    }
+  ],
+  "translation": "The city of Rome, from the beginning, kings held"
+}

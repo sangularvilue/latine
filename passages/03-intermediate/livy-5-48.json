@@ -1,0 +1,75 @@
+{
+  "id": "livy-5-48",
+  "source": "Livy",
+  "reference": "Ab Urbe Condita V.48",
+  "latin": ["Vae", "victis"],
+  "steps": [
+    {
+      "prompt": "What is 'Vae'?",
+      "target": "an interjection meaning 'woe'",
+      "choices": ["an interjection meaning 'woe'", "a verb meaning 'go'", "an adverb meaning 'truly'", "a conjunction meaning 'or'"],
+      "reveal": "Vae = woe! alas!",
+      "hints": {
+        "a verb meaning 'go'": "'Go' would be 'vade' (imperative of 'vadere') — 'vae' is an interjection meaning 'woe'",
+        "an adverb meaning 'truly'": "'Truly' would be 'vere' — 'vae' is an interjection of distress",
+        "a conjunction meaning 'or'": "'Or' would be 'vel' or 'aut' — 'vae' is an interjection meaning 'woe'"
+      }
+    },
+    {
+      "prompt": "What case is 'victis'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "victis = to the conquered (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'victi' — 'victis' with -is is dative/ablative plural",
+        "ablative": "While 'victis' could be ablative, 'vae' takes a dative of the person affected",
+        "genitive": "Genitive plural would be 'victorum' — 'victis' is dative with 'vae'"
+      }
+    },
+    {
+      "prompt": "What form is 'victis'?",
+      "target": "perfect passive participle (substantive)",
+      "choices": ["perfect passive participle (substantive)", "present active participle", "gerundive", "future active participle"],
+      "reveal": "victis = the conquered/defeated ones (dat. pl.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'vincentibus' — 'victis' with -ct- is perfect passive",
+        "gerundive": "Gerundive would be 'vincendis' — 'victis' is perfect passive participle used as noun",
+        "future active participle": "Future active participle would be 'victuris' — 'victis' is perfect passive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'victis' translates to?",
+      "target": "to conquer",
+      "choices": ["to conquer", "to live", "to bind", "to see"],
+      "reveal": null,
+      "hints": {
+        "to live": "That would be 'vivere' — 'victis' comes from 'vincere' (to conquer)",
+        "to bind": "That would be 'vincire' — similar spelling but 'vincere' means 'to conquer'",
+        "to see": "That would be 'videre' — 'victis' comes from 'vincere' (to conquer)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'victis'?",
+      "target": "vinco, vincere, vici, victum",
+      "choices": ["vinco, vincere, vici, victum", "vincio, vincire, vinxi, vinctum", "vivo, vivere, vixi, victum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "vincio, vincire, vinxi, vinctum": "These are the parts of 'vincire' (to bind/fetter)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live) — similar perfect participle but different verb",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "Who famously said 'Vae victis'?",
+      "target": "Brennus, the Gallic chieftain",
+      "choices": ["Brennus, the Gallic chieftain", "Hannibal of Carthage", "Romulus, founder of Rome", "Cicero, the orator"],
+      "reveal": null,
+      "hints": {
+        "Hannibal of Carthage": "Hannibal was famous for crossing the Alps — Brennus said this when weighing gold ransom",
+        "Romulus, founder of Rome": "Romulus was the legendary founder — Brennus uttered these words after sacking Rome in 390 BC",
+        "Cicero, the orator": "Cicero lived centuries later — Brennus said this to the defeated Romans"
+      }
+    }
+  ],
+  "translation": "Woe to the conquered"
+}

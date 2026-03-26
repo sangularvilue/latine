@@ -1,0 +1,152 @@
+{
+  "id": "cicero-orat-2-36",
+  "source": "Cicero",
+  "reference": "De Oratore II.36",
+  "latin": ["Historia", "est", "testis", "temporum", "lux", "veritatis"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["Historia", "est", "testis", "lux"],
+      "reveal": null,
+      "hints": {
+        "Historia": "'Historia' is a noun meaning 'history'",
+        "testis": "'testis' is a noun meaning 'witness'",
+        "lux": "'lux' is a noun meaning 'light'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to know"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse'",
+        "to go": "'to go' is 'ire' — not related to 'esse'",
+        "to know": "'to know' is 'scire' — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Future indicative": "Future would be 'erit' — 'est' is present",
+        "Present subjunctive": "Subjunctive would be 'sit' — 'est' is indicative",
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "scio, scire, scivi, scitum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — not 'esse'",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not 'esse'",
+        "scio, scire, scivi, scitum": "These are the parts of 'scire' (to know) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'Historia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "Historia", "gloss": "history" },
+      "hints": {
+        "Ablative": "Ablative would be 'historia' (same form but different function) — here it is clearly the subject",
+        "Vocative": "Cicero is not addressing history — it is the subject of 'est'",
+        "Accusative": "Accusative would be 'historiam' — 'Historia' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'Historia'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'historia, historiae' is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'historia' with -a ending is 1st declension",
+        "5th": "5th declension nouns end in -es — 'historia' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'testis'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "testis", "gloss": "witness" },
+      "hints": {
+        "Genitive": "Genitive singular would also be 'testis' in form, but here it is a predicate nominative after 'est'",
+        "Accusative": "Accusative singular would be 'testem' — 'testis' here is nominative",
+        "Ablative": "Ablative would be 'teste' — 'testis' is the predicate nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'testis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'testis, testis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'testis' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'testis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'temporum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "reveal": { "word": "temporum", "gloss": "of the times / ages" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'tempora' — 'temporum' is genitive plural",
+        "Dative": "Dative plural would be 'temporibus' — 'temporum' is genitive",
+        "Accusative": "Accusative plural would be 'tempora' — 'temporum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "Declension of 'temporum'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive plural ends in -arum — 'tempus, temporis' is 3rd declension",
+        "2nd": "2nd declension genitive plural ends in -orum — 'temporum' is 3rd declension (neuter)",
+        "4th": "4th declension genitive plural ends in -uum — 'temporum' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'lux'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "lux", "gloss": "light" },
+      "hints": {
+        "Accusative": "Accusative would be 'lucem' — 'lux' is a second predicate nominative",
+        "Ablative": "Ablative would be 'luce' — 'lux' is nominative",
+        "Genitive": "Genitive would be 'lucis' — 'lux' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'veritatis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "veritatis", "gloss": "of truth" },
+      "hints": {
+        "Nominative": "Nominative would be 'veritas' — 'veritatis' is the genitive singular",
+        "Dative": "Dative would be 'veritati' — 'veritatis' ends in -is (genitive)",
+        "Ablative": "Ablative would be 'veritate' — 'veritatis' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'veritatis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive ends in -ae — 'veritas, veritatis' is 3rd declension",
+        "2nd": "2nd declension genitive ends in -i — 'veritatis' is 3rd declension",
+        "5th": "5th declension genitive ends in -ei — 'veritatis' is 3rd declension"
+      }
+    }
+  ],
+  "translation": "History is the witness of the times, the light of truth."
+}

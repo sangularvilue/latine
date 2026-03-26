@@ -1,0 +1,130 @@
+{
+  "id": "vot-ex-20-13",
+  "source": "Vulgate",
+  "reference": "Exodus 20:13-15",
+  "latin": ["Non", "occides", "non", "moechaberis", "non", "furtum", "facies"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'occides' translates to?",
+      "target": "to kill",
+      "choices": ["to kill", "to strike", "to hate", "to wound"],
+      "reveal": null,
+      "hints": {
+        "to strike": "That would be the infinitive of 'percutere'",
+        "to hate": "That would be the infinitive of 'odisse'",
+        "to wound": "That would be the infinitive of 'vulnerare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'occides'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "occides = you shall kill",
+      "hints": {
+        "present indicative": "The present indicative would be 'occidis'",
+        "present subjunctive": "The present subjunctive would be 'occidas'",
+        "imperfect indicative": "The imperfect would be 'occidebas'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'occides'?",
+      "target": "occido, occidere, occidi, occisum",
+      "choices": ["occido, occidere, occidi, occisum", "caedo, caedere, cecidi, caesum", "incido, incidere, incidi, incasum", "cado, cadere, cecidi, casum"],
+      "reveal": null,
+      "hints": {
+        "caedo, caedere, cecidi, caesum": "These are the principal parts of 'caedo' (to cut/strike)",
+        "incido, incidere, incidi, incasum": "These are the principal parts of 'incido' (to fall into)",
+        "cado, cadere, cecidi, casum": "These are the principal parts of 'cado' (to fall)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'moechaberis' translates to?",
+      "target": "to commit adultery",
+      "choices": ["to commit adultery", "to steal", "to lie", "to covet"],
+      "reveal": null,
+      "hints": {
+        "to steal": "That would be the infinitive of 'furari'",
+        "to lie": "That would be the infinitive of 'mentiri'",
+        "to covet": "That would be the infinitive of 'concupiscere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'moechaberis'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "moechaberis = you shall commit adultery",
+      "hints": {
+        "present indicative": "The present indicative would be 'moecharis'",
+        "present subjunctive": "The present subjunctive would be 'moecheris'",
+        "perfect indicative": "The perfect would be 'moechatus es'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'moechaberis'?",
+      "target": "moechor, moechari, moechatus sum, —",
+      "choices": ["moechor, moechari, moechatus sum, —", "pecco, peccare, peccavi, peccatum", "furor, furari, furatus sum, —", "mentior, mentiri, mentitus sum, —"],
+      "reveal": null,
+      "hints": {
+        "pecco, peccare, peccavi, peccatum": "These are the principal parts of 'pecco' (to sin)",
+        "furor, furari, furatus sum, —": "These are the principal parts of 'furor' (to steal)",
+        "mentior, mentiri, mentitus sum, —": "These are the principal parts of 'mentior' (to lie)"
+      }
+    },
+    {
+      "prompt": "What case is 'furtum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "furtum = theft (acc.)",
+      "hints": {
+        "nominative": "While 'furtum' can be nominative, here it is the direct object of 'facies'",
+        "ablative": "The ablative would be 'furto'",
+        "genitive": "The genitive would be 'furti'"
+      }
+    },
+    {
+      "prompt": "What declension is 'furtum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings and -is in the genitive",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'facies' translates to?",
+      "target": "to do / to make",
+      "choices": ["to do / to make", "to say", "to carry", "to take"],
+      "reveal": null,
+      "hints": {
+        "to say": "That would be the infinitive of 'dicere'",
+        "to carry": "That would be the infinitive of 'ferre'",
+        "to take": "That would be the infinitive of 'capere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'facies'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "facies = you shall do/make",
+      "hints": {
+        "present indicative": "The present indicative would be 'facis'",
+        "present subjunctive": "The present subjunctive would be 'facias'",
+        "imperfect indicative": "The imperfect would be 'faciebas'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facies'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "ago, agere, egi, actum", "duco, ducere, duxi, ductum", "capio, capere, cepi, captum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the principal parts of 'ago' (to do/drive)",
+        "duco, ducere, duxi, ductum": "These are the principal parts of 'duco' (to lead)",
+        "capio, capere, cepi, captum": "These are the principal parts of 'capio' (to take)"
+      }
+    }
+  ],
+  "translation": "You shall not kill, you shall not commit adultery, you shall not steal"
+}

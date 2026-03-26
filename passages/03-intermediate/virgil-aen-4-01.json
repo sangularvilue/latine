@@ -1,0 +1,97 @@
+{
+  "id": "virgil-aen-4-01",
+  "source": "Virgil",
+  "reference": "Aeneid IV.1",
+  "latin": ["At", "regina", "gravi", "iamdudum", "saucia", "cura"],
+  "steps": [
+    {
+      "prompt": "What case is 'regina'?",
+      "target": "nominative",
+      "choices": ["nominative", "vocative", "ablative", "genitive"],
+      "reveal": "regina = the queen (nom. sg., subject)",
+      "hints": {
+        "vocative": "Vocative looks the same for 1st decl., but no one is addressing her — she is the subject",
+        "ablative": "Ablative would be 'regina' in form but context shows it is the nominative subject",
+        "genitive": "Genitive would be 'reginae' — 'regina' is nominative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'regina, reginae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'reginae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'reginae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'reginae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'gravi'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "gravi = with heavy/grievous (abl. sg., modifying 'cura')",
+      "hints": {
+        "dative": "While 'gravi' could be dative, it modifies 'cura' (ablative) — so it is ablative",
+        "nominative": "Nominative would be 'gravis' — 'gravi' is ablative singular",
+        "genitive": "Genitive would be 'gravis' — 'gravi' with -i ending is ablative (3rd decl. adj.)"
+      }
+    },
+    {
+      "prompt": "What declension is 'gravis, gravis' (as a 3rd decl. adjective)?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'gravis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'gravis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'gravis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'saucia'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "accusative", "vocative"],
+      "reveal": "saucia = wounded (nom. fem. sg., predicate describing 'regina')",
+      "hints": {
+        "ablative": "Ablative feminine would be 'saucia' too, but here it agrees with nominative 'regina'",
+        "accusative": "Accusative plural neuter would be 'saucia', but here it is nom. fem. sg. with 'regina'",
+        "vocative": "Vocative looks the same, but no one addresses the queen — it is nominative predicate"
+      }
+    },
+    {
+      "prompt": "What case is 'cura'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "vocative", "genitive"],
+      "reveal": "cura = by/with passion (abl. sg., ablative of cause)",
+      "hints": {
+        "nominative": "While 'cura' looks nominative, here it is ablative of cause — wounded 'by' passion",
+        "vocative": "Vocative would look the same, but 'cura' is ablative of cause with 'saucia'",
+        "genitive": "Genitive would be 'curae' — 'cura' here is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'cura, curae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'curae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'curae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'curae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What is the function of 'At' in this sentence?",
+      "target": "adversative conjunction",
+      "choices": ["adversative conjunction", "preposition", "interjection", "temporal conjunction"],
+      "reveal": "At = But (marks a shift of scene to Dido)",
+      "hints": {
+        "preposition": "'At' is not a preposition — prepositions govern nouns. 'At' is a conjunction meaning 'but'",
+        "interjection": "'At' is not an interjection — it is an adversative conjunction introducing contrast",
+        "temporal conjunction": "Temporal conjunctions like 'cum' mark time — 'at' marks contrast/opposition"
+      }
+    }
+  ],
+  "translation": "But the queen, already wounded by grievous passion"
+}

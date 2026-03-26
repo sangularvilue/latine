@@ -1,0 +1,108 @@
+{
+  "id": "virgil-aen-4-625",
+  "source": "Virgil",
+  "reference": "Aeneid IV.625",
+  "latin": ["Exoriare", "aliquis", "nostris", "ex", "ossibus", "ultor"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Exoriare' translates to?",
+      "target": "to arise",
+      "choices": ["to arise", "to adorn", "to pray", "to begin"],
+      "reveal": null,
+      "hints": {
+        "to adorn": "That would be 'ornare' — 'Exoriare' comes from 'exoriri' (to arise)",
+        "to pray": "That would be 'orare' — 'Exoriare' comes from 'exoriri' (to arise)",
+        "to begin": "That would be 'ordiri' — 'Exoriare' comes from 'exoriri' (to arise)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Exoriare'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present infinitive", "present subjunctive", "imperfect subjunctive"],
+      "reveal": "Exoriare = Arise! (2nd sg. imperative of deponent 'exoriri')",
+      "hints": {
+        "present infinitive": "While -are looks infinitive, 'exoriri' is deponent — 'exoriare' is the imperative singular",
+        "present subjunctive": "Present subjunctive would be 'exoriaris' — 'exoriare' is imperative of the deponent",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'exorireris' — 'exoriare' is present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Exoriare'?",
+      "target": "exorior, exoriri, exortus sum",
+      "choices": ["exorior, exoriri, exortus sum", "orior, oriri, ortus sum", "orno, ornare, ornavi, ornatum", "oro, orare, oravi, oratum"],
+      "reveal": null,
+      "hints": {
+        "orior, oriri, ortus sum": "These are the parts of 'oriri' (to rise) — the simple verb, not the compound",
+        "orno, ornare, ornavi, ornatum": "These are the parts of 'ornare' (to adorn/equip)",
+        "oro, orare, oravi, oratum": "These are the parts of 'orare' (to pray/speak)"
+      }
+    },
+    {
+      "prompt": "What case is 'aliquis'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "aliquis = someone (nom. sg., subject — the future avenger)",
+      "hints": {
+        "accusative": "Accusative would be 'aliquem' — 'aliquis' is nominative",
+        "ablative": "Ablative would be 'aliquo' — 'aliquis' is nominative singular",
+        "genitive": "Genitive would be 'alicuius' — 'aliquis' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'nostris'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "nostris = from our (abl. pl., with 'ex')",
+      "hints": {
+        "dative": "While 'nostris' could be dative, the preposition 'ex' governs the ablative",
+        "nominative": "Nominative plural would be 'nostri' — 'nostris' is ablative with 'ex'",
+        "genitive": "Genitive plural would be 'nostrorum' — 'nostris' is ablative, governed by 'ex'"
+      }
+    },
+    {
+      "prompt": "What case is 'ossibus'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "ossibus = from bones (abl. pl., with 'ex')",
+      "hints": {
+        "dative": "While 'ossibus' could be dative, 'ex' governs the ablative — 'from our bones'",
+        "nominative": "Nominative plural would be 'ossa' — 'ossibus' is ablative plural",
+        "genitive": "Genitive plural would be 'ossium' — 'ossibus' is ablative with 'ex'"
+      }
+    },
+    {
+      "prompt": "What declension is 'os, ossis' (bone)?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'ossis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'ossis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'ossis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'ultor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "ultor = an avenger (nom. sg., in apposition with 'aliquis')",
+      "hints": {
+        "accusative": "Accusative would be 'ultorem' — 'ultor' is nominative",
+        "vocative": "Vocative would be 'ultor' too, but here it is nominative, in apposition with 'aliquis'",
+        "ablative": "Ablative would be 'ultore' — 'ultor' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'ultor, ultoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'ultoris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'ultoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'ultoris' ends in -is"
+      }
+    }
+  ],
+  "translation": "Arise, some avenger, from our bones"
+}

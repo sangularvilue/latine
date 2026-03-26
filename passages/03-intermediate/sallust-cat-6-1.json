@@ -1,0 +1,130 @@
+{
+  "id": "sallust-cat-6-1",
+  "source": "Sallust",
+  "reference": "Bellum Catilinae 6.1",
+  "latin": ["Igitur", "initio", "reges", "nomen", "imperi", "habuere"],
+  "steps": [
+    {
+      "prompt": "What does 'Igitur' mean?",
+      "target": "therefore",
+      "choices": ["therefore", "however", "meanwhile", "indeed"],
+      "reveal": null,
+      "hints": {
+        "however": "'However' would be 'tamen' or 'autem' — 'igitur' means 'therefore'",
+        "meanwhile": "'Meanwhile' would be 'interim' — 'igitur' means 'therefore'",
+        "indeed": "'Indeed' would be 'quidem' or 'vero' — 'igitur' means 'therefore'"
+      }
+    },
+    {
+      "prompt": "What case is 'initio'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "accusative"],
+      "reveal": "initio = in the beginning (abl. of time)",
+      "hints": {
+        "nominative": "Nominative would be 'initium' — 'initio' with -o is ablative/dative",
+        "dative": "While 'initio' could be dative, here it is ablative of time when",
+        "accusative": "Accusative would be 'initium' — 'initio' is ablative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'initium, initii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'initii' with -i is 2nd declension",
+        "3rd declension": "3rd declension has genitive in -is — 'initii' with -i is 2nd declension",
+        "4th declension": "4th declension has genitive in -ūs — 'initii' with -i is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'reges'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "reges = kings (nom. pl.)",
+      "hints": {
+        "accusative": "While 'reges' can also be accusative plural, here they are the subject of 'habuere'",
+        "genitive": "Genitive singular would be 'regis' — 'reges' is nominative/accusative plural",
+        "vocative": "Sallust is narrating history, not addressing kings"
+      }
+    },
+    {
+      "prompt": "What declension is 'rex, regis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'regis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'regis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'regis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'nomen'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "nomen = name/title (acc. neut. sg.)",
+      "hints": {
+        "nominative": "While 'nomen' looks the same in nominative, here it is the direct object of 'habuere'",
+        "ablative": "Ablative would be 'nomine' — 'nomen' is accusative here",
+        "genitive": "Genitive would be 'nominis' — 'nomen' is accusative, object of 'habuere'"
+      }
+    },
+    {
+      "prompt": "What declension is 'nomen, nominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'nominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'nominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'nominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'imperi'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "imperi = of command/power (gen. sg., contracted from 'imperii')",
+      "hints": {
+        "nominative": "Nominative would be 'imperium' — 'imperi' is genitive singular (contracted)",
+        "dative": "Dative would be 'imperio' — 'imperi' is genitive, contracted from 'imperii'",
+        "vocative": "Vocative is not used here — 'imperi' is genitive modifying 'nomen'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habuere' translates to?",
+      "target": "to have/hold",
+      "choices": ["to have/hold", "to live", "to dwell", "to consider"],
+      "reveal": null,
+      "hints": {
+        "to live": "That would be 'vivere' — 'habuere' comes from 'habere' (to have/hold)",
+        "to dwell": "That would be 'habitare' — 'habuere' comes from 'habere' (to have/hold)",
+        "to consider": "While 'habere' can mean 'to consider', its primary meaning is 'to have/hold'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'habuere'?",
+      "target": "perfect indicative",
+      "choices": ["present infinitive", "perfect indicative", "imperfect indicative", "future indicative"],
+      "reveal": "habuere = they had (= habuerunt, archaic 3rd pl. perfect)",
+      "hints": {
+        "present infinitive": "Present infinitive would be 'habere' — 'habuere' with -uere is perfect indicative (archaic -ere for -erunt)",
+        "imperfect indicative": "Imperfect would be 'habebant' — 'habuere' is perfect indicative",
+        "future indicative": "Future would be 'habebunt' — 'habuere' is an archaic perfect form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habuere'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "habito, habitare, habitavi, habitatum", "haurio, haurire, hausi, haustum", "hibernum, hibernare, hibernavi, hibernatum"],
+      "reveal": null,
+      "hints": {
+        "habito, habitare, habitavi, habitatum": "These are the parts of 'habitare' (to dwell/inhabit)",
+        "haurio, haurire, hausi, haustum": "These are the parts of 'haurire' (to draw/drain)",
+        "hibernum, hibernare, hibernavi, hibernatum": "These are the parts of 'hibernare' (to winter)"
+      }
+    }
+  ],
+  "translation": "Therefore in the beginning kings held the title of power"
+}

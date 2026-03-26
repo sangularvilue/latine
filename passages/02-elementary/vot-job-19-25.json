@@ -1,0 +1,97 @@
+{
+  "id": "vot-job-19-25",
+  "source": "Vulgate",
+  "reference": "Job 19:25",
+  "latin": ["Scio", "quod", "redemptor", "meus", "vivit"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'scio' translates to?",
+      "target": "to know",
+      "choices": ["to know", "to see", "to believe", "to hope"],
+      "reveal": null,
+      "hints": {
+        "to see": "That would be the infinitive of 'videre'",
+        "to believe": "That would be the infinitive of 'credere'",
+        "to hope": "That would be the infinitive of 'sperare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'scio'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "scio = I know",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'scivi'",
+        "present subjunctive": "The present subjunctive would be 'sciam'",
+        "future indicative": "The future indicative would be 'sciam'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'scio'?",
+      "target": "scio, scire, scivi, scitum",
+      "choices": ["scio, scire, scivi, scitum", "cognosco, cognoscere, cognovi, cognitum", "nosco, noscere, novi, notum", "intellego, intellegere, intellexi, intellectum"],
+      "reveal": null,
+      "hints": {
+        "cognosco, cognoscere, cognovi, cognitum": "These are the principal parts of 'cognosco' (to learn/recognize)",
+        "nosco, noscere, novi, notum": "These are the principal parts of 'nosco' (to get to know)",
+        "intellego, intellegere, intellexi, intellectum": "These are the principal parts of 'intellego' (to understand)"
+      }
+    },
+    {
+      "prompt": "What case is 'redemptor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "redemptor = redeemer (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'redemptorem'",
+        "vocative": "The vocative would also be 'redemptor' but here it is the subject, not an address",
+        "ablative": "The ablative would be 'redemptore'"
+      }
+    },
+    {
+      "prompt": "What declension is 'redemptor'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "2nd declension": "2nd declension nouns typically end in -us or -um",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vivit' translates to?",
+      "target": "to live",
+      "choices": ["to live", "to exist", "to stand", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to exist": "That would be the infinitive of 'existere'",
+        "to stand": "That would be the infinitive of 'stare'",
+        "to remain": "That would be the infinitive of 'manere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'vivit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "vivit = he lives",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'vixit'",
+        "future indicative": "The future indicative would be 'vivet'",
+        "present subjunctive": "The present subjunctive would be 'vivat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vivit'?",
+      "target": "vivo, vivere, vixi, victum",
+      "choices": ["vivo, vivere, vixi, victum", "vinco, vincere, vici, victum", "valeo, valere, valui, valitum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vinco' (to conquer)",
+        "valeo, valere, valui, valitum": "These are the principal parts of 'valeo' (to be strong)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venio' (to come)"
+      }
+    }
+  ],
+  "translation": "I know that my redeemer lives"
+}

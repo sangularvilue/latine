@@ -1,0 +1,108 @@
+{
+  "id": "aquinas-st-custom-2",
+  "source": "Thomas Aquinas",
+  "reference": "Summa Theologiae (adapted)",
+  "latin": ["Actus", "essendi", "est", "actualitas", "omnium", "actuum"],
+  "steps": [
+    {
+      "prompt": "What case is 'actus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Vocative"],
+      "reveal": { "word": "actus", "gloss": "the act" },
+      "hints": {
+        "Accusative": "Accusative of 4th declension is also 'actus' (pl.) or 'actum' — here 'actus' is nominative singular subject",
+        "Genitive": "Genitive singular would be 'actus' (same form in 4th decl.), but here it is the subject paired with 'essendi'",
+        "Vocative": "This is a metaphysical statement, not an address — 'actus' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'actus'?",
+      "target": "4th",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns in -us have genitive -i — 'actus, actus' has genitive -us (4th declension)",
+        "3rd": "3rd declension nouns have varied endings — 'actus' is 4th declension",
+        "5th": "5th declension nouns end in -es — 'actus' is 4th declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — not related to 'est'",
+        "to stand": "'to stand' is 'stare' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'est' is indicative",
+        "Imperfect indicative": "Imperfect would be 'erat' — 'est' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "existo, existere, extiti"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'est' here is from 'esse' (to be)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — a different verb",
+        "existo, existere, extiti": "These are the parts of 'existere' (to exist) — 'est' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'actualitas'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "actualitas", "gloss": "the actuality" },
+      "hints": {
+        "Accusative": "Accusative would be 'actualitatem' — 'actualitas' is nominative (predicate noun)",
+        "Genitive": "Genitive would be 'actualitatis' — 'actualitas' is nominative",
+        "Ablative": "Ablative would be 'actualitate' — 'actualitas' is nominative predicate"
+      }
+    },
+    {
+      "prompt": "Declension of 'actualitas'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'actualitas, actualitatis' with -tas suffix is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'actualitas' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'actualitas' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'actuum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Accusative", "Genitive", "Dative"],
+      "reveal": { "word": "actuum", "gloss": "of acts" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'actus' — 'actuum' with -uum is genitive plural (4th declension)",
+        "Accusative": "Accusative plural would be 'actus' — 'actuum' is genitive plural",
+        "Dative": "Dative plural would be 'actibus' — 'actuum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "What does 'essendi' mean in Thomistic philosophy?",
+      "target": "Of being / of existing — the gerund of 'esse'",
+      "choices": ["Of essence", "Of being / of existing — the gerund of 'esse'", "Of sending", "Of the self"],
+      "reveal": null,
+      "hints": {
+        "Of essence": "'Essence' is 'essentia' — 'essendi' is the gerund (genitive) of 'esse', meaning 'of being/existing'",
+        "Of sending": "'Of sending' would be 'mittendi' — 'essendi' is from 'esse' (to be)",
+        "Of the self": "'Of the self' would use 'sui' — 'essendi' is a verbal noun from 'esse'"
+      }
+    }
+  ],
+  "translation": "The act of being is the actuality of all acts."
+}

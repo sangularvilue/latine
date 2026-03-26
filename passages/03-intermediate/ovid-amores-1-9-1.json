@@ -1,0 +1,130 @@
+{
+  "id": "ovid-amores-1-9-1",
+  "source": "Ovid",
+  "reference": "Amores I.9.1",
+  "latin": ["Militat", "omnis", "amans", "et", "habet", "sua", "castra", "Cupido"],
+  "steps": [
+    {
+      "prompt": "Which word is the first main verb?",
+      "target": "Militat",
+      "choices": ["Militat", "omnis", "amans", "habet"],
+      "reveal": null,
+      "hints": {
+        "omnis": "'omnis' is an adjective meaning 'every'",
+        "amans": "'amans' is a present participle used as a noun, not the main verb",
+        "habet": "'habet' is the second main verb, not the first"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Militat' translates to?",
+      "target": "to serve as a soldier",
+      "choices": ["to serve as a soldier", "to send", "to threaten", "to soften"],
+      "reveal": null,
+      "hints": {
+        "to send": "'to send' is 'mittere' — 'Militat' comes from 'militare'",
+        "to threaten": "'to threaten' is 'minari' — 'Militat' comes from 'militare'",
+        "to soften": "'to soften' is 'mollire' — 'Militat' comes from 'militare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Militat'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "Militat", "gloss": "serves as a soldier / fights" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'militare' would be 'militavit'",
+        "Present subjunctive": "Present subjunctive would be 'militet'",
+        "Future indicative": "Future of 'militare' would be 'militabit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Militat'?",
+      "target": "milito, militare, militavi, militatum",
+      "choices": ["milito, militare, militavi, militatum", "mitto, mittere, misi, missum", "moneo, monere, monui, monitum", "moveo, movere, movi, motum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are the principal parts of 'mittere' (to send)",
+        "moneo, monere, monui, monitum": "These are the principal parts of 'monere' (to warn)",
+        "moveo, movere, movi, motum": "These are the principal parts of 'movere' (to move)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'habet' translates to?",
+      "target": "to have",
+      "choices": ["to have", "to live", "to hold back", "to go"],
+      "reveal": null,
+      "hints": {
+        "to live": "'to live' is 'habitare' — 'habet' comes from 'habere' (to have)",
+        "to hold back": "'to hold back' is 'inhibere' — 'habet' comes from 'habere'",
+        "to go": "'to go' is 'ire' — 'habet' comes from 'habere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'habet'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "habet", "gloss": "has" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'habere' would be 'habuit'",
+        "Present subjunctive": "Present subjunctive would be 'habeat'",
+        "Imperfect indicative": "Imperfect would be 'habebat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'habet'?",
+      "target": "habeo, habere, habui, habitum",
+      "choices": ["habeo, habere, habui, habitum", "amo, amare, amavi, amatum", "do, dare, dedi, datum", "capio, capere, cepi, captum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)",
+        "capio, capere, cepi, captum": "These are the principal parts of 'capere' (to seize)"
+      }
+    },
+    {
+      "prompt": "Case of 'castra'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "castra", "gloss": "a camp / campaigns" },
+      "hints": {
+        "Nominative": "'castra' could be nominative plural neuter, but here it is the direct object of 'habet'",
+        "Ablative": "Ablative plural of 'castra' would be 'castris'",
+        "Genitive": "Genitive plural of 'castra' would be 'castrorum'"
+      }
+    },
+    {
+      "prompt": "Declension of 'castra'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "Though 'castra' ends in -a, it is neuter plural (2nd declension), not 1st declension feminine",
+        "3rd": "3rd declension nouns have varied nominatives — 'castra' with genitive 'castrorum' is 2nd declension",
+        "4th": "4th declension nouns end in -us/-u — 'castra' is 2nd declension neuter plural"
+      }
+    },
+    {
+      "prompt": "Case of 'Cupido'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Dative", "Ablative"],
+      "reveal": { "word": "Cupido", "gloss": "Cupid" },
+      "hints": {
+        "Accusative": "Accusative of 'Cupido' would be 'Cupidinem'",
+        "Dative": "Dative of 'Cupido' would be 'Cupidini'",
+        "Ablative": "Ablative of 'Cupido' would be 'Cupidine'"
+      }
+    },
+    {
+      "prompt": "Declension of 'Cupido'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'Cupido' with genitive 'Cupidinis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'Cupido' with -o ending and genitive '-inis' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'Cupido' is 3rd declension"
+      }
+    }
+  ],
+  "translation": "Every lover serves as a soldier, and Cupid has his own camp"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "vot-is-40-6",
+  "source": "Vulgate",
+  "reference": "Isaiah 40:6",
+  "latin": ["Omnis", "caro", "faenum", "et", "omnis", "gloria", "eius", "quasi", "flos", "agri"],
+  "steps": [
+    {
+      "prompt": "What case is 'caro'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "caro = flesh (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'carnem'",
+        "ablative": "The ablative would be 'carne'",
+        "dative": "The dative would be 'carni'"
+      }
+    },
+    {
+      "prompt": "What declension is 'caro'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "2nd declension": "2nd declension nouns end in -us/-um in the nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "What case is 'faenum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "faenum = grass / hay (nom., predicate)",
+      "hints": {
+        "accusative": "While 'faenum' can be accusative, here it is predicate nominative (flesh IS grass)",
+        "ablative": "The ablative would be 'faeno'",
+        "genitive": "The genitive would be 'faeni'"
+      }
+    },
+    {
+      "prompt": "What declension is 'faenum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension neuter nouns have varied nominative endings",
+        "4th declension": "4th declension neuter nouns end in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'gloria'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "gloria = glory (nom.)",
+      "hints": {
+        "ablative": "The ablative would also be 'gloria' but here it is the subject of the clause",
+        "vocative": "'Gloria' is not being addressed; it is the subject",
+        "accusative": "The accusative would be 'gloriam'"
+      }
+    },
+    {
+      "prompt": "What declension is 'gloria'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns end in -us/-um in the nominative",
+        "3rd declension": "3rd declension nouns have -is in the genitive",
+        "5th declension": "5th declension nouns end in -es in the nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'flos'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "flos = a flower (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'florem'",
+        "ablative": "The ablative would be 'flore'",
+        "genitive": "The genitive would be 'floris'"
+      }
+    },
+    {
+      "prompt": "What declension is 'flos'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "2nd declension": "2nd declension nouns end in -us/-um in the nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "What case is 'agri'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "agri = of the field (gen.)",
+      "hints": {
+        "nominative": "The nominative singular would be 'ager'; 'agri' could be nom. pl. but here it is genitive",
+        "dative": "The dative would be 'agro'",
+        "ablative": "The ablative would be 'agro'"
+      }
+    },
+    {
+      "prompt": "What declension is 'agri'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitive singular ends in -ae",
+        "3rd declension": "3rd declension genitive singular ends in -is",
+        "4th declension": "4th declension genitive singular ends in -us"
+      }
+    }
+  ],
+  "translation": "All flesh is grass, and all its glory like a flower of the field"
+}

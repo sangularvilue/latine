@@ -1,0 +1,64 @@
+{
+  "id": "hymn-tantum-ergo-1",
+  "source": "Hymn",
+  "reference": "Tantum Ergo 1",
+  "latin": ["Tantum", "ergo", "sacramentum", "veneremur", "cernui"],
+  "steps": [
+    {
+      "prompt": "What case is 'sacramentum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "sacramentum", "gloss": "sacrament" },
+      "hints": {
+        "Nominative": "While 'sacramentum' could be nominative neuter, here it is the direct object of 'veneremur'",
+        "Genitive": "Genitive of 'sacramentum' would be 'sacramenti' — 'sacramentum' is the accusative object",
+        "Ablative": "Ablative of 'sacramentum' would be 'sacramento' — 'sacramentum' is the accusative object"
+      }
+    },
+    {
+      "prompt": "What declension is 'sacramentum, sacramenti'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'sacramenti' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'sacramenti' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'sacramenti' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'veneremur' translates to?",
+      "target": "to venerate / to worship",
+      "choices": ["to venerate / to worship", "to come", "to forgive", "to love"],
+      "reveal": null,
+      "hints": {
+        "to come": "'to come' is 'venire' — 'veneremur' comes from 'venerari'",
+        "to forgive": "'to forgive' is 'ignoscere' — 'veneremur' comes from 'venerari'",
+        "to love": "'to love' is 'amare' — 'veneremur' comes from 'venerari'"
+      }
+    },
+    {
+      "prompt": "What mood is 'veneremur'?",
+      "target": "Subjunctive (hortatory)",
+      "choices": ["Indicative", "Subjunctive (hortatory)", "Imperative", "Infinitive"],
+      "reveal": { "word": "veneremur", "gloss": "let us venerate" },
+      "hints": {
+        "Indicative": "Indicative 1st pl. would be 'veneramur' — 'veneremur' has the -e- subjunctive marker",
+        "Imperative": "Imperative plural would be 'veneramini' — 'veneremur' is a hortatory subjunctive",
+        "Infinitive": "Infinitive would be 'venerari' — 'veneremur' is a finite verb form"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'veneremur'?",
+      "target": "veneror, venerari, veneratus sum",
+      "choices": ["veneror, venerari, veneratus sum", "venio, venire, veni, ventum", "vereor, vereri, veritus sum", "amo, amare, amavi, amatum"],
+      "reveal": null,
+      "hints": {
+        "venio, venire, veni, ventum": "These are the principal parts of 'venire' (to come)",
+        "vereor, vereri, veritus sum": "These are the principal parts of 'vereri' (to fear/respect)",
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amare' (to love)"
+      }
+    }
+  ],
+  "translation": "Therefore so great a sacrament let us venerate, bowed down"
+}

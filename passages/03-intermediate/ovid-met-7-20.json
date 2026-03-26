@@ -1,0 +1,119 @@
+{
+  "id": "ovid-met-7-20",
+  "source": "Ovid",
+  "reference": "Metamorphoses VII.20",
+  "latin": ["Video", "meliora", "proboque", "deteriora", "sequor"],
+  "steps": [
+    {
+      "prompt": "How many finite verbs are in this sentence?",
+      "target": "Three",
+      "choices": ["One", "Two", "Three", "Four"],
+      "reveal": null,
+      "hints": {
+        "One": "Look again — 'video', 'probo' (in 'proboque'), and 'sequor' are all finite verbs",
+        "Two": "There are three: 'video', 'probo' (in 'proboque'), and 'sequor'",
+        "Four": "'meliora' and 'deteriora' are adjectives, not verbs — only 'video', 'probo', and 'sequor' are finite"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'video' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to conquer", "to come", "to avoid"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'to conquer' is 'vincere' — 'video' comes from 'videre'",
+        "to come": "'to come' is 'venire' — 'video' comes from 'videre'",
+        "to avoid": "'to avoid' is 'vitare' — 'video' comes from 'videre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'video'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "Video", "gloss": "I see" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'videre' would be 'vidi'",
+        "Present subjunctive": "Present subjunctive would be 'videam'",
+        "Future indicative": "Future of 'videre' would be 'videbo'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'video'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "vinco, vincere, vici, victum", "vivo, vivere, vixi, victum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)",
+        "vivo, vivere, vixi, victum": "These are the principal parts of 'vivere' (to live)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venire' (to come)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'proboque' (i.e. 'probo') translates to?",
+      "target": "to approve",
+      "choices": ["to approve", "to prove wrong", "to forbid", "to test"],
+      "reveal": null,
+      "hints": {
+        "to prove wrong": "'to prove wrong' is 'refutare' — 'probare' means 'to approve/commend'",
+        "to forbid": "'to forbid' is 'vetare' — 'probare' means 'to approve'",
+        "to test": "'to test' can be 'probare' secondarily, but the primary meaning here is 'to approve'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'probo' (in 'proboque')?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "proboque", "gloss": "and I approve" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'probare' would be 'probavi'",
+        "Present subjunctive": "Present subjunctive would be 'probem'",
+        "Imperfect indicative": "Imperfect would be 'probabam'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'probo'?",
+      "target": "probo, probare, probavi, probatum",
+      "choices": ["probo, probare, probavi, probatum", "prohibeo, prohibere, prohibui, prohibitum", "prodo, prodere, prodidi, proditum", "propono, proponere, proposui, propositum"],
+      "reveal": null,
+      "hints": {
+        "prohibeo, prohibere, prohibui, prohibitum": "These are the principal parts of 'prohibere' (to prevent)",
+        "prodo, prodere, prodidi, proditum": "These are the principal parts of 'prodere' (to betray)",
+        "propono, proponere, proposui, propositum": "These are the principal parts of 'proponere' (to set forth)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sequor' translates to?",
+      "target": "to follow",
+      "choices": ["to follow", "to cut", "to seek", "to speak"],
+      "reveal": null,
+      "hints": {
+        "to cut": "'to cut' is 'secare' — 'sequor' comes from 'sequi'",
+        "to seek": "'to seek' is 'quaerere' — 'sequor' comes from 'sequi'",
+        "to speak": "'to speak' is 'loqui' — 'sequor' comes from 'sequi'"
+      }
+    },
+    {
+      "prompt": "What is special about 'sequor'?",
+      "target": "It is a deponent verb — passive in form, active in meaning",
+      "choices": ["It is a deponent verb — passive in form, active in meaning", "It is a defective verb", "It is in the passive voice", "It is subjunctive"],
+      "reveal": { "word": "sequor", "gloss": "I follow / I pursue" },
+      "hints": {
+        "It is a defective verb": "Defective verbs lack certain forms — 'sequor' has all forms, but is deponent (passive form, active meaning)",
+        "It is in the passive voice": "'sequor' looks passive but is deponent — it has active meaning despite passive morphology",
+        "It is subjunctive": "Present subjunctive would be 'sequar' — 'sequor' is present indicative deponent"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sequor'?",
+      "target": "sequor, sequi, secutus sum",
+      "choices": ["sequor, sequi, secutus sum", "seco, secare, secui, sectum", "quaero, quaerere, quaesivi, quaesitum", "loquor, loqui, locutus sum"],
+      "reveal": null,
+      "hints": {
+        "seco, secare, secui, sectum": "These are the principal parts of 'secare' (to cut)",
+        "quaero, quaerere, quaesivi, quaesitum": "These are the principal parts of 'quaerere' (to seek)",
+        "loquor, loqui, locutus sum": "These are the principal parts of 'loqui' (to speak) — another deponent verb"
+      }
+    }
+  ],
+  "translation": "I see the better things and approve them; I follow the worse"
+}

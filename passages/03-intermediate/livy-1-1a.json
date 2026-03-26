@@ -1,0 +1,108 @@
+{
+  "id": "livy-1-1a",
+  "source": "Livy",
+  "reference": "Ab Urbe Condita I.1",
+  "latin": ["Iam", "primum", "omnium", "satis", "constat", "Troia", "capta"],
+  "steps": [
+    {
+      "prompt": "What case is 'omnium'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "accusative", "dative"],
+      "reveal": "omnium = of all things (gen. pl., partitive)",
+      "hints": {
+        "nominative": "Nominative plural would be 'omnes/omnia' — 'omnium' with -ium is genitive",
+        "accusative": "Accusative plural would be 'omnes/omnia' — 'omnium' is genitive",
+        "dative": "Dative plural would be 'omnibus' — 'omnium' is genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'constat' translates to?",
+      "target": "to be agreed/established",
+      "choices": ["to be agreed/established", "to stand together", "to cost", "to consist"],
+      "reveal": null,
+      "hints": {
+        "to stand together": "While etymologically 'con + stare', in this usage 'constare' means 'to be agreed/established'",
+        "to cost": "'Constare' can mean 'to cost', but with 'satis' it means 'it is sufficiently established'",
+        "to consist": "That would be closer to 'consistere' — here 'constare' means 'to be agreed'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'constat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "constat = it is agreed/established",
+      "hints": {
+        "perfect indicative": "Perfect would be 'constitit' — 'constat' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'constet' — 'constat' with -at is present indicative",
+        "future indicative": "Future would be 'constabit' — 'constat' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'constat'?",
+      "target": "consto, constare, constiti, constatum",
+      "choices": ["consto, constare, constiti, constatum", "sto, stare, steti, statum", "consisto, consistere, constiti, constitum", "constituo, constituere, constitui, constitutum"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — 'constare' is its compound con + stare",
+        "consisto, consistere, constiti, constitum": "These are the parts of 'consistere' (to stop/take a stand)",
+        "constituo, constituere, constitui, constitutum": "These are the parts of 'constituere' (to establish/decide)"
+      }
+    },
+    {
+      "prompt": "What case is 'Troia'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "Troia = Troy (abl., in ablative absolute with 'capta')",
+      "hints": {
+        "nominative": "While 'Troia' could be nominative, here it forms an ablative absolute with 'capta'",
+        "vocative": "Livy is narrating, not addressing Troy",
+        "accusative": "Accusative would be 'Troiam' — 'Troia' is ablative in the ablative absolute"
+      }
+    },
+    {
+      "prompt": "What declension is 'Troia, Troiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Troiae' with -ae is 1st declension",
+        "3rd declension": "3rd declension has genitive in -is — 'Troiae' with -ae is 1st declension",
+        "5th declension": "5th declension has genitive in -ei — 'Troiae' with -ae is 1st declension"
+      }
+    },
+    {
+      "prompt": "What form is 'capta'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "future active participle", "gerundive"],
+      "reveal": "capta = having been captured (abl. fem. sg.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'capiens' — 'capta' with -ta is perfect passive",
+        "future active participle": "Future active participle would be 'captura' — 'capta' is perfect passive",
+        "gerundive": "Gerundive would be 'capienda' — 'capta' is perfect passive participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'capta' translates to?",
+      "target": "to take/capture",
+      "choices": ["to take/capture", "to hold", "to head for", "to begin"],
+      "reveal": null,
+      "hints": {
+        "to hold": "That would be 'tenere' — 'capta' comes from 'capere' (to take/capture)",
+        "to head for": "That would be 'petere' — 'capta' comes from 'capere' (to take/capture)",
+        "to begin": "That would be 'incipere' — 'capta' comes from 'capere' (to take/capture)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'capta'?",
+      "target": "capio, capere, cepi, captum",
+      "choices": ["capio, capere, cepi, captum", "teneo, tenere, tenui, tentum", "rapio, rapere, rapui, raptum", "accipio, accipere, accepi, acceptum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)",
+        "rapio, rapere, rapui, raptum": "These are the parts of 'rapere' (to snatch/seize)",
+        "accipio, accipere, accepi, acceptum": "These are the parts of 'accipere' (to receive) — a compound of capere"
+      }
+    }
+  ],
+  "translation": "First of all, it is sufficiently agreed that, Troy having been captured"
+}

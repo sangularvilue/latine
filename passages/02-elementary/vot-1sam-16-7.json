@@ -1,0 +1,119 @@
+{
+  "id": "vot-1sam-16-7",
+  "source": "Vulgate",
+  "reference": "1 Samuel 16:7",
+  "latin": ["Dominus", "non", "videt", "sicut", "homo", "videt"],
+  "steps": [
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Dominus = the Lord (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'Dominum'",
+        "vocative": "The vocative would be 'Domine'",
+        "genitive": "The genitive would be 'Domini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings and -is in the genitive",
+        "4th declension": "4th declension nouns end in -us but have genitive -us, not -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of the first 'videt' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to know", "to judge", "to hear"],
+      "reveal": null,
+      "hints": {
+        "to know": "That would be the infinitive of 'scire'",
+        "to judge": "That would be the infinitive of 'iudicare'",
+        "to hear": "That would be the infinitive of 'audire'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is the first 'videt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "videt = he/she sees",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'vidit'",
+        "future indicative": "The future indicative would be 'videbit'",
+        "present subjunctive": "The present subjunctive would be 'videat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videt'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "audio, audire, audivi, auditum", "scio, scire, scivi, scitum", "sentio, sentire, sensi, sensum"],
+      "reveal": null,
+      "hints": {
+        "audio, audire, audivi, auditum": "These are the principal parts of 'audio' (to hear)",
+        "scio, scire, scivi, scitum": "These are the principal parts of 'scio' (to know)",
+        "sentio, sentire, sensi, sensum": "These are the principal parts of 'sentio' (to feel)"
+      }
+    },
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "homo = a man / a human (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'hominem'",
+        "ablative": "The ablative would be 'homine'",
+        "dative": "The dative would be 'homini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a",
+        "2nd declension": "2nd declension nouns typically end in -us or -um",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of the second 'videt' translates to?",
+      "target": "to see",
+      "choices": ["to see", "to think", "to believe", "to look at"],
+      "reveal": null,
+      "hints": {
+        "to think": "That would be the infinitive of 'cogitare'",
+        "to believe": "That would be the infinitive of 'credere'",
+        "to look at": "That would be the infinitive of 'spectare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is the second 'videt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "videt = he/she sees",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'vidit'",
+        "present subjunctive": "The present subjunctive would be 'videat'",
+        "imperfect indicative": "The imperfect would be 'videbat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'videt'?",
+      "target": "video, videre, vidi, visum",
+      "choices": ["video, videre, vidi, visum", "habeo, habere, habui, habitum", "moveo, movere, movi, motum", "iubeo, iubere, iussi, iussum"],
+      "reveal": null,
+      "hints": {
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habeo' (to have)",
+        "moveo, movere, movi, motum": "These are the principal parts of 'moveo' (to move)",
+        "iubeo, iubere, iussi, iussum": "These are the principal parts of 'iubeo' (to order)"
+      }
+    }
+  ],
+  "translation": "The Lord does not see as man sees"
+}

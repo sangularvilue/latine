@@ -1,0 +1,108 @@
+{
+  "id": "vot-prv-24-5",
+  "source": "Vulgate",
+  "reference": "Proverbs 24:5",
+  "latin": ["Vir", "sapiens", "et", "fortis", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'vir'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "vir = a man (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'virum'",
+        "ablative": "The ablative would be 'viro'",
+        "genitive": "The genitive would be 'viri'"
+      }
+    },
+    {
+      "prompt": "What declension is 'vir'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have -is in the genitive; 'vir' has gen. 'viri'",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "What case is 'sapiens'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "sapiens = wise (nom.)",
+      "hints": {
+        "accusative": "The accusative masculine would be 'sapientem'",
+        "ablative": "The ablative would be 'sapienti' or 'sapiente'",
+        "genitive": "The genitive would be 'sapientis'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'sapiens' follow?",
+      "target": "3rd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st/2nd declension adjective": "1st/2nd declension adjectives have forms like -us, -a, -um",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Sapiens' clearly declines: sapiens, sapientis, sapienti, etc."
+      }
+    },
+    {
+      "prompt": "What case is 'fortis'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "fortis = strong / brave (nom.)",
+      "hints": {
+        "genitive": "'Fortis' can be genitive singular, but here it is nominative modifying 'vir'",
+        "accusative": "The accusative masculine would be 'fortem'",
+        "ablative": "The ablative would be 'forti'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'fortis' follow?",
+      "target": "3rd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "1st/2nd declension adjective": "1st/2nd declension adjectives have -us/-a/-um endings",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Fortis' clearly declines: fortis, forte, fortis (gen.), etc."
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to exist", "to have", "to seem"],
+      "reveal": null,
+      "hints": {
+        "to exist": "While 'esse' can mean 'to exist,' the standard translation of the infinitive is 'to be'",
+        "to have": "That would be the infinitive of 'habere'",
+        "to seem": "That would be the infinitive of 'videri'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "est = he/it is",
+      "hints": {
+        "perfect indicative": "The perfect of 'esse' would be 'fuit'",
+        "present subjunctive": "The present subjunctive would be 'sit'",
+        "imperfect indicative": "The imperfect would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "fio, fieri, factus sum, —", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)"
+      }
+    }
+  ],
+  "translation": "A wise man is strong"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "caesar-bg-1-07b",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.7",
+  "latin": ["Ubi", "de", "eius", "adventu", "Helvetii", "certiores", "facti", "sunt"],
+  "steps": [
+    {
+      "prompt": "What does 'Ubi' mean here?",
+      "target": "when",
+      "choices": ["when", "where", "how", "because"],
+      "reveal": null,
+      "hints": {
+        "where": "'Ubi' can mean 'where', but with a perfect verb it means 'when'",
+        "how": "'How' would be 'quomodo' — 'ubi' here is temporal, meaning 'when'",
+        "because": "'Because' would be 'quod' or 'quia' — 'ubi' means 'when' here"
+      }
+    },
+    {
+      "prompt": "What case is 'eius'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "accusative"],
+      "reveal": "eius = of his/of him (gen. sg.)",
+      "hints": {
+        "nominative": "Nominative would be 'is' — 'eius' is genitive singular",
+        "dative": "Dative would be 'ei' — 'eius' with -ius is genitive singular",
+        "accusative": "Accusative would be 'eum' — 'eius' is genitive singular"
+      }
+    },
+    {
+      "prompt": "What case is 'adventu'?",
+      "target": "ablative",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "adventu = arrival (abl. sg., after 'de')",
+      "hints": {
+        "nominative": "Nominative would be 'adventus' — 'adventu' is ablative after the preposition 'de'",
+        "genitive": "Genitive would be 'adventus' (same as nom.) — 'adventu' with -u is ablative",
+        "dative": "Dative would be 'adventui' — 'adventu' is ablative, governed by 'de'"
+      }
+    },
+    {
+      "prompt": "What declension is 'adventus, adventus'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'adventus' with gen. -ūs is 4th declension",
+        "3rd declension": "3rd declension has genitive in -is — 'adventus' with gen. -ūs is 4th declension",
+        "5th declension": "5th declension has genitive in -ei — 'adventus' with gen. -ūs is 4th declension"
+      }
+    },
+    {
+      "prompt": "What case is 'Helvetii'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Helvetii = the Helvetii (nom. pl.)",
+      "hints": {
+        "genitive": "Genitive plural would be 'Helvetiorum' — 'Helvetii' is nominative plural",
+        "dative": "Dative plural would be 'Helvetiis' — 'Helvetii' is nominative, the subject",
+        "vocative": "Caesar is narrating, not addressing the Helvetii"
+      }
+    },
+    {
+      "prompt": "What declension is 'Helvetii, Helvetiorum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive plural in -arum — 'Helvetiorum' with -orum is 2nd declension",
+        "3rd declension": "3rd declension has genitive plural in -um/-ium — 'Helvetiorum' is 2nd declension",
+        "4th declension": "4th declension has genitive plural in -uum — 'Helvetiorum' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What form is 'certiores'?",
+      "target": "comparative accusative plural",
+      "choices": ["comparative accusative plural", "positive nominative plural", "superlative accusative plural", "comparative genitive singular"],
+      "reveal": "certiores = more certain/informed (acc. pl.)",
+      "hints": {
+        "positive nominative plural": "Positive nominative plural would be 'certi' — 'certiores' with -iores is comparative",
+        "superlative accusative plural": "Superlative would be 'certissimos' — 'certiores' is comparative",
+        "comparative genitive singular": "Comparative genitive singular would be 'certioris' — 'certiores' is accusative plural"
+      }
+    },
+    {
+      "prompt": "What form is 'facti'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "gerundive", "perfect active indicative"],
+      "reveal": "facti = having been made (nom. masc. pl.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'facientes' — 'facti' with -ti is perfect passive",
+        "gerundive": "Gerundive would be 'faciendi' — 'facti' is perfect passive participle",
+        "perfect active indicative": "'Facti' is a participle agreeing with 'Helvetii', not a finite verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'facti sunt' translates to?",
+      "target": "to make/do",
+      "choices": ["to make/do", "to carry", "to speak", "to become"],
+      "reveal": null,
+      "hints": {
+        "to carry": "That would be 'ferre' — 'facti sunt' comes from 'facere' (to make/do)",
+        "to speak": "That would be 'fari' — 'facti sunt' comes from 'facere' (to make/do)",
+        "to become": "That would be 'fieri' — while related, 'facere' means 'to make/do'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'facti sunt'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect passive subjunctive"],
+      "reveal": "facti sunt = they were made/informed",
+      "hints": {
+        "present passive indicative": "Present passive would use 'fiunt' — 'facti sunt' with participle + 'sunt' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'facti erant' — 'facti sunt' is perfect",
+        "perfect passive subjunctive": "Perfect passive subjunctive would be 'facti sint' — 'facti sunt' with indicative 'sunt' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'facti sunt'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "fero, ferre, tuli, latum", "for, fari, fatus sum", "fugio, fugere, fugi, fugitum"],
+      "reveal": null,
+      "hints": {
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry/bear)",
+        "for, fari, fatus sum": "These are the parts of 'fari' (to speak)",
+        "fugio, fugere, fugi, fugitum": "These are the parts of 'fugere' (to flee)"
+      }
+    }
+  ],
+  "translation": "When the Helvetii were informed about his arrival"
+}

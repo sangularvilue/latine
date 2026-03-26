@@ -1,0 +1,130 @@
+{
+  "id": "hymn-dies-irae-1",
+  "source": "Hymn",
+  "reference": "Dies Irae 1",
+  "latin": ["Dies", "irae", "dies", "illa", "solvet", "saeclum", "in", "favilla"],
+  "steps": [
+    {
+      "prompt": "What case is 'dies' (first occurrence)?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "dies", "gloss": "day" },
+      "hints": {
+        "Genitive": "Genitive of 'dies' would be 'diei' — 'dies' here is the nominative subject",
+        "Accusative": "While 'dies' can be accusative, here it is the nominative subject of 'solvet'",
+        "Ablative": "Ablative of 'dies' would be 'die' — 'dies' here is the nominative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'dies, diei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'diei' ends in -ei",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'diei' ends in -ei",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'diei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What case is 'irae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "irae", "gloss": "of wrath" },
+      "hints": {
+        "Nominative": "While 'irae' could be nominative plural, here it is genitive singular modifying 'dies'",
+        "Dative": "While 'irae' could be dative, here it is genitive singular meaning 'of wrath'",
+        "Ablative": "Ablative of 'ira' would be 'ira' — 'irae' is the genitive singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'ira, irae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'irae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'irae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'irae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'solvet' translates to?",
+      "target": "to dissolve / to release",
+      "choices": ["to dissolve / to release", "to save", "to solve", "to destroy"],
+      "reveal": null,
+      "hints": {
+        "to save": "'to save' is 'servare' — 'solvet' comes from 'solvere'",
+        "to solve": "While 'solvere' can mean 'to solve' in English derivatives, the Latin means 'to dissolve/release'",
+        "to destroy": "'to destroy' is 'destruere' — 'solvet' comes from 'solvere' (to dissolve)"
+      }
+    },
+    {
+      "prompt": "What tense is 'solvet'?",
+      "target": "Future",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "solvet", "gloss": "will dissolve" },
+      "hints": {
+        "Present": "Present 3rd sg. would be 'solvit' — 'solvet' has the -e- future marker of 3rd conjugation",
+        "Imperfect": "Imperfect 3rd sg. would be 'solvebat' — 'solvet' is future tense",
+        "Perfect": "Perfect 3rd sg. would be 'solvit' — 'solvet' has the -e- future marker"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'solvet'?",
+      "target": "solvo, solvere, solvi, solutum",
+      "choices": ["solvo, solvere, solvi, solutum", "servo, servare, servavi, servatum", "volvo, volvere, volvi, volutum", "absolvo, absolvere, absolvi, absolutum"],
+      "reveal": null,
+      "hints": {
+        "servo, servare, servavi, servatum": "These are the principal parts of 'servare' (to save/keep)",
+        "volvo, volvere, volvi, volutum": "These are the principal parts of 'volvere' (to roll)",
+        "absolvo, absolvere, absolvi, absolutum": "These are the principal parts of 'absolvere' (to absolve) — 'solvet' is from the simplex 'solvere'"
+      }
+    },
+    {
+      "prompt": "What case is 'saeclum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "saeclum", "gloss": "the world / the age" },
+      "hints": {
+        "Nominative": "While 'saeclum' could be nominative neuter, here it is the direct object of 'solvet'",
+        "Genitive": "Genitive of 'saeclum' would be 'saecli' — 'saeclum' is nominative or accusative",
+        "Ablative": "Ablative of 'saeclum' would be 'saeclo' — 'saeclum' is the accusative object of 'solvet'"
+      }
+    },
+    {
+      "prompt": "What declension is 'saeclum, saecli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'saecli' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'saecli' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'saecli' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'favilla'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "favilla", "gloss": "ash / embers" },
+      "hints": {
+        "Nominative": "While 'favilla' looks like nominative, here it follows 'in' and is ablative (in + abl. = 'in/into ashes')",
+        "Genitive": "Genitive of 'favilla' would be 'favillae' — 'favilla' after 'in' is ablative",
+        "Accusative": "Accusative of 'favilla' would be 'favillam' — 'favilla' here is ablative after 'in'"
+      }
+    },
+    {
+      "prompt": "What declension is 'favilla, favillae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'favillae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'favillae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'favillae' ends in -ae"
+      }
+    }
+  ],
+  "translation": "The day of wrath, that day, will dissolve the world in ashes"
+}

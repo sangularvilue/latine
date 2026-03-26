@@ -1,0 +1,130 @@
+{
+  "id": "virgil-ecl-10-69",
+  "source": "Virgil",
+  "reference": "Eclogues X.69",
+  "latin": ["Omnia", "vincit", "Amor", "et", "nos", "cedamus", "Amori"],
+  "steps": [
+    {
+      "prompt": "What case is 'Omnia'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "Omnia = all things (acc. pl. neut., object of 'vincit')",
+      "hints": {
+        "nominative": "While 'omnia' could be nom. pl. neut., here it is accusative, object of 'vincit'",
+        "ablative": "Ablative plural would be 'omnibus' — 'omnia' is accusative",
+        "genitive": "Genitive plural would be 'omnium' — 'omnia' is accusative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vincit' translates to?",
+      "target": "to conquer",
+      "choices": ["to conquer", "to bind", "to live", "to avenge"],
+      "reveal": null,
+      "hints": {
+        "to bind": "That would be 'vincire' — 'vincit' comes from 'vincere' (to conquer)",
+        "to live": "That would be 'vivere' — 'vincit' comes from 'vincere' (to conquer)",
+        "to avenge": "That would be 'vindicare' — 'vincit' comes from 'vincere' (to conquer)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'vincit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "vincit = conquers",
+      "hints": {
+        "perfect indicative": "Perfect would be 'vicit' — 'vincit' with -i- is present indicative (3rd conj.)",
+        "present subjunctive": "Present subjunctive would be 'vincat' — 'vincit' is present indicative",
+        "future indicative": "Future would be 'vincet' — 'vincit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vincit'?",
+      "target": "vinco, vincere, vici, victum",
+      "choices": ["vinco, vincere, vici, victum", "vincio, vincire, vinxi, vinctum", "vivo, vivere, vixi, victum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "vincio, vincire, vinxi, vinctum": "These are the parts of 'vincire' (to bind)",
+        "vivo, vivere, vixi, victum": "These are the parts of 'vivere' (to live)",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see)"
+      }
+    },
+    {
+      "prompt": "What case is 'Amor'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "ablative"],
+      "reveal": "Amor = Love (nom. sg., subject of 'vincit')",
+      "hints": {
+        "accusative": "Accusative would be 'Amorem' — 'Amor' is nominative, the subject",
+        "vocative": "While vocative of 3rd decl. looks like nom., 'Amor' is the subject of 'vincit' here",
+        "ablative": "Ablative would be 'Amore' — 'Amor' is nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'nos'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "nos = we (nom. pl., subject of 'cedamus')",
+      "hints": {
+        "accusative": "While 'nos' can be accusative, here it is nominative, subject of 'cedamus'",
+        "ablative": "Ablative would be 'nobis' — 'nos' is nominative here",
+        "dative": "Dative would be 'nobis' — 'nos' is nominative, subject of 'cedamus'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cedamus' translates to?",
+      "target": "to yield",
+      "choices": ["to yield", "to cut", "to fall", "to sing"],
+      "reveal": null,
+      "hints": {
+        "to cut": "That would be 'caedere' — 'cedamus' comes from 'cedere' (to yield/give way)",
+        "to fall": "That would be 'cadere' — 'cedamus' comes from 'cedere' (to yield)",
+        "to sing": "That would be 'canere' — 'cedamus' comes from 'cedere' (to yield)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'cedamus'?",
+      "target": "present subjunctive",
+      "choices": ["present subjunctive", "present indicative", "future indicative", "imperfect subjunctive"],
+      "reveal": "cedamus = let us yield (hortatory subjunctive)",
+      "hints": {
+        "present indicative": "Present indicative would be 'cedimus' — 'cedamus' with -a- is subjunctive (3rd conj.)",
+        "future indicative": "Future would be 'cedemus' — 'cedamus' is present subjunctive (hortatory)",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'cederemus' — 'cedamus' is present subjunctive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cedamus'?",
+      "target": "cedo, cedere, cessi, cessum",
+      "choices": ["cedo, cedere, cessi, cessum", "caedo, caedere, cecidi, caesum", "cado, cadere, cecidi, casum", "cano, canere, cecini, cantum"],
+      "reveal": null,
+      "hints": {
+        "caedo, caedere, cecidi, caesum": "These are the parts of 'caedere' (to cut/kill)",
+        "cado, cadere, cecidi, casum": "These are the parts of 'cadere' (to fall)",
+        "cano, canere, cecini, cantum": "These are the parts of 'canere' (to sing)"
+      }
+    },
+    {
+      "prompt": "What case is 'Amori'?",
+      "target": "dative",
+      "choices": ["dative", "nominative", "genitive", "ablative"],
+      "reveal": "Amori = to Love (dat. sg., 'cedere' takes dative)",
+      "hints": {
+        "nominative": "Nominative would be 'Amor' — 'Amori' with -i is dative singular",
+        "genitive": "Genitive would be 'Amoris' — 'Amori' is dative",
+        "ablative": "Ablative would be 'Amore' — 'Amori' is dative, required by 'cedere'"
+      }
+    },
+    {
+      "prompt": "What declension is 'amor, amoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'amoris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'amoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'amoris' ends in -is"
+      }
+    }
+  ],
+  "translation": "Love conquers all; let us too yield to Love"
+}

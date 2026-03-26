@@ -1,0 +1,119 @@
+{
+  "id": "vot-is-7-14",
+  "source": "Vulgate",
+  "reference": "Isaiah 7:14",
+  "latin": ["Ecce", "virgo", "concipiet", "et", "pariet", "filium"],
+  "steps": [
+    {
+      "prompt": "What case is 'virgo'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "virgo = a virgin (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'virginem'",
+        "ablative": "The ablative would be 'virgine'",
+        "dative": "The dative would be 'virgini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'virgo'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a; 'virgo' has gen. 'virginis'",
+        "2nd declension": "2nd declension nouns end in -us/-um in the nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'concipiet' translates to?",
+      "target": "to conceive",
+      "choices": ["to conceive", "to receive", "to take", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to receive": "That would be the infinitive of 'accipere'",
+        "to take": "That would be the infinitive of 'capere'",
+        "to carry": "That would be the infinitive of 'ferre'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'concipiet'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "concipiet = she will conceive",
+      "hints": {
+        "present indicative": "The present indicative would be 'concipit'",
+        "present subjunctive": "The present subjunctive would be 'concipiat'",
+        "perfect indicative": "The perfect indicative would be 'concepit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'concipiet'?",
+      "target": "concipio, concipere, concepi, conceptum",
+      "choices": ["concipio, concipere, concepi, conceptum", "capio, capere, cepi, captum", "accipio, accipere, accepi, acceptum", "recipio, recipere, recepi, receptum"],
+      "reveal": null,
+      "hints": {
+        "capio, capere, cepi, captum": "These are the principal parts of 'capio' (to take)",
+        "accipio, accipere, accepi, acceptum": "These are the principal parts of 'accipio' (to receive)",
+        "recipio, recipere, recepi, receptum": "These are the principal parts of 'recipio' (to take back)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'pariet' translates to?",
+      "target": "to give birth / to bear",
+      "choices": ["to give birth / to bear", "to prepare", "to obey", "to appear"],
+      "reveal": null,
+      "hints": {
+        "to prepare": "That would be the infinitive of 'parare'",
+        "to obey": "That would be the infinitive of 'parere' (2nd conj., different verb)",
+        "to appear": "That would be the infinitive of 'apparere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'pariet'?",
+      "target": "future indicative",
+      "choices": ["future indicative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "pariet = she will bear / give birth to",
+      "hints": {
+        "present indicative": "The present indicative would be 'parit'",
+        "present subjunctive": "The present subjunctive would be 'pariat'",
+        "perfect indicative": "The perfect indicative would be 'peperit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'pariet'?",
+      "target": "pario, parere, peperi, partum",
+      "choices": ["pario, parere, peperi, partum", "paro, parare, paravi, paratum", "pareo, parere, parui, paritum", "aperio, aperire, aperui, apertum"],
+      "reveal": null,
+      "hints": {
+        "paro, parare, paravi, paratum": "These are the principal parts of 'paro' (to prepare)",
+        "pareo, parere, parui, paritum": "These are the principal parts of 'pareo' (to obey)",
+        "aperio, aperire, aperui, apertum": "These are the principal parts of 'aperio' (to open)"
+      }
+    },
+    {
+      "prompt": "What case is 'filium'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "filium = a son (acc.)",
+      "hints": {
+        "nominative": "The nominative would be 'filius'",
+        "ablative": "The ablative would be 'filio'",
+        "dative": "The dative would be 'filio'"
+      }
+    },
+    {
+      "prompt": "What declension is 'filium'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension accusative singular ends in -em",
+        "4th declension": "4th declension accusative singular ends in -um but nom. gen. differ"
+      }
+    }
+  ],
+  "translation": "Behold, a virgin shall conceive and bear a son"
+}

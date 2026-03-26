@@ -1,0 +1,75 @@
+{
+  "id": "hymn-te-deum-14",
+  "source": "Hymn",
+  "reference": "Te Deum 14",
+  "latin": ["Tu", "rex", "gloriae", "Christe"],
+  "steps": [
+    {
+      "prompt": "What case is 'rex'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "rex", "gloss": "king" },
+      "hints": {
+        "Genitive": "Genitive of 'rex' would be 'regis' — 'rex' is the nominative form",
+        "Accusative": "Accusative of 'rex' would be 'regem' — 'rex' is the nominative form",
+        "Vocative": "Vocative of 'rex' is the same as nominative — but here 'rex' functions as a predicate nominative with 'Tu'"
+      }
+    },
+    {
+      "prompt": "What declension is 'rex, regis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'regis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'regis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'regis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'gloriae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "gloriae", "gloss": "of glory" },
+      "hints": {
+        "Nominative": "Nominative singular is 'gloria' — 'gloriae' with -ae ending is genitive singular here",
+        "Dative": "While 'gloriae' could be dative, here it modifies 'rex' as a genitive of description",
+        "Ablative": "Ablative of 'gloria' would be 'gloria' — 'gloriae' has the -ae genitive ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'gloria, gloriae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'gloriae' ends in -ae",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'gloriae' ends in -ae",
+        "5th declension": "5th declension nouns have genitive in -ei — 'gloriae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'Christe'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Christe", "gloss": "O Christ" },
+      "hints": {
+        "Nominative": "Nominative would be 'Christus' — 'Christe' has the -e vocative ending of 2nd declension",
+        "Genitive": "Genitive of 'Christus' would be 'Christi' — 'Christe' is the vocative form",
+        "Accusative": "Accusative of 'Christus' would be 'Christum' — 'Christe' is the vocative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'Christus, Christi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'Christi' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'Christi' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'Christi' ends in -i"
+      }
+    }
+  ],
+  "translation": "You are the King of glory, O Christ"
+}

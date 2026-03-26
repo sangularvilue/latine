@@ -1,0 +1,163 @@
+{
+  "id": "boethius-cons-2-m8",
+  "source": "Boethius",
+  "reference": "Consolation of Philosophy II.m8",
+  "latin": ["O", "felix", "hominum", "genus", "si", "vestros", "animos", "amor", "quo", "caelum", "regitur", "regat"],
+  "steps": [
+    {
+      "prompt": "What case is 'hominum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Accusative", "Genitive", "Dative"],
+      "reveal": { "word": "hominum", "gloss": "of humans" },
+      "hints": {
+        "Nominative": "Nominative would be 'homines' — 'hominum' with -um is genitive plural",
+        "Accusative": "Accusative plural would be 'homines' — 'hominum' is genitive",
+        "Dative": "Dative plural would be 'hominibus' — 'hominum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "Declension of 'hominum'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive plural ends in -arum — 'hominum' with -um is 3rd declension",
+        "2nd": "2nd declension genitive plural ends in -orum — 'hominum' is 3rd declension",
+        "4th": "4th declension genitive plural ends in -uum — 'hominum' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'genus'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Vocative", "Accusative", "Ablative"],
+      "reveal": { "word": "genus", "gloss": "O race" },
+      "hints": {
+        "Nominative": "While the form is the same, 'O' signals direct address — this is vocative",
+        "Accusative": "Accusative of neuter 'genus' is the same form, but 'O' marks it as vocative",
+        "Ablative": "Ablative would be 'genere' — 'genus' here is vocative with 'O'"
+      }
+    },
+    {
+      "prompt": "Declension of 'genus'?",
+      "target": "3rd",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension neuters end in -um — 'genus, generis' is 3rd declension neuter",
+        "4th": "4th declension nouns end in -us/-u with different genitive — 'genus, generis' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'genus' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'animos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "animos", "gloss": "minds / spirits" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'animi' — 'animos' with -os is accusative plural",
+        "Ablative": "Ablative plural would be 'animis' — 'animos' is accusative",
+        "Genitive": "Genitive plural would be 'animorum' — 'animos' is accusative plural"
+      }
+    },
+    {
+      "prompt": "Declension of 'animos'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension accusative plural ends in -as — 'animos' with -os is 2nd declension",
+        "3rd": "3rd declension accusative plural ends in -es — 'animos' is 2nd declension",
+        "4th": "4th declension accusative plural ends in -us — 'animos' with -os is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'amor'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "amor", "gloss": "love" },
+      "hints": {
+        "Accusative": "Accusative would be 'amorem' — 'amor' is nominative, subject of 'regat'",
+        "Vocative": "'amor' is not being addressed — it is the subject of the conditional clause",
+        "Ablative": "Ablative would be 'amore' — 'amor' is nominative"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'regitur' translates to?",
+      "target": "to rule / govern",
+      "choices": ["to rule / govern", "to lead back", "to ask", "to straighten"],
+      "reveal": null,
+      "hints": {
+        "to lead back": "'to lead back' is 'reducere' — 'regitur' comes from 'regere' (to rule)",
+        "to ask": "'to ask' is 'rogare' — do not confuse with 'regere'",
+        "to straighten": "'to straighten' is 'dirigere' — 'regere' means to rule or govern"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'regitur'?",
+      "target": "Present passive indicative",
+      "choices": ["Present active indicative", "Present passive indicative", "Present passive subjunctive", "Perfect passive indicative"],
+      "reveal": { "word": "regitur", "gloss": "is ruled" },
+      "hints": {
+        "Present active indicative": "Active would be 'regit' — 'regitur' with -tur is passive",
+        "Present passive subjunctive": "Passive subjunctive would be 'regatur' — 'regitur' is indicative",
+        "Perfect passive indicative": "Perfect passive would be 'rectum est' — 'regitur' is present passive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'regitur'?",
+      "target": "rego, regere, rexi, rectum",
+      "choices": ["rego, regere, rexi, rectum", "rex, regis (noun)", "reduco, reducere, reduxi, reductum", "rogo, rogare, rogavi, rogatum"],
+      "reveal": null,
+      "hints": {
+        "rex, regis (noun)": "'rex' is a noun (king) — 'regitur' is a verb form from 'regere' (to rule)",
+        "reduco, reducere, reduxi, reductum": "These are the parts of 'reducere' (to lead back) — a different verb",
+        "rogo, rogare, rogavi, rogatum": "These are the parts of 'rogare' (to ask) — not related to 'regere'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'regat' translates to?",
+      "target": "to rule / govern",
+      "choices": ["to rule / govern", "to give back", "to ask", "to reign"],
+      "reveal": null,
+      "hints": {
+        "to give back": "'to give back' is 'reddere' — 'regat' comes from 'regere'",
+        "to ask": "'to ask' is 'rogare' — 'regat' is from 'regere' (to rule)",
+        "to reign": "'to reign' is 'regnare' — 'regere' means to rule/direct (active governing)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'regat'?",
+      "target": "Present subjunctive",
+      "choices": ["Present indicative", "Present subjunctive", "Imperfect subjunctive", "Future indicative"],
+      "reveal": { "word": "regat", "gloss": "would rule" },
+      "hints": {
+        "Present indicative": "Present indicative would be 'regit' — 'regat' with -at is subjunctive",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'regeret' — 'regat' is present subjunctive",
+        "Future indicative": "Future would be 'reget' — 'regat' is present subjunctive in a wish"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'regat'?",
+      "target": "rego, regere, rexi, rectum",
+      "choices": ["rego, regere, rexi, rectum", "regno, regnare, regnavi, regnatum", "reddo, reddere, reddidi, redditum", "rogo, rogare, rogavi, rogatum"],
+      "reveal": null,
+      "hints": {
+        "regno, regnare, regnavi, regnatum": "These are the parts of 'regnare' (to reign) — a different verb from 'regere'",
+        "reddo, reddere, reddidi, redditum": "These are the parts of 'reddere' (to give back) — not related",
+        "rogo, rogare, rogavi, rogatum": "These are the parts of 'rogare' (to ask) — not related to 'regere'"
+      }
+    },
+    {
+      "prompt": "What case is 'caelum'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "caelum", "gloss": "heaven / the sky" },
+      "hints": {
+        "Accusative": "Accusative neuter is the same form, but 'caelum' is the subject of passive 'regitur'",
+        "Ablative": "Ablative would be 'caelo' — 'caelum' is nominative subject",
+        "Vocative": "This is not addressing heaven — 'caelum' is the subject of 'regitur'"
+      }
+    }
+  ],
+  "translation": "O happy race of mortals, if the love by which heaven is ruled were to rule your minds."
+}

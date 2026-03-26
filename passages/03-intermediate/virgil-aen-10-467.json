@@ -1,0 +1,97 @@
+{
+  "id": "virgil-aen-10-467",
+  "source": "Virgil",
+  "reference": "Aeneid X.467",
+  "latin": ["Stat", "sua", "cuique", "dies", "breve", "et", "inreparabile", "tempus"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Stat' translates to?",
+      "target": "to stand / to be fixed",
+      "choices": ["to stand / to be fixed", "to be", "to place", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to be": "That would be 'esse' — 'Stat' comes from 'stare' (to stand/be fixed)",
+        "to place": "That would be 'statuere' — 'Stat' comes from 'stare' (to stand)",
+        "to remain": "That would be 'manere' — 'Stat' comes from 'stare' (to stand/be fixed)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Stat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "Stat = stands fixed / is appointed",
+      "hints": {
+        "perfect indicative": "Perfect would be 'stetit' — 'stat' is present indicative",
+        "present subjunctive": "Present subjunctive would be 'stet' — 'stat' is present indicative",
+        "future indicative": "Future would be 'stabit' — 'stat' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Stat'?",
+      "target": "sto, stare, steti, statum",
+      "choices": ["sto, stare, steti, statum", "sisto, sistere, stiti, statum", "statuo, statuere, statui, statutum", "sum, esse, fui, futurus"],
+      "reveal": null,
+      "hints": {
+        "sisto, sistere, stiti, statum": "These are the parts of 'sistere' (to cause to stand/stop)",
+        "statuo, statuere, statui, statutum": "These are the parts of 'statuere' (to set up/decide)",
+        "sum, esse, fui, futurus": "These are the parts of 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What case is 'cuique'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "cuique = for each one (dat. sg. of quisque)",
+      "hints": {
+        "ablative": "Ablative would be 'quoque' — 'cuique' is dative singular of 'quisque'",
+        "nominative": "Nominative would be 'quisque' — 'cuique' is dative",
+        "genitive": "Genitive would be 'cuiusque' — 'cuique' is dative"
+      }
+    },
+    {
+      "prompt": "What case is 'dies'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "dies = the day (nom. sg., subject of 'stat')",
+      "hints": {
+        "accusative": "Accusative singular is also 'diem' — 'dies' here is nominative, subject of 'stat'",
+        "genitive": "Genitive would be 'diei' — 'dies' is nominative",
+        "ablative": "Ablative would be 'die' — 'dies' is nominative singular"
+      }
+    },
+    {
+      "prompt": "What declension is 'dies, diei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'diei' ends in -ei (5th declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'diei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'diei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What case is 'tempus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "tempus = time (nom. sg., second subject with 'dies')",
+      "hints": {
+        "accusative": "While 'tempus' can be accusative, here it is nominative, parallel to 'dies' as subject",
+        "genitive": "Genitive would be 'temporis' — 'tempus' is nominative here",
+        "ablative": "Ablative would be 'tempore' — 'tempus' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'tempus, temporis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'temporis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'temporis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'temporis' ends in -is"
+      }
+    }
+  ],
+  "translation": "Each one's own day stands fixed; brief and irreparable is time"
+}

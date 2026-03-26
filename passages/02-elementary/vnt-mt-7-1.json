@@ -1,0 +1,108 @@
+{
+  "id": "vnt-mt-7-1",
+  "source": "Vulgate",
+  "reference": "Matthew 7:1",
+  "latin": ["Nolite", "iudicare", "ut", "non", "iudicemini"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Nolite' translates to?",
+      "target": "to be unwilling",
+      "choices": ["to be unwilling", "to wish", "to know", "to be able"],
+      "reveal": null,
+      "hints": {
+        "to wish": "'Velle' means to wish",
+        "to know": "'Nosse' means to know",
+        "to be able": "'Posse' means to be able"
+      }
+    },
+    {
+      "prompt": "'Nolite' is what tense and mood?",
+      "target": "present imperative active",
+      "choices": ["present imperative active", "present indicative active", "present subjunctive active", "perfect indicative active"],
+      "reveal": { "word": "Nolite", "gloss": "Do not" },
+      "hints": {
+        "present indicative active": "The indicative would be 'non vultis'; 'nolite' is a command",
+        "present subjunctive active": "The subjunctive would be 'nolitis'",
+        "perfect indicative active": "The perfect would be 'noluistis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Nolite'?",
+      "target": "nolo, nolle, nolui, —",
+      "choices": ["nolo, nolle, nolui, —", "nolo, nolare, nolavi, nolatus", "nolo, nolere, nolui, nolitus", "nollo, nollere, noxi, noxus"],
+      "reveal": null,
+      "hints": {
+        "nolo, nolare, nolavi, nolatus": "'Nolle' is irregular, not a regular 1st conjugation verb",
+        "nolo, nolere, nolui, nolitus": "The infinitive is 'nolle', not 'nolere'",
+        "nollo, nollere, noxi, noxus": "The first part is 'nolo' and infinitive is 'nolle'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'iudicare' translates to?",
+      "target": "to judge",
+      "choices": ["to judge", "to help", "to swear", "to command"],
+      "reveal": null,
+      "hints": {
+        "to help": "'Iuvare' means to help",
+        "to swear": "'Iurare' means to swear",
+        "to command": "'Iubere' means to command"
+      }
+    },
+    {
+      "prompt": "'iudicare' is what tense and mood?",
+      "target": "present infinitive active",
+      "choices": ["present infinitive active", "present indicative active", "present imperative active", "future infinitive active"],
+      "reveal": { "word": "iudicare", "gloss": "judge" },
+      "hints": {
+        "present indicative active": "A finite verb would need a personal ending",
+        "present imperative active": "The imperative would be 'iudica' (sg.) or 'iudicate' (pl.)",
+        "future infinitive active": "The future infinitive would be 'iudicaturum esse'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iudicare'?",
+      "target": "iudico, iudicare, iudicavi, iudicatus",
+      "choices": ["iudico, iudicare, iudicavi, iudicatus", "iudico, iudicere, iudixi, iudixus", "iudico, iudicare, iudici, iudicitus", "iudico, iudicire, iudicivi, iudicitus"],
+      "reveal": null,
+      "hints": {
+        "iudico, iudicere, iudixi, iudixus": "This is a 1st conjugation verb with -are infinitive",
+        "iudico, iudicare, iudici, iudicitus": "The perfect is formed regularly as 'iudicavi'",
+        "iudico, iudicire, iudicivi, iudicitus": "The infinitive ends in -are, not -ire"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'iudicemini' translates to?",
+      "target": "to judge",
+      "choices": ["to judge", "to condemn", "to bind", "to send"],
+      "reveal": null,
+      "hints": {
+        "to condemn": "'Damnare' means to condemn",
+        "to bind": "'Ligare' means to bind",
+        "to send": "'Mittere' means to send"
+      }
+    },
+    {
+      "prompt": "'iudicemini' is what tense and mood?",
+      "target": "present subjunctive passive",
+      "choices": ["present subjunctive passive", "present indicative passive", "imperfect subjunctive passive", "future indicative passive"],
+      "reveal": { "word": "iudicemini", "gloss": "you be judged" },
+      "hints": {
+        "present indicative passive": "The indicative would be 'iudicamini'",
+        "imperfect subjunctive passive": "The imperfect subjunctive would be 'iudicaremini'",
+        "future indicative passive": "The future passive would be 'iudicabimini'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iudicemini'?",
+      "target": "iudico, iudicare, iudicavi, iudicatus",
+      "choices": ["iudico, iudicare, iudicavi, iudicatus", "iudicor, iudicari, iudicatus sum, —", "iudico, iudicere, iudixi, iudictus", "iudico, iudicare, iudicui, iudicutus"],
+      "reveal": null,
+      "hints": {
+        "iudicor, iudicari, iudicatus sum, —": "Principal parts are given in the active voice",
+        "iudico, iudicere, iudixi, iudictus": "This is a regular 1st conjugation verb with -are infinitive",
+        "iudico, iudicare, iudicui, iudicutus": "The perfect is 'iudicavi', following regular 1st conjugation"
+      }
+    }
+  ],
+  "translation": "Do not judge, so that you may not be judged."
+}

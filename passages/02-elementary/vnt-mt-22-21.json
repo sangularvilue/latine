@@ -1,0 +1,119 @@
+{
+  "id": "vnt-mt-22-21",
+  "source": "Vulgate",
+  "reference": "Matthew 22:21",
+  "latin": ["Reddite", "Caesari", "quae", "sunt", "Caesaris"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Reddite' translates to?",
+      "target": "to give back",
+      "choices": ["to give back", "to give", "to take", "to send"],
+      "reveal": null,
+      "hints": {
+        "to give": "'Dare' means to give; 'reddere' means to give back",
+        "to take": "'Capere' means to take",
+        "to send": "'Mittere' means to send"
+      }
+    },
+    {
+      "prompt": "'Reddite' is what tense and mood?",
+      "target": "present imperative active",
+      "choices": ["present imperative active", "present indicative active", "present subjunctive active", "perfect indicative active"],
+      "reveal": { "word": "Reddite", "gloss": "Render" },
+      "hints": {
+        "present indicative active": "The indicative would be 'redditis'",
+        "present subjunctive active": "The subjunctive would be 'reddatis'",
+        "perfect indicative active": "The perfect would be 'reddidistis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Reddite'?",
+      "target": "reddo, reddere, reddidi, redditus",
+      "choices": ["reddo, reddere, reddidi, redditus", "reddo, reddare, reddavi, reddatus", "reddo, reddere, reddi, reddtus", "reddo, reddire, reddivi, redditus"],
+      "reveal": null,
+      "hints": {
+        "reddo, reddare, reddavi, reddatus": "'Reddere' is 3rd conjugation, not 1st",
+        "reddo, reddere, reddi, reddtus": "The perfect has reduplication: 'reddidi'",
+        "reddo, reddire, reddivi, redditus": "The infinitive is 'reddere', not 'reddire'"
+      }
+    },
+    {
+      "prompt": "What case is 'Caesari'?",
+      "target": "dative",
+      "choices": ["dative", "nominative", "genitive", "ablative"],
+      "reveal": { "word": "Caesari", "gloss": "to Caesar" },
+      "hints": {
+        "nominative": "The nominative is 'Caesar'",
+        "genitive": "The genitive is 'Caesaris'",
+        "ablative": "The ablative is 'Caesare'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Caesari'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension datives end in -ae",
+        "2nd declension": "2nd declension datives end in -o",
+        "4th declension": "4th declension datives end in -ui"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to go", "to eat"],
+      "reveal": null,
+      "hints": {
+        "to stand": "'Stare' means to stand",
+        "to go": "'Ire' means to go",
+        "to eat": "'Edere' means to eat"
+      }
+    },
+    {
+      "prompt": "'sunt' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "imperfect indicative active", "perfect indicative active"],
+      "reveal": { "word": "sunt", "gloss": "are" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'sint'",
+        "imperfect indicative active": "The imperfect would be 'erant'",
+        "perfect indicative active": "The perfect would be 'fuerunt'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, status", "edo, edere, edi, esus", "eo, ire, ivi, itus"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, status": "'Stare' means to stand, not to be",
+        "edo, edere, edi, esus": "'Edere' means to eat, not to be",
+        "eo, ire, ivi, itus": "'Ire' means to go, not to be"
+      }
+    },
+    {
+      "prompt": "What case is 'Caesaris'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "Caesaris", "gloss": "of Caesar" },
+      "hints": {
+        "nominative": "The nominative is 'Caesar'",
+        "dative": "The dative is 'Caesari'",
+        "ablative": "The ablative is 'Caesare'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Caesaris'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitives end in -ae",
+        "2nd declension": "2nd declension genitives end in -i",
+        "4th declension": "4th declension genitives end in -us"
+      }
+    }
+  ],
+  "translation": "Render to Caesar the things that are Caesar's."
+}

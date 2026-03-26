@@ -1,0 +1,75 @@
+{
+  "id": "vot-eccl-1-9",
+  "source": "Vulgate",
+  "reference": "Ecclesiastes 1:9",
+  "latin": ["Nihil", "sub", "sole", "novum"],
+  "steps": [
+    {
+      "prompt": "What case is 'nihil'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "nihil = nothing (nom.)",
+      "hints": {
+        "accusative": "'Nihil' can also be accusative, but here it is the subject",
+        "ablative": "'Nihil' is indeclinable; context determines its case",
+        "genitive": "'Nihil' is indeclinable and does not have a distinct genitive form"
+      }
+    },
+    {
+      "prompt": "What declension is 'nihil'?",
+      "target": "indeclinable",
+      "choices": ["indeclinable", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have regular -us/-um endings; 'nihil' does not decline",
+        "3rd declension": "3rd declension nouns have -is in the genitive; 'nihil' is indeclinable",
+        "4th declension": "4th declension nouns have -us endings; 'nihil' does not decline"
+      }
+    },
+    {
+      "prompt": "What case is 'sole'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "vocative"],
+      "reveal": "sub sole = under the sun",
+      "hints": {
+        "nominative": "The nominative would be 'sol'",
+        "accusative": "The accusative would be 'solem'",
+        "vocative": "The vocative would be 'sol'"
+      }
+    },
+    {
+      "prompt": "What declension is 'sole'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative ends in -a",
+        "2nd declension": "2nd declension ablative ends in -o",
+        "4th declension": "4th declension ablative ends in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'novum'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "novum = new (nom. neut. sg.)",
+      "hints": {
+        "accusative": "While 'novum' can be accusative, here it is predicate nominative (nothing is new)",
+        "ablative": "The ablative neuter would be 'novo'",
+        "genitive": "The genitive neuter would be 'novi'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'novum' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e; 'novus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Novum' clearly declines: novus, nova, novum"
+      }
+    }
+  ],
+  "translation": "There is nothing new under the sun"
+}

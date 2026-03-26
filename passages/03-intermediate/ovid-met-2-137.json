@@ -1,0 +1,86 @@
+{
+  "id": "ovid-met-2-137",
+  "source": "Ovid",
+  "reference": "Metamorphoses II.137",
+  "latin": ["Medio", "tutissimus", "ibis"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "ibis",
+      "choices": ["Medio", "tutissimus", "ibis", "None"],
+      "reveal": null,
+      "hints": {
+        "Medio": "'Medio' is an adjective/noun in the ablative meaning 'in the middle'",
+        "tutissimus": "'tutissimus' is a superlative adjective meaning 'safest'",
+        "None": "There is a finite verb — 'ibis' is 2nd person singular future of 'ire'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'ibis' translates to?",
+      "target": "to go",
+      "choices": ["to go", "to strike", "to be", "to wish"],
+      "reveal": null,
+      "hints": {
+        "to strike": "'to strike' is 'ferire' — 'ibis' comes from 'ire' (to go)",
+        "to be": "'to be' is 'esse' — 'ibis' comes from 'ire' (to go)",
+        "to wish": "'to wish' is 'velle' — 'ibis' comes from 'ire' (to go)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'ibis'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "ibis", "gloss": "you will go" },
+      "hints": {
+        "Present indicative": "Present 2nd person of 'ire' would be 'is' — 'ibis' has the future -bi- marker",
+        "Present subjunctive": "Present subjunctive would be 'eas'",
+        "Imperfect indicative": "Imperfect would be 'ibas' — 'ibis' with -bis ending is future"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'ibis'?",
+      "target": "eo, ire, ivi, itum",
+      "choices": ["eo, ire, ivi, itum", "sum, esse, fui, futurus", "fero, ferre, tuli, latum", "do, dare, dedi, datum"],
+      "reveal": null,
+      "hints": {
+        "sum, esse, fui, futurus": "These are the principal parts of 'esse' (to be)",
+        "fero, ferre, tuli, latum": "These are the principal parts of 'ferre' (to carry)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)"
+      }
+    },
+    {
+      "prompt": "Case of 'Medio'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "Medio", "gloss": "in the middle (course)" },
+      "hints": {
+        "Nominative": "Nominative neuter of 'medius' would be 'medium' — 'medio' with -o ending is dative or ablative",
+        "Dative": "Dative is possible for 'medio', but here it functions as an ablative of place/route",
+        "Accusative": "Accusative neuter would be 'medium' — 'medio' is ablative"
+      }
+    },
+    {
+      "prompt": "Declension of 'medium' (as a substantive noun)?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'medium' with -um ending is 2nd declension neuter",
+        "3rd": "3rd declension has varied endings — 'medium' is a standard 2nd declension neuter noun",
+        "4th": "4th declension nouns have genitive -us — 'medium' has genitive 'medii'"
+      }
+    },
+    {
+      "prompt": "What degree is 'tutissimus'?",
+      "target": "Superlative",
+      "choices": ["Positive", "Comparative", "Superlative", "Elative"],
+      "reveal": { "word": "tutissimus", "gloss": "safest / most safe" },
+      "hints": {
+        "Positive": "Positive degree would be 'tutus' — 'tutissimus' with -issimus is superlative",
+        "Comparative": "Comparative would be 'tutior' — 'tutissimus' with -issimus ending is superlative",
+        "Elative": "Elative uses the superlative form but means 'very safe' — here the true superlative 'safest' fits the context"
+      }
+    }
+  ],
+  "translation": "You will go safest in the middle"
+}

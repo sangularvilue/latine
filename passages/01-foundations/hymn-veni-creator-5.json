@@ -1,0 +1,141 @@
+{
+  "id": "hymn-veni-creator-5",
+  "source": "Hymn",
+  "reference": "Veni Creator 5",
+  "latin": ["Accende", "lumen", "sensibus", "infunde", "amorem", "cordibus"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'accende' translates to?",
+      "target": "to kindle / to light",
+      "choices": ["to kindle / to light", "to ascend", "to send", "to burn"],
+      "reveal": null,
+      "hints": {
+        "to ascend": "'to ascend' is 'ascendere' — 'accende' comes from 'accendere'",
+        "to send": "'to send' is 'mittere' — 'accende' comes from 'accendere'",
+        "to burn": "'to burn' is 'ardere' or 'urere' — 'accende' comes from 'accendere' (to kindle)"
+      }
+    },
+    {
+      "prompt": "What mood is 'accende'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "accende", "gloss": "kindle!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'accendis' — 'accende' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'accendas' — 'accende' is the imperative singular",
+        "Infinitive": "Infinitive would be 'accendere' — 'accende' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'accende'?",
+      "target": "accendo, accendere, accendi, accensum",
+      "choices": ["accendo, accendere, accendi, accensum", "ascendo, ascendere, ascendi, ascensum", "ardeo, ardere, arsi, arsum", "incendo, incendere, incendi, incensum"],
+      "reveal": null,
+      "hints": {
+        "ascendo, ascendere, ascendi, ascensum": "These are the principal parts of 'ascendere' (to ascend/climb)",
+        "ardeo, ardere, arsi, arsum": "These are the principal parts of 'ardere' (to burn/blaze)",
+        "incendo, incendere, incendi, incensum": "These are the principal parts of 'incendere' (to set fire to)"
+      }
+    },
+    {
+      "prompt": "What case is 'lumen'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "lumen", "gloss": "light" },
+      "hints": {
+        "Nominative": "While 'lumen' could be nominative neuter, here it is the direct object of 'accende'",
+        "Genitive": "Genitive of 'lumen' would be 'luminis' — 'lumen' is the nom./acc. neuter form",
+        "Ablative": "Ablative of 'lumen' would be 'lumine' — 'lumen' is the accusative object"
+      }
+    },
+    {
+      "prompt": "What declension is 'lumen, luminis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'luminis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'luminis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'luminis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'sensibus'?",
+      "target": "Dative",
+      "choices": ["Nominative", "Dative", "Accusative", "Ablative"],
+      "reveal": { "word": "sensibus", "gloss": "to/for our senses" },
+      "hints": {
+        "Nominative": "Nominative plural of 'sensus' would be 'sensus' — 'sensibus' is dative/ablative plural",
+        "Accusative": "Accusative plural of 'sensus' would be 'sensus' — 'sensibus' is dative plural here",
+        "Ablative": "While 'sensibus' could be ablative, here it is dative: 'kindle a light for our senses'"
+      }
+    },
+    {
+      "prompt": "What declension is 'sensus, sensus'?",
+      "target": "4th declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nouns have genitive in -i — 'sensus' has genitive in -ūs",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'sensus' has genitive in -ūs",
+        "5th declension": "5th declension nouns have genitive in -ei — 'sensus' has genitive in -ūs"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'infunde' translates to?",
+      "target": "to pour in / to infuse",
+      "choices": ["to pour in / to infuse", "to find", "to found", "to pour out"],
+      "reveal": null,
+      "hints": {
+        "to find": "'to find' is 'invenire' — 'infunde' comes from 'infundere'",
+        "to found": "'to found' is 'fundare' — 'infunde' comes from 'infundere' (to pour in)",
+        "to pour out": "'to pour out' is 'effundere' — 'infunde' comes from 'infundere' (to pour in)"
+      }
+    },
+    {
+      "prompt": "What mood is 'infunde'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "infunde", "gloss": "pour in!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'infundis' — 'infunde' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'infundas' — 'infunde' is the imperative singular",
+        "Infinitive": "Infinitive would be 'infundere' — 'infunde' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'infunde'?",
+      "target": "infundo, infundere, infudi, infusum",
+      "choices": ["infundo, infundere, infudi, infusum", "fundo, fundere, fudi, fusum", "fundo, fundare, fundavi, fundatum", "effundo, effundere, effudi, effusum"],
+      "reveal": null,
+      "hints": {
+        "fundo, fundere, fudi, fusum": "These are the principal parts of 'fundere' (to pour) — 'infunde' is the compound 'infundere'",
+        "fundo, fundare, fundavi, fundatum": "These are the principal parts of 'fundare' (to found/establish)",
+        "effundo, effundere, effudi, effusum": "These are the principal parts of 'effundere' (to pour out)"
+      }
+    },
+    {
+      "prompt": "What case is 'amorem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "amorem", "gloss": "love" },
+      "hints": {
+        "Nominative": "Nominative is 'amor' — 'amorem' has the -em accusative ending",
+        "Genitive": "Genitive of 'amor' would be 'amoris' — 'amorem' has the -em accusative ending",
+        "Ablative": "Ablative of 'amor' would be 'amore' — 'amorem' has the -em accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'amor, amoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'amoris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'amoris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'amoris' ends in -is"
+      }
+    }
+  ],
+  "translation": "Kindle a light in our senses, pour love into our hearts"
+}

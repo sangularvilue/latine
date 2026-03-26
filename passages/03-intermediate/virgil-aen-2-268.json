@@ -1,0 +1,119 @@
+{
+  "id": "virgil-aen-2-268",
+  "source": "Virgil",
+  "reference": "Aeneid II.268",
+  "latin": ["Tempus", "erat", "quo", "prima", "quies", "mortalibus", "aegris"],
+  "steps": [
+    {
+      "prompt": "What case is 'Tempus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Tempus = the time (nom. sg., subject of 'erat')",
+      "hints": {
+        "accusative": "While 'tempus' can be accusative, here it is the nominative subject of 'erat'",
+        "genitive": "Genitive would be 'temporis' — 'tempus' is nominative here",
+        "ablative": "Ablative would be 'tempore' — 'tempus' is nominative, subject of 'erat'"
+      }
+    },
+    {
+      "prompt": "What declension is 'tempus, temporis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'temporis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'temporis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'temporis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erat' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to plow"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire' — 'erat' comes from 'esse' (to be)",
+        "to eat": "That would be 'edere' — 'erat' comes from 'esse' (to be)",
+        "to plow": "That would be 'arare' — 'erat' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'erat'?",
+      "target": "imperfect indicative",
+      "choices": ["imperfect indicative", "present indicative", "perfect indicative", "imperfect subjunctive"],
+      "reveal": "erat = it was",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erat' is imperfect indicative of 'esse'",
+        "perfect indicative": "Perfect would be 'fuit' — 'erat' is imperfect indicative",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'esset' — 'erat' is imperfect indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erat'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "edo, edere, edi, esum", "aro, arare, aravi, aratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat)",
+        "aro, arare, aravi, aratum": "These are the parts of 'arare' (to plow)"
+      }
+    },
+    {
+      "prompt": "What case is 'quies'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "quies = rest/sleep (nom. sg.)",
+      "hints": {
+        "accusative": "Accusative would be 'quietem' — 'quies' is nominative singular",
+        "genitive": "Genitive would be 'quietis' — 'quies' is nominative",
+        "ablative": "Ablative would be 'quiete' — 'quies' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'quies, quietis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'quietis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'quietis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'quietis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'mortalibus'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "mortalibus = for weary mortals (dat. pl.)",
+      "hints": {
+        "ablative": "While 'mortalibus' could be ablative, here it is dative of reference — rest 'for' mortals",
+        "nominative": "Nominative plural would be 'mortales' — 'mortalibus' is dative/ablative plural",
+        "genitive": "Genitive plural would be 'mortalium' — 'mortalibus' is dative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'mortalis, mortalis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'mortalis' ends in -is (3rd declension i-stem adj.)",
+        "2nd declension": "2nd declension has genitive in -i — 'mortalis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'mortalis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'aegris'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "aegris = weary/sick (dat. pl., modifying 'mortalibus')",
+      "hints": {
+        "ablative": "While 'aegris' could be ablative, it agrees with 'mortalibus' which is dative here",
+        "nominative": "Nominative plural would be 'aegri' — 'aegris' is dative plural",
+        "genitive": "Genitive plural would be 'aegrorum' — 'aegris' is dative, modifying 'mortalibus'"
+      }
+    }
+  ],
+  "translation": "It was the time when first rest comes to weary mortals"
+}

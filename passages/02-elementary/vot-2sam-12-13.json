@@ -1,0 +1,64 @@
+{
+  "id": "vot-2sam-12-13",
+  "source": "Vulgate",
+  "reference": "2 Samuel 12:13",
+  "latin": ["Peccavi", "Domino"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'peccavi' translates to?",
+      "target": "to sin",
+      "choices": ["to sin", "to fall", "to err", "to suffer"],
+      "reveal": null,
+      "hints": {
+        "to fall": "That would be the infinitive of 'cadere'",
+        "to err": "That would be the infinitive of 'errare'",
+        "to suffer": "That would be the infinitive of 'pati'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'peccavi'?",
+      "target": "perfect indicative",
+      "choices": ["perfect indicative", "present indicative", "pluperfect indicative", "present subjunctive"],
+      "reveal": "peccavi = I have sinned",
+      "hints": {
+        "present indicative": "The present indicative would be 'pecco'",
+        "pluperfect indicative": "The pluperfect would be 'peccaveram'",
+        "present subjunctive": "The present subjunctive would be 'peccem'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'peccavi'?",
+      "target": "pecco, peccare, peccavi, peccatum",
+      "choices": ["pecco, peccare, peccavi, peccatum", "erro, errare, erravi, erratum", "cado, cadere, cecidi, casum", "fallo, fallere, fefelli, falsum"],
+      "reveal": null,
+      "hints": {
+        "erro, errare, erravi, erratum": "These are the principal parts of 'erro' (to wander/err)",
+        "cado, cadere, cecidi, casum": "These are the principal parts of 'cado' (to fall)",
+        "fallo, fallere, fefelli, falsum": "These are the principal parts of 'fallo' (to deceive)"
+      }
+    },
+    {
+      "prompt": "What case is 'Domino'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "Domino = against the Lord (dat.)",
+      "hints": {
+        "ablative": "'Domino' can be ablative, but here it indicates the one sinned against (dative)",
+        "nominative": "The nominative would be 'Dominus'",
+        "genitive": "The genitive would be 'Domini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Domino'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension dative singular would end in -i",
+        "4th declension": "4th declension dative singular would end in -ui"
+      }
+    }
+  ],
+  "translation": "I have sinned against the Lord"
+}

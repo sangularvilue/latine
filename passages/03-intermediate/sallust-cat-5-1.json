@@ -1,0 +1,108 @@
+{
+  "id": "sallust-cat-5-1",
+  "source": "Sallust",
+  "reference": "Bellum Catilinae 5.1",
+  "latin": ["Catilina", "nobili", "genere", "natus", "fuit"],
+  "steps": [
+    {
+      "prompt": "What case is 'Catilina'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "genitive"],
+      "reveal": "Catilina = Catiline (nom.)",
+      "hints": {
+        "ablative": "While 'Catilina' could be ablative (1st decl. masc.), here it is the subject",
+        "vocative": "Sallust is describing Catiline, not addressing him",
+        "genitive": "Genitive would be 'Catilinae' — 'Catilina' is nominative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'Catilina, Catilinae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'Catilinae' with -ae is 1st declension (masculine)",
+        "3rd declension": "3rd declension has genitive in -is — 'Catilinae' with -ae is 1st declension",
+        "5th declension": "5th declension has genitive in -ei — 'Catilinae' with -ae is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'nobili'?",
+      "target": "ablative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "nobili = noble (abl. sg., modifying 'genere')",
+      "hints": {
+        "nominative": "Nominative would be 'nobilis' — 'nobili' with -i is dative/ablative singular",
+        "dative": "While 'nobili' could be dative, here it modifies 'genere' in the ablative of source",
+        "genitive": "Genitive would be 'nobilis' — 'nobili' is ablative here"
+      }
+    },
+    {
+      "prompt": "What case is 'genere'?",
+      "target": "ablative",
+      "choices": ["nominative", "accusative", "ablative", "dative"],
+      "reveal": "genere = from a family/birth (abl. of source)",
+      "hints": {
+        "nominative": "Nominative would be 'genus' — 'genere' with -e is ablative",
+        "accusative": "Accusative would be 'genus' — 'genere' is ablative of source with 'natus'",
+        "dative": "Dative would be 'generi' — 'genere' is ablative"
+      }
+    },
+    {
+      "prompt": "What declension is 'genus, generis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'generis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'generis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'generis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What form is 'natus'?",
+      "target": "perfect participle (deponent)",
+      "choices": ["perfect participle (deponent)", "present active participle", "supine", "gerundive"],
+      "reveal": "natus = born (nom. masc. sg.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'nascens' — 'natus' is perfect participle",
+        "supine": "Supine would be 'natum' — 'natus' is nominative, agreeing with 'Catilina'",
+        "gerundive": "Gerundive would be 'nascendus' — 'natus' is perfect participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'natus fuit' translates to?",
+      "target": "to be born",
+      "choices": ["to be born", "to swim", "to know", "to obtain"],
+      "reveal": null,
+      "hints": {
+        "to swim": "That would be 'natare' — 'natus' comes from 'nasci' (to be born), a deponent",
+        "to know": "That would be 'noscere' — 'natus' comes from 'nasci' (to be born)",
+        "to obtain": "That would be 'nancisci' — 'natus' comes from 'nasci' (to be born)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'natus fuit'?",
+      "target": "perfect indicative (deponent)",
+      "choices": ["perfect indicative (deponent)", "pluperfect indicative", "present indicative", "perfect subjunctive"],
+      "reveal": "natus fuit = he was born",
+      "hints": {
+        "pluperfect indicative": "Pluperfect would be 'natus fuerat' or 'natus erat' — 'natus fuit' is perfect",
+        "present indicative": "Present would be 'nascitur' — 'natus fuit' is perfect indicative",
+        "perfect subjunctive": "Perfect subjunctive would be 'natus fuerit' — 'natus fuit' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'natus fuit'?",
+      "target": "nascor, nasci, natus sum",
+      "choices": ["nascor, nasci, natus sum", "nato, natare, natavi, natatum", "nosco, noscere, novi, notum", "nanciscor, nancisci, nactus sum"],
+      "reveal": null,
+      "hints": {
+        "nato, natare, natavi, natatum": "These are the parts of 'natare' (to swim)",
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to learn/know)",
+        "nanciscor, nancisci, nactus sum": "These are the parts of 'nancisci' (to obtain)"
+      }
+    }
+  ],
+  "translation": "Catiline was born of a noble family"
+}

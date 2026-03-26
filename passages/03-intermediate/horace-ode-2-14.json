@@ -1,0 +1,86 @@
+{
+  "id": "horace-ode-2-14",
+  "source": "Horace",
+  "reference": "Odes II.14",
+  "latin": ["Eheu", "fugaces", "labuntur", "anni"],
+  "steps": [
+    {
+      "prompt": "Which is the verb?",
+      "target": "labuntur",
+      "choices": ["Eheu", "fugaces", "labuntur", "anni"],
+      "reveal": null,
+      "hints": {
+        "Eheu": "'Eheu' is an interjection expressing grief — 'alas!'",
+        "fugaces": "'fugaces' is an adjective meaning 'fleeting'",
+        "anni": "'anni' is a noun — the subject of the sentence"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'labuntur' translates to?",
+      "target": "to slip / to glide",
+      "choices": ["to slip / to glide", "to work", "to wash", "to praise"],
+      "reveal": null,
+      "hints": {
+        "to work": "'to work' is 'laborare' — 'labuntur' comes from 'labi'",
+        "to wash": "'to wash' is 'lavare' — 'labuntur' comes from 'labi'",
+        "to praise": "'to praise' is 'laudare' — 'labuntur' comes from 'labi'"
+      }
+    },
+    {
+      "prompt": "What is notable about 'labuntur'?",
+      "target": "It is a deponent verb — passive in form, active in meaning",
+      "choices": ["It is a deponent verb — passive in form, active in meaning", "It is in the passive voice", "It is a defective verb", "It is subjunctive"],
+      "reveal": { "word": "labuntur", "gloss": "slip away / glide past" },
+      "hints": {
+        "It is in the passive voice": "'labuntur' looks passive but is deponent — the meaning is active",
+        "It is a defective verb": "Defective verbs lack forms — 'labi' has all forms but is deponent",
+        "It is subjunctive": "Subjunctive would be 'labantur' — 'labuntur' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'labuntur'?",
+      "target": "labor, labi, lapsus sum",
+      "choices": ["labor, labi, lapsus sum", "laboro, laborare, laboravi, laboratum", "lavo, lavare, lavi, lautum", "laudo, laudare, laudavi, laudatum"],
+      "reveal": null,
+      "hints": {
+        "laboro, laborare, laboravi, laboratum": "These are the principal parts of 'laborare' (to work)",
+        "lavo, lavare, lavi, lautum": "These are the principal parts of 'lavare' (to wash)",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudare' (to praise)"
+      }
+    },
+    {
+      "prompt": "Case of 'anni'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "anni", "gloss": "the years" },
+      "hints": {
+        "Genitive": "Genitive singular of 'annus' is also 'anni', but here it is nominative plural (subject of 'labuntur')",
+        "Dative": "Dative of 'annus' would be 'anno'",
+        "Vocative": "Vocative plural would also be 'anni', but the context shows these are the subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'annus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'annus' with -us ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied endings — 'annus' is a regular 2nd declension -us noun",
+        "4th": "4th declension -us nouns have genitive -us — 'anni' genitive indicates 2nd declension"
+      }
+    },
+    {
+      "prompt": "What part of speech is 'Eheu'?",
+      "target": "Interjection",
+      "choices": ["Adverb", "Conjunction", "Interjection", "Preposition"],
+      "reveal": { "word": "Eheu", "gloss": "alas!" },
+      "hints": {
+        "Adverb": "Adverbs modify verbs — 'Eheu' is an exclamation of grief, an interjection",
+        "Conjunction": "Conjunctions join clauses — 'Eheu' expresses emotion, making it an interjection",
+        "Preposition": "Prepositions govern nouns — 'Eheu' is a standalone exclamation"
+      }
+    }
+  ],
+  "translation": "Alas, the fleeting years slip away"
+}

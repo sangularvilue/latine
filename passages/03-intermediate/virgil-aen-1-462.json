@@ -1,0 +1,141 @@
+{
+  "id": "virgil-aen-1-462",
+  "source": "Virgil",
+  "reference": "Aeneid I.462",
+  "latin": ["Sunt", "lacrimae", "rerum", "et", "mentem", "mortalia", "tangunt"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to know", "to follow"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire' — 'Sunt' comes from 'esse' (to be)",
+        "to know": "That would be 'scire' — 'Sunt' comes from 'esse' (to be)",
+        "to follow": "That would be 'sequi' — 'Sunt' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Sunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "Sunt = there are",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'sint' — 'sunt' is present indicative",
+        "perfect indicative": "Perfect would be 'fuerunt' — 'sunt' is present indicative",
+        "future indicative": "Future would be 'erunt' — 'sunt' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ii, itum", "do, dare, dedi, datum", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "do, dare, dedi, datum": "These are the parts of 'dare' (to give)",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)"
+      }
+    },
+    {
+      "prompt": "What case is 'lacrimae'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "lacrimae = tears (nom. pl., subject of 'sunt')",
+      "hints": {
+        "genitive": "Genitive singular is also 'lacrimae', but here it is nominative plural, subject of 'sunt'",
+        "dative": "Dative singular is also 'lacrimae', but context demands nominative plural with 'sunt'",
+        "vocative": "Vocative would be unusual for 'tears' — 'lacrimae' is nominative plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'lacrima, lacrimae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'lacrimae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'lacrimae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'lacrimae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "What case is 'rerum'?",
+      "target": "genitive",
+      "choices": ["genitive", "accusative", "nominative", "ablative"],
+      "reveal": "rerum = of things/the world (gen. pl.)",
+      "hints": {
+        "accusative": "Accusative plural would be 'res' — 'rerum' with -um is genitive plural",
+        "nominative": "Nominative singular is 'res' — 'rerum' is genitive plural",
+        "ablative": "Ablative plural would be 'rebus' — 'rerum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'res, rei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'rei' ends in -ei (5th declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'rei' ends in -ei",
+        "4th declension": "4th declension has genitive in -ūs — 'rei' ends in -ei"
+      }
+    },
+    {
+      "prompt": "What case is 'mentem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "mentem = the mind/heart (acc. sg., object of 'tangunt')",
+      "hints": {
+        "nominative": "Nominative would be 'mens' — the -em ending marks the accusative",
+        "ablative": "Ablative would be 'mente' — 'mentem' with -em is accusative",
+        "dative": "Dative would be 'menti' — 'mentem' is accusative, object of 'tangunt'"
+      }
+    },
+    {
+      "prompt": "What declension is 'mens, mentis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'mentis' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'mentis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'mentis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tangunt' translates to?",
+      "target": "to touch",
+      "choices": ["to touch", "to hold", "to weave", "to be silent"],
+      "reveal": null,
+      "hints": {
+        "to hold": "That would be 'tenere' — 'tangunt' comes from 'tangere' (to touch)",
+        "to weave": "That would be 'texere' — 'tangunt' comes from 'tangere' (to touch)",
+        "to be silent": "That would be 'tacere' — 'tangunt' comes from 'tangere' (to touch)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'tangunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "tangunt = they touch/move",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'tangant' — 'tangunt' with -u- is present indicative (3rd conj.)",
+        "perfect indicative": "Perfect would be 'tetigerunt' — 'tangunt' is present indicative",
+        "future indicative": "Future would be 'tangent' — 'tangunt' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tangunt'?",
+      "target": "tango, tangere, tetigi, tactum",
+      "choices": ["tango, tangere, tetigi, tactum", "teneo, tenere, tenui, tentum", "texo, texere, texui, textum", "taceo, tacere, tacui, tacitum"],
+      "reveal": null,
+      "hints": {
+        "teneo, tenere, tenui, tentum": "These are the parts of 'tenere' (to hold)",
+        "texo, texere, texui, textum": "These are the parts of 'texere' (to weave)",
+        "taceo, tacere, tacui, tacitum": "These are the parts of 'tacere' (to be silent)"
+      }
+    }
+  ],
+  "translation": "There are tears for things, and mortal affairs touch the mind"
+}

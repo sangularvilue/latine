@@ -1,0 +1,86 @@
+{
+  "id": "hymn-te-deum-25",
+  "source": "Hymn",
+  "reference": "Te Deum 25",
+  "latin": ["Salvum", "fac", "populum", "tuum", "Domine"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'fac' translates to?",
+      "target": "to make / to do",
+      "choices": ["to make / to do", "to save", "to carry", "to lead"],
+      "reveal": null,
+      "hints": {
+        "to save": "'to save' is 'salvare' or 'servare' — 'fac' comes from 'facere'",
+        "to carry": "'to carry' is 'ferre' — 'fac' comes from 'facere'",
+        "to lead": "'to lead' is 'ducere' — 'fac' comes from 'facere'"
+      }
+    },
+    {
+      "prompt": "What mood is 'fac'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "fac", "gloss": "make!" },
+      "hints": {
+        "Indicative": "Indicative present would be 'facis' or 'facit' — 'fac' is the irregular imperative singular",
+        "Subjunctive": "Subjunctive would be 'facias' — 'fac' is the imperative singular",
+        "Infinitive": "Infinitive would be 'facere' — 'fac' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'fac'?",
+      "target": "facio, facere, feci, factum",
+      "choices": ["facio, facere, feci, factum", "ago, agere, egi, actum", "do, dare, dedi, datum", "duco, ducere, duxi, ductum"],
+      "reveal": null,
+      "hints": {
+        "ago, agere, egi, actum": "These are the principal parts of 'agere' (to do/drive)",
+        "do, dare, dedi, datum": "These are the principal parts of 'dare' (to give)",
+        "duco, ducere, duxi, ductum": "These are the principal parts of 'ducere' (to lead)"
+      }
+    },
+    {
+      "prompt": "What case is 'salvum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "salvum", "gloss": "safe" },
+      "hints": {
+        "Nominative": "Nominative masculine would be 'salvus' — 'salvum' has the -um accusative ending agreeing with 'populum'",
+        "Ablative": "Ablative would be 'salvo' — 'salvum' has the -um accusative ending",
+        "Vocative": "Vocative would be 'salve' — 'salvum' is accusative agreeing with 'populum'"
+      }
+    },
+    {
+      "prompt": "What case is 'populum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Dative"],
+      "reveal": { "word": "populum", "gloss": "people" },
+      "hints": {
+        "Nominative": "Nominative of 'populus' is 'populus' — 'populum' has the -um accusative ending",
+        "Genitive": "Genitive of 'populus' would be 'populi' — 'populum' has the -um accusative ending",
+        "Dative": "Dative of 'populus' would be 'populo' — 'populum' has the -um accusative ending"
+      }
+    },
+    {
+      "prompt": "What declension is 'populus, populi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'populi' ends in -i",
+        "3rd declension": "3rd declension nouns have genitive in -is — 'populi' ends in -i",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'populi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Domine", "gloss": "O Lord" },
+      "hints": {
+        "Nominative": "Nominative is 'Dominus' — 'Domine' has the -e vocative ending of 2nd declension",
+        "Genitive": "Genitive of 'Dominus' is 'Domini' — 'Domine' is the vocative form",
+        "Accusative": "Accusative of 'Dominus' is 'Dominum' — 'Domine' is the vocative form"
+      }
+    }
+  ],
+  "translation": "Save your people, O Lord"
+}

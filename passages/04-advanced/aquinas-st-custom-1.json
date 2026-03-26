@@ -1,0 +1,130 @@
+{
+  "id": "aquinas-st-custom-1",
+  "source": "Thomas Aquinas",
+  "reference": "Summa Theologiae (adapted)",
+  "latin": ["Homo", "non", "potest", "naturaliter", "Deum", "cognoscere", "nisi", "per", "creaturas"],
+  "steps": [
+    {
+      "prompt": "What case is 'homo'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Vocative", "Ablative"],
+      "reveal": { "word": "homo", "gloss": "man / a human being" },
+      "hints": {
+        "Accusative": "Accusative would be 'hominem' — 'homo' is nominative, the subject of 'potest'",
+        "Vocative": "Vocative would also be 'homo', but this is a philosophical statement, not an address",
+        "Ablative": "Ablative would be 'homine' — 'homo' is nominative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'homo'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'homo, hominis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'homo' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'homo, hominis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'potest' translates to?",
+      "target": "to be able",
+      "choices": ["to be able", "to place", "to demand", "to drink"],
+      "reveal": null,
+      "hints": {
+        "to place": "'to place' is 'ponere' — 'potest' comes from 'posse' (to be able)",
+        "to demand": "'to demand' is 'postulare' — do not confuse with 'posse'",
+        "to drink": "'to drink' is 'potare' — similar stem but different verb"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'potest'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Imperfect indicative"],
+      "reveal": { "word": "potest", "gloss": "is able / can" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'potuit' — 'potest' is present indicative",
+        "Present subjunctive": "Present subjunctive would be 'possit' — 'potest' is indicative",
+        "Imperfect indicative": "Imperfect would be 'poterat' — 'potest' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'potest'?",
+      "target": "possum, posse, potui",
+      "choices": ["possum, posse, potui", "pono, ponere, posui, positum", "postulo, postulare, postulavi, postulatum", "poto, potare, potavi, potatum"],
+      "reveal": null,
+      "hints": {
+        "pono, ponere, posui, positum": "These are the parts of 'ponere' (to place) — 'potest' comes from 'posse'",
+        "postulo, postulare, postulavi, postulatum": "These are the parts of 'postulare' (to demand) — a different verb",
+        "poto, potare, potavi, potatum": "These are the parts of 'potare' (to drink) — similar stem but different verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cognoscere' translates to?",
+      "target": "to know / to come to know",
+      "choices": ["to know / to come to know", "to think", "to compel", "to recognize"],
+      "reveal": null,
+      "hints": {
+        "to think": "'to think' is 'cogitare' — 'cognoscere' means to come to know",
+        "to compel": "'to compel' is 'cogere' — do not confuse with 'cognoscere'",
+        "to recognize": "'to recognize' is 'recognoscere' — a compound of 'cognoscere' but more specific"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'cognoscere'?",
+      "target": "Present infinitive",
+      "choices": ["Present indicative", "Present infinitive", "Present subjunctive", "Imperfect subjunctive"],
+      "reveal": { "word": "cognoscere", "gloss": "to know" },
+      "hints": {
+        "Present indicative": "Present indicative 3rd singular would be 'cognoscit' — 'cognoscere' is the infinitive",
+        "Present subjunctive": "Present subjunctive would be 'cognoscat' — 'cognoscere' is the infinitive complementing 'potest'",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'cognosceret' — 'cognoscere' is the infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cognoscere'?",
+      "target": "cognosco, cognoscere, cognovi, cognitum",
+      "choices": ["cognosco, cognoscere, cognovi, cognitum", "cogito, cogitare, cogitavi, cogitatum", "cogo, cogere, coegi, coactum", "nosco, noscere, novi, notum"],
+      "reveal": null,
+      "hints": {
+        "cogito, cogitare, cogitavi, cogitatum": "These are the parts of 'cogitare' (to think) — a different verb",
+        "cogo, cogere, coegi, coactum": "These are the parts of 'cogere' (to compel) — not related to 'cognoscere'",
+        "nosco, noscere, novi, notum": "These are the parts of 'noscere' (to know) — the simple verb, but 'cognoscere' is the compound"
+      }
+    },
+    {
+      "prompt": "What case is 'Deum'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Dative"],
+      "reveal": { "word": "Deum", "gloss": "God" },
+      "hints": {
+        "Nominative": "Nominative would be 'Deus' — 'Deum' with -um ending is accusative",
+        "Genitive": "Genitive would be 'Dei' — 'Deum' is accusative, object of 'cognoscere'",
+        "Dative": "Dative would be 'Deo' — 'Deum' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'creaturas'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "creaturas", "gloss": "creatures / created things" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'creaturae' — 'creaturas' with -as is accusative plural",
+        "Ablative": "Ablative plural would be 'creaturis' — 'creaturas' is accusative after 'per'",
+        "Genitive": "Genitive plural would be 'creaturarum' — 'creaturas' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'creaturas'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension accusative plural ends in -os — 'creaturas' with -as is 1st declension",
+        "3rd": "3rd declension accusative plural ends in -es — 'creaturas' is 1st declension",
+        "4th": "4th declension accusative plural ends in -us — 'creaturas' is 1st declension"
+      }
+    }
+  ],
+  "translation": "Man cannot naturally know God except through creatures."
+}

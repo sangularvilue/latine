@@ -1,0 +1,130 @@
+{
+  "id": "virgil-aen-6-851",
+  "source": "Virgil",
+  "reference": "Aeneid VI.851",
+  "latin": ["Tu", "regere", "imperio", "populos", "Romane", "memento"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'regere' translates to?",
+      "target": "to rule",
+      "choices": ["to rule", "to ask", "to carry back", "to refuse"],
+      "reveal": null,
+      "hints": {
+        "to ask": "That would be 'rogare' — 'regere' means 'to rule/guide'",
+        "to carry back": "That would be 'referre' — 'regere' means 'to rule'",
+        "to refuse": "That would be 'recusare' — 'regere' means 'to rule'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'regere'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "present imperative", "future infinitive", "perfect infinitive"],
+      "reveal": "regere = to rule (complementary infinitive with 'memento')",
+      "hints": {
+        "present imperative": "Imperative singular of 'regere' would be 'rege' — 'regere' is the infinitive",
+        "future infinitive": "Future infinitive would be 'recturum esse' — 'regere' is present infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'rexisse' — 'regere' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'regere'?",
+      "target": "rego, regere, rexi, rectum",
+      "choices": ["rego, regere, rexi, rectum", "rogo, rogare, rogavi, rogatum", "refero, referre, rettuli, relatum", "regno, regnare, regnavi, regnatum"],
+      "reveal": null,
+      "hints": {
+        "rogo, rogare, rogavi, rogatum": "These are the parts of 'rogare' (to ask)",
+        "refero, referre, rettuli, relatum": "These are the parts of 'referre' (to carry back/report)",
+        "regno, regnare, regnavi, regnatum": "These are the parts of 'regnare' (to reign) — different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'imperio'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "imperio = with command/authority (abl. sg., ablative of means)",
+      "hints": {
+        "dative": "While 'imperio' could be dative, here it is ablative of means — rule 'by' authority",
+        "nominative": "Nominative would be 'imperium' — 'imperio' is ablative",
+        "genitive": "Genitive would be 'imperii' — 'imperio' is ablative of means"
+      }
+    },
+    {
+      "prompt": "What declension is 'imperium, imperii'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'imperii' ends in -ii (2nd declension neuter)",
+        "3rd declension": "3rd declension has genitive in -is — 'imperii' ends in -ii",
+        "4th declension": "4th declension has genitive in -ūs — 'imperii' ends in -ii"
+      }
+    },
+    {
+      "prompt": "What case is 'populos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "populos = peoples/nations (acc. pl., object of 'regere')",
+      "hints": {
+        "nominative": "Nominative plural would be 'populi' — 'populos' with -os is accusative plural",
+        "ablative": "Ablative plural would be 'populis' — 'populos' is accusative",
+        "dative": "Dative plural would be 'populis' — 'populos' is accusative, object of 'regere'"
+      }
+    },
+    {
+      "prompt": "What declension is 'populus, populi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'populi' ends in -i (2nd declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'populi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'populi' ends in -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Romane'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "ablative", "adverb"],
+      "reveal": "Romane = O Roman (voc. sg., direct address)",
+      "hints": {
+        "nominative": "Nominative would be 'Romanus' — the -e ending marks vocative of 2nd decl. -us words",
+        "ablative": "Ablative would be 'Romano' — 'Romane' with -e is vocative",
+        "adverb": "'Romane' is not an adverb here — it is vocative singular, addressing the Roman"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'memento' translates to?",
+      "target": "to remember",
+      "choices": ["to remember", "to lie", "to fear", "to deserve"],
+      "reveal": null,
+      "hints": {
+        "to lie": "That would be 'mentiri' — 'memento' comes from 'meminisse' (to remember)",
+        "to fear": "That would be 'metuere' — 'memento' comes from 'meminisse' (to remember)",
+        "to deserve": "That would be 'merere' — 'memento' comes from 'meminisse' (to remember)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'memento'?",
+      "target": "future imperative",
+      "choices": ["future imperative", "present imperative", "present indicative", "present subjunctive"],
+      "reveal": "memento = remember! (fut. imperative of defective verb 'meminisse')",
+      "hints": {
+        "present imperative": "The present imperative is rare for 'meminisse' — 'memento' is the future imperative",
+        "present indicative": "'Memento' is not indicative — it is the future imperative, a solemn command",
+        "present subjunctive": "Present subjunctive would be 'meminerim' — 'memento' is future imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'memento'?",
+      "target": "memini, meminisse, —, —",
+      "choices": ["memini, meminisse, —, —", "moneo, monere, monui, monitum", "mentior, mentiri, mentitus sum", "memoro, memorare, memoravi, memoratum"],
+      "reveal": null,
+      "hints": {
+        "moneo, monere, monui, monitum": "These are the parts of 'monere' (to warn/advise)",
+        "mentior, mentiri, mentitus sum": "These are the parts of 'mentiri' (to lie/deceive)",
+        "memoro, memorare, memoravi, memoratum": "These are the parts of 'memorare' (to recount/mention)"
+      }
+    }
+  ],
+  "translation": "You, O Roman, remember to rule the peoples with authority"
+}

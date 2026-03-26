@@ -1,0 +1,97 @@
+{
+  "id": "vot-eccl-3-2",
+  "source": "Vulgate",
+  "reference": "Ecclesiastes 3:2",
+  "latin": ["Tempus", "nascendi", "et", "tempus", "moriendi"],
+  "steps": [
+    {
+      "prompt": "What case is the first 'tempus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "tempus = a time (nom.)",
+      "hints": {
+        "accusative": "While 'tempus' can also be accusative, here it is the subject",
+        "genitive": "The genitive would be 'temporis'",
+        "ablative": "The ablative would be 'tempore'"
+      }
+    },
+    {
+      "prompt": "What declension is 'tempus'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "2nd declension": "2nd declension neuter nouns end in -um",
+        "4th declension": "4th declension neuter nouns end in -u"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'nascendi' translates to?",
+      "target": "to be born",
+      "choices": ["to be born", "to grow", "to begin", "to live"],
+      "reveal": null,
+      "hints": {
+        "to grow": "That would be the infinitive of 'crescere'",
+        "to begin": "That would be the infinitive of 'incipere'",
+        "to live": "That would be the infinitive of 'vivere'"
+      }
+    },
+    {
+      "prompt": "What form is 'nascendi'?",
+      "target": "gerund (genitive)",
+      "choices": ["gerund (genitive)", "present participle", "perfect participle", "gerundive"],
+      "reveal": "nascendi = of being born",
+      "hints": {
+        "present participle": "The present participle would be 'nascens'",
+        "perfect participle": "The perfect participle would be 'natus'",
+        "gerundive": "The gerundive would be 'nascendus, -a, -um'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'nascendi'?",
+      "target": "nascor, nasci, natus sum, —",
+      "choices": ["nascor, nasci, natus sum, —", "cresco, crescere, crevi, cretum", "gigno, gignere, genui, genitum", "orior, oriri, ortus sum, —"],
+      "reveal": null,
+      "hints": {
+        "cresco, crescere, crevi, cretum": "These are the principal parts of 'cresco' (to grow)",
+        "gigno, gignere, genui, genitum": "These are the principal parts of 'gigno' (to beget)",
+        "orior, oriri, ortus sum, —": "These are the principal parts of 'orior' (to rise/arise)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'moriendi' translates to?",
+      "target": "to die",
+      "choices": ["to die", "to sleep", "to perish", "to fade"],
+      "reveal": null,
+      "hints": {
+        "to sleep": "That would be the infinitive of 'dormire'",
+        "to perish": "That would be the infinitive of 'perire'",
+        "to fade": "That would be the infinitive of 'deficere'"
+      }
+    },
+    {
+      "prompt": "What form is 'moriendi'?",
+      "target": "gerund (genitive)",
+      "choices": ["gerund (genitive)", "present participle", "perfect participle", "infinitive"],
+      "reveal": "moriendi = of dying",
+      "hints": {
+        "present participle": "The present participle would be 'moriens'",
+        "perfect participle": "The perfect participle would be 'mortuus'",
+        "infinitive": "The infinitive would be 'mori'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'moriendi'?",
+      "target": "morior, mori, mortuus sum, —",
+      "choices": ["morior, mori, mortuus sum, —", "pereo, perire, perii, peritum", "cado, cadere, cecidi, casum", "occido, occidere, occidi, occisum"],
+      "reveal": null,
+      "hints": {
+        "pereo, perire, perii, peritum": "These are the principal parts of 'pereo' (to perish)",
+        "cado, cadere, cecidi, casum": "These are the principal parts of 'cado' (to fall)",
+        "occido, occidere, occidi, occisum": "These are the principal parts of 'occido' (to kill)"
+      }
+    }
+  ],
+  "translation": "A time of being born and a time of dying"
+}

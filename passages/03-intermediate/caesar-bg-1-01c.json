@@ -1,0 +1,130 @@
+{
+  "id": "caesar-bg-1-01c",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.1",
+  "latin": ["Eorum", "una", "pars", "flumen", "Rhenum", "attingit"],
+  "steps": [
+    {
+      "prompt": "What case is 'Eorum'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "Eorum = of them (gen. masc. pl.)",
+      "hints": {
+        "nominative": "Nominative masculine plural would be 'ei/ii' — 'Eorum' with -orum is genitive plural",
+        "dative": "Dative plural would be 'eis/iis' — 'Eorum' is genitive plural",
+        "ablative": "Ablative plural would be 'eis/iis' — 'Eorum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "What case is 'una'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "accusative", "vocative"],
+      "reveal": "una = one (nom. fem. sg.)",
+      "hints": {
+        "ablative": "While 'una' can be ablative feminine singular, here it modifies 'pars' as nominative",
+        "accusative": "Accusative feminine would be 'unam' — 'una' here is nominative modifying 'pars'",
+        "vocative": "Vocative would be the same form, but Caesar is describing, not addressing"
+      }
+    },
+    {
+      "prompt": "What case is 'pars'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "pars = part (nom. fem. sg.)",
+      "hints": {
+        "genitive": "Genitive would be 'partis' — 'pars' is nominative, subject of 'attingit'",
+        "accusative": "Accusative would be 'partem' — 'pars' is nominative here",
+        "ablative": "Ablative would be 'parte' — 'pars' is nominative, subject of the sentence"
+      }
+    },
+    {
+      "prompt": "What declension is 'pars, partis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'partis' ends in -is, marking 3rd declension",
+        "2nd declension": "2nd declension has genitive in -i — 'partis' ends in -is",
+        "5th declension": "5th declension has genitive in -ei — 'partis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'flumen'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "flumen = river (acc. neut. sg.)",
+      "hints": {
+        "nominative": "While 'flumen' looks the same in nominative, here it is the object of 'attingit'",
+        "ablative": "Ablative would be 'flumine' — 'flumen' is accusative, direct object of 'attingit'",
+        "vocative": "Vocative is not used here — 'flumen' is accusative, object of the verb"
+      }
+    },
+    {
+      "prompt": "What declension is 'flumen, fluminis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'fluminis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'fluminis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'fluminis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Rhenum'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Rhenum = the Rhine (acc.)",
+      "hints": {
+        "nominative": "Nominative would be 'Rhenus' — 'Rhenum' with -um is accusative",
+        "genitive": "Genitive would be 'Rheni' — 'Rhenum' is accusative, in apposition with 'flumen'",
+        "ablative": "Ablative would be 'Rheno' — 'Rhenum' with -um is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Rhenus, Rheni'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'Rheni' with -i is 2nd declension",
+        "3rd declension": "3rd declension has genitive in -is — 'Rheni' with -i is 2nd declension",
+        "4th declension": "4th declension has genitive in -ūs — 'Rheni' with -i is 2nd declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'attingit' translates to?",
+      "target": "to reach/touch",
+      "choices": ["to reach/touch", "to cross", "to flow", "to divide"],
+      "reveal": null,
+      "hints": {
+        "to cross": "That would be 'transire' — 'attingit' comes from 'attingere' (to reach/touch)",
+        "to flow": "That would be 'fluere' — 'attingit' comes from 'attingere' (to reach/touch)",
+        "to divide": "That would be 'dividere' — 'attingit' comes from 'attingere' (to reach/touch)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'attingit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "attingit = reaches/borders on",
+      "hints": {
+        "perfect indicative": "Perfect would be 'attigit' — 'attingit' with the nasal infix -ng- is present",
+        "future indicative": "Future would be 'attinget' — 'attingit' with -it is present indicative",
+        "present subjunctive": "Present subjunctive would be 'attingat' — 'attingit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'attingit'?",
+      "target": "attingo, attingere, attigi, attactum",
+      "choices": ["attingo, attingere, attigi, attactum", "tango, tangere, tetigi, tactum", "tingo, tingere, tinxi, tinctum", "cingo, cingere, cinxi, cinctum"],
+      "reveal": null,
+      "hints": {
+        "tango, tangere, tetigi, tactum": "These are the parts of 'tangere' (to touch) — 'attingere' is its compound ad + tangere",
+        "tingo, tingere, tinxi, tinctum": "These are the parts of 'tingere' (to dye/wet)",
+        "cingo, cingere, cinxi, cinctum": "These are the parts of 'cingere' (to surround)"
+      }
+    }
+  ],
+  "translation": "One part of them reaches the river Rhine"
+}

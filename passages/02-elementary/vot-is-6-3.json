@@ -1,0 +1,97 @@
+{
+  "id": "vot-is-6-3",
+  "source": "Vulgate",
+  "reference": "Isaiah 6:3",
+  "latin": ["Sanctus", "sanctus", "sanctus", "Dominus", "Deus", "exercituum"],
+  "steps": [
+    {
+      "prompt": "What case is the first 'sanctus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "sanctus = holy (nom. masc. sg.)",
+      "hints": {
+        "accusative": "The accusative masculine would be 'sanctum'",
+        "vocative": "The vocative would be 'sancte'",
+        "genitive": "The genitive would be 'sancti'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'sanctus' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e; 'sanctus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Sanctus' clearly declines: sanctus, sancta, sanctum"
+      }
+    },
+    {
+      "prompt": "What case is 'Dominus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Dominus = the Lord (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'Dominum'",
+        "vocative": "The vocative would be 'Domine'",
+        "genitive": "The genitive would be 'Domini'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dominus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings and -is in the genitive",
+        "4th declension": "4th declension -us nouns have genitive -us, not -i"
+      }
+    },
+    {
+      "prompt": "What case is 'Deus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "Deus = God (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'Deum'",
+        "vocative": "The vocative is also 'Deus' but here it is in apposition with 'Dominus'",
+        "genitive": "The genitive would be 'Dei'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Deus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings",
+        "4th declension": "4th declension -us nouns have genitive -us, not -i"
+      }
+    },
+    {
+      "prompt": "What case is 'exercituum'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "accusative"],
+      "reveal": "exercituum = of hosts / of armies (gen. pl.)",
+      "hints": {
+        "nominative": "The nominative singular would be 'exercitus'",
+        "dative": "The dative plural would be 'exercitibus'",
+        "accusative": "The accusative plural would be 'exercitus'"
+      }
+    },
+    {
+      "prompt": "What declension is 'exercituum'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitive plural ends in -arum",
+        "2nd declension": "2nd declension genitive plural ends in -orum",
+        "3rd declension": "3rd declension genitive plural ends in -um or -ium"
+      }
+    }
+  ],
+  "translation": "Holy, holy, holy is the Lord God of hosts"
+}

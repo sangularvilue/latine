@@ -1,0 +1,86 @@
+{
+  "id": "virgil-aen-10-284",
+  "source": "Virgil",
+  "reference": "Aeneid X.284",
+  "latin": ["Audentes", "fortuna", "iuvat"],
+  "steps": [
+    {
+      "prompt": "What case is 'Audentes'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "Audentes = the bold/daring (acc. pl., object of 'iuvat')",
+      "hints": {
+        "nominative": "While 'audentes' could be nominative, here it is accusative — fortune helps 'the bold'",
+        "ablative": "Ablative plural would be 'audentibus' — 'audentes' is accusative",
+        "genitive": "Genitive plural would be 'audentium' — 'audentes' is accusative, object of 'iuvat'"
+      }
+    },
+    {
+      "prompt": "What declension is 'audens, audentis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'audentis' ends in -is (3rd declension participle)",
+        "2nd declension": "2nd declension has genitive in -i — 'audentis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'audentis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'fortuna'?",
+      "target": "nominative",
+      "choices": ["nominative", "ablative", "vocative", "genitive"],
+      "reveal": "fortuna = fortune (nom. sg., subject of 'iuvat')",
+      "hints": {
+        "ablative": "While 'fortuna' could be ablative, here it is the nominative subject of 'iuvat'",
+        "vocative": "Vocative looks the same in 1st decl., but 'fortuna' is the subject here, not addressed",
+        "genitive": "Genitive would be 'fortunae' — 'fortuna' is nominative"
+      }
+    },
+    {
+      "prompt": "What declension is 'fortuna, fortunae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'fortunae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'fortunae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'fortunae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'iuvat' translates to?",
+      "target": "to help",
+      "choices": ["to help", "to judge", "to swear", "to order"],
+      "reveal": null,
+      "hints": {
+        "to judge": "That would be 'iudicare' — 'iuvat' comes from 'iuvare' (to help)",
+        "to swear": "That would be 'iurare' — 'iuvat' comes from 'iuvare' (to help)",
+        "to order": "That would be 'iubere' — 'iuvat' comes from 'iuvare' (to help)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'iuvat'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "iuvat = helps/favors",
+      "hints": {
+        "perfect indicative": "Perfect would be 'iuvit' — 'iuvat' with -a- is present indicative (1st conj.)",
+        "present subjunctive": "Present subjunctive would be 'iuvet' — 'iuvat' with -a- is present indicative",
+        "imperfect indicative": "Imperfect would be 'iuvabat' — 'iuvat' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iuvat'?",
+      "target": "iuvo, iuvare, iuvi, iutum",
+      "choices": ["iuvo, iuvare, iuvi, iutum", "iubeo, iubere, iussi, iussum", "iuro, iurare, iuravi, iuratum", "iudico, iudicare, iudicavi, iudicatum"],
+      "reveal": null,
+      "hints": {
+        "iubeo, iubere, iussi, iussum": "These are the parts of 'iubere' (to order)",
+        "iuro, iurare, iuravi, iuratum": "These are the parts of 'iurare' (to swear)",
+        "iudico, iudicare, iudicavi, iudicatum": "These are the parts of 'iudicare' (to judge)"
+      }
+    }
+  ],
+  "translation": "Fortune favors the bold"
+}

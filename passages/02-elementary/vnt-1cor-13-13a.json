@@ -1,0 +1,108 @@
+{
+  "id": "vnt-1cor-13-13a",
+  "source": "Vulgate",
+  "reference": "1 Corinthians 13:13",
+  "latin": ["Nunc", "manent", "fides", "spes", "caritas"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'manent' translates to?",
+      "target": "to remain",
+      "choices": ["to remain", "to warn", "to send", "to flow"],
+      "reveal": null,
+      "hints": {
+        "to warn": "'Monere' means to warn",
+        "to send": "'Mandare' means to send or command",
+        "to flow": "'Manare' means to flow"
+      }
+    },
+    {
+      "prompt": "'manent' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "perfect indicative active", "imperfect indicative active"],
+      "reveal": { "word": "manent", "gloss": "remain" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'maneant'",
+        "perfect indicative active": "The perfect would be 'manserunt'",
+        "imperfect indicative active": "The imperfect would be 'manebant'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'manent'?",
+      "target": "maneo, manere, mansi, mansus",
+      "choices": ["maneo, manere, mansi, mansus", "maneo, manare, manavi, manatus", "maneo, manere, manui, manitus", "maneo, manire, manivi, manitus"],
+      "reveal": null,
+      "hints": {
+        "maneo, manare, manavi, manatus": "'Manere' is 2nd conjugation, not 1st",
+        "maneo, manere, manui, manitus": "The perfect is 'mansi', not 'manui'",
+        "maneo, manire, manivi, manitus": "The infinitive is 'manere', not 'manire'"
+      }
+    },
+    {
+      "prompt": "What case is 'fides'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": { "word": "fides", "gloss": "faith" },
+      "hints": {
+        "accusative": "The accusative would be 'fidem'",
+        "genitive": "The genitive would be 'fidei'",
+        "ablative": "The ablative would be 'fide'"
+      }
+    },
+    {
+      "prompt": "What declension is 'fides'?",
+      "target": "5th declension",
+      "choices": ["5th declension", "1st declension", "3rd declension", "2nd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a",
+        "3rd declension": "3rd declension nouns ending in -es typically have gen. in -is; 'fides' has gen. 'fidei'",
+        "2nd declension": "2nd declension nouns end in -us or -um"
+      }
+    },
+    {
+      "prompt": "What case is 'spes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": { "word": "spes", "gloss": "hope" },
+      "hints": {
+        "accusative": "The accusative would be 'spem'",
+        "genitive": "The genitive would be 'spei'",
+        "ablative": "The ablative would be 'spe'"
+      }
+    },
+    {
+      "prompt": "What declension is 'spes'?",
+      "target": "5th declension",
+      "choices": ["5th declension", "1st declension", "3rd declension", "2nd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Spes' with genitive 'spei' is 5th declension",
+        "3rd declension": "3rd declension nouns have genitive in -is, not -ei",
+        "2nd declension": "2nd declension nouns end in -us or -um"
+      }
+    },
+    {
+      "prompt": "What case is 'caritas'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": { "word": "caritas", "gloss": "love" },
+      "hints": {
+        "accusative": "The accusative would be 'caritatem'",
+        "genitive": "The genitive would be 'caritatis'",
+        "ablative": "The ablative would be 'caritate'"
+      }
+    },
+    {
+      "prompt": "What declension is 'caritas'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Nouns in -tas are 3rd declension, not 1st",
+        "2nd declension": "2nd declension nouns end in -us or -um",
+        "5th declension": "5th declension nouns end in -es; 'caritas' has gen. 'caritatis'"
+      }
+    }
+  ],
+  "translation": "Now there remain faith, hope, and love."
+}

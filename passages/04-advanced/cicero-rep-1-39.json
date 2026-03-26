@@ -1,0 +1,119 @@
+{
+  "id": "cicero-rep-1-39",
+  "source": "Cicero",
+  "reference": "De Re Publica I.39",
+  "latin": ["Est", "res", "publica", "res", "populi"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "Est",
+      "choices": ["Est", "res", "publica", "populi"],
+      "reveal": null,
+      "hints": {
+        "res": "'res' is a noun meaning 'thing / affair'",
+        "publica": "'publica' is an adjective meaning 'public'",
+        "populi": "'populi' is a noun in the genitive meaning 'of the people'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'Est' translates to?",
+      "target": "to be",
+      "choices": ["to eat", "to be", "to go", "to stand"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'Est' here is from 'esse' (to be)",
+        "to go": "'to go' is 'ire' — 'Est' is the 3rd person singular of 'esse'",
+        "to stand": "'to stand' is 'stare' — do not confuse with 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'Est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "Est", "gloss": "is" },
+      "hints": {
+        "Future indicative": "Future of 'esse' would be 'erit' — 'est' is present",
+        "Present subjunctive": "Present subjunctive of 'esse' would be 'sit' — 'est' is indicative",
+        "Perfect indicative": "Perfect of 'esse' would be 'fuit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "eo, ire, ivi, itum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'Est' here is from 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — a different verb",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is the first 'res' (res publica)?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "res publica", "gloss": "the republic / commonwealth" },
+      "hints": {
+        "Accusative": "Accusative would be 'rem publicam' — 'res publica' is nominative as the subject",
+        "Ablative": "Ablative would be 're publica' — this is the nominative subject",
+        "Genitive": "Genitive would be 'rei publicae' — 'res publica' here is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'res'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns typically end in -a — 'res' is a classic 5th declension noun",
+        "3rd": "3rd declension nouns have varied endings — 'res, rei' follows the 5th declension pattern",
+        "4th": "4th declension nouns end in -us/-u — 'res' belongs to the 5th declension"
+      }
+    },
+    {
+      "prompt": "What case is the second 'res' (res populi)?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "res", "gloss": "thing / property / affair" },
+      "hints": {
+        "Accusative": "Accusative would be 'rem' — this 'res' is the predicate nominative after 'est'",
+        "Genitive": "Genitive would be 'rei' — 'res' here is nominative as the predicate",
+        "Ablative": "Ablative would be 're' — this is the predicate nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'populi'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "populi", "gloss": "of the people" },
+      "hints": {
+        "Nominative": "Nominative singular is 'populus' — 'populi' is genitive singular",
+        "Dative": "Dative singular would be 'populo' — 'populi' indicates possession (genitive)",
+        "Vocative": "Vocative singular would be 'popule' — 'populi' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'populi'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'populus, populi' is 2nd declension",
+        "3rd": "3rd declension genitive would end in -is — 'populi' is the 2nd declension genitive",
+        "4th": "4th declension genitive would end in -us — 'populi' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What does Cicero define with this sentence?",
+      "target": "The republic as the property of the people",
+      "choices": ["The republic as the property of the people", "The people as servants of the state", "The republic as a form of monarchy", "Public affairs as private matters"],
+      "reveal": null,
+      "hints": {
+        "The people as servants of the state": "Cicero says the opposite — the republic belongs TO the people, not the other way around",
+        "The republic as a form of monarchy": "Cicero is defining res publica broadly as communal property, not as monarchy",
+        "Public affairs as private matters": "'Publica' means public — Cicero defines the state as belonging to the people collectively"
+      }
+    }
+  ],
+  "translation": "The republic is the property of the people."
+}

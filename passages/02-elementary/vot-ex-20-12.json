@@ -1,0 +1,108 @@
+{
+  "id": "vot-ex-20-12",
+  "source": "Vulgate",
+  "reference": "Exodus 20:12",
+  "latin": ["Honora", "patrem", "tuum", "et", "matrem", "tuam"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'honora' translates to?",
+      "target": "to honor",
+      "choices": ["to honor", "to love", "to obey", "to fear"],
+      "reveal": null,
+      "hints": {
+        "to love": "That would be the infinitive of 'amare'",
+        "to obey": "That would be the infinitive of 'oboedire'",
+        "to fear": "That would be the infinitive of 'timere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'honora'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "honora = honor!",
+      "hints": {
+        "present indicative": "The present indicative would be 'honoras' (you honor)",
+        "present subjunctive": "The present subjunctive would be 'honores'",
+        "perfect indicative": "The perfect indicative would be 'honoravisti'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'honora'?",
+      "target": "honoro, honorare, honoravi, honoratum",
+      "choices": ["honoro, honorare, honoravi, honoratum", "amo, amare, amavi, amatum", "laudo, laudare, laudavi, laudatum", "oro, orare, oravi, oratum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amo' (to love)",
+        "laudo, laudare, laudavi, laudatum": "These are the principal parts of 'laudo' (to praise)",
+        "oro, orare, oravi, oratum": "These are the principal parts of 'oro' (to pray)"
+      }
+    },
+    {
+      "prompt": "What case is 'patrem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "patrem = father (acc.)",
+      "hints": {
+        "nominative": "The nominative would be 'pater'",
+        "ablative": "The ablative would be 'patre'",
+        "dative": "The dative would be 'patri'"
+      }
+    },
+    {
+      "prompt": "What declension is 'patrem'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "2nd declension": "2nd declension nouns typically end in -us or -um in the nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us) in the nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'tuum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "tuum = your (acc. masc. sg.)",
+      "hints": {
+        "nominative": "The nominative masculine would be 'tuus'",
+        "ablative": "The ablative masculine would be 'tuo'",
+        "genitive": "The genitive form would be 'tui'"
+      }
+    },
+    {
+      "prompt": "What case is 'matrem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "matrem = mother (acc.)",
+      "hints": {
+        "nominative": "The nominative would be 'mater'",
+        "ablative": "The ablative would be 'matre'",
+        "dative": "The dative would be 'matri'"
+      }
+    },
+    {
+      "prompt": "What declension is 'matrem'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "2nd declension": "2nd declension nouns typically end in -us or -um",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "What case is 'tuam'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "tuam = your (acc. fem. sg.)",
+      "hints": {
+        "nominative": "The nominative feminine would be 'tua'",
+        "ablative": "The ablative feminine would be 'tua'",
+        "genitive": "The genitive feminine would be 'tuae'"
+      }
+    }
+  ],
+  "translation": "Honor your father and your mother"
+}

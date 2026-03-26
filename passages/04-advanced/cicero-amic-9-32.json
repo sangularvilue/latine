@@ -1,0 +1,97 @@
+{
+  "id": "cicero-amic-9-32",
+  "source": "Cicero",
+  "reference": "De Amicitia IX.32",
+  "latin": ["Verae", "amicitiae", "sempiternae", "sunt"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "sunt",
+      "choices": ["Verae", "amicitiae", "sempiternae", "sunt"],
+      "reveal": null,
+      "hints": {
+        "Verae": "'Verae' is an adjective meaning 'true'",
+        "amicitiae": "'amicitiae' is a noun meaning 'friendships'",
+        "sempiternae": "'sempiternae' is an adjective meaning 'everlasting'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to follow", "to eat", "to know"],
+      "reveal": null,
+      "hints": {
+        "to follow": "'to follow' is 'sequi' — 'sunt' is from 'esse'",
+        "to eat": "'to eat' is 'edere' — 'sunt' is from 'esse'",
+        "to know": "'to know' is 'scire' — 'sunt' is from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sunt'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "sunt", "gloss": "are" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'fuerunt' — 'sunt' is present",
+        "Present subjunctive": "Subjunctive would be 'sint' — 'sunt' is indicative",
+        "Future indicative": "Future would be 'erunt' — 'sunt' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sequor, sequi, secutus sum", "edo, edere, edi, esum", "scio, scire, scivi, scitum"],
+      "reveal": null,
+      "hints": {
+        "sequor, sequi, secutus sum": "These are the parts of 'sequi' (to follow) — not 'esse'",
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — not 'esse'",
+        "scio, scire, scivi, scitum": "These are the parts of 'scire' (to know) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'amicitiae'?",
+      "target": "Nominative plural",
+      "choices": ["Nominative plural", "Genitive singular", "Dative singular", "Vocative plural"],
+      "reveal": { "word": "amicitiae", "gloss": "friendships" },
+      "hints": {
+        "Genitive singular": "'amicitiae' can be genitive singular, but here it is the subject of 'sunt' (nominative plural)",
+        "Dative singular": "'amicitiae' can be dative singular, but context shows it is the nominative plural subject",
+        "Vocative plural": "While identical in form, Cicero is not addressing friendships — this is the subject"
+      }
+    },
+    {
+      "prompt": "Declension of 'amicitiae'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nominative plural ends in -i — 'amicitia, amicitiae' is 1st declension",
+        "3rd": "3rd declension nominative plural ends in -es — 'amicitiae' is 1st declension",
+        "5th": "5th declension nominative plural ends in -es — 'amicitiae' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What does 'Verae' agree with?",
+      "target": "amicitiae — true friendships",
+      "choices": ["sunt — truly are", "amicitiae — true friendships", "sempiternae — truly everlasting", "an implied noun not in the sentence"],
+      "reveal": { "word": "Verae", "gloss": "true / genuine" },
+      "hints": {
+        "sunt — truly are": "'Verae' is an adjective, not an adverb — it modifies a noun, not a verb",
+        "sempiternae — truly everlasting": "'Verae' modifies 'amicitiae' (true friendships), not 'sempiternae'",
+        "an implied noun not in the sentence": "The noun is explicit: 'amicitiae' — 'verae' agrees with it in gender, number, and case"
+      }
+    },
+    {
+      "prompt": "What philosophical claim does Cicero make here?",
+      "target": "Genuine friendships last forever",
+      "choices": ["All friendships are temporary", "Genuine friendships last forever", "Friendship is more important than truth", "Only old friendships are real"],
+      "reveal": null,
+      "hints": {
+        "All friendships are temporary": "Cicero says the opposite — 'sempiternae' means everlasting",
+        "Friendship is more important than truth": "'Verae' modifies 'amicitiae' — Cicero says TRUE friendships are eternal, not that friendship outranks truth",
+        "Only old friendships are real": "'Sempiternae' means everlasting, not old — Cicero speaks of the enduring nature of true friendship"
+      }
+    }
+  ],
+  "translation": "True friendships are everlasting."
+}

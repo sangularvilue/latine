@@ -1,0 +1,97 @@
+{
+  "id": "vot-prv-22-1",
+  "source": "Vulgate",
+  "reference": "Proverbs 22:1",
+  "latin": ["Melius", "est", "nomen", "bonum", "quam", "divitiae", "multae"],
+  "steps": [
+    {
+      "prompt": "What case is 'nomen'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "nomen = a name (nom.)",
+      "hints": {
+        "accusative": "While 'nomen' can be accusative, here it is the subject",
+        "ablative": "The ablative would be 'nomine'",
+        "genitive": "The genitive would be 'nominis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'nomen'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "2nd declension": "2nd declension neuter nouns end in -um, not -en",
+        "4th declension": "4th declension neuter nouns end in -u"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to have"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be the infinitive of 'edere'",
+        "to go": "That would be the infinitive of 'ire'",
+        "to have": "That would be the infinitive of 'habere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "melius est = it is better",
+      "hints": {
+        "perfect indicative": "The perfect of 'esse' would be 'fuit'",
+        "present subjunctive": "The present subjunctive would be 'sit'",
+        "imperfect indicative": "The imperfect would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edo' (to eat)",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)"
+      }
+    },
+    {
+      "prompt": "What case is 'divitiae'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "divitiae = riches (nom. pl.)",
+      "hints": {
+        "genitive": "The genitive singular would be 'divitiae' but this is nominative plural (plurale tantum)",
+        "dative": "The dative plural would be 'divitiis'",
+        "vocative": "The vocative would be the same as nominative but here it is not an address"
+      }
+    },
+    {
+      "prompt": "What declension is 'divitiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nominative plural ends in -i or -a (neuter)",
+        "3rd declension": "3rd declension nominative plural ends in -es",
+        "5th declension": "5th declension nominative plural ends in -es"
+      }
+    },
+    {
+      "prompt": "What case is 'multae'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "multae = many / great (nom. fem. pl.)",
+      "hints": {
+        "genitive": "The genitive feminine singular is 'multae' but here it modifies plural 'divitiae'",
+        "dative": "The dative feminine singular would be 'multae' but the context is nominative plural",
+        "ablative": "The ablative feminine plural would be 'multis'"
+      }
+    }
+  ],
+  "translation": "A good name is better than great riches"
+}

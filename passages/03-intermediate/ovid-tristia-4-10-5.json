@@ -1,0 +1,119 @@
+{
+  "id": "ovid-tristia-4-10-5",
+  "source": "Ovid",
+  "reference": "Tristia IV.10.5",
+  "latin": ["Gutta", "cavat", "lapidem", "non", "vi", "sed", "saepe", "cadendo"],
+  "steps": [
+    {
+      "prompt": "Which is the main verb?",
+      "target": "cavat",
+      "choices": ["Gutta", "cavat", "lapidem", "cadendo"],
+      "reveal": null,
+      "hints": {
+        "Gutta": "'Gutta' is a noun — the subject of the sentence",
+        "lapidem": "'lapidem' is a noun — the direct object",
+        "cadendo": "'cadendo' is a gerund (verbal noun), not the main verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cavat' translates to?",
+      "target": "to hollow out",
+      "choices": ["to hollow out", "to be careful", "to fall", "to seize"],
+      "reveal": null,
+      "hints": {
+        "to be careful": "'to be careful' is 'cavere' — 'cavat' comes from 'cavare' (to hollow out)",
+        "to fall": "'to fall' is 'cadere' — 'cavat' comes from 'cavare'",
+        "to seize": "'to seize' is 'capere' — 'cavat' comes from 'cavare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'cavat'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "cavat", "gloss": "hollows out / wears away" },
+      "hints": {
+        "Perfect indicative": "Perfect of 'cavare' would be 'cavavit'",
+        "Present subjunctive": "Present subjunctive would be 'cavet'",
+        "Future indicative": "Future of 'cavare' would be 'cavabit'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cavat'?",
+      "target": "cavo, cavare, cavavi, cavatum",
+      "choices": ["cavo, cavare, cavavi, cavatum", "caveo, cavere, cavi, cautum", "cado, cadere, cecidi, casum", "capio, capere, cepi, captum"],
+      "reveal": null,
+      "hints": {
+        "caveo, cavere, cavi, cautum": "These are the principal parts of 'cavere' (to beware)",
+        "cado, cadere, cecidi, casum": "These are the principal parts of 'cadere' (to fall)",
+        "capio, capere, cepi, captum": "These are the principal parts of 'capere' (to seize)"
+      }
+    },
+    {
+      "prompt": "Case of 'Gutta'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Vocative"],
+      "reveal": { "word": "Gutta", "gloss": "a drop (of water)" },
+      "hints": {
+        "Accusative": "Accusative of 'gutta' would be 'guttam'",
+        "Ablative": "Ablative of 'gutta' would be 'gutta' — but here it is the subject, so nominative",
+        "Vocative": "Vocative would look like 'gutta' too, but context shows it is the subject — nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'gutta'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'gutta' with -a ending is 1st declension",
+        "3rd": "3rd declension has varied endings — 'gutta' is a typical 1st declension -a noun",
+        "4th": "4th declension nouns end in -us/-u — 'gutta' is 1st declension"
+      }
+    },
+    {
+      "prompt": "Case of 'lapidem'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "lapidem", "gloss": "a stone" },
+      "hints": {
+        "Nominative": "Nominative of 'lapis' is 'lapis' — 'lapidem' with -em ending is accusative",
+        "Genitive": "Genitive of 'lapis' would be 'lapidis'",
+        "Ablative": "Ablative of 'lapis' would be 'lapide'"
+      }
+    },
+    {
+      "prompt": "Declension of 'lapis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'lapis' with genitive 'lapidis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'lapis' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'lapis' has genitive 'lapidis', which is 3rd declension"
+      }
+    },
+    {
+      "prompt": "Case of 'vi'?",
+      "target": "Ablative",
+      "choices": ["Nominative", "Dative", "Ablative", "Accusative"],
+      "reveal": { "word": "vi", "gloss": "by force" },
+      "hints": {
+        "Nominative": "Nominative of 'vis' is 'vis' — 'vi' is the ablative singular",
+        "Dative": "'vis' is irregular and lacks a standard dative singular — 'vi' is ablative",
+        "Accusative": "Accusative of 'vis' would be 'vim'"
+      }
+    },
+    {
+      "prompt": "What form is 'cadendo'?",
+      "target": "Gerund (ablative)",
+      "choices": ["Gerund (ablative)", "Present participle", "Gerundive", "Perfect participle"],
+      "reveal": { "word": "cadendo", "gloss": "by falling" },
+      "hints": {
+        "Present participle": "Present participle would be 'cadens/cadentis' — 'cadendo' with -ndo is a gerund",
+        "Gerundive": "Gerundive would be 'cadendus/a/um' — 'cadendo' is the ablative of the gerund",
+        "Perfect participle": "Perfect participle of 'cadere' would be 'casus' — 'cadendo' is a gerund"
+      }
+    }
+  ],
+  "translation": "A drop hollows out a stone not by force but by falling often"
+}

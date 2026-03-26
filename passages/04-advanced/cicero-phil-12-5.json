@@ -1,0 +1,163 @@
+{
+  "id": "cicero-phil-12-5",
+  "source": "Cicero",
+  "reference": "Philippicae XII.5",
+  "latin": ["Cuiusvis", "hominis", "est", "errare", "nullius", "nisi", "insipientis", "perseverare"],
+  "steps": [
+    {
+      "prompt": "Which word is the main finite verb?",
+      "target": "est",
+      "choices": ["est", "errare", "insipientis", "perseverare"],
+      "reveal": null,
+      "hints": {
+        "errare": "'errare' is an infinitive meaning 'to err' — it functions as the subject complement here",
+        "insipientis": "'insipientis' is a noun/adjective meaning 'of a fool'",
+        "perseverare": "'perseverare' is an infinitive meaning 'to persist' — not the finite verb"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to send"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse'",
+        "to go": "'to go' is 'ire' — not related to 'esse'",
+        "to send": "'to send' is 'mittere' — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "est", "gloss": "is / it belongs to" },
+      "hints": {
+        "Future indicative": "Future would be 'erit' — 'est' is present",
+        "Present subjunctive": "Subjunctive would be 'sit' — 'est' is indicative",
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "mitto, mittere, misi, missum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'est' here is from 'esse'",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not 'esse'",
+        "mitto, mittere, misi, missum": "These are the parts of 'mittere' (to send) — unrelated"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'errare' translates to?",
+      "target": "to err / to make a mistake",
+      "choices": ["to err / to make a mistake", "to wander aimlessly", "to plow", "to blush"],
+      "reveal": null,
+      "hints": {
+        "to wander aimlessly": "'errare' can mean 'to wander,' but here Cicero uses it in the sense of 'to err / make mistakes'",
+        "to plow": "'to plow' is 'arare' — similar sounding but different from 'errare'",
+        "to blush": "'to blush' is 'erubescere' — do not confuse the er- prefix"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'errare' in this sentence?",
+      "target": "Present infinitive (used as subject)",
+      "choices": ["Present indicative", "Present infinitive (used as subject)", "Imperfect subjunctive", "Future infinitive"],
+      "reveal": { "word": "errare", "gloss": "to err" },
+      "hints": {
+        "Present indicative": "'errare' is not a finite form — it is an infinitive functioning as the subject",
+        "Imperfect subjunctive": "Imperfect subjunctive would be 'erraret' — 'errare' is the infinitive",
+        "Future infinitive": "Future infinitive would be 'erraturum esse' — 'errare' is the present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'errare'?",
+      "target": "erro, errare, erravi, erratum",
+      "choices": ["erro, errare, erravi, erratum", "aro, arare, aravi, aratum", "erigo, erigere, erexi, erectum", "erubesco, erubescere, erubui, —"],
+      "reveal": null,
+      "hints": {
+        "aro, arare, aravi, aratum": "These are the parts of 'arare' (to plow) — not 'errare'",
+        "erigo, erigere, erexi, erectum": "These are the parts of 'erigere' (to raise up) — different er- verb",
+        "erubesco, erubescere, erubui, —": "These are the parts of 'erubescere' (to blush) — not 'errare'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perseverare' translates to?",
+      "target": "to persist / persevere",
+      "choices": ["to persist / persevere", "to preserve", "to perceive", "to persuade"],
+      "reveal": null,
+      "hints": {
+        "to preserve": "'to preserve' is 'conservare/servare' — 'perseverare' means to persist",
+        "to perceive": "'to perceive' is 'percipere' — different per- compound",
+        "to persuade": "'to persuade' is 'persuadere' — not 'perseverare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'perseverare' here?",
+      "target": "Present infinitive (used as subject)",
+      "choices": ["Present indicative", "Present infinitive (used as subject)", "Perfect infinitive", "Future infinitive"],
+      "reveal": { "word": "perseverare", "gloss": "to persist" },
+      "hints": {
+        "Present indicative": "'perseverare' is not a finite form — it is an infinitive complementing the implied 'est'",
+        "Perfect infinitive": "Perfect infinitive would be 'perseveravisse' — 'perseverare' is present",
+        "Future infinitive": "Future infinitive would be 'perseveraturum esse' — 'perseverare' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perseverare'?",
+      "target": "persevero, perseverare, perseveravi, perseveratum",
+      "choices": ["persevero, perseverare, perseveravi, perseveratum", "servo, servare, servavi, servatum", "persuadeo, persuadere, persuasi, persuasum", "percipio, percipere, percepi, perceptum"],
+      "reveal": null,
+      "hints": {
+        "servo, servare, servavi, servatum": "These are the parts of 'servare' (to save) — not 'perseverare'",
+        "persuadeo, persuadere, persuasi, persuasum": "These are the parts of 'persuadere' (to persuade) — different verb",
+        "percipio, percipere, percepi, perceptum": "These are the parts of 'percipere' (to perceive) — not 'perseverare'"
+      }
+    },
+    {
+      "prompt": "What case is 'hominis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "hominis", "gloss": "of a person / human being" },
+      "hints": {
+        "Nominative": "Nominative would be 'homo' — 'hominis' is the genitive singular",
+        "Dative": "Dative would be 'homini' — 'hominis' ends in -is (genitive)",
+        "Ablative": "Ablative would be 'homine' — 'hominis' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'hominis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive ends in -ae — 'homo, hominis' is 3rd declension",
+        "2nd": "2nd declension genitive ends in -i — 'hominis' with -is ending is 3rd declension",
+        "5th": "5th declension genitive ends in -ei — 'hominis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'insipientis'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "insipientis", "gloss": "of a fool / unwise person" },
+      "hints": {
+        "Nominative": "Nominative would be 'insipiens' — 'insipientis' is the genitive singular",
+        "Accusative": "Accusative singular would be 'insipientem' — 'insipientis' is genitive",
+        "Ablative": "Ablative singular would be 'insipiente/insipientī' — 'insipientis' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'insipientis'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive ends in -ae — 'insipiens, insipientis' is 3rd declension",
+        "2nd": "2nd declension genitive ends in -i — 'insipientis' is 3rd declension",
+        "4th": "4th declension genitive ends in -us — 'insipientis' is 3rd declension"
+      }
+    }
+  ],
+  "translation": "It is the nature of any person to err, but of no one except a fool to persist in error."
+}

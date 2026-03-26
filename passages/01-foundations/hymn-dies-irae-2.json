@@ -1,0 +1,119 @@
+{
+  "id": "hymn-dies-irae-2",
+  "source": "Hymn",
+  "reference": "Dies Irae 2",
+  "latin": ["Quantus", "tremor", "est", "futurus", "quando", "iudex", "est", "venturus"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'est' (first occurrence) translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to have"],
+      "reveal": null,
+      "hints": {
+        "to go": "'to go' is 'ire' — 'est' comes from 'esse'",
+        "to eat": "'to eat' is 'edere' — 'est' comes from 'esse' (to be)",
+        "to have": "'to have' is 'habere' — 'est' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense is 'est' here?",
+      "target": "Present",
+      "choices": ["Present", "Imperfect", "Perfect", "Future"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Imperfect": "Imperfect 3rd sg. of 'esse' would be 'erat' — 'est' is present tense",
+        "Perfect": "Perfect 3rd sg. of 'esse' would be 'fuit' — 'est' is present tense",
+        "Future": "Future 3rd sg. of 'esse' would be 'erit' — 'est' is present tense (with 'futurus' forming a periphrastic future)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ivi, itum", "edo, edere, edi, esum", "habeo, habere, habui, habitum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are the principal parts of 'ire' (to go)",
+        "edo, edere, edi, esum": "These are the principal parts of 'edere' (to eat)",
+        "habeo, habere, habui, habitum": "These are the principal parts of 'habere' (to have)"
+      }
+    },
+    {
+      "prompt": "What case is 'tremor'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Ablative"],
+      "reveal": { "word": "tremor", "gloss": "trembling" },
+      "hints": {
+        "Genitive": "Genitive of 'tremor' would be 'tremoris' — 'tremor' is the nominative form",
+        "Accusative": "Accusative of 'tremor' would be 'tremorem' — 'tremor' is the nominative subject",
+        "Ablative": "Ablative of 'tremor' would be 'tremore' — 'tremor' is the nominative form"
+      }
+    },
+    {
+      "prompt": "What declension is 'tremor, tremoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'tremoris' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'tremoris' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'tremoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'iudex'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "iudex", "gloss": "judge" },
+      "hints": {
+        "Genitive": "Genitive of 'iudex' would be 'iudicis' — 'iudex' is the nominative form",
+        "Accusative": "Accusative of 'iudex' would be 'iudicem' — 'iudex' is the nominative subject",
+        "Vocative": "Vocative of 'iudex' would be 'iudex' — but here it is the subject of 'est venturus'"
+      }
+    },
+    {
+      "prompt": "What declension is 'iudex, iudicis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'iudicis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'iudicis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'iudicis' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'venturus' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to conquer", "to sell", "to turn"],
+      "reveal": null,
+      "hints": {
+        "to conquer": "'to conquer' is 'vincere' — 'venturus' comes from 'venire'",
+        "to sell": "'to sell' is 'vendere' — 'venturus' comes from 'venire'",
+        "to turn": "'to turn' is 'vertere' — 'venturus' comes from 'venire'"
+      }
+    },
+    {
+      "prompt": "What form is 'est venturus' (the periphrastic)?",
+      "target": "Active periphrastic (about to come)",
+      "choices": ["Active periphrastic (about to come)", "Perfect passive", "Present indicative", "Passive periphrastic (must be come to)"],
+      "reveal": { "word": "venturus", "gloss": "about to come" },
+      "hints": {
+        "Perfect passive": "Perfect passive would use a perfect passive participle — 'venturus' is a future active participle",
+        "Present indicative": "'est' alone is present indicative, but 'est venturus' forms the active periphrastic (future active participle + esse)",
+        "Passive periphrastic (must be come to)": "Passive periphrastic uses the gerundive — 'venturus' is a future active participle"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'venturus'?",
+      "target": "venio, venire, veni, ventum",
+      "choices": ["venio, venire, veni, ventum", "vinco, vincere, vici, victum", "vendo, vendere, vendidi, venditum", "verto, vertere, verti, versum"],
+      "reveal": null,
+      "hints": {
+        "vinco, vincere, vici, victum": "These are the principal parts of 'vincere' (to conquer)",
+        "vendo, vendere, vendidi, venditum": "These are the principal parts of 'vendere' (to sell)",
+        "verto, vertere, verti, versum": "These are the principal parts of 'vertere' (to turn)"
+      }
+    }
+  ],
+  "translation": "How great the trembling will be when the judge is about to come"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "sallust-cat-1-1",
+  "source": "Sallust",
+  "reference": "Bellum Catilinae 1.1",
+  "latin": ["Omnis", "homines", "qui", "sese", "student", "praestare", "ceteris", "animalibus"],
+  "steps": [
+    {
+      "prompt": "What case is 'Omnis'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "ablative"],
+      "reveal": "Omnis = all (acc. masc. pl., archaic for 'omnes')",
+      "hints": {
+        "nominative": "Nominative plural would typically be 'omnes' — here 'omnis' is accusative plural (archaic -is for -es)",
+        "genitive": "Genitive singular would also be 'omnis', but here it modifies 'homines' as accusative",
+        "ablative": "Ablative plural would be 'omnibus' — 'omnis' is accusative plural here"
+      }
+    },
+    {
+      "prompt": "What case is 'homines'?",
+      "target": "accusative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "homines = men/humans (acc. pl.)",
+      "hints": {
+        "nominative": "While 'homines' can be nominative plural, here it is accusative — the subject of the infinitive 'praestare'",
+        "genitive": "Genitive plural would be 'hominum' — 'homines' is accusative here",
+        "vocative": "Vocative plural would be 'homines' (same form), but Sallust is not addressing anyone"
+      }
+    },
+    {
+      "prompt": "What declension is 'homo, hominis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'hominis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'hominis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'hominis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What is 'sese'?",
+      "target": "emphatic reflexive pronoun (accusative)",
+      "choices": ["emphatic reflexive pronoun (accusative)", "demonstrative pronoun", "relative pronoun", "interrogative pronoun"],
+      "reveal": "sese = themselves (emphatic form of 'se')",
+      "hints": {
+        "demonstrative pronoun": "'Sese' is a doubled form of 'se' for emphasis — not a demonstrative",
+        "relative pronoun": "Relative pronoun would be 'qui/quae/quod' — 'sese' is reflexive",
+        "interrogative pronoun": "Interrogative would be 'quis/quid' — 'sese' is reflexive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'student' translates to?",
+      "target": "to be eager/strive",
+      "choices": ["to be eager/strive", "to study", "to stand", "to be foolish"],
+      "reveal": null,
+      "hints": {
+        "to study": "While English 'study' derives from it, 'studere' in Latin means 'to be eager/strive for'",
+        "to stand": "That would be 'stare' — 'student' comes from 'studere' (to be eager/strive)",
+        "to be foolish": "That would be 'stultum esse' — 'studere' means 'to be eager/strive'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'student'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "student = they strive",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'studeant' — 'student' with -ent is present indicative (2nd conj.)",
+        "perfect indicative": "Perfect would be 'studuerunt' — 'student' is present indicative",
+        "future indicative": "Future would be 'studebunt' — 'student' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'student'?",
+      "target": "studeo, studere, studui",
+      "choices": ["studeo, studere, studui", "sto, stare, steti, statum", "struo, struere, struxi, structum", "stupeo, stupere, stupui"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand)",
+        "struo, struere, struxi, structum": "These are the parts of 'struere' (to build)",
+        "stupeo, stupere, stupui": "These are the parts of 'stupere' (to be stunned)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'praestare' translates to?",
+      "target": "to surpass/excel",
+      "choices": ["to surpass/excel", "to present", "to stand before", "to provide"],
+      "reveal": null,
+      "hints": {
+        "to present": "That would be 'praesentare' — 'praestare' means 'to surpass/excel' here",
+        "to stand before": "While etymologically related (prae + stare), 'praestare' means 'to surpass/excel'",
+        "to provide": "'Praestare' can mean 'to provide', but with the dative 'ceteris animalibus' it means 'to surpass'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'praestare'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "present indicative", "imperfect subjunctive", "future infinitive"],
+      "reveal": "praestare = to surpass (complementary infinitive with 'student')",
+      "hints": {
+        "present indicative": "Present indicative would be 'praestat' — 'praestare' ending in -re is infinitive",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'praestaret' — 'praestare' is infinitive",
+        "future infinitive": "Future infinitive would be 'praestaturum esse' — 'praestare' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'praestare'?",
+      "target": "praesto, praestare, praestiti, praestitum",
+      "choices": ["praesto, praestare, praestiti, praestitum", "sto, stare, steti, statum", "praesideo, praesidere, praesedi, praesessum", "praesum, praeesse, praefui"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — 'praestare' is its compound prae + stare",
+        "praesideo, praesidere, praesedi, praesessum": "These are the parts of 'praesidere' (to preside/guard)",
+        "praesum, praeesse, praefui": "These are the parts of 'praeesse' (to be in charge)"
+      }
+    },
+    {
+      "prompt": "What case is 'ceteris'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "ceteris = to other/the rest of (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'ceteri' — 'ceteris' with -is is dative/ablative plural",
+        "ablative": "While 'ceteris' could be ablative, with 'praestare' (surpass) it takes dative of comparison",
+        "genitive": "Genitive plural would be 'ceterorum' — 'ceteris' is dative here"
+      }
+    },
+    {
+      "prompt": "What case is 'animalibus'?",
+      "target": "dative",
+      "choices": ["nominative", "dative", "ablative", "genitive"],
+      "reveal": "animalibus = animals (dat. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'animalia' — 'animalibus' with -ibus is dative/ablative",
+        "ablative": "While the form is the same, 'animalibus' is dative with 'praestare' (surpass + dative)",
+        "genitive": "Genitive plural would be 'animalium' — 'animalibus' is dative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'animal, animalis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'animalis' ends in -is",
+        "2nd declension": "2nd declension has genitive in -i — 'animalis' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'animalis' ends in -is"
+      }
+    }
+  ],
+  "translation": "All men who strive to surpass other animals"
+}

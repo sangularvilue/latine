@@ -1,0 +1,108 @@
+{
+  "id": "vnt-mt-11-28",
+  "source": "Vulgate",
+  "reference": "Matthew 11:28",
+  "latin": ["Venite", "ad", "me", "omnes", "qui", "laboratis"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Venite' translates to?",
+      "target": "to come",
+      "choices": ["to come", "to see", "to conquer", "to sell"],
+      "reveal": null,
+      "hints": {
+        "to see": "'Videre' means to see",
+        "to conquer": "'Vincere' means to conquer",
+        "to sell": "'Vendere' means to sell"
+      }
+    },
+    {
+      "prompt": "'Venite' is what tense and mood?",
+      "target": "present imperative active",
+      "choices": ["present imperative active", "present indicative active", "present subjunctive active", "perfect indicative active"],
+      "reveal": { "word": "Venite", "gloss": "Come" },
+      "hints": {
+        "present indicative active": "The indicative would be 'venitis'",
+        "present subjunctive active": "The subjunctive would be 'veniatis'",
+        "perfect indicative active": "The perfect would be 'venistis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Venite'?",
+      "target": "venio, venire, veni, ventus",
+      "choices": ["venio, venire, veni, ventus", "venio, venere, veni, ventus", "venio, venire, venivi, venitus", "veno, venare, venavi, venatus"],
+      "reveal": null,
+      "hints": {
+        "venio, venere, veni, ventus": "The infinitive is 'venire' (4th conjugation), not 'venere'",
+        "venio, venire, venivi, venitus": "The perfect is 'veni', not 'venivi'",
+        "veno, venare, venavi, venatus": "'Venire' is 4th conjugation, not 1st"
+      }
+    },
+    {
+      "prompt": "What case is 'me'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": { "word": "me", "gloss": "me" },
+      "hints": {
+        "nominative": "The nominative is 'ego'; 'ad' takes accusative",
+        "ablative": "The ablative 'me' exists but 'ad' governs accusative",
+        "dative": "The dative would be 'mihi'"
+      }
+    },
+    {
+      "prompt": "What case is 'omnes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "omnes", "gloss": "all" },
+      "hints": {
+        "accusative": "'Omnes' here is the subject of the clause, in apposition to 'qui'",
+        "ablative": "The ablative would be 'omnibus'",
+        "genitive": "The genitive would be 'omnium'"
+      }
+    },
+    {
+      "prompt": "What declension is 'omnes'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension plurals end in -ae, not -es",
+        "2nd declension": "2nd declension plurals end in -i, not -es",
+        "4th declension": "4th declension plurals end in -us"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'laboratis' translates to?",
+      "target": "to labor",
+      "choices": ["to labor", "to praise", "to free", "to play"],
+      "reveal": null,
+      "hints": {
+        "to praise": "'Laudare' means to praise",
+        "to free": "'Liberare' means to free",
+        "to play": "'Ludere' means to play"
+      }
+    },
+    {
+      "prompt": "'laboratis' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "imperfect indicative active", "future indicative active"],
+      "reveal": { "word": "laboratis", "gloss": "labor" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'laboretis'",
+        "imperfect indicative active": "The imperfect would be 'laborabatis'",
+        "future indicative active": "The future would be 'laborabitis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'laboratis'?",
+      "target": "laboro, laborare, laboravi, laboratus",
+      "choices": ["laboro, laborare, laboravi, laboratus", "laboro, laborere, laborui, laboritus", "laboro, laborare, laborui, labortus", "laboro, laborire, laborivi, laboritus"],
+      "reveal": null,
+      "hints": {
+        "laboro, laborere, laborui, laboritus": "This is a regular 1st conjugation verb with -are infinitive",
+        "laboro, laborare, laborui, labortus": "The perfect is 'laboravi', regular 1st conjugation",
+        "laboro, laborire, laborivi, laboritus": "The infinitive is 'laborare', not 'laborire'"
+      }
+    }
+  ],
+  "translation": "Come to me, all you who labor."
+}

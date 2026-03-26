@@ -1,0 +1,130 @@
+{
+  "id": "cicero-amic-6-20",
+  "source": "Cicero",
+  "reference": "De Amicitia VI.20",
+  "latin": ["Amicitia", "nihil", "aliud", "est", "nisi", "omnium", "divinarum", "humanarumque", "rerum", "consensio"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "est",
+      "choices": ["Amicitia", "est", "omnium", "consensio"],
+      "reveal": null,
+      "hints": {
+        "Amicitia": "'Amicitia' is a noun meaning 'friendship'",
+        "omnium": "'omnium' is an adjective meaning 'of all'",
+        "consensio": "'consensio' is a noun meaning 'agreement / harmony'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to see"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'est' here is from 'esse'",
+        "to go": "'to go' is 'ire' — not 'esse'",
+        "to see": "'to see' is 'videre' — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "est", "gloss": "is" },
+      "hints": {
+        "Future indicative": "Future would be 'erit' — 'est' is present",
+        "Present subjunctive": "Subjunctive would be 'sit' — 'est' is indicative",
+        "Perfect indicative": "Perfect would be 'fuit' — 'est' is present"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "video, videre, vidi, visum"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — not 'esse'",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not 'esse'",
+        "video, videre, vidi, visum": "These are the parts of 'videre' (to see) — not 'esse'"
+      }
+    },
+    {
+      "prompt": "What case is 'Amicitia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Accusative"],
+      "reveal": { "word": "Amicitia", "gloss": "friendship" },
+      "hints": {
+        "Ablative": "Ablative singular of 1st declension looks the same, but 'Amicitia' is the subject here",
+        "Vocative": "Cicero is not addressing friendship — it is the subject of the definition",
+        "Accusative": "Accusative would be 'amicitiam' — 'Amicitia' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'Amicitia'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'amicitia, amicitiae' is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'amicitia' with -a is 1st declension",
+        "5th": "5th declension nouns end in -es — 'amicitia' is 1st declension"
+      }
+    },
+    {
+      "prompt": "What case is 'rerum'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Accusative", "Dative"],
+      "reveal": { "word": "rerum", "gloss": "of things / affairs" },
+      "hints": {
+        "Nominative": "Nominative plural would be 'res' — 'rerum' is genitive plural",
+        "Accusative": "Accusative plural would be 'res' — 'rerum' is genitive plural",
+        "Dative": "Dative plural would be 'rebus' — 'rerum' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'rerum'?",
+      "target": "5th",
+      "choices": ["1st", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension genitive plural ends in -arum — 'res, rei' is 5th declension",
+        "3rd": "3rd declension genitive plural ends in -um/-ium — 'rerum' is 5th declension",
+        "4th": "4th declension genitive plural ends in -uum — 'rerum' is 5th declension"
+      }
+    },
+    {
+      "prompt": "What case is 'consensio'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Accusative", "Dative"],
+      "reveal": { "word": "consensio", "gloss": "agreement / harmony" },
+      "hints": {
+        "Ablative": "Ablative would be 'consensione' — 'consensio' is the predicate nominative",
+        "Accusative": "Accusative would be 'consensionem' — 'consensio' is nominative after 'est'",
+        "Dative": "Dative would be 'consensioni' — 'consensio' is nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'consensio'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'consensio, consensionis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'consensio' is 3rd declension",
+        "4th": "4th declension nouns end in -us/-u — 'consensio, consensionis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What does 'divinarum humanarumque' encompass?",
+      "target": "All things both divine and human — the totality of existence",
+      "choices": ["Only religious rituals", "All things both divine and human — the totality of existence", "Political and military matters only", "Only philosophical questions"],
+      "reveal": null,
+      "hints": {
+        "Only religious rituals": "'Divinarum' includes all divine matters, not just rituals — paired with 'humanarumque' it means everything",
+        "Political and military matters only": "The phrase encompasses ALL things divine and human, not just politics and war",
+        "Only philosophical questions": "Cicero's scope is broader — divine and human affairs means the entirety of existence"
+      }
+    }
+  ],
+  "translation": "Friendship is nothing other than agreement on all things divine and human."
+}

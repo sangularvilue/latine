@@ -1,0 +1,86 @@
+{
+  "id": "horace-ode-1-22",
+  "source": "Horace",
+  "reference": "Odes I.22",
+  "latin": ["Integer", "vitae", "scelerisque", "purus"],
+  "steps": [
+    {
+      "prompt": "Which word means 'blameless / upright'?",
+      "target": "Integer",
+      "choices": ["Integer", "vitae", "scelerisque", "purus"],
+      "reveal": null,
+      "hints": {
+        "vitae": "'vitae' is a noun meaning 'of life'",
+        "scelerisque": "'scelerisque' contains 'sceleris' (of crime) + '-que' (and)",
+        "purus": "'purus' means 'pure/clean' — 'Integer' means 'blameless/upright'"
+      }
+    },
+    {
+      "prompt": "Case of 'vitae'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "vitae", "gloss": "of life / in life" },
+      "hints": {
+        "Nominative": "Nominative singular of 'vita' is 'vita' — 'vitae' could be nominative plural or genitive singular; here it is genitive with 'integer'",
+        "Dative": "Dative of 'vita' is also 'vitae', but 'integer' takes the genitive of respect",
+        "Ablative": "Ablative of 'vita' would be 'vita' — 'vitae' here is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'vita'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'vita' with -a ending is 1st declension",
+        "3rd": "3rd declension has varied endings — 'vita' is a typical 1st declension -a noun",
+        "5th": "5th declension nouns end in -es — 'vita' is 1st declension"
+      }
+    },
+    {
+      "prompt": "Case of 'sceleris' (in 'scelerisque')?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "scelerisque", "gloss": "and of crime / wrongdoing" },
+      "hints": {
+        "Nominative": "Nominative of 'scelus' is 'scelus' — 'sceleris' with -is ending is genitive",
+        "Dative": "Dative of 'scelus' would be 'sceleri'",
+        "Ablative": "Ablative of 'scelus' would be 'scelere'"
+      }
+    },
+    {
+      "prompt": "Declension of 'scelus'?",
+      "target": "3rd",
+      "choices": ["2nd", "3rd", "4th", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension neuter nouns end in -um — 'scelus' with genitive 'sceleris' is 3rd declension",
+        "4th": "4th declension nouns have genitive -us — 'scelus' has genitive 'sceleris'",
+        "5th": "5th declension nouns end in -es — 'scelus' is a 3rd declension neuter noun"
+      }
+    },
+    {
+      "prompt": "What does '-que' in 'scelerisque' mean?",
+      "target": "and",
+      "choices": ["and", "or", "but", "than"],
+      "reveal": null,
+      "hints": {
+        "or": "'or' would be '-ve' or 'vel' — '-que' is an enclitic meaning 'and'",
+        "but": "'but' would be 'sed' or 'autem' — '-que' means 'and'",
+        "than": "'than' would be 'quam' — '-que' is an enclitic conjunction meaning 'and'"
+      }
+    },
+    {
+      "prompt": "What is the implied verb of this phrase?",
+      "target": "est (he/she is)",
+      "choices": ["est (he/she is)", "habet (he has)", "fit (he becomes)", "stat (he stands)"],
+      "reveal": null,
+      "hints": {
+        "habet (he has)": "The predicate adjectives 'integer' and 'purus' require a linking verb — 'est' is implied",
+        "fit (he becomes)": "'fit' implies change — the gnomic statement implies the copula 'est'",
+        "stat (he stands)": "'stat' is too specific — the predicate adjectives need the copula 'est'"
+      }
+    }
+  ],
+  "translation": "The person upright in life and pure of crime"
+}

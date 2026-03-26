@@ -1,0 +1,119 @@
+{
+  "id": "vot-lam-3-22",
+  "source": "Vulgate",
+  "reference": "Lamentations 3:22",
+  "latin": ["Misericordiae", "Domini", "quia", "non", "sumus", "consumpti"],
+  "steps": [
+    {
+      "prompt": "What case is 'misericordiae'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "misericordiae = the mercies (nom. pl.)",
+      "hints": {
+        "genitive": "'Misericordiae' can be genitive singular, but here it is nominative plural",
+        "dative": "'Misericordiae' can be dative singular, but here it is nominative plural",
+        "vocative": "The vocative would be the same form but the mercies are not being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'misericordiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nominative plural ends in -i",
+        "3rd declension": "3rd declension nominative plural ends in -es",
+        "5th declension": "5th declension nominative plural ends in -es"
+      }
+    },
+    {
+      "prompt": "What case is 'Domini'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "vocative"],
+      "reveal": "Domini = of the Lord (gen.)",
+      "hints": {
+        "nominative": "The nominative would be 'Dominus'",
+        "dative": "The dative would be 'Domino'",
+        "vocative": "The vocative would be 'Domine'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Domini'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitive singular ends in -ae",
+        "3rd declension": "3rd declension genitive singular ends in -is",
+        "4th declension": "4th declension genitive singular ends in -us"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sumus' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to have", "to take", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to have": "That would be the infinitive of 'habere'",
+        "to take": "That would be the infinitive of 'sumere' (different verb!)",
+        "to remain": "That would be the infinitive of 'manere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sumus'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "sumus = we are",
+      "hints": {
+        "perfect indicative": "The perfect would be 'fuimus'",
+        "present subjunctive": "The present subjunctive would be 'simus'",
+        "imperfect indicative": "The imperfect would be 'eramus'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sumus'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sumo, sumere, sumpsi, sumptum", "possum, posse, potui, —", "sto, stare, steti, statum"],
+      "reveal": null,
+      "hints": {
+        "sumo, sumere, sumpsi, sumptum": "These are the principal parts of 'sumo' (to take), a different verb",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)",
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'consumpti' translates to?",
+      "target": "to consume / to destroy",
+      "choices": ["to consume / to destroy", "to complete", "to gather", "to spend"],
+      "reveal": null,
+      "hints": {
+        "to complete": "That would be the infinitive of 'complere' or 'perficere'",
+        "to gather": "That would be the infinitive of 'colligere'",
+        "to spend": "That would be the infinitive of 'impendere'"
+      }
+    },
+    {
+      "prompt": "What form is 'consumpti'?",
+      "target": "perfect passive participle (nom. pl. masc.)",
+      "choices": ["perfect passive participle (nom. pl. masc.)", "present participle", "gerund", "gerundive"],
+      "reveal": "consumpti = consumed / destroyed",
+      "hints": {
+        "present participle": "The present participle would be 'consumentes'",
+        "gerund": "The gerund would be 'consumendi'",
+        "gerundive": "The gerundive would be 'consumendus, -a, -um'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'consumpti'?",
+      "target": "consumo, consumere, consumpsi, consumptum",
+      "choices": ["consumo, consumere, consumpsi, consumptum", "sumo, sumere, sumpsi, sumptum", "deleo, delere, delevi, deletum", "perdo, perdere, perdidi, perditum"],
+      "reveal": null,
+      "hints": {
+        "sumo, sumere, sumpsi, sumptum": "These are the principal parts of 'sumo' (to take), the simple verb",
+        "deleo, delere, delevi, deletum": "These are the principal parts of 'deleo' (to destroy)",
+        "perdo, perdere, perdidi, perditum": "These are the principal parts of 'perdo' (to destroy/lose)"
+      }
+    }
+  ],
+  "translation": "It is the mercies of the Lord that we are not consumed"
+}

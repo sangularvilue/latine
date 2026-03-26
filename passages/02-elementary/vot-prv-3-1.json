@@ -1,0 +1,86 @@
+{
+  "id": "vot-prv-3-1",
+  "source": "Vulgate",
+  "reference": "Proverbs 3:1",
+  "latin": ["Fili", "mi", "ne", "obliviscaris", "legis", "meae"],
+  "steps": [
+    {
+      "prompt": "What case is 'fili'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "genitive", "dative"],
+      "reveal": "fili = O son (voc.)",
+      "hints": {
+        "nominative": "The nominative would be 'filius'",
+        "genitive": "The genitive would be 'filii'",
+        "dative": "The dative would be 'filio'"
+      }
+    },
+    {
+      "prompt": "What declension is 'fili'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'obliviscaris' translates to?",
+      "target": "to forget",
+      "choices": ["to forget", "to remember", "to neglect", "to abandon"],
+      "reveal": null,
+      "hints": {
+        "to remember": "That would be the infinitive of 'meminisse' or 'recordari'",
+        "to neglect": "That would be the infinitive of 'neglegere'",
+        "to abandon": "That would be the infinitive of 'relinquere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'obliviscaris'?",
+      "target": "present subjunctive (deponent)",
+      "choices": ["present subjunctive (deponent)", "present indicative", "future indicative", "perfect subjunctive"],
+      "reveal": "ne obliviscaris = do not forget",
+      "hints": {
+        "present indicative": "The present indicative would be 'oblivisceris'",
+        "future indicative": "The future would be 'oblivisceris' (same form but different usage)",
+        "perfect subjunctive": "The perfect subjunctive would be 'oblitus sis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'obliviscaris'?",
+      "target": "obliviscor, oblivisci, oblitus sum, —",
+      "choices": ["obliviscor, oblivisci, oblitus sum, —", "reminiscor, reminisci, —, —", "memini, meminisse, —, —", "recordor, recordari, recordatus sum, —"],
+      "reveal": null,
+      "hints": {
+        "reminiscor, reminisci, —, —": "These are the principal parts of 'reminiscor' (to recall)",
+        "memini, meminisse, —, —": "These are the principal parts of 'memini' (to remember, defective verb)",
+        "recordor, recordari, recordatus sum, —": "These are the principal parts of 'recordor' (to remember)"
+      }
+    },
+    {
+      "prompt": "What case is 'legis'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "legis = of (my) law (gen.)",
+      "hints": {
+        "nominative": "The nominative would be 'lex'",
+        "dative": "The dative would be 'legi'",
+        "ablative": "The ablative would be 'lege'"
+      }
+    },
+    {
+      "prompt": "What declension is 'legis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitive singular ends in -ae",
+        "2nd declension": "2nd declension genitive singular ends in -i",
+        "5th declension": "5th declension genitive singular ends in -ei"
+      }
+    }
+  ],
+  "translation": "My son, do not forget my law"
+}

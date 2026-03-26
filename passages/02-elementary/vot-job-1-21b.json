@@ -1,0 +1,108 @@
+{
+  "id": "vot-job-1-21b",
+  "source": "Vulgate",
+  "reference": "Job 1:21",
+  "latin": ["Nudus", "egressus", "sum", "de", "utero", "matris", "meae"],
+  "steps": [
+    {
+      "prompt": "What case is 'nudus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "vocative"],
+      "reveal": "nudus = naked (nom. masc. sg.)",
+      "hints": {
+        "accusative": "The accusative masculine would be 'nudum'",
+        "ablative": "The ablative masculine would be 'nudo'",
+        "vocative": "The vocative would be 'nude'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'nudus' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have forms like -is, -e; 'nudus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Nudus' clearly declines: nudus, nuda, nudum"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'egressus sum' translates to?",
+      "target": "to go out / to come forth",
+      "choices": ["to go out / to come forth", "to enter", "to return", "to flee"],
+      "reveal": null,
+      "hints": {
+        "to enter": "That would be the infinitive of 'ingredi'",
+        "to return": "That would be the infinitive of 'redire' or 'reverti'",
+        "to flee": "That would be the infinitive of 'fugere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'egressus sum'?",
+      "target": "perfect indicative (deponent)",
+      "choices": ["perfect indicative (deponent)", "present indicative", "pluperfect indicative", "perfect subjunctive"],
+      "reveal": "egressus sum = I came forth",
+      "hints": {
+        "present indicative": "The present indicative would be 'egredior'",
+        "pluperfect indicative": "The pluperfect would be 'egressus eram'",
+        "perfect subjunctive": "The perfect subjunctive would be 'egressus sim'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'egressus sum'?",
+      "target": "egredior, egredi, egressus sum, —",
+      "choices": ["egredior, egredi, egressus sum, —", "gradior, gradi, gressus sum, —", "venio, venire, veni, ventum", "exeo, exire, exii, exitum"],
+      "reveal": null,
+      "hints": {
+        "gradior, gradi, gressus sum, —": "These are the principal parts of 'gradior' (to step/walk), the simple verb",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venio' (to come)",
+        "exeo, exire, exii, exitum": "These are the principal parts of 'exeo' (to go out), a different verb"
+      }
+    },
+    {
+      "prompt": "What case is 'utero'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "accusative"],
+      "reveal": "utero = womb (abl.)",
+      "hints": {
+        "dative": "'Utero' could be dative, but after 'de' it is ablative",
+        "nominative": "The nominative would be 'uterus'",
+        "accusative": "The accusative would be 'uterum'"
+      }
+    },
+    {
+      "prompt": "What declension is 'utero'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension ablative singular would end in -e",
+        "4th declension": "4th declension ablative singular would end in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'matris'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "matris = of (my) mother (gen.)",
+      "hints": {
+        "nominative": "The nominative would be 'mater'",
+        "dative": "The dative would be 'matri'",
+        "ablative": "The ablative would be 'matre'"
+      }
+    },
+    {
+      "prompt": "What declension is 'matris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension genitive singular ends in -ae",
+        "2nd declension": "2nd declension genitive singular ends in -i",
+        "4th declension": "4th declension genitive singular ends in -us"
+      }
+    }
+  ],
+  "translation": "Naked I came forth from my mother's womb"
+}

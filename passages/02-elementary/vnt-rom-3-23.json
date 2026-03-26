@@ -1,0 +1,141 @@
+{
+  "id": "vnt-rom-3-23",
+  "source": "Vulgate",
+  "reference": "Romans 3:23",
+  "latin": ["Omnes", "peccaverunt", "et", "egent", "gloria", "Dei"],
+  "steps": [
+    {
+      "prompt": "What case is 'Omnes'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Omnes", "gloss": "All" },
+      "hints": {
+        "accusative": "'Omnes' here is the subject, not the object",
+        "ablative": "The ablative would be 'omnibus'",
+        "genitive": "The genitive would be 'omnium'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Omnes'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nominative plurals end in -ae",
+        "2nd declension": "2nd declension nominative plurals end in -i",
+        "4th declension": "4th declension nominative plurals end in -us"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'peccaverunt' translates to?",
+      "target": "to sin",
+      "choices": ["to sin", "to strike", "to seek", "to ask"],
+      "reveal": null,
+      "hints": {
+        "to strike": "'Percutere' means to strike",
+        "to seek": "'Petere' means to seek",
+        "to ask": "'Rogare' means to ask"
+      }
+    },
+    {
+      "prompt": "'peccaverunt' is what tense and mood?",
+      "target": "perfect indicative active",
+      "choices": ["perfect indicative active", "present indicative active", "pluperfect indicative active", "imperfect indicative active"],
+      "reveal": { "word": "peccaverunt", "gloss": "have sinned" },
+      "hints": {
+        "present indicative active": "The present would be 'peccant'",
+        "pluperfect indicative active": "The pluperfect would be 'peccaverant'",
+        "imperfect indicative active": "The imperfect would be 'peccabant'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'peccaverunt'?",
+      "target": "pecco, peccare, peccavi, peccatus",
+      "choices": ["pecco, peccare, peccavi, peccatus", "pecco, peccere, pecui, peccitus", "pecco, peccare, pecci, pecctus", "pecco, peccire, peccivi, peccitus"],
+      "reveal": null,
+      "hints": {
+        "pecco, peccere, pecui, peccitus": "This is a regular 1st conjugation verb with -are infinitive",
+        "pecco, peccare, pecci, pecctus": "The perfect is 'peccavi' with regular -avi ending",
+        "pecco, peccire, peccivi, peccitus": "The infinitive is 'peccare', not 'peccire'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'egent' translates to?",
+      "target": "to lack",
+      "choices": ["to lack", "to drive", "to go out", "to eat"],
+      "reveal": null,
+      "hints": {
+        "to drive": "'Agere' means to drive or do",
+        "to go out": "'Egredi' means to go out",
+        "to eat": "'Edere' means to eat"
+      }
+    },
+    {
+      "prompt": "'egent' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "perfect indicative active", "imperfect indicative active"],
+      "reveal": { "word": "egent", "gloss": "fall short of" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'egeant'",
+        "perfect indicative active": "The perfect would be 'eguerunt'",
+        "imperfect indicative active": "The imperfect would be 'egebant'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'egent'?",
+      "target": "egeo, egere, egui, —",
+      "choices": ["egeo, egere, egui, —", "egeo, egare, egavi, egatus", "ego, egere, exi, exus", "egeo, egire, egivi, egitus"],
+      "reveal": null,
+      "hints": {
+        "egeo, egare, egavi, egatus": "'Egere' is 2nd conjugation, not 1st",
+        "ego, egere, exi, exus": "The first principal part is 'egeo', not 'ego'",
+        "egeo, egire, egivi, egitus": "The infinitive is 'egere', not 'egire'"
+      }
+    },
+    {
+      "prompt": "What case is 'gloria'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "genitive"],
+      "reveal": { "word": "gloria", "gloss": "glory" },
+      "hints": {
+        "nominative": "'Gloria' can be nominative, but 'egere' takes ablative of thing lacked",
+        "accusative": "The accusative would be 'gloriam'",
+        "genitive": "The genitive would be 'gloriae'"
+      }
+    },
+    {
+      "prompt": "What declension is 'gloria'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "'Gloria' ends in -a, characteristic of 1st declension",
+        "3rd declension": "3rd declension nouns do not end in -a in nominative",
+        "5th declension": "5th declension nouns end in -es"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "Dei", "gloss": "of God" },
+      "hints": {
+        "nominative": "The nominative is 'Deus'",
+        "dative": "The dative is 'Deo'",
+        "ablative": "The ablative is 'Deo'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Dei'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Deus' ends in -us, typical of 2nd declension",
+        "3rd declension": "3rd declension genitives end in -is",
+        "4th declension": "4th declension genitives end in -us"
+      }
+    }
+  ],
+  "translation": "All have sinned and fall short of the glory of God."
+}

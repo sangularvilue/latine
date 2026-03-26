@@ -1,0 +1,119 @@
+{
+  "id": "vot-prv-17-17",
+  "source": "Vulgate",
+  "reference": "Proverbs 17:17",
+  "latin": ["Omni", "tempore", "diligit", "qui", "amicus", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'tempore'?",
+      "target": "ablative",
+      "choices": ["ablative", "nominative", "accusative", "dative"],
+      "reveal": "omni tempore = at every time / always",
+      "hints": {
+        "nominative": "The nominative would be 'tempus'",
+        "accusative": "The accusative would be 'tempus'",
+        "dative": "The dative would be 'tempori'"
+      }
+    },
+    {
+      "prompt": "What declension is 'tempore'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative singular ends in -a",
+        "2nd declension": "2nd declension ablative singular ends in -o",
+        "5th declension": "5th declension ablative singular ends in -e but nom. ends in -es"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'diligit' translates to?",
+      "target": "to love / to esteem",
+      "choices": ["to love / to esteem", "to choose", "to collect", "to read"],
+      "reveal": null,
+      "hints": {
+        "to choose": "That would be the infinitive of 'eligere'",
+        "to collect": "That would be the infinitive of 'colligere'",
+        "to read": "That would be the infinitive of 'legere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'diligit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "future indicative", "present subjunctive"],
+      "reveal": "diligit = he/she loves",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'dilexit'",
+        "future indicative": "The future indicative would be 'diliget'",
+        "present subjunctive": "The present subjunctive would be 'diligat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'diligit'?",
+      "target": "diligo, diligere, dilexi, dilectum",
+      "choices": ["diligo, diligere, dilexi, dilectum", "amo, amare, amavi, amatum", "lego, legere, legi, lectum", "eligo, eligere, elegi, electum"],
+      "reveal": null,
+      "hints": {
+        "amo, amare, amavi, amatum": "These are the principal parts of 'amo' (to love)",
+        "lego, legere, legi, lectum": "These are the principal parts of 'lego' (to read/choose)",
+        "eligo, eligere, elegi, electum": "These are the principal parts of 'eligo' (to select)"
+      }
+    },
+    {
+      "prompt": "What case is 'amicus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "amicus = a friend (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'amicum'",
+        "vocative": "The vocative would be 'amice'",
+        "genitive": "The genitive would be 'amici'"
+      }
+    },
+    {
+      "prompt": "What declension is 'amicus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings",
+        "4th declension": "4th declension -us nouns have genitive -us, not -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'est' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to have"],
+      "reveal": null,
+      "hints": {
+        "to eat": "That would be the infinitive of 'edere' (est can mean 'eats' from 'edo' but here it is 'esse')",
+        "to go": "That would be the infinitive of 'ire'",
+        "to have": "That would be the infinitive of 'habere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'est'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "est = he/she is",
+      "hints": {
+        "perfect indicative": "The perfect of 'esse' would be 'fuit'",
+        "present subjunctive": "The present subjunctive of 'esse' would be 'sit'",
+        "imperfect indicative": "The imperfect of 'esse' would be 'erat'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'est'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "possum, posse, potui, —"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the principal parts of 'edo' (to eat)",
+        "eo, ire, ivi, itum": "These are the principal parts of 'eo' (to go)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)"
+      }
+    }
+  ],
+  "translation": "He who is a friend loves at all times"
+}

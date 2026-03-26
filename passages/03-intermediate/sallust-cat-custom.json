@@ -1,0 +1,108 @@
+{
+  "id": "sallust-cat-custom",
+  "source": "Sallust",
+  "reference": "Bellum Catilinae (adapted)",
+  "latin": ["Animus", "aeger", "avaritia", "facile", "corruptus", "est"],
+  "steps": [
+    {
+      "prompt": "What case is 'Animus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": "Animus = the mind/spirit (nom. masc. sg.)",
+      "hints": {
+        "accusative": "Accusative would be 'animum' — 'Animus' with -us is nominative, the subject",
+        "genitive": "Genitive would be 'animi' — 'Animus' is nominative here",
+        "vocative": "Vocative would be 'anime' — 'Animus' is nominative, not being addressed"
+      }
+    },
+    {
+      "prompt": "What declension is 'animus, animi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'animi' with -i is 2nd declension",
+        "3rd declension": "3rd declension has genitive in -is — 'animi' with -i is 2nd declension",
+        "4th declension": "4th declension has genitive in -ūs — 'animi' with -i is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'aeger'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": "aeger = sick/diseased (nom. masc. sg., modifying 'Animus')",
+      "hints": {
+        "accusative": "Accusative would be 'aegrum' — 'aeger' is nominative, modifying the subject",
+        "ablative": "Ablative would be 'aegro' — 'aeger' is nominative here",
+        "genitive": "Genitive would be 'aegri' — 'aeger' is nominative, agreeing with 'Animus'"
+      }
+    },
+    {
+      "prompt": "What case is 'avaritia'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "accusative", "vocative"],
+      "reveal": "avaritia = by greed (abl. of cause/means)",
+      "hints": {
+        "nominative": "While 'avaritia' could be nominative, here it is ablative of cause — the agent causing corruption",
+        "accusative": "Accusative would be 'avaritiam' — 'avaritia' is ablative here",
+        "vocative": "Vocative is not used here — 'avaritia' is ablative of cause"
+      }
+    },
+    {
+      "prompt": "What declension is 'avaritia, avaritiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'avaritiae' with -ae is 1st declension",
+        "3rd declension": "3rd declension has genitive in -is — 'avaritiae' with -ae is 1st declension",
+        "5th declension": "5th declension has genitive in -ei — 'avaritiae' with -ae is 1st declension"
+      }
+    },
+    {
+      "prompt": "What form is 'corruptus'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "future active participle", "gerundive"],
+      "reveal": "corruptus = corrupted (nom. masc. sg.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'corrumpens' — 'corruptus' with -tus is perfect passive",
+        "future active participle": "Future active participle would be 'corrupturus' — 'corruptus' is perfect passive",
+        "gerundive": "Gerundive would be 'corrumpendus' — 'corruptus' is perfect passive participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'corruptus est' translates to?",
+      "target": "to corrupt/ruin",
+      "choices": ["to corrupt/ruin", "to break", "to seize", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to break": "That would be 'rumpere' — 'corruptus est' comes from 'corrumpere' (to corrupt)",
+        "to seize": "That would be 'corripere' — 'corrumpere' means 'to corrupt/ruin'",
+        "to gather": "That would be 'corrogare' — 'corrumpere' means 'to corrupt/ruin'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'corruptus est'?",
+      "target": "perfect passive indicative",
+      "choices": ["perfect passive indicative", "present passive indicative", "pluperfect passive indicative", "perfect passive subjunctive"],
+      "reveal": "corruptus est = was corrupted",
+      "hints": {
+        "present passive indicative": "Present passive would be 'corrumpitur' — 'corruptus est' is perfect passive",
+        "pluperfect passive indicative": "Pluperfect passive would be 'corruptus erat' — 'corruptus est' is perfect",
+        "perfect passive subjunctive": "Perfect passive subjunctive would be 'corruptus sit' — 'corruptus est' is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'corruptus est'?",
+      "target": "corrumpo, corrumpere, corrupi, corruptum",
+      "choices": ["corrumpo, corrumpere, corrupi, corruptum", "rumpo, rumpere, rupi, ruptum", "corripio, corripere, corripui, correptum", "corroboro, corroborare, corroboravi, corroboratum"],
+      "reveal": null,
+      "hints": {
+        "rumpo, rumpere, rupi, ruptum": "These are the parts of 'rumpere' (to break) — 'corrumpere' is its compound",
+        "corripio, corripere, corripui, correptum": "These are the parts of 'corripere' (to seize/snatch)",
+        "corroboro, corroborare, corroboravi, corroboratum": "These are the parts of 'corroborare' (to strengthen)"
+      }
+    }
+  ],
+  "translation": "A sick mind was easily corrupted by greed"
+}

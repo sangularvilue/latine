@@ -1,0 +1,119 @@
+{
+  "id": "aquinas-st-1-1-8",
+  "source": "Thomas Aquinas",
+  "reference": "Summa Theologiae I.1.8",
+  "latin": ["Gratia", "non", "tollit", "naturam", "sed", "perficit"],
+  "steps": [
+    {
+      "prompt": "What case is 'gratia'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Ablative", "Vocative", "Genitive"],
+      "reveal": { "word": "gratia", "gloss": "grace" },
+      "hints": {
+        "Ablative": "Ablative of 'gratia' has the same form but would need a preposition or different context — here it is the subject of 'tollit'",
+        "Vocative": "This is a philosophical statement, not an address — 'gratia' is nominative subject",
+        "Genitive": "Genitive would be 'gratiae' — 'gratia' is nominative here"
+      }
+    },
+    {
+      "prompt": "Declension of 'gratia'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension nouns end in -us/-um — 'gratia' with -a ending is 1st declension",
+        "3rd": "3rd declension nouns have varied endings — 'gratia, gratiae' is standard 1st declension",
+        "5th": "5th declension nouns end in -es — 'gratia' is 1st declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'tollit' translates to?",
+      "target": "to take away / remove",
+      "choices": ["to take away / remove", "to lift up", "to endure", "to carry"],
+      "reveal": null,
+      "hints": {
+        "to lift up": "'tollere' can mean 'to lift up', but in this theological context with 'non' it means 'to take away / destroy'",
+        "to endure": "'to endure' is 'tolerare' — do not confuse with 'tollere'",
+        "to carry": "'to carry' is 'ferre' — 'tollit' comes from 'tollere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'tollit'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "tollit", "gloss": "takes away / destroys" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'sustulit' — 'tollit' is present indicative",
+        "Present subjunctive": "Present subjunctive would be 'tollat' — 'tollit' with -it is indicative",
+        "Future indicative": "Future would be 'tollet' — 'tollit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'tollit'?",
+      "target": "tollo, tollere, sustuli, sublatum",
+      "choices": ["tollo, tollere, sustuli, sublatum", "tolero, tolerare, toleravi, toleratum", "fero, ferre, tuli, latum", "attollo, attollere"],
+      "reveal": null,
+      "hints": {
+        "tolero, tolerare, toleravi, toleratum": "These are the parts of 'tolerare' (to endure) — a different verb",
+        "fero, ferre, tuli, latum": "These are the parts of 'ferre' (to carry) — note 'tollere' has its own irregular perfect 'sustuli'",
+        "attollo, attollere": "This is a compound of 'tollere' (to raise up) — but the passage uses simple 'tollere'"
+      }
+    },
+    {
+      "prompt": "What case is 'naturam'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "naturam", "gloss": "nature" },
+      "hints": {
+        "Nominative": "Nominative would be 'natura' — 'naturam' with -am is accusative",
+        "Ablative": "Ablative would be 'natura' — 'naturam' is accusative, object of 'tollit'",
+        "Genitive": "Genitive would be 'naturae' — 'naturam' is accusative"
+      }
+    },
+    {
+      "prompt": "Declension of 'naturam'?",
+      "target": "1st",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "2nd": "2nd declension accusative ends in -um — 'naturam' with -am is 1st declension",
+        "3rd": "3rd declension accusative ends in -em — 'naturam' is 1st declension",
+        "5th": "5th declension accusative ends in -em — 'naturam' with -am is 1st declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'perficit' translates to?",
+      "target": "to perfect / complete",
+      "choices": ["to perfect / complete", "to make", "to perceive", "to accomplish thoroughly"],
+      "reveal": null,
+      "hints": {
+        "to make": "'to make' is 'facere' — 'perficit' comes from 'perficere' (per + facere = to complete)",
+        "to perceive": "'to perceive' is 'percipere' — do not confuse with 'perficere'",
+        "to accomplish thoroughly": "Close but 'perficere' specifically means 'to perfect / bring to completion'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'perficit'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Perfect indicative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "perficit", "gloss": "perfects / completes" },
+      "hints": {
+        "Perfect indicative": "Perfect would be 'perfecit' — 'perficit' is present indicative",
+        "Present subjunctive": "Present subjunctive would be 'perficiat' — 'perficit' is indicative",
+        "Future indicative": "Future would be 'perficiet' — 'perficit' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'perficit'?",
+      "target": "perficio, perficere, perfeci, perfectum",
+      "choices": ["perficio, perficere, perfeci, perfectum", "facio, facere, feci, factum", "percipio, percipere, percepi, perceptum", "proficio, proficere, profeci, profectum"],
+      "reveal": null,
+      "hints": {
+        "facio, facere, feci, factum": "These are the parts of 'facere' (to make) — the simple verb; 'perficere' is its compound",
+        "percipio, percipere, percepi, perceptum": "These are the parts of 'percipere' (to perceive) — a per + capere compound",
+        "proficio, proficere, profeci, profectum": "These are the parts of 'proficere' (to advance) — a different compound of 'facere'"
+      }
+    }
+  ],
+  "translation": "Grace does not destroy nature but perfects it."
+}

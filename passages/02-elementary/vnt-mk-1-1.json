@@ -1,0 +1,97 @@
+{
+  "id": "vnt-mk-1-1",
+  "source": "Vulgate",
+  "reference": "Mark 1:1",
+  "latin": ["Initium", "evangelii", "Iesu", "Christi"],
+  "steps": [
+    {
+      "prompt": "What case is 'Initium'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Initium", "gloss": "Beginning" },
+      "hints": {
+        "accusative": "'Initium' is neuter so nominative and accusative are identical, but it heads the sentence as subject",
+        "ablative": "The ablative would be 'initio'",
+        "genitive": "The genitive would be 'initii'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Initium'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "Neuter nouns in -um are 2nd declension",
+        "3rd declension": "3rd declension neuters do not end in -um",
+        "4th declension": "4th declension neuters end in -u"
+      }
+    },
+    {
+      "prompt": "What case is 'evangelii'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "evangelii", "gloss": "of the gospel" },
+      "hints": {
+        "nominative": "The nominative is 'evangelium'",
+        "dative": "The dative would be 'evangelio'",
+        "ablative": "The ablative would be 'evangelio'"
+      }
+    },
+    {
+      "prompt": "What declension is 'evangelii'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Evangelium' ends in -um, a 2nd declension neuter",
+        "3rd declension": "3rd declension genitives end in -is",
+        "4th declension": "4th declension genitives end in -us"
+      }
+    },
+    {
+      "prompt": "What case is 'Iesu'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "vocative"],
+      "reveal": { "word": "Iesu", "gloss": "of Jesus" },
+      "hints": {
+        "nominative": "The nominative is 'Iesus'",
+        "dative": "The dative is also 'Iesu' but context requires genitive here",
+        "vocative": "The vocative is also 'Iesu' but there is no address here"
+      }
+    },
+    {
+      "prompt": "What declension is 'Iesu'?",
+      "target": "4th declension",
+      "choices": ["4th declension", "1st declension", "2nd declension", "3rd declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Iesus' follows a mixed 4th/Greek declension pattern",
+        "2nd declension": "2nd declension genitives end in -i, not -u",
+        "3rd declension": "3rd declension genitives end in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Christi'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "Christi", "gloss": "of Christ" },
+      "hints": {
+        "nominative": "The nominative is 'Christus'",
+        "dative": "The dative would be 'Christo'",
+        "ablative": "The ablative would be 'Christo'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Christi'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Christus' ends in -us, typical of 2nd declension",
+        "3rd declension": "3rd declension genitives end in -is",
+        "4th declension": "4th declension genitives end in -us"
+      }
+    }
+  ],
+  "translation": "The beginning of the gospel of Jesus Christ."
+}

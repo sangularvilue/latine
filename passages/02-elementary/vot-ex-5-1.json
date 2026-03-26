@@ -1,0 +1,86 @@
+{
+  "id": "vot-ex-5-1",
+  "source": "Vulgate",
+  "reference": "Exodus 5:1",
+  "latin": ["Dimitte", "populum", "meum"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'dimitte' translates to?",
+      "target": "to send away / to release",
+      "choices": ["to send away / to release", "to destroy", "to lead", "to give"],
+      "reveal": null,
+      "hints": {
+        "to destroy": "That would be the infinitive of 'delere'",
+        "to lead": "That would be the infinitive of 'ducere'",
+        "to give": "That would be the infinitive of 'dare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'dimitte'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "dimitte = release! / let go!",
+      "hints": {
+        "present indicative": "The present indicative would be 'dimittis' (you release)",
+        "present subjunctive": "The present subjunctive would be 'dimittas'",
+        "perfect indicative": "The perfect indicative would be 'dimisisti'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'dimitte'?",
+      "target": "dimitto, dimittere, dimisi, dimissum",
+      "choices": ["dimitto, dimittere, dimisi, dimissum", "mitto, mittere, misi, missum", "do, dare, dedi, datum", "pono, ponere, posui, positum"],
+      "reveal": null,
+      "hints": {
+        "mitto, mittere, misi, missum": "These are the principal parts of 'mitto' (to send), not the compound 'dimitto'",
+        "do, dare, dedi, datum": "These are the principal parts of 'do' (to give)",
+        "pono, ponere, posui, positum": "These are the principal parts of 'pono' (to place)"
+      }
+    },
+    {
+      "prompt": "What case is 'populum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "populum = people (acc.)",
+      "hints": {
+        "nominative": "The nominative would be 'populus'",
+        "ablative": "The ablative would be 'populo'",
+        "dative": "The dative would be 'populo'"
+      }
+    },
+    {
+      "prompt": "What declension is 'populum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have -is in the genitive singular",
+        "4th declension": "4th declension nouns have -us (gen. -us) in the nominative"
+      }
+    },
+    {
+      "prompt": "What case is 'meum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "meum = my (acc. masc. sg.)",
+      "hints": {
+        "nominative": "The nominative masculine would be 'meus'",
+        "ablative": "The ablative masculine would be 'meo'",
+        "genitive": "The genitive form would be 'mei'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'meum' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "pronoun (irregular)", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjectives have -is/-e endings; 'meus, mea, meum' is 1st/2nd",
+        "pronoun (irregular)": "'Meus' is a possessive adjective declining regularly like 'bonus, -a, -um'",
+        "indeclinable": "'Meum' clearly declines: meus, mea, meum"
+      }
+    }
+  ],
+  "translation": "Let my people go"
+}

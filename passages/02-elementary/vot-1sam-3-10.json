@@ -1,0 +1,119 @@
+{
+  "id": "vot-1sam-3-10",
+  "source": "Vulgate",
+  "reference": "1 Samuel 3:10",
+  "latin": ["Loquere", "Domine", "quia", "audit", "servus", "tuus"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'loquere' translates to?",
+      "target": "to speak",
+      "choices": ["to speak", "to hear", "to say", "to call"],
+      "reveal": null,
+      "hints": {
+        "to hear": "That would be the infinitive of 'audire'",
+        "to say": "That would be the infinitive of 'dicere'",
+        "to call": "That would be the infinitive of 'vocare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'loquere'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "infinitive"],
+      "reveal": "loquere = speak!",
+      "hints": {
+        "present indicative": "The present indicative would be 'loqueris'",
+        "present subjunctive": "The present subjunctive would be 'loquaris'",
+        "infinitive": "The infinitive would be 'loqui' (deponent verb)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'loquere'?",
+      "target": "loquor, loqui, locutus sum, —",
+      "choices": ["loquor, loqui, locutus sum, —", "dico, dicere, dixi, dictum", "clamo, clamare, clamavi, clamatum", "narro, narrare, narravi, narratum"],
+      "reveal": null,
+      "hints": {
+        "dico, dicere, dixi, dictum": "These are the principal parts of 'dico' (to say)",
+        "clamo, clamare, clamavi, clamatum": "These are the principal parts of 'clamo' (to shout)",
+        "narro, narrare, narravi, narratum": "These are the principal parts of 'narro' (to tell)"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "ablative", "dative"],
+      "reveal": "Domine = O Lord (voc.)",
+      "hints": {
+        "nominative": "The nominative would be 'Dominus'",
+        "ablative": "The ablative would be 'Domino'",
+        "dative": "The dative would be 'Domino'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Domine'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension vocative is usually the same as nominative",
+        "4th declension": "4th declension nouns end in -us (gen. -us)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'audit' translates to?",
+      "target": "to hear / to listen",
+      "choices": ["to hear / to listen", "to speak", "to obey", "to understand"],
+      "reveal": null,
+      "hints": {
+        "to speak": "That would be the infinitive of 'loqui'",
+        "to obey": "That would be the infinitive of 'oboedire'",
+        "to understand": "That would be the infinitive of 'intellegere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'audit'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "future indicative"],
+      "reveal": "audit = he/she hears",
+      "hints": {
+        "perfect indicative": "The perfect indicative would be 'audivit'",
+        "present subjunctive": "The present subjunctive would be 'audiat'",
+        "future indicative": "The future indicative would be 'audiet'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'audit'?",
+      "target": "audio, audire, audivi, auditum",
+      "choices": ["audio, audire, audivi, auditum", "sentio, sentire, sensi, sensum", "video, videre, vidi, visum", "venio, venire, veni, ventum"],
+      "reveal": null,
+      "hints": {
+        "sentio, sentire, sensi, sensum": "These are the principal parts of 'sentio' (to feel/perceive)",
+        "video, videre, vidi, visum": "These are the principal parts of 'video' (to see)",
+        "venio, venire, veni, ventum": "These are the principal parts of 'venio' (to come)"
+      }
+    },
+    {
+      "prompt": "What case is 'servus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "vocative", "genitive"],
+      "reveal": "servus = servant (nom.)",
+      "hints": {
+        "accusative": "The accusative would be 'servum'",
+        "vocative": "The vocative would be 'serve'",
+        "genitive": "The genitive would be 'servi'"
+      }
+    },
+    {
+      "prompt": "What declension is 'servus'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns typically end in -a in the nominative",
+        "3rd declension": "3rd declension nouns have varied nominative endings",
+        "4th declension": "4th declension nouns end in -us (gen. -us), not -us (gen. -i)"
+      }
+    }
+  ],
+  "translation": "Speak, Lord, for your servant hears"
+}

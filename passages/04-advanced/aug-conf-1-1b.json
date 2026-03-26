@@ -1,0 +1,97 @@
+{
+  "id": "aug-conf-1-1b",
+  "source": "Augustine",
+  "reference": "Confessions I.1",
+  "latin": ["Magna", "es", "Domine", "et", "laudabilis", "valde"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'es' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go out", "to be able"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'es' here is from 'esse' (to be)",
+        "to go out": "'to go out' is 'exire' — not related to 'es'",
+        "to be able": "'to be able' is 'posse' — 'es' comes from 'esse'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'es'?",
+      "target": "Present indicative",
+      "choices": ["Present indicative", "Present subjunctive", "Perfect indicative", "Imperfect indicative"],
+      "reveal": { "word": "es", "gloss": "you are" },
+      "hints": {
+        "Present subjunctive": "Present subjunctive would be 'sis' — 'es' is indicative",
+        "Perfect indicative": "Perfect of 'esse' would be 'fuisti' — 'es' is present",
+        "Imperfect indicative": "Imperfect would be 'eras' — 'es' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'es'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "eo, ire, ivi, itum", "possum, posse, potui"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'es' here is from 'esse' (to be)",
+        "eo, ire, ivi, itum": "These are the parts of 'ire' (to go) — not related",
+        "possum, posse, potui": "These are the parts of 'posse' (to be able) — a compound of 'esse' but different"
+      }
+    },
+    {
+      "prompt": "What case is 'Domine'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Vocative", "Ablative", "Dative"],
+      "reveal": { "word": "Domine", "gloss": "O Lord" },
+      "hints": {
+        "Nominative": "Nominative would be 'Dominus' — 'Domine' with -e ending is vocative of 2nd declension",
+        "Ablative": "Ablative would be 'Domino' — 'Domine' is vocative",
+        "Dative": "Dative would be 'Domino' — 'Domine' is the vocative form of direct address"
+      }
+    },
+    {
+      "prompt": "Declension of 'Domine'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'Dominus, Domini' is 2nd declension",
+        "3rd": "3rd declension vocative matches nominative — 'Domine' with -e ending is 2nd declension vocative",
+        "4th": "4th declension nouns end in -us/-u with different genitive — 'Dominus, Domini' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What does 'laudabilis' mean?",
+      "target": "Worthy of praise / praiseworthy",
+      "choices": ["Worthy of praise / praiseworthy", "Praising", "Laudatory", "Praised"],
+      "reveal": null,
+      "hints": {
+        "Praising": "'Praising' would be 'laudans' (present participle) — 'laudabilis' is a passive-sense adjective",
+        "Laudatory": "'Laudatory' implies giving praise — 'laudabilis' means deserving of praise",
+        "Praised": "'Praised' would be 'laudatus' (past participle) — 'laudabilis' means 'able to be praised / praiseworthy'"
+      }
+    },
+    {
+      "prompt": "What does 'valde' mean?",
+      "target": "Greatly / exceedingly",
+      "choices": ["Greatly / exceedingly", "Bravely", "Truly", "Weakly"],
+      "reveal": null,
+      "hints": {
+        "Bravely": "'Bravely' would be 'fortiter' — 'valde' means 'greatly / very much'",
+        "Truly": "'Truly' would be 'vere' — 'valde' intensifies degree, meaning 'exceedingly'",
+        "Weakly": "'Weakly' would be 'infirme' — 'valde' means the opposite: 'greatly / strongly'"
+      }
+    },
+    {
+      "prompt": "This passage echoes which Psalm?",
+      "target": "Psalm 145 (144): 'Magnus Dominus et laudabilis nimis'",
+      "choices": ["Psalm 23: 'Dominus regit me'", "Psalm 145 (144): 'Magnus Dominus et laudabilis nimis'", "Psalm 51: 'Miserere mei Deus'", "Psalm 110: 'Dixit Dominus Domino meo'"],
+      "reveal": null,
+      "hints": {
+        "Psalm 23: 'Dominus regit me'": "Psalm 23 is about the Lord as shepherd — Augustine here echoes Psalm 145's praise formula",
+        "Psalm 51: 'Miserere mei Deus'": "Psalm 51 is a penitential psalm — Augustine echoes the doxological Psalm 145",
+        "Psalm 110: 'Dixit Dominus Domino meo'": "Psalm 110 is messianic — Augustine echoes the praise of Psalm 145"
+      }
+    }
+  ],
+  "translation": "Great are you, O Lord, and exceedingly worthy of praise."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "prayer-anima-christi-3",
+  "source": "Prayer",
+  "reference": "Anima Christi 3",
+  "latin": ["Sanguis", "Christi", "inebria", "me"],
+  "steps": [
+    {
+      "prompt": "What case is 'Sanguis'?",
+      "target": "Vocative",
+      "choices": ["Nominative", "Genitive", "Accusative", "Vocative"],
+      "reveal": { "word": "Sanguis", "gloss": "O Blood" },
+      "hints": {
+        "Nominative": "While the form is the same, 'Sanguis' is addressed directly — it is vocative",
+        "Genitive": "Genitive of 'sanguis' would be 'sanguinis' — 'Sanguis' here is vocative",
+        "Accusative": "Accusative of 'sanguis' would be 'sanguinem' — 'Sanguis' is vocative"
+      }
+    },
+    {
+      "prompt": "What declension is 'sanguis, sanguinis'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns have genitive in -ae — 'sanguinis' ends in -is",
+        "2nd declension": "2nd declension nouns have genitive in -i — 'sanguinis' ends in -is",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'sanguinis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'Christi'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Vocative"],
+      "reveal": { "word": "Christi", "gloss": "of Christ" },
+      "hints": {
+        "Nominative": "Nominative is 'Christus' — 'Christi' has the -i genitive ending",
+        "Dative": "Dative of 'Christus' would be 'Christo' — 'Christi' ends in -i (genitive)",
+        "Vocative": "Vocative of 'Christus' would be 'Christe' — 'Christi' is genitive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'inebria' translates to?",
+      "target": "to inebriate / to fill",
+      "choices": ["to inebriate / to fill", "to enter", "to inhabit", "to drink"],
+      "reveal": null,
+      "hints": {
+        "to enter": "'to enter' is 'intrare' — 'inebria' comes from 'inebriare'",
+        "to inhabit": "'to inhabit' is 'inhabitare' — 'inebria' comes from 'inebriare'",
+        "to drink": "'to drink' is 'bibere' — 'inebria' comes from 'inebriare'"
+      }
+    },
+    {
+      "prompt": "What mood is 'inebria'?",
+      "target": "Imperative",
+      "choices": ["Indicative", "Subjunctive", "Imperative", "Infinitive"],
+      "reveal": { "word": "inebria", "gloss": "inebriate!" },
+      "hints": {
+        "Indicative": "Indicative present 3rd sg. would be 'inebriat' — 'inebria' is the imperative singular",
+        "Subjunctive": "Subjunctive would be 'inebries' — 'inebria' is the imperative singular",
+        "Infinitive": "Infinitive would be 'inebriare' — 'inebria' is the imperative singular"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'inebria'?",
+      "target": "inebrio, inebriare, inebriavi, inebriatum",
+      "choices": ["inebrio, inebriare, inebriavi, inebriatum", "bibo, bibere, bibi, bibitum", "intro, intrare, intravi, intratum", "poto, potare, potavi, potatum"],
+      "reveal": null,
+      "hints": {
+        "bibo, bibere, bibi, bibitum": "These are the principal parts of 'bibere' (to drink)",
+        "intro, intrare, intravi, intratum": "These are the principal parts of 'intrare' (to enter)",
+        "poto, potare, potavi, potatum": "These are the principal parts of 'potare' (to drink)"
+      }
+    }
+  ],
+  "translation": "Blood of Christ, inebriate me"
+}

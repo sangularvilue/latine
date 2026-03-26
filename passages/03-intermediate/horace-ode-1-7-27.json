@@ -1,0 +1,86 @@
+{
+  "id": "horace-ode-1-7-27",
+  "source": "Horace",
+  "reference": "Odes I.7.27",
+  "latin": ["Nil", "desperandum"],
+  "steps": [
+    {
+      "prompt": "What form is 'desperandum'?",
+      "target": "Gerundive (neuter nominative/accusative)",
+      "choices": ["Gerund", "Gerundive (neuter nominative/accusative)", "Perfect participle", "Supine"],
+      "reveal": null,
+      "hints": {
+        "Gerund": "A gerund would be 'desperandi/desperando' — 'desperandum' here is a gerundive used impersonally",
+        "Perfect participle": "Perfect participle of 'desperare' would be 'desperatus' — 'desperandum' has the -nd- gerundive marker",
+        "Supine": "Supine would be 'desperatum' — 'desperandum' with -nd- is a gerundive"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'desperandum' (i.e. 'despero') translates to?",
+      "target": "to despair",
+      "choices": ["to despair", "to hope", "to scatter", "to look down"],
+      "reveal": null,
+      "hints": {
+        "to hope": "'to hope' is 'sperare' — 'desperare' is its negative: 'to despair'",
+        "to scatter": "'to scatter' is 'dispergere' — 'desperare' means 'to despair'",
+        "to look down": "'to look down' is 'despicere' — 'desperare' means 'to despair'"
+      }
+    },
+    {
+      "prompt": "What mood does the gerundive express here?",
+      "target": "Obligation / necessity (passive periphrastic)",
+      "choices": ["Obligation / necessity (passive periphrastic)", "Purpose", "Result", "Wish"],
+      "reveal": { "word": "desperandum", "gloss": "(something) to be despaired of" },
+      "hints": {
+        "Purpose": "Purpose clauses use 'ut' + subjunctive — the gerundive with 'est' (implied) expresses obligation",
+        "Result": "Result clauses use 'ut' + subjunctive — this is a passive periphrastic construction",
+        "Wish": "Wishes use the subjunctive — the gerundive here expresses necessity"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'despero'?",
+      "target": "despero, desperare, desperavi, desperatum",
+      "choices": ["despero, desperare, desperavi, desperatum", "spero, sperare, speravi, speratum", "despicio, despicere, despexi, despectum", "desero, deserere, deserui, desertum"],
+      "reveal": null,
+      "hints": {
+        "spero, sperare, speravi, speratum": "These are the principal parts of 'sperare' (to hope) — the base verb of 'desperare'",
+        "despicio, despicere, despexi, despectum": "These are the principal parts of 'despicere' (to look down on)",
+        "desero, deserere, deserui, desertum": "These are the principal parts of 'deserere' (to abandon)"
+      }
+    },
+    {
+      "prompt": "What does 'Nil' mean?",
+      "target": "Nothing",
+      "choices": ["Nothing", "Not", "No one", "Never"],
+      "reveal": { "word": "Nil", "gloss": "nothing" },
+      "hints": {
+        "Not": "'Not' would be 'non' — 'nil' is a contraction of 'nihil' meaning 'nothing'",
+        "No one": "'No one' would be 'nemo' — 'nil' means 'nothing' (a thing, not a person)",
+        "Never": "'Never' would be 'numquam' — 'nil' means 'nothing'"
+      }
+    },
+    {
+      "prompt": "Case of 'Nil'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": null,
+      "hints": {
+        "Accusative": "'Nil' could be accusative, but here it is the subject of the implied 'est' — nominative",
+        "Genitive": "'Nil' is indeclinable — here it functions as the nominative subject",
+        "Ablative": "'Nil' is indeclinable — here it serves as nominative subject"
+      }
+    },
+    {
+      "prompt": "What verb is implied but missing?",
+      "target": "est",
+      "choices": ["est", "erit", "sit", "erat"],
+      "reveal": null,
+      "hints": {
+        "erit": "'erit' is future — the gnomic statement implies present 'est'",
+        "sit": "'sit' is subjunctive — the statement implies indicative 'est'",
+        "erat": "'erat' is imperfect — the proverbial expression implies present 'est'"
+      }
+    }
+  ],
+  "translation": "Nothing is to be despaired of"
+}

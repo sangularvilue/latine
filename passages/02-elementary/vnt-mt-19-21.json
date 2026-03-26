@@ -1,0 +1,152 @@
+{
+  "id": "vnt-mt-19-21",
+  "source": "Vulgate",
+  "reference": "Matthew 19:21",
+  "latin": ["Si", "vis", "perfectus", "esse", "vade", "vende"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'vis' translates to?",
+      "target": "to wish",
+      "choices": ["to wish", "to see", "to live", "to come"],
+      "reveal": null,
+      "hints": {
+        "to see": "'Videre' means to see",
+        "to live": "'Vivere' means to live",
+        "to come": "'Venire' means to come"
+      }
+    },
+    {
+      "prompt": "'vis' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "imperfect indicative active", "perfect indicative active"],
+      "reveal": { "word": "vis", "gloss": "you wish" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'velis'",
+        "imperfect indicative active": "The imperfect would be 'volebas'",
+        "perfect indicative active": "The perfect would be 'voluisti'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vis'?",
+      "target": "volo, velle, volui, —",
+      "choices": ["volo, velle, volui, —", "vis, vire, vivi, victus", "volo, volare, volavi, volatus", "volo, volere, volui, volitus"],
+      "reveal": null,
+      "hints": {
+        "vis, vire, vivi, victus": "The first principal part is 'volo', not 'vis'",
+        "volo, volare, volavi, volatus": "'Volare' means to fly; 'velle' means to wish",
+        "volo, volere, volui, volitus": "The infinitive is 'velle', not 'volere'"
+      }
+    },
+    {
+      "prompt": "What case is 'perfectus'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "perfectus", "gloss": "perfect" },
+      "hints": {
+        "accusative": "The accusative would be 'perfectum'",
+        "ablative": "The ablative would be 'perfecto'",
+        "genitive": "The genitive would be 'perfecti'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'esse' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to go", "to have"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Edere' means to eat; 'esse' from 'sum' means to be",
+        "to go": "'Ire' means to go",
+        "to have": "'Habere' means to have"
+      }
+    },
+    {
+      "prompt": "'esse' is what tense and mood?",
+      "target": "present infinitive active",
+      "choices": ["present infinitive active", "present indicative active", "perfect infinitive active", "future infinitive active"],
+      "reveal": { "word": "esse", "gloss": "to be" },
+      "hints": {
+        "present indicative active": "A finite form would be 'sum', 'es', etc.",
+        "perfect infinitive active": "The perfect infinitive would be 'fuisse'",
+        "future infinitive active": "The future infinitive would be 'futurum esse'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esse'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, esse, edi, esus", "sum, sumere, sumpsi, sumptus", "eo, ire, ivi, itus"],
+      "reveal": null,
+      "hints": {
+        "edo, esse, edi, esus": "'Edere/esse' can mean to eat, but here 'esse' is from 'sum'",
+        "sum, sumere, sumpsi, sumptus": "'Sumere' means to take, not to be",
+        "eo, ire, ivi, itus": "'Ire' means to go"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vade' translates to?",
+      "target": "to go",
+      "choices": ["to go", "to sell", "to come", "to fall"],
+      "reveal": null,
+      "hints": {
+        "to sell": "'Vendere' means to sell",
+        "to come": "'Venire' means to come",
+        "to fall": "'Cadere' means to fall"
+      }
+    },
+    {
+      "prompt": "'vade' is what tense and mood?",
+      "target": "present imperative active",
+      "choices": ["present imperative active", "present indicative active", "present subjunctive active", "perfect imperative active"],
+      "reveal": { "word": "vade", "gloss": "go" },
+      "hints": {
+        "present indicative active": "The indicative would be 'vadis'",
+        "present subjunctive active": "The subjunctive would be 'vadam'",
+        "perfect imperative active": "There is no common perfect imperative for this verb"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vade'?",
+      "target": "vado, vadere, vasi, —",
+      "choices": ["vado, vadere, vasi, —", "vado, vadare, vadavi, vadatus", "vado, vadere, vadui, vaditus", "vado, vadire, vadivi, vaditus"],
+      "reveal": null,
+      "hints": {
+        "vado, vadare, vadavi, vadatus": "'Vadere' is 3rd conjugation, not 1st",
+        "vado, vadere, vadui, vaditus": "The perfect of 'vadere' is 'vasi'",
+        "vado, vadire, vadivi, vaditus": "The infinitive is 'vadere', not 'vadire'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'vende' translates to?",
+      "target": "to sell",
+      "choices": ["to sell", "to come", "to go", "to see"],
+      "reveal": null,
+      "hints": {
+        "to come": "'Venire' means to come",
+        "to go": "'Vadere' or 'ire' means to go",
+        "to see": "'Videre' means to see"
+      }
+    },
+    {
+      "prompt": "'vende' is what tense and mood?",
+      "target": "present imperative active",
+      "choices": ["present imperative active", "present indicative active", "present subjunctive active", "imperfect indicative active"],
+      "reveal": { "word": "vende", "gloss": "sell" },
+      "hints": {
+        "present indicative active": "The indicative would be 'vendis'",
+        "present subjunctive active": "The subjunctive would be 'vendam'",
+        "imperfect indicative active": "The imperfect would be 'vendebam'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'vende'?",
+      "target": "vendo, vendere, vendidi, venditus",
+      "choices": ["vendo, vendere, vendidi, venditus", "vendo, vendare, vendavi, vendatus", "vendo, vendere, vendi, vendtus", "vendo, vendire, vendivi, venditus"],
+      "reveal": null,
+      "hints": {
+        "vendo, vendare, vendavi, vendatus": "'Vendere' is 3rd conjugation, not 1st",
+        "vendo, vendere, vendi, vendtus": "The perfect is 'vendidi' with reduplication",
+        "vendo, vendire, vendivi, venditus": "The infinitive is 'vendere', not 'vendire'"
+      }
+    }
+  ],
+  "translation": "If you wish to be perfect, go, sell."
+}

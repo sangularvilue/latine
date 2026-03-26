@@ -1,0 +1,97 @@
+{
+  "id": "virgil-aen-2-48",
+  "source": "Virgil",
+  "reference": "Aeneid II.48",
+  "latin": ["Equo", "ne", "credite", "Teucri"],
+  "steps": [
+    {
+      "prompt": "What case is 'Equo'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "accusative"],
+      "reveal": "Equo = to the horse (dat. sg., object of 'credite')",
+      "hints": {
+        "ablative": "While 'equo' could be ablative, 'credere' takes a dative object — 'equo' is dative here",
+        "nominative": "Nominative would be 'equus' — 'equo' is dative with 'credite'",
+        "accusative": "Accusative would be 'equum' — 'credere' governs the dative, so 'equo' is dative"
+      }
+    },
+    {
+      "prompt": "What declension is 'equus, equi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'equi' ends in -i (2nd declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'equi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'equi' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'credite' translates to?",
+      "target": "to trust",
+      "choices": ["to trust", "to create", "to grow", "to burn"],
+      "reveal": null,
+      "hints": {
+        "to create": "That would be 'creare' — 'credite' comes from 'credere' (to trust/believe)",
+        "to grow": "That would be 'crescere' — 'credite' comes from 'credere' (to trust)",
+        "to burn": "That would be 'cremare' — 'credite' comes from 'credere' (to trust)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'credite'?",
+      "target": "present imperative",
+      "choices": ["present imperative", "present indicative", "present subjunctive", "perfect indicative"],
+      "reveal": "credite = trust! (imperative pl., with 'ne' = do not trust!)",
+      "hints": {
+        "present indicative": "Present indicative 2nd pl. would be 'creditis' — 'credite' without -is is imperative",
+        "present subjunctive": "Present subjunctive would be 'credatis' — 'credite' is the imperative plural",
+        "perfect indicative": "Perfect would be 'credidistis' — 'credite' is the present imperative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'credite'?",
+      "target": "credo, credere, credidi, creditum",
+      "choices": ["credo, credere, credidi, creditum", "creo, creare, creavi, creatum", "cresco, crescere, crevi, cretum", "cerno, cernere, crevi, cretum"],
+      "reveal": null,
+      "hints": {
+        "creo, creare, creavi, creatum": "These are the parts of 'creare' (to create)",
+        "cresco, crescere, crevi, cretum": "These are the parts of 'crescere' (to grow)",
+        "cerno, cernere, crevi, cretum": "These are the parts of 'cernere' (to discern)"
+      }
+    },
+    {
+      "prompt": "What case is 'Teucri'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "genitive", "dative"],
+      "reveal": "Teucri = O Trojans (voc. pl.)",
+      "hints": {
+        "nominative": "While 'Teucri' looks nominative plural, the imperative 'credite' shows direct address — vocative",
+        "genitive": "Genitive singular would be 'Teucri' as well, but context demands vocative plural here",
+        "dative": "Dative would be 'Teucris' — 'Teucri' is vocative plural, matching the imperative"
+      }
+    },
+    {
+      "prompt": "What declension is 'Teucri, Teucrorum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive plural in -arum — 'Teucrorum' ends in -orum (2nd declension)",
+        "3rd declension": "3rd declension has genitive plural in -um/-ium — 'Teucrorum' ends in -orum",
+        "4th declension": "4th declension has genitive plural in -uum — 'Teucrorum' ends in -orum"
+      }
+    },
+    {
+      "prompt": "What is the function of 'ne' in this sentence?",
+      "target": "negative prohibition particle",
+      "choices": ["negative prohibition particle", "purpose clause marker", "fear clause marker", "interrogative particle"],
+      "reveal": "ne + imperative = do not (prohibition)",
+      "hints": {
+        "purpose clause marker": "'Ne' can introduce purpose clauses, but here it negates the imperative 'credite'",
+        "fear clause marker": "'Ne' appears in fear clauses after 'timeo', but here it simply negates the command",
+        "interrogative particle": "'Ne' can be enclitic for questions (-ne), but here it stands alone as a prohibition"
+      }
+    }
+  ],
+  "translation": "Do not trust the horse, Trojans"
+}

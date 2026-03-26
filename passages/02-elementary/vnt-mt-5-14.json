@@ -1,0 +1,108 @@
+{
+  "id": "vnt-mt-5-14",
+  "source": "Vulgate",
+  "reference": "Matthew 5:14",
+  "latin": ["Vos", "estis", "lux", "mundi"],
+  "steps": [
+    {
+      "prompt": "What case is 'Vos'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "dative", "ablative"],
+      "reveal": { "word": "Vos", "gloss": "You" },
+      "hints": {
+        "accusative": "'Vos' is the subject here, not the object",
+        "dative": "The dative would be 'vobis'",
+        "ablative": "The ablative would be 'vobis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Vos'?",
+      "target": "pronoun (irregular)",
+      "choices": ["pronoun (irregular)", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "Personal pronouns are irregular, not standard declensions",
+        "3rd declension": "Personal pronouns have their own paradigm",
+        "4th declension": "Personal pronouns do not follow any numbered declension"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'estis' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to go"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'Edere' means to eat",
+        "to stand": "'Stare' means to stand",
+        "to go": "'Ire' means to go"
+      }
+    },
+    {
+      "prompt": "'estis' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "imperfect indicative active", "future indicative active"],
+      "reveal": { "word": "estis", "gloss": "are" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'sitis'",
+        "imperfect indicative active": "The imperfect would be 'eratis'",
+        "future indicative active": "The future would be 'eritis'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'estis'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "esto, estare, estavi, estatus", "sum, sumere, sumpsi, sumptus", "eo, ire, ivi, itus"],
+      "reveal": null,
+      "hints": {
+        "esto, estare, estavi, estatus": "'Esse' is highly irregular and not a regular -are verb",
+        "sum, sumere, sumpsi, sumptus": "'Sumere' means to take, not to be",
+        "eo, ire, ivi, itus": "'Ire' means to go, not to be"
+      }
+    },
+    {
+      "prompt": "What case is 'lux'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "genitive", "vocative"],
+      "reveal": { "word": "lux", "gloss": "light" },
+      "hints": {
+        "accusative": "'Lux' is a predicate nominative after 'estis'",
+        "genitive": "The genitive is 'lucis'",
+        "vocative": "The vocative would be the same form but context is predicate"
+      }
+    },
+    {
+      "prompt": "What declension is 'lux'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension nouns end in -a",
+        "2nd declension": "2nd declension nouns end in -us or -um",
+        "4th declension": "4th declension nouns end in -us or -u"
+      }
+    },
+    {
+      "prompt": "What case is 'mundi'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": { "word": "mundi", "gloss": "of the world" },
+      "hints": {
+        "nominative": "'Mundi' as nominative would be plural; here it means 'of the world'",
+        "dative": "The dative singular is 'mundo'",
+        "ablative": "The ablative singular is 'mundo'"
+      }
+    },
+    {
+      "prompt": "What declension is 'mundi'?",
+      "target": "2nd declension",
+      "choices": ["2nd declension", "1st declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "'Mundus' ends in -us, typical of 2nd declension",
+        "3rd declension": "3rd declension genitives end in -is, not -i",
+        "4th declension": "4th declension genitives end in -us"
+      }
+    }
+  ],
+  "translation": "You are the light of the world."
+}

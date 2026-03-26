@@ -1,0 +1,119 @@
+{
+  "id": "virgil-aen-6-853",
+  "source": "Virgil",
+  "reference": "Aeneid VI.853",
+  "latin": ["Parcere", "subiectis", "et", "debellare", "superbos"],
+  "steps": [
+    {
+      "prompt": "The infinitive of 'Parcere' translates to?",
+      "target": "to spare",
+      "choices": ["to spare", "to prepare", "to obey", "to appear"],
+      "reveal": null,
+      "hints": {
+        "to prepare": "That would be 'parare' — 'parcere' means 'to spare'",
+        "to obey": "That would be 'parere' — 'parcere' means 'to spare'",
+        "to appear": "That would be 'apparere' — 'parcere' means 'to spare'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'Parcere'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "present imperative", "future infinitive", "perfect infinitive"],
+      "reveal": "Parcere = to spare (infinitive, continuing 'memento' from VI.851)",
+      "hints": {
+        "present imperative": "Imperative of 'parcere' would be 'parce' — 'parcere' is the infinitive",
+        "future infinitive": "Future infinitive would be 'parsurum esse' — 'parcere' is present infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'pepercisse' — 'parcere' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'Parcere'?",
+      "target": "parco, parcere, peperci, parsum",
+      "choices": ["parco, parcere, peperci, parsum", "paro, parare, paravi, paratum", "pareo, parere, parui, paritum", "pario, parere, peperi, partum"],
+      "reveal": null,
+      "hints": {
+        "paro, parare, paravi, paratum": "These are the parts of 'parare' (to prepare)",
+        "pareo, parere, parui, paritum": "These are the parts of 'parere' (to obey/appear)",
+        "pario, parere, peperi, partum": "These are the parts of 'parere' (to give birth/produce)"
+      }
+    },
+    {
+      "prompt": "What case is 'subiectis'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": "subiectis = the conquered/subjected (dat. pl., 'parcere' takes dative)",
+      "hints": {
+        "ablative": "While 'subiectis' could be ablative, 'parcere' governs the dative — spare 'to' the conquered",
+        "nominative": "Nominative plural would be 'subiecti' — 'subiectis' is dative plural",
+        "genitive": "Genitive plural would be 'subiectorum' — 'subiectis' is dative with 'parcere'"
+      }
+    },
+    {
+      "prompt": "What declension is 'subiectus, subiecti' (as a participle/adjective)?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'subiecti' ends in -i (2nd declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'subiecti' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'subiecti' ends in -i"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'debellare' translates to?",
+      "target": "to war down / to crush in war",
+      "choices": ["to war down / to crush in war", "to fight", "to destroy", "to rebel"],
+      "reveal": null,
+      "hints": {
+        "to fight": "That would be 'pugnare' — 'debellare' means 'to war down/crush completely'",
+        "to destroy": "That would be 'delere' — 'debellare' means 'to war down/subdue by war'",
+        "to rebel": "That would be 'rebellare' — 'debellare' means 'to war down/crush in war'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'debellare'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "present indicative", "future infinitive", "perfect infinitive"],
+      "reveal": "debellare = to war down (infinitive, parallel to 'parcere')",
+      "hints": {
+        "present indicative": "'debellare' ending in -are is the infinitive, not a finite verb",
+        "future infinitive": "Future infinitive would be 'debellaturum esse' — 'debellare' is present infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'debellavisse' — 'debellare' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'debellare'?",
+      "target": "debello, debellare, debellavi, debellatum",
+      "choices": ["debello, debellare, debellavi, debellatum", "bello, bellare, bellavi, bellatum", "deleo, delere, delevi, deletum", "rebello, rebellare, rebellavi, rebellatum"],
+      "reveal": null,
+      "hints": {
+        "bello, bellare, bellavi, bellatum": "These are the parts of 'bellare' (to wage war) — the simple verb, not the compound",
+        "deleo, delere, delevi, deletum": "These are the parts of 'delere' (to destroy)",
+        "rebello, rebellare, rebellavi, rebellatum": "These are the parts of 'rebellare' (to rebel)"
+      }
+    },
+    {
+      "prompt": "What case is 'superbos'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "superbos = the proud (acc. pl., object of 'debellare')",
+      "hints": {
+        "nominative": "Nominative plural would be 'superbi' — 'superbos' with -os is accusative plural",
+        "ablative": "Ablative plural would be 'superbis' — 'superbos' is accusative",
+        "genitive": "Genitive plural would be 'superborum' — 'superbos' is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'superbus, superbi'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'superbi' ends in -i (2nd declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'superbi' ends in -i",
+        "4th declension": "4th declension has genitive in -ūs — 'superbi' ends in -i"
+      }
+    }
+  ],
+  "translation": "To spare the conquered and to war down the proud"
+}

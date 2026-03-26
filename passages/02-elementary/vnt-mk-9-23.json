@@ -1,0 +1,97 @@
+{
+  "id": "vnt-mk-9-23",
+  "source": "Vulgate",
+  "reference": "Mark 9:23",
+  "latin": ["Omnia", "possibilia", "sunt", "credenti"],
+  "steps": [
+    {
+      "prompt": "What case is 'Omnia'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "Omnia", "gloss": "All things" },
+      "hints": {
+        "accusative": "'Omnia' is neuter plural nom/acc; here it is the subject",
+        "ablative": "The ablative plural would be 'omnibus'",
+        "genitive": "The genitive plural would be 'omnium'"
+      }
+    },
+    {
+      "prompt": "What declension is 'Omnia'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension neuter plurals do not exist; -a ending here is neuter plural 3rd decl.",
+        "2nd declension": "2nd declension neuter plural nom. is also -a, but 'omnis' is 3rd declension",
+        "4th declension": "4th declension neuter plural would end in -ua"
+      }
+    },
+    {
+      "prompt": "What case is 'possibilia'?",
+      "target": "nominative",
+      "choices": ["nominative", "accusative", "ablative", "genitive"],
+      "reveal": { "word": "possibilia", "gloss": "possible" },
+      "hints": {
+        "accusative": "'Possibilia' is neuter plural; here it is a predicate adjective",
+        "ablative": "The ablative plural would be 'possibilibus'",
+        "genitive": "The genitive plural would be 'possibilium'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to stand", "to eat", "to go"],
+      "reveal": null,
+      "hints": {
+        "to stand": "'Stare' means to stand",
+        "to eat": "'Edere' means to eat",
+        "to go": "'Ire' means to go"
+      }
+    },
+    {
+      "prompt": "'sunt' is what tense and mood?",
+      "target": "present indicative active",
+      "choices": ["present indicative active", "present subjunctive active", "perfect indicative active", "imperfect indicative active"],
+      "reveal": { "word": "sunt", "gloss": "are" },
+      "hints": {
+        "present subjunctive active": "The subjunctive would be 'sint'",
+        "perfect indicative active": "The perfect would be 'fuerunt'",
+        "imperfect indicative active": "The imperfect would be 'erant'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, status", "edo, edere, edi, esus", "eo, ire, ivi, itus"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, status": "'Stare' means to stand",
+        "edo, edere, edi, esus": "'Edere' means to eat",
+        "eo, ire, ivi, itus": "'Ire' means to go"
+      }
+    },
+    {
+      "prompt": "What case is 'credenti'?",
+      "target": "dative",
+      "choices": ["dative", "ablative", "nominative", "genitive"],
+      "reveal": { "word": "credenti", "gloss": "to the one believing" },
+      "hints": {
+        "ablative": "The ablative singular would also be 'credenti' but dative fits the meaning here",
+        "nominative": "The nominative would be 'credens'",
+        "genitive": "The genitive would be 'credentis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'credenti'?",
+      "target": "3rd declension",
+      "choices": ["3rd declension", "1st declension", "2nd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension datives end in -ae",
+        "2nd declension": "2nd declension datives end in -o",
+        "4th declension": "4th declension datives end in -ui"
+      }
+    }
+  ],
+  "translation": "All things are possible to the one who believes."
+}

@@ -1,0 +1,141 @@
+{
+  "id": "virgil-aen-2-03",
+  "source": "Virgil",
+  "reference": "Aeneid II.3",
+  "latin": ["Infandum", "regina", "iubes", "renovare", "dolorem"],
+  "steps": [
+    {
+      "prompt": "What case is 'Infandum'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "Infandum = unspeakable (acc. masc. sg., modifying 'dolorem')",
+      "hints": {
+        "nominative": "Nominative neuter is possible for 'infandum' but here it agrees with 'dolorem' (acc. masc.)",
+        "ablative": "Ablative would be 'infando' — 'infandum' is accusative, modifying 'dolorem'",
+        "genitive": "Genitive would be 'infandi' — 'infandum' is accusative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'infandum' (as a 1st/2nd decl. adjective)?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension covers the feminine forms (-a) — the -um ending is 2nd declension",
+        "3rd declension": "3rd declension adjectives have genitive in -is — 'infandum' follows -us, -a, -um pattern",
+        "4th declension": "4th declension nouns have genitive in -ūs — 'infandum' is a 2nd declension adjective form"
+      }
+    },
+    {
+      "prompt": "What case is 'regina'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "ablative", "genitive"],
+      "reveal": "regina = O queen (voc. sg.)",
+      "hints": {
+        "nominative": "While 'regina' looks nominative, Aeneas is addressing the queen directly — it is vocative",
+        "ablative": "Ablative would be 'regina' as well in 1st declension, but context shows direct address (vocative)",
+        "genitive": "Genitive would be 'reginae' — 'regina' here is vocative, direct address"
+      }
+    },
+    {
+      "prompt": "What declension is 'regina, reginae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'reginae' ends in -ae (1st declension)",
+        "3rd declension": "3rd declension has genitive in -is — 'reginae' ends in -ae",
+        "5th declension": "5th declension has genitive in -ei — 'reginae' ends in -ae"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'iubes' translates to?",
+      "target": "to order",
+      "choices": ["to order", "to judge", "to help", "to please"],
+      "reveal": null,
+      "hints": {
+        "to judge": "That would be 'iudicare' — 'iubes' comes from 'iubere' (to order)",
+        "to help": "That would be 'iuvare' — 'iubes' comes from 'iubere' (to order)",
+        "to please": "That would be 'placere' — 'iubes' comes from 'iubere' (to order)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'iubes'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "future indicative", "perfect indicative"],
+      "reveal": "iubes = you order/bid",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'iubeas' — 'iubes' with -e- is present indicative (2nd conj.)",
+        "future indicative": "Future would be 'iubebis' — 'iubes' is present indicative",
+        "perfect indicative": "Perfect would be 'iussisti' — 'iubes' is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'iubes'?",
+      "target": "iubeo, iubere, iussi, iussum",
+      "choices": ["iubeo, iubere, iussi, iussum", "iudico, iudicare, iudicavi, iudicatum", "iungo, iungere, iunxi, iunctum", "iuvo, iuvare, iuvi, iutum"],
+      "reveal": null,
+      "hints": {
+        "iudico, iudicare, iudicavi, iudicatum": "These are the parts of 'iudicare' (to judge)",
+        "iungo, iungere, iunxi, iunctum": "These are the parts of 'iungere' (to join)",
+        "iuvo, iuvare, iuvi, iutum": "These are the parts of 'iuvare' (to help)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'renovare' translates to?",
+      "target": "to renew",
+      "choices": ["to renew", "to remove", "to return", "to reject"],
+      "reveal": null,
+      "hints": {
+        "to remove": "That would be 'removere' — 'renovare' means 'to renew/revive'",
+        "to return": "That would be 'redire' — 'renovare' means 'to renew'",
+        "to reject": "That would be 'reicere' — 'renovare' means 'to renew'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'renovare'?",
+      "target": "present infinitive",
+      "choices": ["present infinitive", "present indicative", "future infinitive", "perfect infinitive"],
+      "reveal": "renovare = to renew (complementary infinitive with 'iubes')",
+      "hints": {
+        "present indicative": "'renovare' ending in -are is the infinitive, not a finite verb form",
+        "future infinitive": "Future infinitive would be 'renovaturum esse' — 'renovare' is present infinitive",
+        "perfect infinitive": "Perfect infinitive would be 'renovavisse' — 'renovare' is present infinitive"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'renovare'?",
+      "target": "renovo, renovare, renovavi, renovatum",
+      "choices": ["renovo, renovare, renovavi, renovatum", "removeo, removere, removi, remotum", "reddo, reddere, reddidi, redditum", "relinquo, relinquere, reliqui, relictum"],
+      "reveal": null,
+      "hints": {
+        "removeo, removere, removi, remotum": "These are the parts of 'removere' (to remove)",
+        "reddo, reddere, reddidi, redditum": "These are the parts of 'reddere' (to return/give back)",
+        "relinquo, relinquere, reliqui, relictum": "These are the parts of 'relinquere' (to leave behind)"
+      }
+    },
+    {
+      "prompt": "What case is 'dolorem'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "dative"],
+      "reveal": "dolorem = grief/pain (acc. sg.)",
+      "hints": {
+        "nominative": "Nominative would be 'dolor' — the -em ending marks the accusative singular",
+        "ablative": "Ablative would be 'dolore' — 'dolorem' with -em is accusative",
+        "dative": "Dative would be 'dolori' — 'dolorem' with -em is accusative"
+      }
+    },
+    {
+      "prompt": "What declension is 'dolor, doloris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'doloris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'doloris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'doloris' ends in -is"
+      }
+    }
+  ],
+  "translation": "Unspeakable grief, O queen, you bid me renew"
+}

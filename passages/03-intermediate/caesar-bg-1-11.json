@@ -1,0 +1,119 @@
+{
+  "id": "caesar-bg-1-11",
+  "source": "Caesar",
+  "reference": "Bellum Gallicum I.11",
+  "latin": ["Helvetii", "omnium", "rerum", "inopia", "adducti"],
+  "steps": [
+    {
+      "prompt": "What case is 'Helvetii'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "Helvetii = the Helvetii (nom. masc. pl.)",
+      "hints": {
+        "genitive": "Genitive plural would be 'Helvetiorum' — 'Helvetii' with -ii is nominative plural",
+        "dative": "Dative plural would be 'Helvetiis' — 'Helvetii' is nominative plural, the subject",
+        "vocative": "Caesar is describing the Helvetii, not addressing them"
+      }
+    },
+    {
+      "prompt": "What declension is 'Helvetii, Helvetiorum'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive plural in -arum — 'Helvetiorum' with -orum is 2nd declension",
+        "3rd declension": "3rd declension has genitive plural in -um/-ium — 'Helvetiorum' is 2nd declension",
+        "4th declension": "4th declension has genitive plural in -uum — 'Helvetiorum' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'omnium'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "accusative", "dative"],
+      "reveal": "omnium = of all (gen. pl.)",
+      "hints": {
+        "nominative": "Nominative plural would be 'omnes' — 'omnium' with -ium is genitive plural",
+        "accusative": "Accusative plural would be 'omnes/omnia' — 'omnium' is genitive",
+        "dative": "Dative plural would be 'omnibus' — 'omnium' is genitive"
+      }
+    },
+    {
+      "prompt": "What case is 'rerum'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "rerum = of things/supplies (gen. pl.)",
+      "hints": {
+        "nominative": "Nominative singular is 'res' — 'rerum' with -rum is genitive plural",
+        "accusative": "Accusative plural would be 'res' — 'rerum' is genitive plural",
+        "ablative": "Ablative plural would be 'rebus' — 'rerum' is genitive plural"
+      }
+    },
+    {
+      "prompt": "What declension is 'res, rei'?",
+      "target": "5th declension",
+      "choices": ["1st declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'rei' with -ei is 5th declension",
+        "3rd declension": "3rd declension has genitive in -is — 'rei' with -ei is 5th declension",
+        "4th declension": "4th declension has genitive in -ūs — 'rei' with -ei is 5th declension"
+      }
+    },
+    {
+      "prompt": "What case is 'inopia'?",
+      "target": "ablative",
+      "choices": ["nominative", "ablative", "vocative", "accusative"],
+      "reveal": "inopia = by lack/want (abl. of cause)",
+      "hints": {
+        "nominative": "While 'inopia' could be nominative, here it is ablative of cause with 'adducti'",
+        "vocative": "Vocative is not used here — 'inopia' is ablative expressing cause",
+        "accusative": "Accusative would be 'inopiam' — 'inopia' here is ablative of cause"
+      }
+    },
+    {
+      "prompt": "What declension is 'inopia, inopiae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'inopiae' with -ae is 1st declension",
+        "3rd declension": "3rd declension has genitive in -is — 'inopiae' with -ae is 1st declension",
+        "5th declension": "5th declension has genitive in -ei — 'inopiae' with -ae is 1st declension"
+      }
+    },
+    {
+      "prompt": "What form is 'adducti'?",
+      "target": "perfect passive participle",
+      "choices": ["perfect passive participle", "present active participle", "perfect active indicative", "gerundive"],
+      "reveal": "adducti = having been driven/compelled (nom. masc. pl.)",
+      "hints": {
+        "present active participle": "Present active participle would be 'adducentes' — 'adducti' with -ti is perfect passive",
+        "perfect active indicative": "Perfect active would be 'adduxerunt' — 'adducti' is a participle, not finite verb",
+        "gerundive": "Gerundive would be 'adducendi' — 'adducti' is perfect passive participle"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'adducti' translates to?",
+      "target": "to lead to/compel",
+      "choices": ["to lead to/compel", "to add", "to lead away", "to produce"],
+      "reveal": null,
+      "hints": {
+        "to add": "That would be 'addere' — 'adducti' comes from 'adducere' (to lead to/compel)",
+        "to lead away": "That would be 'abducere' — 'adducere' means to lead TO, not away",
+        "to produce": "That would be 'producere' — 'adducere' means 'to lead to/compel'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'adducti'?",
+      "target": "adduco, adducere, adduxi, adductum",
+      "choices": ["adduco, adducere, adduxi, adductum", "duco, ducere, duxi, ductum", "abduco, abducere, abduxi, abductum", "addico, addicere, addixi, addictum"],
+      "reveal": null,
+      "hints": {
+        "duco, ducere, duxi, ductum": "These are the parts of 'ducere' (to lead) — 'adducere' is its compound ad + ducere",
+        "abduco, abducere, abduxi, abductum": "These are the parts of 'abducere' (to lead away) — different prefix",
+        "addico, addicere, addixi, addictum": "These are the parts of 'addicere' (to adjudge/assign)"
+      }
+    }
+  ],
+  "translation": "The Helvetii, compelled by a lack of all supplies"
+}

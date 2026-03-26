@@ -1,0 +1,119 @@
+{
+  "id": "vot-wis-3-1",
+  "source": "Vulgate",
+  "reference": "Wisdom 3:1",
+  "latin": ["Iustorum", "animae", "in", "manu", "Dei", "sunt"],
+  "steps": [
+    {
+      "prompt": "What case is 'iustorum'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "accusative", "ablative"],
+      "reveal": "iustorum = of the just / of the righteous (gen. pl.)",
+      "hints": {
+        "nominative": "The nominative plural masculine would be 'iusti'",
+        "accusative": "The accusative plural masculine would be 'iustos'",
+        "ablative": "The ablative plural would be 'iustis'"
+      }
+    },
+    {
+      "prompt": "What declension pattern does 'iustorum' follow?",
+      "target": "1st/2nd declension adjective",
+      "choices": ["1st/2nd declension adjective", "3rd declension adjective", "4th declension", "indeclinable"],
+      "reveal": null,
+      "hints": {
+        "3rd declension adjective": "3rd declension adjective genitive plural would end in -ium; 'iustus, -a, -um' is 1st/2nd",
+        "4th declension": "Adjectives do not follow the 4th declension pattern",
+        "indeclinable": "'Iustorum' clearly declines: iustus, iusta, iustum, etc."
+      }
+    },
+    {
+      "prompt": "What case is 'animae'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "dative", "vocative"],
+      "reveal": "animae = souls (nom. pl.)",
+      "hints": {
+        "genitive": "'Animae' can be genitive singular, but here it is nominative plural (the subject)",
+        "dative": "'Animae' can be dative singular, but here it is nominative plural",
+        "vocative": "The vocative plural would also be 'animae' but here the souls are the subject"
+      }
+    },
+    {
+      "prompt": "What declension is 'animae'?",
+      "target": "1st declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension nominative plural ends in -i",
+        "3rd declension": "3rd declension nominative plural ends in -es",
+        "5th declension": "5th declension nominative plural ends in -es"
+      }
+    },
+    {
+      "prompt": "What case is 'manu'?",
+      "target": "ablative",
+      "choices": ["ablative", "dative", "nominative", "genitive"],
+      "reveal": "in manu = in the hand",
+      "hints": {
+        "dative": "The dative would be 'manui'",
+        "nominative": "The nominative would be 'manus'",
+        "genitive": "The genitive would be 'manus'"
+      }
+    },
+    {
+      "prompt": "What declension is 'manu'?",
+      "target": "4th declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension ablative ends in -a",
+        "2nd declension": "2nd declension ablative ends in -o",
+        "3rd declension": "3rd declension ablative ends in -e"
+      }
+    },
+    {
+      "prompt": "What case is 'Dei'?",
+      "target": "genitive",
+      "choices": ["genitive", "nominative", "dative", "ablative"],
+      "reveal": "Dei = of God (gen.)",
+      "hints": {
+        "nominative": "The nominative would be 'Deus'",
+        "dative": "The dative would be 'Deo'",
+        "ablative": "The ablative would be 'Deo'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'sunt' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to have", "to stand", "to remain"],
+      "reveal": null,
+      "hints": {
+        "to have": "That would be the infinitive of 'habere'",
+        "to stand": "That would be the infinitive of 'stare'",
+        "to remain": "That would be the infinitive of 'manere'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'sunt'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "perfect indicative", "present subjunctive", "imperfect indicative"],
+      "reveal": "sunt = they are",
+      "hints": {
+        "perfect indicative": "The perfect of 'esse' (3rd pl.) would be 'fuerunt'",
+        "present subjunctive": "The present subjunctive would be 'sint'",
+        "imperfect indicative": "The imperfect would be 'erant'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'sunt'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "sto, stare, steti, statum", "possum, posse, potui, —", "fio, fieri, factus sum, —"],
+      "reveal": null,
+      "hints": {
+        "sto, stare, steti, statum": "These are the principal parts of 'sto' (to stand)",
+        "possum, posse, potui, —": "These are the principal parts of 'possum' (to be able)",
+        "fio, fieri, factus sum, —": "These are the principal parts of 'fio' (to become)"
+      }
+    }
+  ],
+  "translation": "The souls of the just are in the hand of God"
+}

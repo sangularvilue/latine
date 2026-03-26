@@ -1,0 +1,108 @@
+{
+  "id": "virgil-aen-4-412",
+  "source": "Virgil",
+  "reference": "Aeneid IV.412",
+  "latin": ["Improbe", "Amor", "quid", "non", "mortalia", "pectora", "cogis"],
+  "steps": [
+    {
+      "prompt": "What case is 'Improbe'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "ablative", "adverb"],
+      "reveal": "Improbe = O cruel/shameless (voc. masc. sg., addressing Amor)",
+      "hints": {
+        "nominative": "Nominative would be 'improbus' — the -e ending marks the vocative of 2nd decl. -us adjectives",
+        "ablative": "Ablative would be 'improbo' — 'improbe' with -e is vocative",
+        "adverb": "The adverb 'improbe' does exist, but here it modifies 'Amor' as a vocative adjective"
+      }
+    },
+    {
+      "prompt": "What case is 'Amor'?",
+      "target": "vocative",
+      "choices": ["vocative", "nominative", "accusative", "genitive"],
+      "reveal": "Amor = O Love (voc. sg., personified Love being addressed)",
+      "hints": {
+        "nominative": "While 'Amor' looks nominative, the context is direct address — 'O cruel Love'",
+        "accusative": "Accusative would be 'Amorem' — 'Amor' is vocative (same form as nominative in 3rd decl.)",
+        "genitive": "Genitive would be 'Amoris' — 'Amor' is vocative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'amor, amoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'amoris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'amoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'amoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'mortalia'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "genitive"],
+      "reveal": "mortalia = mortal (acc. pl. neut., modifying 'pectora')",
+      "hints": {
+        "nominative": "While 'mortalia' could be nom. pl. neut., here it is accusative, modifying 'pectora' (object of 'cogis')",
+        "ablative": "Ablative plural would be 'mortalibus' — 'mortalia' is accusative plural neuter",
+        "genitive": "Genitive plural would be 'mortalium' — 'mortalia' is accusative"
+      }
+    },
+    {
+      "prompt": "What case is 'pectora'?",
+      "target": "accusative",
+      "choices": ["accusative", "nominative", "ablative", "vocative"],
+      "reveal": "pectora = hearts/breasts (acc. pl., object of 'cogis')",
+      "hints": {
+        "nominative": "While 'pectora' could be nom. pl. neut., here it is the accusative object of 'cogis'",
+        "ablative": "Ablative plural would be 'pectoribus' — 'pectora' is accusative plural",
+        "vocative": "Vocative would look like nominative — but 'pectora' is accusative, object of 'cogis'"
+      }
+    },
+    {
+      "prompt": "What declension is 'pectus, pectoris'?",
+      "target": "3rd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'pectoris' ends in -is (3rd declension)",
+        "2nd declension": "2nd declension has genitive in -i — 'pectoris' ends in -is",
+        "4th declension": "4th declension has genitive in -ūs — 'pectoris' ends in -is"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'cogis' translates to?",
+      "target": "to compel",
+      "choices": ["to compel", "to think", "to know", "to gather"],
+      "reveal": null,
+      "hints": {
+        "to think": "That would be 'cogitare' — 'cogis' comes from 'cogere' (to compel/drive together)",
+        "to know": "That would be 'cognoscere' — 'cogis' comes from 'cogere' (to compel)",
+        "to gather": "That would be 'colligere' — while 'cogere' can mean 'gather', here it means 'compel'"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'cogis'?",
+      "target": "present indicative",
+      "choices": ["present indicative", "present subjunctive", "perfect indicative", "future indicative"],
+      "reveal": "cogis = you compel/drive",
+      "hints": {
+        "present subjunctive": "Present subjunctive would be 'cogas' — 'cogis' with -is is present indicative (3rd conj.)",
+        "perfect indicative": "Perfect would be 'coegisti' — 'cogis' is present indicative",
+        "future indicative": "Future would be 'coges' — 'cogis' with -is is present indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'cogis'?",
+      "target": "cogo, cogere, coegi, coactum",
+      "choices": ["cogo, cogere, coegi, coactum", "cogito, cogitare, cogitavi, cogitatum", "cognosco, cognoscere, cognovi, cognitum", "colligo, colligere, collegi, collectum"],
+      "reveal": null,
+      "hints": {
+        "cogito, cogitare, cogitavi, cogitatum": "These are the parts of 'cogitare' (to think)",
+        "cognosco, cognoscere, cognovi, cognitum": "These are the parts of 'cognoscere' (to learn/know)",
+        "colligo, colligere, collegi, collectum": "These are the parts of 'colligere' (to gather/collect)"
+      }
+    }
+  ],
+  "translation": "Cruel Love, to what do you not compel mortal hearts?"
+}

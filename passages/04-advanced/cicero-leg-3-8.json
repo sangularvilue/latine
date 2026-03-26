@@ -1,0 +1,119 @@
+{
+  "id": "cicero-leg-3-8",
+  "source": "Cicero",
+  "reference": "De Legibus III.8",
+  "latin": ["Salus", "populi", "suprema", "lex", "esto"],
+  "steps": [
+    {
+      "prompt": "Which word is the main verb?",
+      "target": "esto",
+      "choices": ["Salus", "suprema", "lex", "esto"],
+      "reveal": null,
+      "hints": {
+        "Salus": "'Salus' is a noun meaning 'safety / welfare'",
+        "suprema": "'suprema' is an adjective meaning 'highest / supreme'",
+        "lex": "'lex' is a noun meaning 'law'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'esto' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to eat", "to stand", "to place"],
+      "reveal": null,
+      "hints": {
+        "to eat": "'to eat' is 'edere' — 'esto' is the future imperative of 'esse'",
+        "to stand": "'to stand' is 'stare' — do not confuse with 'esse'",
+        "to place": "'to place' is 'ponere' — 'esto' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'esto'?",
+      "target": "Future imperative",
+      "choices": ["Present imperative", "Future imperative", "Present subjunctive", "Future indicative"],
+      "reveal": { "word": "esto", "gloss": "let it be / shall be" },
+      "hints": {
+        "Present imperative": "Present imperative of 'esse' would be 'es' — 'esto' is the future imperative used in legal language",
+        "Present subjunctive": "Present subjunctive would be 'sit' — 'esto' is the future imperative",
+        "Future indicative": "Future indicative would be 'erit' — 'esto' is the imperative form used in legal formulae"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'esto'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "edo, edere, edi, esum", "sto, stare, steti, statum", "sino, sinere, sivi, situm"],
+      "reveal": null,
+      "hints": {
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat) — 'esto' is from 'esse'",
+        "sto, stare, steti, statum": "These are the parts of 'stare' (to stand) — similar-looking but different from 'esse'",
+        "sino, sinere, sivi, situm": "These are the parts of 'sinere' (to allow) — not related to 'esto'"
+      }
+    },
+    {
+      "prompt": "What case is 'Salus'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Vocative"],
+      "reveal": { "word": "Salus", "gloss": "safety / welfare" },
+      "hints": {
+        "Accusative": "Accusative would be 'salutem' — 'Salus' is the nominative subject",
+        "Genitive": "Genitive would be 'salutis' — 'Salus' is nominative",
+        "Vocative": "Cicero is not addressing safety — 'Salus' is the subject of the sentence"
+      }
+    },
+    {
+      "prompt": "Declension of 'Salus'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'salus, salutis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'salus' looks like 2nd but its genitive 'salutis' reveals 3rd",
+        "4th": "4th declension nouns have genitive -us — 'salus, salutis' is 3rd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'populi'?",
+      "target": "Genitive",
+      "choices": ["Nominative", "Genitive", "Dative", "Ablative"],
+      "reveal": { "word": "populi", "gloss": "of the people" },
+      "hints": {
+        "Nominative": "Nominative singular is 'populus' — 'populi' is the genitive singular",
+        "Dative": "Dative singular would be 'populo' — 'populi' indicates possession",
+        "Ablative": "Ablative singular would be 'populo' — 'populi' is genitive"
+      }
+    },
+    {
+      "prompt": "Declension of 'populi'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'populus, populi' is 2nd declension",
+        "3rd": "3rd declension genitive would end in -is — 'populi' is 2nd declension genitive (-i)",
+        "4th": "4th declension genitive would end in -us — 'populi' is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What case is 'lex'?",
+      "target": "Nominative",
+      "choices": ["Nominative", "Accusative", "Ablative", "Genitive"],
+      "reveal": { "word": "lex", "gloss": "law" },
+      "hints": {
+        "Accusative": "Accusative would be 'legem' — 'lex' is nominative, the predicate after 'esto'",
+        "Ablative": "Ablative would be 'lege' — 'lex' is nominative here",
+        "Genitive": "Genitive would be 'legis' — 'lex' is the predicate nominative"
+      }
+    },
+    {
+      "prompt": "Declension of 'lex'?",
+      "target": "3rd",
+      "choices": ["1st", "2nd", "3rd", "5th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'lex, legis' is 3rd declension",
+        "2nd": "2nd declension nouns end in -us/-um — 'lex' is 3rd declension",
+        "5th": "5th declension nouns end in -es — 'lex, legis' is 3rd declension"
+      }
+    }
+  ],
+  "translation": "Let the welfare of the people be the supreme law."
+}

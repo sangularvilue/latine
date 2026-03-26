@@ -1,0 +1,119 @@
+{
+  "id": "sallust-cat-7-4",
+  "source": "Sallust",
+  "reference": "Bellum Catilinae 7.4",
+  "latin": ["Iam", "primum", "iuventus", "simul", "ac", "belli", "patiens", "erat"],
+  "steps": [
+    {
+      "prompt": "What case is 'iuventus'?",
+      "target": "nominative",
+      "choices": ["nominative", "genitive", "accusative", "ablative"],
+      "reveal": "iuventus = the youth (nom. fem. sg.)",
+      "hints": {
+        "genitive": "Genitive would be 'iuventutis' — 'iuventus' with -us is nominative (4th decl. would be -ūs gen.)",
+        "accusative": "Accusative would be 'iuventutem' — 'iuventus' is nominative, the subject",
+        "ablative": "Ablative would be 'iuventute' — 'iuventus' is nominative here"
+      }
+    },
+    {
+      "prompt": "What declension is 'iuventus, iuventutis'?",
+      "target": "3rd declension",
+      "choices": ["2nd declension", "3rd declension", "4th declension", "5th declension"],
+      "reveal": null,
+      "hints": {
+        "2nd declension": "2nd declension has genitive in -i — 'iuventutis' ends in -is, it is 3rd declension",
+        "4th declension": "Despite the -us ending, genitive 'iuventutis' (not -ūs) shows it is 3rd declension",
+        "5th declension": "5th declension has genitive in -ei — 'iuventutis' ends in -is"
+      }
+    },
+    {
+      "prompt": "What case is 'belli'?",
+      "target": "genitive",
+      "choices": ["nominative", "genitive", "dative", "ablative"],
+      "reveal": "belli = of war (gen. sg.)",
+      "hints": {
+        "nominative": "Nominative would be 'bellum' — 'belli' with -i is genitive singular",
+        "dative": "Dative would be 'bello' — 'belli' is genitive, dependent on 'patiens'",
+        "ablative": "Ablative would be 'bello' — 'belli' with -i is genitive"
+      }
+    },
+    {
+      "prompt": "What declension is 'bellum, belli'?",
+      "target": "2nd declension",
+      "choices": ["1st declension", "2nd declension", "3rd declension", "4th declension"],
+      "reveal": null,
+      "hints": {
+        "1st declension": "1st declension has genitive in -ae — 'belli' with -i is 2nd declension",
+        "3rd declension": "3rd declension has genitive in -is — 'belli' with -i is 2nd declension",
+        "4th declension": "4th declension has genitive in -ūs — 'belli' with -i is 2nd declension"
+      }
+    },
+    {
+      "prompt": "What form is 'patiens'?",
+      "target": "present active participle (used as adjective)",
+      "choices": ["present active participle (used as adjective)", "perfect passive participle", "3rd person singular verb", "gerundive"],
+      "reveal": "patiens = enduring/able to endure (nom. sg., + genitive)",
+      "hints": {
+        "perfect passive participle": "Perfect passive participle would be 'passus' — 'patiens' with -ens is present participle",
+        "3rd person singular verb": "'Patiens' ends in -ens, the participle suffix — a finite verb would be 'patitur'",
+        "gerundive": "Gerundive would be 'patiendus' — 'patiens' is present participle/adjective"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'patiens' translates to?",
+      "target": "to suffer/endure",
+      "choices": ["to suffer/endure", "to open", "to feed", "to feel"],
+      "reveal": null,
+      "hints": {
+        "to open": "That would be 'patere' — 'patiens' comes from 'pati' (to suffer/endure)",
+        "to feed": "That would be 'pascere' — 'patiens' comes from 'pati' (to suffer/endure)",
+        "to feel": "That would be 'sentire' — 'patiens' comes from 'pati' (to suffer/endure)"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'patiens'?",
+      "target": "patior, pati, passus sum",
+      "choices": ["patior, pati, passus sum", "pateo, patere, patui", "pasco, pascere, pavi, pastum", "pando, pandere, pandi, passum"],
+      "reveal": null,
+      "hints": {
+        "pateo, patere, patui": "These are the parts of 'patere' (to be open/exposed)",
+        "pasco, pascere, pavi, pastum": "These are the parts of 'pascere' (to feed/pasture)",
+        "pando, pandere, pandi, passum": "These are the parts of 'pandere' (to spread/extend)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'erat' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to plow"],
+      "reveal": null,
+      "hints": {
+        "to go": "That would be 'ire' — 'erat' comes from 'esse' (to be)",
+        "to eat": "That would be 'edere' — 'erat' comes from 'esse' (to be)",
+        "to plow": "That would be 'arare' — 'erat' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense/mood is 'erat'?",
+      "target": "imperfect indicative",
+      "choices": ["present indicative", "imperfect indicative", "perfect indicative", "imperfect subjunctive"],
+      "reveal": "erat = was",
+      "hints": {
+        "present indicative": "Present would be 'est' — 'erat' with the -ba-/-a- stem is imperfect",
+        "perfect indicative": "Perfect would be 'fuit' — 'erat' is imperfect indicative",
+        "imperfect subjunctive": "Imperfect subjunctive would be 'esset' — 'erat' with -at is indicative"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'erat'?",
+      "target": "sum, esse, fui, futurum",
+      "choices": ["sum, esse, fui, futurum", "eo, ire, ii, itum", "edo, edere, edi, esum", "aro, arare, aravi, aratum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ii, itum": "These are the parts of 'ire' (to go)",
+        "edo, edere, edi, esum": "These are the parts of 'edere' (to eat)",
+        "aro, arare, aravi, aratum": "These are the parts of 'arare' (to plow)"
+      }
+    }
+  ],
+  "translation": "Already first the youth, as soon as it was able to endure war"
+}

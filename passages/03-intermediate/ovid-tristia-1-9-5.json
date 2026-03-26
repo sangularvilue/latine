@@ -1,0 +1,108 @@
+{
+  "id": "ovid-tristia-1-9-5",
+  "source": "Ovid",
+  "reference": "Tristia I.9.5",
+  "latin": ["Donec", "eris", "felix", "multos", "numerabis", "amicos"],
+  "steps": [
+    {
+      "prompt": "Which word introduces a temporal clause?",
+      "target": "Donec",
+      "choices": ["Donec", "eris", "felix", "multos"],
+      "reveal": null,
+      "hints": {
+        "eris": "'eris' is a verb (future of 'esse') — not a conjunction",
+        "felix": "'felix' is an adjective meaning 'happy/fortunate'",
+        "multos": "'multos' is an adjective meaning 'many'"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'eris' translates to?",
+      "target": "to be",
+      "choices": ["to be", "to go", "to eat", "to wander"],
+      "reveal": null,
+      "hints": {
+        "to go": "'to go' is 'ire' — 'eris' comes from 'esse' (to be)",
+        "to eat": "'to eat' is 'edere' — 'eris' comes from 'esse' (to be)",
+        "to wander": "'to wander' is 'errare' — 'eris' comes from 'esse' (to be)"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'eris'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Present subjunctive", "Perfect indicative"],
+      "reveal": { "word": "eris", "gloss": "you will be" },
+      "hints": {
+        "Present indicative": "Present 2nd person of 'esse' is 'es' — 'eris' has the future -ri- form",
+        "Present subjunctive": "Present subjunctive would be 'sis'",
+        "Perfect indicative": "Perfect 2nd person would be 'fuisti'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'eris'?",
+      "target": "sum, esse, fui, futurus",
+      "choices": ["sum, esse, fui, futurus", "eo, ire, ivi, itum", "erro, errare, erravi, erratum", "edo, edere, edi, esum"],
+      "reveal": null,
+      "hints": {
+        "eo, ire, ivi, itum": "These are the principal parts of 'ire' (to go)",
+        "erro, errare, erravi, erratum": "These are the principal parts of 'errare' (to wander)",
+        "edo, edere, edi, esum": "These are the principal parts of 'edere' (to eat)"
+      }
+    },
+    {
+      "prompt": "The infinitive of 'numerabis' translates to?",
+      "target": "to count / to reckon",
+      "choices": ["to count / to reckon", "to name", "to nod", "to announce"],
+      "reveal": null,
+      "hints": {
+        "to name": "'to name' is 'nominare' — 'numerabis' comes from 'numerare'",
+        "to nod": "'to nod' is 'nutare' — 'numerabis' comes from 'numerare'",
+        "to announce": "'to announce' is 'nuntiare' — 'numerabis' comes from 'numerare'"
+      }
+    },
+    {
+      "prompt": "What tense and mood is 'numerabis'?",
+      "target": "Future indicative",
+      "choices": ["Present indicative", "Future indicative", "Imperfect indicative", "Present subjunctive"],
+      "reveal": { "word": "numerabis", "gloss": "you will count" },
+      "hints": {
+        "Present indicative": "Present 2nd person would be 'numeras' — 'numerabis' has the future -bi- marker",
+        "Imperfect indicative": "Imperfect would be 'numerabas' — 'numerabis' with -bis is future",
+        "Present subjunctive": "Present subjunctive would be 'numeres'"
+      }
+    },
+    {
+      "prompt": "Principal parts of 'numerabis'?",
+      "target": "numero, numerare, numeravi, numeratum",
+      "choices": ["numero, numerare, numeravi, numeratum", "nomino, nominare, nominavi, nominatum", "nuntio, nuntiare, nuntiavi, nuntiatum", "narro, narrare, narravi, narratum"],
+      "reveal": null,
+      "hints": {
+        "nomino, nominare, nominavi, nominatum": "These are the principal parts of 'nominare' (to name)",
+        "nuntio, nuntiare, nuntiavi, nuntiatum": "These are the principal parts of 'nuntiare' (to announce)",
+        "narro, narrare, narravi, narratum": "These are the principal parts of 'narrare' (to tell/narrate)"
+      }
+    },
+    {
+      "prompt": "Case of 'amicos'?",
+      "target": "Accusative",
+      "choices": ["Nominative", "Accusative", "Genitive", "Ablative"],
+      "reveal": { "word": "amicos", "gloss": "friends" },
+      "hints": {
+        "Nominative": "Nominative plural of 'amicus' would be 'amici' — 'amicos' with -os is accusative",
+        "Genitive": "Genitive plural would be 'amicorum'",
+        "Ablative": "Ablative plural would be 'amicis'"
+      }
+    },
+    {
+      "prompt": "Declension of 'amicus'?",
+      "target": "2nd",
+      "choices": ["1st", "2nd", "3rd", "4th"],
+      "reveal": null,
+      "hints": {
+        "1st": "1st declension nouns end in -a — 'amicus' with -us ending is 2nd declension",
+        "3rd": "3rd declension nouns have varied nominatives — 'amicus' is a regular 2nd declension -us noun",
+        "4th": "4th declension -us nouns have genitive -us — 'amici' genitive indicates 2nd declension"
+      }
+    }
+  ],
+  "translation": "As long as you are fortunate, you will count many friends"
+}
