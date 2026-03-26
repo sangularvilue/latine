@@ -418,10 +418,7 @@ async function rebuildPage(config: any): Promise<void> {
 // ── Input handling ──
 
 function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'down'): void {
-  // Ignore input during lockout (prevents stale events after phase transitions)
-  if (Date.now() < inputLockedUntil) return;
-
-  // Double-tap: return to selector from any phase
+  // Double-tap: ALWAYS return to selector (bypasses lockout)
   if (type === 'double_tap' && state.phase !== 'selector') {
     state.phase = 'selector';
     state.passage = null;
@@ -432,6 +429,9 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
     void renderToGlasses();
     return;
   }
+
+  // Ignore input during lockout (prevents stale events after phase transitions)
+  if (Date.now() < inputLockedUntil) return;
 
   const prevPhase = state.phase;
 
