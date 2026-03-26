@@ -198,9 +198,13 @@ function renderLanding() {
 
 // Render and start
 try {
+  document.body.style.background = '#0f1419';
+  document.body.style.margin = '0';
+  appRoot!.textContent = 'Loading Latine...';
   renderLanding();
+  appRoot!.querySelector('#status')?.setAttribute('style', 'margin:0 0 6px;font-size:12px;color:#5c6773');
 } catch (err) {
-  console.error('[Latine] Landing page error:', err);
-  appRoot!.innerHTML = `<div style="padding:20px;color:red;font-family:monospace">Error: ${(err as Error).message}<br><br>Falling back to glasses companion.</div>`;
+  console.error('[Latine] Landing error:', err);
+  appRoot!.innerHTML = `<div style="padding:20px;color:#ff6666;background:#0f1419;font-family:monospace;font-size:14px;white-space:pre-wrap">Landing page error:\n${(err as Error).stack || (err as Error).message}</div>`;
 }
 void startApp();
