@@ -1,0 +1,26 @@
+{
+  "id": "pop-094",
+  "source": "Pop Culture",
+  "chapter": "The Karate Kid",
+  "latin": "Magister Iaponicus discipulum vehicula lavare iussit. 'ceram impone, ceram remove,' iterum atque iterum dicebat. discipulus nesciebat se artem pugnandi discere.",
+  "glossary": {
+    "ceram": "wax (acc.)",
+    "impone": "apply, put on (imperative)",
+    "remove": "remove, take off (imperative)",
+    "iussit": "ordered",
+    "nesciebat": "did not know"
+  },
+  "questions": [
+    {
+      "prompt": "What did the master order the student to do?",
+      "target": "Wash cars while applying and removing wax",
+      "choices": ["Practice punches", "Wash cars while applying and removing wax", "Clean the entire house", "Run around the block"]
+    },
+    {
+      "prompt": "What was the student actually learning?",
+      "target": "Fighting technique",
+      "choices": ["Patience and humility", "Fighting technique", "How to clean properly", "Nothing useful"]
+    }
+  ],
+  "translation": "A Japanese master ordered his student to wash cars. 'Wax on, wax off,' he kept saying again and again. The student did not know he was learning the art of fighting."
+}

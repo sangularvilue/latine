@@ -1,0 +1,27 @@
+{
+  "id": "pop-135",
+  "source": "Pop Culture",
+  "chapter": "It's Always Sunny in Philadelphia",
+  "latin": "De implicatione loquor. cum in navi sumus in medio mari, puella quicquid volumus faciet — propter implicationem. non est periculum verum, sed implicatio periculi.",
+  "glossary": {
+    "implicatione": "implication",
+    "navi": "ship, boat",
+    "medio mari": "middle of the sea",
+    "quicquid": "whatever",
+    "volumus": "we want",
+    "periculum": "danger"
+  },
+  "questions": [
+    {
+      "prompt": "Where does the speaker say they would be?",
+      "target": "On a boat in the middle of the sea",
+      "choices": ["In a car", "On a boat in the middle of the sea", "On a mountain", "In a house"]
+    },
+    {
+      "prompt": "What is the 'implication' about?",
+      "target": "The suggestion of danger, not real danger",
+      "choices": ["A business deal", "The suggestion of danger, not real danger", "A romantic proposal", "A legal contract"]
+    }
+  ],
+  "translation": "I'm talking about the implication. When we're on a boat in the middle of the sea, the girl will do whatever we want — because of the implication. There is no real danger, but the implication of danger."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-059",
+  "source": "Pop Culture",
+  "chapter": "Anchorman",
+  "latin": "Nuntius arrogans mulieri in caupona dixit: 'ego quodammodo vir magni momenti sum. multi me cognoscunt. domum plenam librorum habeo.'",
+  "glossary": {
+    "nuntius": "newsman, announcer",
+    "arrogans": "arrogant",
+    "quodammodo": "in a way, sort of",
+    "momenti": "of importance (gen.)",
+    "cognoscunt": "know, recognize"
+  },
+  "questions": [
+    {
+      "prompt": "What is the man's profession?",
+      "target": "A newsman",
+      "choices": ["A politician", "A newsman", "A lawyer", "A professor"]
+    },
+    {
+      "prompt": "What does he brag about?",
+      "target": "Being important, well-known, and having many books",
+      "choices": ["His money and cars", "Being important, well-known, and having many books", "His athletic achievements", "His family connections"]
+    }
+  ],
+  "translation": "An arrogant newsman said to a woman at a bar: 'I am sort of a man of great importance. Many people know me. I have a house full of books.'"
+}

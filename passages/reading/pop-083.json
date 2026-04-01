@@ -1,0 +1,26 @@
+{
+  "id": "pop-083",
+  "source": "Pop Culture",
+  "chapter": "The Sixth Sense",
+  "latin": "Puer pallidus, oculis magnis, medico suo susurravit: 'mortuos video. ambulant sicut vivi. nesciunt se mortuos esse.'",
+  "glossary": {
+    "pallidus": "pale",
+    "medico": "to the doctor (dat.)",
+    "susurravit": "whispered",
+    "mortuos": "dead people (acc.)",
+    "nesciunt": "they don't know"
+  },
+  "questions": [
+    {
+      "prompt": "What is the boy's secret ability?",
+      "target": "He sees dead people",
+      "choices": ["He can predict the future", "He sees dead people", "He hears thoughts", "He can become invisible"]
+    },
+    {
+      "prompt": "What do the dead people not realize?",
+      "target": "That they are dead",
+      "choices": ["That they are being watched", "That they are dead", "That time has passed", "That they are invisible"]
+    }
+  ],
+  "translation": "A pale boy with big eyes whispered to his doctor: 'I see dead people. They walk around like the living. They don't know they are dead.'"
+}

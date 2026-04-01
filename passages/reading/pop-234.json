@@ -1,0 +1,26 @@
+{
+  "id": "pop-234",
+  "source": "Video Games",
+  "chapter": "Mass Effect",
+  "latin": "Shepard, imperator navium, per forum Citadellae ambulabat. ad tabernam dilectam suam venit et dixit: 'ego sum Imperator Shepard, et haec taberna mihi maxime placet in tota Citadella.'",
+  "glossary": {
+    "imperator": "commander",
+    "forum": "marketplace",
+    "tabernam": "shop, store",
+    "dilectam": "favorite, beloved",
+    "placet": "pleases, is pleasing"
+  },
+  "questions": [
+    {
+      "prompt": "Where is Shepard walking?",
+      "target": "Through the marketplace of the Citadel",
+      "choices": ["Through a battlefield", "Through the marketplace of the Citadel", "Through a spaceship", "Through a garden"]
+    },
+    {
+      "prompt": "What does Shepard say about the store?",
+      "target": "It is his favorite store on the Citadel",
+      "choices": ["It is too expensive", "It is his favorite store on the Citadel", "It has the best weapons", "It should be closed"]
+    }
+  ],
+  "translation": "Shepard, the commander, was walking through the marketplace of the Citadel. He came to his favorite store and said: 'I am Commander Shepard, and this store pleases me most on the entire Citadel.'"
+}

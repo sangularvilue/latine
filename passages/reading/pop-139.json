@@ -1,0 +1,27 @@
+{
+  "id": "pop-139",
+  "source": "Pop Culture",
+  "chapter": "Succession",
+  "latin": "Tu non es dignus qui heres sis. nullus vestrum dignus est. ego hoc imperium aedificavi, non vos. fortasse illud mecum peribit.",
+  "glossary": {
+    "dignus": "worthy",
+    "heres": "heir",
+    "vestrum": "of you (plural)",
+    "aedificavi": "I built",
+    "fortasse": "perhaps",
+    "peribit": "will perish"
+  },
+  "questions": [
+    {
+      "prompt": "What does the father say about his children?",
+      "target": "None of them are worthy to be heir",
+      "choices": ["They are all brilliant", "None of them are worthy to be heir", "They should work together", "One of them is ready"]
+    },
+    {
+      "prompt": "What might happen to the empire?",
+      "target": "It may perish with the father",
+      "choices": ["It will grow forever", "It may perish with the father", "It will be sold", "It will split equally"]
+    }
+  ],
+  "translation": "You are not worthy to be heir. None of you are worthy. I built this empire, not you. Perhaps it will perish with me."
+}

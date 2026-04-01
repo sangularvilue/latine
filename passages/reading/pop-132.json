@@ -1,0 +1,27 @@
+{
+  "id": "pop-132",
+  "source": "Pop Culture",
+  "chapter": "Arrested Development",
+  "latin": "Illam? Georgius Michaelem interrogavit de puella quam amabat. Michael dixit 'illam?' — quasi non intellegeret cur eam amaret. illam?",
+  "glossary": {
+    "illam": "her? that one?",
+    "interrogavit": "asked",
+    "puella": "girl",
+    "amabat": "was loving, loved",
+    "quasi": "as if",
+    "intellegeret": "understood"
+  },
+  "questions": [
+    {
+      "prompt": "What is Michael's dismissive reaction?",
+      "target": "Her?",
+      "choices": ["Why?", "Her?", "Really?", "When?"]
+    },
+    {
+      "prompt": "What can Michael not understand?",
+      "target": "Why George Michael loves the girl",
+      "choices": ["Why the girl is sad", "Why George Michael loves the girl", "Where the girl lives", "What the girl's name is"]
+    }
+  ],
+  "translation": "Her? George Michael told Michael about the girl he loved. Michael said 'her?' — as if he could not understand why he loved her. Her?"
+}

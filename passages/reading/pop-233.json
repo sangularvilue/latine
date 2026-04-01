@@ -1,0 +1,26 @@
+{
+  "id": "pop-233",
+  "source": "Video Games",
+  "chapter": "Halo",
+  "latin": "Bellum longum contra Foederatos fuerat. Magister Princeps, ultimus Spartanorum, surrexit et dixit: 'pugnam finiamus.' totus exercitus eum secutus est.",
+  "glossary": {
+    "bellum": "war",
+    "Foederatos": "the Covenant",
+    "ultimus": "last",
+    "surrexit": "rose, stood up",
+    "finiamus": "let us finish"
+  },
+  "questions": [
+    {
+      "prompt": "Who is Master Chief described as?",
+      "target": "The last of the Spartans",
+      "choices": ["The strongest marine", "The last of the Spartans", "The youngest soldier", "The fleet commander"]
+    },
+    {
+      "prompt": "What does Master Chief declare?",
+      "target": "Let us finish the fight",
+      "choices": ["Retreat now", "Let us finish the fight", "Surrender to the Covenant", "Wait for reinforcements"]
+    }
+  ],
+  "translation": "The war against the Covenant had been long. Master Chief, the last of the Spartans, rose and said: 'Let us finish the fight.' The entire army followed him."
+}

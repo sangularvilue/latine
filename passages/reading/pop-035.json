@@ -1,0 +1,26 @@
+{
+  "id": "pop-035",
+  "source": "Pop Culture",
+  "chapter": "Napoleon Dynamite",
+  "latin": "Adulescens insolitus, qui artes nullas habebat, amico suo Pedro in electione adiuvare constituit. per totam scholam scripsit: 'SUFFRAGIUM PEDRO DATE.'",
+  "glossary": {
+    "insolitus": "unusual, odd",
+    "electione": "election (abl.)",
+    "adiuvare": "to help",
+    "constituit": "decided",
+    "suffragium": "vote (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "What does the unusual teenager decide to do?",
+      "target": "Help his friend Pedro in an election",
+      "choices": ["Run for president himself", "Help his friend Pedro in an election", "Leave school", "Start a club"]
+    },
+    {
+      "prompt": "What message did he write around the school?",
+      "target": "Vote for Pedro",
+      "choices": ["Pedro is the best", "Vote for Pedro", "Pedro for freedom", "Support Pedro now"]
+    }
+  ],
+  "translation": "An unusual teenager, who had no skills, decided to help his friend Pedro in the election. Throughout the whole school he wrote: 'VOTE FOR PEDRO.'"
+}

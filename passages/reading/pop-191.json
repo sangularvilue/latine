@@ -1,0 +1,27 @@
+{
+  "id": "pop-191",
+  "source": "Pop Culture",
+  "chapter": "Succession",
+  "latin": "Amor patris mei venenum est. nos omnes vult vincere sed neminem vincere sinit. ludus eius nos frangit. et tamen — eius approbationem quaerimus.",
+  "glossary": {
+    "venenum": "poison",
+    "vincere": "to win, to succeed",
+    "sinit": "allows",
+    "frangit": "breaks",
+    "approbationem": "approval",
+    "quaerimus": "we seek"
+  },
+  "questions": [
+    {
+      "prompt": "How is the father's love described?",
+      "target": "As poison",
+      "choices": ["As warmth", "As poison", "As wisdom", "As strength"]
+    },
+    {
+      "prompt": "What paradox do the children face?",
+      "target": "They seek approval from the man who breaks them",
+      "choices": ["They want to leave but stay", "They seek approval from the man who breaks them", "They are rich but unhappy", "They love each other but compete"]
+    }
+  ],
+  "translation": "My father's love is poison. He wants us all to win but allows no one to succeed. His game breaks us. And yet — we seek his approval."
+}

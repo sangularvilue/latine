@@ -1,0 +1,26 @@
+{
+  "id": "pop-262",
+  "source": "Modern Life",
+  "chapter": "The Cat at 3am",
+  "latin": "Hora tertia noctis, feles mea in faciem meam sedit et miaulavit. 'cibum volo,' oculi eius dicebant. catillum plenum ante eam posui. olfecit, despexit, et abiit. nihil volebat nisi me excitare.",
+  "glossary": {
+    "feles": "cat",
+    "miaulavit": "meowed",
+    "catillum": "bowl, dish",
+    "olfecit": "sniffed",
+    "excitare": "to wake up"
+  },
+  "questions": [
+    {
+      "prompt": "What time does the cat wake its owner?",
+      "target": "3 AM",
+      "choices": ["Midnight", "3 AM", "5 AM", "Dawn"]
+    },
+    {
+      "prompt": "What does the cat do with the food?",
+      "target": "Sniffs it, scorns it, and leaves",
+      "choices": ["Eats it happily", "Sniffs it, scorns it, and leaves", "Knocks the bowl over", "Waits for better food"]
+    }
+  ],
+  "translation": "At the third hour of the night, my cat sat on my face and meowed. 'I want food,' her eyes said. I placed a full bowl before her. She sniffed, scorned it, and left. She wanted nothing except to wake me up."
+}

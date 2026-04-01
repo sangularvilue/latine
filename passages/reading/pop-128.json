@@ -1,0 +1,27 @@
+{
+  "id": "pop-128",
+  "source": "Pop Culture",
+  "chapter": "Seinfeld",
+  "latin": "Festivus pro ceteris! hodie non festa publica celebramus sed Festivum. palus alumini stat pro arbore, et certamina virium patrem contra filium ponunt.",
+  "glossary": {
+    "festa": "holidays",
+    "celebramus": "we celebrate",
+    "palus": "pole",
+    "alumini": "aluminum",
+    "certamina": "contests",
+    "virium": "of strength"
+  },
+  "questions": [
+    {
+      "prompt": "What replaces the traditional holiday tree?",
+      "target": "An aluminum pole",
+      "choices": ["A wooden stick", "An aluminum pole", "A candle", "A plastic tree"]
+    },
+    {
+      "prompt": "What is the holiday called?",
+      "target": "Festivus",
+      "choices": ["Saturnalia", "Festivus", "Lupercalia", "Dies Natalis"]
+    }
+  ],
+  "translation": "Festivus for the rest of us! Today we do not celebrate public holidays but Festivus. An aluminum pole stands in place of a tree, and feats of strength pit father against son."
+}

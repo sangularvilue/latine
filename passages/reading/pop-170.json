@@ -1,0 +1,27 @@
+{
+  "id": "pop-170",
+  "source": "Pop Culture",
+  "chapter": "Stranger Things",
+  "latin": "Ego sum Undecima. puella capillis brevibus fugiebat. potestates mirabiles habebat — res mente movere poterat. sed nomen solum numerus erat.",
+  "glossary": {
+    "undecima": "eleven, eleventh",
+    "capillis": "hair",
+    "brevibus": "short",
+    "potestates": "powers",
+    "mente": "mind",
+    "movere": "to move"
+  },
+  "questions": [
+    {
+      "prompt": "What is special about the girl?",
+      "target": "She can move things with her mind",
+      "choices": ["She can fly", "She can move things with her mind", "She can become invisible", "She can read minds"]
+    },
+    {
+      "prompt": "What serves as her name?",
+      "target": "A number",
+      "choices": ["A flower", "A number", "A color", "A place"]
+    }
+  ],
+  "translation": "I am Eleven. A girl with short hair was running away. She had wondrous powers — she could move things with her mind. But her name was only a number."
+}

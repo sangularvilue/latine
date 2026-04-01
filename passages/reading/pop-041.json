@@ -1,0 +1,26 @@
+{
+  "id": "pop-041",
+  "source": "Pop Culture",
+  "chapter": "Office Space",
+  "latin": "Vir timidus, quem omnes neglegabant, submissa voce dixit: 'credo te glutinatorem meum habere.' nemo eum audivit.",
+  "glossary": {
+    "timidus": "timid, shy",
+    "neglegabant": "were ignoring",
+    "submissa voce": "in a low voice",
+    "glutinatorem": "stapler (acc.)",
+    "audivit": "heard, listened to"
+  },
+  "questions": [
+    {
+      "prompt": "What does the timid man want back?",
+      "target": "His stapler",
+      "choices": ["His desk", "His stapler", "His lunch", "His parking spot"]
+    },
+    {
+      "prompt": "How do other people respond?",
+      "target": "No one listens to him",
+      "choices": ["They return it immediately", "They laugh at him", "No one listens to him", "They give him a new one"]
+    }
+  ],
+  "translation": "A timid man, whom everyone was ignoring, said in a low voice: 'I believe you have my stapler.' No one heard him."
+}

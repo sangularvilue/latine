@@ -1,0 +1,27 @@
+{
+  "id": "pop-196",
+  "source": "Pop Culture",
+  "chapter": "Avengers",
+  "latin": "Parva pretia solvimus pro re magna. Thanus credidit se mundum servare debere — dimidiam partem omnium viventium delendo. haec erat philosophia eius insana.",
+  "glossary": {
+    "pretia": "prices, costs",
+    "solvimus": "we pay",
+    "dimidiam": "half",
+    "viventium": "of living beings",
+    "delendo": "by destroying",
+    "insana": "insane, mad"
+  },
+  "questions": [
+    {
+      "prompt": "What did Thanos believe he needed to destroy?",
+      "target": "Half of all living beings",
+      "choices": ["All the Avengers", "Half of all living beings", "Every planet", "All weapons"]
+    },
+    {
+      "prompt": "How is his philosophy described?",
+      "target": "Insane",
+      "choices": ["Wise", "Insane", "Merciful", "Logical"]
+    }
+  ],
+  "translation": "A small price to pay for salvation. Thanos believed he must save the world — by destroying half of all living beings. This was his insane philosophy."
+}

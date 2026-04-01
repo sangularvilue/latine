@@ -1,0 +1,27 @@
+{
+  "id": "pop-158",
+  "source": "Pop Culture",
+  "chapter": "The Hunger Games",
+  "latin": "Me offero in vicem! soror mea electa erat sed ego pro ea steti. me offero! nemo aliam puellam tam fortem umquam viderat.",
+  "glossary": {
+    "offero": "I offer, I volunteer",
+    "vicem": "place, turn (as tribute)",
+    "soror": "sister",
+    "electa": "chosen, selected",
+    "pro ea": "in her place",
+    "fortem": "brave, strong"
+  },
+  "questions": [
+    {
+      "prompt": "Why does the speaker volunteer?",
+      "target": "To take her sister's place",
+      "choices": ["For glory", "To take her sister's place", "Because she was ordered to", "For money"]
+    },
+    {
+      "prompt": "How is the girl described?",
+      "target": "Braver than anyone had ever seen",
+      "choices": ["Frightened and small", "Braver than anyone had ever seen", "Rich and powerful", "Quiet and shy"]
+    }
+  ],
+  "translation": "I volunteer as tribute! My sister had been chosen but I stood in her place. I volunteer! No one had ever seen another girl so brave."
+}

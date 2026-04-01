@@ -1,0 +1,26 @@
+{
+  "id": "pop-297",
+  "source": "History",
+  "chapter": "Napoleon at Waterloo",
+  "latin": "Antiqua Custodia Napoleonis ultimam aciem formavit. Angli rogaverunt num se dedere vellent. dux Gallicus respondit: 'Custodia moritur, non se dedit!' et in hostes processerunt.",
+  "glossary": {
+    "custodia": "guard",
+    "aciem": "battle line",
+    "dedere": "to surrender",
+    "moritur": "dies",
+    "processerunt": "advanced, marched"
+  },
+  "questions": [
+    {
+      "prompt": "What were the Old Guard asked to do?",
+      "target": "Surrender",
+      "choices": ["Retreat", "Surrender", "Change sides", "Negotiate"]
+    },
+    {
+      "prompt": "What was the French commander's response?",
+      "target": "The Guard dies, it does not surrender",
+      "choices": ["We accept your terms", "The Guard dies, it does not surrender", "We will retreat with honor", "Long live the Emperor"]
+    }
+  ],
+  "translation": "Napoleon's Old Guard formed the last battle line. The English asked whether they wished to surrender. The French commander responded: 'The Guard dies, it does not surrender!' And they advanced into the enemy."
+}

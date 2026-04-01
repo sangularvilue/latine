@@ -1,0 +1,26 @@
+{
+  "id": "pop-278",
+  "source": "Video Games",
+  "chapter": "Mass Effect",
+  "latin": "Reapers, machinae antiquissimae, omnem vitam in galaxia delere constituerant. Shepard omnibus dixit: 'si nunc non pugnavimus, nemo post nos pugnabit.' species alienae, olim inimicae, tandem se coniunxerunt.",
+  "glossary": {
+    "antiquissimae": "most ancient",
+    "galaxia": "galaxy",
+    "species": "species, races",
+    "alienae": "alien, foreign",
+    "coniunxerunt": "joined together, united"
+  },
+  "questions": [
+    {
+      "prompt": "What do the Reapers want to do?",
+      "target": "Destroy all life in the galaxy",
+      "choices": ["Conquer Earth", "Destroy all life in the galaxy", "Enslave humanity", "Steal resources"]
+    },
+    {
+      "prompt": "What happens to the alien species?",
+      "target": "Former enemies unite together",
+      "choices": ["They flee the galaxy", "Former enemies unite together", "They surrender", "They fight each other"]
+    }
+  ],
+  "translation": "The Reapers, the most ancient machines, had decided to destroy all life in the galaxy. Shepard told everyone: 'If we do not fight now, no one will fight after us.' Alien species, once enemies, finally joined together."
+}

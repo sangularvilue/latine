@@ -1,0 +1,26 @@
+{
+  "id": "pop-249",
+  "source": "History",
+  "chapter": "Crossing the Rubicon",
+  "latin": "Caesar ad ripam Rubiconis fluminis stetit. lex Romana imperatorem cum exercitu flumen transire vetabat. Caesar aleam iecit et dixit: 'alea iacta est.' transgressus est et bellum civile coepit.",
+  "glossary": {
+    "ripam": "bank, shore",
+    "fluminis": "of the river",
+    "vetabat": "was forbidding",
+    "aleam": "die, dice",
+    "transgressus": "having crossed"
+  },
+  "questions": [
+    {
+      "prompt": "What law did Caesar break?",
+      "target": "A general could not cross the river with an army",
+      "choices": ["He could not enter Rome at night", "A general could not cross the river with an army", "He could not declare war", "Soldiers could not leave Gaul"]
+    },
+    {
+      "prompt": "What did Caesar say?",
+      "target": "The die is cast",
+      "choices": ["We march on Rome", "The die is cast", "Victory or death", "Rome will be mine"]
+    }
+  ],
+  "translation": "Caesar stood at the bank of the river Rubicon. Roman law forbade a general from crossing the river with an army. Caesar threw the die and said: 'The die is cast.' He crossed and the civil war began."
+}

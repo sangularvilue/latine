@@ -1,0 +1,31 @@
+{
+  "id": "pop-100",
+  "source": "Pop Culture",
+  "chapter": "The Breakfast Club",
+  "latin": "Quinque discipuli, qui ad poenam in scholam die Saturni venerant, tandem intellexerunt se non tam diversos esse. unus dixit: 'omnes satis miri sumus. quidam autem miratiores sunt quam ceteri.'",
+  "glossary": {
+    "poenam": "punishment, detention (acc.)",
+    "die Saturni": "on Saturday",
+    "diversos": "different (acc.)",
+    "miri": "strange, bizarre (nom. pl.)",
+    "miratiores": "stranger, more bizarre (nom. pl.)"
+  },
+  "questions": [
+    {
+      "prompt": "Why are the five students at school on Saturday?",
+      "target": "For detention/punishment",
+      "choices": ["For extra classes", "For detention/punishment", "For a sports event", "For a school dance"]
+    },
+    {
+      "prompt": "What realization do they come to?",
+      "target": "They are all pretty bizarre, not so different from each other",
+      "choices": ["They all hate the principal", "They are all pretty bizarre, not so different from each other", "They all want to escape", "They all have perfect grades"]
+    },
+    {
+      "prompt": "What nuance does one student add?",
+      "target": "Some are more bizarre than others",
+      "choices": ["They should stay friends forever", "Some are more bizarre than others", "They need to change their ways", "Adults are the real problem"]
+    }
+  ],
+  "translation": "Five students, who had come to school on Saturday for punishment, finally understood they were not so different. One said: 'We are all pretty bizarre. But some are more bizarre than others.'"
+}

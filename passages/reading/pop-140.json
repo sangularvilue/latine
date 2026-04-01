@@ -1,0 +1,27 @@
+{
+  "id": "pop-140",
+  "source": "Pop Culture",
+  "chapter": "Ted Lasso",
+  "latin": "Curiosus esto, non iudicans. haec verba supra portam gymnasii posita sunt. nam si curiosi sumus, discimus; si iudicamus, nihil novum invenimus.",
+  "glossary": {
+    "curiosus": "curious",
+    "iudicans": "judgmental",
+    "supra": "above",
+    "portam": "door, gate",
+    "gymnasii": "gymnasium",
+    "discimus": "we learn"
+  },
+  "questions": [
+    {
+      "prompt": "What motto is placed above the door?",
+      "target": "Be curious, not judgmental",
+      "choices": ["Work hard, play harder", "Be curious, not judgmental", "Winners never quit", "Believe in yourself"]
+    },
+    {
+      "prompt": "What happens when we are curious instead of judgmental?",
+      "target": "We learn",
+      "choices": ["We win games", "We learn", "We become famous", "We make enemies"]
+    }
+  ],
+  "translation": "Be curious, not judgmental. These words are placed above the gymnasium door. For if we are curious, we learn; if we judge, we find nothing new."
+}

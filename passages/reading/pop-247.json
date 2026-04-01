@@ -1,0 +1,26 @@
+{
+  "id": "pop-247",
+  "source": "Literature",
+  "chapter": "Dracula",
+  "latin": "Jonathan per portas castelli intravit. Comes Dracula eum salutavit: 'intrate libere et ex propria voluntate!' risus eius frigidus erat. muri castelli umbrarum pleni erant.",
+  "glossary": {
+    "portas": "gates, doors",
+    "castelli": "of the castle",
+    "Comes": "Count",
+    "voluntate": "will, choice",
+    "umbrarum": "of shadows"
+  },
+  "questions": [
+    {
+      "prompt": "What does Dracula say to Jonathan?",
+      "target": "Enter freely and of your own will",
+      "choices": ["Welcome to my home", "Enter freely and of your own will", "You cannot leave", "Beware the night"]
+    },
+    {
+      "prompt": "How is Dracula's laugh described?",
+      "target": "Cold",
+      "choices": ["Warm and friendly", "Cold", "Loud and booming", "Silent"]
+    }
+  ],
+  "translation": "Jonathan entered through the gates of the castle. Count Dracula greeted him: 'Enter freely and of your own will!' His laugh was cold. The walls of the castle were full of shadows."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-239",
+  "source": "Video Games",
+  "chapter": "Hollow Knight",
+  "latin": "Parvus eques in regnum derelictum descendit. Hallownestum olim magnum fuerat, nunc autem silentium et tenebrae regnabant. infectio antiqua sub terra dormiebat.",
+  "glossary": {
+    "eques": "knight",
+    "derelictum": "abandoned, forsaken",
+    "descendit": "descended",
+    "infectio": "infection, plague",
+    "dormiebat": "was sleeping"
+  },
+  "questions": [
+    {
+      "prompt": "What was Hallownest like now?",
+      "target": "Silent and dark",
+      "choices": ["Bright and thriving", "Silent and dark", "At war", "Flooded with water"]
+    },
+    {
+      "prompt": "What lies sleeping beneath the ground?",
+      "target": "An ancient infection",
+      "choices": ["A dragon", "An ancient infection", "A buried king", "A hidden treasure"]
+    }
+  ],
+  "translation": "A small knight descended into an abandoned kingdom. Hallownest had once been great, but now silence and darkness reigned. An ancient infection slept beneath the earth."
+}

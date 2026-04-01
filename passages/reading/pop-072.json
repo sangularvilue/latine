@@ -1,0 +1,26 @@
+{
+  "id": "pop-072",
+  "source": "Pop Culture",
+  "chapter": "Jerry Maguire",
+  "latin": "Vir longam orationem de amore habuit. mulier eum interrupit et dixit: 'satis est. tu me iam ab ipso \"salve\" cepisti.'",
+  "glossary": {
+    "orationem": "speech (acc.)",
+    "interrupit": "interrupted",
+    "satis": "enough",
+    "ab ipso": "from the very",
+    "cepisti": "you captured, you won over"
+  },
+  "questions": [
+    {
+      "prompt": "What was the man doing?",
+      "target": "Giving a long speech about love",
+      "choices": ["Apologizing for a mistake", "Giving a long speech about love", "Explaining a business plan", "Saying goodbye"]
+    },
+    {
+      "prompt": "What does the woman mean?",
+      "target": "He won her over from the moment he said hello",
+      "choices": ["She wants him to be quiet", "He won her over from the moment he said hello", "She doesn't believe him", "She already knew his feelings"]
+    }
+  ],
+  "translation": "The man gave a long speech about love. The woman interrupted him and said: 'Enough. You already won me from the very \"hello.\"'"
+}

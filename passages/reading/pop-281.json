@@ -1,0 +1,26 @@
+{
+  "id": "pop-281",
+  "source": "Video Games",
+  "chapter": "Hollow Knight",
+  "latin": "Rex antiquus Hallownesti infectioni resistere non potuit. radiantem lucem sub terra inclusit sed pretium magnum solvit: regnum vacuum reliquit et oblivioni tradidit.",
+  "glossary": {
+    "infectioni": "the infection",
+    "radiantem": "radiant, glowing",
+    "inclusit": "sealed, enclosed",
+    "vacuum": "empty",
+    "oblivioni": "to oblivion, to forgetting"
+  },
+  "questions": [
+    {
+      "prompt": "What did the ancient king try to do?",
+      "target": "Seal the radiant infection underground",
+      "choices": ["Conquer other kingdoms", "Seal the radiant infection underground", "Build a great city", "Find a cure"]
+    },
+    {
+      "prompt": "What was the price the king paid?",
+      "target": "He left the kingdom empty and forgotten",
+      "choices": ["His own life", "He left the kingdom empty and forgotten", "His crown and power", "His family"]
+    }
+  ],
+  "translation": "The ancient king of Hallownest could not resist the infection. He sealed the radiant light underground but paid a great price: he left the kingdom empty and gave it over to oblivion."
+}

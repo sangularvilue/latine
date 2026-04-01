@@ -1,0 +1,26 @@
+{
+  "id": "pop-263",
+  "source": "Modern Life",
+  "chapter": "Autocorrect",
+  "latin": "Nuntium telephonicum amico misi: 'amo te' scribere volui. machina autem verba mutavit in 'armo te.' amicus meus rogavit cur ei arma promitterem. haec machina me semper prodit.",
+  "glossary": {
+    "nuntium": "message",
+    "telephonicum": "phone-related",
+    "machina": "machine, device",
+    "mutavit": "changed",
+    "prodit": "betrays"
+  },
+  "questions": [
+    {
+      "prompt": "What did the narrator want to write?",
+      "target": "I love you",
+      "choices": ["I miss you", "I love you", "I need you", "Meet me later"]
+    },
+    {
+      "prompt": "What did autocorrect change the message to?",
+      "target": "I arm you",
+      "choices": ["I harm you", "I arm you", "I alarm you", "I farm you"]
+    }
+  ],
+  "translation": "I sent a phone message to my friend: I wanted to write 'I love you.' But the machine changed the words to 'I arm you.' My friend asked why I was promising him weapons. This machine always betrays me."
+}

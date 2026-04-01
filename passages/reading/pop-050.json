@@ -1,0 +1,26 @@
+{
+  "id": "pop-050",
+  "source": "Pop Culture",
+  "chapter": "Gladiator",
+  "latin": "Imperator, qui mox gladiator factus est, militibus suis ante proelium dixit: 'quod in vita facimus in aeternum resonat.'",
+  "glossary": {
+    "imperator": "general, commander",
+    "proelium": "battle",
+    "aeternum": "eternity (acc.)",
+    "resonat": "echoes, resounds",
+    "factus est": "became"
+  },
+  "questions": [
+    {
+      "prompt": "Who is speaking?",
+      "target": "A general who will become a gladiator",
+      "choices": ["A philosopher", "A general who will become a gladiator", "A senator", "A priest"]
+    },
+    {
+      "prompt": "What is the meaning of his words?",
+      "target": "Our actions in life have eternal consequences",
+      "choices": ["Life is short and meaningless", "Our actions in life have eternal consequences", "We must enjoy life now", "Death is the end of all things"]
+    }
+  ],
+  "translation": "The general, who would soon become a gladiator, said to his soldiers before battle: 'What we do in life echoes in eternity.'"
+}

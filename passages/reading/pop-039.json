@@ -1,0 +1,26 @@
+{
+  "id": "pop-039",
+  "source": "Pop Culture",
+  "chapter": "Wayne's World",
+  "latin": "Duo amici, cum musicum celeberrimum vidissent, in genua ceciderunt et clamaverunt: 'digni non sumus! digni non sumus!'",
+  "glossary": {
+    "musicum": "musician (acc.)",
+    "celeberrimum": "most famous (acc.)",
+    "genua": "knees (acc.)",
+    "ceciderunt": "fell",
+    "digni": "worthy"
+  },
+  "questions": [
+    {
+      "prompt": "What did the two friends do when they saw the famous musician?",
+      "target": "Fell to their knees",
+      "choices": ["Ran away in excitement", "Fell to their knees", "Asked for an autograph", "Started playing music"]
+    },
+    {
+      "prompt": "What did they shout?",
+      "target": "We're not worthy!",
+      "choices": ["We love you!", "We're not worthy!", "Play something for us!", "You're our hero!"]
+    }
+  ],
+  "translation": "Two friends, when they had seen a most famous musician, fell to their knees and shouted: 'We are not worthy! We are not worthy!'"
+}

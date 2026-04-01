@@ -1,0 +1,26 @@
+{
+  "id": "pop-230",
+  "source": "Anime",
+  "chapter": "Princess Mononoke",
+  "latin": "Ashitaka dixit: 'oculis sine odio videte!' silva sacra peribat quia homines et dei inter se pugnabant. pax inter naturam et homines quaerenda erat.",
+  "glossary": {
+    "oculis": "with eyes",
+    "odio": "hatred, malice",
+    "silva": "forest",
+    "peribat": "was perishing, was dying",
+    "quaerenda": "to be sought"
+  },
+  "questions": [
+    {
+      "prompt": "What does Ashitaka ask people to do?",
+      "target": "See with eyes unclouded by hatred",
+      "choices": ["Fight the gods", "See with eyes unclouded by hatred", "Burn the forest", "Leave the land"]
+    },
+    {
+      "prompt": "Why is the sacred forest dying?",
+      "target": "Humans and gods are fighting each other",
+      "choices": ["A disease has spread", "Humans and gods are fighting each other", "There is no rain", "A curse was placed on it"]
+    }
+  ],
+  "translation": "Ashitaka said: 'See with eyes without hatred!' The sacred forest was perishing because humans and gods were fighting each other. Peace between nature and humans had to be sought."
+}

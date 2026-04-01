@@ -1,0 +1,27 @@
+{
+  "id": "pop-134",
+  "source": "Pop Culture",
+  "chapter": "It's Always Sunny in Philadelphia",
+  "latin": "Itaque utcumque coepi tormentis uti. senex in taberna sedebat et narrabat. hostes intraverant, et ille — sine mora — tormentis uti coepit.",
+  "glossary": {
+    "utcumque": "anyway, in any case",
+    "tormentis": "guns, artillery (lit. instruments of hurling)",
+    "senex": "old man",
+    "narrabat": "was narrating",
+    "hostes": "enemies, intruders",
+    "sine mora": "without delay"
+  },
+  "questions": [
+    {
+      "prompt": "What did the old man start doing when intruders came?",
+      "target": "Blasting with guns",
+      "choices": ["Running away", "Blasting with guns", "Calling for help", "Hiding behind the bar"]
+    },
+    {
+      "prompt": "Where was the old man telling his story?",
+      "target": "In a bar",
+      "choices": ["In a park", "In a bar", "At home", "In a church"]
+    }
+  ],
+  "translation": "So anyway, I started blasting. The old man was sitting in the bar narrating. Intruders had entered, and he — without delay — started blasting."
+}

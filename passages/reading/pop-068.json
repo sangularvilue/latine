@@ -1,0 +1,26 @@
+{
+  "id": "pop-068",
+  "source": "Pop Culture",
+  "chapter": "Nacho Libre",
+  "latin": "Monachus coquus, persona tecta, in harenam luctandi intravit. 'verus pugnator sum!' clamavit, quamquam omnes spectantes ridebant.",
+  "glossary": {
+    "monachus": "monk",
+    "coquus": "cook",
+    "persona": "mask",
+    "harenam luctandi": "wrestling arena",
+    "ridebant": "were laughing"
+  },
+  "questions": [
+    {
+      "prompt": "What are the man's two roles in life?",
+      "target": "A monk and a cook",
+      "choices": ["A farmer and a soldier", "A monk and a cook", "A teacher and an athlete", "A priest and a guard"]
+    },
+    {
+      "prompt": "How does the audience react to his claim?",
+      "target": "They laugh at him",
+      "choices": ["They cheer for him", "They laugh at him", "They are afraid", "They ignore him"]
+    }
+  ],
+  "translation": "A monk who was a cook, with his face covered by a mask, entered the wrestling arena. 'I am a real fighter!' he shouted, although all the spectators were laughing."
+}

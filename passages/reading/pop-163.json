@@ -1,0 +1,27 @@
+{
+  "id": "pop-163",
+  "source": "Pop Culture",
+  "chapter": "John Wick",
+  "latin": "Ita, puto me redisse. vir post longum otium rediit. canem eius occiderant. nunc mundus sciet eum redisse — et timebit.",
+  "glossary": {
+    "puto": "I think",
+    "redisse": "to have returned",
+    "otium": "retirement, rest",
+    "canem": "dog",
+    "occiderant": "they had killed",
+    "timebit": "will fear"
+  },
+  "questions": [
+    {
+      "prompt": "Why did the man come out of retirement?",
+      "target": "They killed his dog",
+      "choices": ["They stole his money", "They killed his dog", "They burned his house", "They kidnapped his friend"]
+    },
+    {
+      "prompt": "What will the world do when they learn he is back?",
+      "target": "Fear him",
+      "choices": ["Celebrate", "Fear him", "Ignore him", "Challenge him"]
+    }
+  ],
+  "translation": "Yeah, I'm thinking I'm back. The man returned after a long retirement. They had killed his dog. Now the world will know he has returned — and will fear."
+}

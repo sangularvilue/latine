@@ -1,0 +1,26 @@
+{
+  "id": "pop-063",
+  "source": "Pop Culture",
+  "chapter": "Casablanca",
+  "latin": "Vir poculum in mensa ponens suspiravit: 'ex omnibus cauponibus in omnibus oppidis in toto orbe terrarum, illa in meam intravit.'",
+  "glossary": {
+    "poculum": "cup, glass (acc.)",
+    "suspiravit": "sighed",
+    "cauponibus": "bars, taverns (abl.)",
+    "oppidis": "towns (abl.)",
+    "orbe terrarum": "world (lit. circle of lands)"
+  },
+  "questions": [
+    {
+      "prompt": "How does the man feel?",
+      "target": "Resigned and melancholy",
+      "choices": ["Overjoyed", "Resigned and melancholy", "Furious", "Indifferent"]
+    },
+    {
+      "prompt": "What is the coincidence he laments?",
+      "target": "Of all the bars in the world, she walked into his",
+      "choices": ["He lost his best worker", "Of all the bars in the world, she walked into his", "His business is failing", "His friend betrayed him"]
+    }
+  ],
+  "translation": "The man, setting his glass on the table, sighed: 'Of all the bars in all the towns in the whole world, she walked into mine.'"
+}

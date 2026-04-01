@@ -1,0 +1,26 @@
+{
+  "id": "pop-259",
+  "source": "History",
+  "chapter": "Napoleon at Waterloo",
+  "latin": "Napoleon in colle stabat et campum Waterloo inspiciebat. exercitus eius fessus erat sed adhuc pugnavit. cum Prussiani advenerunt, omnia mutata sunt. imperator magnus ultima pugna victus est.",
+  "glossary": {
+    "colle": "hill",
+    "campum": "field, battlefield",
+    "fessus": "tired, exhausted",
+    "Prussiani": "the Prussians",
+    "victus": "defeated"
+  },
+  "questions": [
+    {
+      "prompt": "What changed the battle's outcome?",
+      "target": "The arrival of the Prussians",
+      "choices": ["Rain flooded the field", "The arrival of the Prussians", "Napoleon was injured", "His generals betrayed him"]
+    },
+    {
+      "prompt": "How was Napoleon's army described?",
+      "target": "Tired but still fighting",
+      "choices": ["Fresh and eager", "Tired but still fighting", "Retreating already", "Outnumbering the enemy"]
+    }
+  ],
+  "translation": "Napoleon stood on a hill and surveyed the field of Waterloo. His army was exhausted but still fought. When the Prussians arrived, everything changed. The great emperor was defeated in his last battle."
+}

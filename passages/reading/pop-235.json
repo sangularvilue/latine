@@ -1,0 +1,26 @@
+{
+  "id": "pop-235",
+  "source": "Video Games",
+  "chapter": "Bioshock",
+  "latin": "Vox per radiophonum murmuravit: 'velisne, quaeso?' his verbis simplicibus, homo quodlibet imperium obtemperabat. nemo sciebat se mente captum esse.",
+  "glossary": {
+    "radiophonum": "radio",
+    "velisne": "would you be willing",
+    "quaeso": "please, kindly",
+    "obtemperabat": "was obeying",
+    "mente captum": "mind-controlled"
+  },
+  "questions": [
+    {
+      "prompt": "What phrase controls the listener?",
+      "target": "Would you kindly",
+      "choices": ["Please obey me", "Would you kindly", "Listen carefully", "Do as I say"]
+    },
+    {
+      "prompt": "Did the man know he was being controlled?",
+      "target": "No, he did not know",
+      "choices": ["Yes, but he did not care", "No, he did not know", "He knew from the start", "He found out eventually"]
+    }
+  ],
+  "translation": "A voice murmured through the radio: 'Would you kindly?' With these simple words, a man obeyed any command. No one knew that he was mind-controlled."
+}

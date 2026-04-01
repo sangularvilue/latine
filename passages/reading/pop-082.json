@@ -1,0 +1,26 @@
+{
+  "id": "pop-082",
+  "source": "Pop Culture",
+  "chapter": "Ghostbusters",
+  "latin": "Inventor gravissime monuit: 'flumina armorum numquam miscete. exitus pessimus erit.' 'quam pessimus?' rogavit socius. 'omnis protoplasma in universo simul displodetur.'",
+  "glossary": {
+    "flumina": "streams (acc.)",
+    "miscete": "mix! cross! (imperative pl.)",
+    "exitus": "outcome, result",
+    "protoplasma": "protoplasm, matter",
+    "displodetur": "will explode"
+  },
+  "questions": [
+    {
+      "prompt": "What is the strict warning?",
+      "target": "Never cross the streams of the weapons",
+      "choices": ["Never fire at full power", "Never cross the streams of the weapons", "Never aim at each other", "Never use them indoors"]
+    },
+    {
+      "prompt": "What would happen if they did?",
+      "target": "All matter in the universe would explode",
+      "choices": ["The weapons would break", "All matter in the universe would explode", "They would become ghosts", "The building would collapse"]
+    }
+  ],
+  "translation": "The inventor warned most gravely: 'Never cross the streams of the weapons. The outcome will be terrible.' 'How terrible?' asked his partner. 'All matter in the universe will explode at once.'"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-287",
+  "source": "Literature",
+  "chapter": "Don Quixote",
+  "latin": "Sancho Panza domino suo dixit: 'domine, tu non eques verus es, sed senex cum libris nimium multis.' Don Quixote respondit: 'fides facit equitem, non armatura.' et in asinum suum conscendit.",
+  "glossary": {
+    "senex": "old man",
+    "nimium": "too much, excessively",
+    "fides": "faith, belief",
+    "equitem": "knight",
+    "asinum": "donkey"
+  },
+  "questions": [
+    {
+      "prompt": "How does Sancho describe Don Quixote?",
+      "target": "An old man with too many books",
+      "choices": ["A brave warrior", "An old man with too many books", "A wise teacher", "A dangerous madman"]
+    },
+    {
+      "prompt": "What does Don Quixote say makes a knight?",
+      "target": "Faith, not armor",
+      "choices": ["A noble birth", "Faith, not armor", "A sharp sword", "The king's decree"]
+    }
+  ],
+  "translation": "Sancho Panza told his master: 'Sir, you are not a real knight, but an old man with too many books.' Don Quixote replied: 'Faith makes the knight, not armor.' And he mounted his donkey."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-168",
+  "source": "Pop Culture",
+  "chapter": "Ted Lasso",
+  "latin": "Sicut piscis aureus. memoria Teddi brevis est — non iras veterum meminit. quomodo iram tenes? non teneo! sum sicut piscis aureus.",
+  "glossary": {
+    "piscis": "fish",
+    "aureus": "golden",
+    "memoria": "memory",
+    "brevis": "short",
+    "iras": "angers, grudges",
+    "meminit": "remembers"
+  },
+  "questions": [
+    {
+      "prompt": "What does Ted compare himself to?",
+      "target": "A goldfish with a short memory",
+      "choices": ["A loyal dog", "A goldfish with a short memory", "A wise owl", "A busy bee"]
+    },
+    {
+      "prompt": "What does Ted not hold onto?",
+      "target": "Old grudges and anger",
+      "choices": ["His belongings", "Old grudges and anger", "His football", "His memories of home"]
+    }
+  ],
+  "translation": "Like a goldfish. Ted's memory is short — he does not remember old angers. How do you hold a grudge? I don't! I am like a goldfish."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-086",
+  "source": "Pop Culture",
+  "chapter": "The Truman Show",
+  "latin": "Vir, qui totam vitam in scaena ignorans vixerat, ad portam caeli falsam pervenit. ad spectatores invisos conversus dixit: 'et si vos non iterum videro — bonum mane, bonum meridiem, et bonam noctem!'",
+  "glossary": {
+    "scaena": "stage, set",
+    "ignorans": "not knowing, unaware",
+    "portam": "door, gate (acc.)",
+    "invisos": "unseen (acc.)",
+    "pervenit": "reached, arrived at"
+  },
+  "questions": [
+    {
+      "prompt": "What does the man discover about his life?",
+      "target": "He has been living on a stage without knowing it",
+      "choices": ["He is actually famous", "He has been living on a stage without knowing it", "He has a twin brother", "He is in a coma"]
+    },
+    {
+      "prompt": "What does he say before leaving?",
+      "target": "A cheerful greeting and goodbye for all times of day",
+      "choices": ["A bitter farewell", "A cheerful greeting and goodbye for all times of day", "A demand for compensation", "A curse on the producers"]
+    }
+  ],
+  "translation": "A man, who had unknowingly lived his entire life on a stage, reached a false door in the sky. Turning to the unseen viewers he said: 'And if I don't see you again — good morning, good afternoon, and good night!'"
+}

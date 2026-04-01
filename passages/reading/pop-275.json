@@ -1,0 +1,26 @@
+{
+  "id": "pop-275",
+  "source": "Anime",
+  "chapter": "Neon Genesis Evangelion",
+  "latin": "Angeli de caelo descendebant et Tokium Tertium delere volebant. solum pueri in machinis giganteis contra eos pugnare poterant. sed vera pugna non contra angelos erat — contra solitudinem suam erat.",
+  "glossary": {
+    "angeli": "angels",
+    "delere": "to destroy",
+    "giganteis": "gigantic",
+    "solitudinem": "loneliness, isolation",
+    "descendebant": "were descending"
+  },
+  "questions": [
+    {
+      "prompt": "Who can fight the Angels?",
+      "target": "Only children in giant machines",
+      "choices": ["The military", "Only children in giant machines", "Scientists", "Anyone brave enough"]
+    },
+    {
+      "prompt": "What is described as the real fight?",
+      "target": "The fight against their own loneliness",
+      "choices": ["The fight for Tokyo", "The fight against their own loneliness", "The fight between nations", "The fight for humanity's future"]
+    }
+  ],
+  "translation": "Angels were descending from the sky and wanted to destroy Tokyo-3. Only children in gigantic machines could fight against them. But the real fight was not against the Angels — it was against their own loneliness."
+}

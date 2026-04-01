@@ -1,0 +1,26 @@
+{
+  "id": "pop-052",
+  "source": "Pop Culture",
+  "chapter": "The Lord of the Rings",
+  "latin": "Creatura misera et macilenta anulum aureum amplexata est et susurravit: 'pretiosum meum... pretiosum meum...'",
+  "glossary": {
+    "macilenta": "thin, emaciated",
+    "anulum": "ring (acc.)",
+    "aureum": "golden (acc.)",
+    "amplexata est": "embraced, clutched",
+    "susurravit": "whispered"
+  },
+  "questions": [
+    {
+      "prompt": "What does the creature clutch?",
+      "target": "A golden ring",
+      "choices": ["A golden coin", "A golden ring", "A magic stone", "A glowing gem"]
+    },
+    {
+      "prompt": "How does the creature speak?",
+      "target": "In whispers",
+      "choices": ["In shouts", "In whispers", "In song", "In growls"]
+    }
+  ],
+  "translation": "A wretched, emaciated creature clutched a golden ring and whispered: 'My precious... my precious...'"
+}

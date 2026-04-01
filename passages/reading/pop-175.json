@@ -1,0 +1,27 @@
+{
+  "id": "pop-175",
+  "source": "Pop Culture",
+  "chapter": "It's Always Sunny in Philadelphia",
+  "latin": "Iram meam placare non potes. turba haec pessima Philadelphiae semper consilium habet — et consilium semper fallit. sed numquam culpam suam agnoscunt.",
+  "glossary": {
+    "iram": "anger, rage",
+    "placare": "to calm, to appease",
+    "turba": "gang, crowd",
+    "pessima": "worst",
+    "consilium": "plan, scheme",
+    "fallit": "fails"
+  },
+  "questions": [
+    {
+      "prompt": "What always happens to the gang's plans?",
+      "target": "They always fail",
+      "choices": ["They succeed brilliantly", "They always fail", "They get cancelled", "They change halfway through"]
+    },
+    {
+      "prompt": "What does the gang never do?",
+      "target": "Acknowledge their own fault",
+      "choices": ["Make new plans", "Acknowledge their own fault", "Leave Philadelphia", "Ask for help"]
+    }
+  ],
+  "translation": "You cannot appease my rage. This worst gang in Philadelphia always has a scheme — and the scheme always fails. But they never acknowledge their own fault."
+}

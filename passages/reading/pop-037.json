@@ -1,0 +1,26 @@
+{
+  "id": "pop-037",
+  "source": "Pop Culture",
+  "chapter": "Caddyshack",
+  "latin": "Custos campi de Dalai Lama narrabat: 'itaque nulla pecunia mihi data est. sed illuminationem in hora mortis promisit. quod mihi bene cedit.'",
+  "glossary": {
+    "custos campi": "groundskeeper",
+    "illuminationem": "enlightenment (acc.)",
+    "hora mortis": "at the hour of death",
+    "promisit": "promised",
+    "cedit": "goes, turns out"
+  },
+  "questions": [
+    {
+      "prompt": "What did the Dalai Lama promise the groundskeeper?",
+      "target": "Enlightenment at the hour of death",
+      "choices": ["A large sum of money", "Enlightenment at the hour of death", "A return visit", "Good luck in golf"]
+    },
+    {
+      "prompt": "How does the groundskeeper feel about this?",
+      "target": "He considers it a positive thing",
+      "choices": ["He is angry about it", "He considers it a positive thing", "He doesn't believe it", "He wants more"]
+    }
+  ],
+  "translation": "The groundskeeper was telling a story about the Dalai Lama: 'And so no money was given to me. But he promised enlightenment at the hour of death. Which is nice, I've got that going for me.'"
+}

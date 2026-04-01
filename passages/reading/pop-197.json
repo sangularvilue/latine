@@ -1,0 +1,27 @@
+{
+  "id": "pop-197",
+  "source": "Pop Culture",
+  "chapter": "The Dark Knight",
+  "latin": "Heros quem meremur, non quem nunc opus est. eques obscurus in noctem fugit. culpam accepit ut alii innocentes manerent. silens custos.",
+  "glossary": {
+    "meremur": "we deserve",
+    "eques": "knight, rider",
+    "obscurus": "dark",
+    "culpam": "blame",
+    "accepit": "accepted, took on",
+    "innocentes": "innocent"
+  },
+  "questions": [
+    {
+      "prompt": "Why did the dark knight flee into the night?",
+      "target": "He took the blame so others could remain innocent",
+      "choices": ["He was afraid", "He took the blame so others could remain innocent", "He was exiled", "He wanted revenge"]
+    },
+    {
+      "prompt": "What kind of hero is the dark knight?",
+      "target": "A silent guardian the city deserves but doesn't need right now",
+      "choices": ["A celebrated champion", "A silent guardian the city deserves but doesn't need right now", "A vengeful vigilante", "A retired soldier"]
+    }
+  ],
+  "translation": "The hero we deserve, not the one we need right now. The dark knight fled into the night. He accepted blame so that others could remain innocent. A silent guardian."
+}

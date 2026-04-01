@@ -1,0 +1,27 @@
+{
+  "id": "pop-200",
+  "source": "Pop Culture",
+  "chapter": "Pirates of the Caribbean",
+  "latin": "Hic est dies quo Iacobum Passerem paene cepit! sed pirata semper effugit. naves sequuntur, milites currunt, sed Iacobus cum rhombo suo in solis occasum navigat.",
+  "glossary": {
+    "paene": "almost",
+    "cepit": "caught",
+    "effugit": "escapes",
+    "naves": "ships",
+    "sequuntur": "pursue, follow",
+    "occasum": "setting (of the sun)"
+  },
+  "questions": [
+    {
+      "prompt": "What always happens when they try to catch Jack?",
+      "target": "He always escapes",
+      "choices": ["He surrenders", "He always escapes", "He fights to the death", "He negotiates"]
+    },
+    {
+      "prompt": "Where does Jack sail at the end?",
+      "target": "Into the sunset with his rum",
+      "choices": ["To a hidden island", "Into the sunset with his rum", "Back to port", "To the bottom of the sea"]
+    }
+  ],
+  "translation": "This is the day you almost caught Jack Sparrow! But the pirate always escapes. Ships pursue, soldiers run, but Jack sails with his rum into the sunset."
+}

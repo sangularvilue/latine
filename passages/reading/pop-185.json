@@ -1,0 +1,27 @@
+{
+  "id": "pop-185",
+  "source": "Pop Culture",
+  "chapter": "Good Will Hunting",
+  "latin": "Non est culpa tua. iterum dicam: non est culpa tua. puer lacrimare coepit. tot annos se ipsum culpaverat, sed tandem credidit: non est culpa tua.",
+  "glossary": {
+    "culpa": "fault, blame",
+    "lacrimare": "to cry",
+    "coepit": "began",
+    "culpaverat": "had blamed",
+    "tandem": "finally, at last",
+    "credidit": "believed"
+  },
+  "questions": [
+    {
+      "prompt": "What message does the speaker repeat?",
+      "target": "It's not your fault",
+      "choices": ["You are strong", "It's not your fault", "You must forgive", "Life is hard"]
+    },
+    {
+      "prompt": "What had the boy done for many years?",
+      "target": "Blamed himself",
+      "choices": ["Studied mathematics", "Blamed himself", "Run from home", "Hidden his feelings"]
+    }
+  ],
+  "translation": "It's not your fault. I'll say it again: it's not your fault. The boy began to cry. For so many years he had blamed himself, but finally he believed: it's not your fault."
+}

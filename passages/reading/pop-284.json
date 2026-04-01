@@ -1,0 +1,26 @@
+{
+  "id": "pop-284",
+  "source": "Literature",
+  "chapter": "The Great Gatsby",
+  "latin": "Gatsby credidit se praeteritum repetere posse. divitias collegit, palatium aedificavit, convivia dedit — omnia propter Daisy. sed tempus retro fluere non potest, et lumen viride semper trans aquam manebat.",
+  "glossary": {
+    "praeteritum": "the past",
+    "divitias": "riches, wealth",
+    "convivia": "parties, banquets",
+    "retro": "backwards",
+    "manebat": "remained"
+  },
+  "questions": [
+    {
+      "prompt": "Why did Gatsby accumulate wealth?",
+      "target": "All for Daisy",
+      "choices": ["For power", "All for Daisy", "To prove others wrong", "For his own pleasure"]
+    },
+    {
+      "prompt": "What is the tragic realization?",
+      "target": "Time cannot flow backwards",
+      "choices": ["Daisy never loved him", "Time cannot flow backwards", "Money cannot buy happiness", "Friends always betray you"]
+    }
+  ],
+  "translation": "Gatsby believed he could repeat the past. He gathered riches, built a mansion, threw parties — all for Daisy. But time cannot flow backwards, and the green light always remained across the water."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-289",
+  "source": "Literature",
+  "chapter": "Dracula",
+  "latin": "Noctu lupi ululabant circa castellum. Dracula ad fenestram stetit et dixit: 'audi eos — liberos noctis. quam dulcem musicam faciunt!' Jonathan tremebat in sella sua.",
+  "glossary": {
+    "lupi": "wolves",
+    "ululabant": "were howling",
+    "liberos": "children",
+    "dulcem": "sweet",
+    "tremebat": "was trembling"
+  },
+  "questions": [
+    {
+      "prompt": "What does Dracula call the wolves?",
+      "target": "Children of the night",
+      "choices": ["His servants", "Children of the night", "His pets", "Guardians of the castle"]
+    },
+    {
+      "prompt": "How does Jonathan react to the wolves?",
+      "target": "He trembles in his chair",
+      "choices": ["He is fascinated", "He trembles in his chair", "He tries to escape", "He asks about them"]
+    }
+  ],
+  "translation": "At night wolves were howling around the castle. Dracula stood at the window and said: 'Listen to them — children of the night. What sweet music they make!' Jonathan was trembling in his chair."
+}

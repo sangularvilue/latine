@@ -1,0 +1,27 @@
+{
+  "id": "pop-181",
+  "source": "Pop Culture",
+  "chapter": "Inception",
+  "latin": "Quid est realissimum quod sentis? turbo in mensa versatur. si cadit, vigillas. si in perpetuum versatur, adhuc somnias. turbo versatur...",
+  "glossary": {
+    "realissimum": "most real",
+    "turbo": "spinning top",
+    "versatur": "spins, turns",
+    "cadit": "falls",
+    "vigillas": "you are awake",
+    "somnias": "you are dreaming"
+  },
+  "questions": [
+    {
+      "prompt": "What determines if someone is awake or dreaming?",
+      "target": "Whether the spinning top falls or keeps spinning",
+      "choices": ["Whether they can fly", "Whether the spinning top falls or keeps spinning", "Whether they see colors", "Whether they can speak"]
+    },
+    {
+      "prompt": "What happens at the end?",
+      "target": "The top keeps spinning with the answer left unknown",
+      "choices": ["The top falls immediately", "The top keeps spinning with the answer left unknown", "The top vanishes", "Someone catches the top"]
+    }
+  ],
+  "translation": "What is the most real thing you feel? A top spins on the table. If it falls, you are awake. If it spins forever, you are still dreaming. The top spins..."
+}

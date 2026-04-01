@@ -1,0 +1,27 @@
+{
+  "id": "pop-144",
+  "source": "Pop Culture",
+  "chapter": "The Shawshank Redemption",
+  "latin": "Aut vivere incipe aut mori incipe. in carcere duo sunt genera hominum — qui sperant et qui desistunt. ego sperare elegi.",
+  "glossary": {
+    "vivere": "to live",
+    "mori": "to die",
+    "incipe": "begin, start",
+    "carcere": "prison",
+    "sperant": "hope",
+    "elegi": "I chose"
+  },
+  "questions": [
+    {
+      "prompt": "What choice does the speaker present?",
+      "target": "Get busy living or get busy dying",
+      "choices": ["Fight or flee", "Get busy living or get busy dying", "Stay or leave", "Speak or be silent"]
+    },
+    {
+      "prompt": "What did the speaker choose?",
+      "target": "To hope",
+      "choices": ["To escape", "To hope", "To give up", "To fight"]
+    }
+  ],
+  "translation": "Either get busy living or get busy dying. In prison there are two kinds of people — those who hope and those who give up. I chose to hope."
+}

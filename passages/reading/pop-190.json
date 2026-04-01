@@ -1,0 +1,27 @@
+{
+  "id": "pop-190",
+  "source": "Pop Culture",
+  "chapter": "Ted Lasso",
+  "latin": "Iudica me non ex victoriis sed ex animo quo ludo. non refert si vincimus an vincimur — refert quomodo nos geramus. biscoctum?",
+  "glossary": {
+    "iudica": "judge (imperative)",
+    "victoriis": "victories",
+    "animo": "spirit",
+    "vincimus": "we win",
+    "vincimur": "we are defeated",
+    "biscoctum": "biscuit, cookie"
+  },
+  "questions": [
+    {
+      "prompt": "What does Ted think matters more than winning?",
+      "target": "The spirit in which you play and how you behave",
+      "choices": ["The final score", "The spirit in which you play and how you behave", "How much you earn", "How famous you become"]
+    },
+    {
+      "prompt": "What does Ted offer at the end?",
+      "target": "A biscuit",
+      "choices": ["Advice", "A biscuit", "A handshake", "A trophy"]
+    }
+  ],
+  "translation": "Judge me not by victories but by the spirit in which I play. It doesn't matter if we win or lose — what matters is how we conduct ourselves. Biscuit?"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-137",
+  "source": "Pop Culture",
+  "chapter": "Succession",
+  "latin": "Non es serius. tu ludum ludis sed ego imperium verum teneo. haec familia te consumet si infirmus es. ego non sum infirmus.",
+  "glossary": {
+    "serius": "serious",
+    "ludum": "game",
+    "imperium": "power, empire",
+    "teneo": "I hold",
+    "consumet": "will consume",
+    "infirmus": "weak"
+  },
+  "questions": [
+    {
+      "prompt": "What does the speaker claim to hold?",
+      "target": "Real power",
+      "choices": ["A secret", "Real power", "A weapon", "A grudge"]
+    },
+    {
+      "prompt": "What will the family do to the weak?",
+      "target": "Consume them",
+      "choices": ["Protect them", "Consume them", "Ignore them", "Exile them"]
+    }
+  ],
+  "translation": "You are not serious. You play a game but I hold real power. This family will consume you if you are weak. I am not weak."
+}

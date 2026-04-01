@@ -1,0 +1,27 @@
+{
+  "id": "pop-147",
+  "source": "Pop Culture",
+  "chapter": "Interstellar",
+  "latin": "Ne eas placide in illam noctem bonam. senex seni poeta haec verba legit. contra mortem pugna, contra tenebras clama. ne eas placide.",
+  "glossary": {
+    "eas": "go (subjunctive)",
+    "placide": "gently",
+    "noctem": "night",
+    "mortem": "death",
+    "tenebras": "darkness",
+    "pugna": "fight"
+  },
+  "questions": [
+    {
+      "prompt": "What is the speaker urging someone not to do?",
+      "target": "Go gently into that good night",
+      "choices": ["Sleep too long", "Go gently into that good night", "Leave home", "Give up hope"]
+    },
+    {
+      "prompt": "What should one do against death and darkness?",
+      "target": "Fight and rage",
+      "choices": ["Accept quietly", "Fight and rage", "Run away", "Pray for help"]
+    }
+  ],
+  "translation": "Do not go gentle into that good night. The old man read these words of an old poet. Fight against death, rage against the darkness. Do not go gentle."
+}

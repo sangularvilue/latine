@@ -1,0 +1,27 @@
+{
+  "id": "pop-183",
+  "source": "Pop Culture",
+  "chapter": "The Office",
+  "latin": "Si iterum Tobiam et Hitlerum in conclavi eodem viderem, et duo tela haberem, bis Tobiam feriam. Michael Tobiam oderat plus quam quemquam.",
+  "glossary": {
+    "conclavi": "room",
+    "eodem": "the same",
+    "tela": "shots, missiles",
+    "bis": "twice",
+    "feriam": "I would strike",
+    "oderat": "hated"
+  },
+  "questions": [
+    {
+      "prompt": "What would Michael do with two shots?",
+      "target": "Shoot Toby twice",
+      "choices": ["Shoot each person once", "Shoot Toby twice", "Shoot himself", "Shoot neither"]
+    },
+    {
+      "prompt": "What does this reveal about Michael's feelings?",
+      "target": "He hates Toby more than anyone",
+      "choices": ["He is a pacifist", "He hates Toby more than anyone", "He is a bad shot", "He loves everyone equally"]
+    }
+  ],
+  "translation": "If I saw Toby and Hitler in the same room again, and I had two shots, I would shoot Toby twice. Michael hated Toby more than anyone."
+}

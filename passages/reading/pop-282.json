@@ -1,0 +1,26 @@
+{
+  "id": "pop-282",
+  "source": "Video Games",
+  "chapter": "Elden Ring",
+  "latin": "Malenia, dea putredinis, gladium sustulit et dixit: 'ego Malenia sum, ensis Miquelae. et numquam victa sum.' mille heroes ante eam ceciderant. mille alii cadent.",
+  "glossary": {
+    "putredinis": "of rot, of decay",
+    "ensis": "blade, sword",
+    "victa": "defeated",
+    "heroes": "heroes",
+    "ceciderant": "had fallen"
+  },
+  "questions": [
+    {
+      "prompt": "What does Malenia claim about herself?",
+      "target": "She has never been defeated",
+      "choices": ["She is the strongest god", "She has never been defeated", "She created the Elden Ring", "She will destroy everything"]
+    },
+    {
+      "prompt": "How many heroes have fallen before her?",
+      "target": "A thousand",
+      "choices": ["A hundred", "A thousand", "Countless", "None before the player"]
+    }
+  ],
+  "translation": "Malenia, goddess of rot, raised her sword and said: 'I am Malenia, blade of Miquella. And I have never been defeated.' A thousand heroes had fallen before her. A thousand more will fall."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-070",
+  "source": "Pop Culture",
+  "chapter": "The Shining",
+  "latin": "Uxor ad mensam mariti accessit et centenas paginas inspexit. in omnibus eadem verba scripta erant: 'labor sine ludo stultum hominem facit.' terrore percussa est.",
+  "glossary": {
+    "centenas": "hundreds of",
+    "paginas": "pages (acc.)",
+    "inspexit": "examined, looked at",
+    "ludo": "play, leisure (abl.)",
+    "percussa est": "was struck"
+  },
+  "questions": [
+    {
+      "prompt": "What did the wife discover?",
+      "target": "Hundreds of pages with the same sentence repeated",
+      "choices": ["Her husband's diary", "Hundreds of pages with the same sentence repeated", "A letter to someone else", "An unfinished novel"]
+    },
+    {
+      "prompt": "What was written on every page?",
+      "target": "All work and no play makes a dull man",
+      "choices": ["Help me, I'm trapped", "All work and no play makes a dull man", "I will never leave this hotel", "The twins are calling me"]
+    }
+  ],
+  "translation": "The wife approached her husband's desk and examined hundreds of pages. On all of them the same words were written: 'All work and no play makes a man dull.' She was struck with terror."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-040",
+  "source": "Pop Culture",
+  "chapter": "Ferris Bueller's Day Off",
+  "latin": "Adulescens astutus, qui a schola se absentaverat, spectatoribus dixit: 'vita celeriter procedit. nisi interdum consistis et circumspicias, eam praetermittas.'",
+  "glossary": {
+    "astutus": "clever, cunning",
+    "absentaverat": "had absented himself",
+    "celeriter": "quickly, fast",
+    "consistis": "you stop, pause",
+    "praetermittas": "you might miss (pres. subj.)"
+  },
+  "questions": [
+    {
+      "prompt": "What has the clever teenager done?",
+      "target": "Skipped school",
+      "choices": ["Won a contest", "Skipped school", "Run away from home", "Started a business"]
+    },
+    {
+      "prompt": "What is his life advice?",
+      "target": "Life moves fast — stop and look around or you'll miss it",
+      "choices": ["Always follow the rules", "Life moves fast — stop and look around or you'll miss it", "Work hard while you're young", "Never trust adults"]
+    }
+  ],
+  "translation": "A clever teenager, who had been absent from school, said to the audience: 'Life moves quickly. Unless you stop sometimes and look around, you might miss it.'"
+}

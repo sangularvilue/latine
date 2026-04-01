@@ -1,0 +1,27 @@
+{
+  "id": "pop-138",
+  "source": "Pop Culture",
+  "chapter": "Succession",
+  "latin": "Pater noster rex est qui numquam solium relinquet. nos filii circum mensam sedemus, sperantes micas. sed micae numquam cadunt.",
+  "glossary": {
+    "rex": "king",
+    "solium": "throne",
+    "relinquet": "will leave, will give up",
+    "micas": "crumbs",
+    "sperantes": "hoping for",
+    "cadunt": "fall"
+  },
+  "questions": [
+    {
+      "prompt": "What are the children hoping for?",
+      "target": "Crumbs from the father's table",
+      "choices": ["Freedom", "Crumbs from the father's table", "Forgiveness", "A new home"]
+    },
+    {
+      "prompt": "What will the father never do?",
+      "target": "Leave his throne",
+      "choices": ["Love his children", "Leave his throne", "Make more money", "Tell the truth"]
+    }
+  ],
+  "translation": "Our father is a king who will never leave his throne. We his children sit around the table, hoping for crumbs. But the crumbs never fall."
+}

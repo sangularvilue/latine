@@ -1,0 +1,27 @@
+{
+  "id": "pop-199",
+  "source": "Pop Culture",
+  "chapter": "Muhammad Ali",
+  "latin": "Manus meae celeres sunt, pedes mei celeriores. vola sicut papilio, punge sicut apis. adversarius me videre non potest — iam percussus est.",
+  "glossary": {
+    "manus": "hands",
+    "celeres": "fast, swift",
+    "pedes": "feet",
+    "vola": "fly (imperative)",
+    "punge": "sting (imperative)",
+    "percussus est": "has been struck"
+  },
+  "questions": [
+    {
+      "prompt": "What is the fighter's famous strategy?",
+      "target": "Float like a butterfly, sting like a bee",
+      "choices": ["Hit hard and run", "Float like a butterfly, sting like a bee", "Stand still and block", "Attack from behind"]
+    },
+    {
+      "prompt": "Why can the opponent not see him?",
+      "target": "Because he is already struck before he sees the punch",
+      "choices": ["Because it is dark", "Because he is already struck before he sees the punch", "Because he is hiding", "Because of his armor"]
+    }
+  ],
+  "translation": "My hands are fast, my feet are faster. Float like a butterfly, sting like a bee. The opponent cannot see me — he has already been struck."
+}

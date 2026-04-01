@@ -1,0 +1,26 @@
+{
+  "id": "pop-057",
+  "source": "Pop Culture",
+  "chapter": "The Matrix",
+  "latin": "Post horam doctrinae in mentem eius infusae, iuvenis oculos aperuit et obstupefactus dixit: 'artem pugnandi iam scio.'",
+  "glossary": {
+    "doctrinae": "of instruction/learning (gen.)",
+    "infusae": "poured in, uploaded",
+    "mentem": "mind (acc.)",
+    "obstupefactus": "astonished",
+    "artem pugnandi": "the art of fighting"
+  },
+  "questions": [
+    {
+      "prompt": "How did the young man learn to fight?",
+      "target": "Knowledge was uploaded directly into his mind",
+      "choices": ["Years of training", "Knowledge was uploaded directly into his mind", "He read a book", "A master taught him"]
+    },
+    {
+      "prompt": "How long did the process take?",
+      "target": "An hour",
+      "choices": ["A few seconds", "An hour", "Several days", "An entire year"]
+    }
+  ],
+  "translation": "After an hour of instruction poured into his mind, the young man opened his eyes and said in astonishment: 'I now know the art of fighting.'"
+}

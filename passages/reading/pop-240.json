@@ -1,0 +1,26 @@
+{
+  "id": "pop-240",
+  "source": "Video Games",
+  "chapter": "Elden Ring",
+  "latin": "Sine luce, sine gratia, Maculosus in Terras Medias rediit. Arbor Erdae fracta erat et Anulus Antiquus in fragmenta diffisus. nunc omnes pro potestate pugnabant.",
+  "glossary": {
+    "Maculosus": "the Tarnished",
+    "gratia": "grace, favor",
+    "fracta": "broken, shattered",
+    "fragmenta": "fragments, pieces",
+    "potestate": "power"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to the Elden Ring?",
+      "target": "It was shattered into fragments",
+      "choices": ["It was hidden", "It was shattered into fragments", "It was stolen", "It was given away"]
+    },
+    {
+      "prompt": "Why did the Tarnished return?",
+      "target": "Without light or grace",
+      "choices": ["With a great army", "Without light or grace", "By invitation of the queen", "To trade goods"]
+    }
+  ],
+  "translation": "Without light, without grace, the Tarnished returned to the Lands Between. The Erdtree was broken and the Elden Ring had been split into fragments. Now all were fighting for power."
+}

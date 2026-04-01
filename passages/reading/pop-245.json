@@ -1,0 +1,26 @@
+{
+  "id": "pop-245",
+  "source": "Literature",
+  "chapter": "Don Quixote",
+  "latin": "Don Quixote molendina venti procul vidit et exclamavit: 'ecce gigantes! contra eos pugnemus!' Sancho respondit: 'domine, illa molendina sunt, non gigantes.' sed eques hastam cepit et impetum fecit.",
+  "glossary": {
+    "molendina": "windmills",
+    "gigantes": "giants",
+    "hastam": "lance, spear",
+    "impetum": "attack, charge",
+    "eques": "knight"
+  },
+  "questions": [
+    {
+      "prompt": "What does Don Quixote think the windmills are?",
+      "target": "Giants",
+      "choices": ["Castles", "Giants", "Enemies", "Dragons"]
+    },
+    {
+      "prompt": "How does Sancho respond?",
+      "target": "He tells him they are windmills",
+      "choices": ["He agrees to fight", "He tells him they are windmills", "He runs away", "He calls for help"]
+    }
+  ],
+  "translation": "Don Quixote saw windmills in the distance and exclaimed: 'Behold, giants! Let us fight them!' Sancho replied: 'Sir, those are windmills, not giants.' But the knight seized his lance and charged."
+}

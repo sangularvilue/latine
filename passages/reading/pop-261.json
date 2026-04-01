@@ -1,0 +1,26 @@
+{
+  "id": "pop-261",
+  "source": "Modern Life",
+  "chapter": "IKEA Assembly",
+  "latin": "Instructiones legi sed nihil intellexi. imagines parvae hominem laetum monstrabant qui sellam facile construebat. tres horas laboravi et quattuor partes superfluae manserunt. sella tamen stat — fere.",
+  "glossary": {
+    "instructiones": "instructions",
+    "sellam": "chair",
+    "construebat": "was building",
+    "superfluae": "leftover, extra",
+    "fere": "almost, barely"
+  },
+  "questions": [
+    {
+      "prompt": "What do the instructions show?",
+      "target": "A happy man easily building a chair",
+      "choices": ["Detailed written steps", "A happy man easily building a chair", "A warning about tools", "A phone number for help"]
+    },
+    {
+      "prompt": "What was left over after assembly?",
+      "target": "Four extra parts",
+      "choices": ["Nothing at all", "Four extra parts", "The instructions", "Half the screws"]
+    }
+  ],
+  "translation": "I read the instructions but understood nothing. Small pictures showed a happy man who was easily building a chair. I worked for three hours and four extra parts remained. The chair stands, however — barely."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-064",
+  "source": "Pop Culture",
+  "chapter": "The Lion King",
+  "latin": "Suricata et sus catulo leonis maestissimo dixerunt: 'curas nullas habe!' et cantare coeperunt de vita sine sollicitudine vivenda. 'haec verba omnes curas solvunt!'",
+  "glossary": {
+    "suricata": "meerkat",
+    "sus": "pig, warthog",
+    "catulo": "cub (dat.)",
+    "maestissimo": "very sad (dat.)",
+    "sollicitudine": "worry, anxiety (abl.)"
+  },
+  "questions": [
+    {
+      "prompt": "Who teaches the lion cub this philosophy?",
+      "target": "A meerkat and a warthog",
+      "choices": ["His mother", "A meerkat and a warthog", "A wise old baboon", "Other lion cubs"]
+    },
+    {
+      "prompt": "What is the core message?",
+      "target": "Have no worries — live without anxiety",
+      "choices": ["Always be brave", "Have no worries — live without anxiety", "Revenge is sweet", "Family comes first"]
+    }
+  ],
+  "translation": "A meerkat and a warthog said to a very sad lion cub: 'Have no worries!' And they began to sing about living life without anxiety. 'These words solve all worries!'"
+}

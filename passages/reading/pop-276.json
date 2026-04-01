@@ -1,0 +1,26 @@
+{
+  "id": "pop-276",
+  "source": "Anime",
+  "chapter": "Jojo's Bizarre Adventure",
+  "latin": "Omnis persona in familia Joestar signum stellae in corpore habet. per generationes multas, Joestares contra malum pugnant. fatum eorum semper mirabile et absurdum est — sicut vita ipsa.",
+  "glossary": {
+    "signum": "mark, sign",
+    "stellae": "of a star",
+    "generationes": "generations",
+    "mirabile": "bizarre, wondrous",
+    "absurdum": "absurd"
+  },
+  "questions": [
+    {
+      "prompt": "What mark does the Joestar family carry?",
+      "target": "A star-shaped birthmark",
+      "choices": ["A crescent moon", "A star-shaped birthmark", "A cross", "An arrow"]
+    },
+    {
+      "prompt": "How is the Joestar fate described?",
+      "target": "Bizarre and absurd",
+      "choices": ["Tragic and dark", "Bizarre and absurd", "Peaceful and calm", "Noble and heroic"]
+    }
+  ],
+  "translation": "Every person in the Joestar family has a star-shaped mark on their body. Through many generations, the Joestars fight against evil. Their fate is always bizarre and absurd — just like life itself."
+}

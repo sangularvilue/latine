@@ -1,0 +1,26 @@
+{
+  "id": "pop-267",
+  "source": "Modern Life",
+  "chapter": "Binge-Watching",
+  "latin": "Hora nona noctis, mihi dixi: 'unum solum capitulum spectabo.' hora secunda matutina, decem capitula spectaveram. 'unum plus,' iterum dixi. sol oriebatur cum tandem dormivi.",
+  "glossary": {
+    "capitulum": "episode, chapter",
+    "spectabo": "I will watch",
+    "matutina": "in the morning",
+    "plus": "more",
+    "oriebatur": "was rising"
+  },
+  "questions": [
+    {
+      "prompt": "How many episodes did the narrator plan to watch?",
+      "target": "Just one",
+      "choices": ["Three", "Just one", "Five", "The whole season"]
+    },
+    {
+      "prompt": "When did the narrator finally fall asleep?",
+      "target": "At sunrise",
+      "choices": ["At midnight", "At 2 AM", "At sunrise", "The next afternoon"]
+    }
+  ],
+  "translation": "At nine at night, I said to myself: 'I will watch just one episode.' At two in the morning, I had watched ten episodes. 'One more,' I said again. The sun was rising when I finally fell asleep."
+}

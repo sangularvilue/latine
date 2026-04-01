@@ -1,0 +1,26 @@
+{
+  "id": "pop-098",
+  "source": "Pop Culture",
+  "chapter": "Scarface",
+  "latin": "Vir ambitionis immensae dirigibile in caelo vidit cum inscriptione: 'MUNDUS TUUS EST.' et credidit.",
+  "glossary": {
+    "ambitionis": "of ambition (gen.)",
+    "immensae": "immense, boundless (gen.)",
+    "dirigibile": "blimp, airship (acc.)",
+    "inscriptione": "inscription, sign (abl.)",
+    "credidit": "he believed"
+  },
+  "questions": [
+    {
+      "prompt": "What did the man see in the sky?",
+      "target": "A blimp with the message 'The world is yours'",
+      "choices": ["A shooting star", "A blimp with the message 'The world is yours'", "A plane writing smoke letters", "A bright light"]
+    },
+    {
+      "prompt": "How did he react?",
+      "target": "He believed it was meant for him",
+      "choices": ["He ignored it", "He believed it was meant for him", "He was frightened", "He laughed at it"]
+    }
+  ],
+  "translation": "A man of immense ambition saw a blimp in the sky with the inscription: 'THE WORLD IS YOURS.' And he believed it."
+}

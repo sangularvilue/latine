@@ -1,0 +1,26 @@
+{
+  "id": "pop-079",
+  "source": "Pop Culture",
+  "chapter": "Airplane!",
+  "latin": "Gubernator, rebus in peius vergentibus, gemuit: 'pessimam hebdomadem elegi ad bibendum desistendum.' paulo post addidit: 'pessimam hebdomadem elegi ad fumum desistendum.'",
+  "glossary": {
+    "gubernator": "pilot, helmsman",
+    "in peius": "for the worse",
+    "vergentibus": "turning (abl. abs.)",
+    "hebdomadem": "week (acc.)",
+    "desistendum": "for quitting (gerundive)"
+  },
+  "questions": [
+    {
+      "prompt": "What keeps happening to the pilot?",
+      "target": "Things keep getting worse and he regrets quitting his vices",
+      "choices": ["He keeps making navigation errors", "Things keep getting worse and he regrets quitting his vices", "He falls asleep repeatedly", "He loses communication with the tower"]
+    },
+    {
+      "prompt": "What is the comedic pattern?",
+      "target": "He repeats the same complaint about different habits",
+      "choices": ["He keeps hitting his head", "He repeats the same complaint about different habits", "He tells the same joke", "He introduces himself to everyone"]
+    }
+  ],
+  "translation": "The pilot, as things turned for the worse, groaned: 'I picked the worst week to stop drinking.' Shortly after he added: 'I picked the worst week to stop smoking.'"
+}

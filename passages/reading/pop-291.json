@@ -1,0 +1,26 @@
+{
+  "id": "pop-291",
+  "source": "History",
+  "chapter": "Battle of Thermopylae",
+  "latin": "Leonidas uxori suae vale dixit. 'cum scuto aut in scuto,' illa respondit. 'redi victor aut mortuus — sed cum honore.' Leonidas risit et Spartam reliquit ut numquam rediret.",
+  "glossary": {
+    "scuto": "shield",
+    "uxori": "to his wife",
+    "victor": "victorious",
+    "honore": "honor",
+    "reliquit": "left"
+  },
+  "questions": [
+    {
+      "prompt": "What did Leonidas' wife tell him?",
+      "target": "Return with your shield or on it",
+      "choices": ["Come back safely", "Return with your shield or on it", "Fight bravely", "Avenge our people"]
+    },
+    {
+      "prompt": "Did Leonidas return to Sparta?",
+      "target": "No, he never returned",
+      "choices": ["Yes, victorious", "No, he never returned", "Yes, but wounded", "The text does not say"]
+    }
+  ],
+  "translation": "Leonidas said farewell to his wife. 'With the shield or on the shield,' she replied. 'Return victorious or dead — but with honor.' Leonidas laughed and left Sparta never to return."
+}

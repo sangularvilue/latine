@@ -1,0 +1,26 @@
+{
+  "id": "pop-056",
+  "source": "Pop Culture",
+  "chapter": "Forrest Gump",
+  "latin": "Pueri puerum tardum persequebantur. amica eius clamavit: 'curre, Forreste, curre!' et subito crura eius ferreis vinculis liberata sunt, et celerrime omnium cucurrit.",
+  "glossary": {
+    "tardum": "slow (acc.)",
+    "persequebantur": "were chasing",
+    "crura": "legs (nom. pl.)",
+    "ferreis vinculis": "from iron braces (abl.)",
+    "celerrime": "most swiftly, fastest"
+  },
+  "questions": [
+    {
+      "prompt": "Why was the boy running?",
+      "target": "Other boys were chasing him",
+      "choices": ["He was late for school", "Other boys were chasing him", "He was in a race", "A dog was after him"]
+    },
+    {
+      "prompt": "What happened to his leg braces?",
+      "target": "They broke off and he ran incredibly fast",
+      "choices": ["They slowed him down", "They broke off and he ran incredibly fast", "Someone removed them", "Nothing — he still wore them"]
+    }
+  ],
+  "translation": "Boys were chasing a slow boy. His friend shouted: 'Run, Forrest, run!' And suddenly his legs were freed from their iron braces, and he ran the fastest of all."
+}

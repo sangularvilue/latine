@@ -1,0 +1,26 @@
+{
+  "id": "pop-084",
+  "source": "Pop Culture",
+  "chapter": "Titanic",
+  "latin": "Iuvenis pauper, in prora navis maximae stans, brachia extendit et in ventum clamavit: 'rex mundi sum!'",
+  "glossary": {
+    "pauper": "poor",
+    "prora": "prow, bow of a ship",
+    "brachia": "arms (acc.)",
+    "extendit": "stretched out, extended",
+    "ventum": "wind (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "Where is the young man standing?",
+      "target": "On the prow of a great ship",
+      "choices": ["On a cliff", "On the prow of a great ship", "On a rooftop", "On a mountain"]
+    },
+    {
+      "prompt": "What is ironic about his proclamation?",
+      "target": "He is actually poor, not a king",
+      "choices": ["The ship will sink", "He is actually poor, not a king", "Nobody can hear him", "He is afraid of water"]
+    }
+  ],
+  "translation": "A poor young man, standing on the prow of the greatest ship, stretched out his arms and shouted into the wind: 'I am the king of the world!'"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-250",
+  "source": "History",
+  "chapter": "Battle of Thermopylae",
+  "latin": "Nuntius Persarum Spartanis dixit: 'tot sunt sagittarii nostri ut sagittae eorum solem obscurent.' Leonidas risit et respondit: 'tum in umbra pugnabimus.' et trecenti Spartani in angustiis steterunt.",
+  "glossary": {
+    "sagittarii": "archers",
+    "sagittae": "arrows",
+    "solem": "sun",
+    "obscurent": "block out, darken",
+    "angustiis": "narrow pass"
+  },
+  "questions": [
+    {
+      "prompt": "What did the Persian messenger threaten?",
+      "target": "Their arrows would block out the sun",
+      "choices": ["They would burn the city", "Their arrows would block out the sun", "They had a million soldiers", "They would poison the water"]
+    },
+    {
+      "prompt": "How many Spartans held the pass?",
+      "target": "Three hundred",
+      "choices": ["One hundred", "Three hundred", "One thousand", "Five hundred"]
+    }
+  ],
+  "translation": "A Persian messenger told the Spartans: 'Our archers are so many that their arrows darken the sun.' Leonidas laughed and replied: 'Then we shall fight in the shade.' And three hundred Spartans stood in the narrow pass."
+}

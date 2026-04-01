@@ -1,0 +1,26 @@
+{
+  "id": "pop-290",
+  "source": "History",
+  "chapter": "Crossing the Rubicon",
+  "latin": "Milites Caesaris hesitaverunt ad flumen. 'si transierimus,' centurio dixit, 'hostes rei publicae erimus.' Caesar primus in aquam intravit. ubi dux it, exercitus sequitur.",
+  "glossary": {
+    "hesitaverunt": "hesitated",
+    "centurio": "centurion",
+    "transierimus": "we will have crossed",
+    "hostes": "enemies",
+    "sequitur": "follows"
+  },
+  "questions": [
+    {
+      "prompt": "Why did the soldiers hesitate?",
+      "target": "They would become enemies of the Republic",
+      "choices": ["The river was dangerous", "They would become enemies of the Republic", "They were tired", "They feared an ambush"]
+    },
+    {
+      "prompt": "Who entered the water first?",
+      "target": "Caesar himself",
+      "choices": ["The centurion", "Caesar himself", "A scout", "The cavalry"]
+    }
+  ],
+  "translation": "Caesar's soldiers hesitated at the river. 'If we cross,' a centurion said, 'we will be enemies of the Republic.' Caesar was the first to enter the water. Where the leader goes, the army follows."
+}

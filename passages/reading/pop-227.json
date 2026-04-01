@@ -1,0 +1,26 @@
+{
+  "id": "pop-227",
+  "source": "Anime",
+  "chapter": "Neon Genesis Evangelion",
+  "latin": "Pater Shinjio imperavit: 'intra machinam, Shinji!' puer autem timebat et recusabat. monstrum ingens tamen extra muros urbis iam stabat.",
+  "glossary": {
+    "imperavit": "commanded",
+    "intra": "enter, get into",
+    "machinam": "machine, robot",
+    "recusabat": "was refusing",
+    "monstrum": "monster, creature"
+  },
+  "questions": [
+    {
+      "prompt": "What is Shinji ordered to do?",
+      "target": "Get in the robot",
+      "choices": ["Fight the monster alone", "Get in the robot", "Leave the city", "Call for help"]
+    },
+    {
+      "prompt": "How does Shinji initially respond?",
+      "target": "He was afraid and refused",
+      "choices": ["He eagerly obeyed", "He was afraid and refused", "He asked questions", "He ran away"]
+    }
+  ],
+  "translation": "His father commanded Shinji: 'Get in the machine, Shinji!' But the boy was afraid and refused. However, an enormous monster was already standing outside the walls of the city."
+}

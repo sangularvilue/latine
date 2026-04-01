@@ -1,0 +1,27 @@
+{
+  "id": "pop-179",
+  "source": "Pop Culture",
+  "chapter": "Pirates of the Caribbean",
+  "latin": "Cur rhombus semper abiit? quia piratae codici potius quam regulis parent. codex est magis quod vocas directivas quam regulas veras.",
+  "glossary": {
+    "rhombus": "rum",
+    "abiit": "is gone",
+    "codici": "code",
+    "parent": "obey",
+    "directivas": "guidelines",
+    "regulas": "rules"
+  },
+  "questions": [
+    {
+      "prompt": "What do pirates follow instead of rules?",
+      "target": "A code that is more like guidelines",
+      "choices": ["Their captain's orders", "A code that is more like guidelines", "The stars", "Their hearts"]
+    },
+    {
+      "prompt": "What has run out?",
+      "target": "The rum",
+      "choices": ["The food", "The rum", "The water", "The gold"]
+    }
+  ],
+  "translation": "Why is the rum always gone? Because pirates obey a code rather than rules. The code is more what you'd call guidelines than actual rules."
+}

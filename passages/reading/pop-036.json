@@ -1,0 +1,26 @@
+{
+  "id": "pop-036",
+  "source": "Pop Culture",
+  "chapter": "The Hangover",
+  "latin": "Tres amici, postridie gravissimae crapulae, nihil de nocte praeterita meminerunt. unus dixit: 'quicquid in urbe lusoria accidit, in urbe lusoria maneat.'",
+  "glossary": {
+    "postridie": "the day after",
+    "crapulae": "hangover (gen.)",
+    "meminerunt": "they remembered",
+    "lusoria": "of games/gambling",
+    "maneat": "let it remain (pres. subj.)"
+  },
+  "questions": [
+    {
+      "prompt": "What can the three friends not remember?",
+      "target": "What happened the previous night",
+      "choices": ["Where they parked", "What happened the previous night", "Their own names", "Why they came to the city"]
+    },
+    {
+      "prompt": "What is the rule about what happens in Vegas?",
+      "target": "It stays in Vegas",
+      "choices": ["It must be confessed", "It stays in Vegas", "It will be forgotten", "It should be celebrated"]
+    }
+  ],
+  "translation": "Three friends, the day after a very severe hangover, remembered nothing about the previous night. One said: 'Whatever happened in the gambling city, let it stay in the gambling city.'"
+}

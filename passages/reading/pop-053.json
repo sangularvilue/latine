@@ -1,0 +1,26 @@
+{
+  "id": "pop-053",
+  "source": "Pop Culture",
+  "chapter": "The Wizard of Oz",
+  "latin": "Post turbinem terribilem, puella domum suam in terra aliena inventam aperuit. flores miri et homines parvi ubique erant. ad canem suum dixit: 'puto nos non iam in Kansas esse.'",
+  "glossary": {
+    "turbinem": "whirlwind, tornado (acc.)",
+    "aliena": "foreign, strange",
+    "miri": "wondrous, strange (nom. pl.)",
+    "ubique": "everywhere",
+    "non iam": "no longer"
+  },
+  "questions": [
+    {
+      "prompt": "How did the girl arrive in the strange land?",
+      "target": "A tornado carried her house there",
+      "choices": ["She walked through a door", "A tornado carried her house there", "She fell down a hole", "She was carried by birds"]
+    },
+    {
+      "prompt": "What did she see in the new land?",
+      "target": "Wondrous flowers and small people everywhere",
+      "choices": ["Tall mountains and rivers", "Wondrous flowers and small people everywhere", "Dark forests and wolves", "Empty fields of gold"]
+    }
+  ],
+  "translation": "After a terrible tornado, the girl opened her house which had landed in a foreign land. Wondrous flowers and small people were everywhere. She said to her dog: 'I think we are no longer in Kansas.'"
+}

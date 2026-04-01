@@ -1,0 +1,27 @@
+{
+  "id": "pop-164",
+  "source": "Pop Culture",
+  "chapter": "Muhammad Ali",
+  "latin": "Ego sum maximus! ante me nemo talis fuit, post me nemo talis erit. sum papilio qui volat, sum apis quae pungit. ego sum maximus!",
+  "glossary": {
+    "maximus": "the greatest",
+    "papilio": "butterfly",
+    "volat": "flies",
+    "apis": "bee",
+    "pungit": "stings",
+    "talis": "such, of that kind"
+  },
+  "questions": [
+    {
+      "prompt": "What does the speaker call himself?",
+      "target": "The greatest",
+      "choices": ["The strongest", "The greatest", "The fastest", "The bravest"]
+    },
+    {
+      "prompt": "What two creatures does he compare himself to?",
+      "target": "A butterfly and a bee",
+      "choices": ["A lion and an eagle", "A butterfly and a bee", "A wolf and a hawk", "A tiger and a snake"]
+    }
+  ],
+  "translation": "I am the greatest! Before me there was no one like me, after me there will be no one like me. I am a butterfly that flies, I am a bee that stings. I am the greatest!"
+}

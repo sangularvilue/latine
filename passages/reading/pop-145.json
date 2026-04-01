@@ -1,0 +1,27 @@
+{
+  "id": "pop-145",
+  "source": "Pop Culture",
+  "chapter": "The Shawshank Redemption",
+  "latin": "Spes res bona est, fortasse optima rerum, et res bona numquam perit. amice mi, spera. spes muri carceris transcendit.",
+  "glossary": {
+    "spes": "hope",
+    "optima": "best",
+    "rerum": "of things",
+    "perit": "perishes, dies",
+    "muri": "walls",
+    "transcendit": "transcends, goes beyond"
+  },
+  "questions": [
+    {
+      "prompt": "How is hope described?",
+      "target": "A good thing, maybe the best of things",
+      "choices": ["A dangerous illusion", "A good thing, maybe the best of things", "A foolish dream", "A temporary feeling"]
+    },
+    {
+      "prompt": "What does hope transcend?",
+      "target": "The walls of the prison",
+      "choices": ["Time itself", "The walls of the prison", "Human understanding", "All suffering"]
+    }
+  ],
+  "translation": "Hope is a good thing, maybe the best of things, and a good thing never perishes. My friend, hope. Hope transcends the walls of the prison."
+}

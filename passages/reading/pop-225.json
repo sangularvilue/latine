@@ -1,0 +1,26 @@
+{
+  "id": "pop-225",
+  "source": "Anime",
+  "chapter": "Cowboy Bebop",
+  "latin": "Navis spatialis Bebop per caelum stellatum volabat. Spike manu levata dixit: 'vale, armentarie spatialis.' deinde in tenebras evanuit.",
+  "glossary": {
+    "spatialis": "space, of space",
+    "stellatum": "starry",
+    "armentarie": "cowboy, herdsman",
+    "manu levata": "with raised hand",
+    "evanuit": "vanished, disappeared"
+  },
+  "questions": [
+    {
+      "prompt": "What is the name of the spaceship?",
+      "target": "Bebop",
+      "choices": ["Swordfish", "Bebop", "Red Dragon", "Hyperion"]
+    },
+    {
+      "prompt": "What did Spike do after speaking?",
+      "target": "He vanished into the darkness",
+      "choices": ["He flew away", "He vanished into the darkness", "He fell asleep", "He drew his weapon"]
+    }
+  ],
+  "translation": "The spaceship Bebop flew through the starry sky. Spike, with raised hand, said: 'See you, space cowboy.' Then he vanished into the darkness."
+}

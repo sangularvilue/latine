@@ -1,0 +1,26 @@
+{
+  "id": "pop-089",
+  "source": "Pop Culture",
+  "chapter": "Taken",
+  "latin": "Pater, filia rapta, raptoribus per telephonum locutus est: 'artes quasdam singulares habeo. vos inveniam. et vos necabo.'",
+  "glossary": {
+    "rapta": "kidnapped, seized (abl. abs.)",
+    "raptoribus": "to the kidnappers (dat.)",
+    "artes": "skills (acc.)",
+    "singulares": "unique, particular",
+    "necabo": "I will kill"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to the man's daughter?",
+      "target": "She was kidnapped",
+      "choices": ["She ran away", "She was kidnapped", "She was lost", "She was injured"]
+    },
+    {
+      "prompt": "What does the father promise?",
+      "target": "He will find them and kill them",
+      "choices": ["He will pay any ransom", "He will find them and kill them", "He will call the police", "He will negotiate"]
+    }
+  ],
+  "translation": "A father, after his daughter was kidnapped, spoke to the kidnappers by phone: 'I have certain unique skills. I will find you. And I will kill you.'"
+}

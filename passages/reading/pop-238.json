@@ -1,0 +1,26 @@
+{
+  "id": "pop-238",
+  "source": "Video Games",
+  "chapter": "Undertale",
+  "latin": "Parvulus homo in mundum subterraneum cecidit. quamquam multa pericula aderant, constantia eum implebat. cor eius determinatione plenum erat.",
+  "glossary": {
+    "subterraneum": "underground",
+    "cecidit": "fell",
+    "constantia": "determination, steadfastness",
+    "implebat": "was filling",
+    "determinatione": "determination"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the small human fall?",
+      "target": "Into an underground world",
+      "choices": ["Into a cave", "Into an underground world", "Into a river", "Into a dream"]
+    },
+    {
+      "prompt": "What fills the human despite the dangers?",
+      "target": "Determination",
+      "choices": ["Fear", "Determination", "Anger", "Sadness"]
+    }
+  ],
+  "translation": "A small human fell into an underground world. Although many dangers were present, determination filled them. Their heart was full of determination."
+}

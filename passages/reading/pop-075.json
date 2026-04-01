@@ -1,0 +1,26 @@
+{
+  "id": "pop-075",
+  "source": "Pop Culture",
+  "chapter": "Ghostbusters",
+  "latin": "Cum spectrum in domo tua appareat, quem vocabis? umbras captatores vocabis!",
+  "glossary": {
+    "spectrum": "ghost, specter",
+    "appareat": "appears (pres. subj.)",
+    "vocabis": "you will call",
+    "umbras": "shadows, ghosts (acc.)",
+    "captatores": "catchers, hunters (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "What situation is described?",
+      "target": "A ghost appearing in your house",
+      "choices": ["A fire in your kitchen", "A ghost appearing in your house", "A burglar breaking in", "A flood in your basement"]
+    },
+    {
+      "prompt": "Who should you call?",
+      "target": "The ghost catchers (Ghostbusters)",
+      "choices": ["The police", "The ghost catchers (Ghostbusters)", "A priest", "The fire department"]
+    }
+  ],
+  "translation": "When a ghost appears in your house, who will you call? You will call the ghost catchers!"
+}

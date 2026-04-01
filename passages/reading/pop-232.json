@@ -1,0 +1,26 @@
+{
+  "id": "pop-232",
+  "source": "Video Games",
+  "chapter": "Halo",
+  "latin": "Cortana rogavit quid contra hostes facere vellet. Magister Princeps breviter respondit: 'arma mihi opus sunt.' deinde galeam induit et ad bellum processit.",
+  "glossary": {
+    "hostes": "enemies",
+    "arma": "weapon, arms",
+    "opus sunt": "are needed",
+    "galeam": "helmet",
+    "processit": "advanced, proceeded"
+  },
+  "questions": [
+    {
+      "prompt": "What does Master Chief say he needs?",
+      "target": "A weapon",
+      "choices": ["More soldiers", "A weapon", "A plan", "A ship"]
+    },
+    {
+      "prompt": "What does he do after responding?",
+      "target": "He puts on his helmet and goes to war",
+      "choices": ["He rests", "He puts on his helmet and goes to war", "He contacts command", "He retreats"]
+    }
+  ],
+  "translation": "Cortana asked what he wanted to do against the enemies. Master Chief responded briefly: 'I need a weapon.' Then he put on his helmet and advanced to war."
+}

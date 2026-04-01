@@ -1,0 +1,26 @@
+{
+  "id": "pop-285",
+  "source": "Literature",
+  "chapter": "Hamlet",
+  "latin": "Spectaculum actum est coram rege. actores mortem patris Hamleti in scaena ostenderunt. rex Claudius pallidus factus est et e sella surrexit. 'culpam vidit,' Hamlet susurravit. 'nunc scio.'",
+  "glossary": {
+    "spectaculum": "play, performance",
+    "actores": "actors",
+    "scaena": "stage",
+    "pallidus": "pale",
+    "culpam": "guilt"
+  },
+  "questions": [
+    {
+      "prompt": "What does the play within the play depict?",
+      "target": "The murder of Hamlet's father",
+      "choices": ["A love story", "The murder of Hamlet's father", "A battle scene", "The coronation of Claudius"]
+    },
+    {
+      "prompt": "How does King Claudius react?",
+      "target": "He turns pale and rises from his seat",
+      "choices": ["He laughs nervously", "He turns pale and rises from his seat", "He orders the actors arrested", "He shows no reaction"]
+    }
+  ],
+  "translation": "A play was performed before the king. The actors showed the death of Hamlet's father on stage. King Claudius turned pale and rose from his seat. 'He saw his guilt,' Hamlet whispered. 'Now I know.'"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pop-248",
+  "source": "Literature",
+  "chapter": "War of the Worlds",
+  "latin": "Cylindrus ingens de caelo cecidit in agros Angliae. cives curiosi accesserunt. tum operculum aperiri coepit et creaturae ex Marte emerserunt. nemo paratus erat.",
+  "glossary": {
+    "cylindrus": "cylinder",
+    "agros": "fields",
+    "operculum": "lid, cover",
+    "emerserunt": "emerged, came out",
+    "paratus": "prepared, ready"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the cylinder fall?",
+      "target": "Into the fields of England",
+      "choices": ["Into the ocean", "Into the fields of England", "On a city", "In a forest"]
+    },
+    {
+      "prompt": "Where do the creatures come from?",
+      "target": "Mars",
+      "choices": ["The moon", "Mars", "Venus", "Another dimension"]
+    },
+    {
+      "prompt": "Were the people ready for the creatures?",
+      "target": "No one was prepared",
+      "choices": ["The army was waiting", "No one was prepared", "They had weapons ready", "They expected them"]
+    }
+  ],
+  "translation": "A huge cylinder fell from the sky into the fields of England. Curious citizens approached. Then the lid began to open and creatures from Mars emerged. No one was prepared."
+}

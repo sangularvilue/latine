@@ -1,0 +1,26 @@
+{
+  "id": "pop-273",
+  "source": "Modern Life",
+  "chapter": "Money in Old Jacket",
+  "latin": "Tunicam veterem ex armario extraxi quam per annum non gestaveram. manum in sinum inserui et — ecce! — viginti nummos inveni. tam laetus eram ut saltarem. divitiae celatas in domo mea habebam.",
+  "glossary": {
+    "tunicam": "jacket, coat",
+    "veterem": "old",
+    "gestaveram": "had worn",
+    "sinum": "pocket, fold",
+    "divitiae": "riches, wealth"
+  },
+  "questions": [
+    {
+      "prompt": "How long had the jacket been unworn?",
+      "target": "A year",
+      "choices": ["A week", "A month", "A year", "Several years"]
+    },
+    {
+      "prompt": "How does the narrator react to finding money?",
+      "target": "So happy they danced",
+      "choices": ["Mildly pleased", "So happy they danced", "Confused about whose it was", "Suspicious"]
+    }
+  ],
+  "translation": "I pulled out an old jacket from the closet that I had not worn for a year. I put my hand in the pocket and — behold! — I found twenty coins. I was so happy that I danced. I had hidden riches in my own house."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-237",
+  "source": "Video Games",
+  "chapter": "God of War",
+  "latin": "Kratos filium suum aspexit et una voce gravi clamavit: 'puer!' Atreus celeriter ad patrem cucurrit. pater severus erat sed filium protegebat.",
+  "glossary": {
+    "aspexit": "looked at",
+    "gravi": "deep, serious",
+    "puer": "boy",
+    "severus": "stern, strict",
+    "protegebat": "was protecting"
+  },
+  "questions": [
+    {
+      "prompt": "What does Kratos call his son?",
+      "target": "Boy",
+      "choices": ["Atreus", "Boy", "Warrior", "Son"]
+    },
+    {
+      "prompt": "How is Kratos described as a father?",
+      "target": "Stern but protective",
+      "choices": ["Gentle and kind", "Stern but protective", "Absent and neglectful", "Angry and cruel"]
+    }
+  ],
+  "translation": "Kratos looked at his son and with one deep voice shouted: 'Boy!' Atreus quickly ran to his father. The father was stern but protected his son."
+}

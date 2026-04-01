@@ -1,0 +1,27 @@
+{
+  "id": "pop-130",
+  "source": "Pop Culture",
+  "chapter": "Friends",
+  "latin": "Quomodo tu vales? Iosephus hoc dicebat omnibus puellis quas videbat. vocem suam gravem faciebat et subridebat. putabat se irresistibilem esse.",
+  "glossary": {
+    "quomodo": "how",
+    "vales": "are you doing, are you well",
+    "vocem": "voice",
+    "gravem": "deep, low",
+    "subridebat": "was smiling",
+    "irresistibilem": "irresistible"
+  },
+  "questions": [
+    {
+      "prompt": "What is Joey's signature greeting?",
+      "target": "How you doin'?",
+      "choices": ["What's up?", "How you doin'?", "Hey there!", "Nice to meet you"]
+    },
+    {
+      "prompt": "What does Joey think about himself?",
+      "target": "That he is irresistible",
+      "choices": ["That he is ugly", "That he is irresistible", "That he is shy", "That he needs help"]
+    }
+  ],
+  "translation": "How you doin'? Joey said this to every girl he saw. He would make his voice deep and smile. He thought himself irresistible."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-159",
+  "source": "Pop Culture",
+  "chapter": "Frozen",
+  "latin": "Dimitte id! nix et glacies me non terrent. regina montem ascendit et cantavit: dimitte id! libera sum nec umquam revertar.",
+  "glossary": {
+    "dimitte": "let go, release",
+    "nix": "snow",
+    "glacies": "ice",
+    "terrent": "frighten",
+    "montem": "mountain",
+    "revertar": "I will return"
+  },
+  "questions": [
+    {
+      "prompt": "What does the queen decide to let go of?",
+      "target": "Her fears and constraints",
+      "choices": ["Her crown", "Her fears and constraints", "Her sister", "Her kingdom"]
+    },
+    {
+      "prompt": "Where does the queen go?",
+      "target": "Up a mountain",
+      "choices": ["Across the sea", "Up a mountain", "Into a cave", "Through a forest"]
+    }
+  ],
+  "translation": "Let it go! Snow and ice do not frighten me. The queen climbed the mountain and sang: let it go! I am free and I will never return."
+}

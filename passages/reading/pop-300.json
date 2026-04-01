@@ -1,0 +1,31 @@
+{
+  "id": "pop-300",
+  "source": "History",
+  "chapter": "Magna Carta",
+  "latin": "Charta Magna non pro populo scripta erat sed pro baronibus. tamen semen libertatis plantavit. post multa saecula, idea crevit: nemo — ne rex, ne praeses, ne dives — supra legem stare debet.",
+  "glossary": {
+    "semen": "seed",
+    "libertatis": "of liberty, of freedom",
+    "plantavit": "planted",
+    "saecula": "centuries",
+    "praeses": "president, leader"
+  },
+  "questions": [
+    {
+      "prompt": "Who was the Magna Carta originally written for?",
+      "target": "The barons, not the common people",
+      "choices": ["All citizens", "The barons, not the common people", "The Church", "The king himself"]
+    },
+    {
+      "prompt": "What lasting idea did the Magna Carta plant?",
+      "target": "No one should stand above the law",
+      "choices": ["Democracy is the best system", "No one should stand above the law", "Kings must be elected", "All people are born equal"]
+    },
+    {
+      "prompt": "How is the Magna Carta's impact described?",
+      "target": "As a seed that grew over many centuries",
+      "choices": ["As an immediate revolution", "As a seed that grew over many centuries", "As a failed experiment", "As a purely symbolic act"]
+    }
+  ],
+  "translation": "The Magna Carta was not written for the people but for the barons. Nevertheless it planted a seed of liberty. After many centuries, the idea grew: no one — not a king, not a president, not the wealthy — should stand above the law."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-254",
+  "source": "History",
+  "chapter": "Marco Polo in China",
+  "latin": "Post multos annos itineris, Marcus Polus tandem Sinas attigit. Palatium Magni Khan tam magnificum erat ut verba ei deessent. 'nemo in Europa haec credere poterit,' amico suo dixit.",
+  "glossary": {
+    "itineris": "of the journey",
+    "attigit": "reached, arrived at",
+    "palatium": "palace",
+    "magnificum": "magnificent, splendid",
+    "deessent": "were lacking"
+  },
+  "questions": [
+    {
+      "prompt": "How long did Marco Polo's journey take?",
+      "target": "Many years",
+      "choices": ["A few months", "Many years", "One year", "A decade exactly"]
+    },
+    {
+      "prompt": "How did Marco Polo react to the Khan's palace?",
+      "target": "He was speechless at its magnificence",
+      "choices": ["He was disappointed", "He was speechless at its magnificence", "He compared it to Venice", "He wanted to leave"]
+    }
+  ],
+  "translation": "After many years of traveling, Marco Polo finally reached China. The palace of the Great Khan was so magnificent that words failed him. 'No one in Europe will believe this,' he told his companion."
+}

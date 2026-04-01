@@ -1,0 +1,27 @@
+{
+  "id": "pop-180",
+  "source": "Pop Culture",
+  "chapter": "John Wick",
+  "latin": "Baba Yaga eum vocant. non est sicarius quem ad aliquem occidendum mittis — est is quem mittis ad sicarium occidendum. unus homo, una voluntas.",
+  "glossary": {
+    "sicarius": "assassin, hitman",
+    "occidendum": "to be killed, killing",
+    "mittis": "you send",
+    "voluntas": "will, determination",
+    "vocant": "they call",
+    "unus": "one"
+  },
+  "questions": [
+    {
+      "prompt": "What do they call him?",
+      "target": "Baba Yaga (the Boogeyman)",
+      "choices": ["The Shadow", "Baba Yaga (the Boogeyman)", "The Ghost", "The Dark One"]
+    },
+    {
+      "prompt": "What makes him special among assassins?",
+      "target": "He is the one you send to kill other assassins",
+      "choices": ["He never misses", "He is the one you send to kill other assassins", "He uses no weapons", "He is the youngest"]
+    }
+  ],
+  "translation": "They call him Baba Yaga. He is not the assassin you send to kill someone — he is the one you send to kill the assassin. One man, one will."
+}

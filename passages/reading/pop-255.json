@@ -1,0 +1,26 @@
+{
+  "id": "pop-255",
+  "source": "History",
+  "chapter": "Vikings Discover Vinland",
+  "latin": "Leifus Ericii filius trans mare ignotum navigavit. terram novam invenit ubi vites crescebant. eam Vinlandiam appellavit. Norsemanni gaudebant, sed indigenae non tam amicales erant.",
+  "glossary": {
+    "ignotum": "unknown",
+    "vites": "vines, grapevines",
+    "crescebant": "were growing",
+    "appellavit": "named, called",
+    "indigenae": "natives, local people"
+  },
+  "questions": [
+    {
+      "prompt": "Why was the land called Vinland?",
+      "target": "Because grapevines grew there",
+      "choices": ["Because of the wind", "Because grapevines grew there", "After a Norse god", "Because they made wine there"]
+    },
+    {
+      "prompt": "How did the natives react to the Vikings?",
+      "target": "They were not very friendly",
+      "choices": ["They welcomed them warmly", "They were not very friendly", "They fled in fear", "They traded eagerly"]
+    }
+  ],
+  "translation": "Leif, son of Eric, sailed across the unknown sea. He found a new land where grapevines grew. He called it Vinland. The Norsemen rejoiced, but the natives were not so friendly."
+}

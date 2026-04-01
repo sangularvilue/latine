@@ -1,0 +1,26 @@
+{
+  "id": "pop-060",
+  "source": "Pop Culture",
+  "chapter": "Anchorman",
+  "latin": "Vir stultus unguentum novum ostendit et dixit: 'sexaginta centesimis partibus temporis, semper agit.' amici eius confusi eum intuiti sunt.",
+  "glossary": {
+    "stultus": "foolish",
+    "unguentum": "perfume, ointment",
+    "centesimis partibus": "percent (lit. hundredth parts)",
+    "agit": "works, acts",
+    "confusi": "confused"
+  },
+  "questions": [
+    {
+      "prompt": "What did the foolish man show his friends?",
+      "target": "A new perfume",
+      "choices": ["A new car", "A new perfume", "A new suit", "A new gadget"]
+    },
+    {
+      "prompt": "Why were his friends confused?",
+      "target": "His claim was logically contradictory",
+      "choices": ["The perfume smelled terrible", "His claim was logically contradictory", "They didn't understand the language", "He was acting strangely"]
+    }
+  ],
+  "translation": "A foolish man showed a new perfume and said: 'Sixty percent of the time, it works every time.' His friends looked at him in confusion."
+}

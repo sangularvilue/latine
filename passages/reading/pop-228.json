@@ -1,0 +1,26 @@
+{
+  "id": "pop-228",
+  "source": "Anime",
+  "chapter": "Jojo's Bizarre Adventure",
+  "latin": "Dio ridens rogavit: 'accedisne ad me?' Jotaro respondit: 'propius venire debeo ut te verberem.' lente et audacter ambulavit.",
+  "glossary": {
+    "accedisne": "are you approaching?",
+    "propius": "closer, nearer",
+    "verberem": "I may beat, strike",
+    "lente": "slowly",
+    "audacter": "boldly"
+  },
+  "questions": [
+    {
+      "prompt": "Why does Jotaro approach Dio?",
+      "target": "He needs to get closer to beat him",
+      "choices": ["To surrender", "He needs to get closer to beat him", "To talk peacefully", "To run past him"]
+    },
+    {
+      "prompt": "How does Jotaro walk toward Dio?",
+      "target": "Slowly and boldly",
+      "choices": ["Quickly and nervously", "Slowly and boldly", "Silently and fearfully", "Angrily and recklessly"]
+    }
+  ],
+  "translation": "Dio, laughing, asked: 'Are you approaching me?' Jotaro responded: 'I must come closer so I can beat you.' He walked slowly and boldly."
+}

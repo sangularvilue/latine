@@ -1,0 +1,26 @@
+{
+  "id": "pop-293",
+  "source": "History",
+  "chapter": "Galileo",
+  "latin": "Galileus perspicillum suum ad caelum direxit et lunas Iovis vidit. quattuor corpora parva circa planetam magnum movebant. 'non omnia circa terram moventur,' scripsit, et mundus mutatus est.",
+  "glossary": {
+    "perspicillum": "telescope",
+    "lunas": "moons",
+    "corpora": "bodies, objects",
+    "planetam": "planet",
+    "mutatus": "changed"
+  },
+  "questions": [
+    {
+      "prompt": "What did Galileo see through his telescope?",
+      "target": "The moons of Jupiter",
+      "choices": ["Stars being born", "The moons of Jupiter", "The rings of Saturn", "Craters on our moon"]
+    },
+    {
+      "prompt": "Why was this discovery important?",
+      "target": "It proved not everything orbits the Earth",
+      "choices": ["It proved other life exists", "It proved not everything orbits the Earth", "It showed Jupiter was larger than thought", "It disproved the existence of stars"]
+    }
+  ],
+  "translation": "Galileo pointed his telescope at the sky and saw the moons of Jupiter. Four small bodies were moving around the great planet. 'Not everything moves around the Earth,' he wrote, and the world was changed."
+}

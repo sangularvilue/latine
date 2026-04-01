@@ -1,0 +1,27 @@
+{
+  "id": "pop-167",
+  "source": "Pop Culture",
+  "chapter": "Always Has Been (Meme)",
+  "latin": "Exspecta — totum hoc semper fuit? duo nautae in spatio stabant. primus terram spectavit et rem terribilem intellexit. alter, tormentum tenens, dixit: semper fuit.",
+  "glossary": {
+    "exspecta": "wait",
+    "nautae": "astronauts (lit. sailors)",
+    "spatio": "space",
+    "terram": "earth",
+    "terribilem": "terrible, frightening",
+    "tormentum": "gun, weapon"
+  },
+  "questions": [
+    {
+      "prompt": "Where are the two astronauts?",
+      "target": "In space looking at Earth",
+      "choices": ["On the moon", "In space looking at Earth", "In a spaceship", "On Mars"]
+    },
+    {
+      "prompt": "What does the second astronaut reveal?",
+      "target": "It has always been this way",
+      "choices": ["He is an alien", "It has always been this way", "Earth is doomed", "He wants to go home"]
+    }
+  ],
+  "translation": "Wait — it's all been this the whole time? Two astronauts were standing in space. The first looked at the earth and understood something terrible. The other, holding a gun, said: always has been."
+}

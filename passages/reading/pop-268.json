@@ -1,0 +1,26 @@
+{
+  "id": "pop-268",
+  "source": "Modern Life",
+  "chapter": "The Printer",
+  "latin": "Opus cras mane tradendum erat. typographum rogavi ut imprimeret. 'charta deest,' dixit machina. chartam addidi. 'atramentum deest.' atramentum mutavi. 'error ignotus.' typographum per fenestram paene proieci.",
+  "glossary": {
+    "typographum": "printer",
+    "imprimeret": "to print",
+    "charta": "paper",
+    "atramentum": "ink",
+    "ignotus": "unknown"
+  },
+  "questions": [
+    {
+      "prompt": "When is the assignment due?",
+      "target": "Tomorrow morning",
+      "choices": ["Tonight", "Tomorrow morning", "Next week", "In an hour"]
+    },
+    {
+      "prompt": "What errors does the printer give?",
+      "target": "No paper, no ink, then an unknown error",
+      "choices": ["Just a paper jam", "No paper, no ink, then an unknown error", "It simply refuses to turn on", "It prints the wrong document"]
+    }
+  ],
+  "translation": "The assignment had to be handed in tomorrow morning. I asked the printer to print. 'Paper is missing,' said the machine. I added paper. 'Ink is missing.' I changed the ink. 'Unknown error.' I nearly threw the printer through the window."
+}

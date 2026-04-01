@@ -1,0 +1,27 @@
+{
+  "id": "pop-149",
+  "source": "Pop Culture",
+  "chapter": "Inception",
+  "latin": "Profundius ire debemus. somnium intra somnium intra somnium. quot gradus descendere possumus? semper profundius, semper periculosius.",
+  "glossary": {
+    "profundius": "deeper",
+    "somnium": "dream",
+    "intra": "within, inside",
+    "gradus": "levels, steps",
+    "descendere": "to descend, to go down",
+    "periculosius": "more dangerous"
+  },
+  "questions": [
+    {
+      "prompt": "What is inside each dream?",
+      "target": "Another dream",
+      "choices": ["Reality", "Another dream", "A memory", "Nothing"]
+    },
+    {
+      "prompt": "What happens as they go deeper?",
+      "target": "It becomes more dangerous",
+      "choices": ["It gets easier", "It becomes more dangerous", "Time stops", "They wake up"]
+    }
+  ],
+  "translation": "We need to go deeper. A dream within a dream within a dream. How many levels can we descend? Always deeper, always more dangerous."
+}

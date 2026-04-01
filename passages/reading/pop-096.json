@@ -1,0 +1,26 @@
+{
+  "id": "pop-096",
+  "source": "Pop Culture",
+  "chapter": "Monty Python and the Holy Grail",
+  "latin": "Miles Gallicus e summo muro Anglicos irridebat: 'mater vestra cricetus erat et pater vester sambucas redolebat!' et vaccam in eos catapulta misit.",
+  "glossary": {
+    "Gallicus": "French",
+    "irridebat": "was mocking",
+    "cricetus": "hamster",
+    "sambucas": "elderberries (acc.)",
+    "redolebat": "smelled of"
+  },
+  "questions": [
+    {
+      "prompt": "What insults does the French soldier hurl?",
+      "target": "Your mother was a hamster and your father smelled of elderberries",
+      "choices": ["You are cowards and fools", "Your mother was a hamster and your father smelled of elderberries", "You cannot fight", "Your king is a fraud"]
+    },
+    {
+      "prompt": "What does the French soldier launch at the English?",
+      "target": "A cow via catapult",
+      "choices": ["Arrows", "A cow via catapult", "Boiling oil", "Rocks"]
+    }
+  ],
+  "translation": "A French soldier from the top of the wall was mocking the English: 'Your mother was a hamster and your father smelled of elderberries!' And he launched a cow at them by catapult."
+}

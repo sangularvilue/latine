@@ -1,0 +1,26 @@
+{
+  "id": "pop-296",
+  "source": "History",
+  "chapter": "Vikings Discover Vinland",
+  "latin": "Norsemanni castra in terra nova posuerunt. Thorvald, frater Leifi, indigenas exploravit. sed pax non diu mansit — sagittis vulneratus est et in terra aliena mortuus est. 'terra pulchra,' dixit moriens, 'hic manere vellem.'",
+  "glossary": {
+    "castra": "camp",
+    "exploravit": "explored, scouted",
+    "sagittis": "by arrows",
+    "vulneratus": "wounded",
+    "moriens": "dying"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to Thorvald?",
+      "target": "He was wounded by arrows and died",
+      "choices": ["He returned to Greenland", "He was wounded by arrows and died", "He became a chief", "He was captured"]
+    },
+    {
+      "prompt": "What were Thorvald's dying words?",
+      "target": "He wished he could stay in the beautiful land",
+      "choices": ["Avenge my death", "He wished he could stay in the beautiful land", "Tell my brother", "Sail home quickly"]
+    }
+  ],
+  "translation": "The Norsemen made camp in the new land. Thorvald, Leif's brother, explored the native people. But peace did not last long — he was wounded by arrows and died in the foreign land. 'Beautiful land,' he said while dying, 'I would like to stay here.'"
+}

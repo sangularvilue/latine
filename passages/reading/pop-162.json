@@ -1,0 +1,27 @@
+{
+  "id": "pop-162",
+  "source": "Pop Culture",
+  "chapter": "Pirates of the Caribbean",
+  "latin": "Hunc diem semper meminisse debes — diem quo paene Iacobum Passerem cepisti. pirata risit et in mare cecidit, liber iterum.",
+  "glossary": {
+    "meminisse": "to remember",
+    "paene": "almost",
+    "cepisti": "you caught",
+    "pirata": "pirate",
+    "mare": "sea",
+    "liber": "free"
+  },
+  "questions": [
+    {
+      "prompt": "What should the listener always remember?",
+      "target": "The day they almost caught Captain Jack Sparrow",
+      "choices": ["The day the ship sank", "The day they almost caught Captain Jack Sparrow", "The day they found treasure", "The day they set sail"]
+    },
+    {
+      "prompt": "What did the pirate do after speaking?",
+      "target": "Fell into the sea and escaped",
+      "choices": ["Surrendered quietly", "Fell into the sea and escaped", "Drew his sword", "Hid below deck"]
+    }
+  ],
+  "translation": "You will always remember this day — the day you almost caught Jack Sparrow. The pirate laughed and fell into the sea, free again."
+}

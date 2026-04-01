@@ -1,40 +1,25 @@
 {
   "id": "pop-044",
   "source": "Pop Culture",
-  "chapter": "Iter Peregrini per Galaxiam",
-  "latin": "post septem et dimidium miliones annorum, posteri Fook et Lunkwill convenerunt ut Responsum audirent. 'salve,' tandem inquit Cogitatio Profunda. 'salve, O Cogitatio Profunda,' inquit Loonquawl trepidans, 'habesne... id est...' 'Responsum vobis?' interrupit Cogitatio Profunda magnifice. 'ita, habeo.' ambo tremuerunt. 'estne vere?' susurravit Phouchg. 'vere est,' confirmavit Cogitatio Profunda. 'ad Omnia? ad Magnam Quaestionem Vitae, Universi, et Omnium Rerum?' 'ita.' 'et parati estis id nobis dare?' 'paratus sum.' 'nunc?' 'nunc.' ambo labra sicca linxerunt. 'quamquam non puto,' addidit Cogitatio Profunda, 'vos id amaturos esse.' 'nihil refert!' clamavit Phouchg. 'dic nobis!' 'esto,' inquit Cogitatio Profunda. 'Responsum ad Magnam Quaestionem...' 'ita...!' 'Vitae, Universi, et Omnium Rerum...' 'ita...!' 'est...' 'ita...!' 'est...' 'ITA...?!' 'quadraginta duo,' inquit Cogitatio Profunda, cum infinita maiestate et tranquillitate.",
+  "chapter": "Star Wars",
+  "latin": "Dux classis, cum hostes undique apparuissent, exclamavit: 'insidiae sunt!'",
   "glossary": {
-    "posteri": "descendants",
-    "convenerunt": "gathered, assembled",
-    "trepidans": "trembling, nervous",
-    "magnifice": "magnificently, majestically",
-    "susurravit": "whispered",
-    "linxerunt": "licked",
-    "esto": "so be it, all right",
-    "maiestate": "majesty (abl.)",
-    "quadraginta duo": "forty-two"
+    "classis": "fleet (gen.)",
+    "apparuissent": "had appeared (plupf. subj.)",
+    "insidiae": "trap, ambush",
+    "undique": "from everywhere, on all sides"
   },
   "questions": [
     {
-      "prompt": "Who came to hear the Answer?",
-      "target": "The descendants of Fook and Lunkwill",
-      "choices": ["Fook and Lunkwill themselves", "The descendants of Fook and Lunkwill", "The President of the Galaxy", "A committee of philosophers"]
+      "prompt": "What did the fleet commander realize?",
+      "target": "They had fallen into a trap",
+      "choices": ["The enemy had retreated", "They had fallen into a trap", "Reinforcements were arriving", "The battle was won"]
     },
     {
-      "prompt": "What warning did Deep Thought give?",
-      "target": "They weren't going to like the answer",
-      "choices": ["The answer was dangerous", "They weren't going to like the answer", "The answer was too long", "The computer might explode"]
-    },
-    {
-      "prompt": "What was the Answer to Life, the Universe, and Everything?",
-      "target": "Forty-two",
-      "choices": ["Love", "Forty-two", "Nothing", "Infinity"]
-    },
-    {
-      "prompt": "How did Deep Thought deliver the answer?",
-      "target": "With infinite majesty and calm",
-      "choices": ["Reluctantly and sadly", "With infinite majesty and calm", "Angrily and quickly", "In a whisper"]
+      "prompt": "Where did enemies appear?",
+      "target": "On all sides",
+      "choices": ["Only from behind", "From below", "On all sides", "Only from above"]
     }
   ],
-  "translation": "After seven and a half million years, the descendants of Fook and Lunkwill gathered to hear the Answer. 'Good morning,' Deep Thought said at last. 'Good morning, O Deep Thought,' said Loonquawl nervously, 'do you have... that is...' 'An Answer for you?' Deep Thought interrupted majestically. 'Yes, I have.' They both trembled. 'There really is one?' whispered Phouchg. 'There really is,' confirmed Deep Thought. 'To Everything? To the Great Question of Life, the Universe, and Everything?' 'Yes.' 'And you're ready to give it to us?' 'I am.' 'Now?' 'Now.' They both licked their dry lips. 'Though I don't think,' added Deep Thought, 'that you're going to like it.' 'It doesn't matter!' cried Phouchg. 'Tell us!' 'All right,' said Deep Thought. 'The Answer to the Great Question...' 'Yes...!' 'Of Life, the Universe, and Everything...' 'Yes...!' 'Is...' 'Yes...!' 'Is...' 'YES...?!' 'Forty-two,' said Deep Thought, with infinite majesty and calm."
+  "translation": "The fleet commander, when enemies had appeared on all sides, exclaimed: 'It's a trap!'"
 }

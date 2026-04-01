@@ -1,0 +1,27 @@
+{
+  "id": "pop-184",
+  "source": "Pop Culture",
+  "chapter": "Pulp Fiction",
+  "latin": "Marsellus Wallace num tibi similis videtur ei qui patitur? nolo audire excusationes. ille vir vindictam sumet, et tu id scis.",
+  "glossary": {
+    "similis": "similar, like",
+    "patitur": "suffers, endures (insults)",
+    "excusationes": "excuses",
+    "vindictam": "vengeance",
+    "sumet": "will take",
+    "scis": "you know"
+  },
+  "questions": [
+    {
+      "prompt": "What is implied about Marsellus Wallace?",
+      "target": "He does not tolerate disrespect and will seek vengeance",
+      "choices": ["He is a kind man", "He does not tolerate disrespect and will seek vengeance", "He is forgiving", "He has retired"]
+    },
+    {
+      "prompt": "What does the speaker refuse to hear?",
+      "target": "Excuses",
+      "choices": ["Apologies", "Excuses", "Explanations", "Stories"]
+    }
+  ],
+  "translation": "Does Marsellus Wallace look like someone who tolerates insults? I don't want to hear excuses. That man will take his vengeance, and you know it."
+}

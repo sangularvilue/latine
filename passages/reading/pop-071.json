@@ -1,0 +1,26 @@
+{
+  "id": "pop-071",
+  "source": "Pop Culture",
+  "chapter": "Toy Story",
+  "latin": "Pupa bubulci parva ad novam pupam sideralem dixit: 'licet diversi simus, amicum in me habes.'",
+  "glossary": {
+    "bubulci": "cowboy (gen.)",
+    "sideralem": "space-related (acc.)",
+    "licet": "although (+ subj.)",
+    "diversi": "different (nom. pl.)",
+    "amicum": "friend (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "Who is speaking?",
+      "target": "A small cowboy toy",
+      "choices": ["A child", "A small cowboy toy", "A space ranger toy", "A teddy bear"]
+    },
+    {
+      "prompt": "What is the message?",
+      "target": "Despite being different, they can be friends",
+      "choices": ["One of them must leave", "Despite being different, they can be friends", "Only one can be the favorite", "They should fight for dominance"]
+    }
+  ],
+  "translation": "The small cowboy toy said to the new space toy: 'Although we are different, you have a friend in me.'"
+}

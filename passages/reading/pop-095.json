@@ -1,0 +1,26 @@
+{
+  "id": "pop-095",
+  "source": "Pop Culture",
+  "chapter": "Speed",
+  "latin": "Hostis per telephonum dixit: 'aenigma subitum, iuvenis! bomba in curru publico est. si currus sub quinquaginta milia passuum per horam cecidit, omnes morientur. quid facies?'",
+  "glossary": {
+    "aenigma": "puzzle, quiz",
+    "subitum": "sudden, surprise (acc.)",
+    "bomba": "bomb",
+    "curru publico": "public vehicle, bus (abl.)",
+    "quinquaginta": "fifty"
+  },
+  "questions": [
+    {
+      "prompt": "What is the threat?",
+      "target": "A bomb on a bus that detonates if speed drops below fifty",
+      "choices": ["A bomb at a train station", "A bomb on a bus that detonates if speed drops below fifty", "A hostage situation", "A ticking time bomb in a building"]
+    },
+    {
+      "prompt": "What does the villain challenge the hero to do?",
+      "target": "Figure out how to save everyone",
+      "choices": ["Find the bomb in time", "Figure out how to save everyone", "Pay a ransom", "Chase him on foot"]
+    }
+  ],
+  "translation": "The enemy said by phone: 'Pop quiz, hotshot! There is a bomb on the bus. If the bus drops below fifty miles per hour, everyone dies. What do you do?'"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-091",
+  "source": "Pop Culture",
+  "chapter": "Predator",
+  "latin": "Dux militum, monstro in silvis eos persequente, sociis clamavit: 'ad helicopterum currite! CURRITE!'",
+  "glossary": {
+    "militum": "of the soldiers (gen.)",
+    "persequente": "pursuing (pres. part. abl.)",
+    "sociis": "to companions (dat.)",
+    "helicopterum": "helicopter (acc.)",
+    "currite": "run! (imperative pl.)"
+  },
+  "questions": [
+    {
+      "prompt": "What is chasing the soldiers?",
+      "target": "A monster in the jungle",
+      "choices": ["Enemy soldiers", "A monster in the jungle", "A wildfire", "A flood"]
+    },
+    {
+      "prompt": "What does the leader order?",
+      "target": "Run to the helicopter",
+      "choices": ["Stand and fight", "Run to the helicopter", "Split up and hide", "Call for air support"]
+    }
+  ],
+  "translation": "The leader of the soldiers, with a monster pursuing them in the forest, shouted to his companions: 'Run to the helicopter! RUN!'"
+}

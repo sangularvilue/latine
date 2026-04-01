@@ -1,0 +1,26 @@
+{
+  "id": "pop-241",
+  "source": "Video Games",
+  "chapter": "Celeste",
+  "latin": "Madeline montem ascendere constituit. vox obscura intus ei dicebat: 'non potes.' sed pedem ante pedem posuit et ascendere perrexit, etiam cum cadebat.",
+  "glossary": {
+    "montem": "mountain",
+    "ascendere": "to climb",
+    "obscura": "dark, shadowy",
+    "pedem": "foot, step",
+    "perrexit": "continued, pressed on"
+  },
+  "questions": [
+    {
+      "prompt": "What does the dark voice tell Madeline?",
+      "target": "You cannot do it",
+      "choices": ["Turn back now", "You cannot do it", "The mountain is cursed", "Someone else will help"]
+    },
+    {
+      "prompt": "How does Madeline respond to falling?",
+      "target": "She keeps climbing",
+      "choices": ["She gives up", "She keeps climbing", "She cries", "She calls for help"]
+    }
+  ],
+  "translation": "Madeline decided to climb the mountain. A dark voice inside told her: 'You cannot.' But she put one foot before the other and continued to climb, even when she fell."
+}

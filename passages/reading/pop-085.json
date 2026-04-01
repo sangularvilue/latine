@@ -1,0 +1,26 @@
+{
+  "id": "pop-085",
+  "source": "Pop Culture",
+  "chapter": "E.T. the Extra-Terrestrial",
+  "latin": "Creatura parva aliena, digito lucente caelum monstrans, paucis verbis locuta est: 'domus... telephonare... domus.' puer intellexit eam domum redire velle.",
+  "glossary": {
+    "aliena": "alien, foreign",
+    "digito": "finger (abl.)",
+    "lucente": "glowing (pres. part. abl.)",
+    "monstrans": "pointing at (pres. part.)",
+    "redire": "to return"
+  },
+  "questions": [
+    {
+      "prompt": "What does the alien creature want?",
+      "target": "To contact home and return there",
+      "choices": ["To explore Earth", "To contact home and return there", "To learn human language", "To find more of its kind"]
+    },
+    {
+      "prompt": "How does the creature communicate?",
+      "target": "With very few words and gestures",
+      "choices": ["Telepathically", "With very few words and gestures", "Through drawings", "By changing colors"]
+    }
+  ],
+  "translation": "A small alien creature, pointing at the sky with a glowing finger, spoke in few words: 'Home... phone... home.' The boy understood that it wanted to return home."
+}

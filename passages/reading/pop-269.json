@@ -1,0 +1,26 @@
+{
+  "id": "pop-269",
+  "source": "Modern Life",
+  "chapter": "Restaurant Closed",
+  "latin": "Per totam urbem ambulavimus ut ad cenaticulum dilectum nostrum veniremus. cum pervenissemus, signum in ostio erat: 'hodie clausum.' amicus meus dixit: 'hoc semper nobis accidit.' ad tabernam iuncalem ivimus.",
+  "glossary": {
+    "cenaticulum": "restaurant, dining place",
+    "dilectum": "favorite, beloved",
+    "signum": "sign",
+    "clausum": "closed",
+    "iuncalem": "fast food"
+  },
+  "questions": [
+    {
+      "prompt": "What did they find when they arrived?",
+      "target": "A sign saying the restaurant was closed",
+      "choices": ["A long line of people", "A sign saying the restaurant was closed", "The restaurant had moved", "It was under renovation"]
+    },
+    {
+      "prompt": "Where did they end up eating?",
+      "target": "A fast food place",
+      "choices": ["At home", "A fast food place", "A different nice restaurant", "They did not eat"]
+    }
+  ],
+  "translation": "We walked across the whole city to reach our favorite restaurant. When we arrived, there was a sign on the door: 'Closed today.' My friend said: 'This always happens to us.' We went to a fast food place."
+}

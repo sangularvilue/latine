@@ -1,0 +1,26 @@
+{
+  "id": "pop-054",
+  "source": "Pop Culture",
+  "chapter": "Batman",
+  "latin": "Pater filium parvum, qui in puteum ceciderat, extraxit et dixit: 'cur cadimus? ut resurgere discamus.'",
+  "glossary": {
+    "puteum": "well, pit (acc.)",
+    "ceciderat": "had fallen (plupf.)",
+    "extraxit": "pulled out, rescued",
+    "cadimus": "we fall",
+    "resurgere": "to rise again"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to the boy?",
+      "target": "He fell into a pit",
+      "choices": ["He was attacked", "He fell into a pit", "He got lost", "He broke his leg"]
+    },
+    {
+      "prompt": "Why do we fall, according to the father?",
+      "target": "So that we can learn to rise again",
+      "choices": ["Because we are weak", "So that we can learn to rise again", "To teach us humility", "Because life is unfair"]
+    }
+  ],
+  "translation": "The father pulled his small son, who had fallen into a pit, out and said: 'Why do we fall? So that we can learn to rise again.'"
+}

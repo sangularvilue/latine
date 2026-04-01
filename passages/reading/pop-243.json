@@ -1,0 +1,31 @@
+{
+  "id": "pop-243",
+  "source": "Literature",
+  "chapter": "Hamlet",
+  "latin": "Hamlet solus in aula stabat, cranium in manu tenens. 'esse aut non esse,' inquit, 'haec est quaestio.' mors ei ut somnus videbatur, sed somnia mortis eum terrebant.",
+  "glossary": {
+    "aula": "hall, court",
+    "cranium": "skull",
+    "quaestio": "question",
+    "somnus": "sleep",
+    "terrebant": "were frightening"
+  },
+  "questions": [
+    {
+      "prompt": "What is Hamlet holding?",
+      "target": "A skull",
+      "choices": ["A sword", "A skull", "A letter", "A crown"]
+    },
+    {
+      "prompt": "What great question does Hamlet ask?",
+      "target": "To be or not to be",
+      "choices": ["Who killed my father", "To be or not to be", "Should I take revenge", "What is truth"]
+    },
+    {
+      "prompt": "What frightens Hamlet about death?",
+      "target": "The dreams of death",
+      "choices": ["The pain", "The dreams of death", "Leaving his mother", "Being forgotten"]
+    }
+  ],
+  "translation": "Hamlet stood alone in the hall, holding a skull in his hand. 'To be or not to be,' he said, 'that is the question.' Death seemed to him like sleep, but the dreams of death frightened him."
+}

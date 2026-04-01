@@ -1,0 +1,26 @@
+{
+  "id": "pop-288",
+  "source": "Literature",
+  "chapter": "Frankenstein",
+  "latin": "Creatura sola per montes errabat. homines eam videntes fugiebant et lapides iaciebant. 'cur me fecisti si nemo me amare potest?' creatori suo clamavit. monstrum non natum est — factum est.",
+  "glossary": {
+    "errabat": "was wandering",
+    "lapides": "stones",
+    "iaciebant": "were throwing",
+    "creatori": "to its creator",
+    "factum est": "was made"
+  },
+  "questions": [
+    {
+      "prompt": "How do people react to the creature?",
+      "target": "They flee and throw stones",
+      "choices": ["They welcome it", "They flee and throw stones", "They ignore it", "They try to capture it"]
+    },
+    {
+      "prompt": "What does the creature ask its creator?",
+      "target": "Why was I made if no one can love me?",
+      "choices": ["Why am I so ugly?", "Why was I made if no one can love me?", "Give me a companion", "Make me human"]
+    }
+  ],
+  "translation": "The creature wandered alone through the mountains. People who saw it fled and threw stones. 'Why did you make me if no one can love me?' it cried to its creator. The monster was not born — it was made."
+}

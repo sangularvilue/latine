@@ -1,0 +1,26 @@
+{
+  "id": "pop-292",
+  "source": "History",
+  "chapter": "Archimedes' Eureka",
+  "latin": "Rex Archimedem vocaverat. 'corona mea aurea est,' dixit, 'an aurifex me fraudavit?' Archimedes diu cogitavit. corona in aquam mersa volumen suum revelavit. fraus detecta est.",
+  "glossary": {
+    "corona": "crown",
+    "aurea": "golden",
+    "aurifex": "goldsmith",
+    "fraudavit": "cheated, defrauded",
+    "mersa": "submerged"
+  },
+  "questions": [
+    {
+      "prompt": "What did the king want to know?",
+      "target": "Whether his crown was truly gold",
+      "choices": ["Who stole his crown", "Whether his crown was truly gold", "How to make a new crown", "The weight of the crown"]
+    },
+    {
+      "prompt": "How did Archimedes test the crown?",
+      "target": "By submerging it in water to measure its volume",
+      "choices": ["By weighing it", "By submerging it in water to measure its volume", "By melting it", "By comparing it to another crown"]
+    }
+  ],
+  "translation": "The king had summoned Archimedes. 'My crown is golden,' he said, 'or has the goldsmith cheated me?' Archimedes thought for a long time. The crown submerged in water revealed its volume. The fraud was detected."
+}

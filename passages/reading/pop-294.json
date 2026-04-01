@@ -1,0 +1,26 @@
+{
+  "id": "pop-294",
+  "source": "History",
+  "chapter": "Newton and the Apple",
+  "latin": "Newton non solum de malis cogitabat. eadem vis quae malum traxit etiam lunam tenet. luna perpetuo cadit circa terram sed numquam eam attingit. haec idea simplex universum explicavit.",
+  "glossary": {
+    "vis": "force",
+    "traxit": "pulled, drew",
+    "perpetuo": "perpetually, forever",
+    "attingit": "reaches, touches",
+    "explicavit": "explained"
+  },
+  "questions": [
+    {
+      "prompt": "What does Newton realize about the moon?",
+      "target": "It is perpetually falling around the Earth",
+      "choices": ["It is moving away", "It is perpetually falling around the Earth", "It will eventually hit Earth", "It was once part of Earth"]
+    },
+    {
+      "prompt": "What connects the apple and the moon?",
+      "target": "The same force acts on both",
+      "choices": ["Nothing connects them", "The same force acts on both", "They are the same size relatively", "Both were created at the same time"]
+    }
+  ],
+  "translation": "Newton was not only thinking about apples. The same force that pulled the apple also holds the moon. The moon perpetually falls around the Earth but never reaches it. This simple idea explained the universe."
+}

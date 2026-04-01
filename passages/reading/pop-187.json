@@ -1,0 +1,27 @@
+{
+  "id": "pop-187",
+  "source": "Pop Culture",
+  "chapter": "The Avengers",
+  "latin": "Vindices, convenite! Stevius scutum suum sustulit et hostes innumerabiles ante se vidit. solus stetit — deinde amici eius post eum apparuerunt.",
+  "glossary": {
+    "vindices": "avengers",
+    "convenite": "assemble",
+    "scutum": "shield",
+    "sustulit": "raised",
+    "innumerabiles": "innumerable, countless",
+    "apparuerunt": "appeared"
+  },
+  "questions": [
+    {
+      "prompt": "What does Steve call out?",
+      "target": "Avengers, assemble!",
+      "choices": ["Retreat now!", "Avengers, assemble!", "Charge forward!", "Surrender!"]
+    },
+    {
+      "prompt": "What happened after Steve stood alone?",
+      "target": "His friends appeared behind him",
+      "choices": ["He surrendered", "His friends appeared behind him", "The enemies fled", "He ran away"]
+    }
+  ],
+  "translation": "Avengers, assemble! Steve raised his shield and saw countless enemies before him. He stood alone — then his friends appeared behind him."
+}

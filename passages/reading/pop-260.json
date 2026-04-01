@@ -1,0 +1,26 @@
+{
+  "id": "pop-260",
+  "source": "Modern Life",
+  "chapter": "Parallel Parking",
+  "latin": "Currum meum in spatium parvum dirigere conatus sum. primum nimis procul a margine eram. deinde nimis prope. post viginti conatus, homo a tergo cornu cecinit. tandem pedibus ambulavi.",
+  "glossary": {
+    "currum": "car, vehicle",
+    "spatium": "space",
+    "dirigere": "to steer, to direct",
+    "margine": "curb, edge",
+    "cornu cecinit": "honked the horn"
+  },
+  "questions": [
+    {
+      "prompt": "What is the narrator trying to do?",
+      "target": "Park in a small space",
+      "choices": ["Change a tire", "Park in a small space", "Learn to drive", "Find the right street"]
+    },
+    {
+      "prompt": "What does the narrator do in the end?",
+      "target": "Walks on foot instead",
+      "choices": ["Finally parks perfectly", "Walks on foot instead", "Finds a bigger space", "Asks someone for help"]
+    }
+  ],
+  "translation": "I tried to steer my car into a small space. First I was too far from the curb. Then too close. After twenty attempts, a person behind me honked. Finally I walked on foot."
+}

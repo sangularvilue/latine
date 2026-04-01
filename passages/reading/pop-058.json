@@ -1,0 +1,26 @@
+{
+  "id": "pop-058",
+  "source": "Pop Culture",
+  "chapter": "The Matrix",
+  "latin": "Vir mysticus duas pilulas ostendit — unam rubram, alteram caeruleam. 'pilulam caeruleam elige et fabula finita erit. pilulam rubram elige et videbis quam profunda sit caverna.'",
+  "glossary": {
+    "pilulas": "pills (acc.)",
+    "rubram": "red (acc.)",
+    "caeruleam": "blue (acc.)",
+    "fabula": "story, tale",
+    "profunda": "deep"
+  },
+  "questions": [
+    {
+      "prompt": "What do the two pills represent?",
+      "target": "A choice between ignorance and truth",
+      "choices": ["Life and death", "A choice between ignorance and truth", "Health and sickness", "Past and future"]
+    },
+    {
+      "prompt": "What happens with the blue pill?",
+      "target": "The story ends",
+      "choices": ["You see the truth", "You gain power", "The story ends", "You travel through time"]
+    }
+  ],
+  "translation": "A mysterious man showed two pills — one red, the other blue. 'Choose the blue pill and the story will be finished. Choose the red pill and you will see how deep the rabbit hole goes.'"
+}

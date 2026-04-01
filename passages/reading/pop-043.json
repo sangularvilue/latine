@@ -1,33 +1,26 @@
 {
   "id": "pop-043",
   "source": "Pop Culture",
-  "chapter": "Iter Peregrini per Galaxiam",
-  "latin": "'scis,' inquit Arthurus, 'temporibus huius modi, cum in cataracta Vogoniana captus sum cum homine Betelgeusensi, et mox in spatio profundo suffocatione moriturus — tunc vere vellem audivisse quae mater mea mihi dixerit cum parvus eram.' 'cur, quid tibi dixit?' 'nescio. non audivi.'",
+  "chapter": "Star Wars",
+  "latin": "Senex manu leviter mota custodibus dixit: 'hi automata non sunt quae quaeritis.' custodes, mente turbata, responderunt: 'haec automata non sunt quae quaerimus.' et eos abire permiserunt.",
   "glossary": {
-    "cataracta": "airlock",
-    "captus sum": "I am trapped",
-    "suffocatione": "by suffocation (abl.)",
-    "moriturus": "about to die (fut. act. participle)",
-    "vellem": "I would wish (impf. subjunctive)",
-    "audivisse": "to have listened (perf. inf.)",
-    "parvus": "small, young"
+    "leviter": "lightly, gently",
+    "automata": "automatons, droids",
+    "quaeritis": "you are looking for",
+    "mente turbata": "with confused mind",
+    "abire": "to go away, leave"
   },
   "questions": [
     {
-      "prompt": "Where was Arthur trapped?",
-      "target": "In a Vogon airlock",
-      "choices": ["In a spaceship cabin", "In a Vogon airlock", "On a desert planet", "In a submarine"]
+      "prompt": "How did the old man influence the guards?",
+      "target": "By a gentle wave of his hand",
+      "choices": ["With a weapon", "By a gentle wave of his hand", "By showing papers", "By bribing them"]
     },
     {
-      "prompt": "What did Arthur wish he had done?",
-      "target": "Listened to what his mother told him",
-      "choices": ["Brought a towel", "Listened to what his mother told him", "Learned to fly", "Stayed on Earth"]
-    },
-    {
-      "prompt": "Why didn't Arthur know what his mother said?",
-      "target": "He didn't listen",
-      "choices": ["She spoke too quietly", "He didn't listen", "He was too young to remember", "She never told him anything"]
+      "prompt": "What happened to the guards' minds?",
+      "target": "They became confused and repeated his words",
+      "choices": ["They saw through the trick", "They became confused and repeated his words", "They fell asleep", "They became angry"]
     }
   ],
-  "translation": "'You know,' said Arthur, 'at times like this, when I'm trapped in a Vogon airlock with a man from Betelgeuse, and about to die of asphyxiation in deep space — I really wish I had listened to what my mother told me when I was young.' 'Why, what did she tell you?' 'I don't know. I didn't listen.'"
+  "translation": "The old man, with a light wave of his hand, said to the guards: 'These are not the droids you are looking for.' The guards, their minds confused, responded: 'These are not the droids we are looking for.' And they let them go."
 }

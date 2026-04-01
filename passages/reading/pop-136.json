@@ -1,0 +1,27 @@
+{
+  "id": "pop-136",
+  "source": "Pop Culture",
+  "chapter": "It's Always Sunny in Philadelphia",
+  "latin": "Ego sum deus aureus! Dennisus in culmine tecti stabat et in caelum clamabat. se perfectum esse credebat. ego sum deus aureus! quinque stellarum vir!",
+  "glossary": {
+    "deus": "god",
+    "aureus": "golden",
+    "culmine": "top, summit",
+    "tecti": "roof",
+    "perfectum": "perfect",
+    "stellarum": "of stars"
+  },
+  "questions": [
+    {
+      "prompt": "Where was Dennis standing?",
+      "target": "On top of a roof",
+      "choices": ["On a stage", "On top of a roof", "In a field", "On a bridge"]
+    },
+    {
+      "prompt": "What does Dennis call himself?",
+      "target": "A golden god and a five-star man",
+      "choices": ["A humble servant", "A golden god and a five-star man", "A king of the world", "A brilliant genius"]
+    }
+  ],
+  "translation": "I am a golden god! Dennis was standing on top of a roof and shouting at the sky. He believed himself to be perfect. I am a golden god! A five-star man!"
+}

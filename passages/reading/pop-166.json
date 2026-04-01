@@ -1,0 +1,27 @@
+{
+  "id": "pop-166",
+  "source": "Pop Culture",
+  "chapter": "This Is Fine (Meme)",
+  "latin": "Hoc bene est. canis in sella sedebat dum domus circa eum ardebat. flammae ubique erant, sed canis potionem suam bibebat et dicebat: hoc bene est.",
+  "glossary": {
+    "bene": "fine, well",
+    "canis": "dog",
+    "sella": "chair",
+    "ardebat": "was burning",
+    "flammae": "flames",
+    "potionem": "drink, beverage"
+  },
+  "questions": [
+    {
+      "prompt": "What is happening around the dog?",
+      "target": "The house is burning down",
+      "choices": ["A party is happening", "The house is burning down", "It is raining", "Nothing unusual"]
+    },
+    {
+      "prompt": "What does the dog say despite the disaster?",
+      "target": "This is fine",
+      "choices": ["Help me!", "This is fine", "I should leave", "Where is the exit?"]
+    }
+  ],
+  "translation": "This is fine. A dog was sitting in a chair while the house burned around him. Flames were everywhere, but the dog was drinking his beverage and saying: this is fine."
+}

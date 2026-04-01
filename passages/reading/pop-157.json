@@ -1,0 +1,27 @@
+{
+  "id": "pop-157",
+  "source": "Pop Culture",
+  "chapter": "The Hunger Games",
+  "latin": "Sortes tibi semper faveant! hoc dicunt antequam liberi in arenam mittuntur. verba blanda sunt sed res ipsa crudelis est — liberi inter se pugnare debent.",
+  "glossary": {
+    "sortes": "odds, fortunes",
+    "faveant": "may they favor",
+    "arenam": "arena",
+    "blanda": "pleasant, smooth",
+    "crudelis": "cruel",
+    "pugnare": "to fight"
+  },
+  "questions": [
+    {
+      "prompt": "What is the famous wish before the Games?",
+      "target": "May the odds be ever in your favor",
+      "choices": ["Good luck to all", "May the odds be ever in your favor", "Fight well and bravely", "May the best one win"]
+    },
+    {
+      "prompt": "What is cruel about the situation?",
+      "target": "Children must fight each other",
+      "choices": ["The weather is harsh", "Children must fight each other", "There is no food", "The arena is too large"]
+    }
+  ],
+  "translation": "May the odds be ever in your favor! This is said before the children are sent into the arena. The words are pleasant but the reality is cruel — children must fight one another."
+}

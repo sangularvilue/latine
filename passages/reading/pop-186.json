@@ -1,0 +1,27 @@
+{
+  "id": "pop-186",
+  "source": "Pop Culture",
+  "chapter": "Interstellar",
+  "latin": "Unam horam hic manere unum annum ibi significat. tempus prope nigrum foramen lentius fluit. dum exploratores in planeta sunt, filii eorum senescunt.",
+  "glossary": {
+    "horam": "hour",
+    "annum": "year",
+    "significat": "means",
+    "nigrum foramen": "black hole",
+    "lentius": "more slowly",
+    "senescunt": "grow old"
+  },
+  "questions": [
+    {
+      "prompt": "What happens to time near the black hole?",
+      "target": "It flows more slowly",
+      "choices": ["It stops completely", "It flows more slowly", "It reverses", "It speeds up"]
+    },
+    {
+      "prompt": "What is the tragic consequence for the explorers?",
+      "target": "Their children age while they are away",
+      "choices": ["They lose their ship", "Their children age while they are away", "They forget everything", "The planet is destroyed"]
+    }
+  ],
+  "translation": "Staying here one hour means one year there. Time flows more slowly near the black hole. While the explorers are on the planet, their children grow old."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-298",
+  "source": "History",
+  "chapter": "The Boston Tea Party",
+  "latin": "Post theam in mare proiectam, rex Britannicus portum Bostoniensem clausit. 'punientur,' dixit. sed coloni non territi sunt — potius uniti sunt. quod rex frangere volebat, fortius fecit.",
+  "glossary": {
+    "proiectam": "thrown",
+    "portum": "port, harbor",
+    "clausit": "closed",
+    "punientur": "they will be punished",
+    "uniti": "united"
+  },
+  "questions": [
+    {
+      "prompt": "How did the British king respond to the tea party?",
+      "target": "He closed Boston harbor",
+      "choices": ["He lowered the taxes", "He closed Boston harbor", "He sent diplomats", "He ignored it"]
+    },
+    {
+      "prompt": "What was the unintended effect of the punishment?",
+      "target": "The colonists became more united",
+      "choices": ["The colonists surrendered", "The colonists became more united", "Trade moved to other ports", "Other colonies distanced themselves"]
+    }
+  ],
+  "translation": "After the tea was thrown into the sea, the British king closed the port of Boston. 'They will be punished,' he said. But the colonists were not frightened — rather they were united. What the king wanted to break, he made stronger."
+}

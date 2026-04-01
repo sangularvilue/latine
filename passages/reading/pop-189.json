@@ -1,0 +1,27 @@
+{
+  "id": "pop-189",
+  "source": "Pop Culture",
+  "chapter": "The Hunger Games",
+  "latin": "Ignis ardens! puella ignem in sagittis suis ferebat et populus eam amavit. symbolum spei facta est. ubi ignis est, spes est.",
+  "glossary": {
+    "ignis": "fire",
+    "ardens": "burning, on fire",
+    "sagittis": "arrows",
+    "populus": "people, the public",
+    "symbolum": "symbol",
+    "spei": "of hope"
+  },
+  "questions": [
+    {
+      "prompt": "What made the girl famous?",
+      "target": "She carried fire on her arrows and became a symbol",
+      "choices": ["Her beauty", "She carried fire on her arrows and became a symbol", "Her wealth", "Her family name"]
+    },
+    {
+      "prompt": "What did the people feel when they saw her?",
+      "target": "Hope",
+      "choices": ["Fear", "Hope", "Anger", "Pity"]
+    }
+  ],
+  "translation": "The girl on fire! The girl carried fire on her arrows and the people loved her. She became a symbol of hope. Where there is fire, there is hope."
+}

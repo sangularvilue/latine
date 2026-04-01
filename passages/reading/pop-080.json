@@ -1,0 +1,26 @@
+{
+  "id": "pop-080",
+  "source": "Pop Culture",
+  "chapter": "Forrest Gump",
+  "latin": "Cum quis eum stultum vocaret, simpliciter respondebat: 'stultus est qui stulte facit.' quae verba matris eius erant.",
+  "glossary": {
+    "vocaret": "called (impf. subj.)",
+    "simpliciter": "simply",
+    "stulte": "stupidly (adv.)",
+    "quae": "which (connecting relative)",
+    "matris": "of his mother (gen.)"
+  },
+  "questions": [
+    {
+      "prompt": "How does Forrest respond when called stupid?",
+      "target": "Stupid is as stupid does",
+      "choices": ["He gets angry", "Stupid is as stupid does", "He ignores them", "He walks away"]
+    },
+    {
+      "prompt": "Where did he learn this saying?",
+      "target": "From his mother",
+      "choices": ["From a teacher", "From his mother", "From a friend", "He made it up himself"]
+    }
+  ],
+  "translation": "Whenever someone called him stupid, he simply responded: 'Stupid is he who does stupid things.' These were his mother's words."
+}

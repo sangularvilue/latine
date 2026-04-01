@@ -1,0 +1,27 @@
+{
+  "id": "pop-148",
+  "source": "Pop Culture",
+  "chapter": "Interstellar",
+  "latin": "Amor tempus et spatium transcendit. pater filiam suam trans stellas quaerebat. amor eum ducebat ubi scientia non poterat. amor omnia vincit.",
+  "glossary": {
+    "amor": "love",
+    "tempus": "time",
+    "spatium": "space",
+    "transcendit": "transcends",
+    "stellas": "stars",
+    "ducebat": "was leading, guided"
+  },
+  "questions": [
+    {
+      "prompt": "What does love transcend?",
+      "target": "Time and space",
+      "choices": ["Life and death", "Time and space", "Joy and sorrow", "Heaven and earth"]
+    },
+    {
+      "prompt": "Where did the father search for his daughter?",
+      "target": "Across the stars",
+      "choices": ["Across the ocean", "Across the stars", "Through the forest", "Under the earth"]
+    }
+  ],
+  "translation": "Love transcends time and space. The father searched for his daughter across the stars. Love guided him where science could not. Love conquers all."
+}

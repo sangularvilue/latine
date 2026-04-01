@@ -1,0 +1,26 @@
+{
+  "id": "pop-295",
+  "source": "History",
+  "chapter": "Marco Polo in China",
+  "latin": "Cum Marcus Polus de Sinis redisset, amici ei non crediderunt. 'chartam pecuniariam habent!' dixit. 'et viae igni nigro illuminantur!' in lecto mortis rogaverunt num mentitus esset. 'dimidium nondum narravi,' respondit.",
+  "glossary": {
+    "chartam pecuniariam": "paper money",
+    "igni nigro": "with black fire (coal)",
+    "illuminantur": "are lit up",
+    "mentitus": "having lied",
+    "dimidium": "half"
+  },
+  "questions": [
+    {
+      "prompt": "What amazing things did Marco Polo report?",
+      "target": "Paper money and roads lit by coal",
+      "choices": ["Flying machines", "Paper money and roads lit by coal", "Cities made of gold", "Talking animals"]
+    },
+    {
+      "prompt": "What were his last words on his deathbed?",
+      "target": "I have not yet told half of it",
+      "choices": ["I told the truth", "I have not yet told half of it", "I made it all up", "I wish to return"]
+    }
+  ],
+  "translation": "When Marco Polo returned from China, his friends did not believe him. 'They have paper money!' he said. 'And roads are lit by black fire!' On his deathbed they asked if he had lied. 'I have not yet told half of it,' he replied."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-174",
+  "source": "Pop Culture",
+  "chapter": "Parks and Recreation",
+  "latin": "Claram et praesentem periculum aliquod video. Ronaldus amicum suum ad silvam duxit. ibi omnes curas deposuerunt. cibus, ignis, silentium — haec sola opus sunt.",
+  "glossary": {
+    "claram": "clear",
+    "periculum": "danger",
+    "silvam": "forest, woods",
+    "curas": "worries, cares",
+    "deposuerunt": "set down, abandoned",
+    "silentium": "silence"
+  },
+  "questions": [
+    {
+      "prompt": "Where does Ron take his friend?",
+      "target": "To the woods",
+      "choices": ["To a bar", "To the woods", "To a lake", "To his office"]
+    },
+    {
+      "prompt": "What does Ron think is all one needs?",
+      "target": "Food, fire, and silence",
+      "choices": ["Money, power, and fame", "Food, fire, and silence", "Friends, family, and love", "Books, music, and art"]
+    }
+  ],
+  "translation": "I see a clear and present danger. Ron took his friend to the woods. There they set down all their worries. Food, fire, silence — these alone are needed."
+}

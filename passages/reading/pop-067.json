@@ -1,0 +1,26 @@
+{
+  "id": "pop-067",
+  "source": "Pop Culture",
+  "chapter": "Superbad",
+  "latin": "Adulescens falsam chartam identitatis ostendit. in ea solum unum nomen scriptum erat: 'McLovin.' amici eius clamaverunt: 'cur nomen unum tantum elegisti?'",
+  "glossary": {
+    "falsam": "false, fake",
+    "chartam identitatis": "identification card",
+    "scriptum erat": "was written",
+    "tantum": "only",
+    "elegisti": "you chose"
+  },
+  "questions": [
+    {
+      "prompt": "What was wrong with the ID card?",
+      "target": "It had only one name on it",
+      "choices": ["The photo was wrong", "It had only one name on it", "It was expired", "The address was fake"]
+    },
+    {
+      "prompt": "How did his friends react?",
+      "target": "They questioned his choice",
+      "choices": ["They were impressed", "They questioned his choice", "They didn't notice", "They called the police"]
+    }
+  ],
+  "translation": "A teenager showed a fake identification card. On it only one name was written: 'McLovin.' His friends shouted: 'Why did you choose only one name?'"
+}

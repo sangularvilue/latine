@@ -1,0 +1,31 @@
+{
+  "id": "pop-258",
+  "source": "History",
+  "chapter": "The Boston Tea Party",
+  "latin": "Coloni Americani, Indorum more vestiti, noctu naves in portu Bostoniensi conscenderunt. arcas theae in mare proiecerunt. 'nullum vectigal sine suffragio!' clamabant. rex Britannicus furore ardebat.",
+  "glossary": {
+    "Indorum": "of Indians, Native Americans",
+    "vestiti": "dressed, disguised",
+    "arcas": "chests, crates",
+    "theae": "of tea",
+    "vectigal": "tax"
+  },
+  "questions": [
+    {
+      "prompt": "How were the colonists disguised?",
+      "target": "Dressed as Native Americans",
+      "choices": ["As British soldiers", "Dressed as Native Americans", "As merchants", "They wore masks"]
+    },
+    {
+      "prompt": "What did the colonists throw into the harbor?",
+      "target": "Chests of tea",
+      "choices": ["British flags", "Chests of tea", "Weapons", "Tax documents"]
+    },
+    {
+      "prompt": "What was their rallying cry?",
+      "target": "No taxation without representation",
+      "choices": ["Freedom or death", "No taxation without representation", "Down with the king", "Liberty for all"]
+    }
+  ],
+  "translation": "American colonists, dressed in the manner of Indians, boarded ships in Boston harbor by night. They threw chests of tea into the sea. 'No tax without a vote!' they shouted. The British king burned with rage."
+}

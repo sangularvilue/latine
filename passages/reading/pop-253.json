@@ -1,0 +1,26 @@
+{
+  "id": "pop-253",
+  "source": "History",
+  "chapter": "Newton and the Apple",
+  "latin": "Isaac Newton sub arbore sedebat et cogitabat. malum de ramo cecidit et caput eius percussit. 'cur omnia ad terram cadunt?' rogavit. ex hac quaestione simplici legem gravitatis invenit.",
+  "glossary": {
+    "arbore": "tree",
+    "malum": "apple",
+    "ramo": "branch",
+    "percussit": "struck, hit",
+    "gravitatis": "of gravity"
+  },
+  "questions": [
+    {
+      "prompt": "What fell on Newton's head?",
+      "target": "An apple",
+      "choices": ["A branch", "An apple", "A leaf", "A bird"]
+    },
+    {
+      "prompt": "What did Newton discover from this event?",
+      "target": "The law of gravity",
+      "choices": ["The theory of light", "The law of gravity", "The laws of motion", "The speed of sound"]
+    }
+  ],
+  "translation": "Isaac Newton was sitting under a tree and thinking. An apple fell from a branch and struck his head. 'Why do all things fall to the ground?' he asked. From this simple question he discovered the law of gravity."
+}

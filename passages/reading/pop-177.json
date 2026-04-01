@@ -1,0 +1,27 @@
+{
+  "id": "pop-177",
+  "source": "Pop Culture",
+  "chapter": "The Dark Knight",
+  "latin": "Alii homines mundum ardere videre volunt. quidam rationem non habent, pretium non quaerunt. solum destructionem amant. tales homines intellegi non possunt.",
+  "glossary": {
+    "ardere": "to burn",
+    "rationem": "reason, logic",
+    "pretium": "price, reward",
+    "destructionem": "destruction",
+    "tales": "such (people)",
+    "intellegi": "to be understood"
+  },
+  "questions": [
+    {
+      "prompt": "What do some men just want?",
+      "target": "To watch the world burn",
+      "choices": ["Power and control", "To watch the world burn", "Revenge on enemies", "Wealth and fame"]
+    },
+    {
+      "prompt": "Why can such people not be reasoned with?",
+      "target": "They have no logic or desire for reward",
+      "choices": ["They are too powerful", "They have no logic or desire for reward", "They speak a different language", "They are insane"]
+    }
+  ],
+  "translation": "Some men just want to watch the world burn. Some have no reason, seek no reward. They only love destruction. Such people cannot be understood."
+}

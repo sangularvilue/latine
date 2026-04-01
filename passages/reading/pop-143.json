@@ -1,0 +1,27 @@
+{
+  "id": "pop-143",
+  "source": "Pop Culture",
+  "chapter": "Pulp Fiction",
+  "latin": "In Gallia caseum cum bubula vocant 'Regale cum caseo.' nam Galli systema metricum habent et nesciunt quid sit quarta librae.",
+  "glossary": {
+    "Gallia": "France",
+    "caseum": "cheese",
+    "bubula": "beef",
+    "Regale": "Royale",
+    "metricum": "metric",
+    "quarta librae": "a quarter pounder"
+  },
+  "questions": [
+    {
+      "prompt": "What do they call a Quarter Pounder with Cheese in France?",
+      "target": "A Royale with Cheese",
+      "choices": ["A Big Mac", "A Royale with Cheese", "Le Hamburger", "A Croque Monsieur"]
+    },
+    {
+      "prompt": "Why is it named differently in France?",
+      "target": "Because they use the metric system",
+      "choices": ["Because of the language", "Because they use the metric system", "Because of the king", "Because of the recipe"]
+    }
+  ],
+  "translation": "In France they call a burger with cheese a 'Royale with Cheese.' Because the French have the metric system and don't know what a quarter pounder is."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-198",
+  "source": "Pop Culture",
+  "chapter": "Frozen",
+  "latin": "Olaf amat amplexus calidos! homo niveus vivus erat et omnibus amplexus dare volebat. aestatem quoque amabat — nesciens se in sole liquefacturum esse.",
+  "glossary": {
+    "amplexus": "hugs, embraces",
+    "calidos": "warm",
+    "niveus": "made of snow",
+    "aestatem": "summer",
+    "sole": "sun",
+    "liquefacturum": "going to melt"
+  },
+  "questions": [
+    {
+      "prompt": "What does the snowman love?",
+      "target": "Warm hugs and summer",
+      "choices": ["Cold weather", "Warm hugs and summer", "Being alone", "Wintertime"]
+    },
+    {
+      "prompt": "What does Olaf not realize about summer?",
+      "target": "That he would melt in the sun",
+      "choices": ["That it is hot", "That he would melt in the sun", "That flowers bloom", "That birds sing"]
+    }
+  ],
+  "translation": "Olaf loves warm hugs! The living snowman wanted to give hugs to everyone. He also loved summer — not knowing he would melt in the sun."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-266",
+  "source": "Modern Life",
+  "chapter": "Losing Your Keys",
+  "latin": "Claves meas per totam domum quaesivi. sub pulvinaribus, in armariis, post sellam — nusquam erant. amicum vocavi ut me adiuvaret. tum claves in sinu meo inveni. ibi per totum tempus fuerant.",
+  "glossary": {
+    "claves": "keys",
+    "pulvinaribus": "cushions, pillows",
+    "armariis": "closets, cabinets",
+    "sinu": "pocket, fold",
+    "nusquam": "nowhere"
+  },
+  "questions": [
+    {
+      "prompt": "Where were the keys the whole time?",
+      "target": "In the narrator's pocket",
+      "choices": ["Under the couch", "In the narrator's pocket", "In the car", "On the table"]
+    },
+    {
+      "prompt": "What did the narrator do before finding them?",
+      "target": "Searched the whole house and called a friend",
+      "choices": ["Called a locksmith", "Searched the whole house and called a friend", "Gave up looking", "Retraced all steps outside"]
+    }
+  ],
+  "translation": "I searched for my keys through the whole house. Under cushions, in closets, behind the chair — they were nowhere. I called a friend to help me. Then I found the keys in my pocket. They had been there the whole time."
+}

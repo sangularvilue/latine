@@ -1,0 +1,26 @@
+{
+  "id": "pop-049",
+  "source": "Pop Culture",
+  "chapter": "Top Gun",
+  "latin": "Aviator audacissimus, antequam in caelum ascenderet, ad socium suum conversus est et dixit: 'desiderium sentio — desiderium celeritatis!'",
+  "glossary": {
+    "aviator": "pilot, flier",
+    "audacissimus": "most daring, boldest",
+    "ascenderet": "would ascend (impf. subj.)",
+    "desiderium": "desire, longing, need",
+    "celeritatis": "of speed (gen.)"
+  },
+  "questions": [
+    {
+      "prompt": "What does the pilot feel?",
+      "target": "A desire for speed",
+      "choices": ["Fear of flying", "A desire for speed", "Homesickness", "Hunger before the flight"]
+    },
+    {
+      "prompt": "Who does he speak to?",
+      "target": "His partner",
+      "choices": ["His commander", "His partner", "The control tower", "Himself"]
+    }
+  ],
+  "translation": "The most daring pilot, before ascending into the sky, turned to his partner and said: 'I feel the need — the need for speed!'"
+}

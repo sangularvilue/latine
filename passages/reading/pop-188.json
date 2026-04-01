@@ -1,0 +1,27 @@
+{
+  "id": "pop-188",
+  "source": "Pop Culture",
+  "chapter": "Shrek",
+  "latin": "Aliquis olim mihi dixit mundum me volvere iturum esse. non sum instrumentum acutissimum in tugurio. stultus videbar, digito et pollice in fronte mea.",
+  "glossary": {
+    "olim": "once",
+    "volvere": "to roll",
+    "instrumentum": "tool",
+    "acutissimum": "sharpest",
+    "tugurio": "shed",
+    "fronte": "forehead"
+  },
+  "questions": [
+    {
+      "prompt": "What did someone once tell the speaker?",
+      "target": "That the world was going to roll him",
+      "choices": ["That he was brilliant", "That the world was going to roll him", "That he should leave", "That he would be famous"]
+    },
+    {
+      "prompt": "How does the speaker describe himself?",
+      "target": "Not the sharpest tool in the shed",
+      "choices": ["The bravest knight", "Not the sharpest tool in the shed", "The wisest sage", "A fearless hero"]
+    }
+  ],
+  "translation": "Somebody once told me the world was going to roll me. I'm not the sharpest tool in the shed. I looked foolish, with my finger and thumb in the shape of an L on my forehead."
+}

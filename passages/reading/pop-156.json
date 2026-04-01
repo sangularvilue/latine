@@ -1,0 +1,27 @@
+{
+  "id": "pop-156",
+  "source": "Pop Culture",
+  "chapter": "The Dark Knight",
+  "latin": "Aut heros morieris aut tam diu vives ut te ipsum nequam fieri videas. hoc fatum omnium est qui iustitiam quaerunt in mundo corrupto.",
+  "glossary": {
+    "heros": "hero",
+    "morieris": "you will die",
+    "diu": "long",
+    "nequam": "villain, wicked",
+    "fatum": "fate",
+    "iustitiam": "justice"
+  },
+  "questions": [
+    {
+      "prompt": "What are the two possible fates described?",
+      "target": "Die a hero or live long enough to become the villain",
+      "choices": ["Win or lose", "Die a hero or live long enough to become the villain", "Fight or surrender", "Lead or follow"]
+    },
+    {
+      "prompt": "Who faces this dilemma?",
+      "target": "Those who seek justice in a corrupt world",
+      "choices": ["Only criminals", "Those who seek justice in a corrupt world", "Kings and rulers", "Young soldiers"]
+    }
+  ],
+  "translation": "Either you die a hero or you live long enough to see yourself become the villain. This is the fate of all who seek justice in a corrupt world."
+}

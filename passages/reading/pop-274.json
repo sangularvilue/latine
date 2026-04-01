@@ -1,0 +1,26 @@
+{
+  "id": "pop-274",
+  "source": "Anime",
+  "chapter": "Fullmetal Alchemist",
+  "latin": "Edwardus et Alphonsus matrem mortuam revocare conati sunt per alchemiam. sed lex commutationis crudelis fuit: Edwardus brachium et crus perdidit, Alphonsus totum corpus. nunc in armatura vacua vivit.",
+  "glossary": {
+    "revocare": "to bring back, to revive",
+    "crudelis": "cruel",
+    "brachium": "arm",
+    "crus": "leg",
+    "armatura": "suit of armor"
+  },
+  "questions": [
+    {
+      "prompt": "What did the brothers try to do?",
+      "target": "Bring their dead mother back",
+      "choices": ["Create gold", "Bring their dead mother back", "Defeat an enemy", "Build a weapon"]
+    },
+    {
+      "prompt": "What happened to Alphonse?",
+      "target": "He lost his entire body",
+      "choices": ["He lost an arm", "He lost his memory", "He lost his entire body", "He was cursed"]
+    }
+  ],
+  "translation": "Edward and Alphonse tried to revive their dead mother through alchemy. But the law of exchange was cruel: Edward lost an arm and a leg, Alphonse his entire body. Now he lives in an empty suit of armor."
+}

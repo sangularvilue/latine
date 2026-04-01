@@ -1,0 +1,27 @@
+{
+  "id": "pop-141",
+  "source": "Pop Culture",
+  "chapter": "Ted Lasso",
+  "latin": "Crede. unum verbum in signo flavo scriptum est et in muro pendet. Tedus credit — in turma sua, in hominibus, in bono quod inest in omnibus.",
+  "glossary": {
+    "crede": "believe",
+    "signo": "sign, banner",
+    "flavo": "yellow",
+    "pendet": "hangs",
+    "turma": "team",
+    "inest": "is present in, exists within"
+  },
+  "questions": [
+    {
+      "prompt": "What is written on the yellow sign?",
+      "target": "Believe",
+      "choices": ["Win", "Believe", "Fight", "Hope"]
+    },
+    {
+      "prompt": "What does Ted believe in?",
+      "target": "His team, people, and the good in everyone",
+      "choices": ["Only winning", "His team, people, and the good in everyone", "Luck and fortune", "Himself alone"]
+    }
+  ],
+  "translation": "Believe. One word is written on a yellow sign and hangs on the wall. Ted believes — in his team, in people, in the good that exists within everyone."
+}

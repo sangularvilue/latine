@@ -1,0 +1,27 @@
+{
+  "id": "pop-142",
+  "source": "Pop Culture",
+  "chapter": "Pulp Fiction",
+  "latin": "Dic 'quid' iterum. aude. dic 'quid' iterum! vir periculosus mensam percussit et oculos in eum fixit. hospes territus tacuit.",
+  "glossary": {
+    "dic": "say",
+    "iterum": "again",
+    "aude": "dare",
+    "percussit": "struck",
+    "oculos fixit": "fixed his eyes",
+    "tacuit": "fell silent"
+  },
+  "questions": [
+    {
+      "prompt": "What does the dangerous man dare his victim to do?",
+      "target": "Say 'what' one more time",
+      "choices": ["Leave the room", "Say 'what' one more time", "Draw a weapon", "Call for help"]
+    },
+    {
+      "prompt": "How does the guest react?",
+      "target": "He falls silent in terror",
+      "choices": ["He runs away", "He falls silent in terror", "He says 'what' again", "He fights back"]
+    }
+  ],
+  "translation": "Say 'what' again. I dare you. Say 'what' again! The dangerous man struck the table and fixed his eyes on him. The terrified guest fell silent."
+}

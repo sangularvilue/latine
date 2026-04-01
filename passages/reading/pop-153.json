@@ -1,0 +1,32 @@
+{
+  "id": "pop-153",
+  "source": "Pop Culture",
+  "chapter": "The Avengers",
+  "latin": "Ego sum inevitabilis. Thanus gemmis omnibus collectis digitos fregit. sed alter vir ferreus respondit: et ego — ego sum Vir Ferreus.",
+  "glossary": {
+    "inevitabilis": "inevitable",
+    "gemmis": "gems, stones",
+    "collectis": "having been collected",
+    "fregit": "snapped",
+    "alter": "the other",
+    "respondit": "replied"
+  },
+  "questions": [
+    {
+      "prompt": "What does Thanos declare himself to be?",
+      "target": "Inevitable",
+      "choices": ["Immortal", "Inevitable", "Invincible", "Infinite"]
+    },
+    {
+      "prompt": "Who counters Thanos's snap with his own?",
+      "target": "Iron Man",
+      "choices": ["Thor", "Captain America", "Iron Man", "The Hulk"]
+    },
+    {
+      "prompt": "What had Thanos collected?",
+      "target": "All the gems",
+      "choices": ["An army", "All the gems", "Weapons", "Allies"]
+    }
+  ],
+  "translation": "I am inevitable. Thanos, having collected all the gems, snapped his fingers. But the other iron man replied: and I — I am Iron Man."
+}

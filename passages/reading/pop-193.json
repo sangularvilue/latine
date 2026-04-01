@@ -1,0 +1,27 @@
+{
+  "id": "pop-193",
+  "source": "Pop Culture",
+  "chapter": "Spider-Man",
+  "latin": "Aranea-Versus. non unus sed multi Aranea-Viri existunt — in multis mundis. quisque filo pendet, quisque pugnat, quisque cadit et surgit.",
+  "glossary": {
+    "versus": "verse, universe",
+    "multi": "many",
+    "mundis": "worlds",
+    "quisque": "each one",
+    "filo": "thread, web",
+    "pendet": "hangs"
+  },
+  "questions": [
+    {
+      "prompt": "How many Spider-People exist?",
+      "target": "Many, across multiple universes",
+      "choices": ["Only one", "Many, across multiple universes", "Exactly three", "None anymore"]
+    },
+    {
+      "prompt": "What do all Spider-People have in common?",
+      "target": "They each hang from a web, fight, fall, and rise again",
+      "choices": ["They all look the same", "They each hang from a web, fight, fall, and rise again", "They all know each other", "They all live in New York"]
+    }
+  ],
+  "translation": "The Spider-Verse. Not one but many Spider-People exist — in many worlds. Each one hangs by a thread, each one fights, each one falls and rises."
+}

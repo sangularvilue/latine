@@ -1,0 +1,27 @@
+{
+  "id": "pop-194",
+  "source": "Pop Culture",
+  "chapter": "John Wick",
+  "latin": "Propter catellum? ita, propter catellum. uxor moriens ei canem dederat ut ne solus esset. illi canem occiderunt. nunc solvent.",
+  "glossary": {
+    "catellum": "puppy, small dog",
+    "uxor": "wife",
+    "moriens": "dying",
+    "dederat": "had given",
+    "solus": "alone",
+    "solvent": "they will pay"
+  },
+  "questions": [
+    {
+      "prompt": "Why had his dying wife given him a puppy?",
+      "target": "So he would not be alone",
+      "choices": ["As a birthday gift", "So he would not be alone", "To guard the house", "Because she loved dogs"]
+    },
+    {
+      "prompt": "What will happen to those who killed the dog?",
+      "target": "They will pay",
+      "choices": ["They will be forgiven", "They will pay", "They will escape", "They will apologize"]
+    }
+  ],
+  "translation": "Over a puppy? Yes, over a puppy. His dying wife had given him a dog so he would not be alone. They killed the dog. Now they will pay."
+}

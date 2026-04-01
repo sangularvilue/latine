@@ -1,0 +1,26 @@
+{
+  "id": "pop-251",
+  "source": "History",
+  "chapter": "Archimedes' Eureka",
+  "latin": "Archimedes in balneum descendit et aquam surgentem observavit. subito intellexit quomodo volumen corporis metiri posset. tam laetus erat ut nudus per vias Syracusarum curreret clamans: 'heureka! heureka!'",
+  "glossary": {
+    "balneum": "bath",
+    "surgentem": "rising",
+    "volumen": "volume",
+    "metiri": "to measure",
+    "nudus": "naked"
+  },
+  "questions": [
+    {
+      "prompt": "What did Archimedes notice in the bath?",
+      "target": "The water rising",
+      "choices": ["The temperature changing", "The water rising", "A crack in the tub", "Soap bubbles forming"]
+    },
+    {
+      "prompt": "What did Archimedes do after his discovery?",
+      "target": "He ran naked through the streets shouting",
+      "choices": ["He wrote a book immediately", "He told the king quietly", "He ran naked through the streets shouting", "He stayed in the bath thinking"]
+    }
+  ],
+  "translation": "Archimedes descended into the bath and observed the water rising. Suddenly he understood how he could measure the volume of a body. He was so happy that he ran naked through the streets of Syracuse shouting: 'Eureka! Eureka!'"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-133",
+  "source": "Pop Culture",
+  "chapter": "Parks and Recreation",
+  "latin": "Omnia dolent et morior. Lesliae dixit se numquam ante cucurrisse. post mille passus, in terra iacebat et gemebat: omnia dolent et morior.",
+  "glossary": {
+    "dolent": "hurt, are painful",
+    "morior": "I am dying",
+    "cucurrisse": "to have run",
+    "mille passus": "a mile (a thousand paces)",
+    "iacebat": "was lying down",
+    "gemebat": "was groaning"
+  },
+  "questions": [
+    {
+      "prompt": "What happened after running a mile?",
+      "target": "She lay on the ground groaning",
+      "choices": ["She celebrated", "She lay on the ground groaning", "She ran another mile", "She felt great"]
+    },
+    {
+      "prompt": "What does the speaker claim is happening?",
+      "target": "Everything hurts and she is dying",
+      "choices": ["She is winning the race", "Everything hurts and she is dying", "She needs water", "She feels wonderful"]
+    }
+  ],
+  "translation": "Everything hurts and I'm dying. She told Leslie she had never run before. After a mile, she was lying on the ground groaning: everything hurts and I'm dying."
+}

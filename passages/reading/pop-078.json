@@ -1,0 +1,26 @@
+{
+  "id": "pop-078",
+  "source": "Pop Culture",
+  "chapter": "The Big Lebowski",
+  "latin": "Cum alter vir eum vehementer accusaret, ille pigerrimus poculum suum levavit et placide respondit: 'istud nihil est nisi sententia tua, amice.'",
+  "glossary": {
+    "vehementer": "forcefully, aggressively",
+    "accusaret": "was accusing (impf. subj.)",
+    "pigerrimus": "laziest",
+    "placide": "calmly, peacefully",
+    "sententia": "opinion"
+  },
+  "questions": [
+    {
+      "prompt": "How is the lazy man being treated?",
+      "target": "He is being aggressively accused",
+      "choices": ["He is being praised", "He is being aggressively accused", "He is being ignored", "He is being questioned politely"]
+    },
+    {
+      "prompt": "How does he respond?",
+      "target": "Calmly — that's just your opinion",
+      "choices": ["With anger and violence", "Calmly — that's just your opinion", "By walking away", "By calling the police"]
+    }
+  ],
+  "translation": "When another man was aggressively accusing him, the laziest man raised his glass and calmly replied: 'That is nothing but your opinion, friend.'"
+}

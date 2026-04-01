@@ -1,0 +1,27 @@
+{
+  "id": "pop-192",
+  "source": "Pop Culture",
+  "chapter": "The Shawshank Redemption",
+  "latin": "Per quingentos passus sordidarum cloacarum repsit et in altero latere liber emersit. pluvia eum lavit et bracchia ad caelum extendit.",
+  "glossary": {
+    "quingentos": "five hundred",
+    "sordidarum": "filthy",
+    "cloacarum": "sewers",
+    "repsit": "crawled",
+    "emersit": "emerged",
+    "bracchia": "arms"
+  },
+  "questions": [
+    {
+      "prompt": "How did the man escape?",
+      "target": "By crawling through filthy sewers",
+      "choices": ["By climbing the wall", "By crawling through filthy sewers", "By bribing a guard", "By digging a tunnel"]
+    },
+    {
+      "prompt": "What did he do when he emerged free?",
+      "target": "Spread his arms to the sky in the rain",
+      "choices": ["Ran into the forest", "Spread his arms to the sky in the rain", "Collapsed on the ground", "Shouted for joy"]
+    }
+  ],
+  "translation": "He crawled through five hundred yards of filthy sewers and emerged free on the other side. The rain washed him and he stretched his arms to the sky."
+}

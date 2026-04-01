@@ -1,0 +1,27 @@
+{
+  "id": "pop-176",
+  "source": "Pop Culture",
+  "chapter": "Spider-Man",
+  "latin": "Viciniae amicalis Aranea-Vir. non capes magnos, non mundum servas — vicinos tuos custodis. hic est labor meus, et eum amo.",
+  "glossary": {
+    "viciniae": "neighborhood",
+    "amicalis": "friendly",
+    "aranea": "spider",
+    "vicinos": "neighbors",
+    "custodis": "you guard, you watch over",
+    "labor": "work, task"
+  },
+  "questions": [
+    {
+      "prompt": "What is the hero's primary duty?",
+      "target": "Watching over his neighbors",
+      "choices": ["Saving the whole world", "Watching over his neighbors", "Fighting alien armies", "Guarding a treasure"]
+    },
+    {
+      "prompt": "How does the hero feel about his work?",
+      "target": "He loves it",
+      "choices": ["He resents it", "He loves it", "He finds it boring", "He wants to quit"]
+    }
+  ],
+  "translation": "Your friendly neighborhood Spider-Man. You don't catch the big ones, you don't save the world — you watch over your neighbors. This is my job, and I love it."
+}

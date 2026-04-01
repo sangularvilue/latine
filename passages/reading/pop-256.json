@@ -1,0 +1,26 @@
+{
+  "id": "pop-256",
+  "source": "History",
+  "chapter": "Magna Carta",
+  "latin": "Barones irati ad Regem Iohannem venerunt. 'nemo supra legem est, ne rex quidem,' dixerunt. rex invitus chartam magnam subscripsit. illo die potestas regis finita non est, sed limitata est.",
+  "glossary": {
+    "barones": "barons, nobles",
+    "supra": "above",
+    "invitus": "unwilling, reluctant",
+    "subscripsit": "signed",
+    "limitata": "limited"
+  },
+  "questions": [
+    {
+      "prompt": "What did the barons declare?",
+      "target": "No one is above the law, not even the king",
+      "choices": ["The king must abdicate", "No one is above the law, not even the king", "They wanted independence", "The taxes were too high"]
+    },
+    {
+      "prompt": "How did King John sign the charter?",
+      "target": "Unwillingly",
+      "choices": ["Eagerly", "Unwillingly", "Proudly", "Secretly"]
+    }
+  ],
+  "translation": "The angry barons came to King John. 'No one is above the law, not even the king,' they said. The king unwillingly signed the great charter. On that day the king's power was not ended, but limited."
+}

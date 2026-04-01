@@ -1,0 +1,26 @@
+{
+  "id": "pop-246",
+  "source": "Literature",
+  "chapter": "Frankenstein",
+  "latin": "Nocte obscura, creatura oculos aperuit. Victor Frankenstein, creator eius, horrificatus retro cessit. opus manuum suarum vivebat — sed non erat pulchrum. erat terribile.",
+  "glossary": {
+    "creatura": "creature",
+    "horrificatus": "horrified",
+    "retro cessit": "stepped back",
+    "opus": "work, creation",
+    "terribile": "terrible, terrifying"
+  },
+  "questions": [
+    {
+      "prompt": "How does Victor react when the creature opens its eyes?",
+      "target": "He steps back in horror",
+      "choices": ["He embraces it", "He steps back in horror", "He runs from the room", "He destroys it"]
+    },
+    {
+      "prompt": "How is the creature described?",
+      "target": "Not beautiful but terrible",
+      "choices": ["Beautiful and gentle", "Not beautiful but terrible", "Small and weak", "Exactly as planned"]
+    }
+  ],
+  "translation": "On a dark night, the creature opened its eyes. Victor Frankenstein, its creator, stepped back in horror. The work of his hands was alive — but it was not beautiful. It was terrible."
+}

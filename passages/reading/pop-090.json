@@ -1,0 +1,26 @@
+{
+  "id": "pop-090",
+  "source": "Pop Culture",
+  "chapter": "Dumb and Dumber",
+  "latin": "Vir stultissimus mulierem pulchram rogavit num spes esset. illa respondit: 'una in milione.' ille laetus exclamavit: 'ergo dicis spem esse!'",
+  "glossary": {
+    "stultissimus": "most stupid",
+    "spes": "hope, chance",
+    "una in milione": "one in a million",
+    "laetus": "happy, joyful",
+    "ergo": "therefore, so"
+  },
+  "questions": [
+    {
+      "prompt": "What odds does the woman give?",
+      "target": "One in a million",
+      "choices": ["Absolutely zero", "One in a million", "Fifty-fifty", "One in a hundred"]
+    },
+    {
+      "prompt": "How does the man interpret this?",
+      "target": "He's thrilled — there's still a chance",
+      "choices": ["He's devastated", "He's thrilled — there's still a chance", "He gives up", "He asks again"]
+    }
+  ],
+  "translation": "The most stupid man asked a beautiful woman whether there was any hope. She replied: 'One in a million.' He happily exclaimed: 'So you're telling me there's a chance!'"
+}

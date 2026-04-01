@@ -1,0 +1,26 @@
+{
+  "id": "pop-038",
+  "source": "Pop Culture",
+  "chapter": "Animal House",
+  "latin": "Discipuli pessimi convivium magnum paraverunt. unus ex eis linteum corporis pro toga induit et clamare coepit: 'toga! toga!' mox omnes idem fecerunt.",
+  "glossary": {
+    "convivium": "party, feast",
+    "linteum": "bedsheet, linen cloth",
+    "pro": "instead of, in place of (+ abl.)",
+    "induit": "put on, wore",
+    "idem": "the same thing"
+  },
+  "questions": [
+    {
+      "prompt": "What did the students use as togas?",
+      "target": "Bedsheets",
+      "choices": ["Curtains", "Bedsheets", "Tablecloths", "Old robes"]
+    },
+    {
+      "prompt": "What happened after one started chanting?",
+      "target": "Everyone did the same thing",
+      "choices": ["The party was canceled", "Everyone did the same thing", "They were expelled", "The teachers joined in"]
+    }
+  ],
+  "translation": "The worst students prepared a great party. One of them put on a bedsheet as a toga and began to shout: 'Toga! Toga!' Soon everyone did the same."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-242",
+  "source": "Literature",
+  "chapter": "The Great Gatsby",
+  "latin": "Gatsby ad lumen viride trans sinum spectabat, brachiis extentis. lux illa parvam spem significabat — somnia quae numquam attingere poterat, sed numquam relinquere volebat.",
+  "glossary": {
+    "lumen": "light",
+    "viride": "green",
+    "sinum": "bay, harbor",
+    "brachiis extentis": "with arms outstretched",
+    "somnia": "dreams"
+  },
+  "questions": [
+    {
+      "prompt": "What does Gatsby look at across the bay?",
+      "target": "A green light",
+      "choices": ["A ship", "A green light", "A mansion", "A woman"]
+    },
+    {
+      "prompt": "What does the light represent?",
+      "target": "Dreams he could never reach",
+      "choices": ["His wealth", "Dreams he could never reach", "His past crimes", "A warning signal"]
+    }
+  ],
+  "translation": "Gatsby gazed at the green light across the bay, with arms outstretched. That light signified a small hope — dreams he could never reach, but never wanted to abandon."
+}

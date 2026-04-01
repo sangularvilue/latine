@@ -1,0 +1,26 @@
+{
+  "id": "pop-272",
+  "source": "Modern Life",
+  "chapter": "Procrastination",
+  "latin": "'Cras faciam,' mihi dixi die Lunae. die Martis eadem verba dixi. die Mercurii quoque. tandem die Solis, ante horam ultimam, omnia in magno pavore feci. 'numquam iterum,' mentitus sum.",
+  "glossary": {
+    "cras": "tomorrow",
+    "eadem": "the same",
+    "pavore": "panic, terror",
+    "ultimam": "last, final",
+    "mentitus sum": "I lied"
+  },
+  "questions": [
+    {
+      "prompt": "When does the narrator keep saying they will do the work?",
+      "target": "Tomorrow, every day",
+      "choices": ["Next week", "Tomorrow, every day", "After dinner", "On the weekend"]
+    },
+    {
+      "prompt": "When does the narrator finally do everything?",
+      "target": "Sunday, at the last hour, in a panic",
+      "choices": ["Friday afternoon", "Saturday morning", "Sunday, at the last hour, in a panic", "They never do it"]
+    }
+  ],
+  "translation": "'I will do it tomorrow,' I said to myself on Monday. On Tuesday I said the same words. On Wednesday too. Finally on Sunday, before the last hour, I did everything in great panic. 'Never again,' I lied."
+}

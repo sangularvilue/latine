@@ -1,0 +1,26 @@
+{
+  "id": "pop-093",
+  "source": "Pop Culture",
+  "chapter": "Dirty Harry",
+  "latin": "Praefectus sclopetum maximum ad latronem iacentem direxit. 'sextum telum emisi an quintum? verum dicam, ipse nescio. sed hoc sclopetum potentissimum in orbe est. ergo quaero: te fortunatum sentis, improbe?'",
+  "glossary": {
+    "sclopetum": "gun",
+    "latronem": "criminal, robber (acc.)",
+    "iacentem": "lying down (acc.)",
+    "emisi": "I fired, I shot",
+    "improbe": "scoundrel, punk (vocative)"
+  },
+  "questions": [
+    {
+      "prompt": "What is the officer's dilemma for the criminal?",
+      "target": "Whether the gun still has a bullet left",
+      "choices": ["Whether to arrest or release him", "Whether the gun still has a bullet left", "Whether backup is coming", "Whether to read his rights"]
+    },
+    {
+      "prompt": "What question does he ask the criminal?",
+      "target": "Do you feel lucky?",
+      "choices": ["Will you confess?", "Do you feel lucky?", "Where are the others?", "Do you want to live?"]
+    }
+  ],
+  "translation": "The officer aimed the largest gun at the criminal lying on the ground. 'Did I fire six shots or five? To tell the truth, I don't know myself. But this is the most powerful gun in the world. So I ask: do you feel lucky, punk?'"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-171",
+  "source": "Pop Culture",
+  "chapter": "The Office",
+  "latin": "Nolo! nolo! nolo! Michael audivit se Novam Eboracam non iturum esse. in terra cecidit et sicut infans clamavit: nolo! Tobias culpandus est.",
+  "glossary": {
+    "nolo": "I refuse, I don't want to",
+    "audivit": "heard",
+    "iturum": "going to go",
+    "cecidit": "fell",
+    "infans": "baby, infant",
+    "culpandus": "to be blamed"
+  },
+  "questions": [
+    {
+      "prompt": "How does Michael react to the bad news?",
+      "target": "He falls on the ground and screams like a baby",
+      "choices": ["He calmly accepts it", "He falls on the ground and screams like a baby", "He quits his job", "He starts crying quietly"]
+    },
+    {
+      "prompt": "Who does Michael blame?",
+      "target": "Toby",
+      "choices": ["Dwight", "Toby", "Jim", "Corporate"]
+    }
+  ],
+  "translation": "No! No! No! Michael heard he was not going to New York. He fell on the ground and screamed like a baby: no! Toby is to blame."
+}

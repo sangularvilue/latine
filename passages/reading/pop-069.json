@@ -1,0 +1,26 @@
+{
+  "id": "pop-069",
+  "source": "Pop Culture",
+  "chapter": "Blazing Saddles",
+  "latin": "Novus praefectus oppidi in equo advenit. oppidani obstupuerunt. unus dixit: 'sed praefectum alium exspectabamus.' praefectus, nihil turbatus, stellam suam ostendit.",
+  "glossary": {
+    "praefectus": "sheriff, prefect",
+    "oppidani": "townspeople",
+    "obstupuerunt": "were stunned",
+    "turbatus": "disturbed, bothered",
+    "stellam": "star, badge (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "How did the townspeople react to the new sheriff?",
+      "target": "They were stunned",
+      "choices": ["They celebrated", "They were stunned", "They attacked him", "They ran away"]
+    },
+    {
+      "prompt": "How did the sheriff respond?",
+      "target": "Unbothered, he showed his badge",
+      "choices": ["He threatened them", "Unbothered, he showed his badge", "He turned around and left", "He asked for their help"]
+    }
+  ],
+  "translation": "The new sheriff of the town arrived on horseback. The townspeople were stunned. One said: 'But we expected a different sheriff.' The sheriff, not at all bothered, showed his star."
+}

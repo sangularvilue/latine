@@ -1,0 +1,27 @@
+{
+  "id": "pop-182",
+  "source": "Pop Culture",
+  "chapter": "Seinfeld",
+  "latin": "Magister sui dominii! Georgius se artificem vocabat rerum quae non existebant. artem nihil faciendi perfecerat et superbus erat.",
+  "glossary": {
+    "magister": "master",
+    "dominii": "domain",
+    "artificem": "expert, craftsman",
+    "existebant": "existed",
+    "artem": "art",
+    "perfecerat": "had perfected"
+  },
+  "questions": [
+    {
+      "prompt": "What had George perfected?",
+      "target": "The art of doing nothing",
+      "choices": ["The art of cooking", "The art of doing nothing", "The art of lying", "The art of selling"]
+    },
+    {
+      "prompt": "How did George feel about his expertise?",
+      "target": "Proud",
+      "choices": ["Ashamed", "Proud", "Indifferent", "Confused"]
+    }
+  ],
+  "translation": "Master of his domain! George called himself an expert in things that did not exist. He had perfected the art of doing nothing and was proud."
+}

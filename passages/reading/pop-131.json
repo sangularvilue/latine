@@ -1,0 +1,27 @@
+{
+  "id": "pop-131",
+  "source": "Pop Culture",
+  "chapter": "Friends",
+  "latin": "Num hoc magis fastidiosum esse potest? Chandlerus semper sic loquebatur. omnia exaggerabat. num quis magis sarcasmo uti potest?",
+  "glossary": {
+    "num": "could, can (in questions)",
+    "fastidiosum": "annoying, tedious",
+    "exaggerabat": "exaggerated",
+    "sarcasmo": "sarcasm",
+    "uti": "to use",
+    "loquebatur": "was speaking"
+  },
+  "questions": [
+    {
+      "prompt": "What is Chandler's signature speech pattern?",
+      "target": "Exaggerating with 'Could this BE any more...'",
+      "choices": ["Speaking very quietly", "Exaggerating with 'Could this BE any more...'", "Using big words", "Speaking in rhymes"]
+    },
+    {
+      "prompt": "What does the speaker rely on heavily?",
+      "target": "Sarcasm",
+      "choices": ["Compliments", "Sarcasm", "Silence", "Poetry"]
+    }
+  ],
+  "translation": "Could this BE any more annoying? Chandler always spoke this way. He exaggerated everything. Could anyone use more sarcasm?"
+}

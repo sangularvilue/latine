@@ -1,0 +1,26 @@
+{
+  "id": "pop-264",
+  "source": "Modern Life",
+  "chapter": "Forgetting Why You Entered a Room",
+  "latin": "Celeriter a culina surrexi quia aliquid magni momenti in cubiculo erat. cum intravissem, omnino oblitus sum cur venissem. in culina rursus sedi. tum — recordatus sum! sed iterum oblitus sum in itinere.",
+  "glossary": {
+    "culina": "kitchen",
+    "cubiculo": "bedroom, room",
+    "oblitus sum": "I forgot",
+    "recordatus sum": "I remembered",
+    "itinere": "on the way, journey"
+  },
+  "questions": [
+    {
+      "prompt": "What happens when the narrator enters the room?",
+      "target": "He completely forgets why he came",
+      "choices": ["He finds what he needs", "He completely forgets why he came", "He gets distracted by his phone", "The room is empty"]
+    },
+    {
+      "prompt": "What happens after he remembers?",
+      "target": "He forgets again on the way",
+      "choices": ["He finally gets the item", "He writes it down", "He forgets again on the way", "He gives up entirely"]
+    }
+  ],
+  "translation": "I quickly got up from the kitchen because something very important was in the bedroom. When I entered, I completely forgot why I had come. I sat in the kitchen again. Then — I remembered! But I forgot again on the way."
+}

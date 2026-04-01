@@ -1,0 +1,27 @@
+{
+  "id": "pop-195",
+  "source": "Pop Culture",
+  "chapter": "Parks and Recreation",
+  "latin": "Literaliter optimum quod umquam gustavimus. Christus omnia quae amabat 'literaliter optima' vocabat. nihil erat mediocre — omnia aut pessima aut optima erant.",
+  "glossary": {
+    "literaliter": "literally",
+    "optimum": "best, finest",
+    "gustavimus": "we tasted",
+    "mediocre": "average, mediocre",
+    "pessima": "worst",
+    "vocabat": "called"
+  },
+  "questions": [
+    {
+      "prompt": "How does Chris describe things he likes?",
+      "target": "As literally the best ever",
+      "choices": ["As pretty good", "As literally the best ever", "As decent", "As not bad"]
+    },
+    {
+      "prompt": "What is never an option in Chris's vocabulary?",
+      "target": "Mediocre or average",
+      "choices": ["Good", "Mediocre or average", "Interesting", "Nice"]
+    }
+  ],
+  "translation": "Literally the best thing we have ever tasted. Chris called everything he loved 'literally the best.' Nothing was mediocre — everything was either the worst or the best."
+}

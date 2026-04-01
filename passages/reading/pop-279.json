@@ -1,0 +1,26 @@
+{
+  "id": "pop-279",
+  "source": "Video Games",
+  "chapter": "God of War",
+  "latin": "Kratos et Atreus cineres matris ad summum montem ferre debebant. iter longum et periculosum erat. pater puero artem pugnandi docebat, sed etiam patientiam discere debebat.",
+  "glossary": {
+    "cineres": "ashes",
+    "summum": "highest, top of",
+    "ferre": "to carry, to bring",
+    "artem": "art, skill",
+    "patientiam": "patience"
+  },
+  "questions": [
+    {
+      "prompt": "What are Kratos and Atreus carrying?",
+      "target": "Their mother's ashes",
+      "choices": ["A magical weapon", "Their mother's ashes", "A sacred relic", "Food for the journey"]
+    },
+    {
+      "prompt": "What must Kratos himself learn?",
+      "target": "Patience",
+      "choices": ["New fighting techniques", "Patience", "To use magic", "To trust the gods"]
+    }
+  ],
+  "translation": "Kratos and Atreus had to carry their mother's ashes to the top of the highest mountain. The journey was long and dangerous. The father taught the boy the art of fighting, but he himself also had to learn patience."
+}

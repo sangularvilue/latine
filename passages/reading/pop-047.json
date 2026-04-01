@@ -1,0 +1,26 @@
+{
+  "id": "pop-047",
+  "source": "Pop Culture",
+  "chapter": "Monty Python and the Holy Grail",
+  "latin": "Equites qui 'Ni' dicebant viatores terrebant. 'arbusculam mihi afferte!' clamavit dux eorum. 'aut numquam per silvam transibitis!'",
+  "glossary": {
+    "equites": "knights",
+    "viatores": "travelers",
+    "arbusculam": "small shrub, shrubbery (acc.)",
+    "afferte": "bring! (imperative pl.)",
+    "transibitis": "you will pass through"
+  },
+  "questions": [
+    {
+      "prompt": "What word do the knights use to frighten travelers?",
+      "target": "Ni",
+      "choices": ["Boo", "Ni", "Stop", "Doom"]
+    },
+    {
+      "prompt": "What do the knights demand?",
+      "target": "A shrubbery",
+      "choices": ["A sword", "A shrubbery", "Gold coins", "A holy relic"]
+    }
+  ],
+  "translation": "The knights who said 'Ni' were frightening travelers. 'Bring me a shrubbery!' their leader shouted. 'Or you will never pass through the forest!'"
+}

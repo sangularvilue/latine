@@ -1,0 +1,27 @@
+{
+  "id": "pop-151",
+  "source": "Pop Culture",
+  "chapter": "The Avengers",
+  "latin": "Hoc totum diem facere possum. parvus vir a maioribus pulsabatur sed semper surgebat. numquam cessit. hoc totum diem facere possum, inquit.",
+  "glossary": {
+    "totum diem": "all day",
+    "parvus": "small, little",
+    "maioribus": "bigger ones",
+    "pulsabatur": "was being beaten",
+    "surgebat": "kept getting up",
+    "cessit": "yielded, gave in"
+  },
+  "questions": [
+    {
+      "prompt": "What does the small man keep doing?",
+      "target": "Getting back up after being knocked down",
+      "choices": ["Running away", "Getting back up after being knocked down", "Calling for help", "Hiding from bullies"]
+    },
+    {
+      "prompt": "What is his defiant declaration?",
+      "target": "I can do this all day",
+      "choices": ["Leave me alone", "I can do this all day", "You will regret this", "I am not afraid"]
+    }
+  ],
+  "translation": "I can do this all day. The small man was being beaten by bigger ones but he always got up. He never yielded. I can do this all day, he said."
+}

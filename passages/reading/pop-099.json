@@ -1,0 +1,26 @@
+{
+  "id": "pop-099",
+  "source": "Pop Culture",
+  "chapter": "Zoolander",
+  "latin": "Exemplar vestimentorum, in speculum intuens, graviter dixit: 'vere, vere ridicule formosus sum.' quod solum omnibus problematis in mundo solvere non poterat eum perturbabat.",
+  "glossary": {
+    "exemplar": "model",
+    "vestimentorum": "of clothing (gen.)",
+    "speculum": "mirror",
+    "ridicule": "ridiculously (adv.)",
+    "perturbabat": "was troubling"
+  },
+  "questions": [
+    {
+      "prompt": "What is the model's defining characteristic?",
+      "target": "He is ridiculously good-looking",
+      "choices": ["He is incredibly intelligent", "He is ridiculously good-looking", "He is extremely wealthy", "He is unbelievably strong"]
+    },
+    {
+      "prompt": "What troubles him?",
+      "target": "That being handsome can't solve every world problem",
+      "choices": ["He's aging", "That being handsome can't solve every world problem", "He has no friends", "His career is over"]
+    }
+  ],
+  "translation": "The clothing model, looking into the mirror, said gravely: 'I am truly, truly ridiculously good-looking.' The only thing that troubled him was that this could not solve all the world's problems."
+}

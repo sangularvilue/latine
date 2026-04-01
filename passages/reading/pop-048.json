@@ -1,0 +1,26 @@
+{
+  "id": "pop-048",
+  "source": "Pop Culture",
+  "chapter": "The Terminator",
+  "latin": "Mulier perterrita in angulo se celavit. vir robustus manum ei porrexit et dixit: 'mecum veni, si vivere vis.'",
+  "glossary": {
+    "perterrita": "thoroughly frightened",
+    "angulo": "corner (abl.)",
+    "celavit": "hid",
+    "porrexit": "extended, offered",
+    "vivere": "to live"
+  },
+  "questions": [
+    {
+      "prompt": "What was the woman doing?",
+      "target": "Hiding in a corner, terrified",
+      "choices": ["Running down a hallway", "Hiding in a corner, terrified", "Fighting a machine", "Calling for help"]
+    },
+    {
+      "prompt": "What condition does the man give?",
+      "target": "Come with him if she wants to live",
+      "choices": ["Trust no one", "Come with him if she wants to live", "Stay hidden until morning", "Find the nearest exit"]
+    }
+  ],
+  "translation": "A thoroughly frightened woman had hidden herself in a corner. A strong man extended his hand to her and said: 'Come with me, if you want to live.'"
+}

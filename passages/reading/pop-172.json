@@ -1,0 +1,27 @@
+{
+  "id": "pop-172",
+  "source": "Pop Culture",
+  "chapter": "Friends",
+  "latin": "Rossus et Rachela. omnes sciebant eos amantes futuros esse. decem annos opus erat, sed tandem osculum dederunt — et omnes amici plauserunt.",
+  "glossary": {
+    "amantes": "lovers",
+    "futuros": "going to be, destined to be",
+    "annos": "years",
+    "opus erat": "it took, was needed",
+    "osculum": "kiss",
+    "plauserunt": "applauded, cheered"
+  },
+  "questions": [
+    {
+      "prompt": "How long did it take Ross and Rachel?",
+      "target": "Ten years",
+      "choices": ["One year", "Five years", "Ten years", "Twenty years"]
+    },
+    {
+      "prompt": "What did everyone always know?",
+      "target": "That they were destined to be lovers",
+      "choices": ["That they would fight", "That they were destined to be lovers", "That they would move away", "That they would just be friends"]
+    }
+  ],
+  "translation": "Ross and Rachel. Everyone knew they were destined to be lovers. It took ten years, but finally they kissed — and all their friends cheered."
+}

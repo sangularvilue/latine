@@ -1,0 +1,26 @@
+{
+  "id": "pop-270",
+  "source": "Modern Life",
+  "chapter": "Ordering Coffee",
+  "latin": "Coffeam iussi: 'magna cum lacte avenae, sine saccharo, cum duplici espresso et spuma extra.' minister me aspexit et scripsit. quod accepi nihil simile erat. sed quinque nummos aureos iam solveram.",
+  "glossary": {
+    "coffeam": "coffee",
+    "lacte": "milk",
+    "avenae": "of oats",
+    "saccharo": "sugar",
+    "spuma": "foam"
+  },
+  "questions": [
+    {
+      "prompt": "What kind of milk does the narrator want?",
+      "target": "Oat milk",
+      "choices": ["Regular milk", "Oat milk", "Almond milk", "No milk"]
+    },
+    {
+      "prompt": "Did the narrator get what they ordered?",
+      "target": "No, the drink was nothing like what was ordered",
+      "choices": ["Yes, it was perfect", "No, the drink was nothing like what was ordered", "Almost, but missing the foam", "They forgot the extra espresso"]
+    }
+  ],
+  "translation": "I ordered coffee: 'A large with oat milk, without sugar, with double espresso and extra foam.' The barista looked at me and wrote. What I received was nothing similar. But I had already paid five gold coins."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-046",
+  "source": "Pop Culture",
+  "chapter": "The Princess Bride",
+  "latin": "Servus humilis, quotiens puella ei imperabat, semper respondebat: 'ut vis.' sed puella tandem intellexit haec verba significare: 'te amo.'",
+  "glossary": {
+    "humilis": "humble, lowly",
+    "imperabat": "was commanding (+ dat.)",
+    "ut vis": "as you wish",
+    "intellexit": "understood, realized",
+    "significare": "to mean, to signify"
+  },
+  "questions": [
+    {
+      "prompt": "What did the servant always reply?",
+      "target": "As you wish",
+      "choices": ["Yes, my lady", "As you wish", "Right away", "Of course"]
+    },
+    {
+      "prompt": "What did the girl realize the words truly meant?",
+      "target": "I love you",
+      "choices": ["I obey you", "I love you", "I will leave someday", "I am happy to serve"]
+    }
+  ],
+  "translation": "A humble servant, whenever the girl commanded him, always replied: 'As you wish.' But the girl finally understood that these words meant: 'I love you.'"
+}

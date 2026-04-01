@@ -1,0 +1,27 @@
+{
+  "id": "pop-154",
+  "source": "Pop Culture",
+  "chapter": "Spider-Man",
+  "latin": "Cum magna potestate magna responsalitas venit. avunculus moriens haec verba nepoti suo dixit. puer ea numquam oblitus est et heros factus est.",
+  "glossary": {
+    "potestate": "power",
+    "responsalitas": "responsibility",
+    "avunculus": "uncle",
+    "moriens": "dying",
+    "nepoti": "nephew, young relative",
+    "oblitus est": "forgot"
+  },
+  "questions": [
+    {
+      "prompt": "What comes with great power?",
+      "target": "Great responsibility",
+      "choices": ["Great wealth", "Great responsibility", "Great danger", "Great fame"]
+    },
+    {
+      "prompt": "Who spoke these words?",
+      "target": "A dying uncle",
+      "choices": ["A teacher", "A dying uncle", "A king", "A priest"]
+    }
+  ],
+  "translation": "With great power comes great responsibility. The dying uncle spoke these words to his nephew. The boy never forgot them and became a hero."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-062",
+  "source": "Pop Culture",
+  "chapter": "Star Wars",
+  "latin": "Duo quondam amici gladiis ardentibus inter flammas pugnabant. qui supra stabat clamavit: 'locum superiorem teneo! ne temptes!' sed alter tamen saltavit — et graviter vulneratus est.",
+  "glossary": {
+    "quondam": "once, formerly",
+    "ardentibus": "burning, blazing (abl.)",
+    "flammas": "flames (acc.)",
+    "superiorem": "higher (acc.)",
+    "saltavit": "leaped, jumped"
+  },
+  "questions": [
+    {
+      "prompt": "What is the relationship between the two fighters?",
+      "target": "They were once friends",
+      "choices": ["They are brothers", "They were once friends", "They are strangers", "They are father and son"]
+    },
+    {
+      "prompt": "What happened when the lower fighter jumped?",
+      "target": "He was seriously wounded",
+      "choices": ["He won the fight", "He escaped safely", "He was seriously wounded", "He landed on equal ground"]
+    }
+  ],
+  "translation": "Two former friends fought with blazing swords among the flames. The one who stood above cried: 'I hold the higher ground! Don't try it!' But the other leaped anyway — and was seriously wounded."
+}

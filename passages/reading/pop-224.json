@@ -1,0 +1,26 @@
+{
+  "id": "pop-224",
+  "source": "Anime",
+  "chapter": "Fullmetal Alchemist",
+  "latin": "Lex commutationis aequae haec est: ut aliquid accipias, aliquid eiusdem pretii dare debes. hoc est primum principium alchemiae.",
+  "glossary": {
+    "commutationis": "of exchange",
+    "aequae": "equivalent, equal",
+    "accipias": "you may receive",
+    "pretii": "of value, of price",
+    "principium": "principle, foundation"
+  },
+  "questions": [
+    {
+      "prompt": "What must you give to receive something?",
+      "target": "Something of equal value",
+      "choices": ["Nothing at all", "Something of equal value", "Your soul", "Gold"]
+    },
+    {
+      "prompt": "What field does this law belong to?",
+      "target": "Alchemy",
+      "choices": ["Philosophy", "Alchemy", "Mathematics", "Law"]
+    }
+  ],
+  "translation": "The law of equivalent exchange is this: to receive something, you must give something of equal value. This is the first principle of alchemy."
+}

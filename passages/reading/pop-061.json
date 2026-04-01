@@ -1,0 +1,26 @@
+{
+  "id": "pop-061",
+  "source": "Pop Culture",
+  "chapter": "The Godfather",
+  "latin": "Post caedem, socius in vehiculo sedens tranquille dixit: 'sclopetum relinque. crustula autem sume.'",
+  "glossary": {
+    "caedem": "murder, killing (acc.)",
+    "socius": "partner, associate",
+    "tranquille": "calmly",
+    "sclopetum": "gun, firearm",
+    "crustula": "pastries, treats (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "What two instructions does the man give?",
+      "target": "Leave the gun, take the pastries",
+      "choices": ["Hide the body, clean the car", "Leave the gun, take the pastries", "Drive fast, stay quiet", "Burn the evidence, call the boss"]
+    },
+    {
+      "prompt": "What is the tone of the speaker?",
+      "target": "Calm",
+      "choices": ["Panicked", "Calm", "Angry", "Sorrowful"]
+    }
+  ],
+  "translation": "After the murder, the associate sitting in the car calmly said: 'Leave the gun. But take the pastries.'"
+}

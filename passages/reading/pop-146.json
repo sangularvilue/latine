@@ -1,0 +1,27 @@
+{
+  "id": "pop-146",
+  "source": "Pop Culture",
+  "chapter": "Good Will Hunting",
+  "latin": "Quomodo tibi placent mala illa? puer ex humili loco venit sed ingenium mathematicum habebat. adversarios suos superavit et risit: quomodo tibi placent mala illa?",
+  "glossary": {
+    "mala": "apples",
+    "humili": "humble, lowly",
+    "ingenium": "talent, genius",
+    "mathematicum": "mathematical",
+    "adversarios": "rivals, opponents",
+    "superavit": "surpassed, defeated"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the boy come from?",
+      "target": "A humble background",
+      "choices": ["A wealthy family", "A humble background", "A foreign country", "A famous school"]
+    },
+    {
+      "prompt": "What talent did he possess?",
+      "target": "Mathematical genius",
+      "choices": ["Musical talent", "Mathematical genius", "Athletic ability", "Artistic skill"]
+    }
+  ],
+  "translation": "How do you like them apples? The boy came from a humble place but had mathematical genius. He surpassed his rivals and laughed: how do you like them apples?"
+}

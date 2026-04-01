@@ -1,0 +1,26 @@
+{
+  "id": "pop-092",
+  "source": "Pop Culture",
+  "chapter": "The Wizard of Oz",
+  "latin": "Vox magna et terribilis clamavit: 'nolite attendere ad hominem post velum!' sed iam sero erat — canis velum retraxerat et hominem parvum et timidum revelaverat.",
+  "glossary": {
+    "velum": "curtain",
+    "attendere": "to pay attention to",
+    "sero": "too late",
+    "retraxerat": "had pulled back",
+    "revelaverat": "had revealed"
+  },
+  "questions": [
+    {
+      "prompt": "Who pulled back the curtain?",
+      "target": "A dog",
+      "choices": ["The girl", "A dog", "The scarecrow", "The lion"]
+    },
+    {
+      "prompt": "What was behind the curtain?",
+      "target": "A small, timid man",
+      "choices": ["A powerful wizard", "A small, timid man", "A magic machine", "Nothing at all"]
+    }
+  ],
+  "translation": "A great and terrible voice shouted: 'Pay no attention to the man behind the curtain!' But it was already too late — the dog had pulled back the curtain and revealed a small, timid man."
+}

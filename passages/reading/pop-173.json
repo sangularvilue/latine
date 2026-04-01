@@ -1,0 +1,27 @@
+{
+  "id": "pop-173",
+  "source": "Pop Culture",
+  "chapter": "Arrested Development",
+  "latin": "Semper pecunia superest ad unam bananam. quot constat una banana, decem aureis? Lucilla numquam in taberna fuerat et pretia rerum ignorabat.",
+  "glossary": {
+    "superest": "is left over, remains",
+    "bananam": "banana",
+    "constat": "costs",
+    "aureis": "gold coins, dollars",
+    "pretia": "prices",
+    "ignorabat": "did not know, was ignorant of"
+  },
+  "questions": [
+    {
+      "prompt": "What does Lucille think a banana costs?",
+      "target": "Ten dollars",
+      "choices": ["One dollar", "Ten dollars", "A hundred dollars", "Fifty cents"]
+    },
+    {
+      "prompt": "Why is she so out of touch with prices?",
+      "target": "She has never been to a store",
+      "choices": ["She is very old", "She has never been to a store", "Prices recently changed", "She is from another country"]
+    }
+  ],
+  "translation": "There's always money left for one banana. How much does one banana cost, ten dollars? Lucille had never been to a store and was ignorant of the prices of things."
+}

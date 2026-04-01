@@ -1,0 +1,27 @@
+{
+  "id": "pop-160",
+  "source": "Pop Culture",
+  "chapter": "Shrek",
+  "latin": "Quid facis in palude mea? ogrus viridis clamavit cum hospites non invitatos vidit. paludem suam amabat et solitudinem desiderabat.",
+  "glossary": {
+    "palude": "swamp",
+    "ogrus": "ogre",
+    "viridis": "green",
+    "hospites": "guests, visitors",
+    "invitatos": "invited",
+    "solitudinem": "solitude"
+  },
+  "questions": [
+    {
+      "prompt": "What does the ogre want?",
+      "target": "Solitude in his swamp",
+      "choices": ["More friends", "Solitude in his swamp", "A bigger house", "A kingdom"]
+    },
+    {
+      "prompt": "Why is the ogre angry?",
+      "target": "Uninvited guests have come to his swamp",
+      "choices": ["His food is gone", "Uninvited guests have come to his swamp", "It is raining", "Someone stole his things"]
+    }
+  ],
+  "translation": "What are you doing in my swamp? The green ogre shouted when he saw uninvited guests. He loved his swamp and desired solitude."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-283",
+  "source": "Video Games",
+  "chapter": "Celeste",
+  "latin": "In summo monte, Madeline umbram suam invenit. umbra omnes timores et dubitationes eius erat. non pugnare sed amplecti eam debuit. cum partem sui accepisset, vere fortis facta est.",
+  "glossary": {
+    "umbram": "shadow, dark reflection",
+    "timores": "fears",
+    "dubitationes": "doubts",
+    "amplecti": "to embrace",
+    "accepisset": "had accepted"
+  },
+  "questions": [
+    {
+      "prompt": "What does Madeline's shadow represent?",
+      "target": "All her fears and doubts",
+      "choices": ["A monster", "All her fears and doubts", "Her past self", "A curse on the mountain"]
+    },
+    {
+      "prompt": "What must Madeline do with her shadow?",
+      "target": "Embrace it, not fight it",
+      "choices": ["Destroy it", "Embrace it, not fight it", "Run from it", "Trap it on the mountain"]
+    }
+  ],
+  "translation": "At the top of the mountain, Madeline found her shadow. The shadow was all her fears and doubts. She had to not fight but embrace it. When she had accepted that part of herself, she became truly strong."
+}

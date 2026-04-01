@@ -1,0 +1,26 @@
+{
+  "id": "pop-045",
+  "source": "Pop Culture",
+  "chapter": "The Princess Bride",
+  "latin": "Vir brevis et callidus, quotiens consilium eius frustrabatur, idem verbum clamabat: 'fieri non potest!' tandem amicus eius dixit: 'puto te nescire quid hoc verbum significet.'",
+  "glossary": {
+    "callidus": "clever, crafty",
+    "quotiens": "whenever, each time",
+    "frustrabatur": "was foiled, was thwarted",
+    "significet": "means (pres. subj.)",
+    "puto": "I think, I believe"
+  },
+  "questions": [
+    {
+      "prompt": "What does the short man keep saying?",
+      "target": "It cannot be! (Inconceivable!)",
+      "choices": ["It cannot be! (Inconceivable!)", "We must flee!", "Attack now!", "I give up!"]
+    },
+    {
+      "prompt": "What does his friend suggest?",
+      "target": "He doesn't know what that word means",
+      "choices": ["He should stop talking", "He doesn't know what that word means", "He should find a new plan", "He is using the wrong language"]
+    }
+  ],
+  "translation": "A short and crafty man, whenever his plan was thwarted, kept shouting the same word: 'Inconceivable!' Finally his friend said: 'I think you don't know what that word means.'"
+}

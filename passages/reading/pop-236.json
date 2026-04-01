@@ -1,0 +1,26 @@
+{
+  "id": "pop-236",
+  "source": "Video Games",
+  "chapter": "Bioshock",
+  "latin": "Andrew Ryan malleum tenens dixit: 'vir eligit, servus obedit.' deinde se ipsum percussit, libertatem suam usque ad finem demonstrans.",
+  "glossary": {
+    "malleum": "golf club, hammer",
+    "eligit": "chooses",
+    "servus": "slave",
+    "obedit": "obeys",
+    "percussit": "struck"
+  },
+  "questions": [
+    {
+      "prompt": "What is the key difference Andrew Ryan describes?",
+      "target": "A man chooses, a slave obeys",
+      "choices": ["The strong survive, the weak perish", "A man chooses, a slave obeys", "Freedom requires sacrifice", "Power corrupts all men"]
+    },
+    {
+      "prompt": "What does Ryan do to prove his point?",
+      "target": "He strikes himself",
+      "choices": ["He escapes the city", "He fights back", "He strikes himself", "He destroys Rapture"]
+    }
+  ],
+  "translation": "Andrew Ryan, holding a club, said: 'A man chooses, a slave obeys.' Then he struck himself, demonstrating his freedom to the very end."
+}

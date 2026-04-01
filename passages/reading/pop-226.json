@@ -1,0 +1,26 @@
+{
+  "id": "pop-226",
+  "source": "Anime",
+  "chapter": "Cowboy Bebop",
+  "latin": "Onus grave in umeris portabis. hoc est fatum venatoris praemiorum qui praeteritum suum effugere non potest. memoria semper te sequetur.",
+  "glossary": {
+    "onus": "weight, burden",
+    "umeris": "shoulders",
+    "fatum": "fate, destiny",
+    "venatoris": "of a hunter",
+    "praeteritum": "the past"
+  },
+  "questions": [
+    {
+      "prompt": "What will the bounty hunter carry?",
+      "target": "A heavy burden",
+      "choices": ["A weapon", "A heavy burden", "A treasure", "A message"]
+    },
+    {
+      "prompt": "What cannot be escaped?",
+      "target": "The past",
+      "choices": ["The future", "Death", "The past", "The law"]
+    }
+  ],
+  "translation": "You will carry a heavy weight on your shoulders. This is the fate of a bounty hunter who cannot escape his past. Memory will always follow you."
+}

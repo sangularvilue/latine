@@ -1,0 +1,26 @@
+{
+  "id": "pop-277",
+  "source": "Anime",
+  "chapter": "Spirited Away",
+  "latin": "Chihiro nomen suum oblivisci coeperat. Haku eam monuit: 'nomen tuum tene — si oblita eris, numquam domum redibis.' nomen est res potentissima in mundo spirituum.",
+  "glossary": {
+    "oblivisci": "to forget",
+    "monuit": "warned",
+    "tene": "hold, keep",
+    "oblita eris": "you will have forgotten",
+    "potentissima": "most powerful"
+  },
+  "questions": [
+    {
+      "prompt": "What was Chihiro beginning to forget?",
+      "target": "Her own name",
+      "choices": ["Her parents", "Her own name", "Her home", "Her age"]
+    },
+    {
+      "prompt": "What warning does Haku give?",
+      "target": "If she forgets her name she can never return home",
+      "choices": ["The witch will find her", "If she forgets her name she can never return home", "The spirits will capture her", "She will turn into an animal"]
+    }
+  ],
+  "translation": "Chihiro had begun to forget her name. Haku warned her: 'Keep your name — if you forget it, you will never return home.' A name is the most powerful thing in the world of spirits."
+}

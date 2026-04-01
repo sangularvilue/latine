@@ -1,0 +1,26 @@
+{
+  "id": "pop-271",
+  "source": "Modern Life",
+  "chapter": "On Hold",
+  "latin": "Telephono auxilium petivi. 'vox tua nobis magni momenti est,' machina dixit. deinde musica horrenda per duas horas cecinit. cum tandem homo verus respondit, conexio interrupta est.",
+  "glossary": {
+    "auxilium": "help, assistance",
+    "magni momenti": "of great importance",
+    "horrenda": "horrible, dreadful",
+    "verus": "real, true",
+    "interrupta": "interrupted, cut off"
+  },
+  "questions": [
+    {
+      "prompt": "What did the automated message say?",
+      "target": "Your call is very important to us",
+      "choices": ["Please call back later", "Your call is very important to us", "We are currently closed", "Press one for English"]
+    },
+    {
+      "prompt": "What happened when a real person finally answered?",
+      "target": "The connection was cut off",
+      "choices": ["They solved the problem", "The connection was cut off", "They transferred the call again", "They put the caller back on hold"]
+    }
+  ],
+  "translation": "I called for help by phone. 'Your voice is very important to us,' the machine said. Then horrible music played for two hours. When a real person finally answered, the connection was cut off."
+}

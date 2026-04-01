@@ -1,0 +1,27 @@
+{
+  "id": "pop-165",
+  "source": "Pop Culture",
+  "chapter": "Wayne Gretzky / Michael Scott",
+  "latin": "Centum centesimas iactuum quos non iacis amittis. hoc magnus lusor dixit. et Michael, in muro officii scribens, addidit: et hoc ego dixi — Michael.",
+  "glossary": {
+    "centesimas": "percent",
+    "iactuum": "of shots",
+    "iacis": "you throw, you take",
+    "amittis": "you miss, you lose",
+    "lusor": "player",
+    "addidit": "added"
+  },
+  "questions": [
+    {
+      "prompt": "What percentage of shots you don't take do you miss?",
+      "target": "One hundred percent",
+      "choices": ["Fifty percent", "One hundred percent", "Seventy-five percent", "None"]
+    },
+    {
+      "prompt": "Who humorously claimed the quote as his own?",
+      "target": "Michael Scott",
+      "choices": ["Dwight Schrute", "Michael Scott", "Jim Halpert", "Wayne Gretzky"]
+    }
+  ],
+  "translation": "You miss one hundred percent of the shots you don't take. A great player said this. And Michael, writing on the office wall, added: and I said this — Michael."
+}

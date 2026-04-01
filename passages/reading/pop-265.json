@@ -1,0 +1,26 @@
+{
+  "id": "pop-265",
+  "source": "Modern Life",
+  "chapter": "The Group Project",
+  "latin": "Quinque discipuli opus commune habebant. primus se occupatum esse dixit. secundus aegrotabat. tertius et quartus evanuerunt. unus omnia solus fecit et nomen omnium in opere scripsit.",
+  "glossary": {
+    "discipuli": "students",
+    "opus commune": "group project",
+    "occupatum": "busy",
+    "aegrotabat": "was sick",
+    "evanuerunt": "vanished, disappeared"
+  },
+  "questions": [
+    {
+      "prompt": "How many students actually did the work?",
+      "target": "One",
+      "choices": ["All five", "Three", "Two", "One"]
+    },
+    {
+      "prompt": "What excuses did the others give?",
+      "target": "Busy, sick, or they just vanished",
+      "choices": ["They had other projects", "Busy, sick, or they just vanished", "They forgot about it", "They disagreed with the topic"]
+    }
+  ],
+  "translation": "Five students had a group project. The first said he was busy. The second was sick. The third and fourth vanished. One person did everything alone and wrote everyone's name on the work."
+}

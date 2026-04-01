@@ -1,0 +1,27 @@
+{
+  "id": "pop-129",
+  "source": "Pop Culture",
+  "chapter": "The Office",
+  "latin": "Aliquo modo ego moderor. Michael librum de arte moderandi scribere volebat. titulus erat 'Aliquo Modo Ego Moderor.' liber unam paginam habebat — imaginem eius ridentis.",
+  "glossary": {
+    "aliquo modo": "somehow",
+    "moderor": "I manage",
+    "librum": "book",
+    "titulus": "title",
+    "paginam": "page",
+    "imaginem": "picture, image"
+  },
+  "questions": [
+    {
+      "prompt": "What did Michael want to write?",
+      "target": "A book about managing",
+      "choices": ["A novel", "A book about managing", "A letter", "A diary"]
+    },
+    {
+      "prompt": "What was in the book?",
+      "target": "Only one page with his picture smiling",
+      "choices": ["Hundreds of chapters", "Only one page with his picture smiling", "Nothing at all", "A list of rules"]
+    }
+  ],
+  "translation": "Somehow I manage. Michael wanted to write a book about the art of managing. The title was 'Somehow I Manage.' The book had one page — a picture of him smiling."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-169",
+  "source": "Pop Culture",
+  "chapter": "Succession",
+  "latin": "Abscede. non es in ludo. tu puerum ludis in mensa virorum. abscede antequam te frango.",
+  "glossary": {
+    "abscede": "go away, back off",
+    "ludo": "game",
+    "puerum": "boy, child",
+    "mensa": "table",
+    "virorum": "of men",
+    "frango": "I break"
+  },
+  "questions": [
+    {
+      "prompt": "What is the speaker telling someone to do?",
+      "target": "Back off because they are out of their league",
+      "choices": ["Join the game", "Back off because they are out of their league", "Sit down and eat", "Come closer"]
+    },
+    {
+      "prompt": "What threat does the speaker make?",
+      "target": "To break the other person",
+      "choices": ["To tell their father", "To break the other person", "To leave the company", "To call the police"]
+    }
+  ],
+  "translation": "Back off. You are not in the game. You are playing a boy at the table of men. Back off before I break you."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-077",
+  "source": "Pop Culture",
+  "chapter": "Blazing Saddles",
+  "latin": "Praefectus de oppidanis suis locutus est: 'hi sunt homines terrae simplices — vulgus communis.' et post brevem pausam addidit: 'scis — stulti.'",
+  "glossary": {
+    "oppidanis": "townspeople (abl.)",
+    "vulgus": "common people, the masses",
+    "communis": "common, ordinary",
+    "pausam": "pause (acc.)",
+    "stulti": "fools, stupid people"
+  },
+  "questions": [
+    {
+      "prompt": "How does the sheriff describe his townspeople at first?",
+      "target": "Simple people of the earth — common folk",
+      "choices": ["Brave warriors", "Simple people of the earth — common folk", "Wise elders", "Loyal citizens"]
+    },
+    {
+      "prompt": "What does he add after a pause?",
+      "target": "Fools",
+      "choices": ["Heroes", "Fools", "Friends", "Cowards"]
+    }
+  ],
+  "translation": "The sheriff spoke about his townspeople: 'These are simple people of the earth — the common folk.' And after a brief pause he added: 'You know — fools.'"
+}

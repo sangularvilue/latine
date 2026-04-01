@@ -1,0 +1,31 @@
+{
+  "id": "pop-231",
+  "source": "Anime",
+  "chapter": "Howl's Moving Castle",
+  "latin": "Castellum Howl ambulabat per colles, fumo e camino surgente. Sophie, puella in anum mutata, ostium pulsavit. intus ignis vivus nomine Calcifer eam salutavit.",
+  "glossary": {
+    "castellum": "castle",
+    "colles": "hills",
+    "camino": "chimney, fireplace",
+    "anum": "old woman",
+    "ignis vivus": "living fire"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to Sophie?",
+      "target": "She was turned into an old woman",
+      "choices": ["She got lost", "She was turned into an old woman", "She fell asleep", "She became invisible"]
+    },
+    {
+      "prompt": "Who greets Sophie inside the castle?",
+      "target": "A living fire named Calcifer",
+      "choices": ["Howl himself", "A living fire named Calcifer", "A witch", "A servant"]
+    },
+    {
+      "prompt": "How does the castle move?",
+      "target": "It walks across the hills",
+      "choices": ["It flies through the air", "It walks across the hills", "It floats on water", "It rolls on wheels"]
+    }
+  ],
+  "translation": "Howl's castle walked across the hills, with smoke rising from its chimney. Sophie, a girl turned into an old woman, knocked on the door. Inside, a living fire named Calcifer greeted her."
+}

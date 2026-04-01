@@ -1,0 +1,26 @@
+{
+  "id": "pop-081",
+  "source": "Pop Culture",
+  "chapter": "Groundhog Day",
+  "latin": "Vir mane iterum expergefactus est et eundem diem vivebat. iterum atque iterum idem cantus ex machina sonabat. 'eheu,' suspiravit, 'rursus hic dies.'",
+  "glossary": {
+    "expergefactus": "awakened",
+    "eundem": "the same (acc.)",
+    "cantus": "song",
+    "machina": "machine (here: alarm clock)",
+    "rursus": "again"
+  },
+  "questions": [
+    {
+      "prompt": "What is the man's problem?",
+      "target": "He keeps living the same day over and over",
+      "choices": ["He can't sleep at night", "He keeps living the same day over and over", "He is stuck in a snowstorm", "He lost his memory"]
+    },
+    {
+      "prompt": "What keeps happening each morning?",
+      "target": "The same song plays from the alarm",
+      "choices": ["He wakes up somewhere new", "The same song plays from the alarm", "Someone knocks at his door", "His phone rings"]
+    }
+  ],
+  "translation": "The man woke again in the morning and was living the same day. Again and again the same song sounded from the machine. 'Alas,' he sighed, 'this day again.'"
+}

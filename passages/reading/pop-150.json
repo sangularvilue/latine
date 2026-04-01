@@ -1,0 +1,27 @@
+{
+  "id": "pop-150",
+  "source": "Pop Culture",
+  "chapter": "The Avengers",
+  "latin": "Ego sum Vir Ferreus. Antonius haec verba ultima dixit, digitos suos fregit, et mundum servavit. pretium erat vita sua.",
+  "glossary": {
+    "ferreus": "iron, made of iron",
+    "ultima": "last, final",
+    "digitos": "fingers",
+    "fregit": "snapped",
+    "servavit": "saved",
+    "pretium": "price, cost"
+  },
+  "questions": [
+    {
+      "prompt": "What were Tony's final words?",
+      "target": "I am Iron Man",
+      "choices": ["Goodbye everyone", "I am Iron Man", "We won", "Avengers assemble"]
+    },
+    {
+      "prompt": "What was the cost of saving the world?",
+      "target": "His own life",
+      "choices": ["His fortune", "His own life", "His armor", "His friends"]
+    }
+  ],
+  "translation": "I am Iron Man. Tony spoke these final words, snapped his fingers, and saved the world. The price was his own life."
+}

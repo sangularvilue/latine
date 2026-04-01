@@ -1,0 +1,27 @@
+{
+  "id": "pop-161",
+  "source": "Pop Culture",
+  "chapter": "Shrek",
+  "latin": "Ogri sunt sicut cepae. strata habent! non sunt simplices — multa strata habent, sicut cepae. nonne intellegis? strata!",
+  "glossary": {
+    "ogri": "ogres",
+    "cepae": "onions",
+    "strata": "layers",
+    "simplices": "simple",
+    "multa": "many",
+    "intellegis": "you understand"
+  },
+  "questions": [
+    {
+      "prompt": "What are ogres compared to?",
+      "target": "Onions",
+      "choices": ["Cakes", "Onions", "Mountains", "Trees"]
+    },
+    {
+      "prompt": "What do ogres and onions have in common?",
+      "target": "They both have layers",
+      "choices": ["They both smell bad", "They both have layers", "They are both green", "They are both round"]
+    }
+  ],
+  "translation": "Ogres are like onions. They have layers! They are not simple — they have many layers, like onions. Don't you understand? Layers!"
+}

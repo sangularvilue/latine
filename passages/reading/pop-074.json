@@ -1,0 +1,26 @@
+{
+  "id": "pop-074",
+  "source": "Pop Culture",
+  "chapter": "Monty Python and the Holy Grail",
+  "latin": "Equites magni et terribiles in silva viam obstruxerunt. 'nos sumus equites qui \"Ni\" dicunt!' clamavit princeps eorum. viatores autem ridere voluerunt sed timuerunt.",
+  "glossary": {
+    "obstruxerunt": "blocked",
+    "princeps": "chief, leader",
+    "viatores": "travelers",
+    "ridere": "to laugh",
+    "timuerunt": "feared, were afraid"
+  },
+  "questions": [
+    {
+      "prompt": "Where do the knights block the path?",
+      "target": "In a forest",
+      "choices": ["On a bridge", "In a forest", "At a castle gate", "On a mountain pass"]
+    },
+    {
+      "prompt": "How did the travelers feel?",
+      "target": "They wanted to laugh but were afraid",
+      "choices": ["They were only terrified", "They wanted to laugh but were afraid", "They were completely unimpressed", "They immediately surrendered"]
+    }
+  ],
+  "translation": "Tall and terrible knights blocked the way in the forest. 'We are the knights who say Ni!' their leader shouted. The travelers wanted to laugh but were afraid."
+}

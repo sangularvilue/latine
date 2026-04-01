@@ -1,0 +1,26 @@
+{
+  "id": "pop-286",
+  "source": "Literature",
+  "chapter": "Romeo and Juliet",
+  "latin": "Romeo venenum bibit quia Iuliettam mortuam esse credebat. Iulietta evigilans corpus eius vidit et pugionem cepit. 'labia eius adhuc calida sunt,' dixit, et se ipsam percussit.",
+  "glossary": {
+    "venenum": "poison",
+    "evigilans": "waking up",
+    "pugionem": "dagger",
+    "calida": "warm",
+    "percussit": "struck, stabbed"
+  },
+  "questions": [
+    {
+      "prompt": "Why does Romeo drink poison?",
+      "target": "He believes Juliet is dead",
+      "choices": ["He is forced to", "He believes Juliet is dead", "He wants to test it", "He was tricked"]
+    },
+    {
+      "prompt": "What does Juliet do when she wakes?",
+      "target": "She stabs herself with a dagger",
+      "choices": ["She calls for help", "She stabs herself with a dagger", "She drinks the remaining poison", "She faints again"]
+    }
+  ],
+  "translation": "Romeo drank poison because he believed Juliet was dead. Juliet, waking up, saw his body and took a dagger. 'His lips are still warm,' she said, and stabbed herself."
+}

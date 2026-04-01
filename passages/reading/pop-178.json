@@ -1,0 +1,27 @@
+{
+  "id": "pop-178",
+  "source": "Pop Culture",
+  "chapter": "Frozen",
+  "latin": "Vis nive hominem struere? veni, ludamus! soror ad ianuam clausam cantabat. sed nemo respondit. anni transierunt et ianua clausa mansit.",
+  "glossary": {
+    "nive": "snow (ablative)",
+    "struere": "to build",
+    "ludamus": "let us play",
+    "ianuam": "door",
+    "clausam": "closed, shut",
+    "mansit": "remained"
+  },
+  "questions": [
+    {
+      "prompt": "What does the sister want to build?",
+      "target": "A snowman",
+      "choices": ["A castle", "A snowman", "A fort", "A sled"]
+    },
+    {
+      "prompt": "What happened over the years?",
+      "target": "The door stayed closed and no one answered",
+      "choices": ["They played every day", "The door stayed closed and no one answered", "The snow melted", "They moved away"]
+    }
+  ],
+  "translation": "Do you want to build a snowman? Come, let's play! The sister was singing at the closed door. But no one answered. Years passed and the door remained shut."
+}

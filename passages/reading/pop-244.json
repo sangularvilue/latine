@@ -1,0 +1,26 @@
+{
+  "id": "pop-244",
+  "source": "Literature",
+  "chapter": "Romeo and Juliet",
+  "latin": "Iulietta in podio stabat sub luna. Romeo ex horto sursum spectans susurravit: 'quid est lux illa per fenestram? Iulietta est sol!' illa autem eum nondum viderat.",
+  "glossary": {
+    "podio": "balcony",
+    "luna": "moon",
+    "sursum": "upward",
+    "susurravit": "whispered",
+    "fenestram": "window"
+  },
+  "questions": [
+    {
+      "prompt": "Where is Juliet standing?",
+      "target": "On a balcony under the moon",
+      "choices": ["In a garden", "On a balcony under the moon", "By a fountain", "At a window"]
+    },
+    {
+      "prompt": "What does Romeo compare Juliet to?",
+      "target": "The sun",
+      "choices": ["The moon", "The sun", "A star", "A rose"]
+    }
+  ],
+  "translation": "Juliet stood on the balcony under the moon. Romeo, looking up from the garden, whispered: 'What is that light through the window? Juliet is the sun!' But she had not yet seen him."
+}

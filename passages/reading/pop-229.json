@@ -1,0 +1,26 @@
+{
+  "id": "pop-229",
+  "source": "Anime",
+  "chapter": "Spirited Away",
+  "latin": "Chihiro balneum magicum intravit ubi spiritus et dei lavari veniebant. Yubaba, domina balnei, nomen puellae abstulit et eam laborare coegit.",
+  "glossary": {
+    "balneum": "bathhouse",
+    "spiritus": "spirits",
+    "lavari": "to be washed, to bathe",
+    "abstulit": "took away, stole",
+    "coegit": "forced, compelled"
+  },
+  "questions": [
+    {
+      "prompt": "Who visits the bathhouse?",
+      "target": "Spirits and gods",
+      "choices": ["Humans only", "Spirits and gods", "Children", "Animals"]
+    },
+    {
+      "prompt": "What did Yubaba take from Chihiro?",
+      "target": "Her name",
+      "choices": ["Her parents", "Her money", "Her name", "Her clothes"]
+    }
+  ],
+  "translation": "Chihiro entered a magical bathhouse where spirits and gods came to be bathed. Yubaba, the mistress of the bathhouse, took away the girl's name and forced her to work."
+}

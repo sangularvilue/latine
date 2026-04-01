@@ -1,0 +1,27 @@
+{
+  "id": "pop-155",
+  "source": "Pop Culture",
+  "chapter": "The Dark Knight",
+  "latin": "Cur tam serius? vir pictus vultu cicatricoso subrisit. mundum ardere videre volebat. nulla ratio, nullum consilium — solum chaos.",
+  "glossary": {
+    "serius": "serious",
+    "pictus": "painted",
+    "cicatricoso": "scarred",
+    "ardere": "to burn",
+    "ratio": "reason",
+    "chaos": "chaos"
+  },
+  "questions": [
+    {
+      "prompt": "What does the painted man ask?",
+      "target": "Why so serious?",
+      "choices": ["Why so sad?", "Why so serious?", "Why so angry?", "Why so afraid?"]
+    },
+    {
+      "prompt": "What does the villain want?",
+      "target": "To watch the world burn with no plan or reason",
+      "choices": ["Money and power", "To watch the world burn with no plan or reason", "Revenge on one person", "To rule the city"]
+    }
+  ],
+  "translation": "Why so serious? The man with a painted, scarred face smiled. He wanted to watch the world burn. No reason, no plan — only chaos."
+}

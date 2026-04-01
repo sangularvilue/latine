@@ -1,0 +1,26 @@
+{
+  "id": "pop-073",
+  "source": "Pop Culture",
+  "chapter": "Back to the Future",
+  "latin": "Inventor capillis erectis exclamavit: 'unum et viginti centesimae gigavattorum! quo modo tantam vim generabimus?' puer confusus rogavit quid gigavattum esset.",
+  "glossary": {
+    "capillis erectis": "with hair standing up (abl. abs.)",
+    "gigavattorum": "of gigawatts (gen.)",
+    "vim": "power, force (acc.)",
+    "generabimus": "we will generate",
+    "confusus": "confused"
+  },
+  "questions": [
+    {
+      "prompt": "What problem does the inventor face?",
+      "target": "Generating enough power — 1.21 gigawatts",
+      "choices": ["Building a time machine", "Generating enough power — 1.21 gigawatts", "Finding the right parts", "Calculating the correct date"]
+    },
+    {
+      "prompt": "How does the boy react?",
+      "target": "Confused — he doesn't know what a gigawatt is",
+      "choices": ["He immediately has an idea", "Confused — he doesn't know what a gigawatt is", "He suggests using lightning", "He panics and runs away"]
+    }
+  ],
+  "translation": "The inventor, with his hair standing up, exclaimed: '1.21 gigawatts! How will we generate so much power?' The confused boy asked what a gigawatt was."
+}

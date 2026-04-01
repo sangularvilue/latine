@@ -1,0 +1,26 @@
+{
+  "id": "pop-280",
+  "source": "Video Games",
+  "chapter": "Undertale",
+  "latin": "In mundo subterraneo, monstrum quodque animam habebat et historiam suam. parvulus homo eligere poterat: occidere aut parcere. misericordia fortior gladio esse poterat.",
+  "glossary": {
+    "monstrum": "monster",
+    "animam": "soul",
+    "eligere": "to choose",
+    "occidere": "to kill",
+    "misericordia": "mercy, compassion"
+  },
+  "questions": [
+    {
+      "prompt": "What choice does the human face?",
+      "target": "To kill or to spare",
+      "choices": ["To stay or to leave", "To kill or to spare", "To fight or to hide", "To speak or to be silent"]
+    },
+    {
+      "prompt": "What can be stronger than a sword?",
+      "target": "Mercy",
+      "choices": ["Magic", "Mercy", "Determination", "Intelligence"]
+    }
+  ],
+  "translation": "In the underground world, every monster had a soul and its own story. The small human could choose: to kill or to spare. Mercy could be stronger than a sword."
+}

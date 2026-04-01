@@ -1,0 +1,26 @@
+{
+  "id": "pop-299",
+  "source": "History",
+  "chapter": "Martin Luther's 95 Theses",
+  "latin": "Ecclesia indulgentias vendebat: 'pecuniam date et peccata vestra remittuntur!' Lutherus iratus scripsit: 'gratia Dei vendi non potest.' verba eius, per typographiam nova diffusa, Europam incenderunt.",
+  "glossary": {
+    "indulgentias": "indulgences",
+    "peccata": "sins",
+    "remittuntur": "are forgiven",
+    "gratia": "grace, favor",
+    "typographiam": "printing press"
+  },
+  "questions": [
+    {
+      "prompt": "What was the Church selling?",
+      "target": "Indulgences — forgiveness of sins for money",
+      "choices": ["Holy relics", "Indulgences — forgiveness of sins for money", "Titles of nobility", "Land in heaven"]
+    },
+    {
+      "prompt": "What helped spread Luther's message across Europe?",
+      "target": "The printing press",
+      "choices": ["Traveling monks", "The printing press", "Royal messengers", "Word of mouth only"]
+    }
+  ],
+  "translation": "The Church was selling indulgences: 'Give money and your sins are forgiven!' Luther, angry, wrote: 'The grace of God cannot be sold.' His words, spread through the new printing press, set Europe on fire."
+}

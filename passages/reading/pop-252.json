@@ -1,0 +1,26 @@
+{
+  "id": "pop-252",
+  "source": "History",
+  "chapter": "Galileo",
+  "latin": "Galileus coram iudicibus Inquisitionis stare coactus est. negare debuit terram circa solem moveri. sed cum surgeret, sub voce murmuravit: 'et tamen movetur.'",
+  "glossary": {
+    "coram": "before, in the presence of",
+    "iudicibus": "judges",
+    "negare": "to deny",
+    "moveri": "to move, to be moved",
+    "murmuravit": "murmured, whispered"
+  },
+  "questions": [
+    {
+      "prompt": "What was Galileo forced to deny?",
+      "target": "That the earth moves around the sun",
+      "choices": ["That God exists", "That the earth moves around the sun", "That he built a telescope", "That the stars are distant"]
+    },
+    {
+      "prompt": "What did Galileo whisper as he stood up?",
+      "target": "And yet it moves",
+      "choices": ["I was right", "And yet it moves", "They will see", "God forgive them"]
+    }
+  ],
+  "translation": "Galileo was forced to stand before the judges of the Inquisition. He had to deny that the earth moves around the sun. But as he rose, he murmured under his breath: 'And yet it moves.'"
+}

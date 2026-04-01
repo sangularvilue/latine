@@ -1,0 +1,26 @@
+{
+  "id": "pop-088",
+  "source": "Pop Culture",
+  "chapter": "Wedding Crashers",
+  "latin": "Duo amici ad nuptias alienas non invitati irruperunt. 'regula prima nuptiarum irrumpendarum,' dixit alter, 'est gaudere. regula secunda: numquam solus eas.'",
+  "glossary": {
+    "nuptias": "wedding (acc.)",
+    "alienas": "of strangers (acc.)",
+    "irruperunt": "crashed, burst into",
+    "gaudere": "to enjoy oneself",
+    "solus": "alone"
+  },
+  "questions": [
+    {
+      "prompt": "What do the two friends do?",
+      "target": "Crash strangers' weddings uninvited",
+      "choices": ["Plan elaborate weddings", "Crash strangers' weddings uninvited", "Work as wedding planners", "Ruin their friends' weddings"]
+    },
+    {
+      "prompt": "What is their first rule?",
+      "target": "Have fun",
+      "choices": ["Don't get caught", "Have fun", "Bring a gift", "Dress nicely"]
+    }
+  ],
+  "translation": "Two friends burst uninvited into strangers' weddings. 'The first rule of wedding crashing,' said one, 'is to have fun. The second rule: never go alone.'"
+}

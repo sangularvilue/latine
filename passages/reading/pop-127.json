@@ -1,0 +1,26 @@
+{
+  "id": "pop-127",
+  "source": "Pop Culture",
+  "chapter": "Seinfeld",
+  "latin": "Tranquillitas nunc! tranquillitas nunc! pater eius haec verba clamabat quotiens iratus erat. sed quo magis clamabat, eo minus tranquillus fiebat.",
+  "glossary": {
+    "tranquillitas": "serenity, calm",
+    "clamabat": "was shouting",
+    "iratus": "angry",
+    "quo magis": "the more",
+    "minus": "less"
+  },
+  "questions": [
+    {
+      "prompt": "What does the father shout when angry?",
+      "target": "Serenity now",
+      "choices": ["Help me", "Serenity now", "Go away", "I surrender"]
+    },
+    {
+      "prompt": "What ironic effect does the shouting have?",
+      "target": "He becomes less calm the more he shouts",
+      "choices": ["He falls asleep", "He becomes less calm the more he shouts", "Everyone joins in", "He feels much better"]
+    }
+  ],
+  "translation": "Serenity now! Serenity now! His father shouted these words whenever he was angry. But the more he shouted, the less calm he became."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-152",
+  "source": "Pop Culture",
+  "chapter": "The Avengers",
+  "latin": "Hulcum habemus. Lokius cum exercitu suo venit et urbem minatus est. sed Antonius subrisit et dixit: nos Hulcum habemus. non est tibi spes.",
+  "glossary": {
+    "Hulcum": "a Hulk",
+    "exercitu": "army",
+    "minatus est": "threatened",
+    "subrisit": "smiled",
+    "urbem": "city",
+    "spes": "hope"
+  },
+  "questions": [
+    {
+      "prompt": "Who arrived with an army?",
+      "target": "Loki",
+      "choices": ["Thor", "Loki", "Thanos", "Ultron"]
+    },
+    {
+      "prompt": "What advantage does Tony boast about?",
+      "target": "They have a Hulk",
+      "choices": ["A bigger army", "They have a Hulk", "Better weapons", "More heroes"]
+    }
+  ],
+  "translation": "We have a Hulk. Loki came with his army and threatened the city. But Tony smiled and said: we have a Hulk. There is no hope for you."
+}

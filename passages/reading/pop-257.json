@@ -1,0 +1,26 @@
+{
+  "id": "pop-257",
+  "source": "History",
+  "chapter": "Martin Luther's 95 Theses",
+  "latin": "Martinus Lutherus ad portam ecclesiae Wittenbergensis accessit. malleum et clavos tenebat. nonaginta quinque theses contra indulgentias in lignum affixit. sonus mallei per totam Europam resonavit.",
+  "glossary": {
+    "portam": "door, gate",
+    "ecclesiae": "of the church",
+    "malleum": "hammer",
+    "clavos": "nails",
+    "affixit": "nailed, affixed"
+  },
+  "questions": [
+    {
+      "prompt": "Where did Luther nail his theses?",
+      "target": "On the church door at Wittenberg",
+      "choices": ["On the castle gate", "On the church door at Wittenberg", "In the town square", "At the university"]
+    },
+    {
+      "prompt": "What were the 95 theses against?",
+      "target": "Indulgences",
+      "choices": ["The Pope personally", "Indulgences", "All of Catholic doctrine", "The German princes"]
+    }
+  ],
+  "translation": "Martin Luther approached the door of the church at Wittenberg. He held a hammer and nails. He nailed ninety-five theses against indulgences into the wood. The sound of the hammer echoed throughout all of Europe."
+}
