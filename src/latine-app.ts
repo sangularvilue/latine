@@ -40,7 +40,7 @@ type Phase =
   // Practice
   | 'practice-ready' | 'practice-question' | 'practice-correct' | 'practice-wrong' | 'practice-results'
   // Read
-  | 'read-selector' | 'read-passage' | 'read-glossary' | 'read-question' | 'read-correct' | 'read-wrong' | 'read-complete';
+  | 'read-ready' | 'read-passage' | 'read-glossary' | 'read-question' | 'read-correct' | 'read-wrong' | 'read-complete';
 
 interface AppState {
   mode: Mode;
@@ -335,50 +335,30 @@ async function renderPracticeResults(): Promise<void> {
 
 // ── Read mode ──
 
-function readSelectorData(): { items: string[]; indices: number[] } {
-  const page = Math.floor(state.cursor / PAGE_SIZE);
-  const start = page * PAGE_SIZE;
-  const end = Math.min(start + PAGE_SIZE, ALL_READING_PASSAGES.length);
-  const hasPrev = page > 0;
-  const hasNext = end < ALL_READING_PASSAGES.length;
-
-  const items: string[] = [];
-  const indices: number[] = [];
-
-  if (hasPrev) { items.push('<< Previous'); indices.push(-1); }
-  for (let i = start; i < end; i++) {
-    const p = ALL_READING_PASSAGES[i]!;
-    const gam = loadGamification();
-    const done = gam.readPassagesCompleted.includes(p.id) ? ' *' : '';
-    items.push(`${p.chapter}${done}`);
-    indices.push(i);
-  }
-  if (hasNext) { items.push('Next >>'); indices.push(-2); }
-
-  return { items, indices };
+function pickRandomReadPassage(): ReadingPassage | null {
+  const gam = loadGamification();
+  // Prefer unread passages
+  const unread = ALL_READING_PASSAGES.filter(p => !gam.readPassagesCompleted.includes(p.id));
+  const pool = unread.length > 0 ? unread : ALL_READING_PASSAGES;
+  if (pool.length === 0) return null;
+  return pool[Math.floor(Math.random() * pool.length)]!;
 }
 
-async function renderReadSelector(): Promise<void> {
-  const { items } = readSelectorData();
-  const page = Math.floor(state.cursor / PAGE_SIZE);
-  const totalPages = Math.ceil(ALL_READING_PASSAGES.length / PAGE_SIZE);
-
-  const t = new TextContainerProperty({
-    containerID: 1, containerName: 'lat-title',
-    content: `Read (${page + 1}/${totalPages})`,
-    xPosition: 8, yPosition: 0, width: 560, height: 32,
-    isEventCapture: 0,
-  });
-  const list = new ListContainerProperty({
-    containerID: 2, containerName: 'lat-reads',
-    itemContainer: new ListItemContainerProperty({
-      itemCount: items.length, itemWidth: 556, isItemSelectBorderEn: 1,
-      itemName: items,
-    }),
-    isEventCapture: 1,
-    xPosition: 8, yPosition: 40, width: 560, height: 248,
-  });
-  await rebuildPage({ containerTotalNum: 2, textObject: [t], listObject: [list] });
+async function renderReadReady(): Promise<void> {
+  const gam = loadGamification();
+  const total = ALL_READING_PASSAGES.length;
+  const done = gam.readPassagesCompleted.length;
+  const rp = pickRandomReadPassage();
+  if (!rp) {
+    await renderTextPage('Read', 'No passages available.');
+    return;
+  }
+  // Store the picked passage so tap uses it
+  state.readPassage = rp;
+  await renderTextPage(
+    `Read (${done}/${total} completed)`,
+    `${rp.source} \u2014 ${rp.chapter}\n\nTap to start reading`
+  );
 }
 
 async function renderReadPassage(): Promise<void> {
@@ -439,7 +419,7 @@ async function renderToGlasses(): Promise<void> {
     case 'practice-question': await renderPracticeQuestion(); break;
     case 'practice-correct': case 'practice-wrong': await renderPracticeFeedback(); break;
     case 'practice-results': await renderPracticeResults(); break;
-    case 'read-selector': await renderReadSelector(); break;
+    case 'read-ready': await renderReadReady(); break;
     case 'read-passage': await renderReadPassage(); break;
     case 'read-glossary': await renderReadGlossary(); break;
     case 'read-question': await renderReadQuestion(); break;
@@ -474,7 +454,7 @@ function buildDisplayLines(): string[] {
     case 'practice-correct': return ['CORRECT!'];
     case 'practice-wrong': return ['Incorrect'];
     case 'practice-results': return [`${state.practiceCorrect}/${state.practicePool.length}`, 'Complete!'];
-    case 'read-selector': return ['Read - Select passage'];
+    case 'read-ready': return ['Read', state.readPassage ? `${state.readPassage.source} - ${state.readPassage.chapter}` : '', 'Tap to start'];
     case 'read-passage': return [state.readPassage!.latin.slice(0, 200)];
     case 'read-glossary': return Object.entries(state.readPassage!.glossary).map(([w, d]) => `${w}: ${d}`);
     case 'read-question': {
@@ -526,7 +506,7 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
           state.cursor = 0;
         } else if (idx === 2) {
           state.mode = 'read';
-          state.phase = 'read-selector';
+          state.phase = 'read-ready';
           state.cursor = 0;
         }
       }
@@ -702,22 +682,12 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
       break;
 
     // ── READ ──
-    case 'read-selector': {
-      const { indices } = readSelectorData();
-      if (type === 'scroll') return;
+    case 'read-ready': {
       if (type === 'click') {
-        const listIdx = selectedIndex >= 0 && selectedIndex < indices.length ? selectedIndex : -1;
-        if (listIdx < 0) return;
-        const mapped = indices[listIdx]!;
-        if (mapped === -1) { state.cursor = (Math.floor(state.cursor / PAGE_SIZE) - 1) * PAGE_SIZE; void renderToGlasses(); return; }
-        if (mapped === -2) { state.cursor = (Math.floor(state.cursor / PAGE_SIZE) + 1) * PAGE_SIZE; void renderToGlasses(); return; }
-        const rp = ALL_READING_PASSAGES[mapped];
-        if (rp) {
-          state.readPassage = rp;
-          state.readQuestionIndex = 0;
-          state.readCorrect = 0;
-          state.phase = 'read-passage';
-        }
+        if (!state.readPassage) { goHome(); return; }
+        state.readQuestionIndex = 0;
+        state.readCorrect = 0;
+        state.phase = 'read-passage';
       }
       break;
     }
@@ -783,7 +753,8 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
 
     case 'read-complete':
       if (type === 'click') {
-        state.phase = 'read-selector';
+        // Pick another random passage
+        state.phase = 'read-ready';
         state.readPassage = null;
         state.cursor = 0;
       }
@@ -853,8 +824,6 @@ export function simulateAction(actionType: 'SCROLL_UP' | 'SCROLL_DOWN' | 'TAP' |
     // Adjust cursor for sim
     if (state.phase === 'learn-selector') {
       state.cursor = ((state.cursor + dir) % ALL_PASSAGES.length + ALL_PASSAGES.length) % ALL_PASSAGES.length;
-    } else if (state.phase === 'read-selector') {
-      state.cursor = ((state.cursor + dir) % Math.max(1, ALL_READING_PASSAGES.length) + ALL_READING_PASSAGES.length) % Math.max(1, ALL_READING_PASSAGES.length);
     } else if (state.phase === 'home') {
       state.cursor = ((state.cursor + dir) % 3 + 3) % 3;
     } else if (state.phase.includes('question')) {
