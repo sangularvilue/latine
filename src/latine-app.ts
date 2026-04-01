@@ -58,6 +58,8 @@ interface AppState {
   practiceXP: number;
   // Read mode
   readPassage: ReadingPassage | null;
+  readPages: string[];
+  readPageIndex: number;
   readQuestionIndex: number;
   readCorrect: number;
 }
@@ -93,6 +95,8 @@ function createInitialState(): AppState {
     practiceCorrect: 0,
     practiceXP: 0,
     readPassage: null,
+    readPages: [],
+    readPageIndex: 0,
     readQuestionIndex: 0,
     readCorrect: 0,
   };
@@ -361,16 +365,40 @@ async function renderReadReady(): Promise<void> {
   );
 }
 
+function paginateText(text: string, charsPerPage: number = 400): string[] {
+  const words = text.split(/\s+/);
+  const pages: string[] = [];
+  let current = '';
+  for (const word of words) {
+    const candidate = current ? `${current} ${word}` : word;
+    if (candidate.length > charsPerPage && current) {
+      pages.push(current);
+      current = word;
+    } else {
+      current = candidate;
+    }
+  }
+  if (current) pages.push(current);
+  return pages.length > 0 ? pages : [''];
+}
+
 async function renderReadPassage(): Promise<void> {
   const rp = state.readPassage!;
-  await renderTextPage(`${rp.source} \u2014 ${rp.chapter}`, `${rp.latin.slice(0, 800)}\n\nTap for vocabulary`);
+  const page = state.readPages[state.readPageIndex] ?? '';
+  const pageInfo = state.readPages.length > 1
+    ? `(${state.readPageIndex + 1}/${state.readPages.length}) `
+    : '';
+  const nav = state.readPageIndex < state.readPages.length - 1
+    ? '\n\nSwipe for more \u2014 Tap for vocabulary'
+    : '\n\nTap for vocabulary';
+  await renderTextPage(`${pageInfo}${rp.source} \u2014 ${rp.chapter}`, `${page}${nav}`);
 }
 
 async function renderReadGlossary(): Promise<void> {
   const rp = state.readPassage!;
   const entries = Object.entries(rp.glossary);
   const lines = entries.map(([word, def]) => `${word} \u2014 ${def}`).join('\n');
-  await renderTextPage('Vocabulary', `${lines}\n\nTap when ready for questions`);
+  await renderTextPage('Vocabulary', `${lines}\n\nTap for questions\nDouble-tap to re-read`);
 }
 
 async function renderReadQuestion(): Promise<void> {
@@ -455,7 +483,10 @@ function buildDisplayLines(): string[] {
     case 'practice-wrong': return ['Incorrect'];
     case 'practice-results': return [`${state.practiceCorrect}/${state.practicePool.length}`, 'Complete!'];
     case 'read-ready': return ['Read', state.readPassage ? `${state.readPassage.source} - ${state.readPassage.chapter}` : '', 'Tap to start'];
-    case 'read-passage': return [state.readPassage!.latin.slice(0, 200)];
+    case 'read-passage': {
+      const page = state.readPages[state.readPageIndex] ?? '';
+      return [`(${state.readPageIndex + 1}/${state.readPages.length})`, page.slice(0, 200)];
+    }
     case 'read-glossary': return Object.entries(state.readPassage!.glossary).map(([w, d]) => `${w}: ${d}`);
     case 'read-question': {
       const q = state.readPassage!.questions[state.readQuestionIndex]!;
@@ -481,8 +512,14 @@ function goHome(): void {
 }
 
 function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'down'): void {
-  // Double-tap: ALWAYS return to home (bypasses lockout)
+  // Double-tap: return to home (bypasses lockout)
+  // Exception: on glossary, double-tap goes back to passage
   if (type === 'double_tap' && state.phase !== 'home') {
+    if (state.phase === 'read-glossary') {
+      state.phase = 'read-passage';
+      void renderToGlasses();
+      return;
+    }
     goHome();
     return;
   }
@@ -685,6 +722,8 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
     case 'read-ready': {
       if (type === 'click') {
         if (!state.readPassage) { goHome(); return; }
+        state.readPages = paginateText(state.readPassage.latin);
+        state.readPageIndex = 0;
         state.readQuestionIndex = 0;
         state.readCorrect = 0;
         state.phase = 'read-passage';
@@ -693,6 +732,16 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
     }
 
     case 'read-passage':
+      if (type === 'scroll') {
+        // Swipe through pages
+        const dir = scrollDir === 'up' ? -1 : 1;
+        const newPage = state.readPageIndex + dir;
+        if (newPage >= 0 && newPage < state.readPages.length) {
+          state.readPageIndex = newPage;
+          void renderToGlasses();
+        }
+        return;
+      }
       if (type === 'click') state.phase = 'read-glossary';
       break;
 
@@ -701,6 +750,9 @@ function handleAction(type: string, selectedIndex: number, scrollDir?: 'up' | 'd
         state.cursor = 0;
         state.phase = 'read-question';
       }
+      // Double-tap on glossary goes back to passage (handled by the
+      // universal double-tap check at the top, but we override it here
+      // to go to passage instead of home)
       break;
 
     case 'read-question': {
