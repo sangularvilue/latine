@@ -1,0 +1,26 @@
+{
+  "id": "pop-023",
+  "source": "Pop Culture",
+  "chapter": "Aliens",
+  "latin": "Miles pavidus, monstris undique circumdatus, arma abiecit et clamavit: 'actum est! actum est de nobis!'",
+  "glossary": {
+    "pavidus": "terrified, panic-stricken",
+    "undique": "from all sides, everywhere",
+    "circumdatus": "surrounded",
+    "abiecit": "threw down, discarded",
+    "actum est": "it is finished, game over"
+  },
+  "questions": [
+    {
+      "prompt": "What did the terrified soldier do with his weapons?",
+      "target": "Threw them down",
+      "choices": ["Fired wildly", "Threw them down", "Gave them to a friend", "Dropped them accidentally"]
+    },
+    {
+      "prompt": "What did he shout?",
+      "target": "It's game over for us",
+      "choices": ["Follow me!", "It's game over for us", "We can still win!", "Save yourselves!"]
+    }
+  ],
+  "translation": "A terrified soldier, surrounded on all sides by monsters, threw down his weapons and shouted: 'It's over! It's game over for us!'"
+}

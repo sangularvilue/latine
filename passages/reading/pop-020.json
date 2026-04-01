@@ -1,0 +1,26 @@
+{
+  "id": "pop-020",
+  "source": "Pop Culture",
+  "chapter": "The Big Lebowski",
+  "latin": "Vir pigerrimus, qui nihil aliud quam quietem et cerevisianum potum quaerebat, humeris sublatis dixit: 'ille Vir manet.'",
+  "glossary": {
+    "pigerrimus": "laziest, most idle",
+    "cerevisianum potum": "beer (lit. barley drink)",
+    "quaerebat": "was seeking",
+    "humeris sublatis": "with shoulders shrugged",
+    "manet": "abides, remains, endures"
+  },
+  "questions": [
+    {
+      "prompt": "What kind of person is the Dude?",
+      "target": "Extremely lazy, seeking only peace and beer",
+      "choices": ["A wealthy businessman", "Extremely lazy, seeking only peace and beer", "A retired soldier", "A college professor"]
+    },
+    {
+      "prompt": "What does 'the Dude abides' mean?",
+      "target": "He endures and carries on",
+      "choices": ["He gives up", "He fights back", "He endures and carries on", "He goes home"]
+    }
+  ],
+  "translation": "The laziest man, who sought nothing other than peace and beer, shrugged his shoulders and said: 'The Dude abides.'"
+}

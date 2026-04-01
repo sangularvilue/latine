@@ -1,0 +1,27 @@
+{
+  "id": "pop-108",
+  "source": "Pop Culture",
+  "chapter": "Game of Thrones",
+  "latin": "Dracarys! regina dracones suos iussit et flammae de caelo ceciderunt. hostes territi fugerunt, sed sero — ignis omnia consumpsit.",
+  "glossary": {
+    "dracones": "dragons",
+    "iussit": "commanded",
+    "flammae": "flames",
+    "hostes": "enemies",
+    "territi": "terrified",
+    "consumpsit": "consumed"
+  },
+  "questions": [
+    {
+      "prompt": "What did the queen command?",
+      "target": "Her dragons to breathe fire",
+      "choices": ["Her army to charge", "Her dragons to breathe fire", "Her ships to sail", "Her guards to retreat"]
+    },
+    {
+      "prompt": "What happened to the enemies?",
+      "target": "They fled in terror but it was too late",
+      "choices": ["They surrendered peacefully", "They fled in terror but it was too late", "They defeated the dragons", "They hid underground"]
+    }
+  ],
+  "translation": "Dracarys! The queen commanded her dragons and flames fell from the sky. The terrified enemies fled, but it was too late — the fire consumed everything."
+}

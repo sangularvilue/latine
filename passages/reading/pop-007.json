@@ -1,0 +1,31 @@
+{
+  "id": "pop-007",
+  "source": "Pop Culture",
+  "chapter": "The Lord of the Rings",
+  "latin": "Senex magus in ponte stetit, baculum in saxo percutiens. bestia ignis ex tenebris venit. magus clamavit: 'non transibis!' et pons sub pedibus monstri fractus est.",
+  "glossary": {
+    "magus": "wizard, magician",
+    "baculum": "staff, rod",
+    "percutiens": "striking (pres. part.)",
+    "tenebris": "darkness (abl.)",
+    "fractus est": "was broken"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the wizard make his stand?",
+      "target": "On a bridge",
+      "choices": ["At a gate", "On a bridge", "On a mountaintop", "In a tower"]
+    },
+    {
+      "prompt": "What came out of the darkness?",
+      "target": "A beast of fire",
+      "choices": ["A dragon", "An army of orcs", "A beast of fire", "A dark rider"]
+    },
+    {
+      "prompt": "What happened to the bridge?",
+      "target": "It broke beneath the monster",
+      "choices": ["It burned down", "It broke beneath the monster", "It turned to ice", "Nothing happened"]
+    }
+  ],
+  "translation": "An old wizard stood on a bridge, striking his staff on the stone. A beast of fire came from the darkness. The wizard cried: 'You shall not pass!' And the bridge broke beneath the monster's feet."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-024",
+  "source": "Pop Culture",
+  "chapter": "Die Hard",
+  "latin": "Vir nudis pedibus per vitrum fractum ambulavit. cum hostis per radiophonum eum irrideret, ille ridens respondit: 'io triumphe, furcifer!'",
+  "glossary": {
+    "nudis pedibus": "with bare feet",
+    "vitrum": "glass",
+    "radiophonum": "radio, walkie-talkie",
+    "irrideret": "mocked, taunted (impf. subj.)",
+    "furcifer": "scoundrel, rascal"
+  },
+  "questions": [
+    {
+      "prompt": "What is unusual about the man's feet?",
+      "target": "They are bare",
+      "choices": ["He wears boots", "They are bare", "They are injured", "He wears mismatched shoes"]
+    },
+    {
+      "prompt": "How does he respond to the enemy's taunting?",
+      "target": "With a defiant, mocking reply",
+      "choices": ["With silence", "By surrendering", "With a defiant, mocking reply", "By crying for help"]
+    }
+  ],
+  "translation": "A man walked with bare feet through broken glass. When the enemy taunted him over the radio, he replied with a laugh: 'Yippee ki yay, scoundrel!'"
+}

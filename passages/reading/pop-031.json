@@ -1,0 +1,26 @@
+{
+  "id": "pop-031",
+  "source": "Pop Culture",
+  "chapter": "Jerry Maguire",
+  "latin": "Athleta per telephonum clamabat: 'pecuniam mihi ostende! PECUNIAM MIHI OSTENDE!' procurator, quamquam pudebat, eadem verba in officiis repetere coactus est.",
+  "glossary": {
+    "telephonum": "telephone",
+    "pecuniam": "money (acc.)",
+    "ostende": "show! (imperative)",
+    "pudebat": "he was embarrassed",
+    "coactus est": "was forced"
+  },
+  "questions": [
+    {
+      "prompt": "What does the athlete demand?",
+      "target": "To be shown the money",
+      "choices": ["A new contract", "To be shown the money", "A trade to another team", "More respect"]
+    },
+    {
+      "prompt": "How does the agent feel about repeating the words?",
+      "target": "Embarrassed",
+      "choices": ["Excited", "Embarrassed", "Angry", "Indifferent"]
+    }
+  ],
+  "translation": "The athlete was shouting through the telephone: 'Show me the money! SHOW ME THE MONEY!' The agent, although embarrassed, was forced to repeat the same words in the office."
+}

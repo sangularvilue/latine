@@ -1,0 +1,31 @@
+{
+  "id": "pop-206",
+  "source": "Anime",
+  "chapter": "Attack on Titan",
+  "latin": "Illo die genus humanum triste admonitum accepit. muri quos centum annos tutos crediderant fracti sunt, et gigantes iterum intraverunt.",
+  "glossary": {
+    "admonitum": "reminder, warning",
+    "muri": "walls",
+    "tutos": "safe",
+    "fracti sunt": "were broken",
+    "gigantes": "giants, titans"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to the walls?",
+      "target": "They were broken",
+      "choices": ["They grew taller", "They were broken", "They were rebuilt", "They disappeared"]
+    },
+    {
+      "prompt": "How long had the walls kept people safe?",
+      "target": "One hundred years",
+      "choices": ["Ten years", "Fifty years", "One hundred years", "One thousand years"]
+    },
+    {
+      "prompt": "What entered after the walls fell?",
+      "target": "Giants (Titans)",
+      "choices": ["An army", "Giants (Titans)", "A flood", "Wild animals"]
+    }
+  ],
+  "translation": "On that day, mankind received a grim reminder. The walls they had believed safe for a hundred years were broken, and the giants entered once again."
+}

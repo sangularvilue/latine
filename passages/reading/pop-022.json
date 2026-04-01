@@ -1,0 +1,26 @@
+{
+  "id": "pop-022",
+  "source": "Pop Culture",
+  "chapter": "Back to the Future",
+  "latin": "Senex inventor perspicilla insolita gerens puerum in vehiculum mirum impulit. 'quo imus,' inquit, 'viis non egemus.'",
+  "glossary": {
+    "perspicilla": "spectacles, glasses",
+    "insolita": "unusual, strange",
+    "vehiculum": "vehicle",
+    "impulit": "pushed, shoved",
+    "egemus": "we need (+ abl.)"
+  },
+  "questions": [
+    {
+      "prompt": "What is the old inventor wearing?",
+      "target": "Unusual glasses",
+      "choices": ["A white coat", "Unusual glasses", "A tall hat", "Heavy gloves"]
+    },
+    {
+      "prompt": "What does he say about roads?",
+      "target": "Where they're going, they don't need roads",
+      "choices": ["The roads are too dangerous", "Where they're going, they don't need roads", "They must build new roads", "The roads have disappeared"]
+    }
+  ],
+  "translation": "An old inventor, wearing unusual glasses, pushed a boy into a marvelous vehicle. 'Where we are going,' he said, 'we do not need roads.'"
+}

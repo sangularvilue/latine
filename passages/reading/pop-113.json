@@ -1,0 +1,26 @@
+{
+  "id": "pop-113",
+  "source": "Pop Culture",
+  "chapter": "The Office",
+  "latin": "Hoc illa dixit! — omnes in officio gemuerunt. Michael iterum iocum fecerat quem nemo voluit audire.",
+  "glossary": {
+    "illa": "she, that woman",
+    "officio": "office",
+    "gemuerunt": "groaned",
+    "iocum": "joke",
+    "voluit": "wanted"
+  },
+  "questions": [
+    {
+      "prompt": "How did everyone in the office react?",
+      "target": "They groaned",
+      "choices": ["They laughed", "They groaned", "They applauded", "They left"]
+    },
+    {
+      "prompt": "Who made the unwanted joke?",
+      "target": "Michael",
+      "choices": ["Dwight", "Michael", "Jim", "Kevin"]
+    }
+  ],
+  "translation": "That's what she said! — Everyone in the office groaned. Michael had once again made a joke that nobody wanted to hear."
+}

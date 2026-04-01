@@ -1,0 +1,26 @@
+{
+  "id": "pop-034",
+  "source": "Pop Culture",
+  "chapter": "Mean Girls",
+  "latin": "Puella nova in scholam venit. regina gregis eam inspexit et dixit: 'die Mercurii roseum vestimentum gerimus. haec est lex.'",
+  "glossary": {
+    "scholam": "school (acc.)",
+    "gregis": "of the group/flock (gen.)",
+    "roseum": "pink (acc.)",
+    "vestimentum": "clothing, garment",
+    "lex": "rule, law"
+  },
+  "questions": [
+    {
+      "prompt": "What must be worn on Wednesdays?",
+      "target": "Pink clothing",
+      "choices": ["White shoes", "Pink clothing", "A special bracelet", "Designer labels"]
+    },
+    {
+      "prompt": "Who sets this rule?",
+      "target": "The queen of the group",
+      "choices": ["The teacher", "The queen of the group", "The principal", "All students together"]
+    }
+  ],
+  "translation": "A new girl came to the school. The queen of the group inspected her and said: 'On Wednesdays we wear pink. This is the rule.'"
+}

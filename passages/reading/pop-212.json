@@ -1,0 +1,26 @@
+{
+  "id": "pop-212",
+  "source": "Video Games",
+  "chapter": "Super Mario",
+  "latin": "Marius per omnia pericula ad castellum pervenit. sed fungulus parvus tristis eum exspectabat. 'ignosce,' inquit, 'princeps in alio castello est.'",
+  "glossary": {
+    "castellum": "castle",
+    "fungulus": "little mushroom (Toad)",
+    "tristis": "sad",
+    "ignosce": "forgive me, sorry",
+    "alio": "another"
+  },
+  "questions": [
+    {
+      "prompt": "What does the mushroom tell Mario?",
+      "target": "The princess is in another castle",
+      "choices": ["The princess is dead", "The princess is in another castle", "The princess escaped", "The princess is hiding"]
+    },
+    {
+      "prompt": "How is the mushroom character described?",
+      "target": "Small and sad",
+      "choices": ["Large and angry", "Small and sad", "Happy and excited", "Brave and strong"]
+    }
+  ],
+  "translation": "Mario made it through all the dangers to the castle. But a small, sad mushroom was waiting for him. 'Sorry,' he said, 'the princess is in another castle.'"
+}

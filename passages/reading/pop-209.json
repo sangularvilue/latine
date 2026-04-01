@@ -1,0 +1,31 @@
+{
+  "id": "pop-209",
+  "source": "Anime",
+  "chapter": "My Neighbor Totoro",
+  "latin": "Duae sorores ad novam domum in agris migraverunt. in silva prope domum monstrum magnum et amicum invenerunt. Totoro erat nomen eius, et in arbore maxima habitabat.",
+  "glossary": {
+    "sorores": "sisters",
+    "agris": "fields, countryside",
+    "silva": "forest",
+    "monstrum": "creature, monster",
+    "habitabat": "lived, dwelled"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the sisters move to?",
+      "target": "A new house in the countryside",
+      "choices": ["A city apartment", "A new house in the countryside", "A castle", "A boat"]
+    },
+    {
+      "prompt": "Where did Totoro live?",
+      "target": "In a very large tree",
+      "choices": ["In a cave", "Under a bridge", "In a very large tree", "In the house"]
+    },
+    {
+      "prompt": "How is the creature described?",
+      "target": "Big and friendly",
+      "choices": ["Small and shy", "Big and friendly", "Scary and dark", "Old and wise"]
+    }
+  ],
+  "translation": "Two sisters moved to a new house in the countryside. In the forest near the house they found a big and friendly creature. His name was Totoro, and he lived in a very large tree."
+}

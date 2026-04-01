@@ -1,0 +1,27 @@
+{
+  "id": "pop-106",
+  "source": "Pop Culture",
+  "chapter": "Game of Thrones",
+  "latin": "Hiems venit. haec verba antiqua sunt gentis Stark. in septentrione semper meminimus — hiems venit, et cum ea, mors.",
+  "glossary": {
+    "hiems": "winter",
+    "venit": "comes, is coming",
+    "gentis": "family, clan",
+    "septentrione": "the north",
+    "meminimus": "we remember",
+    "mors": "death"
+  },
+  "questions": [
+    {
+      "prompt": "Whose ancient words are these?",
+      "target": "House Stark",
+      "choices": ["House Lannister", "House Stark", "House Targaryen", "House Baratheon"]
+    },
+    {
+      "prompt": "What comes with winter?",
+      "target": "Death",
+      "choices": ["Joy", "Peace", "Death", "Spring"]
+    }
+  ],
+  "translation": "Winter is coming. These are the ancient words of House Stark. In the north we always remember — winter is coming, and with it, death."
+}

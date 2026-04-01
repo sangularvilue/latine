@@ -1,0 +1,25 @@
+{
+  "id": "pop-103",
+  "source": "Pop Culture",
+  "chapter": "Breaking Bad",
+  "latin": "Ita! Scientia, amemus eam! magistra nostra erat chemia, et nunc — nunc sumus artifices!",
+  "glossary": {
+    "scientia": "science",
+    "amemus": "let us love",
+    "chemia": "chemistry",
+    "artifices": "masters, craftsmen"
+  },
+  "questions": [
+    {
+      "prompt": "What subject does the speaker celebrate?",
+      "target": "Science and chemistry",
+      "choices": ["Mathematics", "Science and chemistry", "Philosophy", "Medicine"]
+    },
+    {
+      "prompt": "What does the speaker say they have become?",
+      "target": "Masters or craftsmen",
+      "choices": ["Teachers", "Students", "Masters or craftsmen", "Criminals"]
+    }
+  ],
+  "translation": "Yeah! Science, let us love it! Our teacher was chemistry, and now — now we are masters!"
+}

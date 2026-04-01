@@ -1,0 +1,25 @@
+{
+  "id": "pop-006",
+  "source": "Pop Culture",
+  "chapter": "The Terminator",
+  "latin": "Vir ingens, facie immota, custodes stationis inspexit. tum voce gravi dixit: 'revertar.' neque mentitus est.",
+  "glossary": {
+    "immota": "unmoved, expressionless",
+    "stationis": "of the station (gen.)",
+    "revertar": "I will return",
+    "mentitus est": "he lied"
+  },
+  "questions": [
+    {
+      "prompt": "What was the man's facial expression?",
+      "target": "Expressionless",
+      "choices": ["Angry", "Expressionless", "Smiling", "Fearful"]
+    },
+    {
+      "prompt": "What did he promise?",
+      "target": "He would return",
+      "choices": ["He would leave forever", "He would return", "He would bring help", "He would surrender"]
+    }
+  ],
+  "translation": "A huge man, with an expressionless face, looked at the guards of the station. Then in a deep voice he said: 'I will return.' And he did not lie."
+}

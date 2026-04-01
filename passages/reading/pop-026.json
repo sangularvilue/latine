@@ -1,0 +1,26 @@
+{
+  "id": "pop-026",
+  "source": "Pop Culture",
+  "chapter": "The Shining",
+  "latin": "Vir insanus securim per ianuam ligneam egit. per foramen caput inseruit et, oculis furentibus, clamavit: 'ecce Iohannes!'",
+  "glossary": {
+    "insanus": "insane, mad",
+    "securim": "axe (acc.)",
+    "foramen": "hole, opening",
+    "inseruit": "inserted, pushed through",
+    "furentibus": "raging, wild (abl. pl.)"
+  },
+  "questions": [
+    {
+      "prompt": "How did the man break through the door?",
+      "target": "With an axe",
+      "choices": ["He kicked it", "With an axe", "With a hammer", "He pushed it open"]
+    },
+    {
+      "prompt": "What did he push through the hole?",
+      "target": "His head",
+      "choices": ["His hand", "His head", "A weapon", "A lantern"]
+    }
+  ],
+  "translation": "An insane man drove an axe through a wooden door. Through the hole he pushed his head and, with raging eyes, shouted: 'Here's Johnny!'"
+}

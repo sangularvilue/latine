@@ -1,0 +1,26 @@
+{
+  "id": "pop-204",
+  "source": "Anime",
+  "chapter": "One Piece",
+  "latin": "Luffy pileum stramineum in capite posuit et magna voce dixit: 'ego rex piratarum ero!' amici eius riserunt, sed sciebant eum non iocari.",
+  "glossary": {
+    "pileum stramineum": "straw hat",
+    "piratarum": "of the pirates",
+    "rex": "king",
+    "riserunt": "laughed",
+    "iocari": "to joke"
+  },
+  "questions": [
+    {
+      "prompt": "What does Luffy want to become?",
+      "target": "King of the Pirates",
+      "choices": ["A great sailor", "King of the Pirates", "A navy admiral", "A merchant"]
+    },
+    {
+      "prompt": "What did Luffy put on his head?",
+      "target": "A straw hat",
+      "choices": ["A crown", "A straw hat", "A helmet", "A bandana"]
+    }
+  ],
+  "translation": "Luffy placed his straw hat on his head and said in a loud voice: 'I will be King of the Pirates!' His friends laughed, but they knew he was not joking."
+}

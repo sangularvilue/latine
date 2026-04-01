@@ -1,0 +1,26 @@
+{
+  "id": "pop-125",
+  "source": "Pop Culture",
+  "chapter": "Stranger Things",
+  "latin": "Amici non mentiuntur. haec regula nostra est. si amicus meus es, verum dices. semper. amici non mentiuntur.",
+  "glossary": {
+    "amici": "friends",
+    "mentiuntur": "lie, tell lies",
+    "regula": "rule",
+    "verum": "truth, the truth",
+    "dices": "you will say"
+  },
+  "questions": [
+    {
+      "prompt": "What is the fundamental rule stated?",
+      "target": "Friends don't lie",
+      "choices": ["Friends share everything", "Friends don't lie", "Friends never leave", "Friends fight together"]
+    },
+    {
+      "prompt": "What must a friend always do?",
+      "target": "Tell the truth",
+      "choices": ["Be brave", "Tell the truth", "Stay close", "Fight monsters"]
+    }
+  ],
+  "translation": "Friends don't lie. This is our rule. If you are my friend, you will tell the truth. Always. Friends don't lie."
+}

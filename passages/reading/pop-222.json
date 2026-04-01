@@ -1,0 +1,26 @@
+{
+  "id": "pop-222",
+  "source": "Literature",
+  "chapter": "Pride and Prejudice",
+  "latin": "Veritas est ab omnibus agnita: virum divitem, qui bona fortuna gaudet, uxore indigere. hoc omnes matres in vicinia pro certo habebant.",
+  "glossary": {
+    "agnita": "acknowledged, recognized",
+    "divitem": "wealthy",
+    "uxore": "wife",
+    "indigere": "to be in need of",
+    "vicinia": "neighborhood"
+  },
+  "questions": [
+    {
+      "prompt": "What does a wealthy man supposedly need?",
+      "target": "A wife",
+      "choices": ["More money", "A wife", "A larger house", "Friends"]
+    },
+    {
+      "prompt": "Who held this as certain?",
+      "target": "All the mothers in the neighborhood",
+      "choices": ["The wealthy men", "All the mothers in the neighborhood", "The local priests", "The young women"]
+    }
+  ],
+  "translation": "It is a truth acknowledged by all: a wealthy man, who enjoys good fortune, must be in need of a wife. All the mothers in the neighborhood held this for certain."
+}

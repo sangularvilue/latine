@@ -1,0 +1,26 @@
+{
+  "id": "pop-008",
+  "source": "Pop Culture",
+  "chapter": "Jaws",
+  "latin": "Cum primum piscem ingentem vidit, vir pallidus ad gubernatorem conversus est et dixit: 'nave maiore nobis opus est.'",
+  "glossary": {
+    "piscem": "fish (acc.)",
+    "pallidus": "pale",
+    "gubernatorem": "captain, helmsman (acc.)",
+    "nave": "ship, boat (abl.)",
+    "opus est": "there is need (+ abl.)"
+  },
+  "questions": [
+    {
+      "prompt": "What did the man see?",
+      "target": "An enormous fish",
+      "choices": ["A distant island", "An enormous fish", "A storm approaching", "Another ship"]
+    },
+    {
+      "prompt": "What did he say they needed?",
+      "target": "A bigger boat",
+      "choices": ["More weapons", "A bigger boat", "More sailors", "A faster engine"]
+    }
+  ],
+  "translation": "As soon as he saw the enormous fish, the pale man turned to the captain and said: 'We need a bigger boat.'"
+}

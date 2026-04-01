@@ -1,0 +1,27 @@
+{
+  "id": "pop-124",
+  "source": "Pop Culture",
+  "chapter": "Parks and Recreation",
+  "latin": "Scio quid velim, fili. noli me docere de carne et ovis. omne quod volo est omnis caro et omne ovum quod habes. scio quid velim.",
+  "glossary": {
+    "scio": "I know",
+    "velim": "I want",
+    "fili": "son",
+    "carne": "meat",
+    "ovis": "eggs",
+    "omne": "all, every"
+  },
+  "questions": [
+    {
+      "prompt": "What does the speaker want?",
+      "target": "All the meat and eggs available",
+      "choices": ["A small salad", "All the meat and eggs available", "Just one steak", "A menu to read"]
+    },
+    {
+      "prompt": "How confident is the speaker about their order?",
+      "target": "Completely certain",
+      "choices": ["Uncertain", "Completely certain", "Asking for advice", "Undecided"]
+    }
+  ],
+  "translation": "I know what I want, son. Don't teach me about meat and eggs. All I want is all the meat and every egg that you have. I know what I want."
+}

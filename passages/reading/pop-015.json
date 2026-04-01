@@ -1,0 +1,26 @@
+{
+  "id": "pop-015",
+  "source": "Pop Culture",
+  "chapter": "Jurassic Park",
+  "latin": "Vir doctus, qui de animalibus antiquis multa sciebat, caput quassavit et dixit: 'vita viam invenit.' neque erravit — nam bestiae quae non poterant procreare mox ova pepererunt.",
+  "glossary": {
+    "doctus": "learned, scholarly",
+    "caput quassavit": "shook his head",
+    "viam": "way, path (acc.)",
+    "procreare": "to reproduce, breed",
+    "ova pepererunt": "laid eggs"
+  },
+  "questions": [
+    {
+      "prompt": "What is the scholar's famous observation?",
+      "target": "Life finds a way",
+      "choices": ["Nature is dangerous", "Life finds a way", "Science has no limits", "We should never play god"]
+    },
+    {
+      "prompt": "What proved him right?",
+      "target": "Creatures that couldn't breed laid eggs",
+      "choices": ["A dinosaur escaped", "Creatures that couldn't breed laid eggs", "The park was destroyed", "A volcano erupted"]
+    }
+  ],
+  "translation": "A learned man, who knew much about ancient animals, shook his head and said: 'Life finds a way.' Nor was he wrong — for beasts that could not reproduce soon laid eggs."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-123",
+  "source": "Pop Culture",
+  "chapter": "Parks and Recreation",
+  "latin": "Indulge tibi ipsi! hic est dies noster. meremur optima. visne tunicam novam? eme eam. visne cibum carum? ede eum. indulge tibi ipsi!",
+  "glossary": {
+    "indulge": "treat, indulge",
+    "meremur": "we deserve",
+    "optima": "the best things",
+    "tunicam": "garment, shirt",
+    "eme": "buy (imperative)",
+    "cibum": "food"
+  },
+  "questions": [
+    {
+      "prompt": "What is the philosophy being expressed?",
+      "target": "Treat yourself to the best things",
+      "choices": ["Save your money", "Treat yourself to the best things", "Help others first", "Be humble"]
+    },
+    {
+      "prompt": "What two examples of treating yourself are given?",
+      "target": "A new garment and expensive food",
+      "choices": ["A car and a house", "A new garment and expensive food", "A vacation and a book", "Jewelry and perfume"]
+    }
+  ],
+  "translation": "Treat yourself! This is our day. We deserve the best. Do you want a new shirt? Buy it. Do you want expensive food? Eat it. Treat yourself!"
+}

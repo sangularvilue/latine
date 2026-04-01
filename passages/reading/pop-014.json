@@ -1,0 +1,26 @@
+{
+  "id": "pop-014",
+  "source": "Pop Culture",
+  "chapter": "Batman",
+  "latin": "Fur territus in tenebris umbram vidit. 'quis es?' rogavit, tremens. vox gravis e tenebris respondit: 'Vespertilio sum.'",
+  "glossary": {
+    "fur": "thief",
+    "umbram": "shadow (acc.)",
+    "tremens": "trembling (pres. part.)",
+    "gravis": "deep, heavy, serious",
+    "Vespertilio": "Bat (lit. evening creature)"
+  },
+  "questions": [
+    {
+      "prompt": "Who first sees the shadow?",
+      "target": "A frightened thief",
+      "choices": ["A police officer", "A frightened thief", "A journalist", "A young boy"]
+    },
+    {
+      "prompt": "What does the voice from the darkness say?",
+      "target": "I am the Bat",
+      "choices": ["I am the night", "Run while you can", "I am the Bat", "You are under arrest"]
+    }
+  ],
+  "translation": "A terrified thief saw a shadow in the darkness. 'Who are you?' he asked, trembling. A deep voice answered from the darkness: 'I am the Bat.'"
+}

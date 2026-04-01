@@ -1,0 +1,26 @@
+{
+  "id": "pop-021",
+  "source": "Pop Culture",
+  "chapter": "Indiana Jones",
+  "latin": "Explorator audax in sepulcrum descendit. sed cum faces accendisset, pavimentum serpentibus coopertum vidit. 'serpentes...' gemuit. 'cur serpentes esse oportuit?'",
+  "glossary": {
+    "sepulcrum": "tomb",
+    "faces": "torches (acc.)",
+    "accendisset": "had lit (plupf. subj.)",
+    "pavimentum": "floor",
+    "coopertum": "covered"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the explorer descend?",
+      "target": "Into a tomb",
+      "choices": ["Into a cave", "Into a tomb", "Into a well", "Into a mine"]
+    },
+    {
+      "prompt": "What covered the floor?",
+      "target": "Snakes",
+      "choices": ["Scorpions", "Bones", "Snakes", "Water"]
+    }
+  ],
+  "translation": "The bold explorer descended into the tomb. But when he had lit the torches, he saw the floor covered with snakes. 'Snakes...' he groaned. 'Why did it have to be snakes?'"
+}

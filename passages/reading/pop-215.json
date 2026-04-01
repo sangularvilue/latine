@@ -1,0 +1,26 @@
+{
+  "id": "pop-215",
+  "source": "Video Games",
+  "chapter": "Portal",
+  "latin": "Machina laeta voce dixit: 'nunc portalibus cogitas!' duae fenestrae in muris apparuerunt — una caerulea, altera aurantia. quod in unam intrabas, ex altera exibas.",
+  "glossary": {
+    "machina": "machine",
+    "portalibus": "with portals",
+    "fenestrae": "openings, windows",
+    "caerulea": "blue",
+    "aurantia": "orange"
+  },
+  "questions": [
+    {
+      "prompt": "What colors were the two portals?",
+      "target": "Blue and orange",
+      "choices": ["Red and green", "Blue and orange", "Black and white", "Purple and yellow"]
+    },
+    {
+      "prompt": "What happened when you entered one portal?",
+      "target": "You exited through the other",
+      "choices": ["You disappeared", "You exited through the other", "You returned to the start", "Nothing happened"]
+    }
+  ],
+  "translation": "The machine said in a cheerful voice: 'Now you're thinking with portals!' Two openings appeared in the walls — one blue, the other orange. Whatever entered one exited through the other."
+}

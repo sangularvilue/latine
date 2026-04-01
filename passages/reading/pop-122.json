@@ -1,0 +1,26 @@
+{
+  "id": "pop-122",
+  "source": "Pop Culture",
+  "chapter": "The Simpsons",
+  "latin": "Optime... digitos suos composuit et lente subrisit. omnia secundum consilium suum procedebant. optime.",
+  "glossary": {
+    "optime": "excellent, very well",
+    "digitos": "fingers",
+    "composuit": "pressed together, steepled",
+    "subrisit": "smiled",
+    "consilium": "plan"
+  },
+  "questions": [
+    {
+      "prompt": "What gesture does the speaker make?",
+      "target": "Steeples his fingers",
+      "choices": ["Claps his hands", "Steeples his fingers", "Points at someone", "Waves goodbye"]
+    },
+    {
+      "prompt": "How is his plan going?",
+      "target": "Everything is proceeding according to plan",
+      "choices": ["It has failed", "Everything is proceeding according to plan", "He is still waiting", "It has just begun"]
+    }
+  ],
+  "translation": "Excellent... He steepled his fingers and slowly smiled. Everything was proceeding according to his plan. Excellent."
+}

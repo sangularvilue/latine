@@ -1,0 +1,26 @@
+{
+  "id": "pop-221",
+  "source": "Video Games",
+  "chapter": "Metal Gear Solid",
+  "latin": "Vox per radium desperata clamavit: 'Serpens? SERPENS? SERPEEEENS!' silentium respondit. missio fracta erat. heros eorum cecidit.",
+  "glossary": {
+    "radium": "radio",
+    "desperata": "desperate",
+    "silentium": "silence",
+    "missio": "mission",
+    "cecidit": "fell, died"
+  },
+  "questions": [
+    {
+      "prompt": "What name was being called over the radio?",
+      "target": "Snake",
+      "choices": ["Fox", "Snake", "Wolf", "Eagle"]
+    },
+    {
+      "prompt": "What answered the desperate call?",
+      "target": "Silence",
+      "choices": ["A voice", "Silence", "An explosion", "Static"]
+    }
+  ],
+  "translation": "A desperate voice shouted over the radio: 'Snake? SNAKE? SNAAAKE!' Silence answered. The mission was broken. Their hero had fallen."
+}

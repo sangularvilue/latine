@@ -1,0 +1,26 @@
+{
+  "id": "pop-109",
+  "source": "Pop Culture",
+  "chapter": "Game of Thrones",
+  "latin": "Nihil scis, Iohannes Nix. sic puella ferocia ei dixit. et verum erat — multa nesciebat de mundo ultra Murum.",
+  "glossary": {
+    "nihil": "nothing",
+    "scis": "you know",
+    "ferocia": "fierce, wild",
+    "nesciebat": "did not know",
+    "Murum": "the Wall"
+  },
+  "questions": [
+    {
+      "prompt": "What does the fierce girl tell Jon?",
+      "target": "He knows nothing",
+      "choices": ["He is brave", "He knows nothing", "He must leave", "He is a king"]
+    },
+    {
+      "prompt": "What was Jon ignorant about?",
+      "target": "The world beyond the Wall",
+      "choices": ["Fighting techniques", "The world beyond the Wall", "His true parents", "Dragon lore"]
+    }
+  ],
+  "translation": "You know nothing, Jon Snow. So the fierce girl told him. And it was true — he did not know many things about the world beyond the Wall."
+}

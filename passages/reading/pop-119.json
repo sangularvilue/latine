@@ -1,0 +1,27 @@
+{
+  "id": "pop-119",
+  "source": "Pop Culture",
+  "chapter": "Arrested Development",
+  "latin": "Semper pecunia est in taberna bananaria! nonne intellegis? pecuniam ibi celavi. in muris tabernarum bananas vendentium semper pecunia latet.",
+  "glossary": {
+    "pecunia": "money",
+    "taberna": "stand, shop",
+    "bananaria": "banana (adj)",
+    "celavi": "I hid",
+    "muris": "walls",
+    "latet": "lies hidden"
+  },
+  "questions": [
+    {
+      "prompt": "Where is the money hidden?",
+      "target": "In the walls of the banana stand",
+      "choices": ["Under the floor", "In the walls of the banana stand", "In a bank vault", "In a suitcase"]
+    },
+    {
+      "prompt": "What is the speaker frustrated about?",
+      "target": "That no one understands where the money is",
+      "choices": ["That the bananas are rotten", "That the stand is closed", "That no one understands where the money is", "That someone stole the money"]
+    }
+  ],
+  "translation": "There's always money in the banana stand! Don't you understand? I hid money there. In the walls of the banana-selling stands, money always lies hidden."
+}

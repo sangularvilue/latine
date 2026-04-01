@@ -1,0 +1,26 @@
+{
+  "id": "pop-214",
+  "source": "Video Games",
+  "chapter": "Portal",
+  "latin": "In muris laboratorii aliquis scripserat: 'placenta mendacium est.' captiva, quae per portalia ambulabat, tandem intellexit nullum praemium eam exspectare.",
+  "glossary": {
+    "placenta": "cake",
+    "mendacium": "a lie",
+    "captiva": "prisoner (female)",
+    "portalia": "portals",
+    "praemium": "reward"
+  },
+  "questions": [
+    {
+      "prompt": "What was written on the walls?",
+      "target": "The cake is a lie",
+      "choices": ["Help me", "The cake is a lie", "No exit", "Welcome"]
+    },
+    {
+      "prompt": "What did the prisoner realize?",
+      "target": "No reward was waiting for her",
+      "choices": ["She would escape soon", "The cake was real", "No reward was waiting for her", "She was dreaming"]
+    }
+  ],
+  "translation": "On the walls of the laboratory, someone had written: 'The cake is a lie.' The prisoner, who walked through portals, finally understood that no reward was waiting for her."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pop-126",
+  "source": "Pop Culture",
+  "chapter": "Stranger Things",
+  "latin": "Mundus Inversus. sub oppido nostro alius mundus latet — obscurus, frigidus, plenus monstris. portae inter mundos aperiuntur et monstra transeunt.",
+  "glossary": {
+    "inversus": "upside down, inverted",
+    "oppido": "town",
+    "obscurus": "dark",
+    "frigidus": "cold",
+    "portae": "gates, doors",
+    "monstra": "monsters"
+  },
+  "questions": [
+    {
+      "prompt": "What is the Upside Down described as?",
+      "target": "A dark, cold world full of monsters",
+      "choices": ["A bright parallel universe", "A dark, cold world full of monsters", "An underwater kingdom", "A distant planet"]
+    },
+    {
+      "prompt": "How do the monsters cross over?",
+      "target": "Through gates between the worlds",
+      "choices": ["By flying", "Through gates between the worlds", "By swimming", "Through dreams"]
+    }
+  ],
+  "translation": "The Upside Down. Beneath our town another world lies hidden — dark, cold, full of monsters. Gates between the worlds open and monsters cross through."
+}

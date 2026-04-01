@@ -1,0 +1,26 @@
+{
+  "id": "pop-218",
+  "source": "Video Games",
+  "chapter": "Dark Souls",
+  "latin": "Miles solitarius ad solem respexit et bracchia late extendit. 'solem lauda!' clamavit. in mundo tam obscuro, lux erat spes ultima.",
+  "glossary": {
+    "solitarius": "solitary, lonely",
+    "bracchia": "arms",
+    "extendit": "stretched out",
+    "lauda": "praise",
+    "spes": "hope"
+  },
+  "questions": [
+    {
+      "prompt": "What did the solitary knight do?",
+      "target": "He praised the sun with arms outstretched",
+      "choices": ["He knelt in prayer", "He praised the sun with arms outstretched", "He drew his sword", "He closed his eyes"]
+    },
+    {
+      "prompt": "What did light represent in this dark world?",
+      "target": "The last hope",
+      "choices": ["Danger", "The last hope", "A trap", "An illusion"]
+    }
+  ],
+  "translation": "The solitary knight looked up at the sun and stretched his arms wide. 'Praise the Sun!' he shouted. In a world so dark, light was the last hope."
+}

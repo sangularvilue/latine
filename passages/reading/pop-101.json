@@ -1,0 +1,26 @@
+{
+  "id": "pop-101",
+  "source": "Pop Culture",
+  "chapter": "Breaking Bad",
+  "latin": "Ego sum ille qui pulsat. non sum in periculo — ego sum periculum. vir aperit ianuam et occiditur, et tu putas me esse illum? non. ego sum ille qui pulsat!",
+  "glossary": {
+    "pulsat": "knocks",
+    "periculum": "danger",
+    "ianuam": "door",
+    "occiditur": "is killed",
+    "aperit": "opens"
+  },
+  "questions": [
+    {
+      "prompt": "What does the speaker claim to be?",
+      "target": "The danger itself",
+      "choices": ["A victim", "The danger itself", "A door knocker", "A bystander"]
+    },
+    {
+      "prompt": "What happens to the man who opens the door?",
+      "target": "He is killed",
+      "choices": ["He escapes", "He is killed", "He hides", "He fights back"]
+    }
+  ],
+  "translation": "I am the one who knocks. I am not in danger — I am the danger. A man opens his door and is killed, and you think that I am him? No. I am the one who knocks!"
+}

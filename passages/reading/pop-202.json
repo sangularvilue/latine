@@ -1,0 +1,26 @@
+{
+  "id": "pop-202",
+  "source": "Anime",
+  "chapter": "Dragon Ball Z",
+  "latin": "Goku manus suas coniunxit et omnem vim in unum ictum collegit. 'Kamehameha!' clamavit, et lux immensa ex manibus eius erupit.",
+  "glossary": {
+    "manus": "hands",
+    "coniunxit": "joined together",
+    "ictum": "strike, blow",
+    "collegit": "gathered",
+    "erupit": "burst forth"
+  },
+  "questions": [
+    {
+      "prompt": "What did Goku do with his hands?",
+      "target": "He joined them together",
+      "choices": ["He raised them high", "He joined them together", "He crossed them", "He hid them"]
+    },
+    {
+      "prompt": "What burst from his hands?",
+      "target": "An immense light",
+      "choices": ["Fire", "An immense light", "Water", "Lightning"]
+    }
+  ],
+  "translation": "Goku joined his hands together and gathered all his power into a single strike. 'Kamehameha!' he shouted, and an immense light burst forth from his hands."
+}

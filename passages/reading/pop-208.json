@@ -1,0 +1,26 @@
+{
+  "id": "pop-208",
+  "source": "Anime",
+  "chapter": "Spirited Away",
+  "latin": "Puella in mundum spirituum ingressa est. parentes eius in sues mutati erant quia nimis ederant. nunc sola laborare debebat ut eos liberaret.",
+  "glossary": {
+    "spirituum": "of spirits",
+    "sues": "pigs",
+    "mutati erant": "had been transformed",
+    "nimis": "too much",
+    "liberaret": "might free"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to the girl's parents?",
+      "target": "They were turned into pigs",
+      "choices": ["They disappeared", "They were turned into pigs", "They forgot her", "They fell asleep"]
+    },
+    {
+      "prompt": "Why were the parents transformed?",
+      "target": "Because they ate too much",
+      "choices": ["They angered a spirit", "Because they ate too much", "They broke a rule", "They entered a forbidden place"]
+    }
+  ],
+  "translation": "A girl entered the world of spirits. Her parents had been turned into pigs because they ate too much. Now she had to work alone in order to free them."
+}

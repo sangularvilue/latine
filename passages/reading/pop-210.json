@@ -1,0 +1,26 @@
+{
+  "id": "pop-210",
+  "source": "Anime",
+  "chapter": "Howl's Moving Castle",
+  "latin": "Castellum magicum per colles ambulabat. intus magus pulcher sed vanus habitabat. puella, quae in anum mutata erat, ad eum venit ut auxilium peteret.",
+  "glossary": {
+    "castellum": "castle",
+    "colles": "hills",
+    "magus": "wizard",
+    "vanus": "vain",
+    "anum": "old woman"
+  },
+  "questions": [
+    {
+      "prompt": "What was unusual about the castle?",
+      "target": "It walked across the hills",
+      "choices": ["It was invisible", "It walked across the hills", "It was underground", "It could fly"]
+    },
+    {
+      "prompt": "What happened to the girl?",
+      "target": "She was turned into an old woman",
+      "choices": ["She was turned into an old woman", "She lost her voice", "She fell asleep", "She became invisible"]
+    }
+  ],
+  "translation": "A magical castle walked across the hills. Inside lived a handsome but vain wizard. A girl, who had been turned into an old woman, came to him to seek help."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-207",
+  "source": "Anime",
+  "chapter": "My Hero Academia",
+  "latin": "Magister discipulis clamavit: 'ultra fines vestros ite! plus ultra!' iuvenis sine virtute natus tamen somniabat se heroem maximum futurum esse.",
+  "glossary": {
+    "fines": "limits, boundaries",
+    "virtute": "power, virtue",
+    "natus": "born",
+    "somniabat": "dreamed",
+    "heroem": "hero"
+  },
+  "questions": [
+    {
+      "prompt": "What did the teacher shout?",
+      "target": "Go beyond! Plus Ultra!",
+      "choices": ["Stay within your limits!", "Go beyond! Plus Ultra!", "Run away!", "Fight harder!"]
+    },
+    {
+      "prompt": "What was special about the young person?",
+      "target": "He was born without power",
+      "choices": ["He was very strong", "He was born without power", "He was the teacher's son", "He had many powers"]
+    }
+  ],
+  "translation": "The teacher shouted to his students: 'Go beyond your limits! Plus Ultra!' A youth born without power still dreamed that he would become the greatest hero."
+}

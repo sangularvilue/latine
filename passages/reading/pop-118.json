@@ -1,0 +1,26 @@
+{
+  "id": "pop-118",
+  "source": "Pop Culture",
+  "chapter": "Arrested Development",
+  "latin": "Errorem ingentem feci. hoc statim scivi. ubi oculos aperui et vidi quid fecissem, solum dicere potui: errorem ingentem feci.",
+  "glossary": {
+    "errorem": "mistake, error",
+    "ingentem": "huge, enormous",
+    "statim": "immediately",
+    "scivi": "I knew",
+    "oculos": "eyes"
+  },
+  "questions": [
+    {
+      "prompt": "When did the speaker realize the mistake?",
+      "target": "Immediately",
+      "choices": ["The next day", "Immediately", "After a week", "Never"]
+    },
+    {
+      "prompt": "How does the speaker describe the mistake?",
+      "target": "Huge",
+      "choices": ["Small", "Funny", "Huge", "Forgettable"]
+    }
+  ],
+  "translation": "I've made a huge mistake. I knew this immediately. When I opened my eyes and saw what I had done, I could only say: I've made a huge mistake."
+}

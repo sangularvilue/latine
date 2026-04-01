@@ -1,0 +1,25 @@
+{
+  "id": "pop-102",
+  "source": "Pop Culture",
+  "chapter": "Breaking Bad",
+  "latin": "Dic nomen meum. scis quis sim. dic nomen meum! — Heisenberg. — Ita est.",
+  "glossary": {
+    "dic": "say, tell",
+    "nomen": "name",
+    "scis": "you know",
+    "quis": "who"
+  },
+  "questions": [
+    {
+      "prompt": "What does the speaker demand?",
+      "target": "That his name be spoken",
+      "choices": ["That his name be spoken", "That someone leave", "That money be paid", "That a door be opened"]
+    },
+    {
+      "prompt": "What name is revealed?",
+      "target": "Heisenberg",
+      "choices": ["Walter", "Heisenberg", "Jesse", "Gustavo"]
+    }
+  ],
+  "translation": "Say my name. You know who I am. Say my name! — Heisenberg. — That's right."
+}

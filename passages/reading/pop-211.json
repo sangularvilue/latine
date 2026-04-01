@@ -1,0 +1,26 @@
+{
+  "id": "pop-211",
+  "source": "Video Games",
+  "chapter": "Super Mario",
+  "latin": "'Ego sum — ego, Marius!' parvus faber tubi clamavit. tum in tubum magnum desiluit et per mundum mirum subterraneum cucurrit ut principem servaret.",
+  "glossary": {
+    "faber tubi": "plumber (pipe-worker)",
+    "tubum": "pipe",
+    "desiluit": "jumped down",
+    "subterraneum": "underground",
+    "principem": "princess"
+  },
+  "questions": [
+    {
+      "prompt": "What is Mario's profession?",
+      "target": "Plumber",
+      "choices": ["Soldier", "Plumber", "Baker", "Carpenter"]
+    },
+    {
+      "prompt": "Why did Mario jump into the pipe?",
+      "target": "To save the princess",
+      "choices": ["To find gold", "To escape enemies", "To save the princess", "To explore"]
+    }
+  ],
+  "translation": "'It's-a me — me, Mario!' the little plumber shouted. Then he jumped down into a large pipe and ran through a wondrous underground world to save the princess."
+}

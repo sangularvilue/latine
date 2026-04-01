@@ -1,0 +1,26 @@
+{
+  "id": "pop-004",
+  "source": "Pop Culture",
+  "chapter": "Monty Python and the Holy Grail",
+  "latin": "Eques niger, quamquam bracchia ambo amputata erant, pugnare non desiit. 'nihil est nisi vulnus leve!' clamavit. rex obstupefactus eum spectavit.",
+  "glossary": {
+    "bracchia": "arms",
+    "amputata": "cut off",
+    "desiit": "ceased, stopped",
+    "vulnus": "wound",
+    "obstupefactus": "astonished, dumbfounded"
+  },
+  "questions": [
+    {
+      "prompt": "What happened to the Black Knight's arms?",
+      "target": "Both were cut off",
+      "choices": ["They were bruised", "Both were cut off", "One was broken", "Nothing happened to them"]
+    },
+    {
+      "prompt": "How did the Black Knight describe his injury?",
+      "target": "Just a minor wound",
+      "choices": ["A fatal blow", "Just a minor wound", "A great dishonor", "A magical curse"]
+    }
+  ],
+  "translation": "The Black Knight, although both his arms had been cut off, did not stop fighting. 'It is nothing but a minor wound!' he shouted. The king watched him in astonishment."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pop-203",
+  "source": "Anime",
+  "chapter": "Naruto",
+  "latin": "Naruto ante totam urbem stetit et clamavit: 'crede mihi! ego Hokage fiam!' multi eum deriserunt, sed ille numquam cessit.",
+  "glossary": {
+    "urbem": "city, village",
+    "crede": "believe, trust",
+    "fiam": "I will become",
+    "deriserunt": "laughed at, mocked",
+    "cessit": "gave up, yielded"
+  },
+  "questions": [
+    {
+      "prompt": "What does Naruto declare he will become?",
+      "target": "Hokage",
+      "choices": ["A warrior", "Hokage", "A teacher", "A king"]
+    },
+    {
+      "prompt": "How did many people react to his declaration?",
+      "target": "They mocked him",
+      "choices": ["They cheered", "They ignored him", "They mocked him", "They helped him"]
+    },
+    {
+      "prompt": "Did Naruto give up?",
+      "target": "Never",
+      "choices": ["Yes, immediately", "After some time", "Never", "Only once"]
+    }
+  ],
+  "translation": "Naruto stood before the whole village and shouted: 'Believe me! I will become Hokage!' Many laughed at him, but he never gave up."
+}

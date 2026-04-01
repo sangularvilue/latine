@@ -1,0 +1,27 @@
+{
+  "id": "pop-115",
+  "source": "Pop Culture",
+  "chapter": "The Office",
+  "latin": "Ursi. betae. Navis Stellaris Galactica. Dwight attonitus eum spectabat dum Jim haec verba lente dicebat, vultu gravissimo.",
+  "glossary": {
+    "ursi": "bears",
+    "betae": "beets",
+    "attonitus": "stunned, astonished",
+    "spectabat": "was watching",
+    "lente": "slowly",
+    "vultu": "expression, face"
+  },
+  "questions": [
+    {
+      "prompt": "What three things does Jim list?",
+      "target": "Bears, beets, Battlestar Galactica",
+      "choices": ["Bears, beets, Battlestar Galactica", "Books, boats, basketball", "Birds, bells, Babylon", "Bears, books, baseball"]
+    },
+    {
+      "prompt": "How did Jim deliver these words?",
+      "target": "Slowly and with a serious expression",
+      "choices": ["Quickly and laughing", "Slowly and with a serious expression", "While running away", "While whispering"]
+    }
+  ],
+  "translation": "Bears. Beets. Battlestar Galactica. Dwight watched him astonished while Jim said these words slowly, with a very serious expression."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-104",
+  "source": "Pop Culture",
+  "chapter": "The Wire",
+  "latin": "Omnia in ludo sunt, frater. omnia in ludo. sive vincis sive cadis, lusus ipse manet. hoc scire debes antequam in viam exeas.",
+  "glossary": {
+    "ludo": "game",
+    "vincis": "you win",
+    "cadis": "you fall",
+    "lusus": "the game, play",
+    "viam": "street, road"
+  },
+  "questions": [
+    {
+      "prompt": "What is everything part of, according to the speaker?",
+      "target": "The game",
+      "choices": ["The law", "The game", "The family", "The city"]
+    },
+    {
+      "prompt": "What must one know before going out?",
+      "target": "That the game itself endures",
+      "choices": ["That the game itself endures", "Who your enemies are", "Where to hide", "How to fight"]
+    }
+  ],
+  "translation": "It's all in the game, brother. All in the game. Whether you win or you fall, the game itself endures. You must know this before you go out on the street."
+}

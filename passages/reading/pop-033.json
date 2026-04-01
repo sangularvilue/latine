@@ -1,0 +1,26 @@
+{
+  "id": "pop-033",
+  "source": "Pop Culture",
+  "chapter": "Scarface",
+  "latin": "Homo desperatus in summo scalarum gradu constitit, telum ingens manibus tenens. ad hostes suos clamavit: 'salutate amiculum meum!'",
+  "glossary": {
+    "scalarum": "of the stairs (gen.)",
+    "gradu": "step (abl.)",
+    "telum": "weapon",
+    "amiculum": "little friend (diminutive)",
+    "salutate": "greet! say hello to! (imperative pl.)"
+  },
+  "questions": [
+    {
+      "prompt": "Where is the man standing?",
+      "target": "At the top of a staircase",
+      "choices": ["Behind a desk", "At the top of a staircase", "In a doorway", "On a balcony"]
+    },
+    {
+      "prompt": "What does he call his weapon?",
+      "target": "His little friend",
+      "choices": ["His justice", "His little friend", "His revenge", "His final answer"]
+    }
+  ],
+  "translation": "A desperate man stood at the top of the stairs, holding an enormous weapon in his hands. He shouted to his enemies: 'Say hello to my little friend!'"
+}

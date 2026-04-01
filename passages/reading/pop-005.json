@@ -1,0 +1,25 @@
+{
+  "id": "pop-005",
+  "source": "Pop Culture",
+  "chapter": "The Godfather",
+  "latin": "Patriarcha familiae, vir potentissimus, filio suo dixit: 'ei condicionem feram quam recusare non possit.'",
+  "glossary": {
+    "patriarcha": "patriarch, head of family",
+    "condicionem": "offer, terms, condition",
+    "feram": "I will bring, I will offer",
+    "recusare": "to refuse, reject"
+  },
+  "questions": [
+    {
+      "prompt": "Who is the speaker?",
+      "target": "The powerful head of the family",
+      "choices": ["A servant", "The powerful head of the family", "A judge", "A priest"]
+    },
+    {
+      "prompt": "What does he promise to do?",
+      "target": "Make an offer that cannot be refused",
+      "choices": ["Punish his enemies", "Make an offer that cannot be refused", "Leave the country", "Write a new will"]
+    }
+  ],
+  "translation": "The patriarch of the family, a most powerful man, said to his son: 'I will bring him an offer that he cannot refuse.'"
+}

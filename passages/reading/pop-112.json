@@ -1,0 +1,26 @@
+{
+  "id": "pop-112",
+  "source": "Pop Culture",
+  "chapter": "Seinfeld",
+  "latin": "Non quod quicquam mali in eo sit! si quis ita vivere vult, licet ei. nos non iudicamus. omnino nihil mali est.",
+  "glossary": {
+    "mali": "wrong, bad",
+    "vivere": "to live",
+    "licet": "it is permitted",
+    "iudicamus": "we judge",
+    "omnino": "absolutely, entirely"
+  },
+  "questions": [
+    {
+      "prompt": "What attitude does the speaker express?",
+      "target": "That there is nothing wrong with it",
+      "choices": ["Strong disapproval", "That there is nothing wrong with it", "Confusion", "Jealousy"]
+    },
+    {
+      "prompt": "What does the speaker say they do not do?",
+      "target": "Judge",
+      "choices": ["Care", "Judge", "Understand", "Approve"]
+    }
+  ],
+  "translation": "Not that there's anything wrong with it! If someone wants to live that way, they may. We do not judge. There is absolutely nothing wrong."
+}

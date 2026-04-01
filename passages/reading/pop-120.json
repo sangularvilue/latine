@@ -1,0 +1,27 @@
+{
+  "id": "pop-120",
+  "source": "Pop Culture",
+  "chapter": "The Simpsons",
+  "latin": "Eheu! Homerus caput suum percussit et clamavit. hoc verbum semper dicebat cum aliquid mali accidebat — quod saepe fiebat.",
+  "glossary": {
+    "eheu": "d'oh!, alas",
+    "caput": "head",
+    "percussit": "struck, hit",
+    "aliquid": "something",
+    "mali": "bad",
+    "saepe": "often"
+  },
+  "questions": [
+    {
+      "prompt": "What did Homer do when something went wrong?",
+      "target": "Hit his head and shouted 'D'oh!'",
+      "choices": ["Ran away", "Hit his head and shouted 'D'oh!'", "Called for help", "Sat down quietly"]
+    },
+    {
+      "prompt": "How often did bad things happen to Homer?",
+      "target": "Often",
+      "choices": ["Rarely", "Never", "Often", "Only once"]
+    }
+  ],
+  "translation": "D'oh! Homer struck his head and exclaimed. He always said this word when something bad happened — which happened often."
+}

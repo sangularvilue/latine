@@ -1,0 +1,34 @@
+{
+  "id": "pop-042",
+  "source": "Pop Culture",
+  "chapter": "Iter Peregrini per Galaxiam",
+  "latin": "'O Cogitatio Profunda,' inquit, 'munus quod tibi destinatum est hoc est. volumus ut nobis dicas... Responsum.' 'Responsum?' inquit Cogitatio Profunda. 'Responsum ad quid?' 'Vitam!' clamavit Fook. 'Universum!' clamavit Lunkwill. 'Omnia!' ambo simul clamaverunt. Cogitatio Profunda paulisper tacuit. 'difficile est,' tandem inquit. 'sed potes id facere?' 'ita,' inquit Cogitatio Profunda, 'possum.' 'estne igitur Responsum?' rogavit Fook anhelans. 'est. Vita, Universum, et Omnia. est Responsum. sed oportebit me cogitare.' Fook horologium suum impatienter inspexit. 'quam diu?' rogavit. 'septem et dimidium miliones annorum,' inquit Cogitatio Profunda. ambo conniverunt. 'septem et dimidium miliones annorum!' clamaverunt. 'ita vero,' declaravit Cogitatio Profunda. 'dixi me cogitaturum esse, nonne?'",
+  "glossary": {
+    "munus": "task, duty",
+    "destinatum": "designed, intended",
+    "paulisper": "for a little while",
+    "anhelans": "panting, breathless",
+    "oportebit": "it will be necessary",
+    "conniverunt": "they blinked",
+    "miliones": "millions",
+    "cogitaturum": "going to think (fut. act. participle)"
+  },
+  "questions": [
+    {
+      "prompt": "What did they ask Deep Thought to answer?",
+      "target": "The question of Life, the Universe, and Everything",
+      "choices": ["How to build a spaceship", "The question of Life, the Universe, and Everything", "The meaning of love", "How to defeat their enemies"]
+    },
+    {
+      "prompt": "How long did Deep Thought say it would take?",
+      "target": "Seven and a half million years",
+      "choices": ["Seven days", "Seven thousand years", "Seven and a half million years", "Forty-two seconds"]
+    },
+    {
+      "prompt": "What was Deep Thought's initial reaction to the question?",
+      "target": "It said it was tricky",
+      "choices": ["It refused to answer", "It said it was tricky", "It answered immediately", "It laughed"]
+    }
+  ],
+  "translation": "'O Deep Thought,' he said, 'the task designed for you is this. We want you to tell us... the Answer.' 'The Answer?' said Deep Thought. 'The Answer to what?' 'Life!' cried Fook. 'The Universe!' cried Lunkwill. 'Everything!' they both cried together. Deep Thought was silent for a moment. 'It is difficult,' he said at last. 'But can you do it?' 'Yes,' said Deep Thought, 'I can.' 'Is there then an Answer?' asked Fook breathlessly. 'There is. Life, the Universe, and Everything. There is an Answer. But I will need to think.' Fook impatiently checked his watch. 'How long?' he asked. 'Seven and a half million years,' said Deep Thought. They both blinked. 'Seven and a half million years!' they cried. 'Yes,' declared Deep Thought. 'I said I was going to think, didn't I?'"
+}

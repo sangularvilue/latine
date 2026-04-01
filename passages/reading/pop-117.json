@@ -1,0 +1,26 @@
+{
+  "id": "pop-117",
+  "source": "Pop Culture",
+  "chapter": "Friends",
+  "latin": "Verte! verte! VERTE! lectum magnum per scalas ferebant. Rossus clamabat 'verte!' sed amici eius non poterant eum vertere. lectus in scalis haesit.",
+  "glossary": {
+    "verte": "turn, pivot",
+    "lectum": "couch, bed",
+    "scalas": "stairs",
+    "ferebant": "were carrying",
+    "haesit": "got stuck"
+  },
+  "questions": [
+    {
+      "prompt": "What were they trying to carry up the stairs?",
+      "target": "A large couch",
+      "choices": ["A table", "A large couch", "A piano", "A refrigerator"]
+    },
+    {
+      "prompt": "What happened to the couch?",
+      "target": "It got stuck on the stairs",
+      "choices": ["It broke in half", "It got stuck on the stairs", "It fell down", "It fit perfectly"]
+    }
+  ],
+  "translation": "Pivot! Pivot! PIVOT! They were carrying a large couch up the stairs. Ross was shouting 'pivot!' but his friends could not turn it. The couch got stuck on the stairs."
+}

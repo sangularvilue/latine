@@ -1,0 +1,25 @@
+{
+  "id": "pop-116",
+  "source": "Pop Culture",
+  "chapter": "Friends",
+  "latin": "Separati eramus! quotiens tibi dicam? cum illa nocte te vidi, separati eramus! non est mea culpa!",
+  "glossary": {
+    "separati": "separated, on a break",
+    "quotiens": "how many times",
+    "nocte": "night",
+    "culpa": "fault, blame"
+  },
+  "questions": [
+    {
+      "prompt": "What does the speaker insist about their relationship status?",
+      "target": "They were on a break",
+      "choices": ["They were married", "They were on a break", "They were happy", "They never dated"]
+    },
+    {
+      "prompt": "What does the speaker deny?",
+      "target": "That it is his fault",
+      "choices": ["That he was there", "That he saw her", "That it is his fault", "That he loves her"]
+    }
+  ],
+  "translation": "We were on a break! How many times do I have to tell you? When I saw you that night, we were on a break! It is not my fault!"
+}

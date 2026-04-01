@@ -1,0 +1,26 @@
+{
+  "id": "pop-013",
+  "source": "Pop Culture",
+  "chapter": "Monty Python's Flying Circus",
+  "latin": "Subito tres viri rubris vestimentis induti per ianuam intraverunt. dux eorum exclamavit: 'nemo Inquisitionem Hispanicam exspectat!'",
+  "glossary": {
+    "vestimentis": "garments, robes (abl.)",
+    "induti": "dressed, clothed (nom. pl.)",
+    "ianuam": "door (acc.)",
+    "Inquisitionem": "Inquisition (acc.)",
+    "exspectat": "expects"
+  },
+  "questions": [
+    {
+      "prompt": "How were the three men dressed?",
+      "target": "In red robes",
+      "choices": ["In black armor", "In red robes", "In white cloaks", "In royal purple"]
+    },
+    {
+      "prompt": "What did their leader shout?",
+      "target": "Nobody expects the Spanish Inquisition",
+      "choices": ["Surrender immediately", "Nobody expects the Spanish Inquisition", "We come in peace", "Bow before the king"]
+    }
+  ],
+  "translation": "Suddenly three men dressed in red robes entered through the door. Their leader exclaimed: 'Nobody expects the Spanish Inquisition!'"
+}

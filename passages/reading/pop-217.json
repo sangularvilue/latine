@@ -1,0 +1,26 @@
+{
+  "id": "pop-217",
+  "source": "Video Games",
+  "chapter": "Dark Souls",
+  "latin": "Verba rubra ante oculos apparuerunt: 'mortuus es.' miles iterum surrexit, iterum pugnavit, iterum cecidit. mors non finis erat, sed magister.",
+  "glossary": {
+    "mortuus": "dead",
+    "surrexit": "rose up",
+    "cecidit": "fell",
+    "mors": "death",
+    "magister": "teacher"
+  },
+  "questions": [
+    {
+      "prompt": "What words appeared before the player's eyes?",
+      "target": "You Died",
+      "choices": ["Game Over", "You Died", "Try Again", "You Lost"]
+    },
+    {
+      "prompt": "According to the passage, what role does death play?",
+      "target": "It is a teacher",
+      "choices": ["It is the end", "It is punishment", "It is a teacher", "It is meaningless"]
+    }
+  ],
+  "translation": "Red words appeared before his eyes: 'You died.' The soldier rose again, fought again, fell again. Death was not the end, but a teacher."
+}

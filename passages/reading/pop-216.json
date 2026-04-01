@@ -1,0 +1,31 @@
+{
+  "id": "pop-216",
+  "source": "Video Games",
+  "chapter": "Skyrim",
+  "latin": "Custos urbis ad viatorem conversus est. 'olim explorator eram sicut tu,' inquit, 'sed tum sagittam in genu accepi.' post illum diem numquam rursus ambulavit.",
+  "glossary": {
+    "custos": "guard",
+    "explorator": "adventurer, explorer",
+    "sagittam": "arrow",
+    "genu": "knee",
+    "rursus": "again"
+  },
+  "questions": [
+    {
+      "prompt": "What was the guard before his injury?",
+      "target": "An adventurer",
+      "choices": ["A soldier", "An adventurer", "A merchant", "A farmer"]
+    },
+    {
+      "prompt": "Where was the guard hit by the arrow?",
+      "target": "In the knee",
+      "choices": ["In the arm", "In the chest", "In the knee", "In the shoulder"]
+    },
+    {
+      "prompt": "What happened after the injury?",
+      "target": "He never walked again",
+      "choices": ["He became stronger", "He found a healer", "He never walked again", "He sought revenge"]
+    }
+  ],
+  "translation": "The city guard turned to the traveler. 'I used to be an adventurer like you,' he said, 'but then I took an arrow in the knee.' After that day he never walked again."
+}

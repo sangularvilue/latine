@@ -1,0 +1,26 @@
+{
+  "id": "pop-121",
+  "source": "Pop Culture",
+  "chapter": "The Simpsons",
+  "latin": "Noli bovem habere, amice. tranquillus esto. nihil tam grave est. noli bovem habere!",
+  "glossary": {
+    "noli": "do not",
+    "bovem": "cow",
+    "tranquillus": "calm",
+    "esto": "be (imperative)",
+    "grave": "serious"
+  },
+  "questions": [
+    {
+      "prompt": "What is the speaker telling someone to do?",
+      "target": "Stay calm and not overreact",
+      "choices": ["Buy a cow", "Stay calm and not overreact", "Leave town", "Stop eating"]
+    },
+    {
+      "prompt": "What does 'noli bovem habere' literally mean?",
+      "target": "Don't have a cow",
+      "choices": ["Don't eat beef", "Don't have a cow", "Don't be stubborn", "Don't run away"]
+    }
+  ],
+  "translation": "Don't have a cow, man. Be calm. Nothing is that serious. Don't have a cow!"
+}

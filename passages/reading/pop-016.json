@@ -1,0 +1,26 @@
+{
+  "id": "pop-016",
+  "source": "Pop Culture",
+  "chapter": "Forrest Gump",
+  "latin": "Vir simplex in sella sedens ignotis narrabat: 'mater mea dicere solebat vitam esse similem cistae dulciorum — numquam scias quid accepturus sis.'",
+  "glossary": {
+    "sella": "bench, seat",
+    "ignotis": "to strangers (dat.)",
+    "solebat": "used to, was accustomed",
+    "cistae": "box (gen.)",
+    "dulciorum": "of sweets/chocolates (gen.)"
+  },
+  "questions": [
+    {
+      "prompt": "Where is the man sitting?",
+      "target": "On a bench",
+      "choices": ["In a restaurant", "On a bench", "At a desk", "On a bus"]
+    },
+    {
+      "prompt": "What did his mother used to say?",
+      "target": "Life is like a box of chocolates — you never know what you'll get",
+      "choices": ["Always be kind to strangers", "Life is like a box of chocolates — you never know what you'll get", "Hard work pays off", "Home is where the heart is"]
+    }
+  ],
+  "translation": "A simple man, sitting on a bench, was telling strangers: 'My mother used to say that life is like a box of chocolates — you never know what you're going to get.'"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pop-003",
+  "source": "Pop Culture",
+  "chapter": "The Princess Bride",
+  "latin": "Vir Hispanus, gladium tenens, ad hostem dixit: 'nomen mihi est Inigo Montoya. tu patrem meum necavisti. te mori oportet.'",
+  "glossary": {
+    "gladium": "sword",
+    "necavisti": "you killed",
+    "mori": "to die",
+    "oportet": "it is necessary, one must"
+  },
+  "questions": [
+    {
+      "prompt": "What is the speaker holding?",
+      "target": "A sword",
+      "choices": ["A shield", "A sword", "A letter", "A torch"]
+    },
+    {
+      "prompt": "Why does the speaker confront this enemy?",
+      "target": "The enemy killed his father",
+      "choices": ["The enemy stole his gold", "The enemy killed his father", "The enemy kidnapped his wife", "The enemy burned his village"]
+    }
+  ],
+  "translation": "A Spanish man, holding a sword, said to his enemy: 'My name is Inigo Montoya. You killed my father. You must die.'"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-114",
+  "source": "Pop Culture",
+  "chapter": "The Office",
+  "latin": "Declaro me decoctiorem esse! surrexit et magna voce clamavit. sed amicus eius suspiravit et dixit: non potes modo declarare te decoctiorem esse, Michael.",
+  "glossary": {
+    "declaro": "I declare",
+    "decoctiorem": "bankrupt",
+    "surrexit": "stood up",
+    "magna voce": "in a loud voice",
+    "suspiravit": "sighed"
+  },
+  "questions": [
+    {
+      "prompt": "What did Michael declare loudly?",
+      "target": "Bankruptcy",
+      "choices": ["War", "Bankruptcy", "A holiday", "His love"]
+    },
+    {
+      "prompt": "What was his friend's response?",
+      "target": "You cannot simply declare bankruptcy",
+      "choices": ["Congratulations", "You cannot simply declare bankruptcy", "Let me help you", "That is very wise"]
+    }
+  ],
+  "translation": "I declare bankruptcy! He stood up and shouted in a loud voice. But his friend sighed and said: you can't just declare bankruptcy, Michael."
+}

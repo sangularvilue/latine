@@ -1,0 +1,26 @@
+{
+  "id": "pop-018",
+  "source": "Pop Culture",
+  "chapter": "Gladiator",
+  "latin": "Gladiator, post caedem hostium, gladium in harenam iecit et ad turbam spectantem clamavit: 'nonne delectamini?'",
+  "glossary": {
+    "caedem": "slaughter, killing (acc.)",
+    "harenam": "sand, arena (acc.)",
+    "iecit": "threw",
+    "turbam": "crowd (acc.)",
+    "delectamini": "are you entertained/delighted?"
+  },
+  "questions": [
+    {
+      "prompt": "What did the gladiator do after killing his enemies?",
+      "target": "Threw his sword into the sand",
+      "choices": ["Raised his arms in triumph", "Threw his sword into the sand", "Bowed to the emperor", "Left the arena quietly"]
+    },
+    {
+      "prompt": "What did he shout at the crowd?",
+      "target": "Are you not entertained?",
+      "choices": ["I demand my freedom!", "Are you not entertained?", "I am the champion!", "Who is next?"]
+    }
+  ],
+  "translation": "The gladiator, after the slaughter of his enemies, threw his sword into the sand and shouted to the watching crowd: 'Are you not entertained?'"
+}

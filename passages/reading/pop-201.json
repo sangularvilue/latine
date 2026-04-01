@@ -1,0 +1,26 @@
+{
+  "id": "pop-201",
+  "source": "Anime",
+  "chapter": "Dragon Ball Z",
+  "latin": "Vegeta instrumentum suum inspexit et exclamavit: 'vis pugnandi eius supra novem milia est!' nemo credere poterat tantam vim in uno homine esse.",
+  "glossary": {
+    "instrumentum": "device, instrument",
+    "inspexit": "examined, looked at",
+    "vis": "power, force",
+    "pugnandi": "of fighting",
+    "credere": "to believe"
+  },
+  "questions": [
+    {
+      "prompt": "What is over 9000?",
+      "target": "His fighting power",
+      "choices": ["His age", "His fighting power", "The number of soldiers", "The distance"]
+    },
+    {
+      "prompt": "How did others react to this information?",
+      "target": "No one could believe it",
+      "choices": ["They celebrated", "No one could believe it", "They ran away", "They laughed"]
+    }
+  ],
+  "translation": "Vegeta examined his device and exclaimed: 'His fighting power is over nine thousand!' No one could believe such great power existed in one man."
+}

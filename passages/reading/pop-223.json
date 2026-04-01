@@ -1,0 +1,26 @@
+{
+  "id": "pop-223",
+  "source": "Literature",
+  "chapter": "Moby Dick",
+  "latin": "Me Ismaelem vocate. ante paucos annos, cum nihil pecuniae haberem et animus meus tristis esset, constitui navigare. mare semper melius est quam terra irato homini.",
+  "glossary": {
+    "vocate": "call",
+    "pecuniae": "money",
+    "animus": "spirit, mind",
+    "constitui": "I decided",
+    "navigare": "to sail"
+  },
+  "questions": [
+    {
+      "prompt": "What does the narrator ask us to call him?",
+      "target": "Ishmael",
+      "choices": ["Ahab", "Ishmael", "Queequeg", "Starbuck"]
+    },
+    {
+      "prompt": "Why did he decide to go to sea?",
+      "target": "He had no money and was sad",
+      "choices": ["He wanted adventure", "He was a sailor by trade", "He had no money and was sad", "He was searching for a whale"]
+    }
+  ],
+  "translation": "Call me Ishmael. A few years ago, when I had no money and my spirit was sad, I decided to sail. The sea is always better than land for an angry man."
+}

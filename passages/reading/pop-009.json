@@ -1,0 +1,26 @@
+{
+  "id": "pop-009",
+  "source": "Pop Culture",
+  "chapter": "Apollo 13",
+  "latin": "Nautae caelestes, longe a terra in nave inter sidera volantes, sonitum terribilem audiverunt. dux ad terram nuntiavit: 'Houston, difficultatem habemus.'",
+  "glossary": {
+    "nautae caelestes": "astronauts (lit. heavenly sailors)",
+    "sidera": "stars",
+    "sonitum": "sound, noise (acc.)",
+    "nuntiavit": "reported, announced",
+    "difficultatem": "problem, difficulty (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "Where were the astronauts?",
+      "target": "Far from Earth, flying among the stars",
+      "choices": ["On the moon", "Far from Earth, flying among the stars", "On a space station", "Landing on Mars"]
+    },
+    {
+      "prompt": "What did they hear?",
+      "target": "A terrible sound",
+      "choices": ["A radio message", "A terrible sound", "An alarm bell", "Complete silence"]
+    }
+  ],
+  "translation": "The astronauts, flying far from Earth in a ship among the stars, heard a terrible sound. The commander reported to Earth: 'Houston, we have a problem.'"
+}

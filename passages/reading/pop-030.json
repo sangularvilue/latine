@@ -1,0 +1,26 @@
+{
+  "id": "pop-030",
+  "source": "Pop Culture",
+  "chapter": "Rocky",
+  "latin": "Pugil, sanguine et sudore madens, in media turba uxorem quaerebat. tandem clamavit: 'heus, Adriana!' — nam victoria nihil sine ea valebat.",
+  "glossary": {
+    "pugil": "boxer",
+    "sudore": "sweat (abl.)",
+    "madens": "wet, dripping",
+    "heus": "hey! (interjection)",
+    "valebat": "was worth"
+  },
+  "questions": [
+    {
+      "prompt": "What condition is the boxer in?",
+      "target": "Dripping with blood and sweat",
+      "choices": ["Clean and triumphant", "Dripping with blood and sweat", "Unconscious on the ground", "Fresh and ready to fight"]
+    },
+    {
+      "prompt": "Who is he looking for?",
+      "target": "His wife",
+      "choices": ["His trainer", "His wife", "The referee", "His opponent"]
+    }
+  ],
+  "translation": "The boxer, dripping with blood and sweat, searched for his wife in the middle of the crowd. Finally he cried: 'Hey, Adrian!' — for victory was worth nothing without her."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pop-002",
+  "source": "Pop Culture",
+  "chapter": "Star Wars",
+  "latin": "In summo loco, supra abyssum pendens, iuvenis contra hostem obscurum pugnavit. tum ille hostis, galea nigra tectus, clamavit: 'ego pater tuus sum.' iuvenis, hoc audito, magno dolore affectus est.",
+  "glossary": {
+    "abyssum": "abyss, chasm",
+    "pendens": "hanging (present participle)",
+    "galea": "helmet",
+    "tectus": "covered, concealed",
+    "affectus est": "was affected, was struck"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the fight take place?",
+      "target": "High up, above an abyss",
+      "choices": ["In a forest", "High up, above an abyss", "On a ship", "In a desert"]
+    },
+    {
+      "prompt": "What shocking revelation did the dark enemy make?",
+      "target": "He is the young man's father",
+      "choices": ["He is the young man's brother", "He is the young man's father", "He is a former teacher", "He is a ghost"]
+    },
+    {
+      "prompt": "How did the young man react?",
+      "target": "He was struck with great pain",
+      "choices": ["He laughed", "He ran away immediately", "He was struck with great pain", "He attacked again"]
+    }
+  ],
+  "translation": "In a high place, hanging above an abyss, a young man fought against a dark enemy. Then that enemy, covered by a black helmet, cried out: 'I am your father.' The young man, having heard this, was struck with great pain."
+}

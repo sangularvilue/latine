@@ -1,0 +1,27 @@
+{
+  "id": "pop-107",
+  "source": "Pop Culture",
+  "chapter": "Game of Thrones",
+  "latin": "Lannister semper debita sua solvit. hoc promissum est, hoc minae sunt. aurum nostrum numquam deficit, nec memoria nostra.",
+  "glossary": {
+    "debita": "debts",
+    "solvit": "pays",
+    "promissum": "promise",
+    "minae": "threats",
+    "aurum": "gold",
+    "deficit": "fails, runs out"
+  },
+  "questions": [
+    {
+      "prompt": "What does a Lannister always do?",
+      "target": "Pays their debts",
+      "choices": ["Wins battles", "Pays their debts", "Tells the truth", "Shows mercy"]
+    },
+    {
+      "prompt": "What two things does the saying represent?",
+      "target": "A promise and a threat",
+      "choices": ["Gold and silver", "A promise and a threat", "Honor and duty", "War and peace"]
+    }
+  ],
+  "translation": "A Lannister always pays their debts. This is a promise, this is a threat. Our gold never runs out, nor does our memory."
+}

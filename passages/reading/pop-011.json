@@ -1,0 +1,26 @@
+{
+  "id": "pop-011",
+  "source": "Pop Culture",
+  "chapter": "The Wizard of Oz",
+  "latin": "Puella calceos rubros ter pulsavit et iterum atque iterum dixit: 'nullus locus tam bonus est quam domus.'",
+  "glossary": {
+    "calceos": "shoes (acc.)",
+    "rubros": "red (acc. pl.)",
+    "ter": "three times",
+    "pulsavit": "struck, clicked",
+    "tam...quam": "as...as"
+  },
+  "questions": [
+    {
+      "prompt": "What did the girl do with her red shoes?",
+      "target": "Clicked them three times",
+      "choices": ["Threw them away", "Clicked them three times", "Gave them to a friend", "Put them on for the first time"]
+    },
+    {
+      "prompt": "What did she repeatedly say?",
+      "target": "There's no place as good as home",
+      "choices": ["I want to go to Oz", "There's no place as good as home", "I wish for more courage", "Help me find the wizard"]
+    }
+  ],
+  "translation": "The girl struck her red shoes three times and said again and again: 'No place is as good as home.'"
+}

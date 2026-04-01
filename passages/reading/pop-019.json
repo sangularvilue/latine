@@ -1,0 +1,26 @@
+{
+  "id": "pop-019",
+  "source": "Pop Culture",
+  "chapter": "Braveheart",
+  "latin": "Dux Scotorum, facie caerulo colore picta, ante exercitum suum equitavit et clamavit: 'fortasse vitam nobis eripient — sed libertatem nostram numquam capient!'",
+  "glossary": {
+    "caerulo": "blue (abl.)",
+    "picta": "painted",
+    "equitavit": "rode on horseback",
+    "eripient": "they will snatch away",
+    "libertatem": "freedom, liberty (acc.)"
+  },
+  "questions": [
+    {
+      "prompt": "What was notable about the leader's face?",
+      "target": "It was painted blue",
+      "choices": ["He wore a helmet", "It was painted blue", "He had a scar", "He was masked"]
+    },
+    {
+      "prompt": "What does he say can never be taken?",
+      "target": "Their freedom",
+      "choices": ["Their land", "Their honor", "Their freedom", "Their weapons"]
+    }
+  ],
+  "translation": "The leader of the Scots, his face painted with blue, rode before his army and cried: 'Perhaps they will snatch our lives — but they will never take our freedom!'"
+}

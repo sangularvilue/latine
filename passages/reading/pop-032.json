@@ -1,0 +1,26 @@
+{
+  "id": "pop-032",
+  "source": "Pop Culture",
+  "chapter": "A Few Good Men",
+  "latin": "In iudicio, advocatus imperatorem iratum interrogabat. 'veritatem volo!' clamavit advocatus. imperator, surgens e sella, respondit: 'veritatem ferre non potes!'",
+  "glossary": {
+    "iudicio": "trial, court (abl.)",
+    "advocatus": "lawyer",
+    "imperatorem": "commander, general (acc.)",
+    "veritatem": "truth (acc.)",
+    "ferre": "to bear, to handle"
+  },
+  "questions": [
+    {
+      "prompt": "Where does this exchange take place?",
+      "target": "In a courtroom",
+      "choices": ["In a military office", "In a courtroom", "On a battlefield", "In a prison"]
+    },
+    {
+      "prompt": "What does the commander claim about the lawyer?",
+      "target": "He can't handle the truth",
+      "choices": ["He is lying", "He can't handle the truth", "He has no authority", "He doesn't understand war"]
+    }
+  ],
+  "translation": "In the trial, a lawyer was questioning an angry commander. 'I want the truth!' the lawyer shouted. The commander, rising from his seat, replied: 'You cannot handle the truth!'"
+}

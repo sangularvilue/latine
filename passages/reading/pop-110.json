@@ -1,0 +1,26 @@
+{
+  "id": "pop-110",
+  "source": "Pop Culture",
+  "chapter": "Seinfeld",
+  "latin": "Nullum ius tibi! proximus! dixi — nullum ius! si regulas meas non sequeris, nihil accipies. nunc abi!",
+  "glossary": {
+    "ius": "soup, broth",
+    "proximus": "next person",
+    "regulas": "rules",
+    "sequeris": "you follow",
+    "accipies": "you will receive"
+  },
+  "questions": [
+    {
+      "prompt": "What is being denied to the customer?",
+      "target": "Soup",
+      "choices": ["Bread", "Soup", "Money", "A seat"]
+    },
+    {
+      "prompt": "Why is the customer denied?",
+      "target": "For not following the rules",
+      "choices": ["For being late", "For not following the rules", "For having no money", "For being rude to others"]
+    }
+  ],
+  "translation": "No soup for you! Next! I said — no soup! If you don't follow my rules, you will receive nothing. Now go away!"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-012",
+  "source": "Pop Culture",
+  "chapter": "Star Wars",
+  "latin": "Magister parvus et viridis discipulo suo dixit: 'aut fac aut noli. temptare non est.'",
+  "glossary": {
+    "viridis": "green",
+    "discipulo": "to the student/pupil (dat.)",
+    "aut...aut": "either...or",
+    "noli": "don't, refuse",
+    "temptare": "to try, to attempt"
+  },
+  "questions": [
+    {
+      "prompt": "What does the small master look like?",
+      "target": "Small and green",
+      "choices": ["Tall and old", "Small and green", "Blue and glowing", "Large and gray"]
+    },
+    {
+      "prompt": "What is his lesson?",
+      "target": "Either do it or don't — there is no trying",
+      "choices": ["Practice makes perfect", "Either do it or don't — there is no trying", "Patience is key", "Always trust your feelings"]
+    }
+  ],
+  "translation": "The small, green master said to his student: 'Either do or do not. There is no trying.'"
+}

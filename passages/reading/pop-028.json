@@ -1,0 +1,26 @@
+{
+  "id": "pop-028",
+  "source": "Pop Culture",
+  "chapter": "Finding Nemo",
+  "latin": "Piscis caeruleus et immemor, amico desperanti, cantare coepit: 'nata modo! nata modo!'",
+  "glossary": {
+    "immemor": "forgetful",
+    "desperanti": "to the despairing one (dat.)",
+    "cantare": "to sing",
+    "coepit": "began",
+    "nata": "swim! (imperative)"
+  },
+  "questions": [
+    {
+      "prompt": "What is special about the blue fish?",
+      "target": "She is forgetful",
+      "choices": ["She is very small", "She is forgetful", "She is very fast", "She can speak human language"]
+    },
+    {
+      "prompt": "What does she tell her despairing friend?",
+      "target": "Just keep swimming",
+      "choices": ["Don't give up hope", "Just keep swimming", "Follow the current", "Look for the light"]
+    }
+  ],
+  "translation": "A blue and forgetful fish began to sing to her despairing friend: 'Just keep swimming! Just keep swimming!'"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-219",
+  "source": "Video Games",
+  "chapter": "Minecraft",
+  "latin": "Fossor nocte per speluncam ambulabat cum strepitum audivit. 'serpens?' rogavit trepidans. 'eheu!' subito monstrum viride post eum sibilavit et — FRAGOR!",
+  "glossary": {
+    "fossor": "digger, miner",
+    "strepitum": "noise",
+    "trepidans": "trembling",
+    "sibilavit": "hissed",
+    "fragor": "explosion, crash"
+  },
+  "questions": [
+    {
+      "prompt": "Where was the miner walking?",
+      "target": "Through a cave at night",
+      "choices": ["Through a forest", "Through a cave at night", "Across a desert", "Over a mountain"]
+    },
+    {
+      "prompt": "What happened at the end?",
+      "target": "An explosion",
+      "choices": ["The miner escaped", "An explosion", "The monster ran away", "Nothing happened"]
+    }
+  ],
+  "translation": "The miner was walking through a cave at night when he heard a noise. 'A creeper?' he asked, trembling. 'Oh no!' Suddenly a green monster hissed behind him and — BOOM!"
+}

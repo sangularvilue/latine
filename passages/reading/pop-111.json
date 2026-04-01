@@ -1,0 +1,26 @@
+{
+  "id": "pop-111",
+  "source": "Pop Culture",
+  "chapter": "Seinfeld",
+  "latin": "Hae crustulae salitae me sitientem faciunt! aquam quaero sed nemo mihi dat. cur crustulae tam salitae sunt?",
+  "glossary": {
+    "crustulae": "pretzels, snacks",
+    "salitae": "salty",
+    "sitientem": "thirsty",
+    "aquam": "water",
+    "quaero": "I seek, I'm looking for"
+  },
+  "questions": [
+    {
+      "prompt": "What is making the speaker thirsty?",
+      "target": "The salty pretzels",
+      "choices": ["The hot weather", "The salty pretzels", "A long walk", "Spicy food"]
+    },
+    {
+      "prompt": "What does the speaker want?",
+      "target": "Water",
+      "choices": ["More pretzels", "Wine", "Water", "Soup"]
+    }
+  ],
+  "translation": "These pretzels are making me thirsty! I'm looking for water but no one gives me any. Why are the pretzels so salty?"
+}

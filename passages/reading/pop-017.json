@@ -1,0 +1,26 @@
+{
+  "id": "pop-017",
+  "source": "Pop Culture",
+  "chapter": "The Matrix",
+  "latin": "Puer calvus cochleare manibus flexit. 'noli cochleare flectere temptare,' dixit. 'id fieri non potest. potius veritatem intellege: cochleare non est.'",
+  "glossary": {
+    "calvus": "bald",
+    "cochleare": "spoon",
+    "flexit": "bent",
+    "potius": "rather, instead",
+    "intellege": "understand, realize (imperative)"
+  },
+  "questions": [
+    {
+      "prompt": "What did the boy bend?",
+      "target": "A spoon",
+      "choices": ["A metal bar", "A spoon", "A key", "A coin"]
+    },
+    {
+      "prompt": "What truth does he tell the visitor?",
+      "target": "The spoon does not exist",
+      "choices": ["The world is an illusion", "The spoon does not exist", "Only the strong survive", "You must believe harder"]
+    }
+  ],
+  "translation": "A bald boy bent a spoon with his hands. 'Do not try to bend the spoon,' he said. 'It cannot be done. Rather, understand the truth: there is no spoon.'"
+}

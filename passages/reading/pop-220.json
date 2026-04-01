@@ -1,0 +1,26 @@
+{
+  "id": "pop-220",
+  "source": "Video Games",
+  "chapter": "Among Us",
+  "latin": "Decem nautae in nave spatiali erant, sed unus ex eis impostor erat. 'ille suspectus est,' dixit nauta ruber. ceteri de sententia eius dubitaverunt.",
+  "glossary": {
+    "nautae": "sailors, crew members",
+    "nave spatiali": "spaceship",
+    "impostor": "impostor",
+    "suspectus": "suspicious",
+    "dubitaverunt": "doubted"
+  },
+  "questions": [
+    {
+      "prompt": "How many crew members were on the ship?",
+      "target": "Ten",
+      "choices": ["Five", "Eight", "Ten", "Twelve"]
+    },
+    {
+      "prompt": "What did the red crew member say?",
+      "target": "That someone is suspicious",
+      "choices": ["That he found a body", "That someone is suspicious", "That he is the impostor", "That they should escape"]
+    }
+  ],
+  "translation": "Ten crew members were on a spaceship, but one of them was an impostor. 'That one is suspicious,' said the red crew member. The others doubted his judgment."
+}

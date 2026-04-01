@@ -1,0 +1,26 @@
+{
+  "id": "pop-205",
+  "source": "Anime",
+  "chapter": "Death Note",
+  "latin": "Light librum mortis aperuit et tubulum solani cepit. 'hunc tubulum solani capiam,' inquit lente, 'et edam!' tum momordit quasi totum mundum vinceret.",
+  "glossary": {
+    "librum mortis": "book of death",
+    "tubulum solani": "potato chip",
+    "capiam": "I will take",
+    "edam": "I will eat",
+    "momordit": "bit into"
+  },
+  "questions": [
+    {
+      "prompt": "What does Light take?",
+      "target": "A potato chip",
+      "choices": ["A pen", "A potato chip", "A page from the book", "An apple"]
+    },
+    {
+      "prompt": "What does Light do with it?",
+      "target": "He eats it dramatically",
+      "choices": ["He throws it away", "He gives it to Ryuk", "He eats it dramatically", "He crushes it"]
+    }
+  ],
+  "translation": "Light opened the death book and took a potato chip. 'I will take this potato chip,' he said slowly, 'and eat it!' Then he bit into it as if he were conquering the whole world."
+}

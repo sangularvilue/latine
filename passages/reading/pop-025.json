@@ -1,0 +1,26 @@
+{
+  "id": "pop-025",
+  "source": "Pop Culture",
+  "chapter": "Fight Club",
+  "latin": "Dux sodalicii, saponem manu tenens, leges exposuit: 'regula prima Collegii Pugnandi haec est: de Collegio Pugnandi nemo loquatur.'",
+  "glossary": {
+    "sodalicii": "of the club/society (gen.)",
+    "saponem": "soap (acc.)",
+    "leges": "rules, laws",
+    "exposuit": "set forth, explained",
+    "loquatur": "may/should speak (pres. subj.)"
+  },
+  "questions": [
+    {
+      "prompt": "What is the leader holding?",
+      "target": "Soap",
+      "choices": ["A weapon", "Soap", "A book of rules", "A drink"]
+    },
+    {
+      "prompt": "What is the first rule?",
+      "target": "No one talks about Fight Club",
+      "choices": ["Always fight fairly", "No one talks about Fight Club", "New members go first", "No weapons allowed"]
+    }
+  ],
+  "translation": "The leader of the club, holding soap in his hand, set forth the rules: 'The first rule of Fight Club is this: no one shall speak about Fight Club.'"
+}

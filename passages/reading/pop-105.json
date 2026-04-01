@@ -1,0 +1,26 @@
+{
+  "id": "pop-105",
+  "source": "Pop Culture",
+  "chapter": "The Wire",
+  "latin": "Si regem petis, cave ne aberres. nam qui regem petit et fallit, ipse perit.",
+  "glossary": {
+    "regem": "king",
+    "petis": "you attack, aim at",
+    "cave": "beware",
+    "aberres": "you miss",
+    "perit": "perishes, dies"
+  },
+  "questions": [
+    {
+      "prompt": "What warning is given about attacking the king?",
+      "target": "You had better not miss",
+      "choices": ["Only attack at night", "You had better not miss", "Bring many soldiers", "Ask permission first"]
+    },
+    {
+      "prompt": "What happens to the one who misses?",
+      "target": "He himself perishes",
+      "choices": ["He is exiled", "He himself perishes", "He is forgiven", "He tries again"]
+    }
+  ],
+  "translation": "If you aim at the king, beware lest you miss. For he who aims at the king and fails, he himself perishes."
+}

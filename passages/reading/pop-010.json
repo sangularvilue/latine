@@ -1,0 +1,26 @@
+{
+  "id": "pop-010",
+  "source": "Pop Culture",
+  "chapter": "Casablanca",
+  "latin": "In caupona Africana, vir poculum sustulit et mulierem quam amaverat aspexit. 'ad te, puella,' inquit, et vinum bibit, sciens eam mox abituram esse.",
+  "glossary": {
+    "caupona": "tavern, bar",
+    "poculum": "cup, drinking glass",
+    "aspexit": "looked at, gazed upon",
+    "sciens": "knowing (pres. part.)",
+    "abituram esse": "was about to leave (fut. inf.)"
+  },
+  "questions": [
+    {
+      "prompt": "Where does this scene take place?",
+      "target": "In an African bar",
+      "choices": ["In a Parisian café", "In an African bar", "On a ship", "At an airport"]
+    },
+    {
+      "prompt": "What does the man know about the woman?",
+      "target": "She is about to leave soon",
+      "choices": ["She is about to leave soon", "She has betrayed him", "She is in danger", "She has forgotten him"]
+    }
+  ],
+  "translation": "In an African tavern, a man raised his glass and gazed at the woman he had loved. 'To you, kid,' he said, and drank the wine, knowing she was about to leave soon."
+}

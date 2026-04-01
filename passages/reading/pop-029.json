@@ -1,0 +1,31 @@
+{
+  "id": "pop-029",
+  "source": "Pop Culture",
+  "chapter": "The Lion King",
+  "latin": "Iuvenis leo, qui a regno suo fugerat, imaginem patris in caelo vidit. vox patris e nubibus dixit: 'memento quis sis. tu filius meus es, verus rex.'",
+  "glossary": {
+    "regno": "kingdom (abl.)",
+    "fugerat": "had fled (plupf.)",
+    "imaginem": "image, vision (acc.)",
+    "nubibus": "clouds (abl.)",
+    "memento": "remember! (imperative)"
+  },
+  "questions": [
+    {
+      "prompt": "What had the young lion done?",
+      "target": "Fled from his kingdom",
+      "choices": ["Lost a fight", "Fled from his kingdom", "Been captured", "Forgotten his name"]
+    },
+    {
+      "prompt": "What does his father's ghost tell him?",
+      "target": "Remember who you are — you are the true king",
+      "choices": ["Avenge my death", "Remember who you are — you are the true king", "Stay away from home", "Find a new pride"]
+    },
+    {
+      "prompt": "Where does the father's image appear?",
+      "target": "In the sky among the clouds",
+      "choices": ["In a pool of water", "In a dream", "In the sky among the clouds", "In a cave painting"]
+    }
+  ],
+  "translation": "A young lion, who had fled from his kingdom, saw his father's image in the sky. His father's voice spoke from the clouds: 'Remember who you are. You are my son, the true king.'"
+}

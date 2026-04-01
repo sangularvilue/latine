@@ -1,0 +1,31 @@
+{
+  "id": "pop-213",
+  "source": "Video Games",
+  "chapter": "The Legend of Zelda",
+  "latin": "Senex in spelunca obscura sedebat. cum iuvenis intravit, gladium ei porrexit et dixit: 'periculosum est solum ire. cape hoc!'",
+  "glossary": {
+    "spelunca": "cave",
+    "obscura": "dark",
+    "gladium": "sword",
+    "porrexit": "held out, offered",
+    "periculosum": "dangerous"
+  },
+  "questions": [
+    {
+      "prompt": "Where was the old man?",
+      "target": "In a dark cave",
+      "choices": ["In a castle", "In a dark cave", "In a forest", "On a mountain"]
+    },
+    {
+      "prompt": "What did the old man give the youth?",
+      "target": "A sword",
+      "choices": ["A shield", "A map", "A sword", "A potion"]
+    },
+    {
+      "prompt": "Why did the old man give the item?",
+      "target": "Because it is dangerous to go alone",
+      "choices": ["Because the youth paid for it", "Because it is dangerous to go alone", "Because he no longer needed it", "Because it was cursed"]
+    }
+  ],
+  "translation": "An old man sat in a dark cave. When the youth entered, he held out a sword to him and said: 'It is dangerous to go alone. Take this!'"
+}

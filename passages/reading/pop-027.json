@@ -1,0 +1,26 @@
+{
+  "id": "pop-027",
+  "source": "Pop Culture",
+  "chapter": "Toy Story",
+  "latin": "Pupa militis sideralis, credens se vere volare posse, in margine lecti constitit et magna voce pronuntiavit: 'ad infinitum et ultra!'",
+  "glossary": {
+    "pupa": "doll, puppet, toy",
+    "sideralis": "of the stars, space-related",
+    "credens": "believing (pres. part.)",
+    "margine": "edge (abl.)",
+    "infinitum": "infinity, the infinite"
+  },
+  "questions": [
+    {
+      "prompt": "What does the toy believe about himself?",
+      "target": "That he can truly fly",
+      "choices": ["That he is human", "That he can truly fly", "That he is the leader", "That he is dreaming"]
+    },
+    {
+      "prompt": "What is his famous phrase?",
+      "target": "To infinity and beyond!",
+      "choices": ["Fly with me!", "To infinity and beyond!", "Stars, here I come!", "Up, up, and away!"]
+    }
+  ],
+  "translation": "A space soldier toy, believing he could truly fly, stood on the edge of the bed and proclaimed in a loud voice: 'To infinity and beyond!'"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pop-001",
+  "source": "Pop Culture",
+  "chapter": "Ghostbusters",
+  "latin": "Raius amicos suos monuit: 'si quis vos rogaverit num deus sitis, dicite ITA!' haec verba dixit postquam unus ex eis negaverat se deum esse et fulgure paene interfectus erat.",
+  "glossary": {
+    "monuit": "warned, advised",
+    "num": "whether (introduces indirect question)",
+    "negaverat": "had denied",
+    "fulgure": "by lightning (abl.)",
+    "paene": "almost, nearly"
+  },
+  "questions": [
+    {
+      "prompt": "What advice did Ray give his friends?",
+      "target": "If asked if you're a god, say yes",
+      "choices": ["Run away from ghosts", "If asked if you're a god, say yes", "Never cross the streams", "Call for backup"]
+    },
+    {
+      "prompt": "What happened when someone denied being a god?",
+      "target": "He was almost killed by lightning",
+      "choices": ["Nothing happened", "He was almost killed by lightning", "The ghost disappeared", "He turned invisible"]
+    }
+  ],
+  "translation": "Ray warned his friends: 'If anyone asks you whether you are a god, say YES!' He said these words after one of them had denied being a god and was almost killed by lightning."
+}
