@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-04",
+  "source": "Dominus Anulorum",
+  "chapter": "Profectio e Comitatu",
+  "latin": "Frodo sciebat se Comitatum relinquere debere ut anulum ad Montem Fati ferret. Samvisa Gamgius, servus fidelis Frodonis, sub fenestra auscultatans deprehensus est. Gandalf iussit Samvisam comitem Frodonis fieri. ita Frodo et Sam nocte Comitatum reliquerunt et in viam longam et periculosam ingressi sunt. Frodo tristis erat quod patriam dulcem relinquebat, sed animus eius firmus manebat.",
+  "glossary": {
+    "profectio": "departure, setting out",
+    "ferret": "might carry (subjunctive of fero)",
+    "auscultatans": "eavesdropping, listening secretly",
+    "deprehensus est": "was caught",
+    "comitem": "companion (acc. of comes)",
+    "periculosam": "dangerous, perilous",
+    "ingressi sunt": "they entered upon, set out on",
+    "firmus": "firm, steadfast"
+  },
+  "questions": [
+    {
+      "prompt": "Why did Frodo have to leave the Shire?",
+      "target": "To carry the Ring to Mount Doom",
+      "choices": ["To visit the Elves", "To carry the Ring to Mount Doom", "To find Bilbo", "To trade with the Dwarves"]
+    },
+    {
+      "prompt": "How was Sam discovered?",
+      "target": "He was caught eavesdropping under the window",
+      "choices": ["He volunteered to go", "Gandalf invited him", "He was caught eavesdropping under the window", "Frodo asked him to come"]
+    },
+    {
+      "prompt": "When did Frodo and Sam leave?",
+      "target": "At night",
+      "choices": ["At dawn", "At noon", "At night", "At sunset"]
+    },
+    {
+      "prompt": "How did Frodo feel about leaving?",
+      "target": "Sad but determined",
+      "choices": ["Excited and eager", "Sad but determined", "Angry and resentful", "Indifferent"]
+    }
+  ],
+  "translation": "Frodo knew that he had to leave the Shire in order to carry the ring to Mount Doom. Samwise Gamgee, Frodo's faithful servant, was caught eavesdropping under the window. Gandalf ordered Sam to become Frodo's companion. And so Frodo and Sam left the Shire by night and set out on a long and dangerous road. Frodo was sad because he was leaving his sweet homeland, but his spirit remained steadfast."
+}

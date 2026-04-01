@@ -1,0 +1,39 @@
+{
+  "id": "dune-1-06",
+  "source": "Arena",
+  "chapter": "De Occursu cum Fremen",
+  "latin": "In deserto, Paulus et Jessica a Fremen inventi sunt. Fremen erant populus fortis qui in deserto Arrakis iam multos annos vivebat. dux eorum, Stilgar nomine, Paulum et Jessicam interficere primo voluit. sed cum Jessica artem pugnandi ostendisset, Stilgar eam cum honore accepit. Paulus quoque Stilgarum vicit in certamine verborum. ita Fremen eos in tribum suam receperunt.",
+  "glossary": {
+    "inventi sunt": "were found, were discovered",
+    "populus": "people, nation",
+    "interficere": "to kill",
+    "artem pugnandi": "the art of fighting",
+    "ostendisset": "had shown, demonstrated",
+    "honore": "honor, respect",
+    "certamine": "contest, struggle",
+    "tribum": "tribe"
+  },
+  "questions": [
+    {
+      "prompt": "Who found Paul and Jessica in the desert?",
+      "target": "The Fremen",
+      "choices": ["Harkonnen scouts", "The Fremen", "Imperial soldiers", "Smugglers"]
+    },
+    {
+      "prompt": "What did Stilgar initially want to do with them?",
+      "target": "Kill them",
+      "choices": ["Welcome them warmly", "Kill them", "Send them to the Emperor", "Trade with them"]
+    },
+    {
+      "prompt": "Why did Stilgar accept Jessica with honor?",
+      "target": "She demonstrated her fighting skill",
+      "choices": ["She offered him money", "She demonstrated her fighting skill", "She knew their language", "She had a letter from the Emperor"]
+    },
+    {
+      "prompt": "How did Paul impress the Fremen?",
+      "target": "He defeated Stilgar in a contest of words",
+      "choices": ["He rode a sandworm", "He found water", "He defeated Stilgar in a contest of words", "He predicted the future"]
+    }
+  ],
+  "translation": "In the desert, Paul and Jessica were found by the Fremen. The Fremen were a strong people who had lived in the desert of Arrakis for many years. Their leader, named Stilgar, at first wanted to kill Paul and Jessica. But when Jessica demonstrated her fighting skill, Stilgar accepted her with honor. Paul also defeated Stilgar in a contest of words. Thus the Fremen received them into their tribe."
+}

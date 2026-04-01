@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-06",
+  "source": "Harrius Potter",
+  "chapter": "Caput Secundum",
+  "latin": "Harrius in armario sub scalis dormiebat. araneas solas amicas habebat. Durslei eum male tractabant: vestes veteres Dudlei gerebat et cibum parvum accipiebat. Dudley autem duo cubicula habebat — unum ad dormiendum, alterum ad ludos reponendos. Harrius numquam diem natalem celebraverat.",
+  "glossary": {
+    "armario": "cupboard, closet",
+    "scalis": "stairs (ablative)",
+    "araneas": "spiders (accusative)",
+    "male tractabant": "treated badly",
+    "vestes veteres": "old clothes",
+    "gerebat": "wore",
+    "cubicula": "rooms, bedrooms",
+    "diem natalem": "birthday"
+  },
+  "questions": [
+    {
+      "prompt": "Where did Harry sleep?",
+      "target": "In a cupboard under the stairs",
+      "choices": ["In the attic", "In a cupboard under the stairs", "In Dudley's second room", "In the garden shed"]
+    },
+    {
+      "prompt": "Who were Harry's only friends?",
+      "target": "Spiders",
+      "choices": ["Neighborhood children", "Spiders", "The family cat", "His classmates"]
+    },
+    {
+      "prompt": "How many rooms did Dudley have?",
+      "target": "Two",
+      "choices": ["One", "Two", "Three", "None"]
+    },
+    {
+      "prompt": "Whose old clothes did Harry wear?",
+      "target": "Dudley's",
+      "choices": ["Mr. Dursley's", "Dudley's", "His father's", "Clothes from a shop"]
+    }
+  ],
+  "translation": "Harry slept in a cupboard under the stairs. He had spiders as his only friends. The Dursleys treated him badly: he wore Dudley's old clothes and received little food. Dudley, however, had two bedrooms — one for sleeping, the other for storing toys. Harry had never celebrated a birthday."
+}

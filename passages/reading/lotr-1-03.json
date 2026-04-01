@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-03",
+  "source": "Dominus Anulorum",
+  "chapter": "Umbra Praeteriti",
+  "latin": "Multis annis post discessum Bilbonis, Gandalf magus ad Frodonem rediit et res graves nuntiavit. anulus quem Bilbo reliquerat non erat anulus ordinarius, sed Anulus Unus, a Saurone Obscuro olim fabricatus. hic anulus dominatum omnium anulorum potestatis tenebat. Gandalf Frodonem monuit: anulus delendus erat, aut Sauron totum mundum in servitutem redigeret. solum in ignibus Montis Fati anulus destrui poterat.",
+  "glossary": {
+    "discessum": "departure (acc. of discessus)",
+    "nuntiavit": "announced, reported",
+    "reliquerat": "had left behind",
+    "fabricatus": "forged, made",
+    "dominatum": "dominion, mastery",
+    "delendus": "that must be destroyed",
+    "servitutem": "slavery, servitude",
+    "Montis Fati": "Mount Doom (lit. Mountain of Fate)"
+  },
+  "questions": [
+    {
+      "prompt": "What did Gandalf reveal about the ring?",
+      "target": "It was the One Ring, forged by Sauron",
+      "choices": ["It was an Elvish treasure", "It was the One Ring, forged by Sauron", "It was a harmless trinket", "It was a ring of the Dwarves"]
+    },
+    {
+      "prompt": "What would happen if the Ring was not destroyed?",
+      "target": "Sauron would enslave the whole world",
+      "choices": ["Sauron would enslave the whole world", "The Ring would lose its power", "Gandalf would have to leave", "The Shire would be flooded"]
+    },
+    {
+      "prompt": "Where could the Ring be destroyed?",
+      "target": "In the fires of Mount Doom",
+      "choices": ["In any ordinary fire", "In the fires of Mount Doom", "In the sea", "In an Elvish forge"]
+    },
+    {
+      "prompt": "How long after Bilbo's departure did Gandalf return?",
+      "target": "Many years later",
+      "choices": ["The next day", "A few weeks later", "Many years later", "One year later"]
+    }
+  ],
+  "translation": "Many years after Bilbo's departure, Gandalf the wizard returned to Frodo and announced grave matters. The ring that Bilbo had left behind was not an ordinary ring, but the One Ring, once forged by Sauron the Dark. This ring held dominion over all the rings of power. Gandalf warned Frodo: the ring had to be destroyed, or Sauron would reduce the whole world to slavery. Only in the fires of Mount Doom could the ring be destroyed."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dune-1-07",
+  "source": "Arena",
+  "chapter": "De Primo Itinere Vermis",
+  "latin": "Fremen vermibus harenae non solum non timebant, sed eis utebantur ut per desertum veherentur. Paulus tandem ipse vermem ascendere debuit. vermis ingens e harena surrexit, et Paulus uncinos in corium bestiae fixit. ventus vehemens circa eum flabat dum super harenas volabat. Fremen qui spectabant clamaverunt — Paulus vermem domuit, sicut prophetia praedixerat.",
+  "glossary": {
+    "timebant": "feared",
+    "veherentur": "to be carried, to ride",
+    "ascendere": "to climb, to mount",
+    "uncinos": "hooks",
+    "corium": "hide, skin",
+    "fixit": "fastened, fixed",
+    "vehemens": "fierce, violent",
+    "domuit": "tamed, mastered"
+  },
+  "questions": [
+    {
+      "prompt": "How did the Fremen use the sandworms?",
+      "target": "They rode them to travel across the desert",
+      "choices": ["They hunted them for food", "They rode them to travel across the desert", "They worshipped them as gods", "They avoided them entirely"]
+    },
+    {
+      "prompt": "How did Paul mount the sandworm?",
+      "target": "He fastened hooks into the creature's hide",
+      "choices": ["He jumped onto its back", "He fastened hooks into the creature's hide", "He used a rope ladder", "He lured it with spice"]
+    },
+    {
+      "prompt": "How did the Fremen react when Paul succeeded?",
+      "target": "They shouted — he had fulfilled the prophecy",
+      "choices": ["They were silent with shock", "They shouted — he had fulfilled the prophecy", "They were disappointed", "They challenged him to do it again"]
+    }
+  ],
+  "translation": "The Fremen not only did not fear the sandworms, but used them to ride across the desert. Paul finally had to mount a worm himself. An enormous worm rose from the sand, and Paul fastened hooks into the beast's hide. A fierce wind blew around him as he flew over the sands. The Fremen who were watching shouted — Paul had tamed the worm, just as the prophecy had foretold."
+}

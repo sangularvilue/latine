@@ -1,0 +1,34 @@
+{
+  "id": "lotr-1-08",
+  "source": "Dominus Anulorum",
+  "chapter": "Speculum Galadrielis",
+  "latin": "In silva Lothlorien, Galadriel, regina Elforum, Frodonem ad speculum suum duxit. speculum erat pelvis aquae in qua imagines rerum futurarum apparebant. Frodo in aquam prospexit et visiones terribiles vidit: Comitatum in flammis, amicos in vinculis, et oculum magnum igneumque qui eum quaerebat. Galadriel dixit se quoque anulum cupere, sed temptationi resistere. 'in loco Sauronis Obscuri, reginam haberes,' inquit, 'pulchram et terribilem.' sed potestatem recusavit et parva mansit.",
+  "glossary": {
+    "speculum": "mirror",
+    "pelvis": "basin, bowl",
+    "imagines": "images, visions (nom. pl. of imago)",
+    "prospexit": "looked into, gazed at",
+    "vinculis": "chains, bonds (abl. pl. of vinculum)",
+    "igneum": "fiery (acc. of igneus)",
+    "temptationi": "temptation (dat. of temptatio)",
+    "recusavit": "refused, rejected"
+  },
+  "questions": [
+    {
+      "prompt": "What was Galadriel's mirror?",
+      "target": "A basin of water that showed visions of the future",
+      "choices": ["A polished silver mirror", "A basin of water that showed visions of the future", "A crystal ball", "A magic window"]
+    },
+    {
+      "prompt": "What did Frodo see in the mirror?",
+      "target": "The Shire in flames, friends in chains, and a great fiery eye",
+      "choices": ["His own future victory", "The Shire in flames, friends in chains, and a great fiery eye", "Gandalf returning alive", "The Ring being destroyed"]
+    },
+    {
+      "prompt": "What did Galadriel say about the Ring?",
+      "target": "She desired it but chose to resist the temptation",
+      "choices": ["She had no interest in it", "She desired it but chose to resist the temptation", "She wanted to destroy it herself", "She told Frodo to give it to Elrond"]
+    }
+  ],
+  "translation": "In the forest of Lothlorien, Galadriel, queen of the Elves, led Frodo to her mirror. The mirror was a basin of water in which images of future things appeared. Frodo looked into the water and saw terrible visions: the Shire in flames, friends in chains, and a great fiery eye that was seeking him. Galadriel said that she too desired the ring, but would resist the temptation. 'In place of Sauron the Dark, you would have a queen,' she said, 'beautiful and terrible.' But she refused the power and remained small."
+}

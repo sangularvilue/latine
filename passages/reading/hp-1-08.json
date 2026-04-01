@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-08",
+  "source": "Harrius Potter",
+  "chapter": "Caput Secundum",
+  "latin": "die natali Dudlei familia hortum serpentium visitavit. Harrius cum magno serpente Brasiliano per vitrum locutus est. serpens oculis signum dedit quasi intellegeret. tum vitrum subito evanuit. serpens e carcere suo elapsus est et per pavimentum reptavit. homines clamabant et fugiebant. Dudley intra vitrum captus mansit.",
+  "glossary": {
+    "hortum serpentium": "serpent house, reptile house",
+    "vitrum": "glass",
+    "locutus est": "spoke (deponent)",
+    "evanuit": "vanished, disappeared",
+    "carcere": "enclosure, prison (ablative)",
+    "elapsus est": "escaped, slipped out",
+    "pavimentum": "floor",
+    "reptavit": "crawled, slithered"
+  },
+  "questions": [
+    {
+      "prompt": "Why was the family at the zoo?",
+      "target": "It was Dudley's birthday",
+      "choices": ["It was Harry's birthday", "It was Dudley's birthday", "It was a school trip", "Mr. Dursley won tickets"]
+    },
+    {
+      "prompt": "What did Harry do with the snake?",
+      "target": "He spoke with it through the glass",
+      "choices": ["He fed it", "He spoke with it through the glass", "He touched it", "He drew a picture of it"]
+    },
+    {
+      "prompt": "What happened to the glass?",
+      "target": "It vanished",
+      "choices": ["It cracked", "It vanished", "It turned to water", "It fell inward"]
+    },
+    {
+      "prompt": "What happened to Dudley?",
+      "target": "He was trapped inside the glass enclosure",
+      "choices": ["He ran away screaming", "He was trapped inside the glass enclosure", "The snake bit him", "He fainted"]
+    }
+  ],
+  "translation": "On Dudley's birthday the family visited the reptile house. Harry spoke with a large Brazilian snake through the glass. The snake gave a sign with its eyes as if it understood. Then the glass suddenly vanished. The snake escaped from its enclosure and crawled across the floor. People were shouting and fleeing. Dudley remained trapped inside the glass."
+}

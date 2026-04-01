@@ -1,0 +1,34 @@
+{
+  "id": "dune-1-02",
+  "source": "Arena",
+  "chapter": "De Probatione Gom Jabbar",
+  "latin": "Reverenda Mater Gaius Helena Mohiam ad Paulum venit ut eum probaret. 'manum tuam in capsam pone,' inquit. capsa dolorem ingentem faciebat, sed Paulus manum non retraxit. si manum retraxisset, acus venenata quae Gom Jabbar vocabatur collum eius tetigisset. Paulus dolorem sustinuit et probationem superavit, quod Reverenda Mater numquam antea viderat.",
+  "glossary": {
+    "probaret": "to test",
+    "capsam": "box",
+    "dolorem": "pain",
+    "ingentem": "enormous, immense",
+    "retraxit": "pulled back, withdrew",
+    "acus venenata": "poisoned needle",
+    "collum": "neck",
+    "sustinuit": "endured, bore"
+  },
+  "questions": [
+    {
+      "prompt": "What did the Reverend Mother tell Paul to do?",
+      "target": "Put his hand in the box",
+      "choices": ["Drink a potion", "Put his hand in the box", "Fight a warrior", "Recite an oath"]
+    },
+    {
+      "prompt": "What would have happened if Paul pulled his hand back?",
+      "target": "A poisoned needle would have touched his neck",
+      "choices": ["The box would explode", "A poisoned needle would have touched his neck", "He would be exiled", "He would fail the test peacefully"]
+    },
+    {
+      "prompt": "How did Paul perform in the test?",
+      "target": "He endured the pain and surpassed the test",
+      "choices": ["He failed immediately", "He endured the pain and surpassed the test", "He cheated using a trick", "He barely passed"]
+    }
+  ],
+  "translation": "Reverend Mother Gaius Helen Mohiam came to Paul to test him. 'Put your hand in the box,' she said. The box caused enormous pain, but Paul did not pull his hand back. If he had withdrawn his hand, the poisoned needle called the Gom Jabbar would have touched his neck. Paul endured the pain and surpassed the test, which the Reverend Mother had never seen before."
+}

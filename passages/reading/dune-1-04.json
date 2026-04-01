@@ -1,0 +1,39 @@
+{
+  "id": "dune-1-04",
+  "source": "Arena",
+  "chapter": "De Proditione Harkonnen",
+  "latin": "Nocte quadam, Harkonnenes cum exercitu magno Arrakeen oppugnaverunt. proditor inter Atreides erat — medicus ipse Ducis, nomine Yueh, qui scuta defensionis sustulit. Dux Leto captus est et ad Baronem Harkonnen ductus. Leto dentem venenatum in ore celatum fregit ut Baronem necaret, sed Baron effugit. Dux Leto mortuus est, et domus Atreides cecidit.",
+  "glossary": {
+    "nocte": "at night",
+    "oppugnaverunt": "attacked",
+    "proditor": "traitor",
+    "medicus": "doctor, physician",
+    "scuta": "shields",
+    "captus est": "was captured",
+    "dentem venenatum": "poisoned tooth",
+    "cecidit": "fell"
+  },
+  "questions": [
+    {
+      "prompt": "Who was the traitor among the Atreides?",
+      "target": "The Duke's own doctor, Yueh",
+      "choices": ["Duncan Idaho", "The Duke's own doctor, Yueh", "Gurney Halleck", "Thufir Hawat"]
+    },
+    {
+      "prompt": "What did the traitor do to help the attack?",
+      "target": "He disabled the defense shields",
+      "choices": ["He poisoned the water supply", "He opened the city gates", "He disabled the defense shields", "He killed the guards"]
+    },
+    {
+      "prompt": "How did Duke Leto try to kill the Baron?",
+      "target": "He broke a poisoned tooth hidden in his mouth",
+      "choices": ["He used a hidden knife", "He broke a poisoned tooth hidden in his mouth", "He detonated a bomb", "He challenged him to a duel"]
+    },
+    {
+      "prompt": "What was the outcome of the attack?",
+      "target": "Duke Leto died and House Atreides fell",
+      "choices": ["The Atreides won", "Duke Leto died and House Atreides fell", "A truce was declared", "The Emperor intervened"]
+    }
+  ],
+  "translation": "One night, the Harkonnens attacked Arrakeen with a great army. There was a traitor among the Atreides — the Duke's own doctor, named Yueh, who disabled the defense shields. Duke Leto was captured and brought to Baron Harkonnen. Leto broke a poisoned tooth hidden in his mouth to kill the Baron, but the Baron escaped. Duke Leto died, and House Atreides fell."
+}

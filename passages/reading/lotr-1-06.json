@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-06",
+  "source": "Dominus Anulorum",
+  "chapter": "Concilium Elrondi",
+  "latin": "In domo Elrondi apud Imladrim, concilium magnum habitum est. Elfi, Nani, Homines, et Hobbiti convenerunt ut de fato anuli deliberarent. multi de anulo contendebant: alii eum uti volebant, alii eum celare. tandem Frodo surrexit et dixit se anulum ad Montem Fati laturum esse. novem comites electi sunt ad eum adiuvandum: Gandalf, Aragorn, Legolas, Gimli, Boromir, Sam, Merry, et Pippin. sic Societas Anuli nata est.",
+  "glossary": {
+    "concilium": "council, assembly",
+    "deliberarent": "might deliberate (subjunctive)",
+    "contendebant": "argued, contended",
+    "uti": "to use",
+    "celare": "to hide",
+    "laturum esse": "would carry (future infinitive of fero)",
+    "comites": "companions (nom. pl. of comes)",
+    "electi sunt": "were chosen"
+  },
+  "questions": [
+    {
+      "prompt": "Where was the council held?",
+      "target": "At Elrond's house in Rivendell",
+      "choices": ["In the Shire", "At Elrond's house in Rivendell", "In the Mines of Moria", "At Isengard"]
+    },
+    {
+      "prompt": "What did some people want to do with the Ring?",
+      "target": "Some wanted to use it, others to hide it",
+      "choices": ["Everyone agreed to destroy it at once", "Some wanted to use it, others to hide it", "They wanted to give it to Sauron", "They wanted to break it in pieces"]
+    },
+    {
+      "prompt": "Who volunteered to carry the Ring?",
+      "target": "Frodo",
+      "choices": ["Aragorn", "Gandalf", "Frodo", "Boromir"]
+    },
+    {
+      "prompt": "How many companions were chosen?",
+      "target": "Nine",
+      "choices": ["Seven", "Eight", "Nine", "Ten"]
+    }
+  ],
+  "translation": "In the house of Elrond at Rivendell, a great council was held. Elves, Dwarves, Men, and Hobbits gathered to deliberate about the fate of the ring. Many argued about the ring: some wanted to use it, others to hide it. At last Frodo rose and said that he would carry the ring to Mount Doom. Nine companions were chosen to help him: Gandalf, Aragorn, Legolas, Gimli, Boromir, Sam, Merry, and Pippin. Thus the Fellowship of the Ring was born."
+}

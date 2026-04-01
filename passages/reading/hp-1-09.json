@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-09",
+  "source": "Harrius Potter",
+  "chapter": "Caput Tertium",
+  "latin": "epistula inscripta 'Harrio Potter, in Armario sub Scalis' advenit. Dominus Dursley eam rapuit antequam Harrius legere posset. postero die plures epistulae venerunt. Dursley omnes destruxit. cotidie numerus epistularum crescebat. per rimam ianuae, per fenestras, etiam per caminum intrabant. denique Dominus Dursley familiam ad insulam remotam in mari fugavit.",
+  "glossary": {
+    "inscripta": "addressed, inscribed",
+    "rapuit": "snatched, seized",
+    "antequam": "before",
+    "plures": "more, several",
+    "cotidie": "daily, every day",
+    "rimam": "crack, gap",
+    "caminum": "chimney, fireplace",
+    "insulam remotam": "a remote island"
+  },
+  "questions": [
+    {
+      "prompt": "How was Harry's letter specifically addressed?",
+      "target": "To Harry Potter, in the Cupboard under the Stairs",
+      "choices": ["To Harry Potter, Privet Drive", "To Harry Potter, in the Cupboard under the Stairs", "To the Boy Who Lived", "To Mr. H. Potter, the Smallest Bedroom"]
+    },
+    {
+      "prompt": "What did Mr. Dursley do with the letters?",
+      "target": "He destroyed them all",
+      "choices": ["He read them secretly", "He destroyed them all", "He sent them back", "He hid them in his office"]
+    },
+    {
+      "prompt": "How did the letters enter the house as their numbers grew?",
+      "target": "Through cracks, windows, and the chimney",
+      "choices": ["Only through the mail slot", "Through cracks, windows, and the chimney", "By owl delivery only", "Through the garden"]
+    },
+    {
+      "prompt": "Where did Mr. Dursley take the family to escape the letters?",
+      "target": "To a remote island in the sea",
+      "choices": ["To a hotel in the city", "To relatives in the countryside", "To a remote island in the sea", "To another country"]
+    }
+  ],
+  "translation": "A letter addressed 'To Harry Potter, in the Cupboard under the Stairs' arrived. Mr. Dursley snatched it before Harry could read it. The next day more letters came. Dursley destroyed them all. Every day the number of letters grew. They entered through the crack of the door, through windows, even through the chimney. Finally Mr. Dursley drove the family to a remote island in the sea."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "hp-1-15",
+  "source": "Harrius Potter",
+  "chapter": "Caput Septimum Decimum",
+  "latin": "Harrius solus in conclave subterraneum descendit et Professorem Quirrell ibi invenit, non Snape ut suspicatus erat. Quirrell tegumentum capitis removit et in occipite eius vultum Voldemortis revelavit — duo corpora unam vitam dividebant. Voldemort Lapidem Philosophi desiderabat ut corpus proprium recuperaret. ante Speculum Erisedis Harrius stetit: speculum ei Lapidem in sinu ostendit, quod solum is qui Lapidem invenire sed non uti vellet eum accipere posset. cum Quirrell Harrium tangeret, cutis eius ardebat — amor matris Harrium protegebat. Quirrell in cinerem cecidit et Voldemort ut umbra fugit.",
+  "glossary": {
+    "conclave subterraneum": "underground chamber",
+    "suspicatus erat": "he had suspected",
+    "tegumentum capitis": "head covering, turban",
+    "occipite": "back of the head (ablative)",
+    "vultum": "face (accusative)",
+    "Speculum Erisedis": "the Mirror of Erised",
+    "sinu": "pocket, fold of garment",
+    "uti": "to use",
+    "cutis": "skin",
+    "cinerem": "ash, dust",
+    "umbra": "shadow, shade"
+  },
+  "questions": [
+    {
+      "prompt": "Who did Harry find in the underground chamber?",
+      "target": "Professor Quirrell, not Snape",
+      "choices": ["Snape", "Professor Quirrell, not Snape", "Dumbledore", "Voldemort in his own body"]
+    },
+    {
+      "prompt": "Where was Voldemort's face hidden?",
+      "target": "On the back of Quirrell's head",
+      "choices": ["Behind a mask", "In the mirror", "On the back of Quirrell's head", "In the shadows of the room"]
+    },
+    {
+      "prompt": "How did Harry obtain the Philosopher's Stone from the Mirror?",
+      "target": "Only someone who wanted to find it but not use it could receive it",
+      "choices": ["He broke the mirror", "He said a magic word", "Only someone who wanted to find it but not use it could receive it", "Dumbledore gave it to him through the mirror"]
+    },
+    {
+      "prompt": "Why did Quirrell burn when he touched Harry?",
+      "target": "Harry's mother's love protected him",
+      "choices": ["Harry cast a fire spell", "The Stone was too hot", "Harry's mother's love protected him", "Dumbledore enchanted Harry's skin"]
+    }
+  ],
+  "translation": "Harry descended alone into the underground chamber and found Professor Quirrell there, not Snape as he had suspected. Quirrell removed his turban and revealed Voldemort's face on the back of his head — two bodies shared one life. Voldemort desired the Philosopher's Stone to recover his own body. Harry stood before the Mirror of Erised: the mirror showed him the Stone in his pocket, because only one who wanted to find the Stone but not use it could receive it. When Quirrell touched Harry, his skin burned — his mother's love protected Harry. Quirrell fell to ash and Voldemort fled as a shadow."
+}

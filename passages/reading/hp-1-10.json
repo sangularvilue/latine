@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-10",
+  "source": "Harrius Potter",
+  "chapter": "Caput Quartum",
+  "latin": "media nocte, die natali Harrii, aliquis ianuam casae vehementer pulsavit. ianua tota de cardine cecidit. Hagrid, vir immensae staturae, intravit. placentam natalem Harrio dedit quam ipse fecerat. tum dixit verba quae vitam Harrii mutaverunt: 'magus es, Harri.' Harrius obstupuit. 'ego — quid?' rogavit. Hagrid ei de schola magica Hogvartensi narravit.",
+  "glossary": {
+    "media nocte": "at midnight",
+    "casae": "of the hut/shack",
+    "vehementer": "violently, forcefully",
+    "cardine": "hinge (ablative)",
+    "immensae staturae": "of immense stature",
+    "placentam natalem": "birthday cake",
+    "magus": "wizard",
+    "obstupuit": "was stunned, astonished"
+  },
+  "questions": [
+    {
+      "prompt": "When did Hagrid arrive at the hut?",
+      "target": "At midnight on Harry's birthday",
+      "choices": ["Early in the morning", "At midnight on Harry's birthday", "During a storm at noon", "At sunset"]
+    },
+    {
+      "prompt": "What did Hagrid give Harry?",
+      "target": "A birthday cake",
+      "choices": ["A wand", "A birthday cake", "A letter", "An owl"]
+    },
+    {
+      "prompt": "What life-changing words did Hagrid say to Harry?",
+      "target": "You're a wizard, Harry",
+      "choices": ["Your parents were famous", "You're a wizard, Harry", "You must leave the Dursleys", "Voldemort is looking for you"]
+    },
+    {
+      "prompt": "What did Hagrid tell Harry about?",
+      "target": "The magical school Hogwarts",
+      "choices": ["His parents' death", "The magical school Hogwarts", "The Ministry of Magic", "Voldemort's history"]
+    }
+  ],
+  "translation": "At midnight, on Harry's birthday, someone knocked on the door of the hut violently. The whole door fell off its hinge. Hagrid, a man of immense stature, entered. He gave Harry a birthday cake that he himself had made. Then he said the words that changed Harry's life: 'You're a wizard, Harry.' Harry was stunned. 'I — what?' he asked. Hagrid told him about the magical school Hogwarts."
+}

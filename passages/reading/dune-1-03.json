@@ -1,0 +1,39 @@
+{
+  "id": "dune-1-03",
+  "source": "Arena",
+  "chapter": "De Adventu in Arrakis",
+  "latin": "Familia Atreides tandem ad planetam Arrakis pervenit. Arrakis erat mundus aridissimus ubi nulla aqua in superficie inveniebatur. harenae immensae sub sole ardenti iacebant. hic nascitur substantia pretiosissima quae 'melange' vocatur, sine qua naves inter stellas navigare non possunt. Paulus, cum primum desertum vidit, sensum mirum habuit — quasi iam hunc locum cognovisset.",
+  "glossary": {
+    "pervenit": "arrived",
+    "aridissimus": "extremely dry",
+    "superficie": "surface",
+    "harenae": "sands",
+    "ardenti": "burning, blazing",
+    "pretiosissima": "most precious",
+    "naves": "ships",
+    "quasi": "as if"
+  },
+  "questions": [
+    {
+      "prompt": "What was Arrakis like?",
+      "target": "An extremely dry world with no surface water",
+      "choices": ["A lush green planet", "An extremely dry world with no surface water", "An ocean planet", "A frozen wasteland"]
+    },
+    {
+      "prompt": "What precious substance came from Arrakis?",
+      "target": "Melange (spice)",
+      "choices": ["Gold", "Water", "Melange (spice)", "Iron"]
+    },
+    {
+      "prompt": "What did Paul feel when he first saw the desert?",
+      "target": "A strange feeling, as if he already knew the place",
+      "choices": ["Terror and a desire to flee", "A strange feeling, as if he already knew the place", "Complete indifference", "Anger at his father"]
+    },
+    {
+      "prompt": "Why was melange so important?",
+      "target": "Ships could not travel between stars without it",
+      "choices": ["It was delicious food", "Ships could not travel between stars without it", "It was used to build weapons", "It powered the Emperor's palace"]
+    }
+  ],
+  "translation": "The Atreides family finally arrived at the planet Arrakis. Arrakis was an extremely dry world where no water was found on the surface. Immense sands lay under a blazing sun. Here grows the most precious substance called 'melange,' without which ships cannot travel between the stars. Paul, when he first saw the desert, had a strange feeling — as if he had already known this place."
+}

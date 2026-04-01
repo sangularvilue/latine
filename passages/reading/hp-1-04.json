@@ -1,0 +1,33 @@
+{
+  "id": "hp-1-04",
+  "source": "Harrius Potter",
+  "chapter": "Caput Primum",
+  "latin": "Dumbledore instrumentum e sinu extraxit. erat simile accendario. lumen e laternis viae traxit et in instrumentum collegit. via nunc obscura erat. 'res graves evenerunt,' inquit Dumbledore. 'familia Potter oppugnata est. Iacobus et Lily a Voldemorte necati sunt, sed parvus Harrius vivit.'",
+  "glossary": {
+    "instrumentum": "device, tool",
+    "sinu": "pocket, fold of a garment",
+    "accendario": "a lighter",
+    "laternis": "street lamps (ablative)",
+    "collegit": "collected, gathered",
+    "oppugnata est": "was attacked",
+    "necati sunt": "were killed"
+  },
+  "questions": [
+    {
+      "prompt": "What did Dumbledore's device do?",
+      "target": "Drew light from the street lamps",
+      "choices": ["Created fire", "Drew light from the street lamps", "Opened doors", "Sent a message"]
+    },
+    {
+      "prompt": "What happened to the Potter family?",
+      "target": "They were attacked by Voldemort",
+      "choices": ["They moved away", "They were attacked by Voldemort", "They went into hiding", "They lost their home in a fire"]
+    },
+    {
+      "prompt": "Who survived the attack?",
+      "target": "Harry",
+      "choices": ["James", "Lily", "Harry", "All of them"]
+    }
+  ],
+  "translation": "Dumbledore pulled a device from his pocket. It was similar to a lighter. He drew the light from the street lamps and collected it into the device. The street was now dark. 'Grave things have happened,' said Dumbledore. 'The Potter family was attacked. James and Lily were killed by Voldemort, but little Harry lives.'"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-02",
+  "source": "Harrius Potter",
+  "chapter": "Caput Primum",
+  "latin": "Dominus Dursley mane ad laborem ibat. in via multas res miras vidit. felem tabulam legentem videre visus est. homines palliis longis induti per urbem ambulabant. bubones multi per caelum clarum volabant. Dominus Dursley perturbatus erat, sed nihil dicere voluit.",
+  "glossary": {
+    "mane": "in the morning",
+    "miras": "strange, wondrous",
+    "felem": "a cat (accusative)",
+    "tabulam": "a sign/notice",
+    "palliis": "cloaks (ablative)",
+    "induti": "dressed in, wearing",
+    "bubones": "owls",
+    "perturbatus": "disturbed, unsettled"
+  },
+  "questions": [
+    {
+      "prompt": "What was Mr. Dursley doing when he noticed strange things?",
+      "target": "Going to work",
+      "choices": ["Going to work", "Shopping in town", "Walking his dog", "Driving to school"]
+    },
+    {
+      "prompt": "What animals were flying through the clear sky?",
+      "target": "Owls",
+      "choices": ["Bats", "Eagles", "Owls", "Crows"]
+    },
+    {
+      "prompt": "What were the strange people in the city wearing?",
+      "target": "Long cloaks",
+      "choices": ["Hats and scarves", "Long cloaks", "Pointed shoes", "Black robes"]
+    },
+    {
+      "prompt": "How did Mr. Dursley react to the strange sights?",
+      "target": "He was disturbed but said nothing",
+      "choices": ["He called the police", "He was disturbed but said nothing", "He laughed about it", "He told his wife immediately"]
+    }
+  ],
+  "translation": "Mr. Dursley was going to work in the morning. On the road he saw many strange things. He seemed to see a cat reading a sign. People dressed in long cloaks were walking through the city. Many owls were flying through the clear sky. Mr. Dursley was disturbed, but he did not want to say anything."
+}

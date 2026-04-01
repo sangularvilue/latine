@@ -1,0 +1,34 @@
+{
+  "id": "dune-1-08",
+  "source": "Arena",
+  "chapter": "De Visionibus Futuri",
+  "latin": "Melange non solum pretiosissima erat, sed etiam mentem mutabat. Paulus, qui plus melange quam ceteri consumpserat, visiones futuri habere coepit. in visionibus suis bellum sacrum vidit quod totam galaxiam vastaret. milites suo nomine pugnantes vidit et sanguinem innumerabilium mortuorum. Paulus timebat ne hoc fatum inevitabile esset, sed viam aliam invenire non poterat.",
+  "glossary": {
+    "mentem": "mind",
+    "mutabat": "changed, altered",
+    "visiones": "visions",
+    "bellum sacrum": "holy war",
+    "galaxiam": "galaxy",
+    "vastaret": "would devastate",
+    "sanguinem": "blood",
+    "fatum": "fate, destiny"
+  },
+  "questions": [
+    {
+      "prompt": "What effect did melange have on Paul's mind?",
+      "target": "It gave him visions of the future",
+      "choices": ["It made him forget his past", "It gave him visions of the future", "It made him angry", "It put him to sleep"]
+    },
+    {
+      "prompt": "What did Paul see in his visions?",
+      "target": "A holy war devastating the entire galaxy",
+      "choices": ["His father alive and well", "Peace across the universe", "A holy war devastating the entire galaxy", "His return to Caladan"]
+    },
+    {
+      "prompt": "How did Paul feel about these visions?",
+      "target": "He feared this fate might be inevitable",
+      "choices": ["He was excited and eager", "He feared this fate might be inevitable", "He did not believe them", "He was completely indifferent"]
+    }
+  ],
+  "translation": "Melange was not only most precious, but also changed the mind. Paul, who had consumed more melange than others, began to have visions of the future. In his visions he saw a holy war that would devastate the entire galaxy. He saw soldiers fighting in his name and the blood of countless dead. Paul feared that this fate might be inevitable, but he could not find another way."
+}

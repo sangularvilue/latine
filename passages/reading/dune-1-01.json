@@ -1,0 +1,39 @@
+{
+  "id": "dune-1-01",
+  "source": "Arena",
+  "chapter": "De Familia Atreides",
+  "latin": "Paulus Atreides erat adulescens nobilis qui in planeta Caladan habitabat cum patre suo, Duce Leto, et matre, Domina Jessica. pater eius erat vir iustus et fortis quem multi amabant. Jessica autem ad ordinem secretum pertinebat quae Bene Gesserit vocabantur. Paulus a matre artes mentis et corporis discebat, a patre autem honorem et virtutem.",
+  "glossary": {
+    "adulescens": "young man",
+    "planeta": "planet",
+    "duce": "duke, leader",
+    "iustus": "just, fair",
+    "ordinem": "order, organization",
+    "secretum": "secret",
+    "artes": "skills, arts",
+    "virtutem": "courage, virtue"
+  },
+  "questions": [
+    {
+      "prompt": "Where did Paul live at the beginning of the story?",
+      "target": "On the planet Caladan",
+      "choices": ["On the planet Caladan", "On Arrakis", "On Giedi Prime", "On Kaitain"]
+    },
+    {
+      "prompt": "What secret order did Jessica belong to?",
+      "target": "The Bene Gesserit",
+      "choices": ["The Spacing Guild", "The Bene Gesserit", "The Mentats", "The Sardaukar"]
+    },
+    {
+      "prompt": "What did Paul learn from his mother?",
+      "target": "Skills of mind and body",
+      "choices": ["Skills of mind and body", "Swordfighting only", "Desert survival", "Political strategy"]
+    },
+    {
+      "prompt": "How was Duke Leto regarded by others?",
+      "target": "Just and strong, loved by many",
+      "choices": ["Feared and cruel", "Just and strong, loved by many", "Weak but cunning", "Unknown and mysterious"]
+    }
+  ],
+  "translation": "Paul Atreides was a noble young man who lived on the planet Caladan with his father, Duke Leto, and his mother, Lady Jessica. His father was a just and strong man whom many loved. Jessica, however, belonged to a secret order called the Bene Gesserit. Paul learned skills of mind and body from his mother, but honor and courage from his father."
+}

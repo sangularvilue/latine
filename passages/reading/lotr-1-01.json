@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-01",
+  "source": "Dominus Anulorum",
+  "chapter": "De Hobbitibus et Comitatu",
+  "latin": "Hobbiti erant gens parva et quieta qui in foraminibus terrae habitabant. foramina eorum non erant sordida aut umida, sed pulchra et commoda, cum ianuis rotundis et fenestris multis. Comitatus, patria Hobbitorum, erat terra viridis et fertilis, plena agrorum et hortorum. Hobbiti cibum et potum et laetitiam super omnia amabant, neque de rebus magnis mundi curabant.",
+  "glossary": {
+    "foraminibus": "holes (abl. pl. of foramen)",
+    "sordida": "filthy, squalid",
+    "umida": "damp, wet",
+    "commoda": "comfortable, pleasant",
+    "rotundis": "round",
+    "fertilis": "fertile, fruitful",
+    "laetitiam": "joy, merriment",
+    "curabant": "they cared about (+ de)"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the Hobbits live?",
+      "target": "In holes in the ground",
+      "choices": ["In holes in the ground", "In tall towers", "In caves by the sea", "In tree houses"]
+    },
+    {
+      "prompt": "What was the Shire like?",
+      "target": "Green and fertile",
+      "choices": ["Rocky and barren", "Green and fertile", "Dark and forested", "Flat and dry"]
+    },
+    {
+      "prompt": "What did Hobbits love above all else?",
+      "target": "Food, drink, and merriment",
+      "choices": ["Adventure and travel", "Gold and treasure", "Food, drink, and merriment", "War and glory"]
+    },
+    {
+      "prompt": "What shape were their doors?",
+      "target": "Round",
+      "choices": ["Square", "Round", "Triangular", "Arched"]
+    }
+  ],
+  "translation": "Hobbits were a small and quiet people who lived in holes in the earth. Their holes were not filthy or damp, but beautiful and comfortable, with round doors and many windows. The Shire, the homeland of the Hobbits, was a green and fertile land, full of fields and gardens. Hobbits loved food and drink and merriment above all things, and did not care about the great matters of the world."
+}

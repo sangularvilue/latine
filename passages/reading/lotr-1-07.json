@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-07",
+  "source": "Dominus Anulorum",
+  "chapter": "Fodinae Moriae",
+  "latin": "Societas per Fodinas Moriae iter fecit, regnum antiquum Nanorum sub montibus. in tenebris profundis, Orci eos oppugnaverunt et magna pugna orta est. tum monstrum terribile apparuit: Balrog, daemon ignis et umbrae, e profundo ascendit. Gandalf solus in ponte angusto contra Balrogum stetit et clamavit: 'non transibis!' pontem baculo suo fregit, et Balrog in abyssum cecidit. sed flagello suo Gandalfum quoque in profundum traxit.",
+  "glossary": {
+    "fodinas": "mines (acc. pl. of fodina)",
+    "tenebris": "darkness (abl. pl. of tenebrae)",
+    "Orci": "Orcs (nom. pl.)",
+    "daemon": "demon, evil spirit",
+    "angusto": "narrow (abl. of angustus)",
+    "baculo": "staff, rod (abl. of baculus)",
+    "abyssum": "abyss, chasm (acc.)",
+    "flagello": "whip (abl. of flagellum)"
+  },
+  "questions": [
+    {
+      "prompt": "What was Moria?",
+      "target": "An ancient Dwarf kingdom under the mountains",
+      "choices": ["An Elvish forest", "An ancient Dwarf kingdom under the mountains", "A human city", "A Hobbit village"]
+    },
+    {
+      "prompt": "What creature emerged from the deep?",
+      "target": "A Balrog, a demon of fire and shadow",
+      "choices": ["A dragon", "A giant spider", "A Balrog, a demon of fire and shadow", "A cave troll"]
+    },
+    {
+      "prompt": "What did Gandalf do on the bridge?",
+      "target": "He broke the bridge with his staff",
+      "choices": ["He fled across it", "He broke the bridge with his staff", "He cast a fire spell", "He surrendered to the Balrog"]
+    },
+    {
+      "prompt": "What happened to Gandalf?",
+      "target": "The Balrog's whip pulled him into the abyss",
+      "choices": ["He defeated the Balrog and survived", "The Balrog's whip pulled him into the abyss", "He turned invisible and escaped", "The Orcs captured him"]
+    }
+  ],
+  "translation": "The Fellowship traveled through the Mines of Moria, an ancient kingdom of the Dwarves under the mountains. In the deep darkness, Orcs attacked them and a great battle arose. Then a terrible monster appeared: a Balrog, a demon of fire and shadow, rose from the deep. Gandalf alone stood on the narrow bridge against the Balrog and cried: 'You shall not pass!' He broke the bridge with his staff, and the Balrog fell into the abyss. But with its whip it also dragged Gandalf into the depths."
+}

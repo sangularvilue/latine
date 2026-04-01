@@ -1,0 +1,40 @@
+{
+  "id": "hp-1-14",
+  "source": "Harrius Potter",
+  "chapter": "Caput Undecimum",
+  "latin": "Harrius petitor factus est in turma Quidditch Gryffindorensium — discipulus primi anni iam diu non electus erat. in primo certamine contra Slytherinos, scoparum manubrium eius subito incantatum est et eum excutere conabatur. Hermione vidit Professorem Snape Harrium oculis fixis intuentem et verba murmurantem. ad eum per gradus se insinuavit et pallium eius igne magico incendit. scoparum manubrium statim conquievit. Harrius pilam auream cepit et Gryffindor vicit.",
+  "glossary": {
+    "petitor": "seeker (one who seeks)",
+    "turma": "team",
+    "scoparum manubrium": "broomstick (handle of brooms)",
+    "incantatum est": "was bewitched, enchanted",
+    "excutere": "to throw off",
+    "oculis fixis": "with fixed/unblinking eyes",
+    "murmurantem": "muttering, murmuring",
+    "gradus": "steps, rows of seats",
+    "pilam auream": "the golden ball (the Snitch)"
+  },
+  "questions": [
+    {
+      "prompt": "What position did Harry play in Quidditch?",
+      "target": "Seeker",
+      "choices": ["Chaser", "Keeper", "Beater", "Seeker"]
+    },
+    {
+      "prompt": "What went wrong during Harry's first match?",
+      "target": "His broomstick was bewitched",
+      "choices": ["He fell off his broom", "His broomstick was bewitched", "He was hit by a Bludger", "The Snitch disappeared"]
+    },
+    {
+      "prompt": "What did Hermione do to help Harry?",
+      "target": "She set Snape's cloak on fire",
+      "choices": ["She cast a shield spell on Harry", "She set Snape's cloak on fire", "She distracted the Slytherin players", "She caught the Snitch for him"]
+    },
+    {
+      "prompt": "How did the match end?",
+      "target": "Harry caught the golden Snitch and Gryffindor won",
+      "choices": ["The match was cancelled", "Slytherin won by ten points", "Harry caught the golden Snitch and Gryffindor won", "The game ended in a draw"]
+    }
+  ],
+  "translation": "Harry became a Seeker on the Gryffindor Quidditch team — a first-year student had not been chosen for a long time. In the first match against the Slytherins, his broomstick was suddenly bewitched and was trying to throw him off. Hermione saw Professor Snape staring at Harry with fixed eyes and muttering words. She crept toward him through the rows of seats and set his cloak on fire with magical fire. The broomstick immediately calmed down. Harry caught the golden ball and Gryffindor won."
+}

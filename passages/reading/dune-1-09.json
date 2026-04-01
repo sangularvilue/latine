@@ -1,0 +1,39 @@
+{
+  "id": "dune-1-09",
+  "source": "Arena",
+  "chapter": "De Aqua Vitae",
+  "latin": "Ut verus dux Fremen fieret, Paulus aquam vitae bibere debuit — venenum quod ab ore vermis harenae colligebatur. omnes qui hoc venenum biberant aut mortui sunt aut mutati. Paulus bibit et paene periit. per multas horas inter vitam et mortem iacebat. tandem evigilavit, transformatus: nunc praeteritum, praesens, et futurum simul videre poterat. Fremen eum Muad'Dib appellaverunt, nomen sacrum.",
+  "glossary": {
+    "venenum": "poison",
+    "colligebatur": "was collected, was gathered",
+    "biberant": "had drunk",
+    "periit": "perished, nearly died",
+    "evigilavit": "awoke",
+    "transformatus": "transformed",
+    "praeteritum": "past",
+    "praesens": "present"
+  },
+  "questions": [
+    {
+      "prompt": "What was the Water of Life?",
+      "target": "A poison collected from the mouth of a sandworm",
+      "choices": ["Pure desert water", "A poison collected from the mouth of a sandworm", "A Bene Gesserit potion", "Liquid melange"]
+    },
+    {
+      "prompt": "What happened to Paul after he drank it?",
+      "target": "He lay between life and death for many hours, then awoke transformed",
+      "choices": ["He immediately gained power", "He lay between life and death for many hours, then awoke transformed", "He lost his memory", "Nothing happened"]
+    },
+    {
+      "prompt": "What could Paul do after his transformation?",
+      "target": "See the past, present, and future at once",
+      "choices": ["Control sandworms with his mind", "See the past, present, and future at once", "Speak all languages", "Become invisible"]
+    },
+    {
+      "prompt": "What name did the Fremen give Paul?",
+      "target": "Muad'Dib",
+      "choices": ["Usul", "Muad'Dib", "Lisan al-Gaib", "Kwisatz Haderach"]
+    }
+  ],
+  "translation": "To become the true leader of the Fremen, Paul had to drink the water of life — a poison that was collected from the mouth of a sandworm. All who had drunk this poison either died or were changed. Paul drank and nearly perished. For many hours he lay between life and death. Finally he awoke, transformed: now he could see the past, present, and future at once. The Fremen called him Muad'Dib, a sacred name."
+}

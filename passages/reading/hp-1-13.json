@@ -1,0 +1,40 @@
+{
+  "id": "hp-1-13",
+  "source": "Harrius Potter",
+  "chapter": "Caput Septimum",
+  "latin": "discipuli novi in Atrium Magnum intraverunt, ubi candelae innumerae in aere pendebant. in mensa ante omnes petasus vetus et sordidus positus erat. petasus Distribuens erat: in capite cuiusque discipuli positus, domum eius pronuntiabat. Ronaldus in Gryffindorem missus est. cum petasus in capite Harrii positus esset, vox parva susurravit: 'difficile est — sed ubi te ponam? GRYFFINDOR!' tota mensa Gryffindorensium clamavit et plausit.",
+  "glossary": {
+    "Atrium Magnum": "the Great Hall",
+    "candelae": "candles",
+    "pendebant": "were hanging",
+    "petasus": "hat",
+    "sordidus": "dirty, shabby",
+    "Distribuens": "Sorting (adjective)",
+    "domum": "house (accusative)",
+    "pronuntiabat": "announced",
+    "susurravit": "whispered"
+  },
+  "questions": [
+    {
+      "prompt": "What was floating in the air of the Great Hall?",
+      "target": "Countless candles",
+      "choices": ["Stars", "Countless candles", "Ghosts", "Banners"]
+    },
+    {
+      "prompt": "How did the Sorting Hat decide where to place students?",
+      "target": "It was placed on each student's head and announced their house",
+      "choices": ["Students chose their own house", "It was placed on each student's head and announced their house", "Teachers assigned houses by grade", "A magical test was given"]
+    },
+    {
+      "prompt": "What house was Harry sorted into?",
+      "target": "Gryffindor",
+      "choices": ["Slytherin", "Ravenclaw", "Hufflepuff", "Gryffindor"]
+    },
+    {
+      "prompt": "How did the Gryffindor table react?",
+      "target": "They shouted and applauded",
+      "choices": ["They were silent", "They shouted and applauded", "They were surprised", "They stood up and bowed"]
+    }
+  ],
+  "translation": "The new students entered the Great Hall, where countless candles were hanging in the air. On a table before everyone an old and shabby hat had been placed. It was the Sorting Hat: placed on each student's head, it announced their house. Ronald was sent to Gryffindor. When the hat was placed on Harry's head, a small voice whispered: 'It is difficult — but where shall I put you? GRYFFINDOR!' The whole Gryffindor table shouted and applauded."
+}

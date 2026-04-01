@@ -1,0 +1,39 @@
+{
+  "id": "dune-1-10",
+  "source": "Arena",
+  "chapter": "De Pugna Ultima",
+  "latin": "Paulus exercitum Fremen duxit contra Harkonnenes et Imperatorem ipsum. tempestas harenae maxima urbem texit dum Fremen vermibus vecti muros oppugnaverunt. Paulus Feyd-Rautham Harkonnen in singulari certamine occidit. Imperator, victus et sine spe, thronum Paulo cedere coactus est. sic filius ducis interfecti rex totius imperii factus est. sed Paulus sciebat bellum sacrum quod timebat iam impediri non posse.",
+  "glossary": {
+    "exercitum": "army",
+    "duxit": "led",
+    "texit": "covered, concealed",
+    "vecti": "carried, riding",
+    "singulari certamine": "single combat, duel",
+    "occidit": "killed",
+    "thronum": "throne",
+    "coactus est": "was forced, was compelled"
+  },
+  "questions": [
+    {
+      "prompt": "Who did Paul lead the Fremen against?",
+      "target": "The Harkonnens and the Emperor himself",
+      "choices": ["Only the Harkonnens", "The Harkonnens and the Emperor himself", "The Spacing Guild", "The Bene Gesserit"]
+    },
+    {
+      "prompt": "How did Paul defeat Feyd-Rautha?",
+      "target": "He killed him in single combat",
+      "choices": ["He poisoned him", "He killed him in single combat", "He outsmarted him politically", "His army overwhelmed him"]
+    },
+    {
+      "prompt": "What happened to the Emperor after the battle?",
+      "target": "He was forced to give his throne to Paul",
+      "choices": ["He was killed", "He escaped to another planet", "He was forced to give his throne to Paul", "He allied with Paul"]
+    },
+    {
+      "prompt": "How did Paul feel about his victory?",
+      "target": "He knew the holy war he feared could no longer be stopped",
+      "choices": ["He was purely triumphant", "He knew the holy war he feared could no longer be stopped", "He was relieved it was all over", "He planned to return to Caladan"]
+    }
+  ],
+  "translation": "Paul led the Fremen army against the Harkonnens and the Emperor himself. An enormous sandstorm covered the city while the Fremen, riding worms, attacked the walls. Paul killed Feyd-Rautha Harkonnen in single combat. The Emperor, defeated and without hope, was forced to yield his throne to Paul. Thus the son of the slain duke became ruler of the entire empire. But Paul knew that the holy war he feared could no longer be stopped."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "hp-1-01",
+  "source": "Harrius Potter",
+  "chapter": "Caput Primum",
+  "latin": "Dominus et Domina Dursley in domo Gestationis Ligustrorum habitabant. se 'normales' esse credebant. nihil insolitum amabant. filium parvum habebant nomine Dudley, quem maxime amabant.",
+  "glossary": {
+    "gestationis": "of the drive/lane",
+    "ligustrorum": "of the privets (a type of shrub)",
+    "insolitum": "unusual, strange",
+    "nomine": "by the name of",
+    "maxime": "very much, greatly"
+  },
+  "questions": [
+    {
+      "prompt": "Where did the Dursleys live?",
+      "target": "On Privet Drive",
+      "choices": ["On Privet Drive", "In a castle", "In London", "On a farm"]
+    },
+    {
+      "prompt": "What did the Dursleys value most?",
+      "target": "Being normal",
+      "choices": ["Wealth", "Being normal", "Magic", "Education"]
+    },
+    {
+      "prompt": "What was their son's name?",
+      "target": "Dudley",
+      "choices": ["Harry", "Dudley", "Vernon", "Draco"]
+    }
+  ],
+  "translation": "Mr. and Mrs. Dursley lived at a house on Privet Drive. They believed themselves to be 'normal.' They loved nothing unusual. They had a small son named Dudley, whom they loved very much."
+}

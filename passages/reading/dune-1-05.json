@@ -1,0 +1,34 @@
+{
+  "id": "dune-1-05",
+  "source": "Arena",
+  "chapter": "De Fuga in Desertum",
+  "latin": "Paulus et Jessica e ruinis urbis fugerunt et in desertum vastum intraverunt. tempestas harenae magna eos paene devoravit, sed Jessica artes Bene Gesserit adhibuit ut viam inveniret. in deserto, periculosissimi vermis harenae erant — bestiae immanes quae sub terra se movebant et sonum quemlibet sequebantur. mater et filius soli in terra ignota superstites manserunt.",
+  "glossary": {
+    "fugerunt": "fled",
+    "vastum": "vast, desolate",
+    "tempestas harenae": "sandstorm",
+    "devoravit": "devoured, swallowed",
+    "adhibuit": "employed, used",
+    "vermis": "worm",
+    "immanes": "enormous, monstrous",
+    "superstites": "survivors"
+  },
+  "questions": [
+    {
+      "prompt": "Where did Paul and Jessica flee to?",
+      "target": "Into the vast desert",
+      "choices": ["To another city", "Into the vast desert", "To a spaceship", "To the Emperor's court"]
+    },
+    {
+      "prompt": "What nearly destroyed them during their flight?",
+      "target": "A great sandstorm",
+      "choices": ["Harkonnen soldiers", "A great sandstorm", "A sandworm", "Dehydration"]
+    },
+    {
+      "prompt": "What were the sandworms attracted to?",
+      "target": "Any sound",
+      "choices": ["Light", "Water", "Any sound", "The smell of spice"]
+    }
+  ],
+  "translation": "Paul and Jessica fled from the ruins of the city and entered the vast desert. A great sandstorm nearly devoured them, but Jessica used Bene Gesserit skills to find a way. In the desert, the most dangerous things were the sandworms — enormous beasts that moved beneath the earth and followed any sound. Mother and son remained alone as survivors in an unknown land."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-12",
+  "source": "Harrius Potter",
+  "chapter": "Caput Sextum",
+  "latin": "Harrius in statione ferriviaria Londiniensi stabat et suggestum novem et tres quartas partes quaerebat. nusquam id videre poterat. tum familia rufis capillis advenit. mater, Domina Veasley, Harrio monstravit quomodo per murum solidum currere deberet. Harrius oculos clausit et cucurrit — nec in murum incurrit! in altera parte suggestum secretum et hamaxostichus ruber splendebant. in hamaxosticho Ronaldum Veasley cognovit, qui primus amicus eius factus est.",
+  "glossary": {
+    "statione ferriviaria": "train station",
+    "suggestum": "platform",
+    "tres quartas partes": "three quarters",
+    "nusquam": "nowhere",
+    "rufis capillis": "with red hair",
+    "murum solidum": "solid wall",
+    "hamaxostichus": "train (lit. 'row of wagons')",
+    "cognovit": "met, got to know"
+  },
+  "questions": [
+    {
+      "prompt": "What was Harry looking for at the train station?",
+      "target": "Platform Nine and Three Quarters",
+      "choices": ["Platform Ten", "Platform Nine and Three Quarters", "The ticket office", "The Hogwarts Express"]
+    },
+    {
+      "prompt": "Who helped Harry find the platform?",
+      "target": "Mrs. Weasley",
+      "choices": ["A station guard", "Hagrid", "Mrs. Weasley", "Dumbledore"]
+    },
+    {
+      "prompt": "How did Harry reach the secret platform?",
+      "target": "By running through a solid wall",
+      "choices": ["By using a magic spell", "By running through a solid wall", "By finding a hidden door", "By following an owl"]
+    },
+    {
+      "prompt": "Who became Harry's first friend on the train?",
+      "target": "Ron Weasley",
+      "choices": ["Neville Longbottom", "Draco Malfoy", "Hermione Granger", "Ron Weasley"]
+    }
+  ],
+  "translation": "Harry was standing in the London train station and looking for Platform Nine and Three Quarters. He could not see it anywhere. Then a family with red hair arrived. The mother, Mrs. Weasley, showed Harry how he should run through the solid wall. Harry closed his eyes and ran — and did not crash into the wall! On the other side, a secret platform and a red train were gleaming. On the train he met Ronald Weasley, who became his first friend."
+}

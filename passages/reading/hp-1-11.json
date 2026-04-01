@@ -1,0 +1,34 @@
+{
+  "id": "hp-1-11",
+  "source": "Harrius Potter",
+  "chapter": "Caput Quintum",
+  "latin": "Hagrid Harrium ad Angulum Obliquum duxit, ubi magi omnia necessaria emebant. via mirabilis plena erat tabernis magicis. apud Ollivandrum, artificem bacillorum, Harrius bacillum suum invenit. Ollivander dixit bacillum ipsum magum eligere, non magum bacillum. bacillum Harrii e pluma phoenicis factum erat — eiusdem phoenicis cuius pluma altera in baculo Voldemortis inerat. Harrius pretium magnum huius nexus nondum intellegebat.",
+  "glossary": {
+    "Angulum Obliquum": "Diagon Alley (lit. 'the diagonal corner')",
+    "necessaria": "necessary things, supplies",
+    "tabernis": "shops (ablative)",
+    "artificem bacillorum": "wand-maker",
+    "bacillum": "wand, small staff",
+    "eligere": "to choose",
+    "pluma phoenicis": "phoenix feather",
+    "nexus": "connection, bond"
+  },
+  "questions": [
+    {
+      "prompt": "Where did Hagrid take Harry to buy supplies?",
+      "target": "Diagon Alley",
+      "choices": ["Hogsmeade", "Diagon Alley", "Knockturn Alley", "The Leaky Cauldron"]
+    },
+    {
+      "prompt": "According to Ollivander, who chooses whom?",
+      "target": "The wand chooses the wizard",
+      "choices": ["The wizard chooses the wand", "The wand chooses the wizard", "The parents choose the wand", "The shopkeeper matches them"]
+    },
+    {
+      "prompt": "What was special about Harry's wand core?",
+      "target": "It shared a phoenix feather with Voldemort's wand",
+      "choices": ["It contained a dragon heartstring", "It was the oldest wand in the shop", "It shared a phoenix feather with Voldemort's wand", "It was made of unicorn hair"]
+    }
+  ],
+  "translation": "Hagrid led Harry to Diagon Alley, where wizards bought all their necessary supplies. The wondrous street was full of magical shops. At Ollivander's, the wand-maker, Harry found his wand. Ollivander said that the wand itself chooses the wizard, not the wizard the wand. Harry's wand was made from a phoenix feather — from the same phoenix whose other feather was in Voldemort's wand. Harry did not yet understand the great significance of this connection."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "lotr-1-02",
+  "source": "Dominus Anulorum",
+  "chapter": "Convivium Bilbonis",
+  "latin": "Bilbo Baggins convivium magnum parabat, nam centesimum et undecimum diem natalem celebrabat. omnes Hobbiti Comitatus invitati erant, et cibi et dona ubique erant. sub fine convivii, Bilbo orationem longam habuit et omnes gratias egit. tum subito evanuit ante oculos omnium! Hobbiti valde perturbati erant, sed Bilbo anulum magicum in digito gerebat qui eum invisibilem fecit.",
+  "glossary": {
+    "convivium": "banquet, feast",
+    "centesimum et undecimum": "one hundred and eleventh",
+    "diem natalem": "birthday",
+    "orationem": "speech",
+    "evanuit": "vanished, disappeared",
+    "perturbati": "disturbed, upset",
+    "invisibilem": "invisible"
+  },
+  "questions": [
+    {
+      "prompt": "What birthday was Bilbo celebrating?",
+      "target": "His 111th birthday",
+      "choices": ["His 50th birthday", "His 111th birthday", "His 100th birthday", "His 80th birthday"]
+    },
+    {
+      "prompt": "What happened at the end of Bilbo's speech?",
+      "target": "He vanished before everyone's eyes",
+      "choices": ["He gave away presents", "He fell asleep", "He vanished before everyone's eyes", "He sang a song"]
+    },
+    {
+      "prompt": "How did Bilbo disappear?",
+      "target": "He wore a magic ring that made him invisible",
+      "choices": ["A wizard cast a spell on him", "He wore a magic ring that made him invisible", "He ran away very quickly", "He hid under the table"]
+    }
+  ],
+  "translation": "Bilbo Baggins was preparing a great feast, for he was celebrating his one hundred and eleventh birthday. All the Hobbits of the Shire were invited, and food and gifts were everywhere. At the end of the feast, Bilbo gave a long speech and thanked everyone. Then suddenly he vanished before the eyes of all! The Hobbits were greatly disturbed, but Bilbo wore a magic ring on his finger that made him invisible."
+}

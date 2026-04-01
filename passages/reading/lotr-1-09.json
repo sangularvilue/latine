@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-09",
+  "source": "Dominus Anulorum",
+  "chapter": "Fractio Societatis",
+  "latin": "Boromir, cupiditate anuli captus, Frodonem oppugnare conatus est ut anulum ei eriperet. Frodo anulum induit et invisibilis fugit, nam intellexit se solum proficisci debere. interea Orci magni Societatem oppugnaverunt. Boromir, paenitentia motus, Merriadum et Pippinum fortiter defendit. multis sagittis vulneratus est, sed pugnare non desiit donec cecidit. Aragorn eum morientem invenit. Boromir culpam suam confessus est et in pace obiit, et Aragorn eum honoravit ut militem fortem.",
+  "glossary": {
+    "cupiditate": "desire, greed (abl. of cupiditas)",
+    "eriperet": "might seize, snatch away (subjunctive)",
+    "induit": "put on (perfect of induo)",
+    "proficisci": "to set out, depart",
+    "paenitentia": "repentance, regret (abl.)",
+    "sagittis": "arrows (abl. pl. of sagitta)",
+    "desiit": "ceased, stopped (perfect of desino)",
+    "confessus est": "confessed, admitted"
+  },
+  "questions": [
+    {
+      "prompt": "Why did Boromir attack Frodo?",
+      "target": "He was overcome by desire for the Ring",
+      "choices": ["Sauron commanded him", "He was overcome by desire for the Ring", "Frodo insulted him", "He was under a spell"]
+    },
+    {
+      "prompt": "How did Frodo escape?",
+      "target": "He put on the Ring and became invisible",
+      "choices": ["He fought Boromir with a sword", "He put on the Ring and became invisible", "Aragorn saved him", "He jumped into the river"]
+    },
+    {
+      "prompt": "How did Boromir die?",
+      "target": "He was struck by many arrows while defending Merry and Pippin",
+      "choices": ["He was struck by many arrows while defending Merry and Pippin", "He fell from a cliff", "The Balrog killed him", "He drowned in the river"]
+    },
+    {
+      "prompt": "What did Boromir do before he died?",
+      "target": "He confessed his guilt to Aragorn",
+      "choices": ["He took the Ring", "He cursed the Fellowship", "He confessed his guilt to Aragorn", "He fled into the forest"]
+    }
+  ],
+  "translation": "Boromir, seized by desire for the ring, tried to attack Frodo to snatch the ring from him. Frodo put on the ring and fled invisibly, for he understood that he had to set out alone. Meanwhile, great Orcs attacked the Fellowship. Boromir, moved by repentance, bravely defended Merry and Pippin. He was wounded by many arrows, but did not stop fighting until he fell. Aragorn found him dying. Boromir confessed his guilt and died in peace, and Aragorn honored him as a brave soldier."
+}

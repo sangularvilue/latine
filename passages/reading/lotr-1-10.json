@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-10",
+  "source": "Dominus Anulorum",
+  "chapter": "In Mordorem",
+  "latin": "Frodo et Sam soli ad terram Mordoris iter faciebant. terra ante eos vasta et desolata erat, plena cinerum et saxorum acutorum. caelum semper nubibus obscuris tectum erat, et aer foetidus spirabat. Sam, quamquam valde timebat, dominum suum numquam reliquit. cibum et aquam inter se dividebant, et lente per terram hostilem progrediebantur. Frodo pondus anuli in collo magis magisque sentiebat, sed finem itineris, Montem Fati, in animo semper tenebat.",
+  "glossary": {
+    "desolata": "desolate, barren",
+    "cinerum": "of ashes (gen. pl. of cinis)",
+    "acutorum": "sharp, jagged (gen. pl.)",
+    "foetidus": "foul-smelling, stinking",
+    "spirabat": "was blowing, breathing",
+    "hostilem": "hostile, enemy (acc. of hostilis)",
+    "pondus": "weight, burden (acc.)",
+    "magis magisque": "more and more"
+  },
+  "questions": [
+    {
+      "prompt": "What was the land of Mordor like?",
+      "target": "Vast and desolate, full of ashes and sharp rocks",
+      "choices": ["Green and fertile", "Vast and desolate, full of ashes and sharp rocks", "Covered in snow and ice", "Dark but full of trees"]
+    },
+    {
+      "prompt": "How did Sam behave during the journey?",
+      "target": "Though afraid, he never left his master",
+      "choices": ["He complained constantly", "He wanted to turn back", "Though afraid, he never left his master", "He took the Ring from Frodo"]
+    },
+    {
+      "prompt": "What did Frodo feel more and more?",
+      "target": "The weight of the Ring on his neck",
+      "choices": ["Hunger and thirst", "The weight of the Ring on his neck", "Anger at Gandalf", "Hope for victory"]
+    },
+    {
+      "prompt": "What kept Frodo going?",
+      "target": "He kept the end of the journey, Mount Doom, always in mind",
+      "choices": ["Gandalf's encouragement", "The desire for glory", "He kept the end of the journey, Mount Doom, always in mind", "A vision from Galadriel's mirror"]
+    }
+  ],
+  "translation": "Frodo and Sam were making their way alone to the land of Mordor. The land before them was vast and desolate, full of ashes and sharp rocks. The sky was always covered with dark clouds, and the air blew foul. Sam, although he was very afraid, never left his master. They divided food and water between themselves and slowly advanced through the hostile land. Frodo felt the weight of the ring on his neck more and more, but he always kept the end of the journey, Mount Doom, in mind."
+}

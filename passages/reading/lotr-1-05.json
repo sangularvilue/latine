@@ -1,0 +1,39 @@
+{
+  "id": "lotr-1-05",
+  "source": "Dominus Anulorum",
+  "chapter": "Vagus in Caupona",
+  "latin": "Hobbiti ad cauponam nomine 'Equus Subsultans' in oppido Bree pervenerunt. ibi homo quidam obscurus in angulo sedebat et eos observabat. nomen eius erat Vagus, sed verum nomen Aragorn erat. hic vir Hobbittos de periculo monuit, nam servi Sauronis eos iam quaerebant. Aragorn se ducem obtulit ut eos per terras silvestres tuto duceret. quamquam aspectu sordidus videbatur, Frodo ei credere constituit.",
+  "glossary": {
+    "cauponam": "inn, tavern (acc. of caupona)",
+    "subsultans": "prancing, leaping",
+    "angulo": "corner (abl. of angulus)",
+    "observabat": "was watching",
+    "Vagus": "Strider (lit. Wanderer)",
+    "ducem": "guide, leader (acc. of dux)",
+    "silvestres": "wild, wooded",
+    "aspectu": "in appearance (abl. of aspectus)"
+  },
+  "questions": [
+    {
+      "prompt": "What was the name of the inn?",
+      "target": "The Prancing Pony",
+      "choices": ["The Golden Dragon", "The Prancing Pony", "The Green Horse", "The Silver Star"]
+    },
+    {
+      "prompt": "What was Strider's true name?",
+      "target": "Aragorn",
+      "choices": ["Boromir", "Faramir", "Aragorn", "Legolas"]
+    },
+    {
+      "prompt": "Why did Aragorn warn the Hobbits?",
+      "target": "Sauron's servants were already searching for them",
+      "choices": ["A storm was coming", "The inn was closing", "Sauron's servants were already searching for them", "The road ahead was blocked"]
+    },
+    {
+      "prompt": "What did Aragorn offer to do?",
+      "target": "Guide them safely through the wild lands",
+      "choices": ["Fight Sauron alone", "Guide them safely through the wild lands", "Take the Ring from them", "Send them back to the Shire"]
+    }
+  ],
+  "translation": "The Hobbits arrived at an inn called 'The Prancing Pony' in the town of Bree. There a certain dark man sat in a corner and was watching them. His name was Strider, but his true name was Aragorn. This man warned the Hobbits about danger, for Sauron's servants were already seeking them. Aragorn offered himself as a guide to lead them safely through the wild lands. Although he appeared rough in appearance, Frodo decided to trust him."
+}

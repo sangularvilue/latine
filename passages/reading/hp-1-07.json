@@ -1,0 +1,34 @@
+{
+  "id": "hp-1-07",
+  "source": "Harrius Potter",
+  "chapter": "Caput Secundum",
+  "latin": "res mirae circa Harrium saepe accidebant. olim matertera capillos eius nimis breves tondit. postero die capilli iterum creverant. alio tempore, cum Dudley et amici eum persequerentur, Harrius subito in tecto scholae se invenit. nemo explicare poterat quomodo illuc pervenisset. Durslei irati erant, sed Harrius ipse non intellegebat.",
+  "glossary": {
+    "circa": "around",
+    "saepe": "often",
+    "matertera": "aunt (maternal)",
+    "tondit": "cut, clipped",
+    "postero die": "the next day",
+    "creverant": "had grown back",
+    "persequerentur": "were chasing (subjunctive)",
+    "tecto": "roof (ablative)"
+  },
+  "questions": [
+    {
+      "prompt": "What happened after Harry's aunt cut his hair too short?",
+      "target": "It grew back by the next day",
+      "choices": ["He cried all night", "It grew back by the next day", "He wore a hat to school", "Nothing happened"]
+    },
+    {
+      "prompt": "Where did Harry mysteriously end up while being chased?",
+      "target": "On the school roof",
+      "choices": ["In a tree", "On the school roof", "In a locked room", "Behind the school"]
+    },
+    {
+      "prompt": "How did Harry feel about these strange events?",
+      "target": "He did not understand them",
+      "choices": ["He was proud of them", "He did not understand them", "He was frightened", "He enjoyed them"]
+    }
+  ],
+  "translation": "Strange things often happened around Harry. Once his aunt cut his hair too short. The next day the hair had grown back again. Another time, when Dudley and his friends were chasing him, Harry suddenly found himself on the roof of the school. No one could explain how he had gotten there. The Dursleys were angry, but Harry himself did not understand."
+}

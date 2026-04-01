@@ -1,0 +1,39 @@
+{
+  "id": "hp-1-05",
+  "source": "Harrius Potter",
+  "chapter": "Caput Primum",
+  "latin": "sonitus magnus de caelo venit. birota volans per nubila descendit. Hagrid, vir ingens, infantem parvum in bracchiis tenebat. 'parvus Harrius toto itinere dormiebat,' inquit Hagrid. Dumbledore infantem ante ianuam Dursleyorum posuit et epistulam addidit. 'hic tutus erit,' dixit.",
+  "glossary": {
+    "sonitus": "a sound, noise",
+    "birota volans": "flying motorcycle",
+    "nubila": "clouds",
+    "ingens": "huge, enormous",
+    "infantem": "infant, baby (accusative)",
+    "bracchiis": "arms (ablative)",
+    "toto itinere": "the whole journey",
+    "tutus": "safe"
+  },
+  "questions": [
+    {
+      "prompt": "How did Hagrid arrive?",
+      "target": "On a flying motorcycle",
+      "choices": ["By broom", "On a flying motorcycle", "By walking", "By apparition"]
+    },
+    {
+      "prompt": "What was baby Harry doing during the journey?",
+      "target": "Sleeping",
+      "choices": ["Crying", "Sleeping", "Laughing", "Watching the sky"]
+    },
+    {
+      "prompt": "Where did Dumbledore place the baby?",
+      "target": "In front of the Dursleys' door",
+      "choices": ["In a cradle", "In front of the Dursleys' door", "In Hagrid's arms", "At the hospital"]
+    },
+    {
+      "prompt": "What did Dumbledore add alongside the baby?",
+      "target": "A letter",
+      "choices": ["A blanket", "A letter", "A gift", "A wand"]
+    }
+  ],
+  "translation": "A great noise came from the sky. A flying motorcycle descended through the clouds. Hagrid, an enormous man, was holding a small infant in his arms. 'Little Harry slept the whole journey,' said Hagrid. Dumbledore placed the infant before the Dursleys' door and added a letter. 'He will be safe here,' he said."
+}

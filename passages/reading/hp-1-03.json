@@ -1,0 +1,37 @@
+{
+  "id": "hp-1-03",
+  "source": "Harrius Potter",
+  "chapter": "Caput Primum",
+  "latin": "felis in muro sedebat et viam spectabat. tota die ibi manserat. Albus Dumbledore vesperi advenit et felem agnovit. 'te saluto, Professor McGonagall,' inquit. felis subito in feminam se mutavit. 'quomodo me agnovisti?' rogavit illa.",
+  "glossary": {
+    "muro": "wall (ablative)",
+    "tota die": "all day",
+    "vesperi": "in the evening",
+    "agnovit": "recognized",
+    "subito": "suddenly",
+    "se mutavit": "changed herself, transformed"
+  },
+  "questions": [
+    {
+      "prompt": "What was the cat doing on the wall?",
+      "target": "Sitting and watching the street",
+      "choices": ["Sleeping", "Sitting and watching the street", "Chasing a mouse", "Cleaning itself"]
+    },
+    {
+      "prompt": "Who recognized the cat?",
+      "target": "Dumbledore",
+      "choices": ["Mr. Dursley", "Dumbledore", "Hagrid", "Harry"]
+    },
+    {
+      "prompt": "What did the cat transform into?",
+      "target": "A woman",
+      "choices": ["A woman", "An owl", "A dog", "A student"]
+    },
+    {
+      "prompt": "How long had the cat been on the wall?",
+      "target": "All day",
+      "choices": ["One hour", "All morning", "All day", "Since midnight"]
+    }
+  ],
+  "translation": "A cat was sitting on the wall and watching the street. It had remained there all day. Albus Dumbledore arrived in the evening and recognized the cat. 'I greet you, Professor McGonagall,' he said. The cat suddenly changed itself into a woman. 'How did you recognize me?' she asked."
+}
