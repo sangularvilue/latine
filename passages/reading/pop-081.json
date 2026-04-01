@@ -1,26 +1,26 @@
 {
   "id": "pop-081",
   "source": "Pop Culture",
-  "chapter": "Groundhog Day",
-  "latin": "Vir mane iterum expergefactus est et eundem diem vivebat. iterum atque iterum idem cantus ex machina sonabat. 'eheu,' suspiravit, 'rursus hic dies.'",
+  "chapter": "Scarface",
+  "latin": "Vir sceleratus, cum inimici domum eius oppugnassent, sclopetum maximum arripuit et per ianuam prorupit: 'amiculum meum parvum salutate!'",
   "glossary": {
-    "expergefactus": "awakened",
-    "eundem": "the same (acc.)",
-    "cantus": "song",
-    "machina": "machine (here: alarm clock)",
-    "rursus": "again"
+    "sceleratus": "criminal, villainous",
+    "oppugnassent": "had attacked (plupf. subj.)",
+    "sclopetum": "firearm, gun",
+    "arripuit": "seized, grabbed",
+    "amiculum": "little friend (dim.)"
   },
   "questions": [
     {
-      "prompt": "What is the man's problem?",
-      "target": "He keeps living the same day over and over",
-      "choices": ["He can't sleep at night", "He keeps living the same day over and over", "He is stuck in a snowstorm", "He lost his memory"]
+      "prompt": "What is happening at the man's house?",
+      "target": "His enemies are attacking it",
+      "choices": ["He is throwing a party", "His enemies are attacking it", "Police are searching it", "It is on fire"]
     },
     {
-      "prompt": "What keeps happening each morning?",
-      "target": "The same song plays from the alarm",
-      "choices": ["He wakes up somewhere new", "The same song plays from the alarm", "Someone knocks at his door", "His phone rings"]
+      "prompt": "What does 'amiculum meum parvum' refer to?",
+      "target": "His very large gun",
+      "choices": ["An actual small friend", "A pet", "His very large gun", "A knife"]
     }
   ],
-  "translation": "The man woke again in the morning and was living the same day. Again and again the same song sounded from the machine. 'Alas,' he sighed, 'this day again.'"
+  "translation": "A criminal man, when enemies had attacked his house, seized his biggest gun and burst through the door: 'Say hello to my little friend!'"
 }

@@ -1,26 +1,26 @@
 {
   "id": "pop-082",
   "source": "Pop Culture",
-  "chapter": "Ghostbusters",
-  "latin": "Inventor gravissime monuit: 'flumina armorum numquam miscete. exitus pessimus erit.' 'quam pessimus?' rogavit socius. 'omnis protoplasma in universo simul displodetur.'",
+  "chapter": "Apollo 13",
+  "latin": "Astronautae, cum machinam fractam in nave sua invenissent, per radiophonum nuntiaverunt: 'Houstonia, difficultatem habemus.' vox tranquilla e terra respondit, sed omnes sciebant rem gravissimam esse.",
   "glossary": {
-    "flumina": "streams (acc.)",
-    "miscete": "mix! cross! (imperative pl.)",
-    "exitus": "outcome, result",
-    "protoplasma": "protoplasm, matter",
-    "displodetur": "will explode"
+    "astronautae": "astronauts (nom. pl.)",
+    "fractam": "broken (acc.)",
+    "nave": "ship, vessel (abl.)",
+    "difficultatem": "difficulty, problem (acc.)",
+    "gravissimam": "most serious (acc.)"
   },
   "questions": [
     {
-      "prompt": "What is the strict warning?",
-      "target": "Never cross the streams of the weapons",
-      "choices": ["Never fire at full power", "Never cross the streams of the weapons", "Never aim at each other", "Never use them indoors"]
+      "prompt": "What did the astronauts discover?",
+      "target": "A broken machine on their ship",
+      "choices": ["A crack in the hull", "A broken machine on their ship", "They were off course", "An alien signal"]
     },
     {
-      "prompt": "What would happen if they did?",
-      "target": "All matter in the universe would explode",
-      "choices": ["The weapons would break", "All matter in the universe would explode", "They would become ghosts", "The building would collapse"]
+      "prompt": "How did they report the problem?",
+      "target": "By radio, saying 'Houston, we have a problem'",
+      "choices": ["By sending a written message", "By radio, saying 'Houston, we have a problem'", "By emergency beacon", "They didn't report it"]
     }
   ],
-  "translation": "The inventor warned most gravely: 'Never cross the streams of the weapons. The outcome will be terrible.' 'How terrible?' asked his partner. 'All matter in the universe will explode at once.'"
+  "translation": "The astronauts, when they had found a broken machine on their ship, reported by radio: 'Houston, we have a problem.' A calm voice from Earth responded, but everyone knew the matter was extremely serious."
 }

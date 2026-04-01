@@ -1,26 +1,26 @@
 {
   "id": "pop-061",
   "source": "Pop Culture",
-  "chapter": "The Godfather",
-  "latin": "Post caedem, socius in vehiculo sedens tranquille dixit: 'sclopetum relinque. crustula autem sume.'",
+  "chapter": "Cool Hand Luke",
+  "latin": "Custos carceris captivum rebellem contemplavit et dixit: 'quod hic habemus est defectus communicandi.' tum captivum iterum punivit.",
   "glossary": {
-    "caedem": "murder, killing (acc.)",
-    "socius": "partner, associate",
-    "tranquille": "calmly",
-    "sclopetum": "gun, firearm",
-    "crustula": "pastries, treats (acc.)"
+    "custos carceris": "prison guard",
+    "rebellem": "rebellious (acc.)",
+    "contemplavit": "regarded, looked at",
+    "defectus": "failure, breakdown",
+    "communicandi": "of communicating (gerund gen.)"
   },
   "questions": [
     {
-      "prompt": "What two instructions does the man give?",
-      "target": "Leave the gun, take the pastries",
-      "choices": ["Hide the body, clean the car", "Leave the gun, take the pastries", "Drive fast, stay quiet", "Burn the evidence, call the boss"]
+      "prompt": "What does the guard diagnose as the problem?",
+      "target": "A failure to communicate",
+      "choices": ["A lack of discipline", "A failure to communicate", "A broken rule", "A missing prisoner"]
     },
     {
-      "prompt": "What is the tone of the speaker?",
-      "target": "Calm",
-      "choices": ["Panicked", "Calm", "Angry", "Sorrowful"]
+      "prompt": "What does the guard do after speaking?",
+      "target": "Punishes the prisoner again",
+      "choices": ["Releases the prisoner", "Punishes the prisoner again", "Walks away", "Offers a deal"]
     }
   ],
-  "translation": "After the murder, the associate sitting in the car calmly said: 'Leave the gun. But take the pastries.'"
+  "translation": "The prison guard regarded the rebellious prisoner and said: 'What we have here is a failure to communicate.' Then he punished the prisoner again."
 }

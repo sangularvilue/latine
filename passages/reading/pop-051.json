@@ -1,26 +1,26 @@
 {
   "id": "pop-051",
   "source": "Pop Culture",
-  "chapter": "The Lord of the Rings",
-  "latin": "Vir nobilis in concilio surrexit et dixit: 'nemo simpliciter in Mordorem ambulat. terra illa oculis igneis custoditur et monstris plena est.'",
+  "chapter": "Casablanca",
+  "latin": "Vir bibens in caupona sua sedens gemuit: 'ex omnibus cauponibus in omnibus oppidis totius orbis, illa in meam intravit.'",
   "glossary": {
-    "nobilis": "noble",
-    "concilio": "council (abl.)",
-    "simpliciter": "simply",
-    "oculis igneis": "with fiery eyes (abl.)",
-    "custoditur": "is guarded"
+    "bibens": "drinking (pres. part.)",
+    "cauponibus": "bars, taverns (abl.)",
+    "oppidis": "towns (abl.)",
+    "orbis": "world (gen.)",
+    "intravit": "entered, walked into"
   },
   "questions": [
     {
-      "prompt": "What does the noble man say about Mordor?",
-      "target": "You cannot simply walk into it",
-      "choices": ["It no longer exists", "You cannot simply walk into it", "Only armies can enter", "It welcomes all travelers"]
+      "prompt": "How does the man feel about the woman's arrival?",
+      "target": "It seems like an unfair twist of fate",
+      "choices": ["He is overjoyed", "It seems like an unfair twist of fate", "He doesn't recognize her", "He invited her"]
     },
     {
-      "prompt": "What guards the land of Mordor?",
-      "target": "Fiery eyes and monsters",
-      "choices": ["A great wall", "Fiery eyes and monsters", "An ancient curse", "A vast ocean"]
+      "prompt": "Where is the man when the woman arrives?",
+      "target": "Sitting in his own bar",
+      "choices": ["Walking in the street", "Sitting in his own bar", "At the airport", "In a hotel room"]
     }
   ],
-  "translation": "A noble man rose in the council and said: 'One does not simply walk into Mordor. That land is guarded by fiery eyes and is full of monsters.'"
+  "translation": "A drinking man, sitting in his own bar, groaned: 'Of all the bars in all the towns in the whole world, she walked into mine.'"
 }

@@ -1,26 +1,26 @@
 {
   "id": "pop-071",
   "source": "Pop Culture",
-  "chapter": "Toy Story",
-  "latin": "Pupa bubulci parva ad novam pupam sideralem dixit: 'licet diversi simus, amicum in me habes.'",
+  "chapter": "Dodgeball",
+  "latin": "Magister ludi crudelis discipulis suis dixit: 'si pilam vitare potes, omnia vitare potes.' tum quinque regulas recitavit: 'vita, inclina, merge, desili, pila!'",
   "glossary": {
-    "bubulci": "cowboy (gen.)",
-    "sideralem": "space-related (acc.)",
-    "licet": "although (+ subj.)",
-    "diversi": "different (nom. pl.)",
-    "amicum": "friend (acc.)"
+    "magister ludi": "game master, coach",
+    "crudelis": "cruel",
+    "pilam": "ball (acc.)",
+    "vitare": "to dodge, to avoid",
+    "inclina": "duck! (imperative)"
   },
   "questions": [
     {
-      "prompt": "Who is speaking?",
-      "target": "A small cowboy toy",
-      "choices": ["A child", "A small cowboy toy", "A space ranger toy", "A teddy bear"]
+      "prompt": "What is the coach's philosophy?",
+      "target": "If you can dodge a ball, you can dodge anything",
+      "choices": ["Winning is everything", "If you can dodge a ball, you can dodge anything", "Pain builds character", "Never give up"]
     },
     {
-      "prompt": "What is the message?",
-      "target": "Despite being different, they can be friends",
-      "choices": ["One of them must leave", "Despite being different, they can be friends", "Only one can be the favorite", "They should fight for dominance"]
+      "prompt": "How would you describe the coach?",
+      "target": "Cruel and intense",
+      "choices": ["Kind and patient", "Cruel and intense", "Lazy and indifferent", "Wise and gentle"]
     }
   ],
-  "translation": "The small cowboy toy said to the new space toy: 'Although we are different, you have a friend in me.'"
+  "translation": "A cruel game coach said to his students: 'If you can dodge a ball, you can dodge anything.' Then he recited five rules: 'Dodge, duck, dip, dive, and dodge!'"
 }

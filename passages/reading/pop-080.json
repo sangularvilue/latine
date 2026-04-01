@@ -1,26 +1,31 @@
 {
   "id": "pop-080",
   "source": "Pop Culture",
-  "chapter": "Forrest Gump",
-  "latin": "Cum quis eum stultum vocaret, simpliciter respondebat: 'stultus est qui stulte facit.' quae verba matris eius erant.",
+  "chapter": "A Few Good Men",
+  "latin": "Advocatus iuvenis imperatorem veteranum in iudicio interrogabat. 'veritatem volo!' clamavit. imperator, vultu furente, respondit: 'veritatem ferre non potes!'",
   "glossary": {
-    "vocaret": "called (impf. subj.)",
-    "simpliciter": "simply",
-    "stulte": "stupidly (adv.)",
-    "quae": "which (connecting relative)",
-    "matris": "of his mother (gen.)"
+    "advocatus": "lawyer",
+    "veteranum": "veteran, seasoned (acc.)",
+    "iudicio": "trial, court (abl.)",
+    "veritatem": "truth (acc.)",
+    "ferre": "to bear, to handle"
   },
   "questions": [
     {
-      "prompt": "How does Forrest respond when called stupid?",
-      "target": "Stupid is as stupid does",
-      "choices": ["He gets angry", "Stupid is as stupid does", "He ignores them", "He walks away"]
+      "prompt": "What does the young lawyer demand?",
+      "target": "The truth",
+      "choices": ["An apology", "The truth", "A confession", "Evidence"]
     },
     {
-      "prompt": "Where did he learn this saying?",
-      "target": "From his mother",
-      "choices": ["From a teacher", "From his mother", "From a friend", "He made it up himself"]
+      "prompt": "What is the general's furious response?",
+      "target": "You can't handle the truth!",
+      "choices": ["The truth doesn't matter!", "You can't handle the truth!", "I will never tell you!", "You are not worthy of the truth!"]
+    },
+    {
+      "prompt": "Where does this confrontation take place?",
+      "target": "In a courtroom",
+      "choices": ["In a military base", "In a courtroom", "In a prison", "On a battlefield"]
     }
   ],
-  "translation": "Whenever someone called him stupid, he simply responded: 'Stupid is he who does stupid things.' These were his mother's words."
+  "translation": "A young lawyer was questioning a veteran commander in court. 'I want the truth!' he shouted. The commander, with a furious expression, responded: 'You can't handle the truth!'"
 }

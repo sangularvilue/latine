@@ -1,26 +1,26 @@
 {
   "id": "pop-060",
   "source": "Pop Culture",
-  "chapter": "Anchorman",
-  "latin": "Vir stultus unguentum novum ostendit et dixit: 'sexaginta centesimis partibus temporis, semper agit.' amici eius confusi eum intuiti sunt.",
+  "chapter": "Jerry Maguire",
+  "latin": "Mulier, postquam vir longam orationem de amore habuit, eum interrupuit et dixit: 'iam a verbo salve me cepisti.'",
   "glossary": {
-    "stultus": "foolish",
-    "unguentum": "perfume, ointment",
-    "centesimis partibus": "percent (lit. hundredth parts)",
-    "agit": "works, acts",
-    "confusi": "confused"
+    "orationem": "speech (acc.)",
+    "interrupuit": "interrupted",
+    "salve": "hello, greetings",
+    "cepisti": "you captured, you had (perf.)",
+    "amore": "love (abl.)"
   },
   "questions": [
     {
-      "prompt": "What did the foolish man show his friends?",
-      "target": "A new perfume",
-      "choices": ["A new car", "A new perfume", "A new suit", "A new gadget"]
+      "prompt": "What was the man doing?",
+      "target": "Giving a long speech about love",
+      "choices": ["Proposing marriage", "Giving a long speech about love", "Apologizing for leaving", "Reading a poem"]
     },
     {
-      "prompt": "Why were his friends confused?",
-      "target": "His claim was logically contradictory",
-      "choices": ["The perfume smelled terrible", "His claim was logically contradictory", "They didn't understand the language", "He was acting strangely"]
+      "prompt": "What does the woman mean by 'you had me at hello'?",
+      "target": "She was already convinced from the start",
+      "choices": ["She didn't hear the rest", "She was already convinced from the start", "She only liked his greeting", "She wanted him to stop talking"]
     }
   ],
-  "translation": "A foolish man showed a new perfume and said: 'Sixty percent of the time, it works every time.' His friends looked at him in confusion."
+  "translation": "The woman, after the man gave a long speech about love, interrupted him and said: 'You already had me at hello.'"
 }

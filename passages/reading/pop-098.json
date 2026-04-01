@@ -1,26 +1,26 @@
 {
   "id": "pop-098",
   "source": "Pop Culture",
-  "chapter": "Scarface",
-  "latin": "Vir ambitionis immensae dirigibile in caelo vidit cum inscriptione: 'MUNDUS TUUS EST.' et credidit.",
+  "chapter": "Fight Club",
+  "latin": "Vir mysticus, qui saponem vendebat, regulam primam collegii pugnorum recitavit: 'regula prima: de collegio pugnorum non loquimini. regula secunda: DE COLLEGIO PUGNORUM NON LOQUIMINI.'",
   "glossary": {
-    "ambitionis": "of ambition (gen.)",
-    "immensae": "immense, boundless (gen.)",
-    "dirigibile": "blimp, airship (acc.)",
-    "inscriptione": "inscription, sign (abl.)",
-    "credidit": "he believed"
+    "mysticus": "mysterious",
+    "saponem": "soap (acc.)",
+    "collegii pugnorum": "of the fight club (gen.)",
+    "recitavit": "recited, proclaimed",
+    "loquimini": "you (pl.) speak/talk"
   },
   "questions": [
     {
-      "prompt": "What did the man see in the sky?",
-      "target": "A blimp with the message 'The world is yours'",
-      "choices": ["A shooting star", "A blimp with the message 'The world is yours'", "A plane writing smoke letters", "A bright light"]
+      "prompt": "What does the mysterious man sell?",
+      "target": "Soap",
+      "choices": ["Weapons", "Soap", "Insurance", "Cars"]
     },
     {
-      "prompt": "How did he react?",
-      "target": "He believed it was meant for him",
-      "choices": ["He ignored it", "He believed it was meant for him", "He was frightened", "He laughed at it"]
+      "prompt": "What are the first two rules of Fight Club?",
+      "target": "You do not talk about Fight Club",
+      "choices": ["Always fight fair", "You do not talk about Fight Club", "Never refuse a challenge", "No weapons allowed"]
     }
   ],
-  "translation": "A man of immense ambition saw a blimp in the sky with the inscription: 'THE WORLD IS YOURS.' And he believed it."
+  "translation": "A mysterious man, who sold soap, recited the first rule of fight club: 'First rule: you do not talk about fight club. Second rule: YOU DO NOT TALK ABOUT FIGHT CLUB.'"
 }

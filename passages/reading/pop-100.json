@@ -1,31 +1,31 @@
 {
   "id": "pop-100",
   "source": "Pop Culture",
-  "chapter": "The Breakfast Club",
-  "latin": "Quinque discipuli, qui ad poenam in scholam die Saturni venerant, tandem intellexerunt se non tam diversos esse. unus dixit: 'omnes satis miri sumus. quidam autem miratiores sunt quam ceteri.'",
+  "chapter": "The Princess Bride",
+  "latin": "Vir Hispanus, qui patrem suum vindicare volebat, adversarium tandem invenit. gladium strinxit et dixit: 'nomen mihi est Inigo Montoya. patrem meum occidisti. te ad mortem para.'",
   "glossary": {
-    "poenam": "punishment, detention (acc.)",
-    "die Saturni": "on Saturday",
-    "diversos": "different (acc.)",
-    "miri": "strange, bizarre (nom. pl.)",
-    "miratiores": "stranger, more bizarre (nom. pl.)"
+    "Hispanus": "Spanish",
+    "vindicare": "to avenge",
+    "strinxit": "drew (a sword)",
+    "occidisti": "you killed (perf.)",
+    "te para": "prepare yourself (imperative)"
   },
   "questions": [
     {
-      "prompt": "Why are the five students at school on Saturday?",
-      "target": "For detention/punishment",
-      "choices": ["For extra classes", "For detention/punishment", "For a sports event", "For a school dance"]
+      "prompt": "What does Inigo Montoya tell his enemy?",
+      "target": "You killed my father — prepare to die",
+      "choices": ["I challenge you to a duel", "You killed my father — prepare to die", "I have been searching for treasure", "Surrender your sword"]
     },
     {
-      "prompt": "What realization do they come to?",
-      "target": "They are all pretty bizarre, not so different from each other",
-      "choices": ["They all hate the principal", "They are all pretty bizarre, not so different from each other", "They all want to escape", "They all have perfect grades"]
+      "prompt": "What has Inigo been doing for years?",
+      "target": "Searching for his father's killer to avenge him",
+      "choices": ["Training to be a pirate", "Searching for his father's killer to avenge him", "Working as a mercenary", "Guarding a princess"]
     },
     {
-      "prompt": "What nuance does one student add?",
-      "target": "Some are more bizarre than others",
-      "choices": ["They should stay friends forever", "Some are more bizarre than others", "They need to change their ways", "Adults are the real problem"]
+      "prompt": "What does Inigo do when he finds his enemy?",
+      "target": "Draws his sword and introduces himself",
+      "choices": ["Runs away in fear", "Draws his sword and introduces himself", "Calls for backup", "Offers forgiveness"]
     }
   ],
-  "translation": "Five students, who had come to school on Saturday for punishment, finally understood they were not so different. One said: 'We are all pretty bizarre. But some are more bizarre than others.'"
+  "translation": "A Spanish man, who wanted to avenge his father, finally found his adversary. He drew his sword and said: 'My name is Inigo Montoya. You killed my father. Prepare to die.'"
 }

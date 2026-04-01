@@ -1,26 +1,26 @@
 {
   "id": "pop-085",
   "source": "Pop Culture",
-  "chapter": "E.T. the Extra-Terrestrial",
-  "latin": "Creatura parva aliena, digito lucente caelum monstrans, paucis verbis locuta est: 'domus... telephonare... domus.' puer intellexit eam domum redire velle.",
+  "chapter": "Monty Python and the Holy Grail",
+  "latin": "Eques fortis bracchium in proelio amisit. 'vulneratus es!' adversarius dixit. eques respondit: 'est tantum vulnus leve.' tum alterum bracchium quoque perdidit.",
   "glossary": {
-    "aliena": "alien, foreign",
-    "digito": "finger (abl.)",
-    "lucente": "glowing (pres. part. abl.)",
-    "monstrans": "pointing at (pres. part.)",
-    "redire": "to return"
+    "eques": "knight",
+    "bracchium": "arm (acc.)",
+    "amisit": "lost",
+    "vulnus leve": "minor wound",
+    "perdidit": "lost, forfeited"
   },
   "questions": [
     {
-      "prompt": "What does the alien creature want?",
-      "target": "To contact home and return there",
-      "choices": ["To explore Earth", "To contact home and return there", "To learn human language", "To find more of its kind"]
+      "prompt": "What happens to the knight during the fight?",
+      "target": "He loses both arms",
+      "choices": ["He wins easily", "He loses both arms", "He surrenders", "He is killed"]
     },
     {
-      "prompt": "How does the creature communicate?",
-      "target": "With very few words and gestures",
-      "choices": ["Telepathically", "With very few words and gestures", "Through drawings", "By changing colors"]
+      "prompt": "How does the knight describe losing his arm?",
+      "target": "Just a flesh wound",
+      "choices": ["A terrible injury", "Just a flesh wound", "A minor setback", "Nothing at all"]
     }
   ],
-  "translation": "A small alien creature, pointing at the sky with a glowing finger, spoke in few words: 'Home... phone... home.' The boy understood that it wanted to return home."
+  "translation": "A brave knight lost his arm in battle. 'You are wounded!' his opponent said. The knight replied: 'It is merely a minor wound.' Then he lost the other arm as well."
 }

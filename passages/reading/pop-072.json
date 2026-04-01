@@ -1,26 +1,26 @@
 {
   "id": "pop-072",
   "source": "Pop Culture",
-  "chapter": "Jerry Maguire",
-  "latin": "Vir longam orationem de amore habuit. mulier eum interrupit et dixit: 'satis est. tu me iam ab ipso \"salve\" cepisti.'",
+  "chapter": "Step Brothers",
+  "latin": "Duo viri adulti, qui in eadem domo nunc vivebant, se invicem oderant. sed quadam nocte unus dixit: 'visne exercitationes in cubiculo meo facere?' alter respondit: 'ita vero!' et subito amicissimi facti sunt.",
   "glossary": {
-    "orationem": "speech (acc.)",
-    "interrupit": "interrupted",
-    "satis": "enough",
-    "ab ipso": "from the very",
-    "cepisti": "you captured, you won over"
+    "adulti": "adult, grown (nom. pl.)",
+    "invicem": "each other, mutually",
+    "oderant": "hated (plupf. as impf.)",
+    "exercitationes": "activities, exercises (acc.)",
+    "amicissimi": "the best of friends"
   },
   "questions": [
     {
-      "prompt": "What was the man doing?",
-      "target": "Giving a long speech about love",
-      "choices": ["Apologizing for a mistake", "Giving a long speech about love", "Explaining a business plan", "Saying goodbye"]
+      "prompt": "What was the initial relationship between the two men?",
+      "target": "They hated each other",
+      "choices": ["They were old friends", "They hated each other", "They didn't know each other", "They were rivals at work"]
     },
     {
-      "prompt": "What does the woman mean?",
-      "target": "He won her over from the moment he said hello",
-      "choices": ["She wants him to be quiet", "He won her over from the moment he said hello", "She doesn't believe him", "She already knew his feelings"]
+      "prompt": "What changed their relationship?",
+      "target": "They discovered shared interests and became best friends",
+      "choices": ["A fight settled things", "They discovered shared interests and became best friends", "Their parents forced them", "They never got along"]
     }
   ],
-  "translation": "The man gave a long speech about love. The woman interrupted him and said: 'Enough. You already won me from the very \"hello.\"'"
+  "translation": "Two adult men, who now lived in the same house, hated each other. But one night one said: 'Do you want to do activities in my room?' The other replied: 'Yes!' And suddenly they became the best of friends."
 }

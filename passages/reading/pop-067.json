@@ -1,26 +1,26 @@
 {
   "id": "pop-067",
   "source": "Pop Culture",
-  "chapter": "Superbad",
-  "latin": "Adulescens falsam chartam identitatis ostendit. in ea solum unum nomen scriptum erat: 'McLovin.' amici eius clamaverunt: 'cur nomen unum tantum elegisti?'",
+  "chapter": "Airplane!",
+  "latin": "Medicus in aeroplano aegrotum inspiciebat. mulier dixit: 'certe auxilium ferre potes.' medicus respondit: 'possum. et noli me Serliam vocare.'",
   "glossary": {
-    "falsam": "false, fake",
-    "chartam identitatis": "identification card",
-    "scriptum erat": "was written",
-    "tantum": "only",
-    "elegisti": "you chose"
+    "aeroplano": "airplane (abl.)",
+    "aegrotum": "sick person (acc.)",
+    "inspiciebat": "was examining",
+    "certe": "surely, certainly",
+    "noli vocare": "don't call (negative imperative)"
   },
   "questions": [
     {
-      "prompt": "What was wrong with the ID card?",
-      "target": "It had only one name on it",
-      "choices": ["The photo was wrong", "It had only one name on it", "It was expired", "The address was fake"]
+      "prompt": "Where is this scene taking place?",
+      "target": "On an airplane",
+      "choices": ["In a hospital", "On an airplane", "At a doctor's office", "In an ambulance"]
     },
     {
-      "prompt": "How did his friends react?",
-      "target": "They questioned his choice",
-      "choices": ["They were impressed", "They questioned his choice", "They didn't notice", "They called the police"]
+      "prompt": "What is the joke in the doctor's response?",
+      "target": "He takes 'Shirley' as his name instead of 'surely'",
+      "choices": ["He is not actually a doctor", "He takes 'Shirley' as his name instead of 'surely'", "He doesn't know medicine", "He is afraid of flying"]
     }
   ],
-  "translation": "A teenager showed a fake identification card. On it only one name was written: 'McLovin.' His friends shouted: 'Why did you choose only one name?'"
+  "translation": "A doctor on an airplane was examining a sick person. A woman said: 'Surely you can help.' The doctor responded: 'I can. And don't call me Shirley.'"
 }

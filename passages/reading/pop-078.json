@@ -1,26 +1,26 @@
 {
   "id": "pop-078",
   "source": "Pop Culture",
-  "chapter": "The Big Lebowski",
-  "latin": "Cum alter vir eum vehementer accusaret, ille pigerrimus poculum suum levavit et placide respondit: 'istud nihil est nisi sententia tua, amice.'",
+  "chapter": "The Lion King",
+  "latin": "Simia sapiens iuvenem leonem baculo percussit. 'hoc doluit!' leo clamavit. simia respondit: 'non refert — praeteritum est. aut ex eo fugere potes, aut ex eo discere.'",
   "glossary": {
-    "vehementer": "forcefully, aggressively",
-    "accusaret": "was accusing (impf. subj.)",
-    "pigerrimus": "laziest",
-    "placide": "calmly, peacefully",
-    "sententia": "opinion"
+    "simia": "monkey, ape",
+    "baculo": "with a stick (abl.)",
+    "percussit": "struck, hit",
+    "praeteritum": "the past, past (nom.)",
+    "discere": "to learn"
   },
   "questions": [
     {
-      "prompt": "How is the lazy man being treated?",
-      "target": "He is being aggressively accused",
-      "choices": ["He is being praised", "He is being aggressively accused", "He is being ignored", "He is being questioned politely"]
+      "prompt": "Why did the wise monkey hit the lion?",
+      "target": "To teach him a lesson about the past",
+      "choices": ["Because the lion was rude", "To teach him a lesson about the past", "It was an accident", "To wake him up"]
     },
     {
-      "prompt": "How does he respond?",
-      "target": "Calmly — that's just your opinion",
-      "choices": ["With anger and violence", "Calmly — that's just your opinion", "By walking away", "By calling the police"]
+      "prompt": "What two choices does the monkey offer about the past?",
+      "target": "Run from it or learn from it",
+      "choices": ["Forget it or remember it", "Run from it or learn from it", "Accept it or deny it", "Mourn it or celebrate it"]
     }
   ],
-  "translation": "When another man was aggressively accusing him, the laziest man raised his glass and calmly replied: 'That is nothing but your opinion, friend.'"
+  "translation": "A wise monkey hit the young lion with a stick. 'That hurt!' the lion shouted. The monkey replied: 'It doesn't matter — it is in the past. You can either run from it, or learn from it.'"
 }

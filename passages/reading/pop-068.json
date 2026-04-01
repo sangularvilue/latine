@@ -1,26 +1,26 @@
 {
   "id": "pop-068",
   "source": "Pop Culture",
-  "chapter": "Nacho Libre",
-  "latin": "Monachus coquus, persona tecta, in harenam luctandi intravit. 'verus pugnator sum!' clamavit, quamquam omnes spectantes ridebant.",
+  "chapter": "Blazing Saddles",
+  "latin": "Novus praefectus in oppidum parvum advenit. cives eum viderunt et obstupuerunt — numquam talem praefectum habuerant. unus ex eis dixit: 'praefectus novus prope est — tabernas praeparate!'",
   "glossary": {
-    "monachus": "monk",
-    "coquus": "cook",
-    "persona": "mask",
-    "harenam luctandi": "wrestling arena",
-    "ridebant": "were laughing"
+    "praefectus": "sheriff, officer in charge",
+    "advenit": "arrived",
+    "obstupuerunt": "were astonished",
+    "tabernas": "shops, establishments (acc.)",
+    "praeparate": "prepare! (imperative pl.)"
   },
   "questions": [
     {
-      "prompt": "What are the man's two roles in life?",
-      "target": "A monk and a cook",
-      "choices": ["A farmer and a soldier", "A monk and a cook", "A teacher and an athlete", "A priest and a guard"]
+      "prompt": "How do the townspeople react to the new sheriff?",
+      "target": "They are astonished — they've never had one like him",
+      "choices": ["They welcome him warmly", "They are astonished — they've never had one like him", "They run away in fear", "They ignore him completely"]
     },
     {
-      "prompt": "How does the audience react to his claim?",
-      "target": "They laugh at him",
-      "choices": ["They cheer for him", "They laugh at him", "They are afraid", "They ignore him"]
+      "prompt": "What is the setting?",
+      "target": "A small town in the Old West",
+      "choices": ["A large city", "A small town in the Old West", "A military fort", "A mining camp"]
     }
   ],
-  "translation": "A monk who was a cook, with his face covered by a mask, entered the wrestling arena. 'I am a real fighter!' he shouted, although all the spectators were laughing."
+  "translation": "A new sheriff arrived in a small town. The citizens saw him and were astonished — they had never had such a sheriff. One of them said: 'The new sheriff is near — prepare the establishments!'"
 }

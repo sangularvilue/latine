@@ -1,26 +1,26 @@
 {
   "id": "pop-087",
   "source": "Pop Culture",
-  "chapter": "Cool Hand Luke",
-  "latin": "Custos carceris captivum pertinacem spectavit et dixit: 'quod hic habemus est defectus communicandi.'",
+  "chapter": "Braveheart",
+  "latin": "Dux rebellium, cum exercitus eius fugere vellet, in equo ante aciem stetit et clamavit: 'vitam nobis auferre possunt — sed libertatem nostram numquam auferent!'",
   "glossary": {
-    "custos": "guard, warden",
-    "carceris": "of the prison (gen.)",
-    "pertinacem": "stubborn, obstinate (acc.)",
-    "defectus": "failure, lack",
-    "communicandi": "of communicating (gerund gen.)"
+    "rebellium": "of the rebels (gen.)",
+    "aciem": "battle line (acc.)",
+    "auferre": "to take away",
+    "libertatem": "freedom, liberty (acc.)",
+    "auferent": "they will take away (fut.)"
   },
   "questions": [
     {
-      "prompt": "Who says this famous line?",
-      "target": "The prison warden",
-      "choices": ["The prisoner", "The prison warden", "A judge", "Another inmate"]
+      "prompt": "What did the rebel leader's army want to do?",
+      "target": "Flee from the battle",
+      "choices": ["Surrender peacefully", "Flee from the battle", "Negotiate a truce", "Switch sides"]
     },
     {
-      "prompt": "What does the warden identify as the problem?",
-      "target": "A failure to communicate",
-      "choices": ["The prisoner's violence", "A failure to communicate", "Lack of discipline", "Disrespect for authority"]
+      "prompt": "What does the leader say cannot be taken from them?",
+      "target": "Their freedom",
+      "choices": ["Their weapons", "Their land", "Their freedom", "Their honor"]
     }
   ],
-  "translation": "The prison warden looked at the stubborn prisoner and said: 'What we have here is a failure to communicate.'"
+  "translation": "The leader of the rebels, when his army wanted to flee, stood on horseback before the battle line and shouted: 'They can take our lives — but they will never take our freedom!'"
 }

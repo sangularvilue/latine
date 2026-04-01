@@ -1,26 +1,26 @@
 {
   "id": "pop-099",
   "source": "Pop Culture",
-  "chapter": "Zoolander",
-  "latin": "Exemplar vestimentorum, in speculum intuens, graviter dixit: 'vere, vere ridicule formosus sum.' quod solum omnibus problematis in mundo solvere non poterat eum perturbabat.",
+  "chapter": "Indiana Jones",
+  "latin": "Explorator audax, cum calathum pretiosissimum quaereret, ab adversario captus est. 'da mihi arcam!' inimicus imperavit. explorator subrisit — sciebat enim arcam periculosiorem esse quam putabant.",
   "glossary": {
-    "exemplar": "model",
-    "vestimentorum": "of clothing (gen.)",
-    "speculum": "mirror",
-    "ridicule": "ridiculously (adv.)",
-    "perturbabat": "was troubling"
+    "calathum": "vessel, container (acc.)",
+    "pretiosissimum": "most precious (acc.)",
+    "adversario": "by an adversary (abl.)",
+    "arcam": "ark, chest (acc.)",
+    "periculosiorem": "more dangerous (acc.)"
   },
   "questions": [
     {
-      "prompt": "What is the model's defining characteristic?",
-      "target": "He is ridiculously good-looking",
-      "choices": ["He is incredibly intelligent", "He is ridiculously good-looking", "He is extremely wealthy", "He is unbelievably strong"]
+      "prompt": "What is the explorer searching for?",
+      "target": "A most precious vessel (the Ark)",
+      "choices": ["A golden idol", "A most precious vessel (the Ark)", "A holy grail", "A crystal skull"]
     },
     {
-      "prompt": "What troubles him?",
-      "target": "That being handsome can't solve every world problem",
-      "choices": ["He's aging", "That being handsome can't solve every world problem", "He has no friends", "His career is over"]
+      "prompt": "Why does the explorer smile when captured?",
+      "target": "He knows the Ark is more dangerous than his enemies realize",
+      "choices": ["He has a hidden weapon", "He has already escaped before", "He knows the Ark is more dangerous than his enemies realize", "His friends are coming to help"]
     }
   ],
-  "translation": "The clothing model, looking into the mirror, said gravely: 'I am truly, truly ridiculously good-looking.' The only thing that troubled him was that this could not solve all the world's problems."
+  "translation": "The bold explorer, while seeking the most precious vessel, was captured by an adversary. 'Give me the Ark!' the enemy commanded. The explorer smiled — for he knew the Ark was more dangerous than they thought."
 }

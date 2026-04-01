@@ -1,26 +1,32 @@
 {
   "id": "pop-053",
   "source": "Pop Culture",
-  "chapter": "The Wizard of Oz",
-  "latin": "Post turbinem terribilem, puella domum suam in terra aliena inventam aperuit. flores miri et homines parvi ubique erant. ad canem suum dixit: 'puto nos non iam in Kansas esse.'",
+  "chapter": "Jurassic Park",
+  "latin": "Venator peritus per silvam lacertam magnam persequebatur. subitum sonitum post se audivit. lacerta altera eum a tergo spectabat. 'callida puella,' susurravit, antequam bestia impetum fecit.",
   "glossary": {
-    "turbinem": "whirlwind, tornado (acc.)",
-    "aliena": "foreign, strange",
-    "miri": "wondrous, strange (nom. pl.)",
-    "ubique": "everywhere",
-    "non iam": "no longer"
+    "venator": "hunter",
+    "lacertam": "lizard (acc.)",
+    "persequebatur": "was tracking, pursuing",
+    "a tergo": "from behind",
+    "callida": "clever, cunning",
+    "impetum fecit": "attacked"
   },
   "questions": [
     {
-      "prompt": "How did the girl arrive in the strange land?",
-      "target": "A tornado carried her house there",
-      "choices": ["She walked through a door", "A tornado carried her house there", "She fell down a hole", "She was carried by birds"]
+      "prompt": "What was the hunter tracking?",
+      "target": "A large lizard (dinosaur)",
+      "choices": ["A wild boar", "A large lizard (dinosaur)", "An escaped prisoner", "A rare bird"]
     },
     {
-      "prompt": "What did she see in the new land?",
-      "target": "Wondrous flowers and small people everywhere",
-      "choices": ["Tall mountains and rivers", "Wondrous flowers and small people everywhere", "Dark forests and wolves", "Empty fields of gold"]
+      "prompt": "What surprised the hunter?",
+      "target": "A second lizard was behind him",
+      "choices": ["The lizard had disappeared", "A second lizard was behind him", "The lizard could fly", "A trap had been set"]
+    },
+    {
+      "prompt": "What were the hunter's last words?",
+      "target": "Clever girl",
+      "choices": ["Help me!", "Clever girl", "I should have known", "Run away!"]
     }
   ],
-  "translation": "After a terrible tornado, the girl opened her house which had landed in a foreign land. Wondrous flowers and small people were everywhere. She said to her dog: 'I think we are no longer in Kansas.'"
+  "translation": "An experienced hunter was tracking a large lizard through the forest. He heard a sudden sound behind him. Another lizard was watching him from behind. 'Clever girl,' he whispered, before the beast attacked."
 }

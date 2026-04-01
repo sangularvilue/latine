@@ -1,26 +1,26 @@
 {
   "id": "pop-097",
   "source": "Pop Culture",
-  "chapter": "Field of Dreams",
-  "latin": "Agricola vocem in agro suo audivit susurrantem: 'si id aedificaveris, ille veniet.' itaque in medio frumento campum ludendi construxit.",
+  "chapter": "The Lord of the Rings",
+  "latin": "Magus senex in ponte stabat et monstro igneo viam obstruxit. 'tu non transibis!' clamavit, baculum in pontem percutiens. pons fractus est et ambo in abyssum ceciderunt.",
   "glossary": {
-    "agricola": "farmer",
-    "susurrantem": "whispering (acc.)",
-    "aedificaveris": "you will have built (fut. perf.)",
-    "frumento": "grain, corn (abl.)",
-    "campum ludendi": "playing field"
+    "magus": "wizard",
+    "igneo": "fiery (dat.)",
+    "obstruxit": "blocked",
+    "baculum": "staff, rod (acc.)",
+    "abyssum": "abyss, chasm (acc.)"
   },
   "questions": [
     {
-      "prompt": "What did the farmer hear?",
-      "target": "A whispering voice in his field",
-      "choices": ["A loud thunderclap", "A whispering voice in his field", "His neighbors arguing", "A radio broadcast"]
+      "prompt": "What does the wizard do to protect his friends?",
+      "target": "Blocks the bridge and confronts the fiery monster",
+      "choices": ["Casts a protective spell", "Blocks the bridge and confronts the fiery monster", "Creates an illusion", "Seals the tunnel entrance"]
     },
     {
-      "prompt": "What did he build?",
-      "target": "A playing field in the middle of his crops",
-      "choices": ["A new barn", "A playing field in the middle of his crops", "A house for a stranger", "A shrine to his father"]
+      "prompt": "What happens to the bridge?",
+      "target": "It breaks and both fall into the abyss",
+      "choices": ["It holds firm", "It breaks and both fall into the abyss", "The monster retreats", "The wizard flies away"]
     }
   ],
-  "translation": "A farmer heard a voice whispering in his field: 'If you build it, he will come.' And so he built a playing field in the middle of the grain."
+  "translation": "An old wizard stood on a bridge and blocked the path of a fiery monster. 'You shall not pass!' he shouted, striking the bridge with his staff. The bridge broke and both fell into the abyss."
 }

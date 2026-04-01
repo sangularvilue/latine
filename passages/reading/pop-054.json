@@ -1,26 +1,26 @@
 {
   "id": "pop-054",
   "source": "Pop Culture",
-  "chapter": "Batman",
-  "latin": "Pater filium parvum, qui in puteum ceciderat, extraxit et dixit: 'cur cadimus? ut resurgere discamus.'",
+  "chapter": "Forrest Gump",
+  "latin": "Puer claudus, cum alii pueri eum persequerentur, cursu effugere coepit. amica eius clamavit: 'curre, Forreste, curre!' et subito crura eius instrumenta ferrea fregerunt et velocissime cucurrit.",
   "glossary": {
-    "puteum": "well, pit (acc.)",
-    "ceciderat": "had fallen (plupf.)",
-    "extraxit": "pulled out, rescued",
-    "cadimus": "we fall",
-    "resurgere": "to rise again"
+    "claudus": "lame, limping",
+    "persequerentur": "were chasing (impf. subj.)",
+    "cursu": "by running (abl.)",
+    "instrumenta ferrea": "iron braces",
+    "fregerunt": "broke"
   },
   "questions": [
     {
-      "prompt": "What happened to the boy?",
-      "target": "He fell into a pit",
-      "choices": ["He was attacked", "He fell into a pit", "He got lost", "He broke his leg"]
+      "prompt": "Why was the boy running?",
+      "target": "Other boys were chasing him",
+      "choices": ["He was in a race", "Other boys were chasing him", "He was late for school", "A dog was after him"]
     },
     {
-      "prompt": "Why do we fall, according to the father?",
-      "target": "So that we can learn to rise again",
-      "choices": ["Because we are weak", "So that we can learn to rise again", "To teach us humility", "Because life is unfair"]
+      "prompt": "What happened to the boy's leg braces?",
+      "target": "They broke off as he ran",
+      "choices": ["He took them off before running", "They broke off as he ran", "His friend removed them", "A doctor took them off"]
     }
   ],
-  "translation": "The father pulled his small son, who had fallen into a pit, out and said: 'Why do we fall? So that we can learn to rise again.'"
+  "translation": "A lame boy, when other boys were chasing him, began to escape by running. His friend shouted: 'Run, Forrest, run!' And suddenly his legs broke the iron braces and he ran very fast."
 }

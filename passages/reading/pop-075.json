@@ -1,26 +1,26 @@
 {
   "id": "pop-075",
   "source": "Pop Culture",
-  "chapter": "Ghostbusters",
-  "latin": "Cum spectrum in domo tua appareat, quem vocabis? umbras captatores vocabis!",
+  "chapter": "Die Hard",
+  "latin": "Vir nudis pedibus per vitrum fractum ambulavit ut uxorem servaret. cum hostem superavisset, per radiophonum dixit: 'io io festivitas, malefice!'",
   "glossary": {
-    "spectrum": "ghost, specter",
-    "appareat": "appears (pres. subj.)",
-    "vocabis": "you will call",
-    "umbras": "shadows, ghosts (acc.)",
-    "captatores": "catchers, hunters (acc.)"
+    "nudis pedibus": "with bare feet",
+    "vitrum fractum": "broken glass",
+    "servaret": "might save (impf. subj.)",
+    "superavisset": "had defeated (plupf. subj.)",
+    "malefice": "villain, evildoer (voc.)"
   },
   "questions": [
     {
-      "prompt": "What situation is described?",
-      "target": "A ghost appearing in your house",
-      "choices": ["A fire in your kitchen", "A ghost appearing in your house", "A burglar breaking in", "A flood in your basement"]
+      "prompt": "Why was the man walking on broken glass?",
+      "target": "To save his wife",
+      "choices": ["He was escaping a fire", "To save his wife", "He lost his shoes", "He was chasing a thief"]
     },
     {
-      "prompt": "Who should you call?",
-      "target": "The ghost catchers (Ghostbusters)",
-      "choices": ["The police", "The ghost catchers (Ghostbusters)", "A priest", "The fire department"]
+      "prompt": "What does he say after defeating his enemy?",
+      "target": "Yippee ki yay",
+      "choices": ["Mission accomplished", "Yippee ki yay", "I told you so", "Never again"]
     }
   ],
-  "translation": "When a ghost appears in your house, who will you call? You will call the ghost catchers!"
+  "translation": "A man walked barefoot through broken glass to save his wife. When he had defeated his enemy, he said over the radio: 'Yippee ki yay, villain!'"
 }

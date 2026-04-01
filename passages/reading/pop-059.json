@@ -1,26 +1,26 @@
 {
   "id": "pop-059",
   "source": "Pop Culture",
-  "chapter": "Anchorman",
-  "latin": "Nuntius arrogans mulieri in caupona dixit: 'ego quodammodo vir magni momenti sum. multi me cognoscunt. domum plenam librorum habeo.'",
+  "chapter": "The Shining",
+  "latin": "Uxor mariti scripta invenit. in omnibus foliis eadem verba scripta erant: 'omne opus sine ludo Iacobum puerum hebetem facit.' centies et centies repetita.",
   "glossary": {
-    "nuntius": "newsman, announcer",
-    "arrogans": "arrogant",
-    "quodammodo": "in a way, sort of",
-    "momenti": "of importance (gen.)",
-    "cognoscunt": "know, recognize"
+    "scripta": "writings (acc.)",
+    "foliis": "pages, sheets (abl.)",
+    "ludo": "play, fun (abl.)",
+    "hebetem": "dull, stupid (acc.)",
+    "centies": "a hundred times"
   },
   "questions": [
     {
-      "prompt": "What is the man's profession?",
-      "target": "A newsman",
-      "choices": ["A politician", "A newsman", "A lawyer", "A professor"]
+      "prompt": "What did the wife discover?",
+      "target": "The same sentence written hundreds of times",
+      "choices": ["A secret diary", "The same sentence written hundreds of times", "A letter to another woman", "Plans to leave"]
     },
     {
-      "prompt": "What does he brag about?",
-      "target": "Being important, well-known, and having many books",
-      "choices": ["His money and cars", "Being important, well-known, and having many books", "His athletic achievements", "His family connections"]
+      "prompt": "What does the repeated sentence say?",
+      "target": "All work and no play makes Jack a dull boy",
+      "choices": ["All work and no play makes Jack a dull boy", "Here is Johnny", "The hotel is haunted", "Come play with us"]
     }
   ],
-  "translation": "An arrogant newsman said to a woman at a bar: 'I am sort of a man of great importance. Many people know me. I have a house full of books.'"
+  "translation": "The wife found her husband's writings. On every page the same words were written: 'All work and no play makes Jack a dull boy.' Repeated hundreds and hundreds of times."
 }

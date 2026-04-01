@@ -1,26 +1,26 @@
 {
   "id": "pop-077",
   "source": "Pop Culture",
-  "chapter": "Blazing Saddles",
-  "latin": "Praefectus de oppidanis suis locutus est: 'hi sunt homines terrae simplices — vulgus communis.' et post brevem pausam addidit: 'scis — stulti.'",
+  "chapter": "Finding Nemo",
+  "latin": "Piscis caeruleus, qui memoriam brevem habebat, cum amicus eius spem omnem amisisset, cantare coepit: 'nata modo, nata modo, nata modo!' et semper in animo tenebat natandum esse.",
   "glossary": {
-    "oppidanis": "townspeople (abl.)",
-    "vulgus": "common people, the masses",
-    "communis": "common, ordinary",
-    "pausam": "pause (acc.)",
-    "stulti": "fools, stupid people"
+    "caeruleus": "blue",
+    "memoriam brevem": "short memory",
+    "spem": "hope (acc.)",
+    "amisisset": "had lost (plupf. subj.)",
+    "natandum esse": "that one must swim (gerundive)"
   },
   "questions": [
     {
-      "prompt": "How does the sheriff describe his townspeople at first?",
-      "target": "Simple people of the earth — common folk",
-      "choices": ["Brave warriors", "Simple people of the earth — common folk", "Wise elders", "Loyal citizens"]
+      "prompt": "What is the blue fish's main problem?",
+      "target": "She has a very short memory",
+      "choices": ["She can't swim well", "She has a very short memory", "She is afraid of sharks", "She is lost"]
     },
     {
-      "prompt": "What does he add after a pause?",
-      "target": "Fools",
-      "choices": ["Heroes", "Fools", "Friends", "Cowards"]
+      "prompt": "What advice does she sing?",
+      "target": "Just keep swimming",
+      "choices": ["Never look back", "Just keep swimming", "Follow the current", "Stay close to shore"]
     }
   ],
-  "translation": "The sheriff spoke about his townspeople: 'These are simple people of the earth — the common folk.' And after a brief pause he added: 'You know — fools.'"
+  "translation": "A blue fish, who had a short memory, when her friend had lost all hope, began to sing: 'Just swim, just swim, just swim!' And she always kept in mind that one must keep swimming."
 }

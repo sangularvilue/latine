@@ -1,26 +1,26 @@
 {
   "id": "pop-055",
   "source": "Pop Culture",
-  "chapter": "Jurassic Park",
-  "latin": "Venator lacertam alteram per frutices secutus est. sed non vidit alteram a latere advenientem. cum intellexisset se circumventum esse, solum dixit: 'callida puella.'",
+  "chapter": "Anchorman",
+  "latin": "Nuntius arrogans, qui se maximum virum in tota urbe esse credebat, dixit: 'nescio an sciveris, sed ego satis magni momenti sum.'",
   "glossary": {
-    "venator": "hunter",
-    "lacertam": "lizard (acc.)",
-    "frutices": "bushes (acc.)",
-    "a latere": "from the side",
-    "callida": "clever, cunning"
+    "nuntius": "news reporter, announcer",
+    "arrogans": "arrogant",
+    "nescio an": "I don't know whether (perhaps)",
+    "sciveris": "you knew (perf. subj.)",
+    "momenti": "of importance (gen.)"
   },
   "questions": [
     {
-      "prompt": "What was the hunter tracking?",
-      "target": "One of the lizards through the bushes",
-      "choices": ["A bird in the trees", "One of the lizards through the bushes", "Footprints in the mud", "A sound in the distance"]
+      "prompt": "What does the newsman think about himself?",
+      "target": "He is very important",
+      "choices": ["He is underappreciated", "He is very important", "He is the smartest man alive", "He is quite humble"]
     },
     {
-      "prompt": "What did the hunter realize too late?",
-      "target": "He had been outflanked by another lizard",
-      "choices": ["His weapon was broken", "He had been outflanked by another lizard", "He was in the wrong area", "Night was falling"]
+      "prompt": "What is his tone?",
+      "target": "Arrogant and boastful",
+      "choices": ["Shy and modest", "Arrogant and boastful", "Angry and threatening", "Sad and reflective"]
     }
   ],
-  "translation": "The hunter followed one lizard through the bushes. But he did not see another approaching from the side. When he realized he had been surrounded, he only said: 'Clever girl.'"
+  "translation": "An arrogant newsman, who believed himself to be the greatest man in the whole city, said: 'I don't know if you knew this, but I'm kind of a big deal.'"
 }

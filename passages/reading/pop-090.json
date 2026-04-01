@@ -1,26 +1,26 @@
 {
   "id": "pop-090",
   "source": "Pop Culture",
-  "chapter": "Dumb and Dumber",
-  "latin": "Vir stultissimus mulierem pulchram rogavit num spes esset. illa respondit: 'una in milione.' ille laetus exclamavit: 'ergo dicis spem esse!'",
+  "chapter": "The Shawshank Redemption",
+  "latin": "Captivus, qui viginti annos in carcere fuerat, per cuniculum quem ipse foderat evasit. amicus eius postea dixit: 'aut strenue vive, aut strenue morere.'",
   "glossary": {
-    "stultissimus": "most stupid",
-    "spes": "hope, chance",
-    "una in milione": "one in a million",
-    "laetus": "happy, joyful",
-    "ergo": "therefore, so"
+    "captivus": "prisoner",
+    "cuniculum": "tunnel (acc.)",
+    "foderat": "had dug (plupf.)",
+    "evasit": "escaped",
+    "strenue": "vigorously, busily"
   },
   "questions": [
     {
-      "prompt": "What odds does the woman give?",
-      "target": "One in a million",
-      "choices": ["Absolutely zero", "One in a million", "Fifty-fifty", "One in a hundred"]
+      "prompt": "How did the prisoner escape?",
+      "target": "Through a tunnel he had dug himself",
+      "choices": ["By bribing a guard", "Through a tunnel he had dug himself", "During a prison riot", "By climbing the wall"]
     },
     {
-      "prompt": "How does the man interpret this?",
-      "target": "He's thrilled — there's still a chance",
-      "choices": ["He's devastated", "He's thrilled — there's still a chance", "He gives up", "He asks again"]
+      "prompt": "What life advice does his friend give?",
+      "target": "Get busy living or get busy dying",
+      "choices": ["Hope is a dangerous thing", "Get busy living or get busy dying", "Freedom is worth any price", "Trust no one"]
     }
   ],
-  "translation": "The most stupid man asked a beautiful woman whether there was any hope. She replied: 'One in a million.' He happily exclaimed: 'So you're telling me there's a chance!'"
+  "translation": "A prisoner, who had been in prison for twenty years, escaped through a tunnel he himself had dug. His friend later said: 'Get busy living, or get busy dying.'"
 }

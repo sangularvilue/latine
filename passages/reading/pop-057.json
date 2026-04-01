@@ -1,26 +1,26 @@
 {
   "id": "pop-057",
   "source": "Pop Culture",
-  "chapter": "The Matrix",
-  "latin": "Post horam doctrinae in mentem eius infusae, iuvenis oculos aperuit et obstupefactus dixit: 'artem pugnandi iam scio.'",
+  "chapter": "The Big Lebowski",
+  "latin": "Amicus eius vehementer clamabat. Vir pigerrimus, qui rem totam aequo animo ferebat, respondit: 'haec est tantum sententia tua, amice.'",
   "glossary": {
-    "doctrinae": "of instruction/learning (gen.)",
-    "infusae": "poured in, uploaded",
-    "mentem": "mind (acc.)",
-    "obstupefactus": "astonished",
-    "artem pugnandi": "the art of fighting"
+    "vehementer": "violently, loudly",
+    "pigerrimus": "laziest, most idle",
+    "aequo animo": "with calm mind, calmly",
+    "ferebat": "was bearing, handling",
+    "sententia": "opinion"
   },
   "questions": [
     {
-      "prompt": "How did the young man learn to fight?",
-      "target": "Knowledge was uploaded directly into his mind",
-      "choices": ["Years of training", "Knowledge was uploaded directly into his mind", "He read a book", "A master taught him"]
+      "prompt": "How does the lazy man respond to the shouting?",
+      "target": "Calmly, saying it's just an opinion",
+      "choices": ["He shouts back louder", "Calmly, saying it's just an opinion", "He walks away silently", "He agrees with everything"]
     },
     {
-      "prompt": "How long did the process take?",
-      "target": "An hour",
-      "choices": ["A few seconds", "An hour", "Several days", "An entire year"]
+      "prompt": "What kind of person is the Dude?",
+      "target": "Extremely laid-back and unbothered",
+      "choices": ["Aggressive and confrontational", "Extremely laid-back and unbothered", "Anxious and worried", "Calculating and strategic"]
     }
   ],
-  "translation": "After an hour of instruction poured into his mind, the young man opened his eyes and said in astonishment: 'I now know the art of fighting.'"
+  "translation": "His friend was shouting violently. The laziest man, who was handling the whole matter calmly, replied: 'That's just, like, your opinion, man.'"
 }

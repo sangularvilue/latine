@@ -1,26 +1,26 @@
 {
   "id": "pop-062",
   "source": "Pop Culture",
-  "chapter": "Star Wars",
-  "latin": "Duo quondam amici gladiis ardentibus inter flammas pugnabant. qui supra stabat clamavit: 'locum superiorem teneo! ne temptes!' sed alter tamen saltavit — et graviter vulneratus est.",
+  "chapter": "Network",
+  "latin": "Nuntius senex, qui mente alienata erat, ad fenestram accessit et spectatoribus imperavit: 'fenestras aperite et clamate: iratus sum ut inferi, et hoc amplius non feram!'",
   "glossary": {
-    "quondam": "once, formerly",
-    "ardentibus": "burning, blazing (abl.)",
-    "flammas": "flames (acc.)",
-    "superiorem": "higher (acc.)",
-    "saltavit": "leaped, jumped"
+    "mente alienata": "out of his mind, deranged",
+    "fenestram": "window (acc.)",
+    "imperavit": "commanded (+ dat.)",
+    "inferi": "hell, the underworld",
+    "feram": "I will bear/tolerate (fut.)"
   },
   "questions": [
     {
-      "prompt": "What is the relationship between the two fighters?",
-      "target": "They were once friends",
-      "choices": ["They are brothers", "They were once friends", "They are strangers", "They are father and son"]
+      "prompt": "What does the newsman tell people to do?",
+      "target": "Open their windows and shout",
+      "choices": ["Turn off their televisions", "Open their windows and shout", "Write letters of protest", "Come to the studio"]
     },
     {
-      "prompt": "What happened when the lower fighter jumped?",
-      "target": "He was seriously wounded",
-      "choices": ["He won the fight", "He escaped safely", "He was seriously wounded", "He landed on equal ground"]
+      "prompt": "What emotion drives his speech?",
+      "target": "Fury — he's mad as hell",
+      "choices": ["Deep sadness", "Fury — he's mad as hell", "Calm determination", "Joyful rebellion"]
     }
   ],
-  "translation": "Two former friends fought with blazing swords among the flames. The one who stood above cried: 'I hold the higher ground! Don't try it!' But the other leaped anyway — and was seriously wounded."
+  "translation": "An old newsman, who was out of his mind, went to the window and commanded his viewers: 'Open your windows and shout: I'm mad as hell, and I'm not going to take this anymore!'"
 }

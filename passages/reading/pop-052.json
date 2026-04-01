@@ -1,26 +1,26 @@
 {
   "id": "pop-052",
   "source": "Pop Culture",
-  "chapter": "The Lord of the Rings",
-  "latin": "Creatura misera et macilenta anulum aureum amplexata est et susurravit: 'pretiosum meum... pretiosum meum...'",
+  "chapter": "The Wizard of Oz",
+  "latin": "Puella, quae tempestate in terram ignotam delata erat, circumspexit et canem suum allocuta est: 'non iam in Kansate sumus, Toto.'",
   "glossary": {
-    "macilenta": "thin, emaciated",
-    "anulum": "ring (acc.)",
-    "aureum": "golden (acc.)",
-    "amplexata est": "embraced, clutched",
-    "susurravit": "whispered"
+    "tempestate": "by a storm (abl.)",
+    "delata erat": "had been carried",
+    "circumspexit": "looked around",
+    "allocuta est": "addressed, spoke to",
+    "iam": "now, any longer"
   },
   "questions": [
     {
-      "prompt": "What does the creature clutch?",
-      "target": "A golden ring",
-      "choices": ["A golden coin", "A golden ring", "A magic stone", "A glowing gem"]
+      "prompt": "How did the girl arrive in the strange land?",
+      "target": "She was carried there by a storm",
+      "choices": ["She walked through a door", "She was carried there by a storm", "She fell asleep and dreamed", "She followed a yellow road"]
     },
     {
-      "prompt": "How does the creature speak?",
-      "target": "In whispers",
-      "choices": ["In shouts", "In whispers", "In song", "In growls"]
+      "prompt": "Who does she speak to?",
+      "target": "Her dog Toto",
+      "choices": ["A good witch", "A scarecrow", "Her dog Toto", "A munchkin"]
     }
   ],
-  "translation": "A wretched, emaciated creature clutched a golden ring and whispered: 'My precious... my precious...'"
+  "translation": "The girl, who had been carried by a storm to an unknown land, looked around and spoke to her dog: 'We are not in Kansas anymore, Toto.'"
 }

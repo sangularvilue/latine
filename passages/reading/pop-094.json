@@ -1,26 +1,26 @@
 {
   "id": "pop-094",
   "source": "Pop Culture",
-  "chapter": "The Karate Kid",
-  "latin": "Magister Iaponicus discipulum vehicula lavare iussit. 'ceram impone, ceram remove,' iterum atque iterum dicebat. discipulus nesciebat se artem pugnandi discere.",
+  "chapter": "Gladiator",
+  "latin": "Gladiator, cum omnes in arena vicisset, ad imperatorem respexit et clamavit: 'nonne delectaris? nonne haec est causa cur venisti?'",
   "glossary": {
-    "ceram": "wax (acc.)",
-    "impone": "apply, put on (imperative)",
-    "remove": "remove, take off (imperative)",
-    "iussit": "ordered",
-    "nesciebat": "did not know"
+    "arena": "arena, sand (abl.)",
+    "vicisset": "had defeated (plupf. subj.)",
+    "imperatorem": "emperor (acc.)",
+    "respexit": "looked back at",
+    "delectaris": "are you entertained? (pass.)"
   },
   "questions": [
     {
-      "prompt": "What did the master order the student to do?",
-      "target": "Wash cars while applying and removing wax",
-      "choices": ["Practice punches", "Wash cars while applying and removing wax", "Clean the entire house", "Run around the block"]
+      "prompt": "What has the gladiator just done?",
+      "target": "Defeated everyone in the arena",
+      "choices": ["Refused to fight", "Defeated everyone in the arena", "Been wounded badly", "Escaped from the arena"]
     },
     {
-      "prompt": "What was the student actually learning?",
-      "target": "Fighting technique",
-      "choices": ["Patience and humility", "Fighting technique", "How to clean properly", "Nothing useful"]
+      "prompt": "What does he challenge the emperor with?",
+      "target": "Are you not entertained?",
+      "choices": ["Will you fight me yourself?", "Are you not entertained?", "Do you remember me?", "Is this what you wanted?"]
     }
   ],
-  "translation": "A Japanese master ordered his student to wash cars. 'Wax on, wax off,' he kept saying again and again. The student did not know he was learning the art of fighting."
+  "translation": "The gladiator, after defeating everyone in the arena, looked up at the emperor and shouted: 'Are you not entertained? Is this not why you came?'"
 }

@@ -1,26 +1,26 @@
 {
   "id": "pop-091",
   "source": "Pop Culture",
-  "chapter": "Predator",
-  "latin": "Dux militum, monstro in silvis eos persequente, sociis clamavit: 'ad helicopterum currite! CURRITE!'",
+  "chapter": "Titanic",
+  "latin": "Puella in prora navis maximae stabat. iuvenis eam e tergo tenebat. 'volo!' clamavit puella, bracchiis extensis, cum ventus capillos eius ferret. 'rex mundi sum!'",
   "glossary": {
-    "militum": "of the soldiers (gen.)",
-    "persequente": "pursuing (pres. part. abl.)",
-    "sociis": "to companions (dat.)",
-    "helicopterum": "helicopter (acc.)",
-    "currite": "run! (imperative pl.)"
+    "prora": "prow, bow (abl.)",
+    "navis maximae": "of the greatest ship",
+    "e tergo": "from behind",
+    "bracchiis extensis": "with arms outstretched",
+    "ferret": "was carrying (impf. subj.)"
   },
   "questions": [
     {
-      "prompt": "What is chasing the soldiers?",
-      "target": "A monster in the jungle",
-      "choices": ["Enemy soldiers", "A monster in the jungle", "A wildfire", "A flood"]
+      "prompt": "Where are the two people standing?",
+      "target": "On the prow of a great ship",
+      "choices": ["On a cliff by the sea", "On the prow of a great ship", "On a bridge", "On a rooftop"]
     },
     {
-      "prompt": "What does the leader order?",
-      "target": "Run to the helicopter",
-      "choices": ["Stand and fight", "Run to the helicopter", "Split up and hide", "Call for air support"]
+      "prompt": "What does the girl shout?",
+      "target": "I'm flying! I'm king of the world!",
+      "choices": ["Save me!", "I'm flying! I'm king of the world!", "I love you!", "Don't let go!"]
     }
   ],
-  "translation": "The leader of the soldiers, with a monster pursuing them in the forest, shouted to his companions: 'Run to the helicopter! RUN!'"
+  "translation": "A girl was standing on the prow of the greatest ship. A young man held her from behind. 'I'm flying!' the girl shouted, with arms outstretched, as the wind carried her hair. 'I'm king of the world!'"
 }

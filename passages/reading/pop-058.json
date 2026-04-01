@@ -1,26 +1,32 @@
 {
   "id": "pop-058",
   "source": "Pop Culture",
-  "chapter": "The Matrix",
-  "latin": "Vir mysticus duas pilulas ostendit — unam rubram, alteram caeruleam. 'pilulam caeruleam elige et fabula finita erit. pilulam rubram elige et videbis quam profunda sit caverna.'",
+  "chapter": "Back to the Future",
+  "latin": "Inventor insanus, cum vehiculum temporale aedificavisset, puerum monuit: 'unum et viginti centesimae gigavatti opus est ut machinam operemur!' puer attonitus dixit: 'unum et viginti centesimae gigavatti?! ubi tantam vim inveniemus?'",
   "glossary": {
-    "pilulas": "pills (acc.)",
-    "rubram": "red (acc.)",
-    "caeruleam": "blue (acc.)",
-    "fabula": "story, tale",
-    "profunda": "deep"
+    "temporale": "time-related, temporal",
+    "aedificavisset": "had built (plupf. subj.)",
+    "centesimae": "hundredths (here: .21)",
+    "gigavatti": "of a gigawatt (gen.)",
+    "vim": "force, power (acc.)",
+    "attonitus": "astonished, stunned"
   },
   "questions": [
     {
-      "prompt": "What do the two pills represent?",
-      "target": "A choice between ignorance and truth",
-      "choices": ["Life and death", "A choice between ignorance and truth", "Health and sickness", "Past and future"]
+      "prompt": "What did the inventor build?",
+      "target": "A time-travel vehicle",
+      "choices": ["A spaceship", "A time-travel vehicle", "A flying car", "A teleporter"]
     },
     {
-      "prompt": "What happens with the blue pill?",
-      "target": "The story ends",
-      "choices": ["You see the truth", "You gain power", "The story ends", "You travel through time"]
+      "prompt": "How much power does the machine need?",
+      "target": "1.21 gigawatts",
+      "choices": ["1.21 megawatts", "1.21 gigawatts", "12.1 kilowatts", "121 watts"]
+    },
+    {
+      "prompt": "How does the boy react?",
+      "target": "He is astonished and worried about finding so much power",
+      "choices": ["He is excited to try", "He refuses to help", "He is astonished and worried about finding so much power", "He already knows the answer"]
     }
   ],
-  "translation": "A mysterious man showed two pills — one red, the other blue. 'Choose the blue pill and the story will be finished. Choose the red pill and you will see how deep the rabbit hole goes.'"
+  "translation": "The mad inventor, having built a time vehicle, warned the boy: '1.21 gigawatts are needed to operate the machine!' The stunned boy said: '1.21 gigawatts?! Where will we find so much power?'"
 }

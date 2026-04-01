@@ -1,26 +1,26 @@
 {
   "id": "pop-056",
   "source": "Pop Culture",
-  "chapter": "Forrest Gump",
-  "latin": "Pueri puerum tardum persequebantur. amica eius clamavit: 'curre, Forreste, curre!' et subito crura eius ferreis vinculis liberata sunt, et celerrime omnium cucurrit.",
+  "chapter": "Anchorman",
+  "latin": "Nuntius de unguento novo gloriabatur: 'sexaginta centesimis temporis, omni tempore operatur.' collegae eius confusi inter se aspexerunt.",
   "glossary": {
-    "tardum": "slow (acc.)",
-    "persequebantur": "were chasing",
-    "crura": "legs (nom. pl.)",
-    "ferreis vinculis": "from iron braces (abl.)",
-    "celerrime": "most swiftly, fastest"
+    "unguento": "cologne, perfume (abl.)",
+    "gloriabatur": "was boasting",
+    "centesimis": "hundredths, percent (abl.)",
+    "operatur": "it works",
+    "confusi": "confused"
   },
   "questions": [
     {
-      "prompt": "Why was the boy running?",
-      "target": "Other boys were chasing him",
-      "choices": ["He was late for school", "Other boys were chasing him", "He was in a race", "A dog was after him"]
+      "prompt": "What is the newsman boasting about?",
+      "target": "A new cologne",
+      "choices": ["His ratings", "A new cologne", "His haircut", "His car"]
     },
     {
-      "prompt": "What happened to his leg braces?",
-      "target": "They broke off and he ran incredibly fast",
-      "choices": ["They slowed him down", "They broke off and he ran incredibly fast", "Someone removed them", "Nothing — he still wore them"]
+      "prompt": "Why is the statistic absurd?",
+      "target": "60% of the time, every time is contradictory",
+      "choices": ["The number is too low", "60% of the time, every time is contradictory", "He made the cologne himself", "Nobody asked him"]
     }
   ],
-  "translation": "Boys were chasing a slow boy. His friend shouted: 'Run, Forrest, run!' And suddenly his legs were freed from their iron braces, and he ran the fastest of all."
+  "translation": "The newsman was boasting about a new cologne: 'Sixty percent of the time, it works every time.' His confused colleagues looked at each other."
 }

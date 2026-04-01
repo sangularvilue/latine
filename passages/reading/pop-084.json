@@ -1,26 +1,26 @@
 {
   "id": "pop-084",
   "source": "Pop Culture",
-  "chapter": "Titanic",
-  "latin": "Iuvenis pauper, in prora navis maximae stans, brachia extendit et in ventum clamavit: 'rex mundi sum!'",
+  "chapter": "The Godfather",
+  "latin": "Senex potentissimus, die nuptiarum filiae suae, hospiti dixit: 'postulatum tuum accipiam. sed fortasse olim — et dies ille numquam veniet — te rogabo ut mihi officium praestes.'",
   "glossary": {
-    "pauper": "poor",
-    "prora": "prow, bow of a ship",
-    "brachia": "arms (acc.)",
-    "extendit": "stretched out, extended",
-    "ventum": "wind (acc.)"
+    "nuptiarum": "of the wedding (gen.)",
+    "hospiti": "to the guest (dat.)",
+    "postulatum": "request, demand",
+    "olim": "someday",
+    "officium praestes": "you perform a service"
   },
   "questions": [
     {
-      "prompt": "Where is the young man standing?",
-      "target": "On the prow of a great ship",
-      "choices": ["On a cliff", "On the prow of a great ship", "On a rooftop", "On a mountain"]
+      "prompt": "When does this conversation take place?",
+      "target": "On the day of his daughter's wedding",
+      "choices": ["At a funeral", "On the day of his daughter's wedding", "During a business meeting", "At a holiday feast"]
     },
     {
-      "prompt": "What is ironic about his proclamation?",
-      "target": "He is actually poor, not a king",
-      "choices": ["The ship will sink", "He is actually poor, not a king", "Nobody can hear him", "He is afraid of water"]
+      "prompt": "What does the powerful man imply?",
+      "target": "He will someday ask for a favor in return",
+      "choices": ["He wants nothing in return", "He will someday ask for a favor in return", "He will forget the request", "He refuses the request"]
     }
   ],
-  "translation": "A poor young man, standing on the prow of the greatest ship, stretched out his arms and shouted into the wind: 'I am the king of the world!'"
+  "translation": "A most powerful old man, on the day of his daughter's wedding, said to a guest: 'I will accept your request. But perhaps someday — and that day may never come — I will ask you to perform a service for me.'"
 }

@@ -1,26 +1,26 @@
 {
   "id": "pop-066",
   "source": "Pop Culture",
-  "chapter": "Airplane!",
-  "latin": "Alter dixit: 'rem gravem habemus — et hoc serio dico.' senex respondit: 'serium intellego. et noli me Serium appellare.'",
+  "chapter": "Spaceballs",
+  "latin": "Dux naviculae, qui bellatoribus sideralibus similis esse volebat, gladium lucis eduxit et sollemni voce dixit: 'Schwartius tecum sit!'",
   "glossary": {
-    "rem gravem": "a serious matter",
-    "serio": "seriously (adv.)",
-    "intellego": "I understand",
-    "appellare": "to call, to address",
-    "noli": "don't (+ inf.)"
+    "naviculae": "of a small ship (gen.)",
+    "bellatoribus sideralibus": "star warriors (dat.)",
+    "gladium lucis": "sword of light",
+    "eduxit": "drew out, unsheathed",
+    "sollemni": "solemn, formal (abl.)"
   },
   "questions": [
     {
-      "prompt": "What is the joke based on?",
-      "target": "A pun on the word 'seriously' and the name 'Shirley'",
-      "choices": ["A misunderstanding about the plane", "A pun on the word 'seriously' and the name 'Shirley'", "A joke about the pilot", "A mix-up of identities"]
+      "prompt": "What is this scene parodying?",
+      "target": "Star Wars and 'May the Force be with you'",
+      "choices": ["Star Trek", "Star Wars and 'May the Force be with you'", "Lord of the Rings", "Battlestar Galactica"]
     },
     {
-      "prompt": "What does the old man ask?",
-      "target": "Don't call me Shirley",
-      "choices": ["Call me doctor", "Don't call me Shirley", "Speak more clearly", "Use my real name"]
+      "prompt": "What does the leader draw?",
+      "target": "A sword of light",
+      "choices": ["A regular sword", "A sword of light", "A blaster", "A magic wand"]
     }
   ],
-  "translation": "One man said: 'We have a serious matter — and I mean this seriously.' The old man replied: 'I understand it's serious. And don't call me Shirley.'"
+  "translation": "The leader of a small ship, who wanted to be like the star warriors, drew his light sword and in a solemn voice said: 'May the Schwartz be with you!'"
 }

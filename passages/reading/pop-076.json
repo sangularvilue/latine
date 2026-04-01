@@ -1,26 +1,26 @@
 {
   "id": "pop-076",
   "source": "Pop Culture",
-  "chapter": "Jaws",
-  "latin": "Praefectus, in aqua natans cum nave mergente, sclopetum ad os monstri marini direxit. 'arride,' inquit, et telo emisso, monstrum disruptum est.",
+  "chapter": "Toy Story",
+  "latin": "Homo lusorius, qui se verum spatii custodem esse credebat, in margine lecti stabat. bracchium extendit et magna voce clamavit: 'ad infinitum et ultra!'",
   "glossary": {
-    "praefectus": "chief, sheriff",
-    "mergente": "sinking (pres. part.)",
-    "sclopetum": "gun (acc.)",
-    "arride": "smile! (imperative)",
-    "disruptum est": "was blown apart"
+    "lusorius": "toy, plaything (adj.)",
+    "spatii": "of space (gen.)",
+    "custodem": "ranger, guardian (acc.)",
+    "margine": "edge (abl.)",
+    "infinitum": "infinity (acc.)"
   },
   "questions": [
     {
-      "prompt": "What is happening to the boat?",
-      "target": "It is sinking",
-      "choices": ["It is on fire", "It is sinking", "It is speeding away", "It is running aground"]
+      "prompt": "What does the toy believe about himself?",
+      "target": "That he is a real space ranger",
+      "choices": ["That he can really fly", "That he is a real space ranger", "That he is the leader of all toys", "That he is human"]
     },
     {
-      "prompt": "How does the sheriff defeat the monster?",
-      "target": "He shoots it in the mouth, blowing it apart",
-      "choices": ["He stabs it with a harpoon", "He shoots it in the mouth, blowing it apart", "He lures it to shore", "He poisons the water"]
+      "prompt": "What is his famous catchphrase?",
+      "target": "To infinity and beyond!",
+      "choices": ["Reach for the sky!", "To infinity and beyond!", "Space patrol, reporting!", "I come in peace!"]
     }
   ],
-  "translation": "The sheriff, swimming in the water as the boat sank, aimed his gun at the mouth of the sea monster. 'Smile,' he said, and when the shot was fired, the monster was blown apart."
+  "translation": "A toy man, who believed he was a real space ranger, stood on the edge of the bed. He extended his arm and shouted loudly: 'To infinity and beyond!'"
 }

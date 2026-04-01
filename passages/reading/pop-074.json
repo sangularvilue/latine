@@ -1,26 +1,26 @@
 {
   "id": "pop-074",
   "source": "Pop Culture",
-  "chapter": "Monty Python and the Holy Grail",
-  "latin": "Equites magni et terribiles in silva viam obstruxerunt. 'nos sumus equites qui \"Ni\" dicunt!' clamavit princeps eorum. viatores autem ridere voluerunt sed timuerunt.",
+  "chapter": "Aliens",
+  "latin": "Miles territus, cum monstris undique circumdaretur, arma abiecit et clamavit: 'actum est de nobis! actum est de nobis!' ceteri milites desperationem eius audire potuerunt per machinam vocis.",
   "glossary": {
-    "obstruxerunt": "blocked",
-    "princeps": "chief, leader",
-    "viatores": "travelers",
-    "ridere": "to laugh",
-    "timuerunt": "feared, were afraid"
+    "miles": "soldier",
+    "undique": "from all sides",
+    "circumdaretur": "was being surrounded (impf. pass. subj.)",
+    "abiecit": "threw down",
+    "actum est": "it is finished, it's over"
   },
   "questions": [
     {
-      "prompt": "Where do the knights block the path?",
-      "target": "In a forest",
-      "choices": ["On a bridge", "In a forest", "At a castle gate", "On a mountain pass"]
+      "prompt": "Why does the soldier panic?",
+      "target": "Monsters are surrounding him from all sides",
+      "choices": ["His weapon jammed", "Monsters are surrounding him from all sides", "He is lost in the dark", "His allies abandoned him"]
     },
     {
-      "prompt": "How did the travelers feel?",
-      "target": "They wanted to laugh but were afraid",
-      "choices": ["They were only terrified", "They wanted to laugh but were afraid", "They were completely unimpressed", "They immediately surrendered"]
+      "prompt": "What does 'actum est de nobis' mean?",
+      "target": "Game over, man!",
+      "choices": ["We must attack!", "Game over, man!", "Hold your positions!", "Retreat now!"]
     }
   ],
-  "translation": "Tall and terrible knights blocked the way in the forest. 'We are the knights who say Ni!' their leader shouted. The travelers wanted to laugh but were afraid."
+  "translation": "A terrified soldier, being surrounded on all sides by monsters, threw down his weapons and shouted: 'It's over for us! Game over, man!' The other soldiers could hear his desperation through the radio."
 }

@@ -1,26 +1,26 @@
 {
   "id": "pop-065",
   "source": "Pop Culture",
-  "chapter": "Mean Girls",
-  "latin": "Puella verbum novum 'festivum' iterum atque iterum usurpabat. tandem regina gregis eam obiurgavit: 'desine conari efficere ut \"festivum\" accidat. non accidet!'",
+  "chapter": "Tombstone",
+  "latin": "Vir morbo consumptus, cum inimicus eum ad certamen provocavisset, lente surrexit et tranquille dixit: 'ego tuus sum faber baccae.' omnes circumstantes obstupuerunt.",
   "glossary": {
-    "usurpabat": "kept using",
-    "obiurgavit": "scolded, rebuked",
-    "desine": "stop! cease! (imperative)",
-    "conari": "to try, to attempt",
-    "accidet": "it will happen"
+    "morbo": "by disease (abl.)",
+    "consumptus": "consumed, wasted",
+    "certamen": "contest, duel (acc.)",
+    "provocavisset": "had challenged (plupf. subj.)",
+    "obstupuerunt": "were astonished"
   },
   "questions": [
     {
-      "prompt": "What does the girl keep trying to do?",
-      "target": "Make a new slang word happen",
-      "choices": ["Join the popular group", "Make a new slang word happen", "Start a new fashion trend", "Get a boyfriend"]
+      "prompt": "What is the man's physical condition?",
+      "target": "He is wasted by disease",
+      "choices": ["He is in perfect health", "He is wasted by disease", "He is very old", "He is wounded from battle"]
     },
     {
-      "prompt": "What is the queen's response?",
-      "target": "Stop trying — it's never going to happen",
-      "choices": ["She loves the new word", "Stop trying — it's never going to happen", "She is confused by it", "She wants to use it too"]
+      "prompt": "How does he respond to the challenge?",
+      "target": "Calmly volunteers himself — 'I'm your huckleberry'",
+      "choices": ["He refuses and walks away", "He calls for help", "Calmly volunteers himself — 'I'm your huckleberry'", "He draws his weapon immediately"]
     }
   ],
-  "translation": "A girl kept using the new word 'fetch' again and again. Finally the queen of the group scolded her: 'Stop trying to make \"fetch\" happen. It's not going to happen!'"
+  "translation": "A man wasted by disease, when an enemy had challenged him to a duel, slowly rose and calmly said: 'I'm your huckleberry.' All the bystanders were astonished."
 }

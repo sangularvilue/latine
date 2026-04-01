@@ -1,26 +1,26 @@
 {
   "id": "pop-093",
   "source": "Pop Culture",
-  "chapter": "Dirty Harry",
-  "latin": "Praefectus sclopetum maximum ad latronem iacentem direxit. 'sextum telum emisi an quintum? verum dicam, ipse nescio. sed hoc sclopetum potentissimum in orbe est. ergo quaero: te fortunatum sentis, improbe?'",
+  "chapter": "Ghostbusters",
+  "latin": "Cum monstrum immane urbem delere coepisset, speciem cibi cepit: placentae hominis forma. unus ex venatoribus spiritorum dixit: 'nemo contra placentam pugnare vult.'",
   "glossary": {
-    "sclopetum": "gun",
-    "latronem": "criminal, robber (acc.)",
-    "iacentem": "lying down (acc.)",
-    "emisi": "I fired, I shot",
-    "improbe": "scoundrel, punk (vocative)"
+    "immane": "enormous, monstrous",
+    "speciem": "appearance, form (acc.)",
+    "placentae": "of a marshmallow/cake",
+    "spiritorum": "of ghosts/spirits (gen.)",
+    "venatoribus": "hunters (dat./abl.)"
   },
   "questions": [
     {
-      "prompt": "What is the officer's dilemma for the criminal?",
-      "target": "Whether the gun still has a bullet left",
-      "choices": ["Whether to arrest or release him", "Whether the gun still has a bullet left", "Whether backup is coming", "Whether to read his rights"]
+      "prompt": "What form did the monster take?",
+      "target": "A giant marshmallow man",
+      "choices": ["A dragon", "A giant marshmallow man", "A tidal wave", "A dark cloud"]
     },
     {
-      "prompt": "What question does he ask the criminal?",
-      "target": "Do you feel lucky?",
-      "choices": ["Will you confess?", "Do you feel lucky?", "Where are the others?", "Do you want to live?"]
+      "prompt": "Why is the situation absurd?",
+      "target": "A city-destroying monster looks like a friendly food mascot",
+      "choices": ["The hunters forgot their equipment", "A city-destroying monster looks like a friendly food mascot", "Nobody believes in ghosts", "The monster is very small"]
     }
   ],
-  "translation": "The officer aimed the largest gun at the criminal lying on the ground. 'Did I fire six shots or five? To tell the truth, I don't know myself. But this is the most powerful gun in the world. So I ask: do you feel lucky, punk?'"
+  "translation": "When an enormous monster had begun to destroy the city, it took the appearance of food: the form of a marshmallow man. One of the ghost hunters said: 'Nobody wants to fight a marshmallow.'"
 }

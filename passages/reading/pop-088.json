@@ -1,26 +1,26 @@
 {
   "id": "pop-088",
   "source": "Pop Culture",
-  "chapter": "Wedding Crashers",
-  "latin": "Duo amici ad nuptias alienas non invitati irruperunt. 'regula prima nuptiarum irrumpendarum,' dixit alter, 'est gaudere. regula secunda: numquam solus eas.'",
+  "chapter": "The Sixth Sense",
+  "latin": "Puer pallidus medicum aspexit et trepide susurravit: 'mortuos video.' medicus, perturbatus, rogavit: 'quam saepe?' puer respondit: 'semper.'",
   "glossary": {
-    "nuptias": "wedding (acc.)",
-    "alienas": "of strangers (acc.)",
-    "irruperunt": "crashed, burst into",
-    "gaudere": "to enjoy oneself",
-    "solus": "alone"
+    "pallidus": "pale",
+    "trepide": "fearfully, tremblingly",
+    "susurravit": "whispered",
+    "mortuos": "dead people (acc.)",
+    "perturbatus": "disturbed, upset"
   },
   "questions": [
     {
-      "prompt": "What do the two friends do?",
-      "target": "Crash strangers' weddings uninvited",
-      "choices": ["Plan elaborate weddings", "Crash strangers' weddings uninvited", "Work as wedding planners", "Ruin their friends' weddings"]
+      "prompt": "What secret does the boy reveal?",
+      "target": "He sees dead people",
+      "choices": ["He can predict the future", "He sees dead people", "He hears voices", "He can read minds"]
     },
     {
-      "prompt": "What is their first rule?",
-      "target": "Have fun",
-      "choices": ["Don't get caught", "Have fun", "Bring a gift", "Dress nicely"]
+      "prompt": "How often does this happen?",
+      "target": "All the time",
+      "choices": ["Only at night", "Once a week", "All the time", "Only in certain places"]
     }
   ],
-  "translation": "Two friends burst uninvited into strangers' weddings. 'The first rule of wedding crashing,' said one, 'is to have fun. The second rule: never go alone.'"
+  "translation": "A pale boy looked at the doctor and fearfully whispered: 'I see dead people.' The disturbed doctor asked: 'How often?' The boy replied: 'Always.'"
 }

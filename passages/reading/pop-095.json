@@ -1,26 +1,26 @@
 {
   "id": "pop-095",
   "source": "Pop Culture",
-  "chapter": "Speed",
-  "latin": "Hostis per telephonum dixit: 'aenigma subitum, iuvenis! bomba in curru publico est. si currus sub quinquaginta milia passuum per horam cecidit, omnes morientur. quid facies?'",
+  "chapter": "Star Wars",
+  "latin": "Magister parvus et viridis discipulum suum, qui desperabat, obiurgavit: 'tempta non est. fac aut ne facias. temptatio nulla est.'",
   "glossary": {
-    "aenigma": "puzzle, quiz",
-    "subitum": "sudden, surprise (acc.)",
-    "bomba": "bomb",
-    "curru publico": "public vehicle, bus (abl.)",
-    "quinquaginta": "fifty"
+    "viridis": "green",
+    "desperabat": "was despairing",
+    "obiurgavit": "scolded, rebuked",
+    "tempta": "try (imperative)",
+    "temptatio": "trying, attempt"
   },
   "questions": [
     {
-      "prompt": "What is the threat?",
-      "target": "A bomb on a bus that detonates if speed drops below fifty",
-      "choices": ["A bomb at a train station", "A bomb on a bus that detonates if speed drops below fifty", "A hostage situation", "A ticking time bomb in a building"]
+      "prompt": "What does the small green master teach?",
+      "target": "Do or do not — there is no try",
+      "choices": ["Patience is a virtue", "Do or do not — there is no try", "Failure is always an option", "Practice makes perfect"]
     },
     {
-      "prompt": "What does the villain challenge the hero to do?",
-      "target": "Figure out how to save everyone",
-      "choices": ["Find the bomb in time", "Figure out how to save everyone", "Pay a ransom", "Chase him on foot"]
+      "prompt": "How is the student feeling?",
+      "target": "Desperate and doubtful",
+      "choices": ["Confident and eager", "Desperate and doubtful", "Bored and distracted", "Angry and rebellious"]
     }
   ],
-  "translation": "The enemy said by phone: 'Pop quiz, hotshot! There is a bomb on the bus. If the bus drops below fifty miles per hour, everyone dies. What do you do?'"
+  "translation": "A small, green master scolded his student, who was despairing: 'There is no try. Do or do not. There is no trying.'"
 }
